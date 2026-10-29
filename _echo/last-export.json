@@ -1,0 +1,16 @@
+{
+  "exportedAt": "2026-10-29T19:50:45.102822",
+  "libVersion": 2,
+  "files": [
+    "data/bestiary/bestiary-knusc.json",
+    "data/bestiary/index.json",
+    "search/index.json",
+    "homebrew/KNUSC.json",
+    "homebrew/split/KNUSC-creature.json",
+    "README.md",
+    "_headers",
+    ".nojekyll",
+    "img/bestiary/tokens/KNUSC/Ermine (Winter).png",
+    "img/bestiary/tokens/KNUSC/Ermine.png"
+  ]
+}

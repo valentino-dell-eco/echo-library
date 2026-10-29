@@ -1,0 +1,151 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "KNUSC",
+				"abbreviation": "KNUSC",
+				"full": "Koe No Umi - Sguardo in Capua",
+				"authors": [
+					"Valentino Perillo"
+				],
+				"convertedBy": [
+					"Echo Library Builder"
+				],
+				"version": "0.1.0"
+			}
+		],
+		"dateAdded": 1793294907,
+		"dateLastModified": 1793299844,
+		"edition": "classic"
+	},
+	"monster": [
+		{
+			"name": "Ermine (Winter)",
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 2,
+				"formula": "1D6-1"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 2,
+			"dex": 16,
+			"con": 8,
+			"int": 2,
+			"wis": 12,
+			"cha": 2,
+			"passive": 13,
+			"cr": "0",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +5} al colpo, 5 ft, 1 target. {@h}4 ({@damage 1 + 3}) danni perforanti."
+					]
+				}
+			],
+			"source": "KNUSC",
+			"trait": [
+				{
+					"name": "Arctic Camouflage",
+					"entries": [
+						"The ermine's snow-white coat grants it a degree of camouflage in snowy terrain. When in snow or ice, creatures have disadvantage to see the ermine."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The ermine has advantage on Wisdom({@Perception Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Tight Squeeze",
+					"entries": [
+						"The long, skinny body of an ermine allow sit to move easily through even tiny spaces, squeezing through spaces as small as 1 inch."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/KNUSC/Ermine%20(Winter).png"
+			},
+			"hasToken": true
+		},
+		{
+			"name": "Ermine",
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 2,
+				"formula": "1D6-1"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 2,
+			"dex": 16,
+			"con": 8,
+			"int": 2,
+			"wis": 12,
+			"cha": 2,
+			"passive": 13,
+			"cr": "0",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +5} al colpo, 5 ft, 1 target. {@h}4 ({@damage 1 + 3}) danni perforanti."
+					]
+				}
+			],
+			"source": "KNUSC",
+			"trait": [
+				{
+					"name": "Forest Camouflage",
+					"entries": [
+						"The ermine's terrain-brown coat grants it a degree of camouflage in forest terrain. When in forest, creatures have disadvantage to see the ermine."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The ermine has advantage on Wisdom({@Perception Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Tight Squeeze",
+					"entries": [
+						"The long, skinny body of an ermine allow sit to move easily through even tiny spaces, squeezing through spaces as small as 1 inch."
+					]
+				}
+			],
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/KNUSC/Ermine.png"
+			},
+			"hasToken": true
+		}
+	]
+}

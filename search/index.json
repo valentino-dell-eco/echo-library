@@ -1,0 +1,23 @@
+{
+	"x": [
+		{
+			"id": 0,
+			"c": 1,
+			"n": "Ermine (Winter)",
+			"s": "KNUSC",
+			"u": "ermine (winter)_knusc"
+		},
+		{
+			"id": 1,
+			"c": 1,
+			"n": "Ermine",
+			"s": "KNUSC",
+			"u": "ermine_knusc"
+		}
+	],
+	"m": {
+		"s": {
+			"KNUSC": 1
+		}
+	}
+}
