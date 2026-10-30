@@ -1,0 +1,94 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Incarnation of Transience",
+			"source": "LFL",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/LFL/Incarnation of Transience.webp"
+					},
+					"width": 1000,
+					"height": 735
+				}
+			]
+		},
+		{
+			"name": "Incarnation of Vibrance",
+			"source": "LFL",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/LFL/Incarnation of Vibrance.webp"
+					},
+					"width": 1000,
+					"height": 735
+				}
+			]
+		},
+		{
+			"name": "Lorwyn Giant",
+			"source": "LFL",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/LFL/Lorwyn Giant.webp"
+					},
+					"width": 1000,
+					"height": 602
+				}
+			]
+		},
+		{
+			"name": "Merrow Doublespeaker",
+			"source": "LFL",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/LFL/Merrow Doublespeaker.webp"
+					},
+					"width": 1000,
+					"height": 602
+				}
+			]
+		},
+		{
+			"name": "Merrow Haranguer",
+			"source": "LFL",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/LFL/Merrow Haranguer.webp"
+					},
+					"width": 1000,
+					"height": 735
+				}
+			]
+		},
+		{
+			"name": "Noggle Ransacker",
+			"source": "LFL",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/LFL/Noggle Ransacker.webp"
+					},
+					"width": 1000,
+					"height": 735
+				}
+			]
+		}
+	]
+}

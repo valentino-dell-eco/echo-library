@@ -1,0 +1,1736 @@
+{
+	"classFeature": [
+		{
+			"name": "Druidic Initiate",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 1,
+			"entries": [
+				"At 1st level, you learn Druidic, the sacred tongue of your elder order. You can speak this language and use it to leave hidden messages only decipherable by those who speak Druidic.",
+				"You also gain proficiency in Nature, and can use Wisdom, in place of Intelligence, for Nature checks. If you are already proficient in Nature, you instead add double your proficiency bonus to any Wisdom (Nature) checks you make."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 1,
+			"entries": [
+				"At 1st level, you begin to learn ancient rites and rituals which allow you to draw upon the power of nature to cast spells:",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"At 1st level, you learn two Cantrips of your choice from the Druid Spell List. You learn another Druid Cantrip at 4th and 10th level, as shown in the Cantrips Known column above."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preparing and Casting Spells",
+					"entries": [
+						"The Druid table above shows how many spell slots you have to cast spells. To cast a Druid spell of 1st-level or higher, you must expend a slot of the spell's level or higher. You regain all of your expended spell slots when you finish a long rest.",
+						"During each long rest, you prepare the list of Druid spells that are available for you to cast, by meditating on nature.",
+						"When you do so, choose a number of Druid spells equal to your Wisdom modifier (minimum of 1) + your Druid level. All spells must be of a level for which you have spell slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritual Casting",
+					"entries": [
+						"Your connection with the natural world allows you to draw out its elder magick. You can cast any Druid spell you have prepared as a Ritual so long as the spell has the Ritual tag."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Your power is drawn from an intuitive knowledge of nature, so Wisdom is your spellcasting ability for Druid spells. You use Wisdom when a spell refers to your spellcasting ability, your Spell save DC, or when you make a spell attack roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use a Druidic Focus as the spellcasting focus for your Druid spells. See the Player's Handbook for example Foci."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Restrictions",
+					"entries": [
+						"Due to its highly disruptive properties, you cannot cast Druid spells while you are wearing armor or shields made of metal."
+					]
+				}
+			]
+		},
+		{
+			"name": "Primal Surge",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you learn to channel the elder power of nature to produce effects beyond those of spells. You know two {@filter Primal Surges|optionalfeatures|feature type=LL:PriSu} of your choice from the list at the end of this class.",
+				"You can use Primal Surge twice. You regain one use after a short rest, and all uses after a long rest. The number of times you can use Primal Surge increases at certain Druid levels as shown in the Primal Surge column of the Druid class table.",
+				"Whenever you gain a level in this class you can replace one of the Primal Surges you know with another {@filter Primal Surge|optionalfeatures|feature type=LL:PriSu} of your choice from the list at the end of this class."
+			]
+		},
+		{
+			"name": "Druidic Circle",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you have mastered enough of the elder magicks and rituals to formally join one of the Druidic Circles.",
+				"Your Druidic Circle grants you features at 3rd level, and again when you reach 6th, 10th, and 18th level in this class.",
+				"All Druidic Circle features use your Druid Spell save DC.",
+				{
+					"type": "entries",
+					"name": "Circle Spells",
+					"entries": [
+						"Most Druidic Circles have a list of Circle Spells you always have prepared once you reach the Druid levels noted in that Circle's description. Your Circle Spells count as Druid spells for you, but they do not count against the spells you prepare."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Circle Feature",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Patron."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Circle Feature",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Patron."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Elder Body",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"At 14th level, your body becomes one with the elder magicks you wield. For every 10 years that pass, your body only ages 1 year, and you suffer none of the physical effects of old age.",
+				"Also, whenever you fail a saving throw, you can expend one Primal Surge as a reaction to repeat that saving throw."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Circle Feature",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain a feature granted by your Patron."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Archdruid",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 20,
+			"entries": [
+				"You are a true master of the elder magick of the Druids. Upon reaching 20th level, you regain one use of Primal Surge at the start of each of your turns in combat."
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Alternate Druid",
+			"source": "LLAC",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"wis",
+				"int"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"classSpells": [
+				"Beckon Air|llspell",
+				"Control Flame (alternate)|llspell",
+				"Create Bonfire|xge",
+				"druidcraft",
+				"Frostbite|xge",
+				"Guidance (alternate)|llspell",
+				"Infestation|xge",
+				"Magic stone|xge",
+				"Mending",
+				"Mold Earth (alternate)|llspell",
+				"Poison Spray (alternate)|llspell",
+				"Primal Savagery (alternate)|llspell",
+				"Resistance (alternate)|llspell",
+				"Shape Water (alternate)|llspell",
+				"Shillelagh",
+				"Thorn whip",
+				"Thunderclap|xge",
+				"absorb elements|xge",
+				"animal friendship",
+				"beast bond|llspell",
+				"charm person",
+				"create snare (alternate)|llspell",
+				"create water (alternate)|llspell",
+				"cure wounds",
+				"detect magic",
+				"detect poison and disease",
+				"earth tremor|xge",
+				"entangle",
+				"faerie fire",
+				"fog cloud",
+				"goodberry (alternate)|llspell",
+				"healing word",
+				"ice knife|xge",
+				"jump|llspell",
+				"longstrider",
+				"protection from good and evil",
+				"purify food and drink",
+				"speak with animals",
+				"thunderwave",
+				"torrent|llspell",
+				"animal messenger",
+				"augury",
+				"aura of frost|llspell",
+				"awaken plant|llspell",
+				"barkskin (alternate)|llspell",
+				"beast sense",
+				"conjure beast (alternate)|llspell",
+				"continual flame",
+				"darkvision",
+				"dust devil|xge",
+				"earthbind|xge",
+				"elemental blade|llspell",
+				"enhance ability",
+				"enlarge/reduce",
+				"flaming sphere",
+				"gust of wind",
+				"healing spirit|xge",
+				"heat metal",
+				"hold person",
+				"locate creature (alternate)|llspell",
+				"locate object",
+				"magic weapon (alternate)|llspell",
+				"moonbeam",
+				"pass without trace (alternate)|llspell",
+				"restoration|llspell",
+				"skywrite|xge",
+				"spike growth",
+				"warding wind|xge",
+				"aura of vitality",
+				"call lightning",
+				"conjure elemental (alternate)|llspell",
+				"conjure fey (alternate)|llspell",
+				"daylight",
+				"dispel magic",
+				"elemental weapon",
+				"erupting earth|xge",
+				"feign death",
+				"grasping vine (alternate)|llspell",
+				"meld into stone",
+				"plant growth",
+				"protection from energy",
+				"revivify",
+				"sleet storm",
+				"speak with plants",
+				"tidal wave|xge",
+				"wall of water|xge",
+				"water breathing",
+				"water walk",
+				"wind wall",
+				"accursed touch|llspell",
+				"blight",
+				"charm monster",
+				"control water",
+				"divination",
+				"dominate beast",
+				"elemental bane|xge",
+				"fire shield",
+				"freedom of movement",
+				"giant insect",
+				"guardian of nature|xge",
+				"hallucinatory terrain",
+				"ice storm",
+				"pillars of earth|llspell",
+				"polymorph (alternate)|llspell",
+				"stone shape",
+				"stoneskin",
+				"wall of fire",
+				"wall of thorns (alternate)|llspell",
+				"watery sphere|xge",
+				"antilife shell",
+				"awaken",
+				"conjure dragon (alternate)|llspell",
+				"conjure giant|llspell",
+				"commune with nature",
+				"cone of cold",
+				"contagion",
+				"control winds|xge",
+				"insect plague",
+				"maelstrom|xge",
+				"mass cure wounds",
+				"planar binding",
+				"reincarnate",
+				"scrying",
+				"transmute rock|xge",
+				"tree stride",
+				"wall of stone",
+				"wrath of nature|xge",
+				"druid grove|xge",
+				"heal",
+				"heroes' feast",
+				"investiture of flame|xge",
+				"investiture of ice|xge",
+				"investiture of stone|xge",
+				"investiture of wind|xge",
+				"move earth",
+				"primordial ward|xge",
+				"sunbeam",
+				"transport via plants",
+				"wind walk",
+				"fire storm",
+				"mirage arcane",
+				"plane shift",
+				"regenerate",
+				"reverse gravity",
+				"symbol",
+				"whirlwind (alternate)|llspell",
+				"antipathy (alternate)|llspell",
+				"control weather",
+				"earthquake",
+				"feeblemind",
+				"befuddlement",
+				"incendiary cloud",
+				"sunburst",
+				"tsunami",
+				"foresight",
+				"shapechange (alternate)|llspell",
+				"storm of vengeance (alternate)|llspell",
+				"true resurrection"
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Primal Surge",
+					"featureType": [
+						"LL:PriSu"
+					],
+					"progression": {
+						"2": 2
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"simple"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"animal handling",
+								"insight",
+								"medicine",
+								"nature",
+								"perception",
+								"religion",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				],
+				"tools": [
+					"herbalism kit"
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item sickle|phb} or (b) a {@item dagger|phb}",
+					"(a) a {@item scimitar|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"{@item leather armor|phb} and a {@item druidic focus|phb}"
+				],
+				"defaultData": [
+					{
+						"a": [
+							"sickle|phb"
+						],
+						"b": [
+							"dagger|phb"
+						]
+					},
+					{
+						"a": [
+							"scimitar|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"scholar's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"leather armor|phb",
+							"druidic focus|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					],
+					"weapons": [
+						"simple"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=alternate druid (LLADru);alternate druid (LLADru)}",
+						"{@filter Primal Surge|optionalfeatures|feature type=LL:PriSu}"
+					],
+					"rows": [
+						[
+							2,
+							"-"
+						],
+						[
+							2,
+							2
+						],
+						[
+							2,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							3,
+							3
+						],
+						[
+							3,
+							3
+						],
+						[
+							3,
+							3
+						],
+						[
+							3,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							4
+						],
+						[
+							4,
+							4
+						],
+						[
+							4,
+							4
+						],
+						[
+							4,
+							4
+						],
+						[
+							4,
+							4
+						],
+						[
+							4,
+							4
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=alternate druid (LLADru);alternate druid (LLADru)}",
+						"{@filter 2nd|spells|level=2|class=alternate druid (LLADru);alternate druid (LLADru)}",
+						"{@filter 3rd|spells|level=3|class=alternate druid (LLADru);alternate druid (LLADru)}",
+						"{@filter 4th|spells|level=4|class=alternate druid (LLADru);alternate druid (LLADru)}",
+						"{@filter 5th|spells|level=5|class=alternate druid (LLADru);alternate druid (LLADru)}",
+						"{@filter 6th|spells|level=6|class=alternate druid (LLADru);alternate druid (LLADru)}",
+						"{@filter 7th|spells|level=7|class=alternate druid (LLADru);alternate druid (LLADru)}",
+						"{@filter 8th|spells|level=8|class=alternate druid (LLADru);alternate druid (LLADru)}",
+						"{@filter 9th|spells|level=9|class=alternate druid (LLADru);alternate druid (LLADru)}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"subclassTitle": "Circle",
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "primal-surge",
+						"type": "number",
+						"scale": {
+							"2": {
+								"value": 2
+							},
+							"7": {
+								"value": 3
+							},
+							"15": {
+								"value": 4
+							}
+						}
+					},
+					"title": "Primal Surge"
+				}
+			],
+			"classFeatures": [
+				"Druidic Initiate|Alternate Druid|LLAC|1|LLAC",
+				"Spellcasting|Alternate Druid|LLAC|1|LLAC",
+				"Primal Surge|Alternate Druid|LLAC|2|LLAC",
+				{
+					"classFeature": "Druidic Circle|Alternate Druid|LLAC|3|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Alternate Druid|LLAC|4|LLAC",
+				{
+					"classFeature": "Circle Feature|Alternate Druid|LLAC|6|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Alternate Druid|LLAC|8|LLAC",
+				{
+					"classFeature": "Circle Feature|Alternate Druid|LLAC|10|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Alternate Druid|LLAC|12|LLAC",
+				"Elder Body|Alternate Druid|LLAC|14|LLAC",
+				"Ability Score Improvement|Alternate Druid|LLAC|16|LLAC",
+				{
+					"classFeature": "Circle Feature|Alternate Druid|LLAC|18|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Alternate Druid|LLAC|19|LLAC",
+				"Archdruid|Alternate Druid|LLAC|20|LLAC"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Decay Spells",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Decay",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Decay feature}",
+				"You have certain spells prepared at the Druid levels in the table below. The spells count as Druid spells for you, but do not count against the spells you prepare each day:",
+				{
+					"type": "table",
+					"caption": "Decay Spells",
+					"colLabels": [
+						"Alternate Druid Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell inflict wounds}, {@spell gentle repose}"
+						],
+						[
+							"5th",
+							"{@spell animate dead (alternate)|llspell}"
+						],
+						[
+							"7th",
+							"{@spell blight}"
+						],
+						[
+							"9th",
+							"{@spell cloudkill}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Fungal Guardian",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Decay",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Decay feature}",
+				"As a bonus action, you can expend a Primal Surge to merge with your fungal colony, transforming into a Fungal Guardian for up to 10 minutes. You instantly revert to your normal form if you are Incapacitated, or if you use a bonus action to revert. While you are transformed, you gain the benefits below:",
+				{
+					"type": "entries",
+					"name": "Fungal Shell",
+					"entries": [
+						"You gain temporary hit points equal to twice your Druid level. Any temporary hit points that you gain from Symbiotic Colony after you transform are added to this pool of temporary hit points, instead of replacing them. However, its total cannot exceed twice your Druid level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Miasma of Spores",
+					"entries": [
+						"You fill the air around you with fungal spores. Living creatures of your choice that begin their turn within 10 feet of you must succeed on a Constitution saving throw or take 1d8 necrotic damage.",
+						"At certain Druid levels, this necrotic damage increases: at 6th level (2d8), 10th level (3d8), and lastly at 18th level (4d8)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fungal Host",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Decay",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Decay feature}",
+				"Ancient rites of decay and death transform you into the host for a colony of elder fungi, granting you certain benefits:",
+				{
+					"type": "entries",
+					"name": "Deadly Spores",
+					"entries": [
+						"You learn the {@spell chill touch} Cantrip. It does not count against your Cantrips Known, and when you use it, it takes the form of deadly fungal spores."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elder Necrosis",
+					"entries": [
+						"Whenever you damage a creature with an attack or Druid spell, you can choose to deal necrotic damage in place of the normal damage dealt by that attack or spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Symbiotic Colony",
+					"entries": [
+						"Whenever you deal necrotic damage to a creature within 15 feet, you can gain temporary hit points equal to the necrotic damage dealt (up to your Druid level).",
+						"This feature has not effect on Constructs or Undead."
+					]
+				}
+			]
+		},
+		{
+			"name": "Circle of Decay",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Decay",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You are a disciple of life and death who understands the vital role that decomposers play in that cycle. Serving as a host to a powerful colony of natural fungi, you channel the power of death through decay, doling out death, and drawing life to yourself and the fungal colony you host.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Decay Spells|Alternate Druid|LLAC|Decay|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fungal Guardian|Alternate Druid|LLAC|Decay|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fungal Host|Alternate Druid|LLAC|Decay|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Symbiotic Thrall",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Decay",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Decay feature}",
+				"The elder fungi within your body can reanimate your foes. When you kill a creature with a CR equal to your Druid level or lower with necrotic damage, you can cast {@spell animate dead (alternate)|llspell} on its corpse as part of the same effect, without spending a spell slot. Undead Thralls created by this feature have hit points equal to twice your Druid level, and crumble into a harmless heap of fertile soil after 1 minute, or when destroyed.",
+				"You can cast {@spell animate dead (alternate)|llspell} this way without expending a spell slot a number of times equal to your Wisdom modifier, and you regain all uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Virulent Spores",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Decay",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Decay feature}",
+				"Your spores have greatly increased in potency. The radius of your Miasma of Spores increases to 15 feet. Moreover, your Thralls created by Symbiotic Thrall also emanate a Miasma of Spores out to a 5-foot radius.",
+				"However, Thralls do not gain temporary hit points from it."
+			]
+		},
+		{
+			"name": "Elder Colony",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Decay",
+			"subclassSource": "LLAC",
+			"level": 18,
+			"entries": [
+				"{@i 18th-level Decay feature}",
+				"You have become one with the fungal colony that fuels your magic. If you have fewer than half your hit points remaining, you can choose for Symbiotic Colony to restore hit points in place of gaining the normal temporary hit points.",
+				"Lastly, the area of the Miasma of Spores from you and your Thralls is difficult terrain for creatures of your choice."
+			]
+		},
+		{
+			"name": "Circle of the Land",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Land",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Druids of the Land are the most common Druids, if a Druid can be considered common at all. These sages of the natural world are able to attune their magic to any wild environment, giving them the ability to channel the primordial magic of the flora, fauna, and natural formations that surround them."
+			]
+		},
+		{
+			"name": "Natural Regeneration",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Land",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Land feature}",
+				"You can draw on the ambient magic present in all creation to regain some of your elder power. When you complete a short rest, you can choose to forgo regaining a use of Primal Surge to instead regain a single expended spell slot of a level equal to your Wisdom modifier or lower (minimum of 1st-level)."
+			]
+		},
+		{
+			"name": "Overgrowth",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Land",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Land feature}",
+				"As an action, you can expend one Primal Surge and choose a 15-foot cube you can see within 30 feet, with at least one side on a flat surface. A burst of violent plant growth erupts in that space and forcing creatures to make a Dexerity saving throw. They take 3d6 magical slashing damage on a failure, and half as much damage on a success.",
+				"This area of overgrown plant life counts as difficult terrain. It remains for 1 hour, until it is destroyed, or until you use this feature again. Creatures that move through its area take 1d6 magical slashing damage for every 5 feet they pass through."
+			]
+		},
+		{
+			"name": "Terrain Spells",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Land",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 2nd-level Land feature}",
+				"In place of Circle Spells, your magic is bound to that of the land. Over the course of 1 hour, which can be during a short or long rest, you can perform an ancient ritual to attune your magic to that of your current Terrain. At the end of the ritual, choose the Terrain from the table on the following page that best represents your current surroundings. Performing this ritual ends your attunement to any previous Terrain.",
+				"While attuned, you always have the corresponding Terrain Spells prepared at the Druid levels shown in the table. These Terrain spells become Druid spells for you, but they do not count against the number of spells you prepare each day.",
+				{
+					"type": "table",
+					"caption": "Circle of the Land: Bonus Spells",
+					"colLabels": [
+						"Druid Level",
+						"Coast",
+						"Desert",
+						"Forest",
+						"Plains"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-2-2",
+						"col-2-2",
+						"col-2-2",
+						"col-2-2"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell shape water (alternate)|llspell}, {@spell fog cloud}, {@spell misty step}",
+							"{@spell control flame (alternate)|llspell}, {@spell silent image}, {@spell dust devil|xge}",
+							"{@spell thorn whip}, {@spell entangle}, {@spell barkskin (alternate)|llspell}",
+							"{@spell primal savagery (alternate)|llspell}, {@spell longstrider}, {@spell pass without trace (alternate)|llspell}"
+						],
+						[
+							"5th",
+							"{@spell tidal wave|xge}",
+							"{@spell wall of sand|xge}",
+							"{@spell grasping vine (alternate)|llspell}",
+							"{@spell haste}"
+						],
+						[
+							"7th",
+							"{@spell watery sphere|xge}",
+							"{@spell hallucinatory terrain}",
+							"{@spell wall of thorns (alternate)|llspell}",
+							"{@spell freedom of movement}"
+						],
+						[
+							"9th",
+							"{@spell maelstrom|xge}",
+							"{@spell seeming}",
+							"{@spell tree stride}",
+							"{@spell far step|xge}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Circle of the Land: Bonus Spells (Part 2)",
+					"colLabels": [
+						"Druid Level",
+						"Mountains",
+						"Swamp",
+						"Tundra",
+						"Underground"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-2-2",
+						"col-2-2",
+						"col-2-2",
+						"col-2-2"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell mold earth (alternate)|llspell}, {@spell earth tremor|xge}, {@spell spike growth}",
+							"{@spell infestation|xge}, {@spell grease}, {@spell spider climb}",
+							"{@spell frostbite|xge}, {@spell ice knife|xge}, {@spell hold person}",
+							"{@spell poison spray (alternate)|llspell}, {@spell sleep}, {@spell blindness/deafness}"
+						],
+						[
+							"5th",
+							"{@spell call lightning}",
+							"{@spell stinking cloud}",
+							"{@spell slow}",
+							"{@spell enemies abound|xge}"
+						],
+						[
+							"7th",
+							"{@spell pillars of earth|llspell}",
+							"{@spell giant insect}",
+							"{@spell ice storm}",
+							"{@spell stone shape}"
+						],
+						[
+							"9th",
+							"{@spell wall of stone}",
+							"{@spell insect plague}",
+							"{@spell cone of cold}",
+							"{@spell passwall}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Acolyte of Nature",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Land",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Land feature}",
+				"Your Circle has passed to you its deep knowledge of primal magic. You can ignore all difficult terrain imposed by natural environments, like deep snow, swampland, or dense jungle.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle of the Land|Alternate Druid|LLAC|Land|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Natural Regeneration|Alternate Druid|LLAC|Land|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Overgrowth|Alternate Druid|LLAC|Land|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Terrain Spells|Alternate Druid|LLAC|Land|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Primeval Growth",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Land",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Land feature}",
+				"When you use Overgrowth, you can designate any number of creatures that can ignore its effects, and while they are in its area, these creatures gain the benefits of half cover.",
+				"Finally, the damage dealt by Overgrowth increases to 4d6. It increases again at 10th level (6d6), and at 18th level (9d6)."
+			]
+		},
+		{
+			"name": "Natural Ward",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Land",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Land feature}",
+				"You can draw on the elder magic of nature to shield you from the elements. When you take acid, cold, fire, lightning, poison, or thunder damage, you can use your reaction to expend one Primal Surge and gain resistance to that damage type. This damage resistance lasts until you use this reaction again."
+			]
+		},
+		{
+			"name": "Elder Magician",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Land",
+			"subclassSource": "LLAC",
+			"level": 18,
+			"entries": [
+				"{@i 18th-level Land feature}",
+				"You are a master of your Terrain Spells. You can be attuned to two different Terrains at one time, always having both sets of spells prepared. Finally, when you perform the Terrain Spells ritual, you can replace one of your Terrain Spell lists with any Terrain that you previously attuned to."
+			]
+		},
+		{
+			"name": "Lunar Wild Shape",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Moon",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Moon feature}",
+				"Your Circle has preserved and perfected the ancient magic of shapeshifting. You learn the Wild Shape Primal Surge if you did not already know it, and it can't be replaced. If you knew Wild Shape, you learn another Primal Surge of your choice.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Wild Shape|LLADru"
+						}
+					]
+				},
+				"When you use {@optfeature Wild Shape|LLAC}, you can expend a spell slot in place of a Primal Surge to infuse the Beast Shape with lunar power, granting that transformation the benefits below:",
+				{
+					"type": "entries",
+					"name": "Greater Beast Shapes",
+					"entries": [
+						"When you unlock the spell slots shown in the table below (at the levels on the Druid table), you can learn and Shift into {@filter Beast|bestiary|type=Beasts|source=LLCompendiumOfBeasts} of the corresponding CR. To do so, you must expend a spell slot of that level or higher:"
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Spell Slot",
+						"Beast CR"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@filter 1|bestiary|type=Beast|challenge rating=[&0;&1]|source=LLCompendiumOfBeasts}"
+						],
+						[
+							"3rd",
+							"{@filter 2|bestiary|type=Beast|challenge rating=[&0;&2]|source=LLCompendiumOfBeasts}"
+						],
+						[
+							"4th",
+							"{@filter 3|bestiary|type=Beast|challenge rating=[&0;&3]|source=LLCompendiumOfBeasts}"
+						],
+						[
+							"5th",
+							"{@filter 4|bestiary|type=Beast|challenge rating=[&0;&4]|source=LLCompendiumOfBeasts}"
+						],
+						[
+							"6th",
+							"{@filter 5|bestiary|type=Beast|challenge rating=[&0;&5]|source=LLCompendiumOfBeasts}"
+						],
+						[
+							"7th",
+							"{@filter 6|bestiary|type=Beast|challenge rating=[&0;&6]|source=LLCompendiumOfBeasts}"
+						],
+						[
+							"8th",
+							"{@filter 7|bestiary|type=Beast|challenge rating=[&0;&7]|source=LLCompendiumOfBeasts}"
+						],
+						[
+							"9th",
+							"{@filter 8|bestiary|type=Beast|challenge rating=[&0;&8]|source=LLCompendiumOfBeasts}"
+						]
+					],
+					"data": {
+						"tableInclude": true
+					}
+				},
+				"When you join this Circle at 3rd level, you learn two Beast Shapes of your choice of CR 1 or lower, you must have seen a live specimen of these Beast to select them with this feature.",
+				{
+					"type": "entries",
+					"name": "Lunar Fortitude",
+					"entries": [
+						"When you Shift into a Beast Shape, you also gain temporary hit points equal to twice your Druid level, which last for the duration of this transformation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lunar Warrior",
+					"entries": [
+						"While in a Beast Shape, unless the Beast's innate bonus is higher, you use your Spell attack modifier for your Natural Weapon attacks, and your Spell save DC for any saving throws you force other creatures to make."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wild Empathy",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Moon",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Moon feature}",
+				"The ancient magicks of your Circle bond you with the wilds. While speaking Druidic, you can verbally communicate with and understand Beasts. When communicating with a Beast, its awareness and knowledge is limited by its Intelligence."
+			]
+		},
+		{
+			"name": "Circle of the Moon",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Moon",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Drawing upon the ephemeral power of the moon, Druids who belong to this ancient Circle can change their form, taking on the shapes of wild Beasts. From the deadliest predator to the smallest insect, Druids of the Moon protect land, sea, and sky, wielding the many savage and subtle powers of Beasts.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Lunar Wild Shape|Alternate Druid|LLAC|Moon|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wild Empathy|Alternate Druid|LLAC|Moon|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Mystical Forms",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Moon",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Moon feature}",
+				"While you are in Beast Shape, your Natural Weapon attacks count as magical for the sake of overcoming resistances and immunities to non-magical attacks.",
+				"You also learn the {@spell primal savagery (alternate)|llspell} Cantrip, and you can cast it while you are in Beast Shape."
+			]
+		},
+		{
+			"name": "Elder Wild Shape",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Moon",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Moon feature}",
+				"The elder rites of your Circle empower your transformations. When you use Lunar Wild Shape to empower a Beast Shape transformation, you also have resistance to all bludgeoning, piercing, and slashing damage for the duration.",
+				"Damage from silvered weapons bypasses this resistance."
+			]
+		},
+		{
+			"name": "Beast Spells",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Moon",
+			"subclassSource": "LLAC",
+			"level": 18,
+			"entries": [
+				"{@i 18th-level Moon feature}",
+				"You have become one with your Beast Shapes, and they are as much your true self as your original body is. You can cast Druid spells as normal while you are in your Beast Shapes, so long as the spell does not have a material component."
+			]
+		},
+		{
+			"name": "Disciple of the Waters",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Tides",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Tides feature}",
+				"Upon joining this Circle, you are bonded with the primordial power of the great waters. You gain a swimming speed equal to your walking speed, and you can breathe air and water.",
+				"You also learn the {@spell shape water (alternate)|llspell} Cantrip. It does not count against your total Cantrips Known, and it cannot be replaced."
+			]
+		},
+		{
+			"name": "Tidal Aura",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Tides",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Tides feature}",
+				"You can conjure the magic of the great waters wherever you go. As a bonus action, you can spend a Primal Surge to exude a mystic watery force within a 15-foot radius of yourself. This effect lasts for 1 minute, but it ends if you are Incapacitated. This Tidal Aura grants you the following benefits:",
+				{
+					"type": "entries",
+					"name": "Rip Tide",
+					"entries": [
+						"Creatures of your choice within this Aura treat it as difficult terrain, unless they have a swimming speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tidal Restoration",
+					"entries": [
+						"Tidal magic enhances your restorative power. When you cast a Druid spell that restores hit points to a creature, one target within your Tidal Aura regains bonus hit points equal to your Wisdom modifier (minimum of 1)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tidal Spells",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Tides",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Tides feature}",
+				"You always have certain spells prepared at the Druid levels in the table below. The spells count as Druid spells for you, but they do not count against the spells you prepare each day:",
+				{
+					"type": "table",
+					"caption": "Tides Spells",
+					"colLabels": [
+						"Alternate Druid Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell healing word}, {@spell torrent|llspell}, {@spell misty step}, {@spell prayer of healing}"
+						],
+						[
+							"5th",
+							"{@spell mass healing word}, {@spell tidal wave|xge}"
+						],
+						[
+							"7th",
+							"{@spell control water}, {@spell watery sphere|xge}"
+						],
+						[
+							"9th",
+							"{@spell maelstrom|xge}, {@spell raise dead}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Circle of the Tides",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Tides",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Few forces exert as much influence on mortals as the waters. Nourishing rain for crops, raging storms, and winding rivers can bring life or death. Tidal Druids monitor the relationship between the world and the great waters. They use the magic of water to heal the sick, provide rest, and nurture growth.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Disciple of the Waters|Alternate Druid|LLAC|Tides|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tidal Aura|Alternate Druid|LLAC|Tides|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tidal Spells|Alternate Druid|LLAC|Tides|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Undertow",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Tides",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Tides feature}",
+				"Your Tidal magicks have grown in power. While Tidal Aura is active, you can use an action to force creatures of your choice in your Aura to make a Strength saving throw or be knocked Prone. Creatures larger than you have advantage on their roll.",
+				"Also, if you target a creature within your Tidal Aura with a Tidal Spell, it has disadvantage on its initial saving throw."
+			]
+		},
+		{
+			"name": "Waters of Life",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Tides",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Tides feature}",
+				"You can channel the elder magic of water to rejuvenate allies. When you activate a Tidal Aura, you gain a pool of temporary hit points equal to your Druid level + your Wisdom modifier that you instantly distribute amongst yourself and creatures of your choice within your Tidal Aura.",
+				"When your Tidal Aura ends, any remaining temporary hit points from this feature are also dispelled."
+			]
+		},
+		{
+			"name": "Master of the Waves",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Tides",
+			"subclassSource": "LLAC",
+			"level": 18,
+			"entries": [
+				"{@i 18th-level Tides feature}",
+				"You are a master of the elder magic of water, and channel it as an extension of yourself. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can cast control water at will, without expending a spell slot. You must concentrate on the spell as normal.",
+						"The radius of your Tidal Aura increases to 30 feet.",
+						"If a creature fails its saving throw against Undertow, it is knocked back 15 feet away from you, then falls Prone.",
+						"You always have the {@spell tsunami} spell prepared. Once per long rest, you can cast tsunami without spending a spell slot if you are in a body of water large enough to generate such a massive wave (such as an ocean or lake)."
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Decay",
+			"shortName": "Decay",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"inflict wounds",
+							"gentle repose",
+							"chill touch"
+						],
+						"5": [
+							"animate dead (Alternate)|llspell"
+						],
+						"7": [
+							"blight"
+						],
+						"9": [
+							"cloudkill"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"chill touch",
+				"inflict wounds",
+				"gentle repose",
+				"animate dead (Alternate)|llspell",
+				"blight",
+				"cloudkill"
+			],
+			"subclassFeatures": [
+				"Circle of Decay|Alternate Druid|LLAC|Decay|LLAC|3|LLAC",
+				"Symbiotic Thrall|Alternate Druid|LLAC|Decay|LLAC|6|LLAC",
+				"Virulent Spores|Alternate Druid|LLAC|Decay|LLAC|10|LLAC",
+				"Elder Colony|Alternate Druid|LLAC|Decay|LLAC|18|LLAC"
+			]
+		},
+		{
+			"name": "Land",
+			"shortName": "Land",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"page": 6,
+			"subclassFeatures": [
+				"Acolyte of Nature|Alternate Druid|LLAC|Land|LLAC|3|LLAC",
+				"Primeval Growth|Alternate Druid|LLAC|Land|LLAC|6|LLAC",
+				"Natural Ward|Alternate Druid|LLAC|Land|LLAC|10|LLAC",
+				"Elder Magician|Alternate Druid|LLAC|Land|LLAC|18|LLAC"
+			]
+		},
+		{
+			"name": "Moon",
+			"shortName": "Moon",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"6": [
+							"Primal savagery (alternate)|llspell"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Primal savagery (alternate)|llspell"
+			],
+			"subclassFeatures": [
+				"Circle of the Moon|Alternate Druid|LLAC|Moon|LLAC|3|LLAC",
+				"Mystical Forms|Alternate Druid|LLAC|Moon|LLAC|6|LLAC",
+				"Elder Wild Shape|Alternate Druid|LLAC|Moon|LLAC|10|LLAC",
+				"Beast Spells|Alternate Druid|LLAC|Moon|LLAC|18|LLAC"
+			]
+		},
+		{
+			"name": "Tides",
+			"shortName": "Tides",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"healing word",
+							"torrent|llspell",
+							"Misty Step",
+							"Prayer of Healing",
+							"Shape water (alternate)|llspell"
+						],
+						"5": [
+							"Mass Healing Word",
+							"Tidal Wave|xge"
+						],
+						"7": [
+							"control water",
+							"Watery Sphere|xge"
+						],
+						"9": [
+							"Maelstrom|xge",
+							"Raise dead"
+						],
+						"18": [
+							"Tsunami"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"healing word",
+				"torrent|llspell",
+				"Misty Step",
+				"Shape water (alternate)|llspell",
+				"Prayer of Healing",
+				"Mass Healing Word",
+				"Tidal Wave|xge",
+				"control water",
+				"Watery Sphere|xge",
+				"Maelstrom|xge",
+				"Raise dead"
+			],
+			"subclassFeatures": [
+				"Circle of the Tides|Alternate Druid|LLAC|Tides|LLAC|3|LLAC",
+				"Undertow|Alternate Druid|LLAC|Tides|LLAC|6|LLAC",
+				"Waters of Life|Alternate Druid|LLAC|Tides|LLAC|10|LLAC",
+				"Master of the Waves|Alternate Druid|LLAC|Tides|LLAC|18|LLAC"
+			]
+		}
+	]
+}

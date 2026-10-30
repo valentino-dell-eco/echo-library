@@ -1,0 +1,5164 @@
+{
+	"classFeature": [
+		{
+			"name": "Infusions",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 1,
+			"entries": [
+				"You have learned to imbue objects with your signature brand of magic in order to produce wondrous items. At 1st level, you learn two {@filter Infusions|optionalfeatures|feature type=LLAART:INF} of your choice from the list at the end of this class. The Infusions Known column of the artificer table shows when you learn more Infusions of your choice.",
+				"At the end of a long rest, as long as you have tinker's tools, you can replace one Infusion you know with another Infusion of your choice, so long as you meet all of its prerequisites.",
+				{
+					"name": "Infusing an Object",
+					"type": "entries",
+					"entries": [
+						"At the end of a long rest, you can use your tinker's tools to imbue an Infusion you know into a nonmagical object. To do so, you must be able to touch the object with your tools.",
+						"If the Infusion requires attunement, you can attune to the object the instant you infuse it, or you can forgo attunement so another creature can attune to it. To attune to the infused item later, you must follow the normal attunement process.",
+						"The Infusion remains in an item indefinitely. If you die, the Infusion vanishes after a number of days have passed equal to your Intelligence modifier (minimum of 1 day). Infusions vanish immediately if you give up your knowledge of one to learn another or imbue the Infusion into another object.",
+						"You can infuse multiple objects at the end of each long rest, up to one for each Infusion you know. Each Infusion can be in only one object at a time, and no object can bear more than one Infusion. If you transfer an Infusion to a new object, any previous instance of that Infusion immediately ends."
+					]
+				},
+				{
+					"name": "Replicate Magic Item",
+					"type": "entries",
+					"entries": [
+						"You can also use your Infusions to replicate magic items you have studied. During a long rest, you can spend 1 hour using tinker's tools to examine a magic item you touch. At the end of that long rest, you can replace one Infusion you know with the knowledge of this magic item. After which, you can infuse an object with the properties of that magic item, following all the rules for your other Infusions.",
+						"You cannot use this feature to replicate magic items that are consumed after one use, such as scrolls and potions.",
+						"You can use this feature to replicate any item of Common rarity. As you gain Artificer levels you can use this feature to replicate items of increasing rarity: Uncommon at 5th level, Rare at 11th level, and finally Very Rare items at 17th level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Magical Tinker",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 1,
+			"entries": [
+				"Your insights into magical and mechanical objects can appear as magic to the untrained eye. Starting from 1st level, you can use tinker's tools to cast the mending Cantrip and both detect magic and identify as rituals. Your tools are the spellcasting focus and replace the material components of the spells.",
+				"Moreover, the time it would take you to craft a magic item is halved if you are proficient with appropriate artisan's tools."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you can use your tools and your signature brand of magic to produce strange and wondrous spell effects from objects and tools that you imbue with arcane power.",
+				{
+					"name": "Cantrips",
+					"type": "entries",
+					"entries": [
+						"At 2nd level, you learn two cantrips of your choice from the {@filter Artificer spell list|spells|class=Alternate Artificer (LLAART)}. You learn an additional Artificer cantrip of your choice at 4th level and another at 10th level."
+					]
+				},
+				{
+					"name": "Spell Slots",
+					"type": "entries",
+					"entries": [
+						"The Artificer table shows how many spell slots you have to cast your spells of 1st-level and higher. To cast a spell, you must expend a slot equal to the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"For example, if you know the 1st-level spell {@spell magic missile} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell magic missile} using either spell slot."
+					]
+				},
+				{
+					"name": "Spells Known of 1st-level and Higher",
+					"type": "entries",
+					"entries": [
+						"You know two 1st-level spells of your choice from the {@filter Artificer spell list|spells|class=Alternate Artificer (LLAART)}. The Spells Known column of the Artificer Table shows when you learn more Artificer spells of your choice. The Spells Known column of the Artificer table shows when you learn more artificer spells of your choice. Each spell must be of a level for which you have spell slots. For example, when you reach 5th level in this class, you can learn one new artificer spell of either 1st or 2nd-level.",
+						"When you gain a level in this class, you can replace one of the artificer spells you know with another artificer spell for which you have spell slots."
+					]
+				},
+				{
+					"name": "Spellcasting Ability",
+					"type": "entries",
+					"entries": [
+						"Intelligence is the spellcasting ability for your artificer spells, as you use your knowledge of the arcane to cast spells. You use your Intelligence when a spell refers to your spellcasting ability, when you set a saving throw DC for an artificer spell, or when you make a spell attack roll for an artificer spell.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"int"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"int"
+							]
+						}
+					]
+				},
+				{
+					"name": "Spellcasting Focus",
+					"type": "entries",
+					"entries": [
+						"You must use either your tinker's tools, a set of {@item artisan's tools|phb} with which you are proficient, or an item bearing one of your Infusions as the spellcasting focus for your artificer spells.",
+						"While you have access to your tinker's tools, you know both the {@spell mending} cantrip and {@spell identify}, but they don't count against your number of Spells Known. You can use your tinker's tools to cast identify by spending a spell slot, or as a ritual spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcane Recharge",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, during the course of a short rest, you can recover expended spell slots of a combined level equal to your Intelligence modifier. After you do, you must complete a long rest before you can use this feature again.",
+				"At 11th level, you can use this feature to cause one Infused item or magic item you touch to regain any Charges it would normally regain at dawn, in place of regaining spell slots."
+			]
+		},
+		{
+			"name": "Specialization",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"At 1st level, choose one of the following Specializations that best represents the arcane research and inventions of your artificer: Alchemist, Armorer, Battle Smith, Forgewright, or Wandslinger, each of which is detailed at the end of the class.",
+				"Your Specialization grants features at 1st level, and again when you reach 3rd, 5th, 9th, and 15th level in this class."
+			]
+		},
+		{
+			"name": "Specialization Feature",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain a feature granted by your Specialization."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Specialization Feature",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"At 5th level, you gain a feature granted by your Specialization."
+			]
+		},
+		{
+			"name": "Flash of Genius",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"You can offer potent insight at a moment's notice. Starting at 6th level, when you or a creature who can hear you within 30 feet, makes an ability check or saving throw, you can use your reaction to add your Intelligence modifier to that roll.",
+				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Expert Tinker",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 7,
+			"entries": [
+				"There are few who match your skill with mechanical magics. Starting at 7th level, you add double your proficiency bonus to any ability check you make with any tool you are proficient in.",
+				"Your expertise also allows you to infuse magic items with Infusions. However, you cannot increase bonuses above +3."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Magic Item Mastery (4)",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You have gained a deep understanding of the inner workings of magic items, allowing you greater use of them. Starting at 9th level, you can attune to up to four magic items at once.",
+				"The number of magic items you can attune to at one time increases again at 14th level (5), and finally at 18th level (6)."
+			]
+		},
+		{
+			"name": "Specialization Feature",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Specialization."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Magic Item Mastery (5)",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"You have gained a deep understanding of the inner workings of magic items, allowing you greater use of them. Starting at 13th level, you can attune to up to five magic items at once."
+			]
+		},
+		{
+			"name": "Tinker's Insight",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"Also at 2nd level, your expert understanding of the magic of artifice allows you to bypass normal magic item restrictions. You can attune to and use any magic item regardless of any alignment, class, player race, or spell requirements, and you can choose to use your Artificer Spell save DC in place of the magic item's DC."
+			]
+		},
+		{
+			"name": "Specialization Feature",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain a feature granted by your Specialization."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Magic Item Mastery (6)",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 18,
+			"entries": [
+				"You have gained a deep understanding of the inner workings of magic items, allowing you greater use of them. Starting at 18th level, you can attune to up to six magic items at once."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Masterwork Inventions",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"level": 20,
+			"entries": [
+				"You imbue a fraction of your own soul into your Infusions and other magic items you use. At 20th level, you gain a +1 bonus to all saving throws for each magic item you are attuned to.",
+				"In addition, if you are reduced to 0 hit points but not killed outright, you can instantly end your attunement to one magic item or Infusion, causing you to drop to 1 hit point instead."
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Alternate Artificer",
+			"source": "LLAC",
+			"page": 1,
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"con",
+				"int"
+			],
+			"spellcastingAbility": "int",
+			"casterProgression": "1/2",
+			"cantripProgression": [
+				0,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"spellsKnownProgression": [
+				0,
+				2,
+				3,
+				3,
+				4,
+				4,
+				5,
+				5,
+				6,
+				6,
+				7,
+				7,
+				8,
+				8,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11
+			],
+			"classSpells": [
+				"acid splash (alternate)|llspell",
+				"booming blade (alternate)|llspell",
+				"create bonfire|XGE",
+				"fire bolt",
+				"frostbite",
+				"green-flame blade (alternate)|llspell",
+				"light",
+				"lightning lure|TCE",
+				"mage hand",
+				"poison spray (alternate)|llspell",
+				"prestidigitation",
+				"ray of frost",
+				"shocking grasp",
+				"thorn whip",
+				"Tempestuous Blade|llspell",
+				"thunderclap|XGE",
+				"absorb elements|XGE",
+				"alarm",
+				"catapult|XGE",
+				"tasha's caustic brew|TCE",
+				"color spray",
+				"cure wounds",
+				"detect magic",
+				"disguise self",
+				"ensnaring strike (alternate)|llspell",
+				"expeditious retreat",
+				"faerie fire",
+				"false life",
+				"feather fall",
+				"fog cloud",
+				"grease",
+				"heroism",
+				"identify",
+				"jump (alternate)|llspell",
+				"magic missile",
+				"sleep",
+				"witch bolt (alternate)|llspell",
+				"aid",
+				"lock/unlock|llspell",
+				"blur",
+				"continual flame",
+				"cordon of arrows (alternate)|llspell",
+				"darkvision",
+				"earthbind",
+				"enhance ability",
+				"enlarge/reduce",
+				"heat metal",
+				"invisibility",
+				"restoration|llspell",
+				"levitate",
+				"magic mouth",
+				"magic weapon (alternate)|llspell",
+				"pyrotechnics|XGE",
+				"rope trick",
+				"see invisibility",
+				"skywrite|XGE",
+				"spider climb",
+				"web",
+				"blink",
+				"catnap|XGE",
+				"create food and water",
+				"daylight",
+				"dispel magic",
+				"elemental weapon",
+				"flame arrows (alternate)|llspell",
+				"fly",
+				"glyph of warding",
+				"haste",
+				"intellect fortress|TCE",
+				"life transference|XGE",
+				"lightning arrow (alternate)|llspell",
+				"protection from energy",
+				"revivify",
+				"sending",
+				"slow",
+				"tiny servant|XGE",
+				"water breathing",
+				"arcane eye",
+				"dimension door",
+				"elemental bane",
+				"fabricate",
+				"faithful hound",
+				"freedom of movement",
+				"greater invisibility",
+				"Otiluke's Resilient Sphere",
+				"Leomund's Secret Chest",
+				"stone shape",
+				"summon construct|TCE",
+				"animate objects",
+				"arcane hand",
+				"awaken",
+				"creation",
+				"far step|XGE",
+				"greater restoration",
+				"passwall",
+				"skill empowerment|XGE",
+				"transmute rock|XGE",
+				"wall of light",
+				"wall of stone"
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Artificer Infusions (Alternate)",
+					"featureType": [
+						"LLAART:INF"
+					],
+					"progression": [
+						2,
+						3,
+						3,
+						3,
+						4,
+						4,
+						4,
+						5,
+						5,
+						5,
+						6,
+						6,
+						6,
+						7,
+						7,
+						7,
+						8,
+						8,
+						8,
+						8
+					]
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"simple",
+					"{@item hand crossbow|phb|hand crossbows}",
+					"{@filter firearms|items|source=dmg|category=basic|type=firearm}"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"history",
+								"insight",
+								"investigation",
+								"medicine",
+								"nature",
+								"sleight of hand"
+							],
+							"count": 2
+						}
+					}
+				],
+				"tools": [
+					"{@item Tinker's tools|phb}",
+					"One type of {@item artisan's tools|phb}"
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					"a {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} and a set of {@item artisan's tools|phb} of your choice",
+					"(a) a {@item studded leather armor|phb} or (b) a {@item scale mail|phb}",
+					"a {@item light crossbow|phb} and 20 {@item crossbow bolt|phb|bolts}",
+					"Two {@item tinker's tools|phb} and a {@item dungeoneer's pack|phb}"
+				],
+				"defaultData": [
+					{
+						"_": [
+							{
+								"equipmentType": "weaponSimpleMelee"
+							},
+							"artisan's tools|phb"
+						]
+					},
+					{
+						"a": [
+							"studded leather armor|phb"
+						],
+						"b": [
+							"scale mail|phb"
+						]
+					},
+					{
+						"_": [
+							"light crossbow|phb",
+							"crossbow bolts (20)|phb"
+						]
+					},
+					{
+						"_": [
+							{
+								"item": "tinker's tools|phb",
+								"quantity": 2
+							},
+							"dungeoneer's pack|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"int": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Alternate Artificer (LLAART)}",
+						"{@filter Spells Known|spells|class=Alternate Artificer (LLAART)}",
+						"{@filter 1st|spells|level=1|class=Alternate Artificer (LLAART)}",
+						"{@filter 2nd|spells|level=2|class=Alternate Artificer (LLAART)}",
+						"{@filter 3rd|spells|level=3|class=Alternate Artificer (LLAART)}",
+						"{@filter 4th|spells|level=4|class=Alternate Artificer (LLAART)}",
+						"{@filter 5th|spells|level=5|class=Alternate Artificer (LLAART)}",
+						"{@filter Infusions Known|optionalfeatures|feature type=LLAART:INF}"
+					],
+					"rows": [
+						[
+							"-",
+							"-",
+							"-",
+							"-",
+							"-",
+							"-",
+							"-",
+							"2"
+						],
+						[
+							"2",
+							"2",
+							"2",
+							"-",
+							"-",
+							"-",
+							"-",
+							"3"
+						],
+						[
+							"2",
+							"3",
+							"3",
+							"-",
+							"-",
+							"-",
+							"-",
+							"3"
+						],
+						[
+							"3",
+							"3",
+							"3",
+							"-",
+							"-",
+							"-",
+							"-",
+							"3"
+						],
+						[
+							"3",
+							"4",
+							"4",
+							"2",
+							"-",
+							"-",
+							"-",
+							"4"
+						],
+						[
+							"3",
+							"4",
+							"4",
+							"2",
+							"-",
+							"-",
+							"-",
+							"4"
+						],
+						[
+							"3",
+							"5",
+							"4",
+							"3",
+							"-",
+							"-",
+							"-",
+							"4"
+						],
+						[
+							"3",
+							"5",
+							"4",
+							"3",
+							"-",
+							"-",
+							"-",
+							"5"
+						],
+						[
+							"3",
+							"6",
+							"4",
+							"3",
+							"2",
+							"-",
+							"-",
+							"5"
+						],
+						[
+							"4",
+							"6",
+							"4",
+							"3",
+							"2",
+							"-",
+							"-",
+							"5"
+						],
+						[
+							"4",
+							"7",
+							"4",
+							"3",
+							"3",
+							"-",
+							"-",
+							"6"
+						],
+						[
+							"4",
+							"7",
+							"4",
+							"3",
+							"3",
+							"-",
+							"-",
+							"6"
+						],
+						[
+							"4",
+							"8",
+							"4",
+							"3",
+							"3",
+							"1",
+							"-",
+							"6"
+						],
+						[
+							"4",
+							"8",
+							"4",
+							"3",
+							"3",
+							"1",
+							"-",
+							"7"
+						],
+						[
+							"4",
+							"9",
+							"4",
+							"3",
+							"3",
+							"2",
+							"-",
+							"7"
+						],
+						[
+							"4",
+							"9",
+							"4",
+							"3",
+							"3",
+							"2",
+							"-",
+							"7"
+						],
+						[
+							"4",
+							"10",
+							"4",
+							"3",
+							"3",
+							"3",
+							"1",
+							"8"
+						],
+						[
+							"4",
+							"10",
+							"4",
+							"3",
+							"3",
+							"3",
+							"1",
+							"8"
+						],
+						[
+							"4",
+							"11",
+							"4",
+							"3",
+							"3",
+							"3",
+							"2",
+							"8"
+						],
+						[
+							"4",
+							"11",
+							"4",
+							"3",
+							"3",
+							"3",
+							"2",
+							"8"
+						]
+					]
+				}
+			],
+			"subclassTitle": "Specialization",
+			"classFeatures": [
+				"Infusions|Alternate Artificer|LLAC|1|LLAC",
+				"Magical Tinker|Alternate Artificer|LLAC|1|LLAC",
+				"Spellcasting|Alternate Artificer|LLAC|2|LLAC",
+				"Arcane Recharge|Alternate Artificer|LLAC|3|LLAC",
+				{
+					"classFeature": "Specialization|Alternate Artificer|LLAC|3|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Specialization Feature|Alternate Artificer|LLAC|3|LLAC",
+				"Ability Score Improvement|Alternate Artificer|LLAC|4|LLAC",
+				{
+					"classFeature": "Specialization Feature|Alternate Artificer|LLAC|5|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Flash of Genius|Alternate Artificer|LLAC|6|LLAC",
+				"Expert Tinker|Alternate Artificer|LLAC|7|LLAC",
+				"Ability Score Improvement|Alternate Artificer|LLAC|8|LLAC",
+				"Magic Item Mastery (4)|Alternate Artificer|LLAC|9|LLAC",
+				{
+					"classFeature": "Specialization Feature|Alternate Artificer|LLAC|10|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Alternate Artificer|LLAC|12|LLAC",
+				"Magic Item Mastery (5)|Alternate Artificer|LLAC|14|LLAC",
+				"Tinker's Insight|Alternate Artificer|LLAC|14|LLAC",
+				{
+					"classFeature": "Specialization Feature|Alternate Artificer|LLAC|15|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Alternate Artificer|LLAC|16|LLAC",
+				"Magic Item Mastery (6)|Alternate Artificer|LLAC|18|LLAC",
+				"Ability Score Improvement|Alternate Artificer|LLAC|19|LLAC",
+				"Masterwork Inventions|Alternate Artificer|LLAC|20|LLAC"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Aeronaut Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Aeronaut",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell fog cloud}, {@spell zephyr strike|xge}"
+						],
+						[
+							"5th",
+							"{@spell dust devil|xge}, {@spell warding wind|xge}"
+						],
+						[
+							"9th",
+							"{@spell fly}, {@spell wind wall}"
+						],
+						[
+							"13th",
+							"{@spell death ward}, {@spell summon elemental|tce|summon elemental(air)}"
+						],
+						[
+							"17th",
+							"{@spell control winds|xge}, {@spell steel wind strike (alternate)|llspell}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Flying Machine",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Aeronaut",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have constructed your signature Flying Machine which marks you as an Aeronaut Artificer. It uses the rules below:",
+				{
+					"type": "entries",
+					"name": "Creating the Machine",
+					"entries": [
+						"During a long rest, you can spend 1 hour using woodcarver's tools to craft one Flying Machine. You can only have one Flying Machine at a time, and only you can use it. Crafting another causes the previous to fall apart."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Appearance",
+					"entries": [
+						"You determine the appearance of your Flying Machine, but this has no effect on its abilities. Some include canvas wings, rotating blades, or even elemental engines."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wearing the Machine",
+					"entries": [
+						"Your Flying Machine can be worn over clothing or light armor. While wearing it, it can be used as a spellcasting focus for your Artificer spells, and it grants you a flying speed of 20 feet and allows you to hover.",
+						"At certain Artificer levels, this flying speed increases: at 5th level (30 feet), 10th level (45 feet), and 15th level (60 feet)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infusions",
+					"entries": [
+						"Your Flying Machine can bear a single Infusion meant for an arcane focus, boots, cloak, or tiny object."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Aeronaut",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with {@item woodcarver's tools|phb}. If you are already proficient with woodcarver's tools, you instead gain proficiency with another set of {@item artisan's tools|phb} of your choice."
+			]
+		},
+		{
+			"name": "Aeronaut",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Aeronaut",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"The most dangerous Specialization an artificer can pursue is that of the Aeronaut. Constantly carrying out dangerous trials in their pursuit of mechanical flight, these pioneering minds will risk anything to complete the perfect flying machine. No setback or injury can dampen the spirits of a true Aeronaut.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Aeronaut Spells|Alternate Artificer|LLAC|Aeronaut|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Flying Machine|Alternate Artificer|LLAC|Aeronaut|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Aeronaut|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Aeronaut",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a spell, you can make a weapon attack as a bonus action."
+			]
+		},
+		{
+			"name": "Aerial Maneuvers",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Aeronaut",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"Your Flying Machine helps you to move with wondrous grace. When you are wearing your Flying Machine, you gain a bonus to all Dexterity ability checks and saving throws equal to your Intelligence modifier (minimum of +1).",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Attack|Alternate Artificer|LLAC|Aeronaut|LLAC|5|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Airborne Assault",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Aeronaut",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your Flying Machine allows you to attack from unorthodox positions, catching enemies unaware. Whenever you make a ranged attack while flying at least 10 feet off the ground, the attack deals a bonus 1d8 damage on hit. You can forgo this bonus damage to instead make the attack with advantage."
+			]
+		},
+		{
+			"name": "Master Aeronaut",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Aeronaut",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You are a master Aeronaut, making expert use of your Flying Machine's maneuvering capability. While wearing your Flying Machine, you can take the Dash action as a bonus action.",
+				"Moreover, when you are forced to make a Dexterity saving throw to take half damage while you are wearing your Flying Machine, you instead take no damage if you succeed on your saving throw, and only half damage if you fail."
+			]
+		},
+		{
+			"name": "Alchemical Elixirs",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"As your knowledge of alchemy grows, you learn to craft potent Elixirs that mimic the effects of powerful spells:",
+				{
+					"type": "entries",
+					"name": "Elixir Infusion",
+					"entries": [
+						"As an Alchemist, you have access to an exclusive list of Infusions known, as {@filter Elixir Infusions|optionalfeatures|feature type=LLAART:ALC}. At 3rd level, and again at 5th, 9th, 13th, and 17th levels, your number of Infusions Known increases by 1, but these bonus Infusions must all be selected from the list of Elixir Infusions included at the end of this Specialization's description."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creating an Elixir",
+					"entries": [
+						"During each long rest, you can spend 1 hour using alchemist's supplies to create individual Tiny vials that contain one copy of each Elixir you know, without expending a spell slot. An Elixir produces its spell at its lowest level, and all effects of the Elixir are chosen when it is created. Your Elixirs become inert and unusable at the end of your next long rest.",
+						"As an action, you can use alchemist's supplies to craft one vial of one Elixir you know by expending the spell slot listed in the Elixir Infusion's description. An Elixir can be used as part of the action you create it.",
+						"For example, if you learn Create Minor Elixir and choose grease and sleep, at the end of each long rest you prepare one elixir of grease, and one elixir of sleep. Creatures can then use these Elixirs to produce the spell effect. You can also use an action at any time to expend a 1st-level spell slot and create one additional elixir of grease or elixir of sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Using an Elixir",
+					"entries": [
+						"Any creature can take the Use an Object action to drink one of your Elixirs, administer one to a target within its reach, or throw an Elixir at a point it can see within 30 feet. When thrown, an Elixir produces its spell effect at its point of impact. Elixirs use your Artificer Spellcasting Ability."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Concentration",
+					"entries": [
+						"If an Elixir produces a spell that requires concentration, it does not require concentration, but instead only lasts for three rounds (or fewer if dispelled). If a creature drinks an Elixir it can concentrate on the spell as normal."
+					]
+				}
+			]
+		},
+		{
+			"name": "Alchemist Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell healing word}, {@spell inflict wounds}"
+						],
+						[
+							"5th",
+							"{@spell melf's acid arrow}, {@spell flaming sphere}"
+						],
+						[
+							"9th",
+							"{@spell gaseous form}, {@spell mass healing word}"
+						],
+						[
+							"13th",
+							"{@spell blight}, {@spell death ward}"
+						],
+						[
+							"17th",
+							"{@spell cloudkill}, {@spell reincarnate}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with alchemist's supplies. If you are already proficient with alchemist's supplies, you instead gain proficiency with another set of artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "Alchemist",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Alchemy is a delicate art, tip the ratio of ingredients too far out of line and the effects could be disastrous. Alchemists are experts at combining exotic reagents to produce a variety of materials and effects. From healing droughts that can heal a wound in moments, to sticky goo that explodes when it comes in contact with flame. With the right reagents and a bit of luck, Alchemists use their wondrous Elixirs to give life to their allies and leech it away from their foes.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Alchemical Elixirs|Alternate Artificer|LLAC|Alchemist|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Alchemist Spells|Alternate Artificer|LLAC|Alchemist|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Alchemist|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Potent Potions",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"The reagents included in your Elixirs increase their potency. Whenever an Elixir crafted by you or an Artificer spell cast by you deals acid, fire, necrotic, or poison damage, or it restores a creature's hit points, you can add your Intelligence modifier (minimum of +1) to one of the damage or healing rolls."
+			]
+		},
+		{
+			"name": "Restorative Reagents",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You include revitalizing additives in every Elixir you concoct. Whenever a creature willingly drinks one of your Elixirs, it also gains temporary hit points equal to your Artificer level."
+			]
+		},
+		{
+			"name": "Master Alchemist",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You have become a master amongst Alchemist Artificers. You are immune to any effects produced by any Elixir you crafted unless you wish to be affected by that Elixir.",
+				"Finally, you can take the Use an Object action as a bonus action on your turn, and when you do so, you can expend a spell slot to create an Elixir as part of that bonus action."
+			]
+		},
+		{
+			"name": "Archivist Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Archivist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell comprehend languages}, {@spell dissonant whispers}"
+						],
+						[
+							"5th",
+							"{@spell detect thoughts}, {@spell mind spike|xge}"
+						],
+						[
+							"9th",
+							"{@spell hypnotic pattern (alternate)|llspell}, {@spell tongues}"
+						],
+						[
+							"13th",
+							"{@spell locate creature (alternate)|llspell}, {@spell phantasmal killer}"
+						],
+						[
+							"17th",
+							"{@spell modify memory}, {@spell synaptic static|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Artificial Mind",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Archivist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have learned to awaken wondrous Artificial Minds within mundane objects, which use the rules detailed below:",
+				{
+					"name": "Awakening the Mind",
+					"type": "entries",
+					"entries": [
+						"During a long rest, you can spend 1 hour using calligrapher's supplies to awaken a Mind in a Tiny object you touch. The object is magical if it was not already, and it counts as a spellcasting focus for your Artificer spells. Awakening a second Mind destroys the previous Mind."
+					]
+				},
+				{
+					"name": "Magical Telephony",
+					"type": "entries",
+					"entries": [
+						"You can communicate telepathically with any creature carrying one of your infused items within a 1-mile radius. The creature can also respond telepathically."
+					]
+				},
+				{
+					"name": "Bonus Skills",
+					"type": "entries",
+					"entries": [
+						"Depending on the material of the object you awaken, you gain proficiency in two corresponding skills:"
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Skill Proficiencies",
+					"colLabels": [
+						"Material",
+						"Examples",
+						"Skill Proficiencies"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-3",
+						"col-7"
+					],
+					"rows": [
+						[
+							"Animal",
+							"parchment, leather, bone",
+							"{@skill Animal Handling}, {@skill Insight}, {@skill Perception}, {@skill Survival}"
+						],
+						[
+							"Mineral",
+							"gems, glass, metal, stone",
+							"{@skill Deception}, {@skill Intimidation}, {@skill Performance}, {@skill Persuasion}"
+						],
+						[
+							"Plant",
+							"paper, wood, vegetable",
+							"{@skill Arcana}, {@skill History}, {@skill Nature}, {@skill Religion}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Information Overload",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Archivist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"As an action, the Mind bombards one creature you can see within 30 feet, forcing it to make an Intelligence saving throw against your Spell save DC. On a failure, it takes 1d8 psychic damage and has disadvantage on the first attack roll it makes before the start of your next turn.",
+				"At certain Artificer levels, this psychic damage increases: at 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Archivist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in calligrapher's supplies. If you are already proficient in calligrapher's supplies, you instead gain proficiency in one set of artisan's tools of your choice.",
+				"In addition, you can speak, read, and write two additional languages of your choice."
+			]
+		},
+		{
+			"name": "Archivist",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Archivist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"For centuries chroniclers have sought the best way to store vast amounts of information. While most were satisfied with scrolls, the Archivists looked for something greater. In their research, they learned to store libraries worth of information in objects, awakening the first Artificial Minds. Working with these wondrous Minds, Archivists wield the limitless power of these arcane intelligences to drive their research forward.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Archivist Spells|Alternate Artificer|LLAC|Archivist|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Artificial Mind|Alternate Artificer|LLAC|Archivist|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Information Overload|Alternate Artificer|LLAC|Archivist|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Archivist|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Acute Overload",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Archivist",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"The power of your Artificial Mind has grown, increasing its power against foes. If a creature fails its saving throw against Information Overload you can expend one spell slot to deal bonus psychic damage. This bonus is 2d8 for a 1st-level slot, and an additional 1d8 for each slot level higher than 1st.",
+				"Also, whenever you deal psychic damage with Information Overload or a spell cast through your Artificial Mind, you add your Intelligence modifier (minimum of +1) to the damage."
+			]
+		},
+		{
+			"name": "Improved Consciousness",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Archivist",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your Artificial Mind lends you its mental capacity. When you are forced to make a Wisdom or a Charisma saving throw, or a Constitution saving throw to maintain your concentration, you add your Intelligence modifier (minimum of +1) to your roll, so long as you are holding your Artificial Mind."
+			]
+		},
+		{
+			"name": "Master Archivist",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Archivist",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You have become a master of Archivist artifice. As a bonus action, you can transform into pure information and teleport to an unoccupied space you can see within 60 feet, or to an unoccupied space within 5 feet of an object bearing one of your Infusions, so long as it is the same plane of existence.",
+				"Finally, when you cast an Artificer spell, you can choose for your Artificial Mind to concentrate on it for you, allowing you to concentrate on another spell. However, both spells must be Artificer spells, and their total level cannot exceed 5th-level.",
+				"If you make a saving throw to maintain concentration on two spells, you make one saving throw for both spells, but you do not gain the benefits from Improved Consciousness."
+			]
+		},
+		{
+			"name": "Arcane Armor",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Armorer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your research has led to the crafting of a set of armor infused with your signature arcane magic. It uses the rules below:",
+				{
+					"type": "entries",
+					"name": "Creating the Armor",
+					"entries": [
+						"During a long rest, you can spend 1 hour using smith's tools to modify one set of armor you touch, transforming it into Arcane Armor. You can only have one set of Arcane Armor at a time, and only you can use it. Crafting another set causes previous Arcane Armor to lose its power."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wearing the Armor",
+					"entries": [
+						"Your Arcane Armor expands to cover your entire body, replacing missing limbs and body parts. You can don or doff your Arcane Armor as an action, and you can deploy or retract its helmet with a bonus action. If the armor normally has a Strength requirement, you can ignore it. Your Arcane Armor also cannot be removed against your will."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defensive Ward",
+					"entries": [
+						"While wearing your Arcane Armor, you can use a bonus action to grant yourself temporary hit points equal to your Intelligence modifier (a minimum of 1). These temporary hit points disappear if you doff your armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thunder Gauntlets",
+					"entries": [
+						"The Arcane Armor includes powerful Thunder Gauntlets which cover your hands and can be used as a spellcasting focus for your Artificer spells. Your Thunder Gauntlets are simple weapons that deal 1d8 thunder damage on hit, and you can use your Strength or Intelligence for their attack and damage rolls. You can also hold and interact with objects and tools as normal with your Thunder Gauntlets.",
+						"Any creature that you hit with a Thunder Gauntlet attack has disadvantage on attack rolls against targets other then you until the beginning of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Armorer Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Armorer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Starting at 1st level, you learn additional spells when you reach certain levels in this class, as shown on the Efreeti Magic table. The spell counts as a Artificer spell for you, but it doesn't count against the number of Artificer spells you know. These can't be replaced when you gain a Artificer level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell shield (alternate)|llspell}, {@spell thunderwave}"
+						],
+						[
+							"5th",
+							"{@spell mirror image}, {@spell shatter}"
+						],
+						[
+							"9th",
+							"{@spell lightning bolt}, {@spell thunder step|xge}"
+						],
+						[
+							"13th",
+							"{@spell fire shield}, {@spell storm sphere|xge}"
+						],
+						[
+							"17th",
+							"{@spell destructive wave}, {@spell Wall of Force (Alternate)|llspell}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Armorer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with {@item smith's tools|phb} and {@filter heavy armor|items|source=phb|category=basic|type=heavy armor}. If you are already proficient with smith's tools, you instead gain proficiency with another set of {@item artisan's tools|phb} of your choice."
+			]
+		},
+		{
+			"name": "Armorer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Armorer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Of all the Specializations that an artificer can pursue, that of the Armorer is the most defensively-minded. With a focus on becoming a bastion of magics and metal, Armorers modify a set of armor to function as their second skin. They focus their signature magic through this armor to unleash potent attacks and generate formidable arcane defenses. An Armorer views their armor as an extension of their body, and as they refine their magical abilities, inventor and armor become one.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Armor|Alternate Artificer|LLAC|Armorer|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Armorer Spells|Alternate Artificer|LLAC|Armorer|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Armorer|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Modular Armor",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Armorer",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"Your Arcane Armor now counts as multiple individual items for the purposes of your Infusions: armor (chest piece), boots, helmet, and its Thunder Gauntlets (two individual weapons or gauntlets). Each of these items can bear one Infusion."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Armorer",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the Attack action. Also, when you use your action to cast a spell, you can make a Thunder Gauntlet attack as a bonus action.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Modular Armor|Alternate Artificer|LLAC|Armorer|LLAC|5|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Armorer Adept",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Armorer",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You have greatly improved your Arcane Armor's synergy with your signature artifice. Your total number of Infusions Known increases by 2, but both of these additional Infusion must be applied to pieces of your Arcane Armor.",
+				"You gain another one of these bonus Infusions at 15th level."
+			]
+		},
+		{
+			"name": "Master Armorer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Armorer",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You have become a master of Armorer artifice. While wearing your Arcane Armor your walking speed increases by 10 feet, and you gain a flying speed equal to your walking speed.",
+				"Finally, your Thunder Gauntlets deal 2d8 damage on hit."
+			]
+		},
+		{
+			"name": "Battle Smith Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell sanctuary}, {@spell shield of faith}"
+						],
+						[
+							"5th",
+							"{@spell restoration|llspell}, {@spell warding bond}"
+						],
+						[
+							"9th",
+							"{@spell aura of vitality}, {@spell counterspell}"
+						],
+						[
+							"13th",
+							"{@spell aura of purity}, {@spell death ward}"
+						],
+						[
+							"17th",
+							"{@spell circle of power}, {@spell mass cure wounds}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Steel Defender",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have created for yourself a faithful construct, known as a Steel Defender. It is friendly to you obeys your commands. Its game statistics are found in the Steel Defender stat block on the next page, which uses your Spell save DC and proficiency bonus (PB). Your Steel Defender uses the rules below:",
+				{
+					"type": "entries",
+					"name": "Creating the Defender",
+					"entries": [
+						"During a long rest, you can spend 1 hour using smith's tools to create a Steel Defender. You can only have one Steel Defender, and creating another destroys the previous Steel Defender. If your Steel Defender dies, you expend a spell slot and spend 1 minute repairing it with your smith's tools, restoring it to life with its maximum hit points."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infusions",
+					"entries": [
+						"Your Steel Defender can bear one Infusion that is meant for boots, a cloak, gauntlet, helmet, or suit of armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"In combat, your Steel Defender acts during your turn. It can move and use its reaction on its own, but it only takes the Dodge action on its turn unless you use your bonus action to order it to take an action in its stat block, or another action. If you are incapacitated, the Steel Defender can act on its own to defend you to the best of its abilities."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Model",
+					"entries": [
+						"Upon creation, you choose a model for your Steel Defender; Humanoid or Quadruped, which determines it's appearance and capabilities both in and out of combat:"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@creature Steel Defender (Humanoid)|LLAC|Humanoid}. Your Steel Defender resembles a Medium humanoid creature. It is proficient with shields, and it has humanoid hands that it can use to perform simple tasks.",
+						"{@creature Steel Defender (Quadruped)|LLAC|Quadruped}. Your Steel Defender resembles a Large beast of your choice. It's walking speed increases by 10 feet, and it can be ridden by you as if it were a trained mount."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with smith's tools and in heavy armor. If you are proficient in smith's tools, you gain proficiency in another set of artisan's tools of your choice.",
+				"Moreover, when another creature within 5 feet of you is targeted by an attack, you can use your reaction to impose disadvantage on the triggering attack roll. Though, you must be wielding a shield or a melee weapon to use this reaction."
+			]
+		},
+		{
+			"name": "Battle Smith",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"A combination of protector and medic, Battle Smith artificers are experts at defending others and repairing both material and personnel. To aid in their work, Battle Smiths construct and modify their Steel Defender, a one-of-a-kind companion.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Battle Smith Spells|Alternate Artificer|LLAC|Battle Smith|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Steel Defender|Alternate Artificer|LLAC|Battle Smith|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Battle Smith|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Minor Upgrade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You have improved the offensive capabilities of your Steel Defender. Choose one of the Minor Upgrades below:",
+				{
+					"type": "entries",
+					"name": "Minor Arcanum",
+					"entries": [
+						"You imbue your Steel Defender with a 1st-level Artificer spell of your choice with a casting time of one action. As a bonus action, you can order the Defender to cast that spell at 1st-level, using your spellcasting modifier.",
+						"The Steel Defender has three Charges of this spell, and it regains all Charges when it finishes a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Offense",
+					"entries": [
+						"The damage of your Steel Defender's Rend becomes 1d10, and when you command it to take the Rend action it can make two Rend attacks instead of one. It can replace either Rend attack with a grapple or shove."
+					]
+				}
+			]
+		},
+		{
+			"name": "Modular Defender",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your Steel Defender now counts as multiple individual items for the purposes of Infusions: its torso (armor or cloak), legs (boots), head (helmet), and the limbs it uses for Rend attacks (gauntlet or melee weapon). Each item can bear one Infusion."
+			]
+		},
+		{
+			"name": "Greater Upgrade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You can imbue your Steel Defender with wondrous abilities and features. Choose one of the Greater Upgrades below:",
+				{
+					"type": "entries",
+					"name": "Greater Arcanum",
+					"entries": [
+						"You imbue your Steel Defender with a 2nd-level Artificer spell of your choice with a casting time of one action. As a bonus action, you can order your Defender to cast the imbued spell at 2nd-level, using your spellcasting modifier.",
+						"The Steel Defender has three Charges of this spell, and it regains all Charges when it finishes a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Limited Sentience",
+					"entries": [
+						"You improve the cognitive abilities of your Steel Defender. Its Intelligence score becomes 10, and it can speak, read, and write one language of your choice.",
+						"It will also carry out simple instructions you give it until they are complete. Examples include 'bring me that object",
+						"attack that creature', or 'let nothing through this door'."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reinforced Plating",
+					"entries": [
+						"You greatly improve its defenses. It is resistant to all bludgeoning, piercing, and slashing damage."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Modular Defender|Alternate Artificer|LLAC|Battle Smith|LLAC|10|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Masterwork Upgrade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You imbue your Steel Defender with wondrous abilities and powers. Choose one of the Masterwork Upgrades below:",
+				{
+					"type": "entries",
+					"name": "Arcane Ward",
+					"entries": [
+						"Creatures of your choice within 15 feet of your Steel Defender are resistant to damage from spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Self-Destruct",
+					"entries": [
+						"You embed a powerful arcane explosive in your Steel Defender. As a bonus action, you can order your Steel Defender to self-destruct, destroying itself and forcing all creatures within 30 feet to make a Dexterity saving throw.",
+						"Creatures take force damage equal to the Steel Defender's remaining Hit Dice on a failure (maximum of 10d8), and half on a success. Once this feature is used, your Steel Defender cannot be rebuilt until the end of your next long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Major Arcanum",
+					"entries": [
+						"You imbue your Steel Defender with a 3rd-level Artificer spell of your choice with a casting time of one action. As a bonus action, you can order the Defender to cast that spell at 3rd-level, using your spellcasting modifier.",
+						"The Steel Defender has three Charges of this spell, and it regains all Charges when it finishes a short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcane Evolution",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Biomancer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You use your knowledge of arcane biology to forcefully evolve living beings, using the rules detailed below:",
+				{
+					"type": "entries",
+					"name": "Modifying your Flesh",
+					"entries": [
+						"During a long rest, you can spend 1 hour using a set of leatherworker's tools to modify your body with two {@filter Modifications|optionalfeatures|feature type=LLAART:BioM} from the list on the following page. These Modifications last until you replace them during a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prerequisites",
+					"entries": [
+						"If a Modification has a prerequisite Artificer level, you can modify yourself with it when you meet that level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Modifications",
+					"entries": [
+						"At certain levels in this class, you can modify yourself with more Modifications at once: at 5th level (3), 10th level (4), and finally when you reach 15th level (5)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Biomancer Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Biomancer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell false life}, {@spell find familiar}"
+						],
+						[
+							"5th",
+							"{@spell alter self}, {@spell spider climb}"
+						],
+						[
+							"9th",
+							"{@spell haste}, {@spell life transference|xge}"
+						],
+						[
+							"13th",
+							"{@spell blight}, {@spell polymorph (alternate)|llspell}"
+						],
+						[
+							"17th",
+							"{@spell reincarnate}, {@spell skill empowerment|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Biomancer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in leatherworker's tools and Medicine. If you are already proficient with leatherworker's tools, you instead gain proficiency with another set of artisan's tools."
+			]
+		},
+		{
+			"name": "Biomancer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Biomancer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"While most artificers are content with mechanical invention, some see biology, the science of living things, as an area rife with potential. Biomancers are those who use their talents to supplement their own anatomy and create life. Combining necromancy and transmutation magic, Biomancers see all living things as prototypes that can be magically evolved.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Evolution|Alternate Artificer|LLAC|Biomancer|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Biomancer Spells|Alternate Artificer|LLAC|Biomancer|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Biomancer|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Biomancer",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You can attack twice, rather than once, when you take the Attack action on your turn. Moreover, you can cast one of your artificer cantrips in place of one of those attacks."
+			]
+		},
+		{
+			"name": "Biomancer's Homunculus",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Biomancer",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You can use the magic of your artifice to create a facsimile of life. You learn the Homunculus Servant Infusion, but it doesn't count against your total number of Infusions Known. However, you replace the required gem with 1 pound of organic matter, and the creature type of your Homunculus changes to a monstrosity.",
+				"Your Homunculus can heal others by grafting its flesh over wounds. As a bonus action, you order your Homunculus to touch a creature, sacrifice any number of its remaining hit points, restoring the same amount of hit points to the target.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Attack|Alternate Artificer|LLAC|Biomancer|LLAC|5|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Violent Regrowth",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Biomancer",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You can use your arcane knowledge to forcefully rearrange your biology. As a bonus action, you can expend a spell slot to replace one of your Modifications with another Modification.",
+				"In addition, your walking speed also increases by 10 feet."
+			]
+		},
+		{
+			"name": "Monstrous Homunculus",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Biomancer",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You have improved the process of creating your Homunculus. When you create a Homunculus Servant, you can choose for it to be Tiny, Small, or Medium in size, and it gains a single Modification of your choice without a level prerequisite.",
+				"At 15th level, your Homunculus' Modification can be any Modification with a prerequisite of 5th-level or lower.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Violent Regrowth|Alternate Artificer|LLAC|Biomancer|LLAC|10|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Master Biomancer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Biomancer",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You have become a master of arcane biology. Whenever you target a creature with one of your Biomancer Spells, you can grant one target of that spell temporary hit points equal to your Artificer level + your Intelligence modifier.",
+				"Finally, during a long rest, you can forgo one of your own Modifications to instead use leatherworker's tools to modify one willing creature of your choice who you touch."
+			]
+		},
+		{
+			"name": "Chronometer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Chronothief",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have learned to construct a wondrous device that marks you as a Chronothief. This device uses the rules below:",
+				{
+					"type": "entries",
+					"name": "Creating the Chronometer",
+					"entries": [
+						"During a long rest, you can spend 1 hour using jewler's tools to craft a Chonometer. It is a Tiny object resembling a timekeeping device of your choice, and it can be used as a spellcasting focus for Artificer spells.",
+						"You can only have one Chronometer at a time, and creating a second causes the magic of the first to instantly dispel."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infusions",
+					"entries": [
+						"Your Chronometer can bear one Infusion that is meant to be imbued in an arcane focus, ring, or diadem."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abilities",
+					"entries": [
+						"While you are holding your Chronometer, you can use an action to use one of the abilities below targeting a creature you can see within 60 feet. All of the Chronometer's abilities use your Artificer spellcasting and Spell save DC:"
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Ability",
+						"Description"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Accelerate",
+							"You increase the creature's speed by a number of feet equal to 5 times your Intelligence modifier (minimum 5 feet) until the beginning of your next turn."
+						],
+						[
+							"Decelerate",
+							"You force a creature to make a Charisma saving throw. On a failed save, its speed is 0 until the start of your next turn."
+						],
+						[
+							"Warp",
+							"You force a creature to make a Charisma saving throw. On a failed save, it switches places with you. It can choose to fail."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Chronothief Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Chronothief",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the Artificer levels noted in the table below. These do not count against your total number of Spells Known and cannot be switched upon gaining a level.",
+				"If your table uses Explorer's Guide to Wildemount, you can replace these spells with Dunamancy spells of the same level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell expeditious retreat}, {@spell feather fall}"
+						],
+						[
+							"5th",
+							"{@spell hold person}, {@spell misty step}"
+						],
+						[
+							"9th",
+							"{@spell haste}, {@spell slow}"
+						],
+						[
+							"13th",
+							"{@spell banishment}, {@spell dimension door}"
+						],
+						[
+							"17th",
+							"{@spell hold monster}, {@spell modify memory}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Chronothief",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with jeweler's tools. If you are already proficient in jeweler's tools, you instead gain proficiency with another set of artisan's tools.",
+				"In addition, you are always aware of the exact time on your home plane of existence. Once you spend a day on another plane you gain this benefit there as well."
+			]
+		},
+		{
+			"name": "Chronothief",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Chronothief",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"For those that pursue the magic of artifice, no area of study is too dangerous. Perhaps against their better judgment, some artificers choose to experiment with Chronomancy, the magic of time. Known as Chronothieves, these bold artificers are marked by their signature Chronometers, a wondrous object that they use to steal moments and adjust the flow of time.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Chronometer|Alternate Artificer|LLAC|Chronothief|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Chronothief Spells|Alternate Artificer|LLAC|Chronothief|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Chronothief|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Efficient Chronomancy",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Chronothief",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"Your understanding and control over time magic allows you to use your Chronometer more efficiently. When you use your action to use a Chronometer ability, you can use two abilities instead of one. They can be the same ability or different, and you can target multiple creatures or the same creature.",
+				"Your Chronometer also gains the abilities detailed below:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Ability",
+						"Description"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Age",
+							"You force a creature to make a Charisma saving throw. On a failure, it takes 2d6 necrotic damage and ages by 1 day."
+						],
+						[
+							"Rush",
+							"As a reaction, you add your Intelligence modifier (minimum of +1) to the initiative roll of a creature in range, or to yourself."
+						],
+						[
+							"Slip",
+							"When a target in range makes an attack roll, ability check, or saving throw, you can use your reaction to force it to re-roll the d20."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Time Transfer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Chronothief",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"When a creature fails its saving throw against Decelerate, you can use Accelerate on another creature in range as part of the same action. Moreover, when a creature fails it's saving throw against Age, you can grant another creature in range temporary hit points equal to the necrotic damage dealt."
+			]
+		},
+		{
+			"name": "Master Chronothief",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Chronothief",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You have mastered the wondrous magic stored within your Chronometer. As an action, you can use your Chronometer to cast the {@spell time stop} spell. Once you cast time stop in this way, you cannot do so again until you finish a long rest.",
+				"Starting at 17th level, you can expend a 5th-level spell slot to use your Chronometer to cast time stop this way again."
+			]
+		},
+		{
+			"name": "Composer Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Composer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell charm person}, {@spell thunderwave}"
+						],
+						[
+							"5th",
+							"{@spell shatter}, {@spell silence}"
+						],
+						[
+							"9th",
+							"{@spell beacon of hope}, {@spell fear}"
+						],
+						[
+							"13th",
+							"{@spell charm monster|xge}, {@spell dominate beast}"
+						],
+						[
+							"17th",
+							"{@spell destructive wave}, {@spell dominate person}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Musical Apparatus",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Composer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have designed a wondrous musical instrument unique to you, your Musical Apparatus, which uses the following rules:",
+				{
+					"type": "entries",
+					"name": "Crafting the Apparatus",
+					"entries": [
+						"During a long rest, you can spend 1 hour using smith's tools to create your Musical Apparatus. You can only have one Apparatus, and crafting another causes the previous Apparatus to lose its magic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infusions",
+					"entries": [
+						"Your Apparatus can bear a single Infusion meant for a musical instrument or arcane focus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abilities",
+					"entries": [
+						"Your Apparatus is a musical instrument that only you are proficient with, and it can be used as the spellcasting focus for your Artificer spells.",
+						"While you are wielding the Musical Apparatus you can cast the thunderclap* Cantrip, so long as you use your Apparatus as a spellcasting focus. You can use an action on your turn to produce one of the effects below with your Apparatus:"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Raucous Blast",
+					"entries": [
+						"You make a ranged spell attack against a creature that can hear you within 60 feet. On hit, it takes 1d10 thunder damage and the target is deafened until the beginning of your following turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ringing Strike",
+					"entries": [
+						"You make a melee spell attack against a target you can see within 5 feet. On hit, the target takes thunder damage equal to 1d10 + your Intelligence modifier. If you hold our Apparatus with two hands, the d10 becomes a d12."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Composer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with smith's tools and in Performance. If you are already proficient with smith's tools, you instead gain proficiency with another set of artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "Composer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Composer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Behind every great musician, every standing ovation, every sold-out concert, there is most often Composer who put quill to parchment and penned the notes. These great minds are unlike other bards and entertainers, Composers take a more cerebral approach to music. They are masters of patterns and repetition, and when they apply their analytical mind to a problem it is only a matter of time before they find a solution.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Composer Spells|Alternate Artificer|LLAC|Composer|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Musical Apparatus|Alternate Artificer|LLAC|Composer|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Composer|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Thunderous Note",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Composer",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"Whenever you deal thunder damage with your Apparatus you can expend a spell slot to knock the target back with a burst of thunderous sound. It is knocked back 10 feet for a 1st-level slot, plus another 10 feet for each slot level above 1st. This distance is halved for each size the target is above Large."
+			]
+		},
+		{
+			"name": "Combat Virtuoso",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Composer",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"Whenever you use your action to produce a Raucous Blast or Ringing Strike with your Apparatus, you can produce two of those effects. Moreover, if you use your action to cast a spell, you can produce one of those effects as a bonus action.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Thunderous Note|Alternate Artificer|LLAC|Composer|LLAC|5|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Resonant Frequency",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Composer",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"As an action, you can play a note on your Apparatus to cause a number of creatures of your choice (up to your Intelligence modifier) within 30 feet of you to resonate with undetectable vibrations for 1 hour. The next time one of these creatures is hit by a melee attack, its attacker takes 2d8 thunder damage and cannot take reactions until the start of its next turn.",
+				"You may use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Master Composer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Composer",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You have mastered the theory and applications of musical artifice, a true virtuoso. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are immune to thunder damage and being deafened.",
+						"The knock-back distance of Thunderous Note is doubled.",
+						"The damage of Resonant Frequency increases to 4d8.",
+						"If you spend at least 1 minute practicing with a musical instrument, you gain proficiency with that instrument."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dungeoncraft",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Dungeoneer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You are a master at dungeoneering, and use your knowledge to craft Dungeoncraft Objects, using the following rules:",
+				{
+					"type": "entries",
+					"name": "Crafting Dungeoncraft Objects",
+					"entries": [
+						"During a long rest, you can spend 1 hour using carpenter's tools to craft a number of the Dungeoncraft Objects from the table equal to twice your Intelligence modifier (minimum 2). These objects appear as non-magical, but turn to ash at the end of your next long rest.",
+						"You can also craft normal versions of Dungeoncraft Objects in one-quarter of the normal time and for half the usual cost."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abilities",
+					"entries": [
+						"The Objects can be used as a spellcasting focus for your Artificer spells, and if one of these Objects forces a creature to make a saving throw, it uses your Spell save DC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Using your Objects",
+					"entries": [
+						"You can take the Use an Object action as a bonus action, but you must use a Dungeoncraft Object."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infusions",
+					"entries": [
+						"Dungeoncraft Objects can bear one Infusion for an item that it could be used as an improvised version of."
+					]
+				},
+				{
+					"type": "table",
+					"colStyles": [
+						"col-4 text-center",
+						"col-4 text-center"
+					],
+					"rows": [
+						[
+							"{@item acid (vial)|phb|acid (1 vial)}",
+							"{@item Ladder (10-foot)|phb}"
+						],
+						[
+							"{@item Alchemist's Fire (flask)|phb|Alchemist's Fire (1 flask)}",
+							"{@item Lock|phb} and key"
+						],
+						[
+							"{@item Ball bearings (bag of 1,000)|phb}",
+							"{@item Manacles|phb} and key"
+						],
+						[
+							"{@item Block and tackle|phb}",
+							"{@item oil (flask)|phb|oil (1 flask)}"
+						],
+						[
+							"{@item caltrops (bag of 20)|phb|caltrops (200)}",
+							"{@item piton|phb|pitons (10)}"
+						],
+						[
+							"{@item chain (10 feet)|phb|chain (25 feet)}",
+							"{@item portable ram|phb}"
+						],
+						[
+							"{@item crowbar|phb}",
+							"{@item hempen rope (50 feet)|phb|rope (50 feet)}"
+						],
+						[
+							"{@item grappling hook|phb}",
+							"{@item sledgehammer|phb}"
+						],
+						[
+							"{@item hunting trap|phb}",
+							"{@item torch|phb|torches (5)}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Dungeoneer Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Dungeoneer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell alarm}, {@spell unseen servant}"
+						],
+						[
+							"5th",
+							"{@spell arcane lock}, {@spell knock}"
+						],
+						[
+							"9th",
+							"{@spell glyph of warding}, {@spell leomund's tiny hut}"
+						],
+						[
+							"13th",
+							"{@spell guardian of faith}, {@spell otiluke's resilient sphere}"
+						],
+						[
+							"17th",
+							"{@spell passwall}, {@spell wall of stone}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Dungeoneer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in both carpenter's tools and mason's tools. If you are already proficient with either set of tools, you instead gain proficiency with another set of artisan's tools of your choice.",
+				"In addition, you gain proficiency with improvised weapons and can use your Intelligence, in place of Strength or Dexterity, for all of your attack and damage rolls with improvised weapons. Dungeoneers are known for crafting strange weapons made from adventuring supplies."
+			]
+		},
+		{
+			"name": "Dungeoneer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Dungeoneer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"While most artificers focus on developing a single invention, Dungeoneers use their ingenuity to weaponize the mundane. They use basic adventuring gear to construct defensive traps, puzzles, and structures that can repel all but the hardiest of adventurers and monsters. Dungeoneers will set out for an adventure to analyze the traps that guard tombs and temples.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dungeoncraft|Alternate Artificer|LLAC|Dungeoneer|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dungeoneer Spells|Alternate Artificer|LLAC|Dungeoneer|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Dungeoneer|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Dungeoneer",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can take the Use an Object action in place of one or both of these attacks.",
+				"Finally, damage dealt by your Dungeoncraft Objects counts as magical for overcoming resistances and immunities."
+			]
+		},
+		{
+			"name": "Arcane Improvisation",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Dungeoneer",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You have a unique way of making things work. When you cast a Dungeoneer Spell, you can replace the material component with a Dungeoncraft Object in place of expending a spell slot, but this Dungeoncraft Object is consumed by the spell.",
+				"You can cast each Dungeoncraft Spell this way once, then you must complete a long rest before you can do so again."
+			]
+		},
+		{
+			"name": "Master Dungeoneer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Dungeoneer",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You are a deadly master of dungeon design. You can spend 10 minutes using mason's tools to produce the effect of {@spell passwall} or {@spell wall of stone} without expending a spell slot. When you cast the spells in this way, they do not require your concentration, but the structures turn to ash at the following dawn.",
+				"Finally, creatures have disadvantage on all saving throws made to resist the effects your Dungeoncraft Objects."
+			]
+		},
+		{
+			"name": "Enhanced Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Enhanced",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell expeditious retreat}, {@spell thunderous smite (alternate)|llspell}"
+						],
+						[
+							"5th",
+							"{@spell alter self}, {@spell spider climb}"
+						],
+						[
+							"9th",
+							"{@spell blinding smite (alternate)|llspell}, {@spell haste}"
+						],
+						[
+							"13th",
+							"{@spell freedom of movement}, {@spell greater invisibility}"
+						],
+						[
+							"17th",
+							"{@spell banishing smite (alternate)|llspell}, {@spell skill empowerment|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Hidden Blade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Enhanced",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have modified one of your arms with a Hidden Blade that can be extended or retracted as a bonus action. This Hidden Blade is a simple weapon with the finesse property, and on hit, it deals 1d10 piercing or slashing damage.",
+				"Your Hidden Blade is considered a magical weapon, but it can still bear one of your Infusions. It can also be used as the spellcasting focus for your Artificer spells when extended."
+			]
+		},
+		{
+			"name": "Modular Physique",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Enhanced",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You can improved your physical form with mechanical and arcane enhancements. Your body itself counts as individual items for the purposes of Infusions: your head (helmet), torso (armor), arms (gauntlets), and legs (boots). Each of these body parts can bear one Infusion.",
+				"These modifications have also hardened your exterior. If you are not wearing armor, your Armor Class is equal to 10 + your Dexterity modifier + your Intelligence modifier. You can use a shield and still gain this benefit, and any Infusions incorporated into your torso benefit this AC."
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Enhanced",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with leatherworker's and smith's tools. If you are already proficient with these tools, you instead gain proficiency with a set of artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "Enhanced",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Enhanced",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Where most artificers develop objects of wondrous power, those known as Enhanced bring their great intellect to bear by modifying their own bodies. They replace and improve their own limbs with arcane enhancements, forever striving to create a more perfect self. Enhanced artificers are known for their impressive, and deadly, combat Enhancements.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Enhanced Spells|Alternate Artificer|LLAC|Enhanced|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hidden Blade|Alternate Artificer|LLAC|Enhanced|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Modular Physique|Alternate Artificer|LLAC|Enhanced|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Enhanced|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Enhanced",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, when you take the Attack action. Also, when you use your action to cast a spell, you can make one Hidden Blade attack as a bonus action."
+			]
+		},
+		{
+			"name": "Bonus Enhancements",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Enhanced",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You find it easier to innovate and invent when working with your own body. Your number of Infusions Known increases by 1, but this bonus Infusion must be applied to part of your body with your Modular Physique feature.",
+				"Your total number of Infusions Known increases by 1 again at 10th and 15th level, but both of these additional Infusions must also be applied to part of your body with your Modular Physique feature as well.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Attack|Alternate Artificer|LLAC|Enhanced|LLAC|5|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Streamlined Integration",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Enhanced",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your modifications perform better than the original parts. For each part of your body (including your Hidden Blade) bearing an Infusion you gain a +1 bonus to Strength, Dexterity, and Constitution-based ability checks (maximum of +5), and your walking speed increases by 5 feet (maximum of 25 feet).",
+				"The damage of your Hidden Blade also increases to 2d10."
+			]
+		},
+		{
+			"name": "Master Enhanced",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Enhanced",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You have finally achieved the goal of all Enhanced Artificers, ascension beyond your mortality. You gain the benefits below:",
+				{
+					"type": "list",
+					"items": [
+						"You are considered both Humanoid and Construct.",
+						"You no longer need to eat, sleep, or breathe, and you no longer age. To gain the benefits of a long rest you must perform four hours of mechanical maintenance on yourself or your body will fall into disrepair.",
+						"You are resistant to bludgeoning, piercing, and slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcane Armament",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Forgewright",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your battlefield research has resulted in the invention of your signature Arcane Armament, which uses the following rules:",
+				{
+					"type": "entries",
+					"name": "Forging the Armament",
+					"entries": [
+						"During a long rest, you can spend 1 hour using smith's tools to reforge one melee weapon that you are holding into an Arcane Armament. You can only have one Arcane Armament at a time, and forging another causes any previous Armaments to revert to their normal state."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Properties",
+					"entries": [
+						"When you are wielding the Arcane Armament it counts as a magical weapon, and you can use Intelligence, in place of Strength or Dexterity, for attack and damage rolls. It also gains the Thrown (20/60) property, and after you make a thrown attack with it, it instantly returns to your hand. Last, it can be used as a Spellcasting focus for Artificer spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infusions",
+					"entries": [
+						"Your Arcane Armament can bear one Infusion, even though it is a magic weapon. Your number of Infusions Known also increases by 1, but this bonus Infusion must be applied to your Arcane Armament."
+					]
+				}
+			]
+		},
+		{
+			"name": "Forgewright Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Forgewright",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell compelled duel}, {@spell zephyr strike|xge}"
+						],
+						[
+							"5th",
+							"{@spell cloud of daggers}, {@spell misty step}"
+						],
+						[
+							"9th",
+							"{@spell blinding smite (alternate)|llspell}, {@spell conjure barrage}"
+						],
+						[
+							"13th",
+							"{@spell fire shield}, {@spell staggering smite (alternate)|llspell}"
+						],
+						[
+							"17th",
+							"{@spell conjure volley (alternate)|llspell}, {@spell steel wind strike (alternate)|llspell}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Forgewright",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with {@filter martial weapons|items|source=phb|category=basic|type=martial weapon} and {@item smith's tools|phb}. If you're already proficient with smith's tools, you instead gain proficiency with another set of {@item artisan's tools|phb} of your choice."
+			]
+		},
+		{
+			"name": "Forgewright",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Forgewright",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"While most artificers are primarily inventors that take up a life of adventure to test experiments in the field, those known as Forgewrights seek out battle for its own sake. Reveling in the thrill of combat, they combine their innovation with their skill as warriors to forge their signature Arcane Armament.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Armament|Alternate Artificer|LLAC|Forgewright|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Forgewright Spells|Alternate Artificer|LLAC|Forgewright|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Forgewright|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Forgewright",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the Attack action. Moreover, if you use your action to cast a spell, you can make an Arcane Armament attack as a bonus action."
+			]
+		},
+		{
+			"name": "Arcane Jolt",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Forgewright",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"When you hit a target with your Arcane Armament you can expend a spell slot to deal additional force damage to the target. The extra damage is 2d6 for a 1st-level spell slot, plus 1d6 for each spell level higher than 1st, to a maximum of 6d6.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Attack|Alternate Artificer|LLAC|Forgewright|LLAC|5|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Arcane Surge",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Forgewright",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"The magic of your Arcane Armament empowers its strikes. Whenever you hit with an Arcane Armament attack you can deal a bonus 1d8 force damage on hit. Each time you attack with your Arcane Armament, you can forgo this potential bonus damage to instead make your attack with advantage."
+			]
+		},
+		{
+			"name": "Master Forgewright",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Forgewright",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You have become a master Forgewright and can extend the power of your Arcane Armament to others. As a bonus action, you can flood a number of weapons equal to your Intelligence modifier (minimum of 1) within 30 feet, one of which can be your Arcane Armament, with raw power. For 1 minute, these weapons deal a bonus 1d8 force damage on hit.",
+				"Once you use this feature you must finish a long rest before you can use it again. If you have no uses left, you can expend a spell slot of 3rd-level or higher to use it again."
+			]
+		},
+		{
+			"name": "Arcane Firearm",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Gunslinger",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your groundbreaking research has led to the development of your signature Arcane Firearm, which uses the rules below:",
+				{
+					"type": "entries",
+					"name": "Crafting your Firearm",
+					"entries": [
+						"During the course of a long rest, you can spend 1 hour using smith's tools to craft one Arcane Firearm. It is only usable by you, and crafting another causes the magic of the previous Firearm to instantly dispel."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Properties",
+					"entries": [
+						"Your Arcane Firearm is a martial weapon you are proficient with. It has the ranged (80/320) and loading properties, it deals 1d10 force damage on hit, and you can use your Intelligence, in place of Dexterity for its attack and damage rolls. Finally, you can use it as a spellcasting focus for Artificer spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Using your Objects",
+					"entries": [
+						"You can take the Use an Object action as a bonus action, but you must use a Dungeoncraft Object."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infusions",
+					"entries": [
+						"Your Firearm can bear one Infusion for a ranged weapon, metal rod, or Tiny object."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Upgrades",
+					"entries": [
+						"Upon creation, your Arcane Firearm gains two {@filter Upgrades|optionalfeatures|feature type=LLAART:GunU} of your choice from the list of Upgrades at the end of this Specialization.",
+						"At certain Artificer levels, your Arcane Firearm gains more Upgrades: at 5th level (3), 10th level (4), and finally at 15th level (5)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gunslinger Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Gunslinger",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell chaos bolt|xge}, {@spell guiding bolt}"
+						],
+						[
+							"5th",
+							"{@spell melf's acid arrow}, {@spell Aganazzar's Scorcher|xge}"
+						],
+						[
+							"9th",
+							"{@spell conjure volley (alternate)|llspell}, {@spell lightning arrow (alternate)|llspell}"
+						],
+						[
+							"13th",
+							"{@spell banishment}, {@spell fire shield}"
+						],
+						[
+							"17th",
+							"{@spell skill empowerment|xge}, {@spell swift quiver (alternate)|llspell}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Gunslinger",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with alchemist's supplies and smith's tools. If you are already proficient with these tools, you gain proficiency with another set of artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "Gunslinger",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Gunslinger",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have dedicated your great intellect to the development of a one-of-a-kind weapon of war, the Arcane Firearm. Marked by this signature weapon, you enter the fray with the swagger and guile only found in one kind of Artificer, the Gunslinger.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Firearm|Alternate Artificer|LLAC|Gunslinger|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gunslinger Spells|Alternate Artificer|LLAC|Gunslinger|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Gunslinger|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Increased Capacity",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Gunslinger",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You have improved your Firearm for efficient use in combat. You ignore the Loading property of your Arcane Firearm, but you must use your bonus action to reload it. You can make up to six attacks with your Firearm before you must reload."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Gunslinger",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a spell, you can make one Arcane Firearm attack as a bonus action on that turn.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Increased Capacity|Alternate Artificer|LLAC|Gunslinger|LLAC|5|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Quickdraw",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Gunslinger",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You always seem to shoot first. You can add your Intelligence modifier (minimum of +1) to your initiative rolls. Also, if you roll initiative and are not surprised or incapacitated, you can use a reaction to make one attack with your Arcane Firearm."
+			]
+		},
+		{
+			"name": "Overcharge",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Gunslinger",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You can imbue your Arcane Firearm's attacks with additional explosive magic. Once per turn when you hit a target with an attack from your Arcane Firearm, you can expend a spell slot to cause that attack to deal bonus force damage to the target.",
+				"This bonus damage is 2d6 for a 1st-level spell slot, plus an additional 1d6 force damage for each slot level above 1st.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Quickdraw|Alternate Artificer|LLAC|Gunslinger|LLAC|10|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Master Gunslinger",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Gunslinger",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"Your skill with your Arcane Firearm is nearly supernatural in battle. You can use a bonus action on your turn to steady your breathing, granting you advantage on any attacks you make with your Arcane Firearm until the end of your current turn.",
+				"Finally, once per turn when you make an attack with your Arcane Firearm with advantage, you can forgo the advantage to instead make one additional Arcane Firearm attack. You cannot gain advantage on this bonus attack."
+			]
+		},
+		{
+			"name": "Junker Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Junker",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell ensnaring strike (alternate)|llspell}, {@spell grease}"
+						],
+						[
+							"5th",
+							"{@spell enlarge/reduce}, {@spell heat metal}"
+						],
+						[
+							"9th",
+							"{@spell sonic wave|llspell}, {@spell erupting earth|xge}"
+						],
+						[
+							"13th",
+							"{@spell Otiluke's resilient sphere}, {@spell summon construct|tce}"
+						],
+						[
+							"17th",
+							"{@spell animate objects}, {@spell wall of force (alternate)|llspell}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Junker's Rig",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Junker",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your mechanical research has led to the construction of your {@creature Rig|LLAC|Rig}. The Rig's game statistics are found in the Rig stat block, which uses your Proficiency Bonus (PB), your Artificer Spell save DC, and your Intelligence modifier (INT). You determine your Rig's appearance, and it uses the rules detailed below:",
+				{
+					"type": "entries",
+					"name": "Constructing your Rig",
+					"entries": [
+						"During a long rest, you can spend 1 hour using smith's tools to construct your Rig. You can only have one Rig at a time. Crafting another causes any previous Rigs to fall into disrepair and become totally unusable.",
+						"You can use tinker's or smith's tools to repair any damage to your Rig. For every 10 minutes you spend on repairs, your Rig regains hit points equal to your Artificer level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Piloting your Rig",
+					"entries": [
+						"As a bonus action, a Medium or smaller creature can climb into your Rig so long as it is within 5 feet. While inside, it is considered its Pilot. The Rig's Pilot cannot be targeted by attacks, spells, or other abilities, and they use the Rig's stat block. The Rig can be used as the spellcasting focus for your Artificer spells while you are its Pilot.",
+						"The Pilot can exit the Rig as a bonus action, reappearing in an unoccupied space within 5 feet. If your Rig is reduced to 0 hit points it is destroyed, the Pilot is ejected, and lands prone in an unoccupied space within 5 feet. If your Rig is destroyed, you can spend 1 hour, which can be during a short rest, using smith's tools to restore your Rig to its maximum hit points."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infusions",
+					"entries": [
+						"Your Rig can bear one Infusion meant for a suit of armor, gauntlets, boots, helmet, or a melee weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Collapsible Rig",
+					"entries": [
+						"While your Rig is a Large Construct, you have designed it to be collapsible for ease of transport. As a bonus action, you can collapse, or expand, your Rig. While it is collapsed, the Rig can be worn as a backpack. However, its wearer must have a Strength of 13 or it is encumbered."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Junker",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with smith's tools and land vehicles. If you are already proficient in smith's tools you instead gain proficiency in a set of artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "Junker",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Junker",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Junker Artificers specialize in the creation of hulking constructs known as Rigs. Climbing inside of their signature Rig, these Artificers lay waste to any foes who stand against them and tower over their allies. Junkers set out on the path of adventure to push their Rig to its limits in an effort to endlessly improve upon its design.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Junker Spells|Alternate Artificer|LLAC|Junker|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Junker's Rig|Alternate Artificer|LLAC|Junker|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Junker|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Modular Rig",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Junker",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"Your Junker now counts as multiple individual items for your Infusions: its armor (torso), boots (legs), helmet (head), and the limbs it uses for Slam (melee weapon or gauntlet). Each of these individual items can bear one of your Infusions."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Junker",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a spell, you can make one Arcane Firearm attack as a bonus action on that turn.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Modular Rig|Alternate Artificer|LLAC|Junker|LLAC|5|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Hulking Strikes",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Junker",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"The power of your Rig knocks foes off their feet. When your Rig hits a target equal to its size or smaller with its Slam, it can choose to knock it back 10 feet in a straight line, where it must succeed on a Strength saving throw or fall prone."
+			]
+		},
+		{
+			"name": "Master Junker",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Junker",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You have improved your Rig so that it rivals the great titans of legend, marking you as a master of Junker artifice. Your Rig now uses the {@creature Titanic Rig|LLAC|Titanic Rig} stat block."
+			]
+		},
+		{
+			"name": "Automatons",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Machinist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learned to craft uniquely specialized mechanical servants known as {@creature Automaton|LLAC|Automaton}. Your Automatons use the rules below:",
+				{
+					"type": "entries",
+					"name": "Crafting Automatons",
+					"entries": [
+						"During a long rest, you can spend 1 hour using smith's tools to create a number of Automatons equal to your Intelligence modifier (minimum of 1). They are inactive and are easily carried or worn until activated by you.",
+						"Your Automatons use the Automaton stat block, which uses your proficiency bonus (PB) and Intelligence modifier (INT).",
+						"As an action, you can use smith's tools and expend a spell slot to create an inactive Automaton. However, the maximum number of Automatons you can have at one time equals your Intelligence modifier (minimum of 1). Creating an Automaton while at your maximum causes the oldest to be destroyed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Model",
+					"entries": [
+						"Whenever you craft an Automaton, you choose its {@filter Model from the list|optionalfeatures|feature type=LLAART:AutoM} at the end of this Specialization. Its Model determines its main ability. Once chosen it can't be changed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"As a bonus action, you can activate an Automaton and throw it to an unoccupied space you can see within 30 ft. While active, your Automaton acts during your turn. It does nothing unless you use your bonus action to order it to move up to its speed and make a Slam attack or to use the action determined by its Model. Automatons cannot use the normal actions available to other creatures, only the actions detailed by its Model or a Slam attack. You can order an Automaton to use its Model action or to make a Slam attack as part of the same bonus action that you use to activate it.",
+						"Your Automaton remains active for 1 hour, or until you use an action to touch it and deactivate it, or it is destroyed. You can only have one Automaton active. If you activate a second Automaton, the first instantly deactivates in its space."
+					]
+				}
+			]
+		},
+		{
+			"name": "Machinist Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Machinist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell color spray}, {@spell unseen servant}"
+						],
+						[
+							"5th",
+							"{@spell cloud of daggers}, {@spell cordon of arrows (alternate)|llspell}"
+						],
+						[
+							"9th",
+							"{@spell spirit guardians}, {@spell tiny servant|xge}"
+						],
+						[
+							"13th",
+							"{@spell mordenkainen's faithful hound}, {@spell summon construct|tce}"
+						],
+						[
+							"17th",
+							"{@spell animate objects}, {@spell awaken}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Machinist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with {@item smith's tools|phb}. If you are already proficient with smith's tools, you instead gain proficiency with another set of {@item artisan's tools|phb} of your choice."
+			]
+		},
+		{
+			"name": "Machinist",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Machinist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"While some artificers spend their lives perfecting one solitary creation, Machinist artificer value quantity over quality. They are known for creating their signature Automatons, small clockwork men that are created for a single, but temporary purpose. Armed with their tools, and an army of strange and wondrous servants, Machinists are ready for any challenge.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Automatons|Alternate Artificer|LLAC|Machinist|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Machinist Spells|Alternate Artificer|LLAC|Machinist|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Machinist|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Improved Designs",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Machinist",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"Your ability to design complex constructs has grown. When you create an Automaton it gains the benefits of two{@filter Models|optionalfeatures|feature type=LLAART:AutoM} of your choice from the list at the end of this Specialization.",
+				"Moreover, your Automaton's attacks count as magical for the sake of overcoming resistances and immunities."
+			]
+		},
+		{
+			"name": "Automated Army",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Machinist",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"Your ability to control your signature Automatons has greatly increased. You can have two Automatons active at once, and you can use a single bonus action to order both Automatons to move and use the action determined by their Model.",
+				"When you reach 15th level in this class, you can have up to three Automatons active at once, and you can issue orders to all three Automatons with a single bonus action.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Improved Designs|Alternate Artificer|LLAC|Machinist|LLAC|5|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Efficient Construction",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Machinist",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your signature magic provides quantity of Automatons over quality. When you expend a spell slot to create an Automaton, you create a number of inactive Automatons equal to the level of the spell slot you expended. You cannot use this feature to surpass the limit on your total number of Automatons."
+			]
+		},
+		{
+			"name": "Master Machinist",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Machinist",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You are a master Machinist and have become but one among many with your army of Automatons. When you are forced to make a saving throw or are hit by an attack, you can use your reaction to instantly switch places with an active Automaton within 60 feet, causing that Automaton to become the target of the triggering effect or attack.",
+				"Finally, your Automatons are resistant to all non-magical bludgeoning, piercing, and slashing damage."
+			]
+		},
+		{
+			"name": "Autocycle",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Mechanic",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your obsession with motorized machinery has borne fruit in the construction of an Autocycle, which uses the rules below:",
+				{
+					"type": "entries",
+					"name": "Constructing your Autocycle",
+					"entries": [
+						"During the course of a long rest, you can spend 1 hour with smith's tools to construct an Autocycle. It is a Medium vehicle with an appearance of your choice, but its appearance has no effect on its statistics. You can only have one Autocycle at a time. Constructing another causes the first to fall into disrepair and become unusable.",
+						"You can use tinker's or smith's tools to repair any damage to your Autocycle. For every 10 minutes you spend on repairs, your Autocycle regains hit points equal to your Artificer level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Properties",
+					"entries": [
+						"Your Autocycle is a mount which can only be controlled by you. It uses the Autocycle stat block on the next page, which uses your Intelligence modifier (INT), proficiency bonus (PB), and Artificer Spell save DC. While riding it, it can be used as a spellcasting focus for your Artificer spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Riding the Autocycle",
+					"entries": [
+						"While mounted on the Autocycle, it acts during your turn, you use its speed instead of yours, and you can use an action to use the actions from its stat block. If a creature attacks your Autocycle while you are riding it, you can use a reaction to cause the attack to target you instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infusion",
+					"entries": [
+						"Your Autocycle can bear one Infusion meant for boots (wheels), armor (chassis), or a melee weapon (ram)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mechanic Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Mechanic",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell grease}, {@spell zephyr strike|xge}"
+						],
+						[
+							"5th",
+							"{@spell enlarge/reduce}, {@spell heat metal}"
+						],
+						[
+							"9th",
+							"{@spell haste}, {@spell thunder step|xge}"
+						],
+						[
+							"13th",
+							"{@spell freedom of movement}, {@spell fire shield}"
+						],
+						[
+							"17th",
+							"{@spell creation}, {@spell steel wind strike (alternate)|llspell}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Roadster",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Mechanic",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your experience has given you special resilience against the hazards of your motorized inventions. You can't be knocked from a vehicle against your will while you are conscious.",
+				"In addition, once per turn when you take bludgeoning, fire, piercing, slashing, or thunder damage, you can use a reaction to reduce the damage you take by your Intelligence modifier."
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Mechanic",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with smith's tools and land vehicles. If you are already proficient with smith's tools or land vehicles you gain proficiency in a set of artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "Mechanic",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Mechanic",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Mechanics channel an overwhelming obsession with arcane motors to construct powerful mechanical vehicles. Marked by their unquenchable need for speed, these Artificers draw on their adventuring experiences to construct and improve on a wondrous Autocycle, their one-of-a-kind motorized invention.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Autocycle|Alternate Artificer|LLAC|Mechanic|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mechanic Spells|Alternate Artificer|LLAC|Mechanic|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Roadster|Alternate Artificer|LLAC|Mechanic|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Mechanic|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Afterburn",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Mechanic",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"Once per turn, when you are riding your Autocycle and move within 5 feet of another creature, you can force it to make a Dexterity saving throw. On a failed save, it takes fire damage equal to 1d10 + your Intelligence modifier and that creature cannot target you with an opportunity attack on this turn.",
+				"Your Autocycle can now bear up to two Medium creatures (or three Small creatures), and up to 100 lbs. of cargo."
+			]
+		},
+		{
+			"name": "Expert Rider",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Mechanic",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your Autocycle and your ability to drive it have increased. You gain the following benefits while riding on your Autocycle:",
+				{
+					"type": "list",
+					"items": [
+						"Your Autocycle's movement ignores all difficult terrain.",
+						"Opportunity attacks against your Autocycle, or creatures riding on your Autocycle, are made with disadvantage.",
+						"When you cast an Artificer spell with a target of self, you can also grant your Autocycle the benefits of that spell.",
+						"When you move within 5 feet of a friendly creature, it can use its reaction to mount your Autocycle if there is room."
+					]
+				}
+			]
+		},
+		{
+			"name": "Master Mechanic",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Mechanic",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You are a master of arcane motorization, and have upgraded your Autocycle into a vehicle of mythic ability. Your Autocycle gains a flying speed equal to its walking speed and can hover. Creatures riding on your Autocycle also cannot be targeted by opportunity attacks while the Autocycle is moving.",
+				"Finally, the damage of your Afterburn feature increases to 2d10, and you can use it whenever you move past a creature on your turn. However, you can only force each creature to make this saving throw once per turn."
+			]
+		},
+		{
+			"name": "Arcane Strings",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Puppeteer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have learned to craft your signature spool of Arcane Strings which use the rules detailed here:",
+				{
+					"type": "entries",
+					"name": "Crafting the Spool",
+					"entries": [
+						"During a long rest, you can spend 1 hour using weaver's tools to craft a spool of Arcane Strings. It is a Tiny spool of thread you can wield as a whip, you are proficient with it, and it can be a spellcasting focus for Artificer spells.",
+						"You can only have one spool of Arcane Strings, and creating a second spool of Strings causes the magic of the previous spool to be instantly dispelled. Only you can wield your Arcane Strings in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infusions",
+					"entries": [
+						"Your Arcane Strings are always infused with the Wondrous Whip Infusion, but this doesn't count against your total number of Infusions Known, and it cannot be replaced."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abilities",
+					"entries": [
+						"While wielding your spool of Arcane Strings, you gain the features below, which can target any willing creature you can see within 30 feet. When you use these abilities, your Arcane Strings fly out and attach to your target, then return."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Ability",
+						"Description"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Correct",
+							"If a creature misses with a melee attack, you can use your reaction to have it repeat its attack against the same target."
+						],
+						[
+							"Guide",
+							"If a creature makes an ability check with a skill you are proficient in, you can add your Intelligence modifier to its roll as a reaction"
+						],
+						[
+							"Move",
+							"As a bonus action, you move the attached creature up to half its walking speed. This does not provoke opportunity attacks."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Puppeteer Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Puppeteer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell ensnaring strike (alternate)|llspell}, {@spell entangle}"
+						],
+						[
+							"5th",
+							"{@spell crown of madness}, {@spell hold person}"
+						],
+						[
+							"9th",
+							"{@spell hypnotic pattern (alternate)|llspell}, {@spell slow}"
+						],
+						[
+							"13th",
+							"{@spell dominate beast}, {@spell grasping vine}"
+						],
+						[
+							"17th",
+							"{@spell dominate person}, {@spell hold monster}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Puppeteer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with weaver's tools and Sleight of Hand. If you are already proficient with weaver's tools, you gain proficiency with another set of artisan's tools."
+			]
+		},
+		{
+			"name": "Puppeteer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Puppeteer",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Though all artificers have their quirks, Puppeteers tend to be the strangest subset of arcane inventors. They dedicate their research and intellect towards mastery of manipulation and control of other creatures through the use of their Marionette Strings. Often found literally pulling the strings from behind the scenes, these strange artificers prefer to empower their allies rather than risk their own lives on the front lines.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Strings|Alternate Artificer|LLAC|Puppeteer|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Puppeteer Spells|Alternate Artificer|LLAC|Puppeteer|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Puppeteer|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Skillful Strings",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Puppeteer",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"The magic and your skill with your Arcane Strings grows. You gain the following additional Arcane String features:",
+				{
+					"type": "entries",
+					"name": "Channel",
+					"entries": [
+						"You cast a spell and have it originate from a target in range. If it requires concentration, you concentrate on it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Strike",
+					"entries": [
+						"When a creature takes the Attack action, you can use a reaction to cause it to make one additional attack as part of its action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nimble Fingers",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Puppeteer",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your ability to manipulate others via your Arcane Strings is truly a marvel. You gain one additional reaction each round, but it can only be used to use an Arcane Strings ability. An effect can only trigger one of your reactions.",
+				"Additionally, the range of your Arcane Strings, and all of their abilities, increases to 60 feet."
+			]
+		},
+		{
+			"name": "Master Puppeteer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Puppeteer",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You are an unquestioned master Puppeteer. You can use your Arcane Strings to cast the {@spell Otto's Irresistible Dance} spell. Once you do so, you cannot cast it again until you finish a long rest.",
+				"Starting at 17th level, you can expend a 5th-level spell slot and use your Arcane Strings to cast {@spell Otto's Irresistible Dance} again."
+			]
+		},
+		{
+			"name": "Reanimated Thrall",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You use necromantic artifice to restore a facsimile of life to a slain foe, reanimating it as your Thrall, using the rules here:",
+				{
+					"type": "entries",
+					"name": "Reanimating a Thrall",
+					"entries": [
+						"You can use leatherworker's tools to perform a 1-minute ritual on a creature you touch that has died within the last 8 hours. At the end of this ritual, it rises as your Thrall. You can only have one Thrall at a time, and if you raise another Thrall, any previous Thralls die instantly. Once a creature is reanimated as your Thrall, you cannot reanimate that creature as a Thrall again after it dies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Potential Thralls",
+					"entries": [
+						"Your artifice only allows you to raise Beasts, Humanoids, and Monstrosities as your Thralls, and the strength of the creatures you can raise is limited by their Challenge Rating. You can raise one of the above creatures as your Thrall if the creature's Challenge Rating is equal to your Artificer level divided by three, rounded down."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thrall Statistics",
+					"entries": [
+						"Your Thrall is mindless and follows you with absolute loyalty. It uses the stat block it had in life, but it gains the Undead creature type in addition to its type, it has no Hit Dice, and it gains no benefits from short or long rests. When you reanimate a creature as your Thrall, it is restored to full health and abilities as if it completed a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"In combat, your Thrall acts on your turn. It can move and use its reaction on its own, but it will only take the Dodge action on its turn unless you use your bonus action to command it to take one of the actions from its stat block or another action. If you are incapacitated, your Thrall will act to defend you, but it will take no further actions.",
+						"If your Thrall has the ability to cast spells, you must expend one of your spell slots when you order it to cast one of its spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Reanimator Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell false life}, {@spell longstrider}"
+						],
+						[
+							"5th",
+							"{@spell gentle repose}, {@spell locate creature (alternate)|llspell}"
+						],
+						[
+							"9th",
+							"{@spell life transference|xge}, {@spell summon undead|tce}"
+						],
+						[
+							"13th",
+							"{@spell blight}, {@spell polymorph (alternate)|llspell}"
+						],
+						[
+							"17th",
+							"{@spell enervation|xge}, {@spell raise dead}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in Nature and leatherworker's tools. If you are already proficient in leatherworker's tools, you gain proficiency with a set of artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "Reanimator",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Most Artificers focus their creativity on mechanical or arcane inventions, but those known as Reanimators use their unique abilities to raise their defeated enemies as Thralls. Instead of improving themselves, they use necromantic artifice to make use of the abilities of their Thralls had in life, now in undeath.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reanimated Thrall|Alternate Artificer|LLAC|Reanimator|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reanimator Spells|Alternate Artificer|LLAC|Reanimator|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Reanimator|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Necrotic Preservation",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You can preserve the dead for later use. When you cast {@spell gentle repose} on a creature that you could raise as a Thrall, you can transform it into a small Trinket, which lasts for the duration.",
+				"At any point, you can use your Reanimated Thrall ritual on one of these Trinkets to raise that creature within as a Thrall."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can forgo one of these attacks to order your Thrall to make a single attack.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Necrotic Preservation|Alternate Artificer|LLAC|Reanimator|LLAC|5|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Advanced Reanimations",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You can raise some of the most powerful mortal creatures to serve you as Thralls. You can raise Aberrations, Dragons, and Giants as your Thralls, so long as the creatures are within the Challenge Rating limited detailed in Reanimated Thrall."
+			]
+		},
+		{
+			"name": "Master Reanimator",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"You can keep your Thralls alive so long as your power lasts. If your Thrall is reduced to 0 hit points but isn't killed outright, you can use your reaction to expend a spell slot. The Thrall is instead reduced to a number of hit points equal to 10 times the level of the spell slot.",
+				"This feature cannot cause a your Thrall to exceed its hit point maximum."
+			]
+		},
+		{
+			"name": "Arcane Sidearm",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Wandslinger",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your research has resulted in the creation of a Wandslinger's signature Arcane Sidearm, which uses the following rules:",
+				{
+					"type": "entries",
+					"name": "Crafting your Sidearm",
+					"entries": [
+						"During a long rest, you can spend 1 hour crafting an Arcane Sidearm using woodcarver's tools. You can only have one Arcane Sidearm, and crafting another causes previous Arcane Sidearms to lose their power."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Appearance",
+					"entries": [
+						"An Arcane Sidearm is a Tiny object that can be used as a spellcasting focus for Artificer spells. You choose its appearance, though this has no effect on its abilities. Many Wandslingers craft Sidearms that resemble delicate wands of wood, ornate meticallic rods, or even runic iron cannons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infusions",
+					"entries": [
+						"Your Arcane Sidearm can bear a single Infusion that is meant for an arcane focus."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell Slinger",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Wandslinger",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"As an action, you can use the Arcane Sidearm to produce one of the effects below using your Artificer spellcasting ability:",
+				{
+					"type": "entries",
+					"name": "Arcane Lance",
+					"entries": [
+						"You make a ranged spell attack against one target that you can see within 120 feet. On hit, it takes force damage equal to 1d10 + your Intelligence modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shocking Burst",
+					"entries": [
+						"You conjure a burst of lightning at a point you can see within 60 feet, forcing creatures within 5 feet to make a Dexterity saving throw. Creatures take 2d6 lightning damage on a failed save, and half as much on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thunderous Blast",
+					"entries": [
+						"You emit a blast of thunderous force in an adjacent 15-foot cone, forcing creatures within to make a Strength saving throw. On a failure, they are knocked back 10 feet in a straight line and take 2d6 thunder damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Wandslinger",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with {@item woodcarver's tools|phb}. If you are already proficient with woodcarver's tools, you instead gain proficiency with another set of {@item artisan's tools|phb} of your choice."
+			]
+		},
+		{
+			"name": "Wandslinger Spells",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Wandslinger",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell shield (alternate)|llspell}, {@spell thunderwave}"
+						],
+						[
+							"5th",
+							"{@spell blur}, {@spell shatter}"
+						],
+						[
+							"9th",
+							"{@spell counterspell}, {@spell lightning bolt}"
+						],
+						[
+							"13th",
+							"{@spell vitriolic sphere|xge}, {@spell wall of fire}"
+						],
+						[
+							"17th",
+							"{@spell cone of cold}, {@spell wall of force (alternate)|llspell}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Wandslinger",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Wandslinger",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Wandslingers use their ingenuity and artistic minds to craft wondrous arcane weapons. What they lack in flexibility and subtlety, they make up for in overwhelming arcane firepower. Wandslingers are marked by their signature Arcane Sidearm. For some, these are intricately carved wands or staffs, and for others, they are expertly crafted runic iron cannons.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Sidearm|Alternate Artificer|LLAC|Wandslinger|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spell Slinger|Alternate Artificer|LLAC|Wandslinger|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Alternate Artificer|LLAC|Wandslinger|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wandslinger Spells|Alternate Artificer|LLAC|Wandslinger|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Arcane Duelist",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Wandslinger",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You wield your Arcane Sidearm with deadly skill. Whenever you use a Spell Slinger action, you can produce two effects from your Arcane Sidearm instead of one. These effects can target multiple targets or the same target.",
+				"The number of Spell Slinger effects you can produce from your Arcane Sidearm with a single action increases again at certain Artificer levels: at 10th level (3) and 15th level (4).",
+				"Also, when you use your action to cast an Artificer spell, you can produce one Spell Slinger effect as a bonus action."
+			]
+		},
+		{
+			"name": "Quickdraw",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Wandslinger",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You add your proficiency bonus to initiative rolls, and when you roll initiative and aren't surprised or incapacitated, you can use your reaction to use one Spell Slinger effect."
+			]
+		},
+		{
+			"name": "Master Wandslinger",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"subclassShortName": "Wandslinger",
+			"subclassSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"Your skill with your Arcane Sidearm marks you as a master amongst Wandslingers. You gain the benefits listed below:",
+				{
+					"type": "list",
+					"items": [
+						"When you or another creature you can see within 30 feet is targeted by a spell or magical effect, you can grant it three-quarters cover against the effect as a reaction.",
+						"You have advantage on {@spell counterspell} ability checks.",
+						"When you deal damage with a Spell Slinger effect or Artificer spell, you can cause it to deal force damage."
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Aeronaut",
+			"shortName": "Aeronaut",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"fog cloud",
+							"zephyr strike|xge"
+						],
+						"5": [
+							"dust devil|xge",
+							"warding wind|xge"
+						],
+						"9": [
+							"fly",
+							"wind wall"
+						],
+						"13": [
+							"death ward",
+							"summon elemental|tce"
+						],
+						"17": [
+							"control winds|xge",
+							"steel wind strike (alternate)|llspell"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"fog cloud",
+				"zephyr strike|xge",
+				"dust devil|xge",
+				"warding wind|xge",
+				"fly",
+				"wind wall",
+				"death ward",
+				"summon elemental|tce",
+				"control winds|xge",
+				"steel wind strike (alternate)|llspell"
+			],
+			"subclassFeatures": [
+				"Aeronaut|Alternate Artificer|LLAC|Aeronaut|LLAC|3|LLAC",
+				"Aerial Maneuvers|Alternate Artificer|LLAC|Aeronaut|LLAC|5|LLAC",
+				"Airborne Assault|Alternate Artificer|LLAC|Aeronaut|LLAC|10|LLAC",
+				"Master Aeronaut|Alternate Artificer|LLAC|Aeronaut|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Alchemist",
+			"shortName": "Alchemist",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 5,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"healing word",
+							"inflict wounds"
+						],
+						"5": [
+							"melf's acid arrow",
+							"flaming sphere"
+						],
+						"9": [
+							"gaseous form",
+							"mass healing word"
+						],
+						"13": [
+							"blight",
+							"death ward"
+						],
+						"17": [
+							"cloudkill",
+							"reincarnate"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"healing word",
+				"inflict wounds",
+				"melf's acid arrow",
+				"flaming sphere",
+				"gaseous form",
+				"mass healing word",
+				"blight",
+				"death ward",
+				"cloudkill",
+				"reincarnate"
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Alchemist Infusions (Alternate)",
+					"featureType": [
+						"LLAART:ALC"
+					],
+					"progression": {
+						"3": 1,
+						"5": 2,
+						"9": 3,
+						"13": 4,
+						"17": 5
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Alchemist|Alternate Artificer|LLAC|Alchemist|LLAC|3|LLAC",
+				"Potent Potions|Alternate Artificer|LLAC|Alchemist|LLAC|5|LLAC",
+				"Restorative Reagents|Alternate Artificer|LLAC|Alchemist|LLAC|10|LLAC",
+				"Master Alchemist|Alternate Artificer|LLAC|Alchemist|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Archivist",
+			"shortName": "Archivist",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 3,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"comprehend languages",
+							"dissonant whispers"
+						],
+						"5": [
+							"detect thoughts",
+							"mind spike|xge"
+						],
+						"9": [
+							"hypnotic pattern (alternate)|llspell",
+							"tongues"
+						],
+						"13": [
+							"locate creature (alternate)|llspell",
+							"phantasmal killer"
+						],
+						"17": [
+							"modify memory",
+							"synaptic static|xge"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"comprehend languages",
+				"detect thoughts",
+				"dissonant whispers",
+				"mind spike|xge",
+				"hypnotic pattern (alternate)|llspell",
+				"tongues",
+				"locate|llspell",
+				"phantasmal killer",
+				"modify memory",
+				"synaptic static|xge"
+			],
+			"subclassFeatures": [
+				"Archivist|Alternate Artificer|LLAC|Archivist|LLAC|3|LLAC",
+				"Acute Overload|Alternate Artificer|LLAC|Archivist|LLAC|5|LLAC",
+				"Improved Consciousness|Alternate Artificer|LLAC|Archivist|LLAC|10|LLAC",
+				"Master Archivist|Alternate Artificer|LLAC|Archivist|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Armorer",
+			"shortName": "Armorer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 7,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"shield (alternate)|llspell",
+							"thunderwave"
+						],
+						"5": [
+							"mirror image",
+							"shatter"
+						],
+						"9": [
+							"ligntning bolt",
+							"thunder step|xge"
+						],
+						"13": [
+							"storm sphere|xge",
+							"fire shield"
+						],
+						"17": [
+							"destructive wave",
+							"wall of force (alternate)|llspell"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"shield (alternate)|llspell",
+				"thunderwave",
+				"mirror image",
+				"shatter",
+				"ligntning bolt",
+				"thunder step|xge",
+				"storm sphere|xge",
+				"destructive wave",
+				"fire shield",
+				"wall of force (alternate)|llspell"
+			],
+			"subclassFeatures": [
+				"Armorer|Alternate Artificer|LLAC|Armorer|LLAC|3|LLAC",
+				"Extra Attack|Alternate Artificer|LLAC|Armorer|LLAC|5|LLAC",
+				"Armorer Adept|Alternate Artificer|LLAC|Armorer|LLAC|10|LLAC",
+				"Master Armorer|Alternate Artificer|LLAC|Armorer|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Battle Smith",
+			"shortName": "Battle Smith",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"sanctuary",
+							"shield of faith"
+						],
+						"5": [
+							"restoration (alternate)|llspell",
+							"warding bond"
+						],
+						"9": [
+							"aura of vitality",
+							"counterspell"
+						],
+						"13": [
+							"aura of purity",
+							"death ward"
+						],
+						"17": [
+							"circle of power",
+							"mass cure wounds"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"sanctuary",
+				"shield of faith",
+				"restoration (alternate)|llspell",
+				"warding bond",
+				"aura of vitality",
+				"counterspell",
+				"aura of purity",
+				"death ward",
+				"circle of power",
+				"mass cure wounds"
+			],
+			"subclassFeatures": [
+				"Battle Smith|Alternate Artificer|LLAC|Battle Smith|LLAC|3|LLAC",
+				"Minor Upgrade|Alternate Artificer|LLAC|Battle Smith|LLAC|5|LLAC",
+				"Greater Upgrade|Alternate Artificer|LLAC|Battle Smith|LLAC|10|LLAC",
+				"Masterwork Upgrade|Alternate Artificer|LLAC|Battle Smith|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Biomancer",
+			"shortName": "Biomancer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 4,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"false life",
+							"jump"
+						],
+						"5": [
+							"enhance ability",
+							"spider climb"
+						],
+						"9": [
+							"haste",
+							"life transference|xge"
+						],
+						"13": [
+							"blight",
+							"polymorph (alternate)|llspell"
+						],
+						"17": [
+							"reincarnate",
+							"skill empowerment|xge"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"false life",
+				"jump",
+				"enhance ability",
+				"spider climb",
+				"haste",
+				"life transference|xge",
+				"blight",
+				"polymorph (alternate)|llspell",
+				"reincarnate",
+				"skill empowerment|xge"
+			],
+			"subclassFeatures": [
+				"Biomancer|Alternate Artificer|LLAC|Biomancer|LLAC|3|LLAC",
+				"Biomancer's Homunculus|Alternate Artificer|LLAC|Biomancer|LLAC|5|LLAC",
+				"Monstrous Homunculus|Alternate Artificer|LLAC|Biomancer|LLAC|10|LLAC",
+				"Master Biomancer|Alternate Artificer|LLAC|Biomancer|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Chronothief",
+			"shortName": "Chronothief",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 5,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"expeditious retreat",
+							"feather fall"
+						],
+						"5": [
+							"hold person",
+							"misty step"
+						],
+						"9": [
+							"haste",
+							"slow"
+						],
+						"13": [
+							"banishment",
+							"dimension door"
+						],
+						"17": [
+							"hold monster",
+							"modify memory"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"expeditious retreat",
+				"feather fall",
+				"hold person",
+				"misty step",
+				"haste",
+				"slow",
+				"banishment",
+				"dimension door",
+				"hold monster",
+				"modify memory"
+			],
+			"subclassFeatures": [
+				"Chronothief|Alternate Artificer|LLAC|Chronothief|LLAC|3|LLAC",
+				"Efficient Chronomancy|Alternate Artificer|LLAC|Chronothief|LLAC|5|LLAC",
+				"Time Transfer|Alternate Artificer|LLAC|Chronothief|LLAC|10|LLAC",
+				"Master Chronothief|Alternate Artificer|LLAC|Chronothief|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Composer",
+			"shortName": "Composer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"charm person",
+							"thunderwave"
+						],
+						"5": [
+							"shatter",
+							"silence"
+						],
+						"9": [
+							"fear",
+							"beacon of hope"
+						],
+						"13": [
+							"charm monster|xge",
+							"dominate beast"
+						],
+						"17": [
+							"destructive wave",
+							"dominate person"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"charm person",
+				"thunderwave",
+				"shatter",
+				"silence",
+				"fear",
+				"beacon of hope",
+				"charm monster|xge",
+				"dominate beast",
+				"destructive wave",
+				"dominate person"
+			],
+			"subclassFeatures": [
+				"Composer|Alternate Artificer|LLAC|Composer|LLAC|3|LLAC",
+				"Combat Virtuoso|Alternate Artificer|LLAC|Composer|LLAC|5|LLAC",
+				"Resonant Frequency|Alternate Artificer|LLAC|Composer|LLAC|10|LLAC",
+				"Master Composer|Alternate Artificer|LLAC|Composer|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Dungeoneer",
+			"shortName": "Dungeoneer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"alarm",
+							"unseen servant"
+						],
+						"5": [
+							"arcane lock",
+							"knock"
+						],
+						"9": [
+							"glyph of warding",
+							"leomund's tiny hut"
+						],
+						"13": [
+							"guardian of faith",
+							"otiluke's resilient sphere"
+						],
+						"17": [
+							"passwall",
+							"wall of stone"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"alarm",
+				"unseen servant",
+				"arcane lock",
+				"knock",
+				"glyph of warding",
+				"leomund's tiny hut",
+				"guardian of faith",
+				"otiluke's resilient sphere",
+				"passwall",
+				"wall of stone"
+			],
+			"subclassFeatures": [
+				"Dungeoneer|Alternate Artificer|LLAC|Dungeoneer|LLAC|3|LLAC",
+				"Extra Attack|Alternate Artificer|LLAC|Dungeoneer|LLAC|5|LLAC",
+				"Arcane Improvisation|Alternate Artificer|LLAC|Dungeoneer|LLAC|10|LLAC",
+				"Master Dungeoneer|Alternate Artificer|LLAC|Dungeoneer|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Enhanced",
+			"shortName": "Enhanced",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 9,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"absorb elements|xge",
+							"thunderous smite (alternate)|llspell"
+						],
+						"5": [
+							"alter self",
+							"spider climb"
+						],
+						"9": [
+							"blinding smite (alternate)|llspell",
+							"haste"
+						],
+						"13": [
+							"greater invisibility",
+							"freedom of movement"
+						],
+						"17": [
+							"banishing smite (alternate)|llspell",
+							"skill empowerment|xge"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"absorb elements|xge",
+				"thunderous smite (alternate)|llspell",
+				"alter self",
+				"spider climb",
+				"blinding smite (alternate)|llspell",
+				"haste",
+				"freedom of movement",
+				"greater invisibility",
+				"banishing smite (alternate)|llspell",
+				"skill empowerment|xge"
+			],
+			"subclassFeatures": [
+				"Enhanced|Alternate Artificer|LLAC|Enhanced|LLAC|3|LLAC",
+				"Bonus Enhancements|Alternate Artificer|LLAC|Enhanced|LLAC|5|LLAC",
+				"Streamlined Integration|Alternate Artificer|LLAC|Enhanced|LLAC|10|LLAC",
+				"Master Enhanced|Alternate Artificer|LLAC|Enhanced|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Forgewright",
+			"shortName": "Forgewright",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 10,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"compelled duel",
+							"zephyr strike|xge"
+						],
+						"5": [
+							"cloud of daggers",
+							"misty step"
+						],
+						"9": [
+							"blinding smite (alternate)|llspell",
+							"conjure volley (alternate)|llspell"
+						],
+						"13": [
+							"fire shield",
+							"staggering smite (alternate)|llspell"
+						],
+						"17": [
+							"banishing smite (alternate)|llspell",
+							"steel wind strike (alternate)|llspell"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"compelled duel",
+				"zephyr strike|xge",
+				"cloud of daggers",
+				"misty step",
+				"blinding smite (alternate)|llspell",
+				"conjure volley (alternate)|llspell",
+				"fire shield",
+				"staggering smite (alternate)|llspell",
+				"banishing smite (alternate)|llspell",
+				"steel wind strike (alternate)|llspell"
+			],
+			"subclassFeatures": [
+				"Forgewright|Alternate Artificer|LLAC|Forgewright|LLAC|3|LLAC",
+				"Arcane Jolt|Alternate Artificer|LLAC|Forgewright|LLAC|5|LLAC",
+				"Arcane Surge|Alternate Artificer|LLAC|Forgewright|LLAC|10|LLAC",
+				"Master Forgewright|Alternate Artificer|LLAC|Forgewright|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Gunslinger",
+			"shortName": "Gunslinger",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"alarm",
+							"unseen servant"
+						],
+						"5": [
+							"arcane lock",
+							"knock"
+						],
+						"9": [
+							"glyph of warding",
+							"leomund's tiny hut"
+						],
+						"13": [
+							"guardian of faith",
+							"otiluke's resilient sphere"
+						],
+						"17": [
+							"passwall",
+							"wall of stone"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"alarm",
+				"unseen servant",
+				"arcane lock",
+				"knock",
+				"glyph of warding",
+				"leomund's tiny hut",
+				"guardian of faith",
+				"otiluke's resilient sphere",
+				"passwall",
+				"wall of stone"
+			],
+			"subclassFeatures": [
+				"Gunslinger|Alternate Artificer|LLAC|Gunslinger|LLAC|3|LLAC",
+				"Extra Attack|Alternate Artificer|LLAC|Gunslinger|LLAC|5|LLAC",
+				"Overcharge|Alternate Artificer|LLAC|Gunslinger|LLAC|10|LLAC",
+				"Master Gunslinger|Alternate Artificer|LLAC|Gunslinger|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Junker",
+			"shortName": "Junker",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"ensnaring strike (alternate)|llspell",
+							"grease"
+						],
+						"5": [
+							"enlarge/reduce",
+							"heat metal"
+						],
+						"9": [
+							"sonic wave|llspell",
+							"erupting earth (alternate)|llspell"
+						],
+						"13": [
+							"summon construct|tce",
+							"otiluke's resilient sphere"
+						],
+						"17": [
+							"animate objects",
+							"wall of force (alternate)|llspell"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"ensnaring strike (alternate)|llspell",
+				"grease",
+				"enlarge/reduce",
+				"heat metal",
+				"sonic wave|llspell",
+				"erupting earth (alternate)|llspell",
+				"summon construct|tce",
+				"otiluke's resilient sphere",
+				"animate objects",
+				"wall of force (alternate)|llspell"
+			],
+			"subclassFeatures": [
+				"Junker|Alternate Artificer|LLAC|Junker|LLAC|3|LLAC",
+				"Extra Attack|Alternate Artificer|LLAC|Junker|LLAC|5|LLAC",
+				"Hulking Strikes|Alternate Artificer|LLAC|Junker|LLAC|10|LLAC",
+				"Master Junker|Alternate Artificer|LLAC|Junker|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Machinist",
+			"shortName": "Machinist",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 10,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"color spray",
+							"unseen servant"
+						],
+						"5": [
+							"cloud of daggers",
+							"cordon of arrows (alternate)|llspell"
+						],
+						"9": [
+							"spirit guardians",
+							"tiny servant|xge"
+						],
+						"13": [
+							"mordenkainen's faithful hound|xge",
+							"summon construct|tce"
+						],
+						"17": [
+							"animate objects",
+							"awaken"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"color spray",
+				"unseen servant",
+				"cloud of daggers",
+				"cordon of arrows (alternate)|llspell",
+				"spirit guardians",
+				"tiny servant|xge",
+				"mordenkainen's faithful hound|xge",
+				"summon construct|tce",
+				"animate objects",
+				"awaken"
+			],
+			"subclassFeatures": [
+				"Machinist|Alternate Artificer|LLAC|Machinist|LLAC|3|LLAC",
+				"Automated Army|Alternate Artificer|LLAC|Machinist|LLAC|5|LLAC",
+				"Efficient Construction|Alternate Artificer|LLAC|Machinist|LLAC|10|LLAC",
+				"Master Machinist|Alternate Artificer|LLAC|Machinist|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Mechanic",
+			"shortName": "Mechanic",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 10,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"grease",
+							"zephyr strike|xge"
+						],
+						"5": [
+							"enlarge/reduce",
+							"heat metal"
+						],
+						"9": [
+							"haste",
+							"thunder step|xge"
+						],
+						"13": [
+							"freedom of movement",
+							"fire shield"
+						],
+						"17": [
+							"creation",
+							"steel wind strike (alternate)|llspell"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"grease",
+				"zephyr strike|xge",
+				"enlarge/reduce",
+				"heat metal",
+				"haste",
+				"thunder step|xge",
+				"freedom of movement",
+				"fire shield",
+				"creation",
+				"steel wind strike (alternate)|llspell"
+			],
+			"subclassFeatures": [
+				"Mechanic|Alternate Artificer|LLAC|Mechanic|LLAC|3|LLAC",
+				"Afterburn|Alternate Artificer|LLAC|Mechanic|LLAC|5|LLAC",
+				"Expert Rider|Alternate Artificer|LLAC|Mechanic|LLAC|10|LLAC",
+				"Master Mechanic|Alternate Artificer|LLAC|Mechanic|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Puppeteer",
+			"shortName": "Puppeteer",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 11,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"ensnaring strike (alternate)|llspell",
+							"entangle"
+						],
+						"5": [
+							"crown of madness",
+							"hold person"
+						],
+						"9": [
+							"hypnotic pattern (alternate)|llspell",
+							"slow"
+						],
+						"13": [
+							"dominate beast",
+							"grasping vine"
+						],
+						"17": [
+							"dominate person",
+							"hold monster"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"ensnaring strike (alternate)|llspell",
+				"entangle",
+				"crown of madness",
+				"hold person",
+				"hypnotic pattern (alternate)|llspell",
+				"slow",
+				"dominate beast",
+				"grasping vine",
+				"dominate person",
+				"hold monster"
+			],
+			"subclassFeatures": [
+				"Puppeteer|Alternate Artificer|LLAC|Puppeteer|LLAC|3|LLAC",
+				"Skillful Strings|Alternate Artificer|LLAC|Puppeteer|LLAC|5|LLAC",
+				"Nimble Fingers|Alternate Artificer|LLAC|Puppeteer|LLAC|10|LLAC",
+				"Master Puppeteer|Alternate Artificer|LLAC|Puppeteer|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Reanimator",
+			"shortName": "Reanimator",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 11,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"false life",
+							"longstrider"
+						],
+						"5": [
+							"gentle repose",
+							"locate creature (alternate)|llspell"
+						],
+						"9": [
+							"life transference|xge",
+							"summon undead|tce"
+						],
+						"13": [
+							"blight",
+							"polymorph (alternate)|llspell"
+						],
+						"17": [
+							"enervation|xge",
+							"raise deadd"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"false life",
+				"longstrider",
+				"gentle repose",
+				"locate creature (alternate)|llspell",
+				"life transference|xge",
+				"summon undead|tce",
+				"blight",
+				"polymorph (alternate)|llspell",
+				"enervation|xge",
+				"raise dead"
+			],
+			"subclassFeatures": [
+				"Reanimator|Alternate Artificer|LLAC|Reanimator|LLAC|3|LLAC",
+				"Extra Attack|Alternate Artificer|LLAC|Reanimator|LLAC|5|LLAC",
+				"Advanced Reanimations|Alternate Artificer|LLAC|Reanimator|LLAC|10|LLAC",
+				"Master Reanimator|Alternate Artificer|LLAC|Reanimator|LLAC|15|LLAC"
+			]
+		},
+		{
+			"name": "Wandslinger",
+			"shortName": "Wandslinger",
+			"source": "LLAC",
+			"className": "Alternate Artificer",
+			"classSource": "LLAC",
+			"page": 11,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"shield (alternate)|llspell",
+							"thunderwave"
+						],
+						"5": [
+							"blur",
+							"scorching ray"
+						],
+						"9": [
+							"counterspell",
+							"lightning bolt"
+						],
+						"13": [
+							"vitriolic sphere|xge",
+							"wall of fire"
+						],
+						"17": [
+							"cone of cold",
+							"wall of force (alternate)|llspell"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"shield (alternate)|llspell",
+				"thunderwave",
+				"blur",
+				"scorching ray",
+				"counterspell",
+				"lightning bolt",
+				"vitriolic sphere|xge",
+				"wall of fire",
+				"cone of cold",
+				"wall of force (alternate)|llspell"
+			],
+			"subclassFeatures": [
+				"Wandslinger|Alternate Artificer|LLAC|Wandslinger|LLAC|3|LLAC",
+				"Arcane Duelist|Alternate Artificer|LLAC|Wandslinger|LLAC|5|LLAC",
+				"Quickdraw|Alternate Artificer|LLAC|Wandslinger|LLAC|10|LLAC",
+				"Master Wandslinger|Alternate Artificer|LLAC|Wandslinger|LLAC|15|LLAC"
+			]
+		}
+	]
+}

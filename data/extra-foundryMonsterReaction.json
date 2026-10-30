@@ -1,0 +1,11 @@
+{
+	"foundryMonsterReaction": [
+		{
+			"name": "Guardian",
+			"source": "llspell",
+			"monsterName": "Golem Servant",
+			"monsterSource": "llspell",
+			"img": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp"
+		}
+	]
+}

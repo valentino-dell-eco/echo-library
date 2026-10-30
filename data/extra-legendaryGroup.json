@@ -1,0 +1,19 @@
+{
+	"legendaryGroup": [
+		{
+			"name": "Vizir, the Boneeater",
+			"source": "KoeNoUmiBestiary",
+			"lairActions": [
+				"When fighting in its lair (a desecrated temple once dedicated to Ator), the Vizir can draw on the power of the place. On initiative count 20 (losing initiative ties), it can take one of the following lair actions:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Devouring Darkness.} All nonmagical light sources within 60 feet go out. Magical light sources of 3rd level or lower are suppressed for 1 round.",
+						"{@b Blasphemous Sand.} The ground within the Vizir's Blasphemous Aura turns to quicksand. Creatures in the area must succeed on a {@dc 13} Strength saving throw at the start of their turn or be {@condition restrained}. A restrained creature can use its action to try to free itself with a {@dc 13} Strength check.",
+						"{@b The Vizir's Deception.} A distorted illusion of Ator briefly appears, unsettling the Vizir's enemies. All hostile creatures within 60 feet must succeed on a {@dc 15} saving throw or be {@condition frightened} of the Vizir for 1 minute. At the start of each of its turns, a frightened creature can repeat the saving throw. A creature that succeeds on the saving throw is immune to this effect for the next 24 hours."
+					]
+				}
+			]
+		}
+	]
+}

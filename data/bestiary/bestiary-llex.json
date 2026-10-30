@@ -1,0 +1,164 @@
+{
+	"monster": [
+		{
+			"name": "Mercenary (Brute)",
+			"source": "LLEX",
+			"page": 15,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"ac": [
+				{
+					"ac": 18
+				}
+			],
+			"hp": {
+				"special": "6 + five times your level"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 13,
+			"int": 10,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"str": "+6",
+				"dex": "+6"
+			},
+			"skill": {
+				"athletics": "+6"
+			},
+			"languages": [
+				"Common",
+				"Thieves' Cant"
+			],
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Mercenary has a number of {@dice d10} Hit Dice equal to your level. It benefits from short and long rests."
+					]
+				},
+				{
+					"name": "Morale",
+					"entries": [
+						"If you fall to 0 hit points your Mercenary flees."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} +6 to hit, reach 5 ft., one target. {@h}({@damage 1d8 + 3}) slashing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Brutal",
+					"entries": [
+						"The Mercenary makes a {@action Shove} or {@action Grapple}."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"TC"
+			],
+			"attachedItems": [
+				"longsword|phb"
+			],
+			"miscTags": [
+				"MLW"
+			],
+			"damageTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Mercenary (Scout)",
+			"source": "LLEX",
+			"page": 15,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"ac": [
+				{
+					"ac": 15
+				}
+			],
+			"hp": {
+				"special": "6 + five times your level"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 13,
+			"int": 10,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"str": "+6",
+				"dex": "+6"
+			},
+			"skill": {
+				"stealth": "+6"
+			},
+			"languages": [
+				"Common",
+				"Thieves' Cant"
+			],
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Mercenary has a number of {@dice d10} Hit Dice equal to your level. It benefits from short and long rests."
+					]
+				},
+				{
+					"name": "Morale",
+					"entries": [
+						"If you fall to 0 hit points your Mercenary flees."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} +6 to hit, range 80/320, one target. {@h}({@damage 1d6 + 3}) piercing."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cunning",
+					"entries": [
+						"The Mercenary takes the {@action Hide} action."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"TC"
+			],
+			"attachedItems": [
+				"shortbow|phb"
+			],
+			"miscTags": [
+				"RNG"
+			],
+			"damageTags": [
+				"P"
+			]
+		}
+	]
+}

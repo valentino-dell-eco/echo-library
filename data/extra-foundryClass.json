@@ -1,0 +1,26 @@
+{
+	"foundryClass": [
+		{
+			"name": "Vessel",
+			"source": "LLOC",
+			"effects": [
+				{
+					"name": "Vessel Magic",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.spells.pact.level",
+							"mode": "UPGRADE",
+							"value": "@scale.vessel.level"
+						},
+						{
+							"key": "system.spells.pact.max",
+							"mode": "UPGRADE",
+							"value": "@scale.vessel.slots"
+						}
+					]
+				}
+			]
+		}
+	]
+}

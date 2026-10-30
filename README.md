@@ -4,9 +4,158 @@ Libreria homebrew in formato 5eTools, generata con Echo Library Builder per la F
 
 ## Fonti
 - **KNUSC** — Koe No Umi - Sguardo in Capua (v0.1.0)
+- **AAG** — Astral Adventurer's Guide (v1.0.0)
+- **AWM** — Adventure with Muk (v1.0.0)
+- **BGG** — Bigby Presents: Glory of the Giants (v1.0.0)
+- **CM** — Candlekeep Mysteries (v1.0.0)
+- **CoA** — Chains of Asmodeus (v1.0.0)
+- **CoS** — Curse of Strahd (v1.0.0)
+- **CRCotN** — Critical Role: Call of the Netherdeep (v1.0.0)
+- **DC** — Essentials Kit: Divine Contention (v1.0.0)
+- **DD** — Wildemount: Dangerous Designs (v1.0.0)
+- **DIP** — Essentials Kit: Dragon of Icespire Peak (v1.0.0)
+- **DitLCoT** — Descent into the Lost Caverns of Tsojcanth (v1.0.0)
+- **DMG** — Dungeon Master's Guide (2014) (v1.0.0)
+- **DMTCRG** — The Deck of Many Things: Card Reference Guide (v1.0.0)
+- **DoD** — Domains of Delight (v1.0.0)
+- **DoSI** — Dragons of Stormwreck Isle (v1.0.0)
+- **DrDe** — Dragon Delves (v1.0.0)
+- **DrDe-BD** — Dragon Delves: Baker's Doesn't (v1.0.0)
+- **DSotDQ** — Dragonlance: Shadow of the Dragon Queen (v1.0.0)
+- **EEPC** — Elemental Evil Player's Companion (v1.0.0)
+- **EFA** — Eberron: Forge of the Artificer (v1.0.0)
+- **EGW** — Explorer's Guide to Wildemount (v1.0.0)
+- **ERLW** — Eberron: Rising from the Last War (v1.0.0)
+- **ESK** — Eberron setting content (v1.0.0)
+- **FTD** — Fizban's Treasury of Dragons (v1.0.0)
+- **GGR** — Guildmasters' Guide to Ravnica (v1.0.0)
+- **GoS** — Ghosts of Saltmarsh (v1.0.0)
+- **GotSF** — Giants of the Star Forge (v1.0.0)
+- **HAT-LMI** — Legendary Magic Items (v1.0.0)
+- **HAT-TG** — Thieves' Gallery (v1.0.0)
+- **HF** — Heroes' Feast (v1.0.0)
+- **HftT** — Hunt for the Thessalhydra (v1.0.0)
+- **HoL** — Ravenloft: The House of Lament (v1.0.0)
+- **HotB** — Heroes of the Borderlands (v1.0.0)
+- **HotDQ** — Hoard of the Dragon Queen (v1.0.0)
+- **IDRotF** — Icewind Dale: Rime of the Frostmaiden (v1.0.0)
+- **IMR** — Infernal Machine Rebuild (v1.0.0)
+- **JttRC** — Journeys through the Radiant Citadel (v1.0.0)
+- **KftGV** — Keys from the Golden Vault (v1.0.0)
+- **KKW** — Krenko's Way (v1.0.0)
+- **LFL** — Lorwyn: First Light (v1.0.0)
+- **LLK** — Lost Laboratory of Kwalish (v1.0.0)
+- **LMoP** — Lost Mine of Phandelver (v1.0.0)
+- **LoX** — Light of Xaryxis (v1.0.0)
+- **LR** — Locathah Rising (v1.0.0)
+- **MaBJoV** — Minsc and Boo's Journal of Villainy (v1.0.0)
+- **MCV1SC** — Monstrous Compendium Volume 1: Spelljammer Creatures (v1.0.0)
+- **MCV2DC** — Monstrous Compendium Volume 2: Dragonlance Creatures (v1.0.0)
+- **MCV4EC** — Monstrous Compendium Volume 4: Eldraine Creatures (v1.0.0)
+- **MFF** — Mordenkainen's Fiendish Folio (v1.0.0)
+- **MGELFT** — Muk's Guide to Everything He Learned From Tasha (v1.0.0)
+- **MisMV1** — Misplaced Monsters: Volume 1 (v1.0.0)
+- **MM** — Monster Manual (2014) (v1.0.0)
+- **MOT** — Mythic Odysseys of Theros (v1.0.0)
+- **MPMM** — Mordenkainen Presents: Monsters of the Multiverse (v1.0.0)
+- **MPP** — Morte's Planar Parade (v1.0.0)
+- **MTF** — Mordenkainen's Tome of Foes (v1.0.0)
+- **NF** — Netheril's Fall (v1.0.0)
+- **OGA** — One Grung Above (v1.0.0)
+- **OotA** — Out of the Abyss (v1.0.0)
+- **OoW** — The Orrery of the Wanderer (v1.0.0)
+- **PaBTSO** — Phandelver and Below: The Shattered Obelisk (v1.0.0)
+- **PaF** — Puncheons and Flagons (v1.0.0)
+- **PHB** — Player's Handbook (2014) (v1.0.0)
+- **PotA** — Princes of the Apocalypse (v1.0.0)
+- **PSA** — Plane Shift: Amonkhet (v1.0.0)
+- **PSD** — Plane Shift: Dominaria (v1.0.0)
+- **PSI** — Plane Shift: Innistrad (v1.0.0)
+- **PSK** — Plane Shift: Kaladesh (v1.0.0)
+- **PSX** — Plane Shift: Ixalan (v1.0.0)
+- **PSZ** — Plane Shift: Zendikar (v1.0.0)
+- **QftIS** — Quests from the Infinite Staircase (v1.0.0)
+- **RHW** — Ravenloft: The Horrors Within (v1.0.0)
+- **RMBRE** — The Lost Dungeon of Rickedness: Big Rick Energy (v1.0.0)
+- **RoT** — Rise of Tiamat (v1.0.0)
+- **RoTOS** — The Rise of Tiamat Online Supplement (v1.0.0)
+- **RtG** — Return to the Glory (v1.0.0)
+- **RWG** — Red Wizards' Gambit (v1.0.0)
+- **SADS** — Sapphire Anniversary Dice Set (v1.0.0)
+- **SatO** — Sigil and the Outlands (v1.0.0)
+- **SCAG** — Sword Coast Adventurer's Guide (v1.0.0)
+- **SCC** — Strixhaven: A Curriculum of Chaos (v1.0.0)
+- **ScreenDungeonKit** — Dungeon Master's Screen: Dungeon Kit (v1.0.0)
+- **SDW** — Essentials Kit: Sleeping Dragon's Wake (v1.0.0)
+- **SKT** — Storm King's Thunder (v1.0.0)
+- **SLW** — Essentials Kit: Storm Lord's Wrath (v1.0.0)
+- **TCE** — Tasha's Cauldron of Everything (v1.0.0)
+- **TD** — Tarot Deck (v1.0.0)
+- **TftYP** — Tales from the Yawning Portal (v1.0.0)
+- **ToA** — Tomb of Annihilation (v1.0.0)
+- **ToFW** — Turn of Fortune's Wheel (v1.0.0)
+- **ToR** — Wildemount: Tide of Retribution (v1.0.0)
+- **TTP** — The Tortle Package (v1.0.0)
+- **UtHftLH** — Uni and the Hunt for the Lost Horn (v1.0.0)
+- **VD** — Book of Vile Darkness (v1.0.0)
+- **VEoR** — Vecna: Eve of Ruin (v1.0.0)
+- **VGM** — Volo's Guide to Monsters (v1.0.0)
+- **VNotEE** — Vecna: Nest of the Eldritch Eye (v1.0.0)
+- **VRGR** — Van Richten's Guide to Ravenloft (v1.0.0)
+- **WBtW** — The Wild Beyond the Witchlight (v1.0.0)
+- **WDH** — Waterdeep: Dragon Heist (v1.0.0)
+- **WDMM** — Waterdeep: Dungeon of the Mad Mage (v1.0.0)
+- **WttHC** — Stranger Things: Welcome to the Hellfire Club (v1.0.0)
+- **XGE** — Xanathar's Guide to Everything (v1.0.0)
+- **XMtS** — X Marks the Spot (v1.0.0)
+- **KoeNoUmiBestiary** — Koe no Umi - Homebrew Bestiary (v1.0.0)
+- **LLCBD** — Compendium of Beasts - Dinosaurs (vv2.0.0_1772842055062)
+- **LLCB** — Compendium of Beasts (vv2.0.0_1745667953729)
+- **LLFC** — Laserllama Compendium of Feats
+- **LLEX** — Laserllama's Compendium of Exploits (vv1.0)
+- **LLFS** — Alternate Martial Multiclassing (Fighting Styles)
+- **llspell** — Laserllama: Compendium of Spells (vv.0.5)
+- **LLAC** — Laserllama's Alternate Classes (v1.0.0)
+- **LLOC** — Laserllama's Original Classes (v1.0.0)
 
 ## Contenuti
-- Creature: 2
+- Creature: 3776
+- Oggetti di scena: 20
+- Veicoli: 32
+- Incantesimi: 664
+- Opzioni di classe: 928
+- Specie / razze: 149
+- Sottorazze: 91
+- Background: 103
+- Talenti: 191
+- Opzioni di creazione: 44
+- Oggetti: 1566
+- Oggetti base: 124
+- Varianti magiche: 176
+- Proprietà delle armi: 4
+- Condizioni: 15
+- Malattie: 22
+- Stati: 2
+- Azioni: 30
+- Regole: 111
+- Abilità: 18
+- Sensi: 4
+- Linguaggi: 149
+- Divinità: 489
+- Culti: 30
+- Doni demoniaci: 12
+- Ricompense: 222
+- Trappole: 25
+- Pericoli: 32
+- Ricette: 155
+- Mazzi: 28
+- Carte: 539
+- Tabelle: 12
+- Strutture del bastione: 18
+- Migliorie dei veicoli: 22
+- Altro (JSON libero): 402
+- Classi: 38
+- Sottoclassi: 382
 
 ## Usarla nella suite
 

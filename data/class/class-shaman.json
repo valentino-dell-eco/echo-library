@@ -1,0 +1,3354 @@
+{
+	"classFeature": [
+		{
+			"name": "Sacred Focus",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"In order to channel the supernatural power of spirits without being consumed, Shamans must draw this wondrous power through the strongest aspect of themselves. At 1st level, you choose a Sacred Focus from the options listed below.",
+				"Once it is chosen, your Sacred Focus cannot be changed.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Body|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Heart|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Mind|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Soul|LLSH"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Totem Spirits",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"At 1st level, you learn to bind primal Totem Spirits to sacred Totems so that you may safely channel their mystical abilities. Any Tiny object can of your choice be a Totem, but most often they are objects reminiscent of the Spirit bound within.",
+				"Your Totems and their abilities use the rules detailed here:",
+				{
+					"type": "entries",
+					"name": "Bound Spirits",
+					"entries": [
+						"At 1st level, you bind two Totem Spirits of your choice from the list at the end of the class. At certain Shaman levels you bind additional Totem Spirits, as shown in the Bound Spirits column of the Shaman table. If a Spirit has prerequisites, you can bind it at the same time you meet its prerequisites.",
+						"When you gain a Shaman level, you can replace one Totem Spirit you currently have bound with another of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throws",
+					"entries": [
+						"If a Totem requires a target to make a saving throw, the DC equals 8 + your proficiency bonus + your Wisdom modifier."
+					]
+				},
+				{
+					"type": "refClassFeature",
+					"classFeature": "Totemic Assault|Shaman|LLSH|1"
+				}
+			]
+		},
+		{
+			"name": "Totemic Assault",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"As an action, you can unleash the Spirits bound within one of your Totems and command them to swarm one creature you can see within 60 feet of you. That creature must succeed on a Charisma saving throw or take 1d8 necrotic damage.",
+				"The Spirits continue to swarm around this creature until it is slain, it is more than 60 feet away, you are incapacitated, or you use Totemic Assault against another creature. While the Spirits swarm, you can use your bonus action on subsequent turns to force it to make this Charisma saving throw again.",
+				"The damage dealt by your Totemic Assault increases at 5th level (2d8), at 11th level (3d8), and finally at 17th level (4d8)."
+			]
+		},
+		{
+			"name": "Conduit Magic",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you learn to call on the spiritual energies present in all things to cast spells. You gain the following features:",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"At 2nd level, you learn two Cantrips of your choice from the Shaman spell list. You learn an additional Shaman Cantrip of your choice when you reach 4th level, and again at 10th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Shaman table above shows the number of spell slots you have to cast your Shaman spells of 1st through 5th-level. The Slot Level column of the Shaman table also shows the level of all of your spell slots. To cast a Shaman spell of 1st-level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.",
+						"For example, at 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell cure wounds, you must expend one of your 3rd-level spell slots, and cast {@spell cure wounds} at 3rd-level. "
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preparing & Casting Spells",
+					"entries": [
+						"You prepare the list of spells that are available for you to cast, choosing from the Shaman spell list. When you do, choose a number of Shaman spells equal to your Shaman level + your Wisdom modifier (a minimum of 1). Spells you prepare must be of a level equal to your Slot Level or lower.",
+						"For example, as a 5th level Shaman with a Wisdom of 18, you prepare nine spells of your choice of 3rd-level or lower from the Shaman spell list. Casting a spell doesn't remove it from your list of prepared spells. During a long rest, you can change your list of prepared spells by meditating: 1 minute per spell level for each new spell you are preparing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"As you draw your magic from your understanding of primal spirits, Wisdom is your spellcasting ability for your shaman spells. You use your Wisdom whenever a spell refers to your spellcasting ability, when setting the saving throw DC for a shaman spell, and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritual Casting",
+					"entries": [
+						"You can cast the Ritual version of any Shaman spell that you have prepared so long as the spell has the Ritual tag."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use any Totem to which you have bound a Spirit as the spellcasting focus for your Shaman spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spirituality",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, choose the Spirituality which best represents the disciplines and rites you use to channel spirits: Curse Binder, Far Seer, Spirit Warrior, Wild Heart, or Witch Doctor, each of which is detailed at the end of this class.",
+				"Your Spirituality grants you features at 2nd level, and again when you reach 6th, 10th, and 14th level in this class.",
+				{
+					"type": "entries",
+					"name": "Spirituality Spells",
+					"entries": [
+						"Each Spirituality has a list of spells you always have prepared once you reach the Shaman levels noted in your Spirituality's description. They count as Shaman spells for you, but they do not count against the number of spells you prepare each day."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Totemic Versatility",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"At 5th level, your ability to connect with and channel the spirit world increases. During a long rest, you can perform a 1-hour ritual to replace one of your current bound Spirit Totems with another of your choice, for which you meet all prerequisites."
+			]
+		},
+		{
+			"name": "Spirituality Feature",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Spirituality."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Spirituality Feature",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Spirituality."
+			]
+		},
+		{
+			"name": "Elder Spirit (6th-level)",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 11,
+			"entries": [
+				"Your ever-deepening connection to the world of Spirits allows you to conjure and bind powerful Elder Spirits to Totems. At 11th level, choose one Elder Spirit to bind to a Totem. It does not count against your total number of Bound Totems.",
+				"Each Elder Spirit includes a list of Elder Spells that you learn at the Shaman levels listed in its description. They do not count against your total number of Spells Known.",
+				"Once you reach the levels in your Elder Spirit's description, you can cast each of these spells once between each long rest at its lowest level, without expending a spell slot.",
+				"You can use your Totemic Versatility feature to replace your Elder Spirit with another Elder Spirit of your choice. Though, if you replace your Elder Spirit with another Spirit, you only know the Elder Spells of your current Elder Spirit.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elder Spirit of Death|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elder Spirit of Life|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elder Spirit of the Moon|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elder Spirit of the Sun|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elder Spirit of the Void|LLSH:E"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elder Spirit of the Fissure|LLSH:E"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elder Spirit of the Inferno|LLSH:E"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elder Spirit of the Sea|LLSH:E"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elder Spirit of the Storm|LLSH:E"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elder Spirit of the Mystic|LLSH:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Elder Spirit (7th-level)",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 13,
+			"entries": [
+				"At 13th level, you may cast the 7th-level spell granted to you by your chosen Elder Spirit once, at its lowest level, without expending a spell slot. Once you do so you must finish a long rest before you can cast that spell again."
+			]
+		},
+		{
+			"name": "Spirituality Feature",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain a feature granted by your Spirituality."
+			]
+		},
+		{
+			"name": "Elder Spirit (8th-level)",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"At 15th level, you may cast the 8th-level spell granted to you by your chosen Elder Spirit once, at its lowest level, without expending a spell slot. Once you do so you must finish a long rest before you can cast that spell again."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Elder Spirit (9th-level)",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 17,
+			"entries": [
+				"At 17th level, you may cast the 9th-level spell granted to you by your chosen Elder Spirit once, without expending a spell slot. Once you do so you must finish a long rest before you can cast that spell again."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Spiritual Ascension",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"level": 20,
+			"entries": [
+				"You have transcended the need for a corporeal form. At 20th level, your physical body no longer ages, and you are immune to all disease, the Poisoned condition, and poison damage.",
+				"Also, when you are reduced to 0 hit points, you can release the Spirit bound within one Totem to instead fall to a number of hit points equal to your Shaman level. You then lose access to the abilities of that Totem until you complete a long rest."
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Shaman",
+			"source": "LLOC",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"wis",
+				"cha"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "pact",
+			"cantripProgression": [
+				0,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"classSpells": [
+				"Blade Ward (alternate)|llspell",
+				"Chill Touch",
+				"Create Bonfire|XGE",
+				"Frostbite|XGE",
+				"Guidance (alternate)|llspell",
+				"Magic Stone|XGE",
+				"Beckon Air|llspell",
+				"Control Flame (Alternate)|llspell",
+				"Mold Earth (Alternate)|llspell",
+				"Otherworldly Grasp|llspell",
+				"Poison Spray (alternate)|llspell",
+				"Primal Savagery (alternate)|llspell",
+				"Shape Water (Alternate)|llspell",
+				"Shillelagh",
+				"Spare the Dying",
+				"Seance|llspell",
+				"Thaumaturgy",
+				"Thorn Whip",
+				"Thunderclap|XGE",
+				"Toll the Dead|XGE",
+				"Absorb Elements|XGE",
+				"Animal Friendship",
+				"Bane",
+				"Beast Bond|XGE",
+				"Bless",
+				"Cause Fear|XGE",
+				"Ceremony|XGE",
+				"Command",
+				"Cure Wounds",
+				"Detect Evil and Good",
+				"Dissonant Whispers",
+				"Entangle",
+				"Expeditious Retreat",
+				"False Life",
+				"Find Familiar",
+				"Fog Cloud",
+				"Ghastly Flight|llspell",
+				"Heroism",
+				"Inflict Wounds",
+				"Longstrider",
+				"Protection from Evil and Good",
+				"Sanctuary",
+				"Shield of Faith",
+				"Sleep",
+				"Witch Bolt (alternate)|llspell",
+				"Aid",
+				"Alter Self",
+				"Augury",
+				"Barkskin",
+				"Blur",
+				"Continual Flame",
+				"Darkness",
+				"Dust Devil|XGE",
+				"Earthbind|XGE",
+				"Enhance Ability",
+				"Gentle Repose",
+				"Gust of Wind",
+				"Heat Metal",
+				"Locate Creature (alternate)|llspell",
+				"Misty Step",
+				"Moonbeam",
+				"Pass Without Trace (alternate)|llspell",
+				"Protection from Poison",
+				"Spike Growth",
+				"Totemic Cowl|llspell",
+				"Warding Wind|XGE",
+				"Clairvoyance",
+				"Daylight",
+				"Dire Wail|llspell",
+				"Dispel Magic",
+				"Elemental Weapon",
+				"Feign Death",
+				"Gaseous Form",
+				"Haste",
+				"Tiny Hut (alternate)|llspell",
+				"Life Transference|XGE",
+				"Meld Into Stone",
+				"Nondetection",
+				"Plant Growth",
+				"Protection from Energy",
+				"Remove Curse",
+				"Slow",
+				"Speak with Dead",
+				"Spectral Passage|llspell",
+				"Spirit Guardians",
+				"Stinking Cloud",
+				"Wall of Sand|XGE",
+				"Wall of Water|XGE",
+				"Wind Wall",
+				"Arcane Eye",
+				"Banishment",
+				"Control Water",
+				"Divination",
+				"Elemental Bane|XGE",
+				"Fire Shield",
+				"Freedom of Movement",
+				"Giant Insect",
+				"Grasping Vine",
+				"Guardian of Nature|XGE",
+				"Sickening Radiance|XGE",
+				"Stoneskin",
+				"Watery Sphere|XGE",
+				"Antilife Shell",
+				"Awaken",
+				"Cloudkill",
+				"Commune with Nature",
+				"Dawn|XGE",
+				"Dispel Evil and Good",
+				"Dream",
+				"Far Step|XGE",
+				"Planar Binding",
+				"Reincarnate",
+				"Scrying",
+				"Skill Empowerment|XGE",
+				"Spiritual Sundering|llspell",
+				"Wrath of Nature|XGE",
+				"Detect Magic",
+				"Unseen Servant",
+				"Bestow Curse",
+				"Magic circle",
+				"Phantom Steed",
+				"Tongues",
+				"Polymorph (alternate)|llspell",
+				"Commune",
+				"Purify Water and Drink"
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Totemic Spirit",
+					"featureType": [
+						"LL:TTM"
+					],
+					"progression": {
+						"1": 2,
+						"3": 3,
+						"5": 4,
+						"7": 5,
+						"9": 6,
+						"12": 7,
+						"15": 8,
+						"18": 9
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"shield"
+				],
+				"weapons": [
+					"simple",
+					"{@item blowgun|phb|blowguns}",
+					"{@item net|phb|nets}"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"arcana",
+								"insight",
+								"medicine",
+								"nature",
+								"performance",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item quarterstaff|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item shortbow|phb} and {@item arrows (20)|phb|20 arrows} or (b) 5 {@item javelin|phb|javelins}",
+					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"{@item leather armor|phb} and one object used as a Totem."
+				],
+				"defaultData": [
+					{
+						"a": [
+							"quarterstaff|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"shortbow|phb",
+							"arrows (20)|phb"
+						],
+						"b": [
+							{
+								"item": "javelin|phb",
+								"quantity": 5
+							}
+						]
+					},
+					{
+						"a": [
+							"priest's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"Leather armor|phb",
+							"shamanistic focus"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"shield"
+					],
+					"weapons": [
+						"simple"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"animal handling",
+									"arcana",
+									"insight",
+									"medicine",
+									"nature",
+									"performance",
+									"religion"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Bound Totems|optionalfeatures|feature type=LL:TTM}",
+						"{@filter Cantrips Known|spells|level=0|class=Shaman (LLSH)}",
+						"Spell Slots",
+						"Slot Level"
+					],
+					"rows": [
+						[
+							"2",
+							"-",
+							"-",
+							"-"
+						],
+						[
+							"2",
+							"2",
+							"2",
+							"1st"
+						],
+						[
+							"3",
+							"2",
+							"2",
+							"2nd"
+						],
+						[
+							"3",
+							"3",
+							"2",
+							"2nd"
+						],
+						[
+							"4",
+							"3",
+							"2",
+							"3rd"
+						],
+						[
+							"4",
+							"3",
+							"2",
+							"3rd"
+						],
+						[
+							"5",
+							"3",
+							"2",
+							"4th"
+						],
+						[
+							"5",
+							"3",
+							"2",
+							"4th"
+						],
+						[
+							"6",
+							"3",
+							"2",
+							"5th"
+						],
+						[
+							"6",
+							"4",
+							"2",
+							"5th"
+						],
+						[
+							"6",
+							"4",
+							"3",
+							"5th"
+						],
+						[
+							"7",
+							"4",
+							"3",
+							"5th"
+						],
+						[
+							"7",
+							"4",
+							"3",
+							"5th"
+						],
+						[
+							"7",
+							"4",
+							"3",
+							"5th"
+						],
+						[
+							"8",
+							"4",
+							"3",
+							"5th"
+						],
+						[
+							"8",
+							"4",
+							"3",
+							"5th"
+						],
+						[
+							"8",
+							"4",
+							"4",
+							"5th"
+						],
+						[
+							"9",
+							"4",
+							"4",
+							"5th"
+						],
+						[
+							"9",
+							"4",
+							"4",
+							"5th"
+						],
+						[
+							"9",
+							"4",
+							"4",
+							"5th"
+						]
+					]
+				}
+			],
+			"subclassTitle": "Spirituality",
+			"foundryAdvancement": [
+				{
+					"name": "Totemic Assault Damage",
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "totemic-assault",
+						"type": "dice",
+						"scale": {
+							"1": {
+								"n": 1,
+								"die": 8
+							},
+							"5": {
+								"n": 2,
+								"die": 8
+							},
+							"11": {
+								"n": 3,
+								"die": 8
+							},
+							"17": {
+								"n": 4,
+								"die": 8
+							}
+						}
+					}
+				}
+			],
+			"classFeatures": [
+				"Sacred Focus|Shaman|LLOC|1|LLOC",
+				"Totem Spirits|Shaman|LLOC|1|LLOC",
+				"Totemic Assault|Shaman|LLOC|1|LLOC",
+				"Conduit Magic|Shaman|LLOC|2|LLOC",
+				{
+					"classFeature": "Spirituality|Shaman|LLOC|2|LLOC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Shaman|LLOC|4|LLOC",
+				"Totemic Versatility|Shaman|LLOC|5|LLOC",
+				{
+					"classFeature": "Spirituality Feature|Shaman|LLOC|6|LLOC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Shaman|LLOC|8|LLOC",
+				{
+					"classFeature": "Spirituality Feature|Shaman|LLOC|10|LLOC",
+					"gainSubclassFeature": true
+				},
+				"Elder Spirit (6th-level)|Shaman|LLOC|11|LLOC",
+				"Ability Score Improvement|Shaman|LLOC|12|LLOC",
+				"Elder Spirit (7th-level)|Shaman|LLOC|13|LLOC",
+				{
+					"classFeature": "Spirituality Feature|Shaman|LLOC|14|LLOC",
+					"gainSubclassFeature": true
+				},
+				"Elder Spirit (8th-level)|Shaman|LLOC|15|LLOC",
+				"Ability Score Improvement|Shaman|LLOC|16|LLOC",
+				"Elder Spirit (9th-level)|Shaman|LLOC|17|LLOC",
+				"Ability Score Improvement|Shaman|LLOC|19|LLOC",
+				"Spiritual Ascension|Shaman|LLOC|20|LLOC"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Celestial Guidance",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Astrologer",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"The great Constellations of the night sky guide you and reveal the past. You gain proficiency in History. Whenever you make a History check related to legend or myth, you use Wisdom in place of Intelligence and add double your proficiency bonus.",
+				"Finally, you cannot become lost, even by magical means, so long as you can see the stars of the night sky."
+			]
+		},
+		{
+			"name": "Totemic Radiance",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Astrologer",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"You bind the radiant Spirits of the Heavens to your Totems. Your Totemic Assault now deals radiant damage, and when a creature fails its saving throw, you apply the effects of one of the Constellations below until the start of your next turn:",
+				{
+					"type": "entries",
+					"name": "Champion",
+					"entries": [
+						"The creature has disadvantage on all attacks it makes against one creature of your choice within 30 feet of it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leviathan",
+					"entries": [
+						"Totemic Assault uses d12s for its damage dice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Maiden",
+					"entries": [
+						"The creature emits bright light in a 5-foot radius, and has disadvantage on any ability check it makes to Hide."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sage",
+					"entries": [
+						"The creature must subtract 1d4 from the next ability check or saving throw that it is forced to make."
+					]
+				}
+			]
+		},
+		{
+			"name": "Astrologer",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Astrologer",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Since the earliest days of civilization, mortals have looked to stars for guidance. Drawing upon the Spirits that move these celestial bodies, Astrologer Shamans can channel the radiant power of the great Constellations that guide the mortal world.",
+				{
+					"type": "entries",
+					"name": "Astrologer Spells",
+					"entries": [
+						"{@i 2nd-level Astrologer feature}",
+						"You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:",
+						{
+							"type": "table",
+							"caption": "Astrologer Spells",
+							"colLabels": [
+								"Shaman Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"{@spell ceremony}, {@spell guiding bolt}"
+								],
+								[
+									"3rd",
+									"{@spell augury}, {@spell moonbeam}"
+								],
+								[
+									"5th",
+									"{@spell daylight}, {@spell hypnotic pattern (alternate)|llspell}"
+								],
+								[
+									"7th",
+									"{@spell divination}, {@spell guardian of faith}"
+								],
+								[
+									"9th",
+									"{@spell commune}, {@spell wall of light|XGE}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Celestial Guidance|Shaman|LLOC|Astrologer|LLOC|2|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Totemic Radiance|Shaman|LLOC|Astrologer|LLOC|2|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Lure of the Heavens",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Astrologer",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Astrologer feature}",
+				"Your connection to Celestial Spirits draws you upward from the ground. You walk 1-inch off the ground and therefore do not leave tracks. You can use this ability to walk over liquids and dangerous surfaces without touching the ground."
+			]
+		},
+		{
+			"name": "Celestial Jaunt",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Astrologer",
+			"subclassSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Astrologer feature}",
+				"You call on celestial Spirits to twist space. When a Large or smaller creature fails its save against Totemic Assault, you can forgo its normal damage and effects to instead teleport it to an unoccupied, flat space you can see within 30 feet.",
+				"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once), and you regain all of your expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Radiant Burst",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Astrologer",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Astrologer feature}",
+				"You can channel the full radiant might of the stars above. You learn the {@spell crown of stars|xge} spell and it counts as a Shaman spell for you. You can cast it once between each long rest, at 7th-level without expending a spell slot.",
+				"You can also apply two Constellation effects to a creature when it fails its saving throw against Totemic Assault."
+			]
+		},
+		{
+			"name": "Blood Totem",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Blood Priest",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Ancient Spirits have taught you to siphon life-blood and bind its spiritual power to Blood Totems using the rules below:",
+				{
+					"type": "entries",
+					"name": "Bound Totem",
+					"entries": [
+						"You start with a single Blood Totem that does not count against your total number of Bound Totems. However, at the end of a long rest, you can forgo any number of Bound Totems to instead create that many Blood Totems."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Harvesting",
+					"entries": [
+						"When you deal necrotic, piercing, or slashing damage to a creature within 10 feet of you, you can choose to harvest its blood, causing one Blood Totem you are holding to gain hit points equal to half the damage dealt. This ability has no effect on Constructs, Undead, or creatures without blood."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hit Points",
+					"entries": [
+						"Blood Totems can store up to 25 hit points at one time. If a Blood Totem is at its maximum hit points, you can expend all its hit points to cast one of your Blood Priest spells at your Slot Level, without expending a slot or the spell's normal material components.",
+						"When you finish a long rest, unused hit points stored within Blood Totems lose their magic and are dispelled."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cruel Implements",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Blood Priest",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"You have learned to use particular weapons to better harvest the life-blood of your foes. You gain proficiency with all melee weapons that deal piercing or slashing damage."
+			]
+		},
+		{
+			"name": "Sanguine Shield",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Blood Priest",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Whenever you take damage while you are holding a Blood Totem, you can use a reaction to cause it to take the damage in your place. Should this reduce a Blood Totem to zero hit points, you take any remaining damage."
+			]
+		},
+		{
+			"name": "Blood Priest",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Blood Priest",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"In ancient days, elder Shamans communed with Spirits that desired mortal blood above all. Over time, the Spirits taught the first Blood Priests the dark secrets of blood magic, and in return, they offered these elder Spirits the blood of their foes.",
+				{
+					"type": "entries",
+					"name": "Blood Priest Spells",
+					"entries": [
+						"{@i 2nd-level Blood Priest feature}",
+						"You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:",
+						{
+							"type": "table",
+							"caption": "Blood Priest Spells",
+							"colLabels": [
+								"Shaman Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"{@spell false life}, {@spell ray of sickness}"
+								],
+								[
+									"3rd",
+									"{@spell hold person}, {@spell ray of enfeeblement}"
+								],
+								[
+									"5th",
+									"{@spell bestow curse}, {@spell slow}"
+								],
+								[
+									"7th",
+									"{@spell death ward}, {@spell dominate beast}"
+								],
+								[
+									"9th",
+									"{@spell contagion}, {@spell hold monster}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Blood Totem|Shaman|LLOC|Blood Priest|LLOC|2|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cruel Implements|Shaman|LLOC|Blood Priest|LLOC|2|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sanguine Shield|Shaman|LLOC|Blood Priest|LLOC|2|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Blood Priest",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Blood Priest feature}",
+				"You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a Shaman spell or use Totemic Assault, you can make a single melee weapon attack as a bonus action.",
+				"Attacks with your Cruel Implements also count as magical for overcoming resistances and immunities."
+			]
+		},
+		{
+			"name": "Sanguine Curse",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Blood Priest",
+			"subclassSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Blood Priest feature}",
+				"Spirits that hunger for mortal vitality empower your magick. When you expend a Blood Totem to cast a Blood Priest spell, you can force the target to make a Constitution saving throw in place of the normal saving throw for that spell. If you have hit points harvested from the target of the spell in that Blood Totem, it makes this saving throw with disadvantage.",
+				"Also, when a creature takes damage from Totemic Assault, you can harvest hit points regardless of its distance from you."
+			]
+		},
+		{
+			"name": "Crimson Ascendant",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Blood Priest",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Blood Priest feature}",
+				"You have stained your soul with the blood of mortals in order to satisfy the hunger of dark Spirits. Whenever you damage a creature with a Cruel Implement, hit points you harvest for your Blood Totems are no longer halved.",
+				"You also start with three Blood Totems before you must forgo Bound Totems to create Blood Totems."
+			]
+		},
+		{
+			"name": "Evil Eye",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Curse Binder",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Curse Binder feature}",
+				"You can curse with a glance. When a creature that you can see within 60 feet hits with an attack roll, or succeeds on an ability check or saving throw, you can use a reaction to roll 1d4 and subtract it from its roll, possibly causing it to fail.",
+				"You can use this reaction a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Totemic Curse",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Curse Binder",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Curse Binder feature}",
+				"You bind Spirits of pain, suffering, and despair to inflict upon your foes. Whenever a creature fails its saving throw against Totemic Assault, you inflict one of the following conditions on it until the beginning of your next turn:",
+				{
+					"type": "list",
+					"items": [
+						"Its speed is halved and it cannot take reactions.",
+						"It cannot regain hit points, and whenever it takes damage it takes an additional 1d4 necrotic damage.",
+						"It is Blinded to anything more than 15 feet away from it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Curse Binder",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Curse Binder",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"While most Shamans use the power of Spirits to work magic and heal the sick, some twist this connection, binding sinister Spirits to enemies. Known as Curse Binders, these Shamans wield the sinister spiritual power present in the world. Often apprentices of hags or entities from the Shadowfell, they use ancient techniques to afflict their foes with hexes and curses.",
+				{
+					"type": "entries",
+					"name": "Curse Binder Spells",
+					"entries": [
+						"{@i 2nd-level Curse Binder feature}",
+						"You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:",
+						{
+							"type": "table",
+							"caption": "Curse Binder Spells",
+							"colLabels": [
+								"Shaman Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"{@spell bane}, {@spell cause fear|XGE}"
+								],
+								[
+									"3rd",
+									"{@spell blindness/deafness}, {@spell ray of enfeeblement}"
+								],
+								[
+									"5th",
+									"{@spell bestow curse}, {@spell vampiric touch}"
+								],
+								[
+									"7th",
+									"{@spell blight}, {@spell phantasmal killer}"
+								],
+								[
+									"9th",
+									"{@spell contagion}, {@spell enervation|XGE}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Evil Eye|Shaman|LLOC|Curse Binder|LLOC|2|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Totemic Curse|Shaman|LLOC|Curse Binder|LLOC|2|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Sinister Vitality",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Curse Binder",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Curse Binder feature}",
+				"Sinister spirits drain life from your foes. Whenever you deal necrotic damage to a creature with Totemic Assault, you gain temporary hit points equal to half the necrotic damage dealt.",
+				"This has no effect on Constructs or Undead creatures."
+			]
+		},
+		{
+			"name": "Occult Ward",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Curse Binder",
+			"subclassSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Curse Binder feature}",
+				"Your familiarity with foul magick and sinister curses protect you from similar effects. You gain resistance to both poison and necrotic damage, and have advantage on saving throws to resist the Charmed and Frightened conditions.",
+				"Also, when you succeed on a saving throw to resist being Charmed or Frightened, you can use your reaction to target your attacker with Totemic Assault."
+			]
+		},
+		{
+			"name": "Foul Conjuration",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Curse Binder",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Curse Binder feature}",
+				"You have reached the apex of sinister shamanism, the ability to create corporeal bodies for the vile Spirits you bind. Once per long rest, you can cast create undead at 6th-level without expending a spell slot or providing the material components.",
+				"Any Undead creatures that you create with this feature crumble to dust at the end of your next long rest."
+			]
+		},
+		{
+			"name": "Elementalist",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Elementalist",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Some Shamans gain their abilities while living near places of raw elemental power: active volcanoes, amongst the sands of blazing deserts, atop frigid mountain peaks, or on the stormy coasts of the ocean. Known as Elementalists, these Shamans learn to draw out the most destructive Elemental Spirits and channel them to devastating effect against their enemies.",
+				{
+					"type": "entries",
+					"name": "Elementalist Spells",
+					"entries": [
+						"{@i 2nd-level Elementalist feature}",
+						"You always have spells associated with the Elemental Spirit that you are attuned to prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:",
+						{
+							"type": "table",
+							"caption": "Elementalist Spells",
+							"colLabels": [
+								"Shaman Level",
+								"Air Spells",
+								"Earth Spells",
+								"Fire Spells",
+								"Water Spells"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-2-2",
+								"col-2-2",
+								"col-2-2",
+								"col-2-2"
+							],
+							"rows": [
+								[
+									"2nd",
+									"{@spell thunderwave}",
+									"{@spell earth tremor|XGE}",
+									"{@spell burning hands}",
+									"{@spell torrent|llspell}"
+								],
+								[
+									"3rd",
+									"{@spell shatter}",
+									"{@spell earthen grasp|XGE}",
+									"{@spell flaming sphere}",
+									"{@spell snowball swarm|XGE}"
+								],
+								[
+									"5th",
+									"{@spell lightning bolt}",
+									"{@spell erupting earth|XGE}",
+									"{@spell fireball}",
+									"{@spell tidal wave|XGE}"
+								],
+								[
+									"7th",
+									"{@spell storm sphere|XGE}",
+									"{@spell stone shape}",
+									"{@spell wall of fire}",
+									"{@spell ice storm}"
+								],
+								[
+									"9th",
+									"{@spell control winds|XGE}",
+									"{@spell wall of stone}",
+									"{@spell immolation|XGE}",
+									"{@spell cone of cold}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Optional Rule: Elemental Focus",
+					"entries": [
+						"If you wish to play a Shaman who channels Spirits of a single Element only, use the following rules:",
+						{
+							"type": "entries",
+							"name": "Elemental Sage",
+							"entries": [
+								"You can no longer perform the ritual to attune to another Elemental Spirit."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Elementalist Spells",
+							"entries": [
+								"Choose a second Spirituality Spell of each level from 1st through 5th. All spells should deal the damage type of your Element or be thematically appropriate as approved by your DM."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bonus Cantrip",
+							"entries": [
+								"You learn a Cantrip corresponding to your Element, but it does not count against your total number Cantrips Known. Either {@spell beckon air|llspell}, {@spell control flame (alternate)|llspell}, {@spell mold earth (alternate)|llspell}, or  {@spell shape water (alternate)|llspell}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Master of the Elements",
+							"entries": [
+								"In place of resistance to the listed damage types, you gain immunity to the damage type associated with your Element."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Totemic Destruction",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Elementalist",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"The Elemental Spirit you are attuned to infuses your Totems with its destructive power. Your Totemic Assault gains all the benefits below associated with your current Elemental Spirit:",
+				{
+					"type": "entries",
+					"name": "Air",
+					"entries": [
+						"Totemic Assault deals thunder damage, and on a failed save, the target is moved up to 15 feet in a straight line. This distance is reduced by 5 feet for each size it is over Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Earth",
+					"entries": [
+						"Totemic Assault deals bludgeoning damage, and on a failed save, a Larger or smaller creature is knocked prone."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fire",
+					"entries": [
+						"Totemic Assault deals fire damage, and the damage dice of Totemic Assault become d12s."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Water",
+					"entries": [
+						"Totemic Assault deals cold damage, and on a failed save, until the start of your next turn the creature cannot take reactions and its speed is reduced by 10 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Sage",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Elementalist",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Elementalist feature}",
+				"The primordial Spirits of nature have taught you the secrets of elemental mastery. During a long rest, you can perform a 1-hour ritual to attune to an Elemental Spirit until the end of your next long rest, choosing Air, Earth, Fire, or Water.",
+				"This Elemental Spirit grants you resistance to, and affinity with the type of damage associated with it, as shown below:",
+				{
+					"type": "table",
+					"caption": "Elementalist Spells",
+					"colLabels": [
+						"Element",
+						"Air",
+						"Earth",
+						"Fire",
+						"Water"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-2-2",
+						"col-2-2",
+						"col-2-2",
+						"col-2-2"
+					],
+					"rows": [
+						[
+							"Damage",
+							"thunder",
+							"bludgeoning",
+							"fire",
+							"cold"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Elementalist|Shaman|LLOC|Elementalist|LLOC|2|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Totemic Destruction|Shaman|LLOC|Elementalist|LLOC|2|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Elemental Wrath",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Elementalist",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Elementalist feature}",
+				"The power you draw from the Elemental Spirits has grown. You bind a {@optfeature Spirit of Wrath|LLOC}, but it does not count against your total number of Bound Spirits. You can also apply the Spirit of Wrath bonus damage to any Shaman spell or feature that deals the damage type of your Elemental Spirit.",
+				"If you already had a {@optfeature Spirit of Wrath|LLOC} as one of your Bound Totems, you can bind another Totem Spirit of your choice so long as you also meet the prerequisites for that Totem Spirit."
+			]
+		},
+		{
+			"name": "Elemental Empowerment",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Elementalist",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"The Elemental Spirit you attune to infuses your physical body, granting you mystical benefits. You gain the benefits below that correspond to your current Elemental Spirit:",
+				{
+					"type": "entries",
+					"name": "Air",
+					"entries": [
+						"You can take the Dash action as a bonus action. Whenever you take the Dash action, opportunity attacks are made with disadvantage against you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Earth",
+					"entries": [
+						"Whenever you are forced to make a Strength ability check or saving throw, you gain a bonus to your roll equal to your Wisdom modifier (a minimum of +1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fire",
+					"entries": [
+						"When you are forced to make a saving throw to resist being Charmed or Frightened, you can add your Wisdom modifier (a minimum of +1) to your roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Water",
+					"entries": [
+						"You gain a swimming speed equal to your walking speed. You can also hold your breath underwater for up to 1 hour. If you already have a swimming speed, you can Dash as a bonus action while you are swimming."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Elemental Wrath|Shaman|LLOC|Elementalist|LLOC|6|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Primordial Conduit",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Elementalist",
+			"subclassSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Elementalist feature}",
+				"Your power rivals native Spirits of the four Elemental Planes. Once between each short or long rest, you can cast one Elementalist Spells at the level of your Conduit Magic spell slots, without expending a spell slot.",
+				"Also, whenever you deal the damage type of your Elemental Spirit, you gain temporary hit points equal to half the damage dealt to a single target."
+			]
+		},
+		{
+			"name": "Master of the Elements",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Elementalist",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Elementalist feature}",
+				"As a bonus action, you can draw Spirits of all four elements into yourself, gaining the following benefits for 1 minute:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a flying speed equal to your walking speed.",
+						"You resist bludgeoning, cold, fire, and thunder damage.",
+						"When a creature moves within 10 feet or hits you with an attack, you can use a reaction to force it to make Dexterity saving throw or suffer the effects of your Totemic Assault.",
+						"When you use Totemic Assault, you can choose which of the four Elemental effects it imposes on a failed save."
+					]
+				},
+				"This transformation ends early if you are incapacitated or use your bonus action to end it. You can use this feature once per long rest at no cost, after that you must spend a Conduit Magic spell slots to use this feature again."
+			]
+		},
+		{
+			"name": "Elder Elemental Spirits",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Elementalist",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Elementalist feature}",
+				"You wield the primordial elemental power of the most destructive aspects of nature. When attuned to your Elemental Spirit, you also gain the benefits from its corresponding Elder Spirit from the table below.",
+				{
+					"type": "table",
+					"caption": "Elementalist Spells",
+					"colLabels": [
+						"Air",
+						"Earth",
+						"Fire",
+						"Water"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-2-2",
+						"col-2-2",
+						"col-2-2",
+						"col-2-2"
+					],
+					"rows": [
+						[
+							"{@optfeature Elder Spirit of the Storm|LLOC}",
+							"{@optfeature Elder Spirit of the Fissure|LLOC}",
+							"{@optfeature Elder Spirit of the Inferno|LLOC}",
+							"{@optfeature Elder Spirit of the Sea|LLOC}"
+						]
+					]
+				},
+				"However, you can still only cast a single Elder Spirit spell of each level per long rest, choosing between the spells of each of your Elder Spirits.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Master of the Elements|Shaman|LLOC|Elementalist|LLOC|14|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Spirits of Fate",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Far Seer",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Far Seer feature}",
+				"You have learned to bind minor Spirits of Fate and unleash them to influence the world around you in minor ways. Each time you finish a short or long rest, roll two d4s, your Fate Dice, and record the numbers you rolled.",
+				"When you or a creature you can see within 60 feet makes an ability check, attack roll, or saving throw, you can use your reaction to apply one of these Fate Dice to the roll, adding or subtracting it from the result. You can use this reaction after you know the result of the roll, but before you know if the roll would be a success or failure.",
+				"Each Fate Die can be used only once, and any unused Fate Dice are lost at the end of a short or long rest.",
+				"At certain Shaman levels, your Fate Dice grow: at 6th level (d6), 10th level (d8), and 14th level (d10)."
+			]
+		},
+		{
+			"name": "Totemic Ritualist",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Far Seer",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Far Seer feature}",
+				"You can draw on the spiritual power bound to your Totems to enhance your ritual magic. When you cast the Ritual version of a Shaman spell, you can use a Totem in place of the normal material component. When you do, the Ritual version of that spell only takes 1 additional minute, instead of 10 minutes.",
+				"Also, whenever you cast a divination spell and use a Totem as the spellcasting focus, the Totem can replace any material components with a gold value so long as it is not consumed."
+			]
+		},
+		{
+			"name": "Far Seer",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Far Seer",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Many Shamans initially discover their connection to the spirit world when they perform rituals to divine the future. Should these amateur spiritualists pursue this connection they learn to channel spirits as a Far Seer, a Shaman who can glimpse both past and future, and use spiritual power to alter fate.",
+				{
+					"type": "entries",
+					"name": "Far Seer Spells",
+					"entries": [
+						"{@i 2nd-level Far Seer feature}",
+						"You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:",
+						{
+							"type": "table",
+							"caption": "Far Seer Spells",
+							"colLabels": [
+								"Shaman Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"{@spell comprehend languages}, {@spell detect magic}"
+								],
+								[
+									"3rd",
+									"{@spell augury}, {@spell detect thoughts}"
+								],
+								[
+									"5th",
+									"{@spell clairvoyance}, {@spell tongues}"
+								],
+								[
+									"7th",
+									"{@spell arcane eye}, {@spell divination}"
+								],
+								[
+									"9th",
+									"{@spell contact other plane}, {@spell scrying}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spirits of Fate|Shaman|LLOC|Far Seer|LLOC|2|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Totemic Ritualist|Shaman|LLOC|Far Seer|LLOC|2|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Ascended Awareness",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Far Seer",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Far Seer feature}",
+				"The Spirits of Fate constantly whisper secrets to you, filling your mind with constant glimpses of the near future. So long as you are not incapacitated you cannot be surprised, and you add your Wisdom modifier (minimum of +1) to initiative rolls."
+			]
+		},
+		{
+			"name": "Certain Fate",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Far Seer",
+			"subclassSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Far Seer feature}",
+				"The future is fickle and constantly changing, but once you glimpse something, it nearly always comes to pass. When you use your reaction to add a Fate Die to a roll and it does not change the outcome of that roll, the Die is not expended.",
+				"For example, if you subtracted a Fate Die from an foe's saving throw and it still succeeded on its saving throw, your Fate Die would not be expended."
+			]
+		},
+		{
+			"name": "Tip the Scales",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Far Seer",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Far Seer feature}",
+				"You can effect Fate in ways that rival elder Spirits, if only in small moments. When a creature you can see within 60 feet finishes its turn, you can use your reaction to expend one of your Fate Dice, and force the creature to repeat that turn.",
+				"Anything the creature did on that turn is undone, and it must repeat its turn exactly, taking the same exact course of action, but any dice rolled on that turn are rolled again, and all creatures use the new results."
+			]
+		},
+		{
+			"name": "Totemic Idol",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Idolater",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"You have learned to craft powerful Idols. You gain proficiency in mason's tools, and over the course of 1 hour, which can be during a short or long rest, you can craft an Idol. You can only have one Idol. Crafting another destroys all other Idols.",
+				"The Idol is a Small stone object with an Armor Class equal to your Shaman Spell save DC and hit points equal to 10 + your Shaman level. It is resistant to non-magical bludgeoning, piercing, and slashing damage.",
+				"As an action, you can plant this Idol on a flat, unoccupied surface and cast a Shaman spell with a casting time of one action or bonus action that requires concentration. The effect of the spell occurs as normal, but you do not need to concentrate on it.",
+				"If the spell has a target of self, the effect of the spell is centered on the Idol.",
+				"The spell is active until that Idol is destroyed, or you use your action to move it. If a target of the spell moves more than 60 feet away from the Idol, the effects of the spell end for it."
+			]
+		},
+		{
+			"name": "Idolater",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Idolater",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Since the dawn of time mortal Shamans have used the magic of idolatry to force powerful Spirits to carry out their bidding. Using ancient magic, they bind spiritual entities within Idols, and once bound, focus their spiritual power on friend and foe.",
+				{
+					"type": "entries",
+					"name": "Idolater Spells",
+					"entries": [
+						"{@i 2nd-level Idolater feature}",
+						"You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:",
+						{
+							"type": "table",
+							"caption": "Idolater Spells",
+							"colLabels": [
+								"Shaman Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"{@spell bless}, {@spell fog cloud}"
+								],
+								[
+									"3rd",
+									"{@spell healing spirit}, {@spell spike growth}"
+								],
+								[
+									"5th",
+									"{@spell beacon of hope}, {@spell sleet storm}"
+								],
+								[
+									"7th",
+									"{@spell aura of life}, {@spell summon construct|tce|summon construct (stone)}"
+								],
+								[
+									"9th",
+									"{@spell antilife shell}, {@spell control winds}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Totemic Idol|Shaman|LLOC|Idolater|LLOC|2|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Spiritual Vortex",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Idolater",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Idolater feature}",
+				"Your Totemic Idol magnifies your spiritual power. While your stone Idol is planted in the ground, you can target it with your Totemic Assault. In place of its normal effects, all creatures of your choice within 20 feet of the Idol must make a Charisma saving throw or suffer the effects of Totemic Assault.",
+				"In addition, while planted, your Totemic Idol is immune to all non-magical bludgeoning, piercing, and slashing damage."
+			]
+		},
+		{
+			"name": "Guardian Idol",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Idolater",
+			"subclassSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Idolater feature}",
+				"In times of great need, the Spirits within your Totemic Idol will come to your aid. As an action, you can cast the {@spell summon construct|tce|summon construct (stone)} spell on your Totemic Idol, bringing it to life. When you do so, the spell gains the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You do not expend a spell slot, but the spell is cast at the level of your Conduit Magic spell slots.",
+						"The Idol replaces the spell's normal material component.",
+						"The spell does not require your concentration.",
+						"You can use Spiritual Vortex on the Guardian Idol.",
+						"The Guardian Idol gains temporary hit points equal to the hit points your Totemic Idol had when you cast this spell."
+					]
+				},
+				"When this spell ends or your Guardian Idol is destroyed, your Totemic Idol is destroyed along with it, and you can only have a single instance of {@spell summon construct|tce|summon construct (stone)} active at a time."
+			]
+		},
+		{
+			"name": "High Idolater",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Idolater",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Idolater feature}",
+				"You have mastered the ancient and powerful magic of Idols. You can have up to two Totemic Idols at once, though each Idol must be crafted individually. They can also both be active at one time, each concentrating on a single spell. You can only have one Guardian Idol.",
+				"Finally, when one of your Idols or a Guardian Idol is destroyed, creatures of your choice within 30 feet of it must succeed on a Dexterity saving throw against your Shaman Spell save DC or suffer the effects of Totemic Assault. On a success, they suffer half damage, but none of the additional effects."
+			]
+		},
+		{
+			"name": "Totemic Bond",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Spirit Guide",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"You forged a bond with unique Spirit known as a {@creature Geist Spirit|LLOC}. Your Geist is friendly to you and your allies, and it obeys your commands. It uses the Geist stat block, which uses your Shaman Spell save DC and your proficiency bonus (PB) in several places.",
+				{
+					"type": "entries",
+					"name": "Conjuring the Geist",
+					"entries": [
+						"During a long rest, you can perform a 1-hour ritual to conjure your Geist Spirit, or restore your current Geist to its full hit points. If the Geist is reduced to 0 hit points it is banished to the Etheral Plane. As an action, you expend a Conduit magic spell slot to conjure your Geist, restoring it to its full hit points in an unoccupied space within 5 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"The Geist acts during your turn. It can move and use its reaction on its own, but it only takes the Dodge action unless you use your bonus action to command it to take one of the actions listed in its stat block, or another action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spirit Guide",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Spirit Guide",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"While most Shamans bind many Spirits, Shamans known as Spirit Guides form a single bond with their Geist Spirit. Often the Spirits of departed Shamans, Geists increase in power alongside the Shaman they are bound to, and can even channel the power bound within Totems.",
+				{
+					"type": "entries",
+					"name": "Spirit Guide Spells",
+					"entries": [
+						"{@i 2nd-level Spirit Guide feature}",
+						"You always have certain spells prepared at Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day:",
+						{
+							"type": "table",
+							"caption": "Spirit Guide Spells",
+							"colLabels": [
+								"Shaman Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"{@spell ghastly flight|llspell}, {@spell shield of faith}"
+								],
+								[
+									"3rd",
+									"{@spell spiritual weapon}, {@spell warding bond}"
+								],
+								[
+									"5th",
+									"{@spell spectral passage|llspell}, {@spell spirit guardians}"
+								],
+								[
+									"7th",
+									"{@spell death ward}, {@spell guardian of faith}"
+								],
+								[
+									"9th",
+									"{@spell arcane hand}, {@spell wall of light|XGE}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Totemic Bond|Shaman|LLOC|Spirit Guide|LLOC|2|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Spectral Empowerment",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Spirit Guide",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Spirit Guide feature}",
+				"As a bonus action, you can touch your Geist to merge with it and gain the benefits of the {@spell spectral passage|llspell} spell. When the spell ends, you and your Geist instantly seperate."
+			]
+		},
+		{
+			"name": "Soul Bond",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Spirit Guide",
+			"subclassSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Spirit Guide feature}",
+				"The bond you share with your Geist allows you to seamlessly change places. As a bonus action, you can switch places with your Geist so long as it is within 120 feet and you can see it.",
+				"You can use this feature as a reaction if you or your Geist takes damage. You switch, and the other takes the damage."
+			]
+		},
+		{
+			"name": "Ethereal Mastery",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Spirit Guide",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Spirit Guide feature}",
+				"You unleash the full power of your Geist. It can fly as normal, and it is always under the effect of the spectral passage spell.",
+				"Lastly, when you use Spectral Empowerment, the effect does not require concentration, and you gain resistance to all damage except for force, psychic, radiant, and thunder."
+			]
+		},
+		{
+			"name": "Spirit Warrior",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Spirit Warrior",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Serving as the guardians of sacred groves and places of great spiritual power, Spirit Warriors draw on the power of ancient spirits to enhance their physical form. When they allow these incorporeal beings to walk the world through their physical bodies, they gain increased physical and martial abilities.",
+				{
+					"type": "entries",
+					"name": "Spirit Warrior Spells",
+					"entries": [
+						"{@i 2nd-level Spirit Warrior feature}",
+						"You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:",
+						{
+							"type": "table",
+							"caption": "Spirit Warrior Spells",
+							"colLabels": [
+								"Shaman Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"{@spell heroism}, {@spell shield of faith}"
+								],
+								[
+									"3rd",
+									"{@spell totemic cowl|llspell}, {@spell spiritual weapon}"
+								],
+								[
+									"5th",
+									"{@spell clairvoyance}, {@spell spirit shroud|TCE}"
+								],
+								[
+									"7th",
+									"{@spell guardian of faith}, {@spell staggering smite (alternate)|llspell}"
+								],
+								[
+									"9th",
+									"{@spell contact other plane}, {@spell Steel Wind Strike (alternate)|llspell}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Totemic Weapon",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Spirit Warrior",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Spirit Warrior feature}",
+				"You bind warrior Spirits to your weapons. During the course of a long rest, you can perform a 1-hour ritual to bind one of the Spirits below to a melee weapon you are holding. The weapon gains the benefits of the chosen Spirit until you use this ritual again.",
+				"You can use your Wisdom, in place of Strength, for attack and damage rolls with this Totemic Weapon, and its attacks count as magical for overcoming resistance and immunity.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Spirit of Challenge|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Spirit of Draining|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Spirit of Might|LLSH"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ancestral Knowledge",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Spirit Warrior",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Spirit Warrior feature}",
+				"When you adopt this Spirituality, Spirits of ancient warriors grant you their lifetimes' worth of combat experience. You gain proficiency with medium armor and martial weapons.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spirit Warrior|Shaman|LLOC|Spirit Warrior|LLOC|2|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Totemic Weapon|Shaman|LLOC|Spirit Warrior|LLOC|2|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Spirit Warrior",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Spirit Warrior feature}",
+				"You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a Shaman spell or use Totemic Assault, you can make an attack with your Totemic Weapon as a bonus action."
+			]
+		},
+		{
+			"name": "Warrior of the Grave",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Spirit Warrior",
+			"subclassSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Spirit Warrior feature}",
+				"The warrior Spirits that indwell you fortify you against bodily harm. Whenever you take damage, you can use a reaction to gain temporary hit points equal to the damage taken.",
+				"You can use this reaction a number of times equal to your Wisdom modifier (a minimum of once), and you regain all of your expended uses when you complete a long rest."
+			]
+		},
+		{
+			"name": "Spiritual Champion",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Spirit Warrior",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Spirit Warrior feature}",
+				"You can offer the Spirits full control over you, granting you temporary mystical power. As a bonus action, you can enter a possessed state, gaining the following benefits for 1 minute:",
+				{
+					"type": "list",
+					"items": [
+						"You can take the Dash action as a bonus action.",
+						"You gain resistance to all bludgeoning, piercing, and slashing damage from non-silvered attacks.",
+						"Once per turn when you hit a creautre with your Totemic Weapon, you can apply the effects of Totemic Assault."
+					]
+				},
+				"Once you use this feature you must finish a short or long rest before you can use it again. If you have no uses left, you can expend a Conduit Magic slot to use this feature again."
+			]
+		},
+		{
+			"name": "Bestial Traits",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wild Heart",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Wild Heart feature}",
+				"Each transformation, the Great Beast gains a number of Bestial Traits from the list at the end of this Spirituality equal to your Slot Level.",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Aggressive|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Amphibious|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Charge|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Hardened Shell|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Keen Senses|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Large Frame|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Mighty Leap|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Natural Camouflage|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Pack Tactics|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Powerful Build|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Savage Grip|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Strong Jaws|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Thermal Vision|LLSH"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Thick Hide|LLSH"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Totemic Wild Shape",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wild Heart",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"As a bonus action, you can transform and take on the shape of the Great Beast, the legendary guardian of all wild creatures. The Great Beast uses the rules below:",
+				{
+					"type": "entries",
+					"name": "Stat Block",
+					"entries": [
+						"Your game statistics are replaced by those in the Great Beast stat block. It uses your Spell save DC and proficiency bonus (PB). While transformed you retain your alignment, personality, hit points, all skill and saving throw proficiencies, and your Intelligence, Wisdom, and Charisma scores. You also determine its appearance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Hit Points",
+					"entries": [
+						"When you transform, you gain temporary hit points equal to twice your Shaman level, and they last for the duration of your current transformation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equipment",
+					"entries": [
+						"Any natural or unrefined equipment you are wearing or carrying, such as objects made of wood, animal parts, or other natural materials, can merge with your Great Beast form. Any metal or other highly processed equipment, such as metal weapons or armor, fall to the ground."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Features",
+					"entries": [
+						"You retain the benefits of all features from your class, player race, and other sources, and can still use them if the Beast is physically capable of doing so. However, you lose any special senses, unless the Beast also has that sense.",
+						"You can still use Totemic Assault and any abilities you gain from your Totems while you are in your Great Beats form."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Casting Spells",
+					"entries": [
+						"You cannot cast spells in your Great Beast form. However, you can maintain concentration on spells or other abilities used before you transformed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Duration & Uses",
+					"entries": [
+						"You can remain in Great Beast form for 1 hour. Your transformation ends early if you end it as a bonus action or if you are reduced to 0 hit points.",
+						"You can transform into the Great Beast once between each short or long rest. If you have no uses left, you can expend a Conduit Magic spell slot to transform again."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wild Heart",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wild Heart",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Often raised by, or closely with, wild beasts, shamans known as Wild Hearts develop an intense spiritual connection with the wild. This intense devotion, when combined with spiritual power, allows a Wild Heart to transform into the {@creature Great Beast|LLOC}, a legendary guardian of the wild animals of the natural world.",
+				{
+					"type": "entries",
+					"name": "Wild Heart Spells",
+					"entries": [
+						"{@i 2nd-level Wild Heart feature}",
+						"You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:",
+						{
+							"type": "table",
+							"caption": "Wild Heart Spells",
+							"colLabels": [
+								"Shaman Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"{@spell animal friendship}, {@spell jump (alternate)|llspell}"
+								],
+								[
+									"3rd",
+									"{@spell locate creature (alternate)|llspell}, {@spell pass without trace (alternate)|llspell}"
+								],
+								[
+									"5th",
+									"{@spell conjure animals}, {@spell fear}"
+								],
+								[
+									"7th",
+									"{@spell dominate beast}, {@spell freedom of movement}"
+								],
+								[
+									"9th",
+									"{@spell hold monster}, {@spell tree stride}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bestial Adaptation",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wild Heart",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Wild Heart feature}",
+				"Your time spent in the wilds has given you bestial qualities. Your speed increases by 10 feet, and you gain both a climbing speed and a swimming speed equal to your walking speed.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bestial Traits|Shaman|LLOC|Wild Heart|LLOC|2|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Totemic Wild Shape|Shaman|LLOC|Wild Heart|LLOC|2|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wild Heart|Shaman|LLOC|Wild Heart|LLOC|2|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Savage Strikes",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wild Heart",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Wild Heart feature}",
+				"The primeval power of the wilds empowers your Great Beast. When you take the Attack action in Great Beast form, you can make two Natural Weapon attacks instead of one.",
+				"Moreover, your Natural Weapon attacks in Great Beast form ignore resistances and immunities to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "Mythic Resilience",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wild Heart",
+			"subclassSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Wild Heart feature}",
+				"Spirits of the wild infuse your Great Beast, shielding it from harm. While you are in Great Beast form, you are resistant to all bludgeoning, piercing, and slashing damage."
+			]
+		},
+		{
+			"name": "Legendary Guardian",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wild Heart",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Wild Heart feature}",
+				"You have mastered the Great Beast transformation. While in your Great Beast Form, you can use your bonus action to replace one of your Bestial Traits with another."
+			]
+		},
+		{
+			"name": "Totemic Blessing",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Witch Doctor",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Witch Doctor feature}",
+				"Your selfless Spirituality has taught you to bind the Spirits of light and life to others. During a long rest, you can perform a special 1-hour ritual on a willing creature you touch, binding one of your Bound Totems to it. It gains benefits of the Totem and you lose them until the end of your next long rest.",
+				"At certain Shaman levels, the number of Totems you can bind to other creatures during this ritual grows: two Totems at 6th level, three at 10th level, and four at 14th level. You can only bind a maximum of one Totem to a creature at a time."
+			]
+		},
+		{
+			"name": "Witch Doctor",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Witch Doctor",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Long before the gods took notice of mortals, Witch Doctors wandered the land, providing spiritual healing and medicine. Working in tandem with spirits of life, Witch Doctors heal the wounded and grant their allies mystical abilities. These sages are peaceful in nature and can often be found traveling the wilds tending to the spiritual needs of those they meet.",
+				{
+					"type": "entries",
+					"name": "Witch Doctor Spells",
+					"entries": [
+						"{@i 2nd-level Witch Doctor feature}",
+						"You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:",
+						{
+							"type": "table",
+							"caption": "Witch Doctor Spells",
+							"colLabels": [
+								"Shaman Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"{@spell bless}, {@spell Detect Poison and Disease}"
+								],
+								[
+									"3rd",
+									"{@spell restoration|llspell}, {@spell warding bond}"
+								],
+								[
+									"5th",
+									"{@spell beacon of hope}, {@spell revivify}"
+								],
+								[
+									"7th",
+									"{@spell aura of life}, {@spell death ward}"
+								],
+								[
+									"9th",
+									"{@spell creation}, {@spell reincarnate}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Life Bearer",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Witch Doctor",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Witch Doctor feature}",
+				"You can channel spirits of abundance and life to heal others. Your Totemic Assault deals radiant damage to creatures.",
+				"Also, when you use Totemic Assault, you can cause Spirits to heal instead of harm. When you do so, the target does not need to make a saving throw, and instead it regains hit points equal to 2d4 + your Wisdom modifier (a minimum of 1).",
+				"This feature cannot restore hit points to Constructs or Undead creatures.",
+				"You can use this feature to heal a creature a number of times equal to your Shaman level, and you regain all of your expended uses when you finish a long rest.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Totemic Blessing|Shaman|LLOC|Witch Doctor|LLOC|2|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Witch Doctor|Shaman|LLOC|Witch Doctor|LLOC|2|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Benevolent Bearing",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Witch Doctor",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Witch Doctor feature}",
+				"Benevolent Spirits protect you as you perform selfless acts. When you use your action to cast a Witch Doctor Spell, or to restore hit points, you gain the benefits of the Dodge action."
+			]
+		},
+		{
+			"name": "Selfless Ward",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Witch Doctor",
+			"subclassSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Witch Doctor feature}",
+				"Your spiritual power grows as you pour yourself out to others. For each Totem that you have bound to a creature other than yourself, you gain a +1 bonus to saving throws, and you gain resistance to one damage type of your choice."
+			]
+		},
+		{
+			"name": "Spiritual Awakening",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Witch Doctor",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Witch Doctor feature}",
+				"Your spiritual practice fills you with an overabundance of life. When you cast {@spell revivify}, it gains a range of 30 feet, and you do not need to provide its material component. Moreover, when you cast {@spell revivify}, the target regains hit points equal to twice your Shaman level and can immediately stand up.",
+				"Finally, when you would make a death saving throw, you can expend one Conduit Magic spell slot to cast revivify on yourself, gaining the benefits above."
+			]
+		},
+		{
+			"name": "Totemic Wyrmshape",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wyrmbound",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"As a bonus action, you can fuse with your Draconic Spirit to transform into a {@creature Spirit Dragon|LLOC}, using the rules below:",
+				{
+					"type": "entries",
+					"name": "Stat Block",
+					"entries": [
+						"Your game statistics are replaced by those in the Spirit Dragon stat block. It uses your Spell save DC and proficiency bonus (PB). While transformed you retain your alignment, personality, hit points, all skill and saving throw proficiencies, and your Intelligence, Wisdom, and Charisma scores. You also determine its appearance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Hit Points",
+					"entries": [
+						"When you transform, you gain temporary hit points equal to your Shaman level, and they last for the duration of your current transformation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equipment",
+					"entries": [
+						"Any natural or unrefined equipment you are wearing or carrying, such as objects made of wood, animal parts, or other natural materials, can merge with your Spirit Dragon form. Metal or other highly processed equipment, such as metal weapons or armor, fall to the ground."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Features",
+					"entries": [
+						"You retain the benefits of all features from your class, player race, and other sources, and can still use them if the Spirit Dragon is physically capable of doing so. However, you lose any special senses, unless it also has that sense.",
+						"You can still use Totemic Assault and any abilities you gain from your Bound Totems while in your Spirit Dragon form."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Casting Spells",
+					"entries": [
+						"You can't cast spells in your Spirit Dragon form. However, you can maintain concentration on spells or other abilities used before you transformed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Duration & Uses",
+					"entries": [
+						"You can remain in Spirit Dragon form for 1 minute. Your transformation ends early if you end it as a bonus action or if you are reduced to 0 hit points.",
+						"You can transform into a Spirit Dragon once between each short or long rest. If you have no uses left, you can expend a Conduit Magic spell slot to transform again."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wyrmbound",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wyrmbound",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Unknown to many mortals, some of the most powerful spirits of the multiverse are those of dragons who have passed on. In their desire to affect the material plane, for good or ill, these draconic spirits attach themselves to mortals open to the spiritual, transforming them into Wyrmbound Shamans",
+				{
+					"type": "entries",
+					"name": "Wyrmbound Spells",
+					"entries": [
+						"{@i 2nd-level Wyrmbound feature}",
+						"When you gain a level in this class, you can replace one spell from this feature with an evocation or transmutation spell of the same level from either the Shaman or Sorcerer spell list.",
+						{
+							"type": "table",
+							"caption": "Wyrmbound Spells",
+							"colLabels": [
+								"Shaman Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"{@spell chromatic orb|XGE}, {@spell command}"
+								],
+								[
+									"3rd",
+									"{@spell dragon's breath|XGE}, {@spell suggestion}"
+								],
+								[
+									"5th",
+									"{@spell fear}, {@spell spectral passage|llspell}"
+								],
+								[
+									"7th",
+									"{@spell dominate beast}, {@spell Polymorph (alternate)|llspell}"
+								],
+								[
+									"9th",
+									"{@spell geas}, {@spell summon draconic spirit|FTD}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Draconic Conduit",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wyrmbound",
+			"subclassSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Wyrmbound feature}",
+				"The Draconic Spirit bound to your soul grants you mystical power. You can speak, read, and write Draconic. Whenever you make a Charisma check to interact with a Dragon, you add your Wisdom modifier (minimum of +1) to your roll.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Totemic Wyrmshape|Shaman|LLOC|Wyrmbound|LLOC|2|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wyrmbound|Shaman|LLOC|Wyrmbound|LLOC|2|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Ancient Fury",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wyrmbound",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Wyrmbound feature}",
+				"The ferocity of your Draconic Spirit has grown. Whenever you take the Attack action as a Spirit Dragon, you can make two Spectral Slash attacks instead of one. You can replace one of these attacks with your Spirit Breath.",
+				"Moreover, when you use your action in Spirit Dragon form to use Totemic Assault, you can make a single Spectral Slash attack as a bonus action on that turn."
+			]
+		},
+		{
+			"name": "Serpentine Speed",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wyrmbound",
+			"subclassSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Wyrmbound feature}",
+				"Your movements are enhanced by the power of your Draconic Spirit. You can take the Dash action as a bonus action. When you do so, opportunity attacks against you have disadvantage."
+			]
+		},
+		{
+			"name": "Flawless Conduit",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wyrmbound",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Wyrmbound feature}",
+				"Your physical form can handle the full might of the Draconic Spirit you commune with. You can transform into your Spirit Dragon form at will. Though, you only gain the temporary hit points once per short or long rest, or if you expend a Conduit Magic spell slot to transform again."
+			]
+		},
+		{
+			"name": "Exalted Spirit Dragon",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Wyrmbound",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Wyrmbound feature}",
+				"You can draw on the full power of your Spirit Dragon, if only briefly. Once per long rest, you can transform into an {@creature Exalted Spirit Dragon|LLOC} for 1 minute, using the Exalted Spirit Dragon stat block on this page. Each time you transform, you choose if you become Large or Huge.",
+				"Finally, while you are in your Exalted Spirit Dragon form, you can cast Shaman spells as normal.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Flawless Conduit|Shaman|LLOC|Wyrmbound|LLOC|14|LLOC"
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Astrologer",
+			"shortName": "Astrologer",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"ceremony",
+							"guiding bolt"
+						],
+						"3": [
+							"augury",
+							"moonbeam"
+						],
+						"5": [
+							"hypnotic pattern (alternate)|llspell",
+							"daylight"
+						],
+						"7": [
+							"divination",
+							"guardian of faith"
+						],
+						"9": [
+							"commune",
+							"wall of light|xge"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"ceremony",
+				"guiding bolt",
+				"augury",
+				"moonbeam",
+				"hypnotic pattern (alternate)|llspell",
+				"daylight",
+				"divination",
+				"guardian of faith",
+				"commune",
+				"wall of light|xge"
+			],
+			"subclassFeatures": [
+				"Astrologer|Shaman|LLOC|Astrologer|LLOC|2|LLOC",
+				"Lure of the Heavens|Shaman|LLOC|Astrologer|LLOC|6|LLOC",
+				"Celestial Jaunt|Shaman|LLOC|Astrologer|LLOC|10|LLOC",
+				"Radiant Burst|Shaman|LLOC|Astrologer|LLOC|14|LLOC"
+			]
+		},
+		{
+			"name": "Blood Priest",
+			"shortName": "Blood Priest",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"false life",
+							"ray of sickness"
+						],
+						"3": [
+							"hold person",
+							"ray of enfeeblement"
+						],
+						"5": [
+							"bestow curse",
+							"slow"
+						],
+						"7": [
+							"death ward",
+							"dominate beast"
+						],
+						"9": [
+							"contagion",
+							"hold monster"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"false life",
+				"ray of sickness",
+				"hold person",
+				"ray of enfeeblement",
+				"bestow curse",
+				"slow",
+				"death ward",
+				"dominate beast",
+				"contagion",
+				"hold monster"
+			],
+			"subclassFeatures": [
+				"Blood Priest|Shaman|LLOC|Blood Priest|LLOC|2|LLOC",
+				"Extra Attack|Shaman|LLOC|Blood Priest|LLOC|6|LLOC",
+				"Sanguine Curse|Shaman|LLOC|Blood Priest|LLOC|10|LLOC",
+				"Crimson Ascendant|Shaman|LLOC|Blood Priest|LLOC|14|LLOC"
+			]
+		},
+		{
+			"name": "Curse Binder",
+			"shortName": "Curse Binder",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Bane",
+							"Cause Fear|XGE"
+						],
+						"3": [
+							"Blindness/Deafness",
+							"Ray of Enfeeblement"
+						],
+						"5": [
+							"Bestow Curse",
+							"Vampiric Touch"
+						],
+						"7": [
+							"Blight",
+							"Phantasmal Killer"
+						],
+						"9": [
+							"Contagion",
+							"Enervation|XGE"
+						]
+					},
+					"innate": {
+						"14": {
+							"daily": {
+								"1": [
+									"create undead"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Bane",
+				"Cause Fear|XGE",
+				"Blindness/Deafness",
+				"Ray of Enfeeblement",
+				"Bestow Curse",
+				"Vampiric Touch",
+				"Blight",
+				"Phantasmal Killer",
+				"Contagion",
+				"Enervation|XGE"
+			],
+			"subclassFeatures": [
+				"Curse Binder|Shaman|LLOC|Curse Binder|LLOC|2|LLOC",
+				"Sinister Vitality|Shaman|LLOC|Curse Binder|LLOC|6|LLOC",
+				"Occult Ward|Shaman|LLOC|Curse Binder|LLOC|10|LLOC",
+				"Foul Conjuration|Shaman|LLOC|Curse Binder|LLOC|14|LLOC"
+			]
+		},
+		{
+			"name": "Elementalist",
+			"shortName": "Elementalist",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"page": 8,
+			"subSubclassSpells": {
+				"Air": [
+					"thunderwave",
+					"shatter",
+					"lightning bolt",
+					"storm sphere|XGE",
+					"control winds|XGE"
+				],
+				"Earth": [
+					"earth tremor|XGE",
+					"earthen grasp|XGE",
+					"erupting earth|XGE",
+					"stone shape",
+					"wall of stone"
+				],
+				"Fire": [
+					"burning hands",
+					"flaming sphere",
+					"fireball",
+					"wall of fire",
+					"immolation|XGE"
+				],
+				"Water": [
+					"torrent|llspell",
+					"snowball swarm|XGE",
+					"tidal wave|XGE",
+					"ice storm",
+					"cone of cold"
+				]
+			},
+			"subclassFeatures": [
+				"Elemental Sage|Shaman|LLOC|Elementalist|LLOC|2|LLOC",
+				"Elemental Empowerment|Shaman|LLOC|Elementalist|LLOC|6|LLOC",
+				"Primordial Conduit|Shaman|LLOC|Elementalist|LLOC|10|LLOC",
+				"Elder Elemental Spirits|Shaman|LLOC|Elementalist|LLOC|14|LLOC"
+			]
+		},
+		{
+			"name": "Far Seer",
+			"shortName": "Far Seer",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"comprehend languages",
+							"detect magic"
+						],
+						"3": [
+							"augury",
+							"detect thoughts"
+						],
+						"5": [
+							"clairvoyance",
+							"tongues"
+						],
+						"7": [
+							"arcane eye",
+							"divination"
+						],
+						"9": [
+							"contact other plane",
+							"scrying"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"comprehend languages",
+				"detect magic",
+				"augury",
+				"detect thoughts",
+				"clairvoyance",
+				"tongues",
+				"arcane eye",
+				"divination",
+				"contact other plane",
+				"scrying"
+			],
+			"foundryAdvancement": [
+				{
+					"name": "Spirits of Fate",
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "spirits-of-fate",
+						"type": "dice",
+						"scale": {
+							"2": {
+								"n": 2,
+								"die": 4
+							},
+							"6": {
+								"n": 2,
+								"die": 6
+							},
+							"10": {
+								"n": 2,
+								"die": 8
+							},
+							"14": {
+								"n": 2,
+								"die": 10
+							}
+						}
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Far Seer|Shaman|LLOC|Far Seer|LLOC|2|LLOC",
+				"Ascended Awareness|Shaman|LLOC|Far Seer|LLOC|6|LLOC",
+				"Certain Fate|Shaman|LLOC|Far Seer|LLOC|10|LLOC",
+				"Tip the Scales|Shaman|LLOC|Far Seer|LLOC|14|LLOC"
+			]
+		},
+		{
+			"name": "Idolater",
+			"shortName": "Idolater",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"bless",
+							"fog cloud"
+						],
+						"3": [
+							"healing spirit",
+							"spike growth"
+						],
+						"5": [
+							"beacon of hope",
+							"sleet storm"
+						],
+						"7": [
+							"aura of life",
+							"summon construct|tce"
+						],
+						"9": [
+							"antilife shell",
+							"control winds"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"bless",
+				"fog cloud",
+				"healing spirit",
+				"spike growth",
+				"beacon of hope",
+				"sleet storm",
+				"aura of life",
+				"summon construct|tce",
+				"antilife shell",
+				"control winds"
+			],
+			"subclassFeatures": [
+				"Idolater|Shaman|LLOC|Idolater|LLOC|2|LLOC",
+				"Spiritual Vortex|Shaman|LLOC|Idolater|LLOC|6|LLOC",
+				"Guardian Idol|Shaman|LLOC|Idolater|LLOC|10|LLOC",
+				"High Idolater|Shaman|LLOC|Idolater|LLOC|14|LLOC"
+			]
+		},
+		{
+			"name": "Spirit Guide",
+			"shortName": "Spirit Guide",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"ghastly flight|llspell",
+							"shield of faith"
+						],
+						"3": [
+							"spritual weapon",
+							"warding bond"
+						],
+						"5": [
+							"spectral passage|llspell",
+							"spirit guardians"
+						],
+						"7": [
+							"death ward",
+							"guardian of faith"
+						],
+						"9": [
+							"arcane hand",
+							"wall of light|xge"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"ghastly flight|llspell",
+				"shield of faith",
+				"spritual weapon",
+				"warding bond",
+				"spectral passage|llspell",
+				"spirit guardians",
+				"death ward",
+				"guardian of faith",
+				"arcane hand",
+				"wall of light|XGE"
+			],
+			"subclassFeatures": [
+				"Spirit Guide|Shaman|LLOC|Spirit Guide|LLOC|2|LLOC",
+				"Spectral Empowerment|Shaman|LLOC|Spirit Guide|LLOC|6|LLOC",
+				"Soul Bond|Shaman|LLOC|Spirit Guide|LLOC|10|LLOC",
+				"Ethereal Mastery|Shaman|LLOC|Spirit Guide|LLOC|14|LLOC"
+			]
+		},
+		{
+			"name": "Spirit Warrior",
+			"shortName": "Spirit Warrior",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Heroism",
+							"Shield of Faith"
+						],
+						"3": [
+							"totemic cowl|llspell",
+							"Spiritual Weapon"
+						],
+						"5": [
+							"Clairvoyance",
+							"Spirit Shroud|TCE"
+						],
+						"7": [
+							"Guardian of Faith",
+							"Staggering Smite (alternate)|llspell"
+						],
+						"9": [
+							"Contact Other Plane",
+							"Steel Wind Strike (alternate)|llspell"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Heroism",
+				"Shield of Faith",
+				"totemic cowl|llspell",
+				"Spiritual Weapon",
+				"Clairvoyance",
+				"Spirit Shroud|TCE",
+				"Guardian of Faith",
+				"Staggering Smite (alternate)|llspell",
+				"Contact Other Plane",
+				"Steel Wind Strike (alternate)|llspell"
+			],
+			"subclassFeatures": [
+				"Ancestral Knowledge|Shaman|LLOC|Spirit Warrior|LLOC|2|LLOC",
+				"Extra Attack|Shaman|LLOC|Spirit Warrior|LLOC|6|LLOC",
+				"Warrior of the Grave|Shaman|LLOC|Spirit Warrior|LLOC|10|LLOC",
+				"Spiritual Champion|Shaman|LLOC|Spirit Warrior|LLOC|14|LLOC"
+			]
+		},
+		{
+			"name": "Wild Heart",
+			"shortName": "Wild Heart",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"page": 7,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Animal Friendship",
+							"Jump (alternate)|llspell"
+						],
+						"3": [
+							"Locate Creature (alternate)|llspell",
+							"Pass Without Trace(alternate)|llspell"
+						],
+						"5": [
+							"Conjure Animals",
+							"Fear"
+						],
+						"7": [
+							"Dominate Beast",
+							"Freedom of Movement"
+						],
+						"9": [
+							"Hold Monster",
+							"Tree Stride"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Animal Friendship",
+				"Jump (alternate)|llspell",
+				"Locate Creature (alternate)|llspell",
+				"Pass Without Trace(alternate)|llspell",
+				"Conjure Animals",
+				"Fear",
+				"Dominate Beast",
+				"Freedom of Movement",
+				"Hold Monster",
+				"Tree Stride"
+			],
+			"subclassFeatures": [
+				"Bestial Adaptation|Shaman|LLOC|Wild Heart|LLOC|2|LLOC",
+				"Savage Strikes|Shaman|LLOC|Wild Heart|LLOC|6|LLOC",
+				"Mythic Resilience|Shaman|LLOC|Wild Heart|LLOC|10|LLOC",
+				"Legendary Guardian|Shaman|LLOC|Wild Heart|LLOC|14|LLOC"
+			]
+		},
+		{
+			"name": "Witch Doctor",
+			"shortName": "Witch Doctor",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Bless",
+							"Detect poison & disease"
+						],
+						"3": [
+							"Restoration|llspell",
+							"Warding Bond"
+						],
+						"5": [
+							"Beacon of Hope",
+							"Revivify"
+						],
+						"7": [
+							"Aura of Life",
+							"Death Ward"
+						],
+						"9": [
+							"Creation",
+							"Reincarnate"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Bless",
+				"Detect poison and disease",
+				"Restoration|llspell",
+				"Warding Bond",
+				"Beacon of Hope",
+				"Revivify",
+				"Aura of Life",
+				"Death Ward",
+				"Creation",
+				"Reincarnate"
+			],
+			"subclassFeatures": [
+				"Life Bearer|Shaman|LLOC|Witch Doctor|LLOC|2|LLOC",
+				"Benevolent Bearing|Shaman|LLOC|Witch Doctor|LLOC|6|LLOC",
+				"Selfless Ward|Shaman|LLOC|Witch Doctor|LLOC|10|LLOC",
+				"Spiritual Awakening|Shaman|LLOC|Witch Doctor|LLOC|14|LLOC"
+			]
+		},
+		{
+			"name": "Wyrmbound",
+			"shortName": "Wyrmbound",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"chromatic orb|XGE",
+							"command"
+						],
+						"3": [
+							"dragon's breath|XGE",
+							"suggestion"
+						],
+						"5": [
+							"fear",
+							"spectral passage|llspell"
+						],
+						"7": [
+							"dominate beast",
+							"Polymorph (alternate)|llspell"
+						],
+						"9": [
+							"geas",
+							"summon draconic spirit|FTD"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"chromatic orb|XGE",
+				"command",
+				"dragon's breath|XGE",
+				"suggestion",
+				"fear",
+				"spectral passage|llspell",
+				"dominate beast",
+				"Polymorph (alternate)|llspell",
+				"geas",
+				"summon draconic spirit|FTD"
+			],
+			"subclassFeatures": [
+				"Draconic Conduit|Shaman|LLOC|Wyrmbound|LLOC|2|LLOC",
+				"Ancient Fury|Shaman|LLOC|Wyrmbound|LLOC|6|LLOC",
+				"Serpentine Speed|Shaman|LLOC|Wyrmbound|LLOC|10|LLOC",
+				"Exalted Spirit Dragon|Shaman|LLOC|Wyrmbound|LLOC|14|LLOC"
+			]
+		}
+	]
+}

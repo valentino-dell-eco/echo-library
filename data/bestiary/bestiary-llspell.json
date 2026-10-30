@@ -1,0 +1,674 @@
+{
+	"monster": [
+		{
+			"name": "Animated Object (Alternate) (Tiny/Small)",
+			"source": "llspell",
+			"summonedBySpell": "Animate Object (Alternate)|llspell",
+			"summonedBySpellLevel": 2,
+			"summonedScaleByPlayerLevel": true,
+			"size": [
+				"T",
+				"S"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "Spell save DC"
+				}
+			],
+			"hp": {
+				"special": "10 x Spell Slot"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 10,
+			"int": 3,
+			"wis": 3,
+			"cha": 1,
+			"senses": [
+				"Blindsight 30 ft. (blind beyond this radius)"
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"petrified",
+				"poisoned"
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack your Spell Attack Modifier} to hit, reach 5 ft., one target. Hit: ({@damage 2d4 +PB}) bludgeoning, piercing, or slashing damage (appropriate to its shape)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Animated Object (Alternate) (Medium)",
+			"source": "llspell",
+			"summonedBySpell": "Animate Object (Alternate)|llspell",
+			"summonedBySpellLevel": 3,
+			"summonedScaleByPlayerLevel": true,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "Spell save DC"
+				}
+			],
+			"hp": {
+				"special": "10 x Spell Slot"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 10,
+			"int": 3,
+			"wis": 3,
+			"cha": 1,
+			"senses": [
+				"Blindsight 30 ft. (blind beyond this radius)"
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"petrified",
+				"poisoned"
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack your Spell Attack Modifier} to hit, reach 5 ft., one target. Hit: ({@damage 2d6 +PB}) bludgeoning, piercing, or slashing damage (appropriate to its shape)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Animated Object (Alternate) (Large)",
+			"source": "llspell",
+			"summonedBySpell": "Animate Object (Alternate)|llspell",
+			"summonedBySpellLevel": 4,
+			"summonedScaleByPlayerLevel": true,
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "Spell save DC"
+				}
+			],
+			"hp": {
+				"special": "10 x Spell Slot"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 10,
+			"int": 3,
+			"wis": 3,
+			"cha": 1,
+			"senses": [
+				"Blindsight 30 ft. (blind beyond this radius)"
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"petrified",
+				"poisoned"
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack your Spell Attack Modifier} to hit, reach 5 ft., one target. Hit: ({@damage 2d10 +PB}) bludgeoning, piercing, or slashing damage (appropriate to its shape)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Animated Object (Alternate) (Huge)",
+			"source": "llspell",
+			"summonedBySpell": "Animate Object (Alternate)|llspell",
+			"summonedBySpellLevel": 5,
+			"summonedScaleByPlayerLevel": true,
+			"size": [
+				"H"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "Spell save DC"
+				}
+			],
+			"hp": {
+				"special": "10 x Spell Slot"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 10,
+			"int": 3,
+			"wis": 3,
+			"cha": 1,
+			"senses": [
+				"Blindsight 30 ft. (blind beyond this radius)"
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"petrified",
+				"poisoned"
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack your Spell Attack Modifier} to hit, reach 5 ft., one target. Hit: ({@damage 2d12 +PB}) bludgeoning, piercing, or slashing damage (appropriate to its shape)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Awakened Plant (Tiny/Small)",
+			"source": "llspell",
+			"summonedBySpell": "Awaken Plant|llspell",
+			"summonedBySpellLevel": 2,
+			"summonedScaleByPlayerLevel": true,
+			"size": [
+				"T",
+				"S"
+			],
+			"type": "plant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "Spell save DC"
+				}
+			],
+			"hp": {
+				"special": "20 x Spell Slot"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 17,
+			"dex": 6,
+			"con": 13,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing"
+					]
+				}
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"languages": [
+				"understands Druidic but it cannot speak"
+			],
+			"languageTags": [
+				"DU",
+				"CS"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the Awakened Plant remains motionless, it is indistinguishable from a normal plant."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack your Spell Attack Modifier} to hit, reach 5 ft., one target. Hit: ({@damage 2d4 +PB}) bludgeoning or slashing damage, and a target equal to the Awakened Plant's size or smaller is {@condition Grappled} (Spell save DC to end)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Awakened Plant (Medium)",
+			"source": "llspell",
+			"summonedBySpell": "Awaken Plant|llspell",
+			"summonedBySpellLevel": 3,
+			"summonedScaleByPlayerLevel": true,
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "Spell save DC"
+				}
+			],
+			"hp": {
+				"special": "20 x Spell Slot"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 17,
+			"dex": 6,
+			"con": 13,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing"
+					]
+				}
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"languages": [
+				"understands Druidic but it cannot speak"
+			],
+			"languageTags": [
+				"DU",
+				"CS"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the Awakened Plant remains motionless, it is indistinguishable from a normal plant."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack your Spell Attack Modifier} to hit, reach 5 ft., one target. Hit: ({@damage 2d6 +PB}) bludgeoning or slashing damage, and a target equal to the Awakened Plant's size or smaller is {@condition Grappled} (Spell save DC to end)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Awakened Plant (Large)",
+			"source": "llspell",
+			"summonedBySpell": "Awaken Plant|llspell",
+			"summonedBySpellLevel": 4,
+			"summonedScaleByPlayerLevel": true,
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "Spell save DC"
+				}
+			],
+			"hp": {
+				"special": "20 x Spell Slot"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 17,
+			"dex": 6,
+			"con": 13,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing"
+					]
+				}
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"languages": [
+				"understands Druidic but it cannot speak"
+			],
+			"languageTags": [
+				"DU",
+				"CS"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the Awakened Plant remains motionless, it is indistinguishable from a normal plant."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack your Spell Attack Modifier} to hit, reach 5 ft., one target. Hit: ({@damage 2d10 +PB}) bludgeoning or slashing damage, and a target equal to the Awakened Plant's size or smaller is {@condition Grappled} (Spell save DC to end)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Awakened Plant (Huge)",
+			"source": "llspell",
+			"summonedBySpell": "Awaken Plant|llspell",
+			"summonedBySpellLevel": 5,
+			"summonedScaleByPlayerLevel": true,
+			"size": [
+				"H"
+			],
+			"type": "plant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "Spell save DC"
+				}
+			],
+			"hp": {
+				"special": "20 x Spell Slot"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 17,
+			"dex": 6,
+			"con": 13,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing"
+					]
+				}
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"languages": [
+				"understands Druidic but it cannot speak"
+			],
+			"languageTags": [
+				"DU",
+				"CS"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the Awakened Plant remains motionless, it is indistinguishable from a normal plant."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack your Spell Attack Modifier} to hit, reach 5 ft., one target. Hit: ({@damage 2d12 +PB}) bludgeoning or slashing damage, and a target equal to the Awakened Plant's size or smaller is {@condition Grappled} (Spell save DC to end)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Golem Servant",
+			"source": "llspell",
+			"summonedBySpell": "Create Construct|llspell",
+			"summonedBySpellLevel": 5,
+			"summonedScaleByPlayerLevel": true,
+			"size": [
+				"M",
+				"L"
+			],
+			"type": "construct",
+			"ac": [
+				{
+					"special": "Your spellcasting ability"
+				}
+			],
+			"hp": {
+				"special": "10 x Spell Slot"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 18,
+			"int": 6,
+			"wis": 4,
+			"cha": 4,
+			"senses": [
+				"Darkvision 120 ft."
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"petrified",
+				"poisoned"
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack your Spell Attack Mod} to hit, reach 5 ft., one target. Hit: ({@damage 2d6 +PB}) bludgeoning, piercing, or slashing damage plus ({@damage 2d6}) force damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Guardian",
+					"entries": [
+						"When its creator is targeted by an attack, the Golem can move up to its speed toward it. If it ends its movement within 5 feet, the Golem can switch places with its creator and become the target of that attack."
+					]
+				}
+			]
+		},
+		{
+			"name": "Homunculus (Alternate)",
+			"source": "llspell",
+			"summonedBySpell": "Create Homunculus|llspell",
+			"summonedBySpellLevel": 6,
+			"summonedScaleByPlayerLevel": true,
+			"size": [
+				"T"
+			],
+			"type": "construct",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"special": "Your Spellcasting Ability"
+				}
+			],
+			"hp": {
+				"special": "The amount its creator's maximum hit points were reduced by when casting the spell to create it"
+			},
+			"speed": {
+				"walk": 25,
+				"fly": 30
+			},
+			"str": 4,
+			"dex": 15,
+			"con": 11,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"senses": [
+				"Darkvision 120 ft."
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Can read and understand the languages known by its creator, but it cannot speak itself"
+			],
+			"languageTags": [
+				"CS",
+				"TP"
+			],
+			"trait": [
+				{
+					"name": "Blood Bond",
+					"entries": [
+						"While on the same plane of existence, the Homunculus and its creator can speak Telepathically, and it can magically shares anything it senses with its creator."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack your Spell Attack Mod} to hit, reach 5 ft., one target. Hit: ({@damage 1d4 +PB}) piercing damage."
+					]
+				}
+			]
+		}
+	]
+}

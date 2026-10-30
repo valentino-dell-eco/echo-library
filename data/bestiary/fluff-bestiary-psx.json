@@ -1,0 +1,564 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Aegisaur",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Aegisaur.webp"
+					},
+					"width": 1275,
+					"height": 680,
+					"title": "Bellowing Aegisaur",
+					"credit": "Craig J. Spearing"
+				}
+			]
+		},
+		{
+			"name": "Aerosaur (Small)",
+			"source": "PSX",
+			"entries": [
+				"Aerosaurs include several varieties of large reptiles with leathery wings, including pterodons and sunwings. Though they are generally clumsy fliers, better at gliding from high perches or riding coastal updrafts than at lifting themselves from the ground, aerosaurs are sometimes used as mounts by knights of the Sun Empire. Smaller aerosaurs can be represented by the {@creature pteranodon|MM} in the {@book Monster Manual|MM}, while larger ones are more like the {@creature quetzalcoatlus|VGM} in {@book Volo's Guide to Monsters|VGM}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Aerosaur.webp"
+					},
+					"width": 1278,
+					"height": 785,
+					"title": "Shining Aerosaur",
+					"credit": "Dan Scott"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Aerosaur2.webp"
+					},
+					"width": 565,
+					"height": 421,
+					"title": "Sky Terror",
+					"credit": "Johann Bodin"
+				}
+			]
+		},
+		{
+			"name": "Air Totem Elemental",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Air Totem Elemental.webp"
+					},
+					"width": 1276,
+					"height": 863,
+					"title": "Air Elemental",
+					"credit": "Tomasz Jedruszek"
+				}
+			]
+		},
+		{
+			"name": "Altisaur",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Altisaur.webp"
+					},
+					"width": 628,
+					"height": 609,
+					"title": "Itlimoc, Cradle of the Sun",
+					"credit": "Grzegorz Rutkowski"
+				}
+			]
+		},
+		{
+			"name": "Armasaur",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Armasaur.webp"
+					},
+					"width": 638,
+					"height": 465,
+					"title": "Steadfast Armasaur",
+					"credit": "Greg Opalinski"
+				}
+			]
+		},
+		{
+			"name": "Brontodon",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Brontodon.webp"
+					},
+					"width": 1276,
+					"height": 913,
+					"title": "Belligerent Brontodon",
+					"credit": "Dan Scott"
+				}
+			]
+		},
+		{
+			"name": "Ceratops",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Ceratops.webp"
+					},
+					"width": 638,
+					"height": 418,
+					"title": "Goring Ceratops",
+					"credit": "Zezhou Chen"
+				}
+			]
+		},
+		{
+			"name": "Chupacabra",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Chupacabra.webp"
+					},
+					"width": 924,
+					"height": 532,
+					"title": "Lurking Chupacabra",
+					"credit": "YW Tang"
+				}
+			]
+		},
+		{
+			"name": "Coatl",
+			"source": "PSX",
+			"entries": [
+				"The River Heralds believe that the waters of the world are divided into two spheres: the river and the sea are the lower half, with the jungle and the sky above. They believe that the sea possesses an unfathomable wisdom, the deep musings of the unspeakably ancient world. But the wisdom of the sky and the rivers is embodied in the coatls—winged serpents that twist through the air to reflect the course of rivers along the ground.",
+				"Coatls are immortal guardians of the sky, dwelling always among the clouds. The River Heralds say that they can be enticed to the ground by the earnest supplication of the wisest of merfolk shamans. Coatls are said to be wise beyond mortal measure and incapable of speaking a falsehood, so their advice is often sought in times of desperate need. The sight of a coatl is thought to foretell favorable winds—a belief that has begun to spread from the River Herald shamans to the pirates of the Brazen Coalition. Use the {@creature couatl|MM} statistics in the {@book Monster Manual|MM} for Ixalan's coatls."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Coatl.webp"
+					},
+					"width": 630,
+					"height": 664,
+					"title": "Favorable Winds",
+					"credit": "Shreya Shetty"
+				}
+			]
+		},
+		{
+			"name": "Demon",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Demon.webp"
+					},
+					"width": 1275,
+					"height": 771,
+					"credit": "Zack Stella"
+				}
+			]
+		},
+		{
+			"name": "Dryad",
+			"source": "PSX",
+			"entries": [
+				"It is said that the only force on Ixalan not interested in finding the golden city is Ixalan itself. Dryads, as incarnations of the land and its will, prove the saying true. Their only concern is the health of the forest: when the trees and ferns are healthy, the dryads flourish. But when the vampires' dusk fog or a demon's unwholesome influence cause the jungle to wither, the dryads suffer. As a result, they are generally friendly with the River Heralds, who live in harmony with nature, and hostile to the Legion of Dusk.",
+				"The dryads otherwise have no stake in the conflict between the people of Ixalan and the invaders, but as creatures of life and growth, they hate to see any living being suffer. Thus, they have been known to tend to wounded people left in the jungle to die, sharing their own abundant life energy with those in their care.",
+				"Ixalan's dryads are identical to the {@creature dryad|MM|dryads} in the {@book Monster Manual|MM}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Dryad.webp"
+					},
+					"width": 634,
+					"height": 458,
+					"title": "Old-Growth Dryads",
+					"credit": "Yongjae Choi"
+				}
+			]
+		},
+		{
+			"name": "Elder Dinosaur",
+			"source": "PSX",
+			"entries": [
+				"The opening of Orazca, the golden city—which marks the turn between the Ixalan set and Rivals of Ixalan—reveals the existence of six huge and ancient elder dinosaurs, apparently preserved for centuries. Compared to their smaller cousins, they have less brightly-colored plumage and more grayish scales, but their feathers are a bright gold that matches the city around them. They are strong-willed and ferocious, and thus are hard to control. But the power of the Immortal Sun gives the Sun Empire warriors who wield it the ability to bring these elder dinosaurs under their command."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Elder Dinosaur.webp"
+					},
+					"width": 1278,
+					"height": 894,
+					"title": "Regisaur Alpha",
+					"credit": "Jonathan Kuo"
+				}
+			]
+		},
+		{
+			"name": "Elder Dinosaur (Etali, Primal Storm)",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Elder Dinosaur (Etali, Primal Storm).webp"
+					},
+					"width": 630,
+					"height": 445,
+					"title": "Etali, Primal Storm",
+					"credit": "Raymond Swanland"
+				}
+			]
+		},
+		{
+			"name": "Elder Dinosaur (Ghalta, Primal Hunger)",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Elder Dinosaur (Ghalta, Primal Hunger).webp"
+					},
+					"width": 630,
+					"height": 746,
+					"title": "Ghalta, Primal Hunger",
+					"credit": "Chase Stone"
+				}
+			]
+		},
+		{
+			"name": "Elder Dinosaur (Nezahal, Primal Tide)",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Elder Dinosaur (Nezahal, Primal Tide).webp"
+					},
+					"width": 423,
+					"height": 352,
+					"title": "Nezahal, Primal Tide",
+					"credit": "Sam Burley"
+				}
+			]
+		},
+		{
+			"name": "Elder Dinosaur (Tetzimoc, Primal Death)",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Elder Dinosaur (Tetzimoc, Primal Death).webp"
+					},
+					"width": 422,
+					"height": 352,
+					"title": "Tetzimoc, Primal Death",
+					"credit": "Zack Stella"
+				}
+			]
+		},
+		{
+			"name": "Elder Dinosaur (Zacama, Primal Calamity)",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Elder Dinosaur (Zacama, Primal Calamity).webp"
+					},
+					"width": 422,
+					"height": 352,
+					"title": "Zacama, Primal Calamity",
+					"credit": "Jaime Jones"
+				}
+			]
+		},
+		{
+			"name": "Elder Dinosaur (Zetalpa, Primal Dawn)",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Elder Dinosaur (Zetalpa, Primal Dawn).webp"
+					},
+					"width": 626,
+					"height": 445,
+					"title": "Zetalpa, Primal Dawn",
+					"credit": "Chris Rallis"
+				}
+			]
+		},
+		{
+			"name": "Ferocidon",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Ferocidon.webp"
+					},
+					"width": 630,
+					"height": 646,
+					"title": "Thrash of Raptors",
+					"credit": "Jonathan Kuo"
+				}
+			]
+		},
+		{
+			"name": "Frilled Deathspitter",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Frilled Deathspitter.webp"
+					},
+					"width": 630,
+					"height": 551,
+					"title": "Frilled Deathspitter",
+					"credit": "Zoltan Boros"
+				}
+			]
+		},
+		{
+			"name": "Gishath, Sun's Avatar",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Gishath, Sun's Avatar.webp"
+					},
+					"width": 1135,
+					"height": 829,
+					"title": "Gishath, Sun's Avatar",
+					"credit": "Zack Stella"
+				}
+			]
+		},
+		{
+			"name": "Griffin",
+			"source": "PSX",
+			"entries": [
+				"Colorful griffins combine the heads and plumage of jungle parrots with the sleek bodies of jaguars. They are intelligent and noble, and they share the River Heralds' desire to ensure that the power of the Immortal Sun is never again unleashed on the world."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Griffin.webp"
+					},
+					"width": 848,
+					"height": 623,
+					"title": "Resplendent Griffin",
+					"credit": "Sam Rowan"
+				}
+			]
+		},
+		{
+			"name": "Hadrosaur",
+			"source": "PSX",
+			"entries": [
+				"Some herbivores rely on speed, stealth, or numbers to aid their chances of survival. The Hadrosaur is a good example of such creatures."
+			]
+		},
+		{
+			"name": "Hammerskull",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Hammerskull.webp"
+					},
+					"width": 628,
+					"height": 857,
+					"title": "Territorial Hammerskull",
+					"credit": "Lars Grant-West"
+				}
+			]
+		},
+		{
+			"name": "Harpy",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Harpy.webp"
+					},
+					"width": 634,
+					"height": 449,
+					"title": "Mausoleum Harpy",
+					"credit": "Randy Vargas"
+				}
+			]
+		},
+		{
+			"name": "Horned Frog",
+			"source": "PSX",
+			"entries": [
+				"Frogs are more commonly heard than seen in Ixalan, joining their voices to the vivid soundscape of the jungle. They range from tiny poisonous tree frogs found in the branches of tall trees to huge horned frogs that lurk in marshy areas."
+			]
+		},
+		{
+			"name": "Macaw",
+			"source": "PSX",
+			"entries": [
+				"A wide variety of native birds are found throughout Ixalan, singing complex songs that contribute to the chorus of sounds within the jungle. Hummingbirds are sometimes poetically described as embodiments of freedom and the pursuit of pleasure. Large macaws and parrots (with statistics like those of {@creature raven|MM|ravens}) make their homes in the trees and can often be found gathering over clay licks along riverbeds and the sea coast. The wily birds enjoy toying with people from the trees, with many of them calling out in imitation of humanoid voices to lead pirates and other explorers astray."
+			]
+		},
+		{
+			"name": "Piranha",
+			"source": "PSX",
+			"entries": [
+				"The waters of the Great River and all its tributaries are home to fish that serve as one of the most important food sources for other animals in the forest. These include large predatory fish, as well as churning swarms of small biting fish such as piranhas."
+			]
+		},
+		{
+			"name": "Sailback",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Sailback.webp"
+					},
+					"width": 626,
+					"height": 480,
+					"title": "Snapping Sailback",
+					"credit": "Dan Scott"
+				}
+			]
+		},
+		{
+			"name": "Stone Guardian (Animated Armor)",
+			"source": "PSX",
+			"entries": [
+				"Through the years in which the Sun Empire was ruled from Orazca, its priests crafted huge stone guardians to protect the empire's cities and temples. The incredible magic of the Immortal Sun gave a semblance of life to these artificial creatures, endowing them with the ability to move their stone bodies, a keen awareness of their surroundings, and a limited ability to think and reason in order to help them carry out their orders. These stone guardians were tasked with standing watch—constantly alert, vigilant to any danger, never sleeping, and unswerving in their duty.",
+				"Most stone guardians are inactive now. In ancient ruins lying far from the old capital, the magic that gave them life has faded over the centuries. Even within the golden city, many of them have become inert, and those who seek to explore Orazca or other ancient ruins must be on constant guard. Any carved figure or statue might well be a stone guardian whose magic has failed. But it might also be a guardian that is simply waiting for a threat before it activates and drives that threat away.",
+				"Constructs such as {@creature animated armor|MM}, {@creature helmed horror|MM|helmed horrors}, {@creature shield guardian|MM|shield guardians}, and {@creature stone golem|MM|stone golems} can represent these guardians."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Stone Guardian.webp"
+					},
+					"width": 705,
+					"height": 517,
+					"title": "Golden Guardian",
+					"credit": "Svetlin Velinov"
+				}
+			]
+		},
+		{
+			"name": "Sunbird",
+			"source": "PSX",
+			"entries": [
+				"The people of the Sun Empire revere certain dinosaurs as incarnations of the Threefold Sun. But the fiery phoenixes, also called sunbirds, are thought to be messengers of Tilonalli, embodying the destructive aspect of the sun but also the rebirth that follows. Legends hold that somewhere within the mountains sleeps Xuatl—a scaled bird formed from the sun's fire. Xuatl molts its skin and feathers during the summer months, often setting the trees and slopes ablaze."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Sunbird.webp"
+					},
+					"width": 626,
+					"height": 309,
+					"title": "Sunbird's Invocation",
+					"credit": "Christine Choi"
+				}
+			]
+		},
+		{
+			"name": "Trilobite",
+			"source": "PSX",
+			"entries": [
+				"On the beaches and banks of the rivers and seas, crabs scuttle across the sand and birds wade in the shallow water. Trilobites are among the most common shore-dwellers, including predatory varieties as well as scavengers and filter-feeders consuming scraps they find in the sand."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Trilobite.webp"
+					},
+					"width": 762,
+					"height": 558,
+					"title": "Shore Keeper",
+					"credit": "YW Tang"
+				}
+			]
+		},
+		{
+			"name": "Tyrant",
+			"source": "PSX",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/PSX/Tyrant.webp"
+					},
+					"width": 1278,
+					"height": 894,
+					"title": "Regisaur Alpha",
+					"credit": "Jonathan Kuo"
+				}
+			]
+		}
+	]
+}

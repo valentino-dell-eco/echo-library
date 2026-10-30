@@ -1,0 +1,69 @@
+{
+	"objectFluff": [
+		{
+			"name": "Boilerdrak",
+			"source": "DSotDQ",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "objects/DSotDQ/Boilerdrak.webp"
+					},
+					"width": 850,
+					"height": 1039,
+					"credit": "Kent Davis"
+				}
+			]
+		},
+		{
+			"name": "Captain A-Hole",
+			"source": "RMBRE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "objects/RMBRE/Captain A-Hole.webp"
+					},
+					"width": 671,
+					"height": 800,
+					"credit": "Troy Little"
+				}
+			]
+		},
+		{
+			"name": "Gnomeflinger",
+			"source": "DSotDQ",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "objects/DSotDQ/Gnomeflinger.webp"
+					},
+					"width": 850,
+					"height": 907,
+					"credit": "Bruce Brenneise"
+				}
+			]
+		},
+		{
+			"name": "Spirit Blister",
+			"source": "JttRC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "objects/JttRC/Spirit Blister.webp"
+					},
+					"width": 644,
+					"height": 850,
+					"title": "A Spirit Blister at Sorrow's Zenith",
+					"credit": "Brynn Metheney"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,180 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Ankylosaurus",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Ankylosaurus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Brontosaurus",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Brontosaurus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Deinonychus",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Deinonychus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Hadrosaurus",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Hadrosaurus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Plesiosaurus",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Plesiosaurus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Quetzalcoatlus",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Quetzalcoatlus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Spinosaurus",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Spinosaurus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Styracosaurus",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Styracosaurus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Titanosaurus",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Titanosaurus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Triceratops",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Triceratops.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Tyrannosaurus Rex",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Tyrannosaurus%20Rex.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Tyrannosaurus%20Rex%20(2).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Utahraptor",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Utahraptor.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Velociraptor",
+			"source": "LLCBD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCBD/Velociraptor.webp"
+					}
+				}
+			]
+		}
+	]
+}

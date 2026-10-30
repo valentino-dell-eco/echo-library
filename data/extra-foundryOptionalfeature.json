@@ -1,0 +1,1270 @@
+{
+	"foundryOptionalfeature": [
+		{
+			"name": "Rite of Agony",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "bonus"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "1@scale.alternate-blood-hunter.rite-die"
+								},
+								"types": [
+									"necrotic"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of Binding",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "bonus"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"str"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of Confusion",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "bonus"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"wis"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of Corrosion",
+			"source": "LLAC",
+			"activities": [
+				{
+					"name": "Rite of Corrosion",
+					"type": "save",
+					"activation": {
+						"type": "bonus"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				},
+				{
+					"name": "Empowered Corrosion",
+					"type": "save",
+					"activation": {
+						"type": "bonus"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die"
+								},
+								"types": [
+									"necrotic"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of Decay",
+			"source": "LLAC",
+			"activities": [
+				{
+					"name": "Rite of Decay",
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die"
+								},
+								"types": [
+									"necrotic"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				},
+				{
+					"name": "Target attempts a save",
+					"type": "save",
+					"activation": {
+						"type": "special"
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die"
+								},
+								"types": [
+									"necrotic"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of Dread",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "bonus"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"wis"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of Exsanguination",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die"
+								},
+								"types": [
+									"necrotic"
+								]
+							}
+						],
+						"onSave": "half"
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of Nightmares",
+			"source": "LLAC",
+			"activities": [
+				{
+					"name": "Rite of Nightmares",
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die"
+								},
+								"types": [
+									"psychic"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"wis"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				},
+				{
+					"name": "Target attempts a save",
+					"type": "save",
+					"activation": {
+						"type": "special"
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die"
+								},
+								"types": [
+									"psychic"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"wis"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of Reaping",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die"
+								},
+								"types": [
+									"necrotic"
+								]
+							}
+						],
+						"onSave": "half"
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of Revelation",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "utility",
+					"activation": {
+						"type": "special"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of Siphoning",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-blood-hunter.rite-die + @scale.alternate-blood-hunter.rite-die"
+								},
+								"types": [
+									"necrotic"
+								]
+							}
+						],
+						"onSave": "half"
+					},
+					"save": {
+						"ability": [
+							"cha"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of the Beast",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"cha"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of the Senseless",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "bonus"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Rite of Thralldom",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"cha"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Alchemical Webbing",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "2",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "cube",
+							"size": "20"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"save": {
+						"ability": [
+							"dex"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Astral Vortex",
+			"source": "LLAC",
+			"activities": [
+				{
+					"name": "Bomb",
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "4",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "cube",
+							"size": "10"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"save": {
+						"ability": [
+							"cha"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				},
+				{
+					"name": "Follow-up save",
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"save": {
+						"ability": [
+							"cha"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Caustic Bomb",
+			"source": "LLAC",
+			"activities": [
+				{
+					"name": "Bomb",
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "2",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "cube",
+							"size": "20"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"damage": {
+						"onSave": "half",
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-rogue.sneak-attack"
+								},
+								"bonus": "",
+								"types": [
+									"acid"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"dex"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				},
+				{
+					"name": "Follow-up damage",
+					"type": "damage",
+					"damage": {
+						"critical": {
+							"allow": false
+						},
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "2d@flags.ll.exploit.faces"
+								},
+								"bonus": "",
+								"types": [
+									"acid"
+								]
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Glittering Dust",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "cube",
+							"size": "20"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"save": {
+						"ability": [
+							"dex"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Greater Seismic Charge",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "3",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "cube",
+							"size": "60"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"damage": {
+						"onSave": "half",
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-rogue.sneak-attack"
+								},
+								"bonus": "",
+								"types": [
+									"thunder"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"str"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Hand Bomb",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "cube",
+							"size": "10"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"damage": {
+						"onSave": "half",
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-rogue.sneak-attack"
+								},
+								"bonus": "",
+								"types": [
+									"fire"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"dex"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Incendiary Bomb",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "2",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "circle",
+							"size": "30"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"damage": {
+						"onSave": "half",
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-rogue.sneak-attack"
+								},
+								"bonus": "",
+								"types": [
+									"fire"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"dex"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Noxious Gas",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "2",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "sphere",
+							"size": "20"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Seismic Charge",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "cube",
+							"size": "20"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"damage": {
+						"onSave": "half",
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "ceil(@scale.alternate-rogue.sneak-attack / 2)"
+								},
+								"bonus": "",
+								"types": [
+									"thunder"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"str"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Tangleroot",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "cube",
+							"size": "10"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"save": {
+						"ability": [
+							"dex"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Thunder Pulse",
+			"source": "LLAC",
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "cube",
+							"size": "15"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"damage": {
+						"onSave": "half",
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "ceil(@scale.alternate-rogue.sneak-attack / 2)"
+								},
+								"bonus": "",
+								"types": [
+									"thunder"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"str"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Vitriolic Charge",
+			"source": "LLAC",
+			"activities": [
+				{
+					"name": "Bomb",
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "3",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"template": {
+							"units": "ft",
+							"type": "circle",
+							"size": "30"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "60"
+					},
+					"damage": {
+						"onSave": "half",
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-rogue.sneak-attack"
+								},
+								"bonus": "",
+								"types": [
+									"acid"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"dex"
+						],
+						"dc": {
+							"calculation": "dex",
+							"formula": ""
+						}
+					}
+				},
+				{
+					"name": "Follow-up damage",
+					"type": "damage",
+					"damage": {
+						"critical": {
+							"allow": false
+						},
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "ceil(@scale.alternate-rogue.sneak-attack / 2)"
+								},
+								"bonus": "",
+								"types": [
+									"acid"
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

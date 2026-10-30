@@ -1,0 +1,11 @@
+{
+	"foundryMonsterTrait": [
+		{
+			"name": "Blood Bond",
+			"source": "llspell",
+			"monsterName": "Homunculus (Alternate)",
+			"monsterSource": "llspell",
+			"img": "icons/skills/wounds/blood-cells-disease-green.webp"
+		}
+	]
+}

@@ -1,0 +1,1356 @@
+{
+	"monster": [
+		{
+			"name": "Livestock Companion",
+			"source": "LLOC",
+			"page": 4,
+			"summonedByClass": "Commoner|LLC",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "10 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "7 + five times your commoner level (it has a number of d12 hit dice equal to your level)"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 18,
+			"int": 4,
+			"wis": 10,
+			"cha": 4,
+			"save": {
+				"str": "+5",
+				"con": "+6"
+			},
+			"passive": 10,
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Beast of Burden",
+					"entries": [
+						"Your Companion counts as one size larger when determining its carrying capacity and the weight it can push, drag, lift, or pull."
+					]
+				},
+				{
+					"name": "Charge (Male Only)",
+					"entries": [
+						"If your Companion moves 20 feet toward a creature and attacks it with Stomp attack on the same turn, any creature one size larger then your Livestock or smaller must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Farmer's Bond",
+					"entries": [
+						"Whenever your PB increases, your Companion's saving throw DC, saving throw bonus, and passive {@skill Perception} each increase by 1."
+					]
+				},
+				{
+					"name": "Mother's Milk (Female Only)",
+					"entries": [
+						"At the end of a long rest, your Companion produces PB bottles of milk, which restore {@dice 2d4 + PB} hit points when consumed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Stomp",
+					"entries": [
+						"{@atk mw} {@hit 3 + PB} to hit, reach 5 ft., one target. {@h}{@damage 2d4 + 3} bludgeoning damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			]
+		},
+		{
+			"name": "Draconic Companion",
+			"shortName": "Companion",
+			"source": "LLOC",
+			"page": 8,
+			"summonedByClass": "Magus (Dragon Knight)",
+			"size": [
+				"S"
+			],
+			"type": "dragon",
+			"alignment": [
+				"L"
+			],
+			"ac": [
+				{
+					"special": "14 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your Magus level (your Companion has a number of Hit Dice [d8s] equal to your Magus level)"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 15,
+			"int": 8,
+			"wis": 10,
+			"cha": 14,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				{
+					"special": "Essence type"
+				}
+			],
+			"languages": [
+				"Draconic",
+				"understands any languages spoken by the Magus bound to it"
+			],
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"Your Companion has a total number of {@dice d8} Hit Dice equal to your Magus level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Soul Bond",
+					"entries": [
+						"When the Companion is forced to make an ability check or saving throw, it adds your PB to its roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit +3 +PB} to hit, reach 5 ft., one target. {@h} ({@damage 1d4 +3 +PB}) slashing damage + {@damage 1d4} Essence damage."
+					]
+				}
+			],
+			"tokenCredit": "Ilse Gort",
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/LLOC/Draconic%20Companion.webp"
+			}
+		},
+		{
+			"name": "Exalted Companion",
+			"shortName": "Companion",
+			"source": "LLOC",
+			"page": 9,
+			"size": [
+				"L"
+			],
+			"type": "dragon",
+			"alignment": [
+				"L"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 125,
+				"formula": "20d10 + 15"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 60
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 18,
+			"int": 14,
+			"wis": 10,
+			"cha": 18,
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"immune": [
+				{
+					"special": "Essence type"
+				}
+			],
+			"languages": [
+				"Draconic",
+				"understands any languages spoken by the Magus bound to it."
+			],
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Companion has a number of {@dice d10} Hit Dice equal to your Magus level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Soul Bound",
+					"entries": [
+						"You add your PB to any ability check or saving throw that your Draconic Companion makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Your Companion makes two Claw attacks. "
+					]
+				},
+				{
+					"name": "Change Size",
+					"entries": [
+						"Your Companion changes size, becoming Small, Medium, or Large until it uses this feature again. "
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit +11} to hit, reach 5 ft., one target. {@h} {@damage 2d6 +5} magical slashing damage + {@damage 1d6} Essence damage."
+					]
+				},
+				{
+					"name": "Essence Breath {@recharge 5}",
+					"entries": [
+						"Your Companion can exhale elemental energy in a 30-foot cone, forcing any creatures in that area to make a Dexterity saving throw. Creatures take {@damage 12d6} Essence damage on a failure, and half as much damage on a success.",
+						"This replaces your {@subclassFeature Elemental Breath|Magus|LLMC|Dragon Knight|LLMC|15} feature."
+					]
+				}
+			],
+			"tokenCredit": "Greg Rutkowski",
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/LLOC/Exalted%20Companion.webp"
+			}
+		},
+		{
+			"name": "Exalted Spirit Dragon",
+			"source": "LLOC",
+			"page": 8,
+			"summonedByClass": "Shaman|LLSH",
+			"size": [
+				"L"
+			],
+			"type": "dragon",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "15 + PB (natural armor)"
+				}
+			],
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 12,
+			"dex": 20,
+			"con": 16,
+			"int": 1,
+			"wis": 1,
+			"cha": 1,
+			"senses": [
+				"blindsight 20 ft.",
+				"darkvision 120 ft."
+			],
+			"resist": [
+				"necrotic",
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"languages": [
+				"understands the languages you speak, but the Spirit Dragon can only speak Draconic"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Ethereal Agility",
+					"entries": [
+						"Whenever the Spirit Dragon makes an ability check or saving throw that uses Dexterity, it can add your Wisdom modifier to the result."
+					]
+				},
+				{
+					"name": "Serpentine",
+					"entries": [
+						"The thin, serpentine body of the Spirit Dragon counts as Medium for the purposes of its carrying capacity, the spaces it can move through, and all features except for the space it occupies."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spectral Slash",
+					"entries": [
+						"Melee Attack: your Shaman spell attack modifier to hit, reach 5 ft., one target. {@h}{@damage 2d6 + WIS} necrotic damage."
+					]
+				},
+				{
+					"name": "Spirit Breath",
+					"entries": [
+						"The Spirit Dragon forces all creatures in a 60-foot line or a 30-foot cone to make a Dexterity saving throw. On a failed save, they suffer the effects of your Totemic Assault. On a success, targets suffer half the damage of Totemic Assault, but not effects."
+					]
+				}
+			]
+		},
+		{
+			"name": "Geist Spirit",
+			"source": "LLOC",
+			"page": 8,
+			"summonedByClass": "Shaman|LLSH",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "13 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your Shaman level"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				}
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 11,
+			"int": 8,
+			"wis": 16,
+			"cha": 13,
+			"passive": 11,
+			"languages": [
+				"understands any languages its Spirit Guide speaks, but the Geist cannot speak itself."
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Conduit",
+					"entries": [
+						"Whenever you cast a Shaman spell, you can choose for the spell to originate from the Geist."
+					]
+				},
+				{
+					"name": "Ethereal Bond",
+					"entries": [
+						"You add your PB to any ability check or saving throw that the Geist is forced to make."
+					]
+				},
+				{
+					"name": "Ghastly Glide",
+					"entries": [
+						"Even though the Geist has a fly speed, it can only fly a maximum of 10 feet above a surface."
+					]
+				},
+				{
+					"name": "Totem Bearer",
+					"entries": [
+						"When you conjure your Geist, you can transfer any number of your Bound Totems to it. The Geist gains the benefits of the Totems, and you lose their benefits until the end of your next long rest."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spectral Grasp",
+					"entries": [
+						"{@atk ms} Your Spell Attack modifier to hit, reach 5 ft., one target. {@h}{@damage 1d8 + 3} necrotic damage. On hit, The target suffers the effects of your Totemic Assault."
+					]
+				}
+			]
+		},
+		{
+			"name": "Great Beast",
+			"source": "LLOC",
+			"page": 8,
+			"summonedByClass": "Shaman|LLSH",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "13 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "Retained"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 15,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"understands the languages you speak"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Bestial Traits",
+					"entries": [
+						"Each transformation, the Great Beast gains a number of Bestial Traits from the list at the end of this Spirituality equal to your Slot Level."
+					]
+				},
+				{
+					"name": "Primal Fury",
+					"entries": [
+						"When the Great Beast makes an ability check or saving throw that uses Strength, Dexterity, or Constitution, it adds your PB to its roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} Spell Attack Modifier to hit, reach 5 ft., one target. {@h}{@damage 1d6 + WIS} piercing damage."
+					]
+				},
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} Spell Attack Modifier to hit, reach 5 ft., one target. {@h}{@damage 2d6 + WIS} slashing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MLW"
+			]
+		},
+		{
+			"name": "Spirit Dragon",
+			"source": "LLOC",
+			"page": 8,
+			"summonedByClass": "Shaman|LLSH",
+			"size": [
+				"L"
+			],
+			"type": "dragon",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "14 + PB (natural armor)"
+				}
+			],
+			"speed": {
+				"walk": 10,
+				"fly": 30
+			},
+			"str": 8,
+			"dex": 18,
+			"con": 12,
+			"int": 1,
+			"wis": 1,
+			"cha": 1,
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"resist": [
+				"necrotic",
+				"poison"
+			],
+			"languages": [
+				"understands the languages you speak, but the Spirit Dragon can only speak Draconic"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Ethereal Agility",
+					"entries": [
+						"Whenever the Spirit Dragon makes an ability check or saving throw that uses Dexterity, it can add your Wisdom modifier to the result."
+					]
+				},
+				{
+					"name": "Serpentine",
+					"entries": [
+						"The thin, serpentine body of the Spirit Dragon counts as Medium for the purposes of its carrying capacity, the spaces it can move through, and all features except for the space it occupies."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spectral Slash",
+					"entries": [
+						"Melee Attack: your Shaman spell attack modifier to hit, reach 5 ft., one target. {@h}{@damage 2d4 + WIS} necrotic damage."
+					]
+				},
+				{
+					"name": "Spirit Breath",
+					"entries": [
+						"The Spirit Dragon forces creatures in a 30-foot line to make a Dexterity saving throw. They suffer the effects of Totemic Assault on a failure, and take half damage from Totemic Assault on a success but suffer no additional Totemic Assault effects."
+					]
+				}
+			]
+		},
+		{
+			"name": "Air Archon",
+			"source": "LLOC",
+			"page": 7,
+			"summonedByClass": "Vessel (Cataclysm)|LLVessel",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"ac": [
+				{
+					"special": "0"
+				}
+			],
+			"speed": {
+				"walk": 20,
+				"fly": 30,
+				"canHover": true
+			},
+			"skill": {
+				"acrobatics": "+PB",
+				"stealth": "+PB"
+			},
+			"resist": [
+				"thunder",
+				"lightning"
+			],
+			"languages": [
+				"Auran",
+				"and any languages you know"
+			],
+			"trait": [
+				{
+					"name": "Gaseous",
+					"entries": [
+						"The Archon can move through gaps as narrow as 1 inch without squeezing, and while using its flying speed, opportunity attacks have disadvantage against it."
+					]
+				},
+				{
+					"name": "Bluster",
+					"entries": [
+						"Whenever the Archon deals thunder damage to a creature with an Iridescent Strike, it can knock it back 10 feet in a straight line. This distance is halved for each size the target is above the Archon."
+					]
+				},
+				{
+					"name": "Elder Elemental",
+					"entries": [
+						"When the Archon deals Affinity damage, it ignores Resistance and treats Immunity as Resistance."
+					]
+				}
+			],
+			"languageTags": [
+				"AU"
+			]
+		},
+		{
+			"name": "Ascended Archon",
+			"source": "LLOC",
+			"page": 5,
+			"summonedByClass": "Vessel (Ascended)|LLVessel",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"ac": [
+				{
+					"special": "+0"
+				}
+			],
+			"speed": {
+				"walk": 30,
+				"fly": 10,
+				"canHover": true
+			},
+			"skill": {
+				"arcana": "+PB",
+				"history": "+PB",
+				"religion": "+PB"
+			},
+			"resist": [
+				{
+					"special": "damage from all spells"
+				}
+			],
+			"languages": [
+				"Primordial",
+				"and any languages you know"
+			],
+			"trait": [
+				{
+					"name": "Astral Step",
+					"entries": [
+						"Whenever the Archon casts a spell, it can teleport a number of feet equal to 10 times the spell level (minimum 10) to an unoccupied space it sees."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Arcane Blast",
+					"entries": [
+						"Once on its turn, the Archon forgo one attack to cause a burst of magic at a point it can see within 60 feet. Creatures within 5 feet must succeed on a Dexterity saving throw or take damage as if they had been hit by one of your {@classFeature Iridescent Strikes|Vessel|LLVessel|1||Iridescent Strikes}."
+					]
+				}
+			],
+			"languageTags": [
+				"P"
+			]
+		},
+		{
+			"name": "Cursed Archon",
+			"source": "LLOC",
+			"page": 8,
+			"summonedByClass": "Vessel (Cursed)|LLVessel",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"ac": [
+				{
+					"special": "+1"
+				}
+			],
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"skill": {
+				"intimidation": "+PB",
+				"stealth": "+PB"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"resist": [
+				"fire",
+				"poison"
+			],
+			"languages": [
+				"Infernal",
+				"and any languages you know"
+			],
+			"trait": [
+				{
+					"name": "Infernal Drain",
+					"entries": [
+						"Once per turn when the Archon deals fire damage with an Iridescent Strike, its temporary hit points increase by your Charisma modifier. Your total temporary hit points cannot exceed twice your Vessel level."
+					]
+				},
+				{
+					"name": "Frenzy",
+					"entries": [
+						"When it takes the Attack action, the Archon can enter a Frenzy which lasts until the start of its next turn. For the duraiton all of its attacks, and all attacks targeting the Archon, are made with advantage."
+					]
+				}
+			],
+			"languageTags": [
+				"I"
+			]
+		},
+		{
+			"name": "Earth Archon",
+			"source": "LLOC",
+			"page": 7,
+			"summonedByClass": "Vessel (Cataclysm)|LLVessel",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"ac": [
+				{
+					"special": "+2"
+				}
+			],
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"burrow": 10
+			},
+			"skill": {
+				"athletics": "+PB",
+				"intimidation": "+PB"
+			},
+			"senses": [
+				"tremorsense 10 ft."
+			],
+			"resist": [
+				"acid",
+				"poison"
+			],
+			"languages": [
+				"Terran",
+				"and any languages you know"
+			],
+			"trait": [
+				{
+					"name": "Rock Solid",
+					"entries": [
+						"When the Archon deals bludgeoning damage to a creature with an Iridescent Strike, the target's speed is halved until the start of the Archon's following turn."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"When the Archon deals bludgeoning damage to a non-magical object or structure, it deals the maximum possible damage instead of rolling."
+					]
+				},
+				{
+					"name": "Elder Elemental",
+					"entries": [
+						"When the Archon deals Affinity damage, it ignores Resistance and treats Immunity as Resistance."
+					]
+				}
+			],
+			"traitTags": [
+				"Siege Monster"
+			],
+			"languageTags": [
+				"T"
+			]
+		},
+		{
+			"name": "Fallen Archon",
+			"source": "LLOC",
+			"page": 10,
+			"summonedByClass": "Vessel (Fallen)|LLVessel",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"ac": [
+				{
+					"special": "+2"
+				}
+			],
+			"speed": {
+				"walk": 30
+			},
+			"skill": {
+				"religion": "+PB",
+				"intimidation": "+PB"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"resist": [
+				"radiant",
+				"necrotic"
+			],
+			"languages": [
+				"Celestial",
+				"and any languages you know"
+			],
+			"trait": [
+				{
+					"name": "Divine Ward",
+					"entries": [
+						"As a bonus action, the Archon can grant a creature it can see within 30 feet temporary hit points equal to your Charisma modifier, which last 1 minute."
+					]
+				},
+				{
+					"name": "Wings of Wrath",
+					"entries": [
+						"When the Archon uses Divine Wrath, it gains the Thrown (20/60) property, and after the attack, the weapon instantly returns to the Archon's hand."
+					]
+				}
+			],
+			"languageTags": [
+				"CE"
+			]
+		},
+		{
+			"name": "Fire Archon",
+			"source": "LLOC",
+			"page": 7,
+			"summonedByClass": "Vessel (Cataclysm)|LLVessel",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"ac": [
+				{
+					"special": "+0"
+				}
+			],
+			"speed": {
+				"walk": 40
+			},
+			"skill": {
+				"intimidation": "+PB",
+				"acrobatics": "+PB"
+			},
+			"resist": [
+				"fire",
+				"radiant"
+			],
+			"languages": [
+				"Ignan",
+				"and any languages you know"
+			],
+			"trait": [
+				{
+					"name": "Searing Flame",
+					"entries": [
+						"Whenever the Archon deals fire damage, it rolls its damage twice and chooses which total to use."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"The Archon sheds bright light out to a 30-foot radius and dim light 30 feet beyond that."
+					]
+				},
+				{
+					"name": "Elder Elemental",
+					"entries": [
+						"When the Archon deals Affinity damage, it ignores Resistance and treats Immunity as Resistance."
+					]
+				}
+			],
+			"languageTags": [
+				"I"
+			]
+		},
+		{
+			"name": "Formless Archon",
+			"source": "LLOC",
+			"page": 11,
+			"summonedByClass": "Vessel (Formless)|LLVessel",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "ooze",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"ac": [
+				{
+					"special": "+1"
+				}
+			],
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"resist": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"grappled",
+				"restrained"
+			],
+			"languages": [
+				"Primordial",
+				"and any languages you know"
+			],
+			"trait": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"The Archon sprouts a number of additional pseudopod limbs equal to your Charisma modifier. They have a reach of 10 ft., and they can be attacked as part of the Archon. These pseudopods can only be used to make melee Iridescent Strike attacks, Grapple, and Shove."
+					]
+				},
+				{
+					"name": "Sticky Slime",
+					"entries": [
+						"When the Archon hits a creature equal to its size or smaller with a melee Iridescent Strike, it can force it to make a Dexterity saving throw or become Grappled. To escape this Grapple, a creature must use its action to make a Strength saving throw, escaping on a success."
+					]
+				}
+			],
+			"languageTags": [
+				"P"
+			]
+		},
+		{
+			"name": "Spirit Familiar",
+			"source": "LLOC",
+			"page": 13,
+			"summonedByClass": "Vessel|LLVessel",
+			"size": [
+				"T"
+			],
+			"type": {
+				"type": "creature",
+				"note": "(type of your Archon Form)"
+			},
+			"ac": [
+				{
+					"special": "8 + your Charisma modifier"
+				}
+			],
+			"hp": {
+				"special": "5 + your Vessel level"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"str": 3,
+			"dex": 14,
+			"con": 7,
+			"int": 8,
+			"wis": 10,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"any spoken by your Archon Form"
+			],
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Spirit Familiar has a number of {@dice d4} Hit Dice equal to your Vessel level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Vessel Bond",
+					"entries": [
+						"You add your PB to any ability checks or saving throws that your Spirit Familiar makes."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Spirit Familiar has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Invisibility",
+					"entries": [
+						"The Familiar magically turns invisible until it attacks or forces a target to make an ability check or saving throw. Equipment it is wearing or carrying turns invisible with it. The Familiar must concentrate on this effect as if it were concentrating on a spell."
+					]
+				},
+				{
+					"name": "Spirit Strike",
+					"entries": [
+						"{@atk ms} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d4 + 3} damage of the same type as your Iridescent Strikes."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			]
+		},
+		{
+			"name": "Trickster Archon",
+			"source": "LLOC",
+			"page": 11,
+			"summonedByClass": "Vessel (Trickster)|LLVessel",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fey",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"ac": [
+				{
+					"special": "+0"
+				}
+			],
+			"speed": {
+				"walk": 30
+			},
+			"skill": {
+				"deception": "+PB",
+				"stealth": "+PB"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Sylvan",
+				"and any languages you know"
+			],
+			"trait": [
+				{
+					"name": "Stolen Memory",
+					"entries": [
+						"Once per turn when the Archon deals psychic damage with an Iridescent Strike, it can force the target to make an Intelligence saving throw. On a failure, it cannot see, hear, smell, sense, or target the Archon in any way until the start of your next turn."
+					]
+				},
+				{
+					"name": "Juxtapose",
+					"entries": [
+						"As a bonus action, the Archon can force a creature it can see within 60 feet to make a Charisma saving throw. On a failure, it instantly switches places with the Archon. A creature can willingly fail the save."
+					]
+				}
+			],
+			"languageTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Water Archon",
+			"source": "LLOC",
+			"page": 7,
+			"summonedByClass": "Vessel (Cataclysm)|LLVessel",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"ac": [
+				{
+					"special": "+0"
+				}
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 50
+			},
+			"skill": {
+				"acrobatics": "+PB",
+				"stealth": "+PB"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"resist": [
+				"acid",
+				"cold"
+			],
+			"languages": [
+				"Aquan",
+				"and any languages you know"
+			],
+			"trait": [
+				{
+					"name": "Aqueous",
+					"entries": [
+						"The Archon can breathe normally in both air and water, and it can move through spaces as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Flowing Resilience",
+					"entries": [
+						"When the Archon takes damage it can use a reaction to reduce it by CHA and move up to 15 feet without provoking opportunity attacks. It cannot use this reaction on force or psychic damage."
+					]
+				},
+				{
+					"name": "Elder Elemental",
+					"entries": [
+						"When the Archon deals Affinity damage, it ignores Resistance and treats Immunity as Resistance."
+					]
+				}
+			],
+			"languageTags": [
+				"AQ"
+			]
+		},
+		{
+			"name": "Exalted Protege",
+			"source": "LLOC",
+			"size": [
+				"S",
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"plate"
+					]
+				}
+			],
+			"hp": {
+				"special": "5 + five times your Warlord level"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 16,
+			"int": 15,
+			"wis": 11,
+			"cha": 12,
+			"save": {
+				"dex": "+8"
+			},
+			"skill": {
+				"athletics": "+9",
+				"history": "+7"
+			},
+			"languages": [
+				"Common",
+				"and one additional language"
+			],
+			"trait": [
+				{
+					"name": "Heroic Determination",
+					"entries": [
+						"Once per long rest, when your Protege misses an attack roll, or fails an ability check or saving throw, they can choose to replace their d20 roll with your Warlord level, possibly making it a success."
+					]
+				},
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"Your Protege has a number of {@dice d8} Hit Dice equal to your Warlord level. They also gain the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Quick Student",
+					"entries": [
+						"Each time your PB increases by 1, your Protege's bonus to their saving throws, skills, and their attack bonus also increase by the same amount."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Extra Attack",
+					"entries": [
+						"When you command your Protege to make a weapon attack, they make two attacks instead of one."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} +9 to hit, reach 5 ft., one target. {@h}({@damage 2d6 +4}) slashing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} +8 to hit, range 150/600, one target. {@h}({@damage 1d8 +3}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"RNG"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			]
+		},
+		{
+			"name": "Protege",
+			"source": "LLOC",
+			"size": [
+				"S",
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"leather armor",
+						"shield"
+					]
+				}
+			],
+			"hp": {
+				"special": "5 + five times your Warlord level"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 14,
+			"int": 13,
+			"wis": 8,
+			"cha": 10,
+			"save": {
+				"dex": "+5"
+			},
+			"skill": {
+				"athletics": "+3",
+				"history": "+3"
+			},
+			"languages": [
+				"Common",
+				"and one additional language"
+			],
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"Your Protege has a number of {@dice d8} Hit Dice equal to your Warlord level. They also gain the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Quick Student",
+					"entries": [
+						"Each time your PB increases by 1, your Protege's bonus to their saving throws, skills, and their attack bonus also increase by the same amount."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} +5 to hit, reach 5 ft., one target. {@h}({@damage 1d4 +3}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} +5 to hit, range 80/320, one target. {@h}({@damage 1d6 +3}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"RNG"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			]
+		}
+	]
+}

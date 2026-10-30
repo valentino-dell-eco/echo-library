@@ -1,0 +1,4253 @@
+{
+	"classFeature": [
+		{
+			"name": "Captain",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"You lead with personality, bravery, and boldness. Charisma is your Leadership Score. You also gain proficiency in heavy armor and your choice of either {@skill Intimidation} or {@skill Persuasion}."
+			]
+		},
+		{
+			"name": "Inspiring Word",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"Your words encourage others to fight on. At 1st level, you can use a bonus action to shout at another creature within 30 feet that can hear you. Your target regains hit points equal to one roll of its Hit Die + your Leadership modifier. Though it does not expend a Hit Die as part of this ability.",
+				"You can use this feature the number of times indicated in the Inspiring Word column on the Warlord table. You regain all expended uses when you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Leadership Style",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"At 1st level, you choose your Leadership Style. It determines your Leadership Ability Score and grants additional benefits:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refClassFeature",
+							"classFeature": "Captain|Warlord|LLAW|1"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Mentor|Warlord|LLAW|1"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Strategist|Warlord|LLAW|1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mentor",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"You lead through wise counsel. Wisdom is your Leadership Score. When another creature within 15 feet that can hear you misses an attack or fails an ability check, you can use your reaction to grant it a {@dice 1d4} bonus to its roll."
+			]
+		},
+		{
+			"name": "Strategist",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"You lead with cunning tactical insight. Intelligence is your Leadership Score. After you roll initiative, you can switch places in initiative order with another willing creature."
+			]
+		},
+		{
+			"name": "Exploit Dice",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"The Warlord table shows the number of Exploit Dice you have to perform Exploits you know. Most of your Exploits will require you to spend Exploit Dice to use them. You can only use one Exploit per attack, ability check, or saving throw, and you regain all expended Exploit Dice when you finish a short or long rest.",
+				"Your Exploit Dice begin as {@dice d4}s and increase in size as you gain levels in this class, as shown in the Exploit Die column of the Warlord table. Also, whenever you add an Exploit Die to a roll, always roll it and add it to the result."
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you learn one {@filter Fighting Style|optionalfeatures|feature type=fs:wd} from the list at the end of this class. You cannot learn the same Fighting Style more than once, even if a feature allows you to learn another. To learn a Fighting Style, you must meet its prerequisites.",
+				"When you gain a level, you can replace this Fighting Style with another Fighting Style available to the Warlord class."
+			]
+		},
+		{
+			"name": "Tactical Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Also at 2nd level, you learn techniques which enhance your tactical skills. You gain the following features:",
+				{
+					"type": "refClassFeature",
+					"classFeature": "Exploit Dice|Warlord|LLAW|2"
+				},
+				{
+					"type": "entries",
+					"name": "Exploits Known",
+					"entries": [
+						"You know two {@filter Tactical Exploits|optionalfeatures|feature type=LL:TE} of your choice from the list at the end of this class. To learn a Tactical Exploit, you must meet any prerequisites that it has.",
+						"You learn additional Exploits at certain levels, as shown in the Exploits Known column of the Warlord table. Finally, whenever you gain a level, you can replace one Exploit you know with another Tactical Exploit of your choice."
+					]
+				},
+				{
+					"type": "refClassFeature",
+					"classFeature": "Tactical Skill|Warlord|LLAW|2"
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throws",
+					"entries": [
+						"If one of your Tactical Exploits requires a creature to make a saving throw, your Exploit save DC is calculated as follows:",
+						{
+							"type": "abilityDc",
+							"name": "Exploit",
+							"attributes": [
+								"your Leadership modifier"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tactical Skill",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Dedicated training has also honed your skills. Whenever you make an ability check with a tool or skill you are proficient in, you can expend an Exploit Die and add it to your roll. You can do so after you roll the d20 but before you know the outcome."
+			]
+		},
+		{
+			"name": "Academy of War",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, choose the Academy of War from the list here that best represents the training and tactics of your Warlord:",
+				{
+					"type": "table",
+					"colStyles": [
+						"text-center col-4",
+						"text-center col-4",
+						"text-center col-4"
+					],
+					"rows": [
+						[
+							"Chivalry",
+							"Ferocity",
+							"Schemes"
+						],
+						[
+							"Dread",
+							"Gallantry",
+							"Tactics"
+						]
+					]
+				},
+				"Your Academy grants you features at 3rd level, and again at 6th, 14th, and 18th level in this class. If an Academy feature forces a saving throw it uses your Exploit save DC.",
+				{
+					"type": "entries",
+					"name": "Academy Exploits",
+					"entries": [
+						"Some Academies have a list of Tactical Exploits you learn at the levels noted in their description. The Exploits don't count against your Exploits Known and can't be replaced. If you do not meet their prerequisites, you learn them regardless."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn. Moreover, if you use your action to {@action Dash} or to {@action Disengage} you can make one weapon attack as a bonus action on that turn."
+			]
+		},
+		{
+			"name": "Academy Feature",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Academy of War."
+			]
+		},
+		{
+			"name": "Captain",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 7,
+			"entries": [
+				"You can target creatures that are {@condition Unconscious}, but not dead, with your Inspiring Word, even though they cannot hear you."
+			]
+		},
+		{
+			"name": "Mentor",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 7,
+			"entries": [
+				"The range of your Mentor reaction increases to 30 feet, and when you use this reaction, you can expend an Exploit Die to use it in place of the normal d4 you would roll."
+			]
+		},
+		{
+			"name": "Strategist",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 7,
+			"entries": [
+				"You and creatures of your choice within 15 feet of you gain a bonus to Initiative rolls equal to your Intelligence modifier, so long as you are not {@status surprised} or {@condition Incapacitated}."
+			]
+		},
+		{
+			"name": "Valiant Leader",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 7,
+			"entries": [
+				"Your skills have been honed in the crucible of war. Starting at 7th level, your Leadership Style grants you further benefits:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refClassFeature",
+							"classFeature": "Captain|Warlord|LLAW|7"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Mentor|Warlord|LLAW|7"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Strategist|Warlord|LLAW|7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Rallying Cry",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 9,
+			"entries": [
+				"You rally allies to find success when they might otherwise fail. Starting at 9th level, when another creature that can hear you within 30 feet fails a saving throw, you can use your reaction to rally it. The creature rolls its saving throw again, and adds your Leadership modifier to its new result.",
+				"You can use this reaction once per short or long rest. You gain second use at 13th level and a third use at 17th level."
+			]
+		},
+		{
+			"name": "Unwavering Will",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"You are not given the luxury of succumbing to base instincts. Beginning at 10th level, you have advantage on saving throws to resist being {@condition Charmed}, {@condition Frightened}, or {@condition Stunned}."
+			]
+		},
+		{
+			"name": "Tactical Superiority",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 11,
+			"entries": [
+				"You are a leader of legendary status. Starting 11th level, you regain one expended use of Inspiring Word and Rallying Cry when you roll initiative. Moreover, the range of your Tactical Exploits, Inspiring Word, and Rallying Cry is doubled."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Academy Feature",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain a feature granted by your Academy of War."
+			]
+		},
+		{
+			"name": "Captain",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"Creatures that you target with Inspiring Word, Rallying Cry, or a Tactical Exploit gain temporary hit points equal to your Charisma modifier. However, these only last for 1 minute."
+			]
+		},
+		{
+			"name": "Exalted Leader",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"You are an unflinching leader, even in dire circumstances. At 15th level, your Leadership Style grants you these benefits:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refClassFeature",
+							"classFeature": "Captain|Warlord|LLAW|15"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Mentor|Warlord|LLAW|15"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Strategist|Warlord|LLAW|15"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mentor",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"Your Inspiring Word can end one of the following conditions in place of restoring the target's hit points: {@condition Blinded}, {@condition Charmed}, {@condition Deafened}, {@condition Frightened}, {@condition Poisoned}, or {@condition Stunned}."
+			]
+		},
+		{
+			"name": "Strategist",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"When you use Inspiring Word, the target can choose to move up to its speed without provoking {@action opportunity attack||opportunity attacks}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Academy Feature",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain a feature granted by your Academy of War."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Dauntless",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 20,
+			"entries": [
+				"You rival the great commanders and conquerors of legend. At 20th level, you can use Rallying Cry an unlimited number of times. Moreover, whenever you use Inspiring Word you treat the hit points restored as the maximum possible result."
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Warlord",
+			"source": "LLOC",
+			"page": 1,
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"wis",
+				"cha"
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Tactical Exploits",
+					"featureType": [
+						"LL:1TE"
+					],
+					"progression": {
+						"2": 2,
+						"3": 3
+					}
+				},
+				{
+					"name": "Tactical Exploits",
+					"featureType": [
+						"LL:1TE",
+						"LL:2TE"
+					],
+					"progression": {
+						"5": 1,
+						"7": 2
+					}
+				},
+				{
+					"name": "Tactical Exploits",
+					"featureType": [
+						"LL:1TE",
+						"LL:2TE",
+						"LL:3TE"
+					],
+					"progression": {
+						"9": 1,
+						"11": 2
+					}
+				},
+				{
+					"name": "Tactical Exploits",
+					"featureType": [
+						"LL:1TE",
+						"LL:2TE",
+						"LL:3TE",
+						"LL:4TE"
+					],
+					"progression": {
+						"13": 1
+					}
+				},
+				{
+					"name": "Tactical Exploits",
+					"featureType": [
+						"LL:TE"
+					],
+					"progression": {
+						"17": 1
+					}
+				},
+				{
+					"name": "Fighting Style",
+					"featureType": [
+						"FS:WD"
+					],
+					"progression": {
+						"2": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"simple",
+					"{@item hand crossbow|phb|hand crossbows}",
+					"{@item longbow|phb|longbows}",
+					"{@item longsword|phb|longswords}",
+					"{@item rapier|phb|rapiers}",
+					"{@item scimitar|phb|scimitars}",
+					"{@item shortsword|phb|shortswords}"
+				],
+				"tools": [
+					"one {@item gaming set|phb} of your choice."
+				],
+				"toolProficiencies": [
+					{
+						"anyGamingSet": 1
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"athletics",
+								"deception",
+								"history",
+								"insight",
+								"intimidation",
+								"investigation",
+								"persuasion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item scale mail|PHB} or (b) a {@item leather armor|PHB}",
+					"(a) {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} or (b) {@item longsword|phb} or (c) a {@item rapier|PHB}",
+					"(a) {@item light crossbow|PHB} and {@item Crossbow Bolts (20)|PHB|20 bolts} or (b) five {@item javelin|phb|javelins}",
+					"(a) a {@item scholar's pack|PHB} or (b) an {@item explorer's pack|PHB}"
+				],
+				"defaultData": [
+					{
+						"a": [
+							"scale mail|phb"
+						],
+						"b": [
+							"leather armor|phb"
+						]
+					},
+					{
+						"a": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						],
+						"b": [
+							"longsword|phb"
+						],
+						"c": [
+							"rapier|phb"
+						]
+					},
+					{
+						"a": [
+							"light crossbow|phb",
+							"crossbow bolts (20)|phb"
+						],
+						"b": [
+							{
+								"item": "javelin|phb",
+								"quantity": 5
+							}
+						]
+					},
+					{
+						"a": [
+							"scholar's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"or": [
+						{
+							"str": 13,
+							"dex": 13
+						},
+						{
+							"int": 13,
+							"wis": 13,
+							"cha": 13
+						}
+					]
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					],
+					"weapons": [
+						"simple"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Inspiring Word",
+						"{@filter Exploits Known|optionalfeatures|feature type=LL:TE}",
+						"Exploit Die",
+						"Exploit Dice"
+					],
+					"rows": [
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							2,
+							"{@dice d4}",
+							2
+						],
+						[
+							3,
+							3,
+							"{@dice d4}",
+							2
+						],
+						[
+							4,
+							3,
+							"{@dice d4}",
+							2
+						],
+						[
+							4,
+							4,
+							"{@dice d6}",
+							3
+						],
+						[
+							4,
+							4,
+							"{@dice d6}",
+							3
+						],
+						[
+							4,
+							5,
+							"{@dice d6}",
+							3
+						],
+						[
+							5,
+							5,
+							"{@dice d6}",
+							3
+						],
+						[
+							5,
+							6,
+							"{@dice d6}",
+							3
+						],
+						[
+							5,
+							6,
+							"{@dice d6}",
+							3
+						],
+						[
+							5,
+							7,
+							"{@dice d8}",
+							4
+						],
+						[
+							5,
+							7,
+							"{@dice d8}",
+							4
+						],
+						[
+							6,
+							8,
+							"{@dice d8}",
+							4
+						],
+						[
+							6,
+							8,
+							"{@dice d8}",
+							4
+						],
+						[
+							6,
+							9,
+							"{@dice d8}",
+							4
+						],
+						[
+							6,
+							9,
+							"{@dice d8}",
+							4
+						],
+						[
+							7,
+							10,
+							"{@dice d10}",
+							5
+						],
+						[
+							7,
+							10,
+							"{@dice d10}",
+							5
+						],
+						[
+							7,
+							10,
+							"{@dice d10}",
+							5
+						],
+						[
+							7,
+							10,
+							"{@dice d10}",
+							5
+						]
+					]
+				}
+			],
+			"subclassTitle": "Academy of War",
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "exploit",
+						"type": "dice",
+						"scale": {
+							"2": {
+								"n": 2,
+								"die": 4
+							},
+							"5": {
+								"n": 3,
+								"die": 6
+							},
+							"11": {
+								"n": 4,
+								"die": 8
+							},
+							"17": {
+								"n": 5,
+								"die": 10
+							}
+						}
+					},
+					"title": "Exploit Dice"
+				},
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "inspiring-word",
+						"type": "number",
+						"scale": {
+							"1": {
+								"value": 3
+							},
+							"4": {
+								"value": 4
+							},
+							"8": {
+								"value": 5
+							},
+							"13": {
+								"value": 6
+							},
+							"17": {
+								"value": 7
+							}
+						}
+					},
+					"title": "Inspiring Word"
+				},
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "rallying-cry",
+						"type": "number",
+						"scale": {
+							"9": {
+								"value": 1
+							},
+							"13": {
+								"value": 2
+							},
+							"17": {
+								"value": 3
+							},
+							"20": {
+								"value": 99
+							}
+						}
+					},
+					"title": "Rallying Cry"
+				},
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "tactical-superiority",
+						"type": "number",
+						"scale": {
+							"1": {
+								"value": 1
+							},
+							"11": {
+								"value": 2
+							}
+						}
+					},
+					"title": "Tactical Superiority"
+				}
+			],
+			"classFeatures": [
+				"Captain|Warlord|LLOC|1|LLOC",
+				"Inspiring Word|Warlord|LLOC|1|LLOC",
+				"Leadership Style|Warlord|LLOC|1|LLOC",
+				"Mentor|Warlord|LLOC|1|LLOC",
+				"Strategist|Warlord|LLOC|1|LLOC",
+				"Exploit Dice|Warlord|LLOC|2|LLOC",
+				"Fighting Style|Warlord|LLOC|2|LLOC",
+				"Tactical Exploits|Warlord|LLOC|2|LLOC",
+				"Tactical Skill|Warlord|LLOC|2|LLOC",
+				{
+					"classFeature": "Academy of War|Warlord|LLOC|3|LLOC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Warlord|LLOC|4|LLOC",
+				"Extra Attack|Warlord|LLOC|5|LLOC",
+				{
+					"classFeature": "Academy Feature|Warlord|LLOC|6|LLOC",
+					"gainSubclassFeature": true
+				},
+				"Captain|Warlord|LLOC|7|LLOC",
+				"Mentor|Warlord|LLOC|7|LLOC",
+				"Strategist|Warlord|LLOC|7|LLOC",
+				"Valiant Leader|Warlord|LLOC|7|LLOC",
+				"Ability Score Improvement|Warlord|LLOC|8|LLOC",
+				"Rallying Cry|Warlord|LLOC|9|LLOC",
+				"Unwavering Will|Warlord|LLOC|10|LLOC",
+				"Tactical Superiority|Warlord|LLOC|11|LLOC",
+				"Ability Score Improvement|Warlord|LLOC|12|LLOC",
+				{
+					"classFeature": "Academy Feature|Warlord|LLOC|14|LLOC",
+					"gainSubclassFeature": true
+				},
+				"Captain|Warlord|LLOC|15|LLOC",
+				"Exalted Leader|Warlord|LLOC|15|LLOC",
+				"Mentor|Warlord|LLOC|15|LLOC",
+				"Strategist|Warlord|LLOC|15|LLOC",
+				"Ability Score Improvement|Warlord|LLOC|16|LLOC",
+				{
+					"classFeature": "Academy Feature|Warlord|LLOC|18|LLOC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Warlord|LLOC|19|LLOC",
+				"Dauntless|Warlord|LLOC|20|LLOC"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Chivalric Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Chivalry",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain Exploits at the Warlord levels noted in the table below. They do not count against your total number of Exploits Known and can't be switched upon gaining a level:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Warlord Level",
+						"Exploit"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature attack order|LLEX}, {@optfeature taunting strike|LLEX}"
+						],
+						[
+							"5th",
+							"{@optfeature hold the line|LLEX}, {@optfeature rejuvenating order|LLEX}"
+						],
+						[
+							"9th",
+							"{@optfeature daring rescue|LLEX}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "attack order|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "taunting strike|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Inspiring Shout",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Chivalry",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Your presence on the field of battle inspires those who fight beside you. When you roll initiative you can expend a use of Inspiring Word and choose a number of creatures within 30 feet that can hear you equal to your Leadership modifier to gain temporary hit points equal to your Exploit Die + your Leadership modifier."
+			]
+		},
+		{
+			"name": "Knighthood",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Chivalry",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You have been trained in the classical skills of knighthood. You gain proficiency with all martial weapons, one musical instrument, and either {@skill History}, {@skill Performance}, or {@skill Religion}."
+			]
+		},
+		{
+			"name": "Academy of Chivalry",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Chivalry",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Warlords that choose the Academy of Chivalry often hail from the ranks of nobility and are almost always formal knights. As leaders, they hold themselves and those who follow them to a lofty code of conduct. These knights stand as beacons of fair play, honor, and justice, both on and off the field of battle.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Chivalric Exploits|Warlord|LLOC|Chivalry|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Inspiring Shout|Warlord|LLOC|Chivalry|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Knighthood|Warlord|LLOC|Chivalry|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Chivalry",
+			"subclassSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "hold the line|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "rejuvenating order|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lead the Charge",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Chivalry",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"You lead best from the front lines. When you take the {@action Attack} action on your turn and make at least one melee attack, you can issue an {@optfeature attack order|LLEX} as a bonus action on that turn."
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Chivalry",
+			"subclassSource": "LLOC",
+			"level": 9,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "daring rescue|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Flames of Hope",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Chivalry",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"Once between each short or long rest you can use your action to let forth a heroic cry that inflames the hearts of your allies and inspires terror in your foes. Creatures that can hear you within 30 feet gain the corresponding effect below:",
+				{
+					"type": "entries",
+					"name": "Allies",
+					"entries": [
+						"Friendly creatures gain temporary hit points equal to your Exploit Die + your Leadership modifier. While these last, the creature cannot be {@condition Charmed} or {@condition Frightened}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Enemies",
+					"entries": [
+						"Hostile creatures must make a Wisdom saving throw or be {@condition Frightened} of you. They repeat the saving throw at the end of each of their turns and when they take damage, ending the effect on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Paragon of Chivalry",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Chivalry",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"You stand as an exemplar of chivalric virtue, a shining beacon for those who follow you. You are immune to the {@condition Frightened} and {@condition Charmed} conditions, and creatures of your choice within 30 feet that can see you have advantage on saving throws to resist or end the Charmed and Frightened condition."
+			]
+		},
+		{
+			"name": "Claw Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Claws",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain Exploits at the Warlord levels noted in the table below. They do not count against your total number of Exploits Known and can't be switched upon gaining a level:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Warlord Level",
+						"Exploit"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature attack order|LLEX}, {@optfeature imposing presence|LLEX}"
+						],
+						[
+							"5th",
+							"{@optfeature rending strike|LLEX}, {@optfeature wild charge|LLEX}"
+						],
+						[
+							"9th",
+							"{@optfeature survey wilderness|LLEX}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "attack order|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "imposing presence|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Monstrous Minion",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Claws",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You can exert your considerable will to dominate creatures, pressing them into service as a Minion, using these rules:",
+				{
+					"type": "entries",
+					"name": "Subjugating a Minion",
+					"entries": [
+						"As an action, you force a creature within 10 feet that can hear you to make a Charisma saving throw. If the creature is Friendly to you, it automatically fails. On a failed save, that creature becomes your Minion.",
+						"If a creature succeeds on this saving throw, it is immune to this ability for the next 24 hours and cannot be targeted. You can only have one Monstrous Minion at a time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Potential Minions",
+					"entries": [
+						"The creatures you can dominate are limited only by your willpower. You can only use this feature on a {@loader Beast|creature/LaserLlama; Compendium of Beasts.json} or Monstrosity with a Challenge Rating equal to your Warlord level divided by three, rounded down."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Minion Statistics",
+					"entries": [
+						"Your Minion obeys you with total loyalty. It continues to use its normal stat block, and it gains the benefits from short and long rests."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"In combat, your Minion acts during your turn. It can move and use its reaction on its own, but will only take the {@action Dodge} action unless you use a bonus action to order it to take one action from its stat block or another action.",
+						"If you are {@condition Incapacitated}, your Minion reverts to its wild state, normally fleeing to return to its home in the wilderness."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Exploits",
+					"entries": [
+						"You can target your Minion with Exploits, and it can understand you even if it can't speak."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Duration",
+					"entries": [
+						"A creature remains a Minion until it is slain. It returns to its wild state sooner if it can't see or hear you for 1 hour, or if you attempt to dominate another creature and turn it into your Minion."
+					]
+				}
+			]
+		},
+		{
+			"name": "Academy of Claws",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Claws",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You put your tactical knowledge and leadership skill to use in taming of exotic monsters for use in battle. Known for their Monstrous Minions, Warlords of the Claw can exert their will to dominate even the most wild creatures. Some even say the most powerful of these Warlords bring mythical monsters to heel, commanding them as they would a normal soldier.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Claw Exploits|Warlord|LLOC|Claws|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Monstrous Minion|Warlord|LLOC|Claws|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Claws",
+			"subclassSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "rending strike|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "wild charge|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Iron Command",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Claws",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"Whenever your Minion makes an attack roll, ability check, or saving throw within 15 feet of you, you can use your reaction to add your Leadership modifier to the result of its roll."
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Claws",
+			"subclassSource": "LLOC",
+			"level": 9,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "survey wilderness|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Monstrous Menagerie",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Claws",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"Your impressive will allows you to tame fearsome monsters. You can target Aberrations, Dragons, Giants, Oozes, Plants, and Undead with Monstrous Minion, so long as their CR is within the normal Challenge Rating guidelines.",
+				"Also, once a creature has been your Minion for at least 24 hours, it remains Friendly to you indefinitely unless you give it a reason to become hostile toward you again."
+			]
+		},
+		{
+			"name": "Total Domination",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Claws",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"Your unflinching willpower allows you to totally dominate the creatures under your control. The range of Iron Command is 30 feet, and while a Minion is within that range, it is resistant to bludgeoning, piercing, and slashing damage."
+			]
+		},
+		{
+			"name": "Counselor Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Counsel",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain Exploits at the Warlord levels noted in the table below. They don't count against your total number of Exploits Known and can't be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Warlord Level",
+						"Exploit"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature defensive order|LLEX}, {@optfeature support order|LLEX}"
+						],
+						[
+							"5th",
+							"{@optfeature insightful order|LLEX}, {@optfeature soothing speech|LLEX}"
+						],
+						[
+							"9th",
+							"{@optfeature forgotten knowledge|LLEX}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "defensive order|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "support order|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Counselor's Protege",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Counsel",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You have adopted a student to educate in the ways of warfare, your Protege. You determine their appearance, race, and size (either Small or Medium). Proteges are always inexperienced, and often young, but they are eager to learn from you. Your Protege uses the following rules:",
+				{
+					"type": "entries",
+					"name": "Statistics",
+					"entries": [
+						"Your Protege is Friendly to you and to your allies. They are fiercely loyal, following orders to the best of their abilities, and never acting outside of your directions. They use the {@creature Protege|LLOC} stat block below, which uses your Proficiency Bonus (PB), Leadership modifier, and Exploit save DC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapons & Armor",
+					"entries": [
+						"Your Protege is proficient in light and medium armor, shields, and simple weapons. They are equipped with leather armor, a shield, a shortbow and a dagger, but you can give them other equipment."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"In combat, your Protege acts during your turn. They can move and use their reaction on their own, but they will only take the {@action Dodge} action unless you use your bonus action to command them to take an action from their stat block, or another action. If you are {@condition Incapacitated}, your Protege acts on their own, and will defend you to the best of their ability."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dying",
+					"entries": [
+						"If your Protege is reduced to 0 hit points, they make death saving throws like a player character. When they are at 0 hit points, you can use your action to touch them and expend one Exploit Die to instantly stabilize them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Recruiting a New Protege",
+					"entries": [
+						"If your Protege dies, you can spend 8 hours seeking out a worthy Humanoid to serve you as a new Protege, so long as a willing student can be found. This Humanoid then uses the Protege stat block."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Your Protege & Other Features",
+					"entries": [
+						"Your Protege is a blank slate that you will use your knowledge to educate. To have a Protege better represent their heritage, talk with your DM about adding racial features, a background, or other similar features to your Protege's stat block.",
+						"However, any additional features added to your Protege will increase their power and should be done cautiously."
+					]
+				}
+			]
+		},
+		{
+			"name": "Academy of Counsel",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Counsel",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You have learned much from the battlefield, and it is time to pass that knowledge on to the next generation of heroes. As a member of the Academy of Counsel, you have dedicated your life to the education of your Protege, a successor who you will train to take your place on the field of battle.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Counselor Exploits|Warlord|LLOC|Counsel|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Counselor's Protege|Warlord|LLOC|Counsel|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Counsel",
+			"subclassSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "insightful order|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "soothing speech|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Invigorating Orders",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Counsel",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"Your words inspire your Protege to acts of heroism. When you target your Protege with an Exploit, they have advantage on their next ability check, attack roll, or saving throw.",
+				"Your Protege's skills have increased. They gain proficiency in Wisdom saving throws, heavy armor and martial weapons."
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Counsel",
+			"subclassSource": "LLOC",
+			"level": 9,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "forgotten knowledge|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Exalted Protege",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Counsel",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"Your dedication and patience has paid off. Your Protege has become a hero in their own right and now uses the {@creature Exalted Protege|LLOC} stat block on this page.",
+				"You also learn the {@optfeature heroic order|LLEX} Exploit. It does not count against your Exploits Known and it cannot be replaced. Once per long rest, you can use this Exploit targeting your Protege without counting against the once per rest use of the Exploit.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "heroic order|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Legendary Tandem",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Counsel",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"Your knowledge of your Protege and their understanding of you are such that you fight as one mind on the field of battle. While you and your Protege are within 30 feet of each other, you both have advantage on your saving throws, and neither of you can have disadvantage on attack rolls.",
+				"Finally, your Protege can use their Heroic Determination Trait once between each short or long rest. At 20th level, replacing an attack roll with this Trait makes it an automatic critical hit."
+			]
+		},
+		{
+			"name": "Dark Captain",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You exude an aura of intimidation that shakes all but the most stalwart warriors to their core. You gain proficiency with all martial weapons and in {@skill Intimidation}.",
+				"Moreover, whenever you make an Indimidation check, you can use your Leadership ability instead of Charisma. When you do, treat a roll of 7 or lower on the d20 as an 8."
+			]
+		},
+		{
+			"name": "Dread Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain Exploits at the Warlord levels in the table below. They don't count against your total Exploits Known and cannot be switched when you gain a level:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Warlord Level",
+						"Exploit"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature attack order|LLEX}, {@optfeature imposing presence|LLEX}"
+						],
+						[
+							"5th",
+							"{@optfeature intimidating command|LLEX}, {@optfeature menacing shout|LLEX}"
+						],
+						[
+							"9th",
+							"{@optfeature war cry|LLEX}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "attack order|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "imposing presence|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Dread Presence",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Your presence on the field of battle inspires fear in the hearts of your enemies. As a bonus action, you can expend a use of Inspiring Word to force one creature that can see you within 30 feet to make a Wisdom saving throw. On a failed save, it is {@condition Frightened} of you for 1 minute. If this Frightened creature sees you take damage, the effect ends.",
+				"If the creature flees and is no longer in your line of sight, it can use its action to automatically end this effect."
+			]
+		},
+		{
+			"name": "Academy of Dread",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Where most Warlords have a sense of appreciation and care for those that follow them, those known as Dreadlords only care for one thing - victory. These ruthless captains make use of any possible advantage, often using their enemy's greatest fears against them to turn the tide of the battle. These dark captains are often found leading hordes of orcs and undead.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dark Captain|Warlord|LLOC|Dread|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dread Exploits|Warlord|LLOC|Dread|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dread Presence|Warlord|LLOC|Dread|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "intimidating command|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "menacing shout|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Merciless",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"You infuse your commands with your dread willpower. You can use {@optfeature intimidating command|LLEX} and {@optfeature menacing shout|LLEX} without expending an Exploit Die a number of times equal to your Leadership modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+				"Also, once per turn when you cause a creature to be {@condition Frightened}, you can instantly issue a single {@optfeature attack order|LLEX}."
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLOC",
+			"level": 9,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "war cry|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ruthless Command",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"You spread fear and desolation on the battlefield. Creatures that you target with an Inspiring Word or a Tactical Exploit have advantage on all attack rolls against creatures that are {@condition Frightened} until the end of their next turn.",
+				"Moreover, when you use your Dread Presence, the creature has disadvantage on its initial Wisdom saving throw if you or a creature under the effects of one of your Exploits has hit it with an attack since the end of your last turn."
+			]
+		},
+		{
+			"name": "Dreadlord",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"You stand as a sinister monument to all those who have tried, and failed, to stop your iron conquest. You are immune to the {@condition Frightened} condition, and you add your Leadership modifier (a minimum of +1) to any attack rolls that you make against creatures that are Frightened of you."
+			]
+		},
+		{
+			"name": "Baleful Presence",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"You are a walking avatar of fear. When you force a creature within 30 feet of you to make a saving throw to resist being {@condition Frightened}, it has disadvantage on its roll.",
+				"Moreover, creatures within 30 feet that are Frightened of you have their speed reduced to 0 while they can see you.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dreadlord|Warlord|LLOC|Dread|LLOC|18|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Ferocious Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain Exploits at the Warlord levels noted in the table below. They do not count against your total number of Exploits Known and can't be switched upon gaining a level:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Warlord Level",
+						"Exploit"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature feint|LLEX}, {@optfeature maneuvering order|LLEX}"
+						],
+						[
+							"5th",
+							"{@optfeature crescendo of violence|LLEX}, {@optfeature wild charge|LLEX}"
+						],
+						[
+							"9th",
+							"{@optfeature pack tactics|LLEX}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "feint|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "maneuvering order|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Packleader",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You lead your pack in the hunt. As a bonus action, you can mark a creature you can see within 30 feet as your Prey. It remains your Prey for 1 minute, but the effect ends early if your Prey is reduced to 0 hit points, you are {@condition Incapacitated}, or you mark another creature as your Prey.",
+				"Any creature you target with Inspiring Word or a Tactical Exploit adds your Exploit Die to the first attack roll it makes against your Prey before the start of your next turn.",
+				"You can mark a creature as your Prey a number of times equal to your Leadership modifier (minimum of once). You regain one expended use when you finish a short rest, and all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Predatory Instinct",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You hunt as a wild predator. You gain proficiency with martial weapons and in either {@skill Perception} or {@skill Survival}.",
+				"In addition, whenever you make a Perception or Survival check based on your sense of smell or hearing, you can treat a roll of 7 or lower on the d20 as an 8."
+			]
+		},
+		{
+			"name": "Academy of Ferocity",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Warlords who hail from this Academy rarely study in formal schools of war. In place of military theory, their strategies are based on the instincts of predatory hunters. Famous for their ruthless treatment of foes, these leaders would lay down their lives for any member of their pack without hesitation.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ferocious Exploits|Warlord|LLOC|Ferocity|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Packleader|Warlord|LLOC|Ferocity|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Predatory Instinct|Warlord|LLOC|Ferocity|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "crescendo of violence|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "wild charge|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Silent Stalker",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"You direct your pack to hunt silently. You and creatures of your choice within 30 feet of you have advantage on {@skill Stealth} checks and can travel stealthily moving at a normal pace.",
+				"Also, while you have a creature marked as your Prey, you can issue a {@optfeature maneuvering order|LLEX} as a bonus action."
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLOC",
+			"level": 9,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "pack tactics|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Thrill of the Hunt",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"A successful hunt stokes your blood lust. When your Prey is killed, you can use your reaction to mark another creature in range, then you gain one of the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain temporary hit points equal to your Warlord level.",
+						"You regain one expended use of Inspiring Word.",
+						"You regain one expended Exploit Die."
+					]
+				}
+			]
+		},
+		{
+			"name": "Apex Predator",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"Your primal ferocity invigorates your packmates. Your speed increases by 10 feet, and your weapon attacks against your Prey deal bonus damage equal to your Exploit Die.",
+				"Moreover, any creature you target with an Inspiring Word, Rallying Cry, or one of your Tactical Exploits also gains the benefits above until the beginning of your next turn."
+			]
+		},
+		{
+			"name": "Gallant Spellcasting",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Your talent in poetry and music allows you to produce spells, much like the Bard does. You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Gallant Spellcasting table shows how many spell slots you have to cast your spells of 1st-level and higher. To cast a spell, you must expend a slot of that spell's level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the {@spell thunderwave} spell and have both a 1st and a 2nd-level spell slot, you can cast thunderwave using either spell slot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known of 1st-Level and Higher",
+					"entries": [
+						"You know three 1st-level spells of your choice from the {@filter Gallantry spell list|spells|subclass=Warlord: Gallantry (LLAW)} on the following page. The Spells Known column of the Gallant Spellcasting table shows when you learn more spells from this list of 1st-level and up. Any spells you learn must be of a level for which you have spell slots as shown on the table.",
+						"When you gain a level, you can replace one of your Spells Known with another spell from the Galantry spell list. The spell must also be of a level for which you have spell slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use any musical instrument you are proficient with as a spellcasting focus for your spells. Gallantry Warlords are known for one-handed instruments, like war horns, while holding a weapon in their other hand."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Use your Leadership modifier when setting the saving throw DC or making a spell attack roll for any Gallantry spells you know through this feature:",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"your Leadership modifier"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"your Leadership modifier"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Warrior Poet",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You combine martial skill and musical talent to inspire your allies. You gain proficiency with two musical instruments of your choice, and in {@skill Performance}.",
+				"Moreover, whenever you make a Performance check that includes both a weapon and a musical instrument, you gain a bonus to your roll equal to your Warlord level."
+			]
+		},
+		{
+			"name": "Gallant Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain Exploits at the Warlord levels noted in the table below. They do not count against your total number of Exploits Known and can't be switched upon gaining a level:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Warlord Level",
+						"Exploit"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature attack order|LLEX}, {@optfeature steadfast order|LLEX}"
+						],
+						[
+							"5th",
+							"{@optfeature enlivening order|LLEX}, {@optfeature heroic will|LLEX}"
+						],
+						[
+							"9th",
+							"{@optfeature stand the fallen|LLEX}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "attack order|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "steadfast order|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Academy of Gallantry",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Sometimes called Skalds, Warlords of Gallantry combine the arts of music, strategy, and magic to inspire allies and vex their foes. Learning a unique style of bardic magic that augments their leadership skills, Gallantry Warlords can turn even an unskilled rabble into a deadly fighting force.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gallant Spellcasting|Warlord|LLOC|Gallantry|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Warrior Poet|Warlord|LLOC|Gallantry|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gallant Exploits|Warlord|LLOC|Gallantry|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "enlivening order|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "heroic will|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Songs of War & Peace",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"You conduct battle like a great symphony. When you expend a spell slot or Exploit Die as part of your action, you can make a single weapon attack as a bonus action on that turn.",
+				"In addition, any creature that spends a short rest with you has advantage on Hit Die rolls to regain its hit points."
+			]
+		},
+		{
+			"name": "Heroic Charge",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"When you roll initiative, you can expend a use of Inspiring Word to rally a heroic charge. You, and any creatures of your choice within 15 feet that can hear you gain the benefits of the {@action Dash} action during your first turn in combat. You cannot use this feature if you are {@status surprised} or {@condition Incapacitated}.",
+				"At 11th level, the range of this feature increases to 30 feet.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Songs of War & Peace|Warlord|LLOC|Gallantry|LLOC|6|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLOC",
+			"level": 9,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "stand the fallen|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Warsong",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"The Skalds of legend were said to be able to turn the tide of the most desperate battles. Whenever you target a creature with Inspiring Word or a Tactical Exploit, it has advantage on the first ability check, attack roll, or saving throw it makes before the beginning of your next turn.",
+				"It also can't be {@condition Charmed} or {@condition Frightened} for that duration."
+			]
+		},
+		{
+			"name": "Mythic Voice",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"Your voice itself has been infused with the powerful magic you channel. Whenever you cast a 1st-level Gallantry spell, you can choose to expend a use of Inspiring Word instead of a spell slot. You must use a musical instrument as the spellcasting focus for the spell."
+			]
+		},
+		{
+			"name": "Coordinated Assault",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Liberty",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"While individually you may not be a threat, together you and your comrades can triumph over any enemy. You can issue a {@optfeature support order|LLEX} as a bonus action on each of your turns."
+			]
+		},
+		{
+			"name": "Liberty Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Liberty",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain Exploits at the Warlord levels noted in the table below. They do not count against your total number of Exploits Known and can't be switched upon gaining a level:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Warlord Level",
+						"Exploit"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature first aid|LLEX}, {@optfeature support order|LLEX}"
+						],
+						[
+							"5th",
+							"{@optfeature rejuvenating order|LLEX}, {@optfeature surprise attack|LLEX}"
+						],
+						[
+							"9th",
+							"{@optfeature inspirational speech|LLEX}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "first aid|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "support order|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Salt of the Earth",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Liberty",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You hail from the ranks of the common folk, and a life of hard work has made you tough. Your hit point maximum increases by 3, and increases by 1 again whenever you gain a level.",
+				"Also, whenever you make an ability check to interact with common people, such as farmers, laborers, or foot soldiers, you gain a bonus to your roll equal to your Exploit Die."
+			]
+		},
+		{
+			"name": "Academy of Liberty",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Liberty",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Often forced into positions of leadership, Warlords of Liberty come from the ranks of the common folk. When a dark tyrant begins to oppress the weak, when a monarch raises taxes, or when a village is conquered by invaders, leaders will arise to lead their peoples' resistance against injustice.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Coordinated Assault|Warlord|LLOC|Liberty|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Liberty Exploits|Warlord|LLOC|Liberty|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Salt of the Earth|Warlord|LLOC|Liberty|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Liberty",
+			"subclassSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "rejuvenating order|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "surprise attack|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Band Together",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Liberty",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"Separated you are weak, but together you are strong! When a creature within 15 feet of you takes damage, you can use your reaction to rally allies to their side. You divide the damage the creature would take evenly among willing creatures within 15 feet of it. All creatures must be able to hear you to participate."
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Liberty",
+			"subclassSource": "LLOC",
+			"level": 9,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "inspirational speech|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Strength in Numbers",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Liberty",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"The more comrades you rally to your cause, the greater your leadership potential. When you roll for initiative, you regain a number of your expended Exploit Dice equal to the number of allied creatures within 15 feet of you.",
+				"You also learn the {@optfeature equip militia|LLEX} Exploit. It does not count against your Exploits Known, and it cannot be replaced. You can use equip milita during a short or long rest, and once per long rest, you can use it without expending an Exploit Die.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "equip militia|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Grand Revolutionary",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Liberty",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"You are destined to upset the status quo wherever you take up the mantle of leadership. The range of Band Together and Strength in Numbers includes creatures within 30 feet.",
+				"Finally, whenever you use Inspiring Word or Rallying Cry, you can target up to three creatures within range, instead of one. For Rallying Cry, all creatures must have failed the same saving throw to be targeted by the same Rallying Cry."
+			]
+		},
+		{
+			"name": "Navigator Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain Exploits at the Warlord levels noted in the table below. They do not count against your total number of Exploits Known and can't be switched upon gaining a level:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Warlord Level",
+						"Exploit"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature maneuvering order|LLEX}, {@optfeature roguish charm|LLEX}"
+						],
+						[
+							"5th",
+							"{@optfeature intimidating command|LLEX}, {@optfeature resilient order|LLEX}"
+						],
+						[
+							"9th",
+							"{@optfeature recruit mercenary|LLEX}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "maneuvering order|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "roguish charm|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Parley",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Without established authority to turn to on the sea you have become a shrewd negotiator. As an action, you can expend a use of Inspiring Word and speak to a creature within 15 feet that can see, hear, and understand you, improving its attitude toward you by one. For example, a Hostile creature becomes Indifferent, and an Indifferent creature becomes Friendly.",
+				"Once you use this feature on a creature it is immune to its effects for 24 hours. You cannot use this feature on a creature that you or your allies have attacked within the last 24 hours."
+			]
+		},
+		{
+			"name": "Seafarer",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Your experience on the high seas has made you an excellent sailor. You gain proficiency with {@item Navigator's Tools|PHB}, Water Vehicles, and in {@skill Perception}. You use your Leadership Ability for all ability checks with these skills.",
+				"You also gain the {@optfeature Mariner|LLFS} Fighting Style, and it can't be replaced. If you already know this Fighting Style you learn a different Warlord Fighting Style."
+			]
+		},
+		{
+			"name": "Academy of Navigators",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You have trained to lead others on the high seas, far from the rules of established society. You use your skills to keep order, motivate your crew to persevere through hardship, and drive them to new discovery. However, your skills are not limited to the deck of a ship and will serve you well on any battlefield.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Navigator Exploits|Warlord|LLOC|Navigator|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Parley|Warlord|LLOC|Navigator|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Seafarer|Warlord|LLOC|Navigator|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "intimidating command|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "resilient order|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Rally the Crew",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"Your presence brings the best out of your Crew. Whenever a member of your Crew is forced to make a saving throw while within 15 feet of you, they add their Proficiency Bonus to the saving throw if they aren't already proficient.",
+				"Moreover, you can use a bonus action on each of your turns to issue an Order, such as {@optfeature maneuvering order|LLEX}, to a member of your Crew that is within 15 feet of you."
+			]
+		},
+		{
+			"name": "Navigator's Crew",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"You have proven your mettle on both land and sea, convincing others to formally join your Crew. During the course of a long rest, you can form a pact with a number of creatures equal to your Leadership modifier. Creatures must be willing and able to understand you to enter this pact.",
+				"These creatures become your Crew until you form a new pact, which instantly ends any previous pacts. While aboard the same seafaring vessel, your Crew adds your Leadership modifier to all ability checks related to your vessel.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rally the Crew|Warlord|LLOC|Navigator|LLOC|6|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLOC",
+			"level": 9,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "recruit mercenary|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "First Mate",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"You inspire loyalty in the most dastardly scallywags. When you use {@optfeature recruit mercenary|LLEX}, you can designate them as your First Mate. When you do, you can regain your Exploit Die as normal, the Mercenary gains the benefits of Seafarer and is part of your Crew without counting against your total Crew. You can only have one First Mate at a time.",
+				"In place of designating a Mercenary, you can designate a different member of your Crew as First Mate. They gain the benefits of Seafarer and don't count against your total Crew."
+			]
+		},
+		{
+			"name": "Illustrious Admiral",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"Your skills rival the great sailors and explorers of legend. The range of Rally the Crew increases to 30 feet.",
+				"Finally, once you speak with a creature that can hear and understand you, you can place it under the effects of Parley without expending a use of Inspiring Word to do so."
+			]
+		},
+		{
+			"name": "Keeper of Order",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You employ your tactical training to uphold law and order in civilized society. You gain proficiency in either {@skill Insight} or {@skill Investigation}, and whenever you make an ability check with either of these skills, you can choose to use your Leadership Ability for the check.",
+				"In addition, when you reduce a creature to 0 hit points with a non-lethal melee attack, you can use a bonus action on that turn to restrain them with a {@item net|PHB}, rope, {@item manacles|PHB}, or another similar object. The DC to escape this restraint is equal to your Exploit save DC unless its innate escape DC was already higher."
+			]
+		},
+		{
+			"name": "Law's Shield",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"It is your duty to uphold the law and defend the weak. When a creature you can see within 15 feet is hit by an attack, you can use your reaction to issue it a {@optfeature defensive order|LLEX}, imposing disadvantage on the triggering attack, possibly turning a hit into a miss.",
+				"You can use this reaction a number of times equal to your Leadership modifier (minimum of once), and you regain all expended uses when you finish a long rest. When you have no uses, you can expend an Inspiring Word to use it again."
+			]
+		},
+		{
+			"name": "Order Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain Exploits at the Warlord levels noted in the table below. They do not count against your total number of Exploits Known and can't be switched upon gaining a level:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Warlord Level",
+						"Exploit"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature defensive order|LLEX}, {@optfeature disarm|LLEX}"
+						],
+						[
+							"5th",
+							"{@optfeature hold the line|LLEX}, {@optfeature soothing speech|LLEX}"
+						],
+						[
+							"9th",
+							"{@optfeature survey settlement|LLEX}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "defensive order|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "disarm|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Academy of Order",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Civilization thrives within the bounds of lawful society, and you are a defender of that principle. You employ your talent for leadership in the upholding of law and the enforcement of order. You are a thorn in the side of villians, and a shield for all those who live within the bounds of just laws.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Keeper of Order|Warlord|LLOC|Order|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Law's Shield|Warlord|LLOC|Order|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Order Exploits|Warlord|LLOC|Order|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "hold the line|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "soothing speech|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stalwart Defender",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"You are the shield that holds back the forces of lawlessness and chaos. Once per short or long rest, you can use {@optfeature hold the line|LLEX} without expending an Exploit Die.",
+				"When using hold the line, its range is 15 feet, and you can issue a {@optfeature defensive order|LLEX} as a bonus action on each turn."
+			]
+		},
+		{
+			"name": "Halt",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"Your words carry lawful authority. When a creature you can see within 30 feet moves, you can use your reaction to spend a use of Inspiring Word and force it to make a Wisdom saving throw. The target must be able to hear and understand you.",
+				"On a failed save, its speed is reduced to 0 until the start of its next turn. Once a creature succeeds on this saving throw, it is immune to this feature for the next 24 hours.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Stalwart Defender|Warlord|LLOC|Order|LLOC|6|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLOC",
+			"level": 9,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "survey settlement|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Unerring Eye",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"Your keen sight pierces all deceptions. You can automatically detect the presence of Illusion magic and Shapeshifters, but you are not able to see the true forms that they disguise."
+			]
+		},
+		{
+			"name": "Bastion of Order",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"You are an unwavering shield for those who live within the bounds of the law. While you are using {@optfeature hold the line|LLEX}, you can use your Law's Shield and Halt reactions without expending uses of either feature or Inspiring Word.",
+				"Moreover, you can move up to 10 feet on your turn without ending the effects of hold the line.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unerring Eye|Warlord|LLOC|Order|LLOC|14|LLOC"
+				}
+			]
+		},
+		{
+			"name": "High Authority",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"You are the highest authority of the law, only superseded by monarchs and divine agents. You always exude the effects of {@optfeature hold the line|LLEX} to creatures of your choice within 15 feet of you, but you can move and act as normal.",
+				"Finally, when a creature fails its saving throw against Halt, it is also {@condition Restrained} until the start of its next turn."
+			]
+		},
+		{
+			"name": "Cheap Shot",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You aren't above dishonorable tricks to secure victory. Once per turn when you hit a creature with a weapon attack, you can force it to make a Dexterity saving throw, along with the damage.",
+				"On a failure, it cannot take reactions and its speed is halved until the start of your next turn. On its next turn, it can only take one action or bonus action, not both."
+			]
+		},
+		{
+			"name": "Dastardly Talents",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You will use any method necessary to achieve your aims. You gain proficiency in {@skill Deception}, with {@item Disguise Kit|PHB|Disguise Kits}, and {@item Poisoner's Kit|PHB|Poisoner's Kits}. You can also use your Leadership ability, in place of Charisma, when making Deception checks."
+			]
+		},
+		{
+			"name": "Scheming Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain Exploits at the Warlord levels in the table below. They do not count against your number of Exploits Known and they cannot be switched upon gaining a level:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Warlord Level",
+						"Exploit"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature feint|LLEX}, {@optfeature maneuvering order|LLEX}"
+						],
+						[
+							"5th",
+							"{@optfeature exposing strike|LLEX}, {@optfeature insightful order|LLEX}"
+						],
+						[
+							"9th",
+							"{@optfeature perilous gambit|LLEX}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "feint|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "maneuvering order|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Academy of Schemes",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Warlords of the Academy of Schemes will secure their victory at any cost. The ultimate utilitarians, they care not how they achieve their goals. They will cheat, deceive, and sacrifice whatever is necessary to succeed. These Warlords always have an escape plan if things do not go as planned.",
+				{
+					"type": "inset",
+					"name": "Scheming Adventurers",
+					"entries": [
+						"When playing a character with questionable morals and motivations, like a Warlord of the Academy of Schemes, it is important to remember that D&D is a team game where cooperation is expected.",
+						"Masters of schemes leverage any advantages at their disposal, including the abilities of their allies. Make sure to include the other players in any plans your Schemes Warlord may have. Remember that a Warlord is nothing without allies to command!"
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cheap Shot|Warlord|LLOC|Schemes|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dastardly Talents|Warlord|LLOC|Schemes|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Scheming Exploits|Warlord|LLOC|Schemes|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "exposing strike|LLExploits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "insightful order|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ruthless Focus",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"You direct your allies to prey upon the weak. When a creature fails its saving throw against your Cheap Shot, you can instantly issue an {@optfeature insightful order|LLEX}, but the creature only gains the benefits of your insightful order if it attacks the target of your Cheap Shot.",
+				"Also, if you use a Tactical Exploit as part of your action, you can take the {@action Disengage} or {@action Hide} action as a bonus action."
+			]
+		},
+		{
+			"name": "Archetype Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLOC",
+			"level": 9,
+			"entries": [
+				"You learn additional exploits for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "perilous gambit|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Devious Tactics",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"You have no qualms about leaving others in danger. When a creature you can see targets you with an attack or forces you to make a saving throw, you can use your reaction to force a creature within 5 feet of you (other than the attacker) to make a Dexterity saving throw.",
+				"On a failure, you switch places, and it becomes the target of that attack or saving throw. The creature can choose to fail."
+			]
+		},
+		{
+			"name": "Marked for Death",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"You relentlessly pursue the destruction of your foes. When a creature fails its saving throw against Cheap Shot, you can choose to mark the creature for death. The first attack to hit that creature before the beginning of your next turn becomes an automatic critical hit.",
+				"Once you mark a creature for death you must complete a short or long rest before you can use this feature again."
+			]
+		},
+		{
+			"name": "Inscrutable Mind",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"Your devious mind is impossible to penetrate. Your thoughts and dreams cannot be read by magic unless you allow it. If a creature attempts to read your mind you can deceive it with false thoughts by making a {@skill Deception} check.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Marked for Death|Warlord|LLOC|Schemes|LLOC|18|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Academy of Tactics",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Tactics",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Warlords of this Academy most often come from the ranks of formal organizations that serve the elite. Tacticians are highly educated commanders and are known for their dedication to those who follow them. Their understanding of how to best utilize each of their allies' strengths and avoid weaknesses makes them especially deadly opponents on the battlefield."
+			]
+		},
+		{
+			"name": "Strategic Adjustments",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Tactics",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You are constantly adapting to meet any challenge. During a long rest, you can spend 1 hour reviewing strategies and tactics and replace a Tactical Exploit you know with another of the same Degree.",
+				"When you reach 6th level in this class, you can use this feature during a short rest."
+			]
+		},
+		{
+			"name": "The Art of War",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Tactics",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You have studied the great histories of warfare and combat. You gain proficiency in {@skill History} and two Gaming Sets of your choice, and you add double your Proficiency Bonus to any ability check that uses these proficiencies."
+			]
+		},
+		{
+			"name": "Advanced Tactics",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Tactics",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Your ability to learn and execute strategies in combat exceeds most other commanders and even formally trained Warlords. You gain the following benefits to your Warlord features:",
+				{
+					"type": "entries",
+					"name": "Exploits",
+					"entries": [
+						"You learn two additional 1st-degree {@filter Tactical Exploits|optionalfeatures|feature type=LL:TE} of your choice. These Exploits do not count against your number of Exploits Known, but they can be replaced.",
+						"You learn additional Tactical Exploits following the same rules at certain levels: at 5th level you learn two 2nd-degree Exploits, and at 9th level you learn one 3rd-degree Exploit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Exploit Dice",
+					"entries": [
+						"Your total number of Exploit Dice increases by 1, and all of your Exploit Dice increase to become {@dice d6}s.",
+						"At certain Warlord levels your Exploit Dice increase again; at 5th level ({@dice d8}), at 11th level ({@dice d10}), and at 17th level ({@dice d12})."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Academy of Tactics|Warlord|LLOC|Tactics|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Strategic Adjustments|Warlord|LLOC|Tactics|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Art of War|Warlord|LLOC|Tactics|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Know Your Enemy",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Tactics",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"You have a gift for identifying weak points. When you take the {@action Search} action, you can focus on a creature you can see within 30 feet (DC = 8 + its Challenge Rating). If you have seen it get hit by an attack, add your Warlord level to this roll.",
+				"On a success, you learn one characteristic of your choice from the list below. On a failure, you can't use this feature on this creature again until you see it get hit by another attack:",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"Armor Class",
+							"Highest Ability Score"
+						],
+						[
+							"All Special Senses",
+							"Lowest Ability Score"
+						],
+						[
+							"Resistances, Immunities, & Vulnerabilities",
+							"One Trait or Action from its stat block"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Brains over Brawn",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Tactics",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"You wield your comrades as other warriors wield weapons. If you only use Tactical Exploits with your entire action, you can use your bonus action to take the {@action Disengage} or {@action Search} action, or to use one Order Exploit, such as {@optfeature attack order|LLEX}.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Know Your Enemy|Warlord|LLOC|Tactics|LLOC|6|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Gifted Strategist",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Tactics",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"You are always one step ahead of your foes. You cannot be {@status surprised} while conscious, and when you roll initiative, you can use one Tactical Exploit or take the {@action Ready} action."
+			]
+		},
+		{
+			"name": "Master Tactician",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Tactics",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"You have a plan in place for every eventuality. You learn the {@optfeature contingency plan|LLEX} Exploit, but it doesn't count against your total number of Exploits Known. At the end of a long rest, you can use contingency plan without expending an Exploit Die to put the plan in place. You can only have a single contingency plan in place at any one time.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "contingency plan|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Anointed Magic",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"When you join this Academy of War, you learn to call on divine power in the form of spells, using the rules below:",
+				{
+					"type": "entries",
+					"name": "Cantrip",
+					"entries": [
+						"You learn two Cantrips of your choice from the {@filter Zeal spell list|spells|subclass=warlord: zeal (llaware)} at the end of this Academy of War description, and you learn an additional Zeal Cantrip at 10th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Zeal Spellcasting table shows how many spell slots you have, and the level of those spell slots. All of your spell slots from this feature are the same level. To cast one of the Zeal spells you know of 1st-level and higher, you must expend one of these spell slots. You regain all of your spell slots each time you finish a short or long rest.",
+						"For example, at 7th level, you have two 2nd-level spell slots. To cast the 1st-level spell {@spell command}, you must spend one of those slots, and command is cast at 2nd-level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known of 1st-Level and Higher",
+					"entries": [
+						"You learn two 1st-level spells of your choice from the Zeal spell list. The Spells Known column of the Zeal Spellcasting table here shows when you learn additional Zeal spells of 1st-level or higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level.",
+						"When you gain a level, you can choose one Zeal spell you know and replace it with another spell from the Zeal spell list, which must be of a level for which you have spell slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You must use a {@item Holy Symbol|PHB} as the Spellcasting Focus for your Zeal spells. If you emblazon your Holy Symbol upon a {@item shield|PHB}, you can use it as a Spellcasting Focus for your Zeal spells while you are wielding it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Use your Leadership modifier when setting the saving throw DC or making a spell attack roll for any Zeal spells you know through this feature:",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"your Leadership modifier"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"your Leadership modifier"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Divine Mandate",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You have been divinely appointed to lead others in war. You know the {@optfeature attack order|LLEX} Exploit. It does not count against your total number of Exploits Known, and it cannot be replaced.",
+				"You also gain proficiency in {@skill Religion}. Whenever you make a Religion check, add your Leadership modifier to your roll.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "attack order|LLExploits"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Academy of Zeal",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You have been chosen to lead the armies of your deity in battle against their unholy foes. You lead by a mix of strategy and faith, inspiring comrades with both word and spell. Invoking your divine right to lead, you must stand as a paragon of your faith.",
+				{
+					"type": "inset",
+					"name": "Optional Rule: Divine Domain",
+					"entries": [
+						"Talk to your DM about choosing a Divine Domain from those available to the Cleric for your Warlord. Whenever you learn a Zeal spell, you can choose to learn spells from that list of Domain Spells."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Anointed Magic|Warlord|LLOC|Zeal|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Divine Mandate|Warlord|LLOC|Zeal|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Anointed Disciple",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"As an action, you grasp a Holy Symbol and Channel Divinity to fill yourself with divine presence. For 10 minutes, you add your Exploit Die to all ability checks you make that use your Leadership Ability."
+			]
+		},
+		{
+			"name": "Mantle of Command",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"As an action, hold aloft your Holy Symbol and fill yourself with divine leadership for 1 minute. For the duration, you can use a bonus action on each turn to make a weapon attack or issue one Order, like {@optfeature attack order|LLEX}."
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"As an action, you can hold aloft your Holy Symbol to Channel the power of your deity to produce effects beyond the bounds of spells. When you Channel Divinity, you produce one of two effects: Anointed Disciple or Mantle of Command.",
+				"You can Channel Divinity twice. You regain one use when you finish a short rest, and all uses when you complete a long rest. When you have no uses left, you can expend an Anointed Magic spell slot to Channel Divinity again.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Anointed Disciple|Warlord|LLOC|Zeal|LLOC|6|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mantle of Command|Warlord|LLOC|Zeal|LLOC|6|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Words of Zeal",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"Your voice has been infused with divine authority. When you use Inspiring Word, the target regains the maximum number of hit points, in place of rolling its Hit Die.",
+				"Moreover, when you target a creature with an {@optfeature attack order|LLEX}, it can choose for its weapon attacks on that following turn to deal radiant damage in place of its normal damage type."
+			]
+		},
+		{
+			"name": "Favored Servant",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"You have proven your dedication to the divine cause of your deity and been rewarded. When you take the {@action Attack} action on your turn, you can cast a Zeal spell with a casting time of one action in place of one of your attacks.",
+				"Finally, whenever you expend an Anointed Magic spell slot, you regain one of the following: hit points equal to your level, one Exploit Die, or one use of Inspiring Word."
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Academy of Chivalry",
+			"shortName": "Chivalry",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"page": 8,
+			"subclassFeatures": [
+				"Academy of Chivalry|Warlord|LLOC|Chivalry|LLOC|3|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Chivalry|LLOC|5|LLOC",
+				"Lead the Charge|Warlord|LLOC|Chivalry|LLOC|6|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Chivalry|LLOC|9|LLOC",
+				"Flames of Hope|Warlord|LLOC|Chivalry|LLOC|14|LLOC",
+				"Paragon of Chivalry|Warlord|LLOC|Chivalry|LLOC|18|LLOC"
+			]
+		},
+		{
+			"name": "Academy of Claws",
+			"shortName": "Claws",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"title": "Iron Command",
+					"configuration": {
+						"identifier": "iron-command",
+						"type": "distance",
+						"distance.units": "ft",
+						"scale": {
+							"6": {
+								"value": 15
+							},
+							"20": {
+								"value": 30
+							}
+						}
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Academy of Claws|Warlord|LLOC|Claws|LLOC|3|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Claws|LLOC|5|LLOC",
+				"Iron Command|Warlord|LLOC|Claws|LLOC|6|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Claws|LLOC|9|LLOC",
+				"Monstrous Menagerie|Warlord|LLOC|Claws|LLOC|14|LLOC",
+				"Total Domination|Warlord|LLOC|Claws|LLOC|18|LLOC"
+			]
+		},
+		{
+			"name": "Academy of Counsel",
+			"shortName": "Counsel",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassFeatures": [
+				"Academy of Counsel|Warlord|LLOC|Counsel|LLOC|3|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Counsel|LLOC|5|LLOC",
+				"Invigorating Orders|Warlord|LLOC|Counsel|LLOC|6|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Counsel|LLOC|9|LLOC",
+				"Exalted Protege|Warlord|LLOC|Counsel|LLOC|14|LLOC",
+				"Legendary Tandem|Warlord|LLOC|Counsel|LLOC|18|LLOC"
+			]
+		},
+		{
+			"name": "Academy of Dread",
+			"shortName": "Dread",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"page": 9,
+			"subclassFeatures": [
+				"Academy of Dread|Warlord|LLOC|Dread|LLOC|3|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Dread|LLOC|5|LLOC",
+				"Merciless|Warlord|LLOC|Dread|LLOC|6|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Dread|LLOC|9|LLOC",
+				"Ruthless Command|Warlord|LLOC|Dread|LLOC|14|LLOC",
+				"Baleful Presence|Warlord|LLOC|Dread|LLOC|18|LLOC"
+			]
+		},
+		{
+			"name": "Academy of Ferocity",
+			"shortName": "Ferocity",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"page": 10,
+			"subclassFeatures": [
+				"Academy of Ferocity|Warlord|LLOC|Ferocity|LLOC|3|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Ferocity|LLOC|5|LLOC",
+				"Silent Stalker|Warlord|LLOC|Ferocity|LLOC|6|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Ferocity|LLOC|9|LLOC",
+				"Thrill of the Hunt|Warlord|LLOC|Ferocity|LLOC|14|LLOC",
+				"Apex Predator|Warlord|LLOC|Ferocity|LLOC|18|LLOC"
+			]
+		},
+		{
+			"name": "Academy of Gallantry",
+			"shortName": "Gallantry",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"page": 11,
+			"casterProgression": "1/3",
+			"spellsKnownProgression": [
+				0,
+				0,
+				3,
+				4,
+				5,
+				5,
+				6,
+				6,
+				7,
+				7,
+				8,
+				8,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11,
+				12,
+				12
+			],
+			"subclassSpells": [
+				"bless",
+				"bane",
+				"cause fear|xge",
+				"charm person",
+				"command",
+				"compelled duel (alternate)|llspell",
+				"disguise self",
+				"dissonant whispers",
+				"faerie fire",
+				"heroism",
+				"tasha's hideous laughter",
+				"longstrider",
+				"sleep",
+				"thunderous smite (alternate)|llspell",
+				"thunderwave",
+				"aid",
+				"calm emotions",
+				"enhance ability",
+				"find steed (alternate)|llspell",
+				"magic mouth",
+				"magic weapon (alternate)|llspell",
+				"mirror image",
+				"pyrotechnics|xge",
+				"restoration|llspell",
+				"shatter",
+				"silence",
+				"suggestion",
+				"warding bond",
+				"beacon of hope",
+				"crusader's mantle",
+				"dire wail|llspell",
+				"dispel magic",
+				"fear",
+				"haste",
+				"hypnotic pattern (alternate)|llspell",
+				"irresistible dance (alternate)|llspell",
+				"nondetection",
+				"sending",
+				"slow",
+				"sonic wave|llspell",
+				"aura of life",
+				"aura of purity",
+				"charm monster|xge",
+				"compulsion",
+				"confusion",
+				"death ward (alternate)|llspell",
+				"freedom of movement"
+			],
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Gallantry",
+							"source": "LLAW"
+						}
+					],
+					"colLabels": [
+						"{@filter Spells Known|spells|subclass=Warlord: Gallantry (LLAW)}"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							12
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"subclasses": [
+						{
+							"name": "Gallantry",
+							"source": "LLAW"
+						}
+					],
+					"colLabels": [
+						"{@filter 1st|spells|level=1|subclass=Warlord: Gallantry (LLAW)}",
+						"{@filter 2nd|spells|level=2|subclass=Warlord: Gallantry (LLAW)}",
+						"{@filter 3rd|spells|level=3|subclass=Warlord: Gallantry (LLAW)}",
+						"{@filter 4th|spells|level=4|subclass=Warlord: Gallantry (LLAW)}"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						]
+					]
+				}
+			],
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"title": "Heroic Charge",
+					"configuration": {
+						"identifier": "heroic-charge",
+						"type": "distance",
+						"distance.units": "ft",
+						"scale": {
+							"6": {
+								"value": 15
+							},
+							"11": {
+								"value": 30
+							}
+						}
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Academy of Gallantry|Warlord|LLOC|Gallantry|LLOC|3|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Gallantry|LLOC|5|LLOC",
+				"Heroic Charge|Warlord|LLOC|Gallantry|LLOC|6|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Gallantry|LLOC|9|LLOC",
+				"Warsong|Warlord|LLOC|Gallantry|LLOC|14|LLOC",
+				"Mythic Voice|Warlord|LLOC|Gallantry|LLOC|18|LLOC"
+			]
+		},
+		{
+			"name": "Academy of Liberty",
+			"shortName": "Liberty",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassFeatures": [
+				"Academy of Liberty|Warlord|LLOC|Liberty|LLOC|3|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Liberty|LLOC|5|LLOC",
+				"Band Together|Warlord|LLOC|Liberty|LLOC|6|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Liberty|LLOC|9|LLOC",
+				"Strength in Numbers|Warlord|LLOC|Liberty|LLOC|14|LLOC",
+				"Grand Revolutionary|Warlord|LLOC|Liberty|LLOC|18|LLOC"
+			]
+		},
+		{
+			"name": "Academy of Navigators",
+			"shortName": "Navigator",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"optionalfeatureProgression": [
+				{
+					"name": "Seafarer",
+					"featureType": [
+						"FS:WD"
+					],
+					"progression": {
+						"3": 1
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Academy of Navigators|Warlord|LLOC|Navigator|LLOC|3|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Navigator|LLOC|5|LLOC",
+				"Navigator's Crew|Warlord|LLOC|Navigator|LLOC|6|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Navigator|LLOC|9|LLOC",
+				"First Mate|Warlord|LLOC|Navigator|LLOC|14|LLOC",
+				"Illustrious Admiral|Warlord|LLOC|Navigator|LLOC|18|LLOC"
+			]
+		},
+		{
+			"name": "Academy of Order",
+			"shortName": "Order",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassFeatures": [
+				"Academy of Order|Warlord|LLOC|Order|LLOC|3|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Order|LLOC|5|LLOC",
+				"Halt|Warlord|LLOC|Order|LLOC|6|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Order|LLOC|9|LLOC",
+				"Bastion of Order|Warlord|LLOC|Order|LLOC|14|LLOC",
+				"High Authority|Warlord|LLOC|Order|LLOC|18|LLOC"
+			]
+		},
+		{
+			"name": "Academy of Schemes",
+			"shortName": "Schemes",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"page": 13,
+			"subclassFeatures": [
+				"Academy of Schemes|Warlord|LLOC|Schemes|LLOC|3|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Schemes|LLOC|5|LLOC",
+				"Ruthless Focus|Warlord|LLOC|Schemes|LLOC|6|LLOC",
+				"Archetype Exploits|Warlord|LLOC|Schemes|LLOC|9|LLOC",
+				"Devious Tactics|Warlord|LLOC|Schemes|LLOC|14|LLOC",
+				"Inscrutable Mind|Warlord|LLOC|Schemes|LLOC|18|LLOC"
+			]
+		},
+		{
+			"name": "Academy of Tactics",
+			"shortName": "Tactics",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"page": 14,
+			"optionalfeatureProgression": [
+				{
+					"name": "Advanced Tactics",
+					"featureType": [
+						"LL:1TE"
+					],
+					"progression": {
+						"3": 2
+					}
+				},
+				{
+					"name": "Advanced Tactics",
+					"featureType": [
+						"LL:2TE"
+					],
+					"progression": {
+						"5": 2
+					}
+				},
+				{
+					"name": "Advanced Tactics",
+					"featureType": [
+						"LL:3TE"
+					],
+					"progression": {
+						"9": 1
+					}
+				}
+			],
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "exploit",
+						"type": "dice",
+						"scale": {
+							"3": {
+								"n": 3,
+								"die": 6
+							},
+							"5": {
+								"n": 4,
+								"die": 8
+							},
+							"11": {
+								"n": 5,
+								"die": 10
+							},
+							"17": {
+								"n": 6,
+								"die": 12
+							}
+						}
+					},
+					"title": "Exploit Dice"
+				}
+			],
+			"subclassFeatures": [
+				"Advanced Tactics|Warlord|LLOC|Tactics|LLOC|3|LLOC",
+				"Brains over Brawn|Warlord|LLOC|Tactics|LLOC|6|LLOC",
+				"Gifted Strategist|Warlord|LLOC|Tactics|LLOC|14|LLOC",
+				"Master Tactician|Warlord|LLOC|Tactics|LLOC|18|LLOC"
+			]
+		},
+		{
+			"name": "Academy of Zeal",
+			"shortName": "Zeal",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"cantripProgression": [
+				0,
+				0,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
+			],
+			"spellsKnownProgression": [
+				0,
+				0,
+				2,
+				2,
+				3,
+				3,
+				4,
+				4,
+				5,
+				5,
+				6,
+				6,
+				7,
+				7,
+				8,
+				8,
+				9,
+				9,
+				10,
+				10
+			],
+			"subclassSpells": [
+				"blade ward (alternate)|llspell",
+				"booming blade (alternate)|llspell",
+				"green-flame blade (alternate)|llspell",
+				"light",
+				"message",
+				"resistance (alternate)|llspell",
+				"sacred flame",
+				"spare the dying",
+				"sword burst (alternate)|llspell",
+				"thaumaturgy",
+				"toll the dead",
+				"true strike (alternate)|llspell",
+				"bless",
+				"command",
+				"compelled duel (alternate)|llspell",
+				"cure wounds",
+				"divine favor (alternate)|llspell",
+				"ethereal anchor|llspell",
+				"guiding bolt",
+				"heroism",
+				"inflict wounds",
+				"jump (alternate)|llspell",
+				"Protection from Evil and Good",
+				"sanctuary",
+				"searing smite (alternate)|llspell",
+				"shield of faith",
+				"thunderous smite (alternate)|llspell",
+				"wrathful smite (alternate)|llspell",
+				"aid",
+				"blindness/deafness",
+				"branding smite (alternate)|llspell",
+				"darkness",
+				"find steed (alternate)|llspell",
+				"magic weapon (alternate)|llspell",
+				"restoration|llspell",
+				"spiritual weapon",
+				"warding bond",
+				"zone of truth",
+				"aura of vitality",
+				"beacon of hope",
+				"blinding smite (alternate)|llspell",
+				"conjure volley (alternate)|llspell",
+				"crusader's mantle",
+				"flame arrows (alternate)|llspell",
+				"protection from energy",
+				"remove curse",
+				"revivify",
+				"spirit guardians",
+				"aura of life",
+				"aura of purity",
+				"banishment",
+				"death ward (alternate)|llspell",
+				"guardian of faith",
+				"staggering smite (alternate)|llspell"
+			],
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Zeal",
+							"source": "LLAW:E"
+						}
+					],
+					"colLabels": [
+						"Spells Known",
+						"Spell Slots",
+						"Slot Level"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							1,
+							"{@filter 1st|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							2,
+							2,
+							"{@filter 1st|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							3,
+							2,
+							"{@filter 1st|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							3,
+							2,
+							"{@filter 1st|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							4,
+							2,
+							"{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							4,
+							2,
+							"{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							5,
+							2,
+							"{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							5,
+							2,
+							"{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							6,
+							2,
+							"{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							6,
+							2,
+							"{@filter 2nd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							7,
+							2,
+							"{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							7,
+							2,
+							"{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							8,
+							2,
+							"{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							8,
+							2,
+							"{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							9,
+							2,
+							"{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							9,
+							2,
+							"{@filter 3rd|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							10,
+							2,
+							"{@filter 4th|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						],
+						[
+							10,
+							2,
+							"{@filter 4th|spells|level=1|subclass=Warlord: Zeal (LLAW:E)}"
+						]
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							{
+								"choose": "level=1|subclass=warlord: zeal (llaware)",
+								"count": 2
+							}
+						],
+						"5": [
+							{
+								"choose": "level=1|subclass=warlord: zeal (llaware)"
+							}
+						],
+						"7": [
+							{
+								"choose": "level=1;2|subclass=warlord: zeal (llaware)"
+							}
+						],
+						"9": [
+							{
+								"choose": "level=1;2|subclass=warlord: zeal (llaware)"
+							}
+						],
+						"13": [
+							{
+								"choose": "level=1;2;3|subclass=warlord: zeal (llaware)"
+							}
+						],
+						"17": [
+							{
+								"choose": "level=1;2;3|subclass=warlord: zeal (llaware)"
+							}
+						]
+					}
+				}
+			],
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"title": "1st Level Spell Slots",
+					"configuration": {
+						"identifier": "1",
+						"type": "number",
+						"scale": {
+							"3": {
+								"value": 1
+							},
+							"4": {
+								"value": 2
+							},
+							"7": {
+								"value": 0
+							}
+						}
+					}
+				},
+				{
+					"type": "ScaleValue",
+					"title": "2nd Level Spell Slots",
+					"configuration": {
+						"identifier": "2",
+						"type": "number",
+						"scale": {
+							"7": {
+								"value": 2
+							},
+							"13": {
+								"value": 0
+							}
+						}
+					}
+				},
+				{
+					"type": "ScaleValue",
+					"title": "3rd Level Spell Slots",
+					"configuration": {
+						"identifier": "3",
+						"type": "number",
+						"scale": {
+							"13": {
+								"value": 2
+							},
+							"19": {
+								"value": 0
+							}
+						}
+					}
+				},
+				{
+					"type": "ScaleValue",
+					"title": "4th Level Spell Slots",
+					"configuration": {
+						"identifier": "4",
+						"type": "number",
+						"scale": {
+							"19": {
+								"value": 2
+							}
+						}
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Academy of Zeal|Warlord|LLOC|Zeal|LLOC|3|LLOC",
+				"Channel Divinity|Warlord|LLOC|Zeal|LLOC|6|LLOC",
+				"Words of Zeal|Warlord|LLOC|Zeal|LLOC|14|LLOC",
+				"Favored Servant|Warlord|LLOC|Zeal|LLOC|18|LLOC"
+			]
+		}
+	]
+}

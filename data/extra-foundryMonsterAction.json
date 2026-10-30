@@ -1,0 +1,58 @@
+{
+	"foundryMonsterAction": [
+		{
+			"name": "Bite",
+			"source": "LLAC",
+			"monsterName": "Loyal Hound",
+			"monsterSource": "LLAF:E",
+			"activities": [
+				{
+					"name": "Attack",
+					"type": "attack",
+					"attack.type.value": "melee"
+				}
+			],
+			"system": {
+				"damage.base": {
+					"custom": {
+						"enabled": true,
+						"formula": "1d(2 * floor((@flags.dnd5e.summon.level + 19) / 6)) + @prof"
+					},
+					"types": [
+						"piercing"
+					]
+				}
+			}
+		},
+		{
+			"name": "Slam",
+			"source": "llspell",
+			"monsterName": "Animated Object (Alternate) (Tiny/Small)",
+			"monsterSource": "llspell",
+			"activities": [
+				{
+					"name": "Attack",
+					"type": "attack",
+					"attack": {
+						"ability": "none",
+						"type": {
+							"value": "melee"
+						}
+					},
+					"damage.parts": [
+						{
+							"number": 2,
+							"denomination": 4,
+							"bonus": "@prof",
+							"types": [
+								"bludgeoning",
+								"piercing",
+								"slashing"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

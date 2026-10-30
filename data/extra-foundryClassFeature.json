@@ -1,0 +1,1158 @@
+{
+	"foundryClassFeature": [
+		{
+			"name": "Rage",
+			"source": "LLAC",
+			"className": "Alternate Barbarian",
+			"classSource": "LLAC",
+			"level": 1,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "@scale.alternate-barbarian.rage"
+			}
+		},
+		{
+			"name": "Savage Exploits",
+			"source": "LLAC",
+			"className": "Alternate Barbarian",
+			"classSource": "LLAC",
+			"level": 2,
+			"effects": [
+				{
+					"name": "Barbarian Exploits",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.exploit.number",
+							"mode": "UPGRADE",
+							"value": "@scale.alternate-barbarian.exploit.number"
+						},
+						{
+							"key": "flags.ll.exploit.faces",
+							"mode": "UPGRADE",
+							"value": "@scale.alternate-barbarian.exploit.faces"
+						},
+						{
+							"key": "flags.ll.exploit.dc",
+							"mode": "UPGRADE",
+							"value": "8 + @prof + max(@abilities.str.mod, @abilities.dex.mod)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Exploit Dice",
+			"source": "LLAC",
+			"className": "Alternate Barbarian",
+			"classSource": "LLAC",
+			"level": 2,
+			"activities": [
+				{
+					"name": "Roll",
+					"type": "utility",
+					"activation.type": "",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"roll.formula": "d@flags.ll.exploit.faces"
+				}
+			],
+			"system": {
+				"uses.max": "@flags.ll.exploit.number"
+			}
+		},
+		{
+			"name": "Savage Skill",
+			"source": "LLAC",
+			"className": "Alternate Barbarian",
+			"classSource": "LLAC",
+			"level": 2,
+			"activities": [
+				{
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"roll": {
+						"formula": "d@flags.ll.exploit.faces",
+						"name": "Exploit Die",
+						"visible": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Crimson Offering",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"level": 2,
+			"activities": [
+				{
+					"type": "damage",
+					"activation": {
+						"type": "bonus"
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "1@scale.alternate-blood-hunter.rite-die"
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Vital Sacrifice",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"level": 2,
+			"activities": [
+				{
+					"type": "damage",
+					"activation": {
+						"type": "special"
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "1@scale.alternate-blood-hunter.rite-die"
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Dark Augmentation",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"level": 10,
+			"effects": [
+				{
+					"name": "Physical Abilities Check and Save Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.abilities.str.bonuses.check",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						},
+						{
+							"key": "system.abilities.dex.bonuses.check",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						},
+						{
+							"key": "system.abilities.con.bonuses.check",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						},
+						{
+							"key": "system.abilities.str.bonuses.save",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						},
+						{
+							"key": "system.abilities.dex.bonuses.save",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						},
+						{
+							"key": "system.abilities.con.bonuses.save",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Vital Control",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"level": 11,
+			"activities": [
+				{
+					"type": "damage",
+					"activation": {
+						"type": "special"
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "2d(@scale.alternate-blood-hunter.rite-die)kl1"
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Hardened Soul",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"level": 15,
+			"effects": [
+				{
+					"name": "Mental Abilities Check and Save Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.abilities.int.bonuses.check",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						},
+						{
+							"key": "system.abilities.wis.bonuses.check",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						},
+						{
+							"key": "system.abilities.cha.bonuses.check",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						},
+						{
+							"key": "system.abilities.int.bonuses.save",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						},
+						{
+							"key": "system.abilities.wis.bonuses.save",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						},
+						{
+							"key": "system.abilities.cha.bonuses.save",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-blood-hunter.rite-die"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Primal Surge",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 2,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "@scale.alternate-druid.primal-surge",
+				"uses.recovery": [
+					{
+						"period": "lr",
+						"type": "recoverAll"
+					}
+				]
+			}
+		},
+		{
+			"name": "Archdruid",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"level": 20,
+			"activities": [
+				{
+					"name": "Free primal surge",
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "-1",
+								"target": {
+									"consumes": {
+										"name": "Primal Surge"
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Second Wind",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"level": 1,
+			"activities": [
+				{
+					"name": "Heal",
+					"type": "heal",
+					"activation.type": "bonus",
+					"healing": {
+						"number": 1,
+						"denomination": 10,
+						"bonus": "@classes.alternate-fighter.levels"
+					}
+				}
+			],
+			"system": {
+				"uses.max": "@scale.alternate-fighter.second-wind"
+			}
+		},
+		{
+			"name": "Martial Exploits",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"level": 2,
+			"activities": [],
+			"effects": [
+				{
+					"name": "Fighter Exploits",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.exploit.number",
+							"mode": "UPGRADE",
+							"value": "@scale.alternate-fighter.exploit.number"
+						},
+						{
+							"key": "flags.ll.exploit.faces",
+							"mode": "UPGRADE",
+							"value": "@scale.alternate-fighter.exploit.faces"
+						},
+						{
+							"key": "flags.ll.exploit.dc",
+							"mode": "UPGRADE",
+							"value": "8 + @prof + max(@abilities.str.mod, @abilities.dex.mod)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tactical Skill",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"level": 2,
+			"activities": [
+				{
+					"name": "Roll",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you make an ability check with a tool or skill you are proficient in"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": 1
+						}
+					],
+					"roll": {
+						"name": "Bonus",
+						"formula": "d@flags.ll.exploit.faces"
+					}
+				}
+			]
+		},
+		{
+			"name": "Eye for Talent",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Check",
+					"type": "check",
+					"activation.type": "bonus",
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					},
+					"check.associated": [
+						"prc",
+						"inv"
+					]
+				}
+			],
+			"system": {
+				"uses": {
+					"max": "",
+					"recovery": []
+				}
+			}
+		},
+		{
+			"name": "Action Surge",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"level": 6,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "special",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					]
+				}
+			],
+			"system": {
+				"uses.max": "@scale.alternate-fighter.action-surge"
+			}
+		},
+		{
+			"name": "Relentless",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"level": 20,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "encounter",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": "-@flags.ll.exploit.number"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ki",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 2,
+			"system": {
+				"uses.per": "sr",
+				"uses.max": "@classes.alternate-monk.levels + @abilities.wis.mod"
+			}
+		},
+		{
+			"name": "Sneak Attack",
+			"source": "LLAC",
+			"className": "Alternate Rogue",
+			"classSource": "LLAC",
+			"level": 1,
+			"activities": [
+				{
+					"name": "Sneak Attack",
+					"type": "damage",
+					"activation": {
+						"type": ""
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.alternate-rogue.sneak-attack"
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Devious Skill",
+			"source": "LLAC",
+			"className": "Alternate Rogue",
+			"classSource": "LLAC",
+			"level": 2,
+			"activities": [
+				{
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"roll": {
+						"formula": "d@flags.ll.exploit.faces",
+						"name": "Exploit Die",
+						"visible": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Devious Exploits",
+			"source": "LLAC",
+			"className": "Alternate Rogue",
+			"classSource": "LLAC",
+			"level": 2,
+			"effects": [
+				{
+					"name": "Rogue Exploits",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.exploit.number",
+							"mode": "UPGRADE",
+							"value": "@scale.alternate-rogue.exploit.number"
+						},
+						{
+							"key": "flags.ll.exploit.faces",
+							"mode": "UPGRADE",
+							"value": "@scale.alternate-rogue.exploit.faces"
+						},
+						{
+							"key": "flags.ll.exploit.dc",
+							"mode": "UPGRADE",
+							"value": "8 + @prof + max(@abilities.str.mod, @abilities.dex.mod)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sorcery Points",
+			"source": "LLAC",
+			"className": "Alternate Sorcerer",
+			"classSource": "LLAC",
+			"level": 1,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "@scale.alternate-sorcerer.sorcery-points"
+			}
+		},
+		{
+			"name": "Arcane Regeneration",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"level": 3,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "1",
+				"uses.recovery": [
+					{
+						"period": "lr",
+						"type": "recoverAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"name": "Arcane Regeneration",
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Spellsight",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"level": 5,
+			"system": {
+				"uses.per": "sr",
+				"uses.max": "1",
+				"uses.recovery": [
+					{
+						"period": "sr",
+						"type": "recoverAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"properties.0": "concentration",
+					"name": "Spellsight",
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Predictive Defense",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"level": 1,
+			"effects": [
+				{
+					"name": "Predictive Defense (Light Armor)",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "@attributes.ac.armor + @abilities.int.mod"
+						},
+						{
+							"key": "system.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						}
+					]
+				},
+				{
+					"name": "Predictive Defense (Medium Armor)",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "@attributes.ac.armor + min(2, @abilities.int.mod)"
+						},
+						{
+							"key": "system.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Peerless Insights",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"level": 5,
+			"effects": [
+				{
+					"name": "Intelligence Wisdom and Charisma Save Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.abilities.int.bonuses.save",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.abilities.wis.bonuses.save",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.abilities.cha.bonuses.save",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Keen Awareness",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"level": 7,
+			"effects": [
+				{
+					"name": "Initiative Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.init.bonus",
+							"mode": "ADD",
+							"value": "+ @abilities.int.mod"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Incomparable Intellect",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"level": 20,
+			"effects": [
+				{
+					"name": "Intelligence Boost",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.abilities.int.value",
+							"mode": "ADD",
+							"value": "+4"
+						},
+						{
+							"key": "system.abilities.int.max",
+							"mode": "OVERRIDE",
+							"value": 24
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Iridescent Strikes",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 1,
+			"subEntities": {
+				"item": [
+					{
+						"name": "Iridescent Strike",
+						"source": "LLVessel",
+						"type": "M",
+						"rarity": "none",
+						"weaponCategory": "simple",
+						"foundrySystem": {
+							"equipped": true,
+							"damage.parts": [
+								[
+									"@scale.vessel.iridescent-strike + @mod",
+									"radiant"
+								]
+							]
+						},
+						"foundryActivities": [
+							{
+								"type": "attack",
+								"activation": {
+									"type": "action",
+									"value": 1
+								},
+								"attack": {
+									"type": {
+										"value": "melee",
+										"classification": "unarmed"
+									},
+									"ability": "cha"
+								},
+								"damage": {
+									"includeBase": true
+								}
+							}
+						],
+						"foundryImg": "icons/magic/light/hand-sparks-glow-yellow.webp"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ethereal Armor",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 1,
+			"effects": [
+				{
+					"name": "Ethereal Armor",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "10 + @abilities.con.mod + @abilities.cha.mod"
+						},
+						{
+							"key": "system.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Captain",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 1,
+			"effects": [
+				{
+					"name": "Captain Leadership",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.leadership.mod",
+							"mode": "UPGRADE",
+							"value": "@abilities.cha.mod"
+						},
+						{
+							"key": "flags.ll.exploit.dc",
+							"mode": "UPGRADE",
+							"value": "8 + @prof + @abilities.cha.mod"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mentor",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 1,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "reaction",
+						"condition": "When another creature within range that can hear you misses an attack or fails an ability check"
+					},
+					"range": {
+						"value": "15 * floor((@classes.warlord.levels + 21) / 14)",
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					},
+					"roll": {
+						"name": "Bonus",
+						"formula": "1d4"
+					}
+				},
+				{
+					"name": "Use (Exploit Die)",
+					"type": "utility",
+					"visibility": {
+						"level.min": 7,
+						"identifier": "warlord"
+					},
+					"activation": {
+						"type": "reaction",
+						"condition": "When another creature within 30 feet that can hear you misses an attack or fails an ability check"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": 1
+						}
+					],
+					"range": {
+						"value": 30,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					},
+					"roll": {
+						"name": "Bonus",
+						"formula": "d@flags.ll.exploit.faces"
+					}
+				}
+			],
+			"effects": [
+				{
+					"name": "Mentor Leadership",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.leadership.mod",
+							"mode": "UPGRADE",
+							"value": "@abilities.wis.mod"
+						},
+						{
+							"key": "flags.ll.exploit.dc",
+							"mode": "UPGRADE",
+							"value": "8 + @prof + @abilities.wis.mod"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Strategist",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 1,
+			"effects": [
+				{
+					"name": "Strategist Leadership",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.leadership.mod",
+							"mode": "UPGRADE",
+							"value": "@abilities.int.mod"
+						},
+						{
+							"key": "flags.ll.exploit.dc",
+							"mode": "UPGRADE",
+							"value": "8 + @prof + @abilities.int.mod"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Inspiring Word",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 1,
+			"activities": [
+				{
+					"name": "Heal",
+					"type": "heal",
+					"activation.type": "bonus",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"range": {
+						"value": "30 * @scale.warlord.tactical-superiority",
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					},
+					"healing": {
+						"bonus": "@flags.ll.leadership.mod",
+						"types": [
+							"healing"
+						]
+					}
+				}
+			],
+			"system": {
+				"uses.per": "sr",
+				"uses.max": "@scale.warlord.inspiring-word"
+			}
+		},
+		{
+			"name": "Exploit Dice",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 2,
+			"activities": [
+				{
+					"name": "Roll",
+					"type": "utility",
+					"activation.type": "",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"roll.formula": "d@flags.ll.exploit.faces"
+				}
+			],
+			"system": {
+				"uses.max": "@flags.ll.exploit.number"
+			}
+		},
+		{
+			"name": "Tactical Exploits",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 2,
+			"effects": [
+				{
+					"name": "Warlord Exploits",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.exploit.number",
+							"mode": "UPGRADE",
+							"value": "@scale.warlord.exploit.number"
+						},
+						{
+							"key": "flags.ll.exploit.faces",
+							"mode": "UPGRADE",
+							"value": "@scale.warlord.exploit.faces"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tactical Skill",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 2,
+			"activities": [
+				{
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								}
+							}
+						]
+					},
+					"roll": {
+						"formula": "d@flags.ll.exploit.faces",
+						"name": "Exploit Die",
+						"visible": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Rallying Cry",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 9,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "reaction",
+						"condition": "When another creature that can hear you within 30 feet fails a saving throw"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"range": {
+						"value": "30 * @scale.warlord.tactical-superiority",
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					},
+					"roll": {
+						"name": "Bonus",
+						"formula": "@flags.ll.leadership.mod"
+					}
+				}
+			],
+			"system": {
+				"uses": {
+					"max": "@scale.warlord.rallying-cry",
+					"recovery": [
+						{
+							"period": "sr",
+							"type": "recoverAll"
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Tactical Superiority",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"level": 11,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "encounter",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Inspiring Word"
+								}
+							},
+							"value": -1
+						},
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Rallying Cry"
+								}
+							},
+							"value": -1
+						}
+					]
+				}
+			]
+		}
+	]
+}

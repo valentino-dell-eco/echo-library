@@ -1,0 +1,5203 @@
+{
+	"classFeature": [
+		{
+			"name": "Martial Arts",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 1,
+			"entries": [
+				"You honed your body into a weapon, mastering many styles of martial arts. For the purposes of your Monk abilities, Martial Arts attacks are your unarmed strikes and attacks with melee weapons without Heavy or Special properties.",
+				"Beginning at 1st level, so long as you are not wearing heavy armor, wielding a shield, or wielding a weapon with the Heavy property, your training grants you the following benefits: ",
+				{
+					"type": "list",
+					"items": [
+						"You can use your Dexterity, in place of Strength, for the attack and damage rolls or your Martial Arts attacks.",
+						"You can use your Dexterity, in place of Strength, when you make an Athletics check to Grapple or Shove a creature.",
+						"When you make a Martial Arts attack, you can roll your Martial Arts Die, a d6, in place of the normal damage die. As you gain Monk levels, the size of this Die grows, as shown in the Martial Arts column of the Monk table. If a feature uses this Die, always roll the Martial Arts Die.",
+						"Whenever you take the Attack action and make at least one Martial Arts attack, you can use your bonus action on that turn to make a single unarmed strike attack. "
+					]
+				},
+				"Some styles of Martial Arts make use of exotic weapons like nunchaku ({@item club|phb|clubs}), kamas ({@item sickle|phb|sickles}), or sai ({@item dagger|phb|daggers})."
+			]
+		},
+		{
+			"name": "Unarmored Defense",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 1,
+			"entries": [
+				"You have trained to defend yourself from deadly attacks even when unarmored. Beginning at 1st level, so long as you aren't wearing any armor or wielding a shield, your Armor Class is equal to 10 + your Dexterity and Wisdom modifiers."
+			]
+		},
+		{
+			"name": "Flurry of Blows",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"All Monks, no matter their training or level of enlightenment, can channel spiritual power to strike their foes with blinding speed. As a bonus action on each of your turns, you can spend 1 Ki to make two unarmed strikes."
+			]
+		},
+		{
+			"name": "Ki",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you learn to manipulate the spiritual energy that resides within you, known as Ki. You can draw on your Ki to perform supernatural physical feats known as Mystic Techniques:",
+				{
+					"type": "entries",
+					"name": "Ki",
+					"page": 3,
+					"entries": [
+						"Your spiritual power is represented by a pool of Ki, equal to your Monk level + your Wisdom modifier (a minimum of 0). Ki is expended when you use it, and you regain all spent Ki whenever you finish a short or long rest. To regain your Ki, you must spend at least 30 minutes of the rest meditating.",
+						"You can only expend Ki on one feature or Technique per attack, ability check, reaction, or saving throw."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Techniques Known",
+					"page": 3,
+					"entries": [
+						"At 2nd level, you know three {@filter Mystic Techniques|optionalfeatures|feature type=LLAM:T} from the list at the end of this class. To learn a Technique you must meet any prerequisites it has. Whenever you gain a Monk level, you can replace one Technique you know with another.",
+						"At certain Monk levels you learn additional Techniques, as shown on the Techniques Known column of the Monk table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throws",
+					"page": 3,
+					"entries": [
+						"Techniques rely on your mastery of body and spirit, and grow in proportion to your self-control. When a Technique requires a saving throw, its saving throw DC is calculated as follows:",
+						{
+							"type": "abilityDc",
+							"name": "Technique",
+							"attributes": [
+								"wis"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Unarmored Movement",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"Your pursuit of physical perfection has awakened the hidden potential of your body. At 2nd level, your speed increases by 10 feet so long as you are not wearing armor or a shield.",
+				"This speed bonus increases as you gain levels, as indicated in the Unarmored Movement column of the Monk table."
+			]
+		},
+		{
+			"name": "Monastic Tradition",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, choose one of the following Monastic Traditions that best represents your training and philosophy as a Monk.",
+				"The Monastic Tradition you choose grants you features at 3rd level, and again when you reach 6th, 10th, and 17th level.",
+				{
+					"type": "entries",
+					"name": "Signature Techniques",
+					"page": 3,
+					"entries": [
+						"Most Traditions have a list of Signature Techniques that you learn at the Monk levels as noted in your Tradition. These do not count against your number of Techniques Known. These Techniques also cannot be replaced with other Techniques."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"Upon reaching 5th level, you can attack twice, instead of once, whenever you take the Attack action.",
+				"Moreover, if you use your action to Disengage or Dash, you can make a single Martial Arts attack as a bonus action on that same turn."
+			]
+		},
+		{
+			"name": "Enlightened Strikes",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"You infuse your spiritual power into every strike. Starting at 6th level, the damage dealt by your unarmed strikes is magical, and the damage dealt by your other Martial Arts attacks is also magic so long as you have Ki remaining."
+			]
+		},
+		{
+			"name": "Monastic Tradition Feature",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Monastic Tradition."
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 7,
+			"entries": [
+				"Your supernatural agility lets you dodge out of the way of certain area effects, like a black dragon's acid breath or a {@spell lightning bolt} spell. Starting at 7th level, whenever you are subjected to an effect that allows you to make a Dexterity saving throw to take half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Spirit of Tranquility",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"Starting at 9th level, you can draw on your spiritual vigor to bolster your physical and mental defenses. Whenever you are forced to make a saving throw, you can expend 1 Ki to add your Wisdom modifier (minimum of +1) to the result of your roll."
+			]
+		},
+		{
+			"name": "Monastic Tradition Feature",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Monastic Tradition."
+			]
+		},
+		{
+			"name": "Warrior's Spirit",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 11,
+			"entries": [
+				"Mastery over your mind makes it nearly impossible to control you. Starting at 14th level, if you are Charmed or Frightened at the beginning of your turn, you can expend 1 Ki to end the Charmed or Frightened condition for yourself."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Purity of Body",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 13,
+			"entries": [
+				"Starting at 13th level, mastery over your physical form wards you from every ailment, granting you certain benefits. You are immune to all disease and the Poisoned condition, and you gain proficiency in Constitution saving throws."
+			]
+		},
+		{
+			"name": "Purity of Mind",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"Starting at 14th level, if you are charmed or frightened when you start your turn, you can spend 1 Ki Point to instantly end either the charmed or frightened condition for yourself."
+			]
+		},
+		{
+			"name": "Timeless Body",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 15,
+			"entries": [
+				"Beginning at 15th level, you have detached yourself from the desires of the flesh. You no longer require food or water and you suffer none of the frailty of old age. Additionally, for every 10 years that pass your body ages only 1 year."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Monastic Tradition Feature",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"At 17th level, you gain a feature granted by your Monastic Tradition."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Purity of Spirit",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"level": 20,
+			"entries": [
+				"You have attained mastery over your inner spiritual life. Upon reaching 20th level, you only need 1 minute of light activity to complete a short rest, in place of the normal 1 hour.",
+				"This spiritual mastery also means you can never be caught off guard if danger strikes. When you roll initiative, you regain expended Ki equal to your Wisdom modifier (minimum of 1), and your Warrior's Spirit feature allows you to regain 2 Ki at the start of each of your turns in combat. "
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Alternate Monk",
+			"source": "LLAC",
+			"page": 1,
+			"hd": {
+				"faces": 10,
+				"number": 1
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Techniques",
+					"featureType": [
+						"LLAM:T"
+					],
+					"progression": [
+						0,
+						3,
+						3,
+						3,
+						4,
+						4,
+						5,
+						5,
+						6,
+						6,
+						7,
+						7,
+						8,
+						8,
+						9,
+						9,
+						9,
+						10,
+						10,
+						10
+					]
+				}
+			],
+			"startingProficiencies": {
+				"weapons": [
+					"simple",
+					"{@item shortsword|phb|shortswords}"
+				],
+				"tools": [
+					"a set of {@item artisan's tools|phb} or a {@item musical instrument|phb}"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"history",
+								"insight",
+								"nature",
+								"religion",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item shortsword|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item shortbow|phb} and {@item arrows (20)|phb|20 arrows} or (b) {@item dart|phb|20 darts}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"(a) a {@item holy symbol|phb} or (b) a {@item musical instrument|phb}"
+				],
+				"defaultData": [
+					{
+						"a": [
+							"shortsword|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"shortbow|phb",
+							"arrows (20)|phb"
+						],
+						"b": [
+							{
+								"item": "dart|phb",
+								"quantity": 20
+							}
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"a": [
+							"holy symbol|phb"
+						],
+						"b": [
+							"musical instrument|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"weapons": [
+						"simple",
+						"{@item shortsword|phb|shortswords}"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Martial Arts",
+						"Unarmored Movement",
+						"Techniques Known"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							},
+							0
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							},
+							5
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							},
+							5
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							},
+							6
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							},
+							6
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							},
+							7
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							},
+							7
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							},
+							8
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							},
+							8
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							},
+							9
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							},
+							9
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							},
+							9
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							},
+							10
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							},
+							10
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								]
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							},
+							10
+						]
+					]
+				}
+			],
+			"subclassTitle": "Monastic Tradition",
+			"classFeatures": [
+				"Martial Arts|Alternate Monk|LLAC|1|LLAC",
+				"Unarmored Defense|Alternate Monk|LLAC|1|LLAC",
+				"Flurry of Blows|Alternate Monk|LLAC|2|LLAC",
+				"Ki|Alternate Monk|LLAC|2|LLAC",
+				"Unarmored Movement|Alternate Monk|LLAC|2|LLAC",
+				{
+					"classFeature": "Monastic Tradition|Alternate Monk|LLAC|3|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Alternate Monk|LLAC|4|LLAC",
+				"Extra Attack|Alternate Monk|LLAC|5|LLAC",
+				"Enlightened Strikes|Alternate Monk|LLAC|6|LLAC",
+				{
+					"classFeature": "Monastic Tradition Feature|Alternate Monk|LLAC|6|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Evasion|Alternate Monk|LLAC|7|LLAC",
+				"Ability Score Improvement|Alternate Monk|LLAC|8|LLAC",
+				"Spirit of Tranquility|Alternate Monk|LLAC|9|LLAC",
+				{
+					"classFeature": "Monastic Tradition Feature|Alternate Monk|LLAC|10|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Warrior's Spirit|Alternate Monk|LLAC|11|LLAC",
+				"Ability Score Improvement|Alternate Monk|LLAC|12|LLAC",
+				"Purity of Body|Alternate Monk|LLAC|13|LLAC",
+				"Purity of Mind|Alternate Monk|LLAC|14|LLAC",
+				"Timeless Body|Alternate Monk|LLAC|15|LLAC",
+				"Ability Score Improvement|Alternate Monk|LLAC|16|LLAC",
+				{
+					"classFeature": "Monastic Tradition Feature|Alternate Monk|LLAC|17|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Alternate Monk|LLAC|19|LLAC",
+				"Purity of Spirit|Alternate Monk|LLAC|20|LLAC"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Ferocity Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature crippling strike|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature stunning strike|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature friend of beast and leaf|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "crippling strike|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Natural Predator",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your martial arts enhance your natural abilities with one of the features below. Once chosen, this cannot be changed:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Bestial Rend",
+							"page": 5,
+							"entries": [
+								"Often adopted by Monks with savage claws or sharp teeth. You can deal slashing damage with unarmed strikes, and each time you do, your target's speed is reduced by 5 feet until the start of your next turn. If you reduce its speed to zero with this feature, it also has disadvantage on Dexterity saving throws for the same duration."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Natural Defense",
+							"page": 5,
+							"entries": [
+								"Adopted by Monks with natural armor like shells or scales. If you are hit by an attack that you can see, you can use your reaction to add your Martial Arts Die to your Armor Class against only that attack, possibly causing it to miss."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Deadly Charge",
+							"page": 5,
+							"entries": [
+								"Often adopted by Monks with hooves or horns. If you move at least 15 feet in a line, then hit with a melee unarmed strike, your target must succeed on a Strength saving throw against your Technique save DC or be knocked Prone."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Optional Rule: Race Restriction",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Only Monks with Natural Weapons from their player race, such as Lizardfolk, Tortles, Tabaxi, or Minotaurs can adopt this Monastic Tradition. Your DM may lift this restriction."
+			]
+		},
+		{
+			"name": "Way of Ferocity",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"While all Monks strive for physical mastery, honing their fists and feet into weapons, creatures born with natural weapons; vicious claws, imposing horns, or sharp fangs, have a natural advantage. They learn to enhance their physical features with Techniques, and combine their mastery of Ki with the ferocity that dwells within all creatures of wild and bestial heritage.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ferocity Techniques|Alternate Monk|LLAC|Ferocity|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Natural Predator|Alternate Monk|LLAC|Ferocity|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Optional Rule: Race Restriction|Alternate Monk|LLAC|Ferocity|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "stunning strike|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Primal Intuition",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"You gain proficiency in two of the following: Athletics, Insight, Intimidation, Perception, Stealth, or Survival.",
+				"Choose any two skills from the list above that you are proficient in. Whenever you make an ability check with either of those skills, you gain a bonus to your roll equal to your Martial Arts Die."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "friend of beast and leaf|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ruthless Savagery",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"No mercy in the wilds. You can use the {@optfeature crippling strike|LLAC} Technique without expending Ki a number of times equal to your Wisdom modifier (a minimum of once), and you regain all uses when you finish a long rest.",
+				"If you have already hit the target of your {@optfeature crippling strike|LLAC} with an unarmed strike since the end of your last turn, your target has disadvantage on its Constitution saving throw."
+			]
+		},
+		{
+			"name": "Master of Ferocity",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"You combine primal instinct with monastic training to reach your true wild potential. You gain one of the features below. Once chosen it cannot be changed:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Bestial Fury",
+							"page": 5,
+							"entries": [
+								"Weakness drives you to a primal fury. When you score a critical hit on a creature with an unarmed strike, its speed is reduced to zero until the start of your next turn, and for the same duration you have advantage on unarmed strikes against that creature."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Deadly Stampede",
+							"page": 5,
+							"entries": [
+								"You can channel a burst of primordial speed. As an action, you can move up to your speed in a line, forcing any creatures you pass through to make a Dexterity saving throw against your Technique save DC. On a failure, targets take bludgeoning damage equal to four Martial Arts Dice and fall Prone. On a success, targets take half damage and do not fall Prone."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mystical Resilience",
+							"page": 5,
+							"entries": [
+								"Mystical power has increased your already impressive natural defenses. Whenever you take any damage, you reduce the damage by your Wisdom modifier (a minimum of 1), so long as you are not Incapacitated."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Harmony Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Harmony",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature mystic regeneration|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature gentling touch|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature mantle of courtesy|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "mystic regeneration|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Monastic Healer",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Harmony",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have studied healing arts both mystic and mundane. You gain proficiency in Insight, Medicine, and the Herbalism Kit. Whenever you make an ability check with these proficiencies you gain a bonus to your roll equal to your Martial Arts die."
+			]
+		},
+		{
+			"name": "Touch of Death",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Harmony",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You can also assault the Ki of others to cause harm. Once per turn when you hit a creature with an unarmed strike, you can expend 1 Ki to deal additional necrotic damage equal to your Martial Arts Die. This deals radiant damage to Undead."
+			]
+		},
+		{
+			"name": "Touch of Life",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Harmony",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You can stimulate the Ki of other creatures to mystically heal. Once on each of your turns, you can forgo an unarmed strike, spend 1 Ki, and touch another creature. It regains hit points equal to your Martial Arts Die + your Wisdom modifier.",
+				"This feature has no effect on Constructs or Undead."
+			]
+		},
+		{
+			"name": "Way of Harmony",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Harmony",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Balance in all things. This is the mantra of Monks who devote their lives to the Way of Harmony. Famous for their mystical abilities to manipulate Ki to heal wounds, cure disease, and even disrupt powerful curses, these Monks keep all things in balance. However, when creatures look to extend their lives through unnatural means or cheat death, these warriors will use their power to destroy said creatures, restoring balance.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Harmony Techniques|Alternate Monk|LLAC|Harmony|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Monastic Healer|Alternate Monk|LLAC|Harmony|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Touch of Death|Alternate Monk|LLAC|Harmony|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Touch of Life|Alternate Monk|LLAC|Harmony|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Harmony",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "gentling touch|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mystic Manipulation",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Harmony",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"Your ability to affect the Ki of others has grown, allowing you to manipulate more intricate afflictions. When you use Touch of Life, you can also cure a disease or end either the Blinded, Deafened, Paralyzed, Poisoned, or Stunned condition.",
+				"Moreover, whenever you use Touch of Death, you can cause the creature to be Poisoned until the end of your next turn."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Harmony",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "mantle of courtesy|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Harmonious Touch",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Harmony",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"The harmony within your own spirit empowers your mystical abilities. When you use Touch of Life or Touch of Death, you can spend additional Ki (up to your Wisdom modifier) to add one Martial Arts Die to the hit points restored or the damage dealt per additional Ki spent."
+			]
+		},
+		{
+			"name": "Master of Harmony",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Harmony",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"You can restore harmony to life even if it has been shattered by death. As an action, you can touch a creature that has died within the last 24 hours and expend 6 Ki to return it to life.",
+				"When you do so, the creature also regains a number of hit points equal to your Monk level + your Wisdom modifier and any conditions afflicting it at the time of its death are ended.",
+				"Once you use this on a creature, that creature must complete a long rest before it can benefit from this feature again."
+			]
+		},
+		{
+			"name": "Radiant Bolt",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Radiance",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You can manifest your Ki as luminous light, using it to dispel the darkness and smite your foes. You know the {@spell light} Cantrip, and Wisdom is your Spellcasting modifier for it.",
+				"Also, whenever you can make an unarmed strike, you can instead focus your Ki to make a Radiant Bolt attack. Radiant Bolts are ranged (30/60) spell attacks that you are proficient with and use your Spell attack modifier as shown below. On hit, they deal radiant damage equal to your Martial Arts Die + your Wisdom modifier, and they count as melee Martial Arts attacks for the purposes of your Techniques.",
+				{
+					"type": "abilityAttackMod",
+					"name": "Spell attack modifier",
+					"attributes": [
+						"wis"
+					]
+				}
+			]
+		},
+		{
+			"name": "Radiant Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Radiance",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature step of the wind|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature deflect missile|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature indomitable spirit|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "step of the wind|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Way of Radiance",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Radiance",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Legends tell of wandering sages who channel bursts of light from within their bodies. These disciples of Radiance have such fine control over their spirit that they can assault others with luminous blasts of Ki. These wondrous warriors travel the land promoting harmony and justice among all peoples.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Radiant Bolt|Alternate Monk|LLAC|Radiance|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Radiant Techniques|Alternate Monk|LLAC|Radiance|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Radiance",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "deflect missile|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Searing Blast",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Radiance",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"You can overwhelm your foes with bursts of your radiant Ki. As a bonus action, you can spend 1 Ki to force all creatures in an adjacent 15-foot cone to make a Dexterity saving throw against your Technique save DC.",
+				"Creatures take radiant damage equal to three Martial Arts Dice on a failure, and half as much damage on a success."
+			]
+		},
+		{
+			"name": "Luminous Spirit",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Radiance",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"Luminous Ki suffuses your spirit. When you deal radaint damage to a creature, you can expend 1 Ki and force it to make a Constitution saving throw against your Technique save DC. On a failed save, the creature is Blinded until the beginning of your next turn.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Searing Blast|Alternate Monk|LLAC|Radiance|LLAC|6|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Radiance",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "indomitable Spirit|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Luminous Burst",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Radiance",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your spirit brims with burning radiance. As an action, you can unleash a blast of radiant Ki in a 5-foot wide, 100-foot long line, forcing creatures in the area to make a Dexterity saving throw against your Technique save DC. On a failure, they take radiant damage equal to six Martial Arts Dice. On a success they take half as much radiant damage.",
+				"When you use this feature you can expend Ki (up to your Wisdom modifier) to empower your Luminous Burst adding one Martial Arts Die to its damage for each Ki spent.",
+				"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all uses when you complete a long rest. When you have no uses left, you can spend 3 Ki to use Luminous Burst again."
+			]
+		},
+		{
+			"name": "Master of Radiance",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Radiance",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"Your radiant spirit is a shining beacon of hope for all who stand against the forces of evil. You gain the benefits below:",
+				{
+					"type": "list",
+					"items": [
+						"So long as you are using your Unarmored Movement, you also have a flying speed equal to your movement speed.",
+						"You become wreathed in light. You shed bright sunlight in a 30-foot radius and dim sunlight 30 feet beyond that. You can extinguish or restore the light as a bonus action.",
+						"The radiant damage of your Radiant Bolt, Searing Blast, and Luminous Burst features counts as true sunlight.",
+						"You gain resistance to necrotic damage, immunity to all radiant damage, and immunity to the Blinded condition."
+					]
+				}
+			]
+		},
+		{
+			"name": "Astral Armor",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Astral Warrior",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You can manifest your Ki as a luminescent set of armor which resembles your true self. As a bonus action, you can spend 1 Ki to manifest this Astral Armor. It lasts for 10 minutes, but is dismissed early if you use your bonus action to dismiss it or you are Incapacitated.",
+				"Your Astral Armor grants you the benefits below:",
+				{
+					"type": "list",
+					"items": [
+						"When you manifest your Astral Armor, creatures within 10 feet must succeed on a Dexterity saving throw against your Technique save DC or take force damage equal to two Martial Arts Dice.",
+						"You can use your Wisdom modifier, in place of your Strength, whenever you make a Strength check or a Strength saving throw.",
+						"You can make special unarmed strikes that use Wisdom for attack and damage rolls, their reach is 5 feet greater than normal, and they deal force damage on hit."
+					]
+				}
+			]
+		},
+		{
+			"name": "Astral Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Astral Warrior",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature deflect strike|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature deflect missile|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature aura sight|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "deflect strike|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Way of the Astral Warrior",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Astral Warrior",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Focusing almost completely on the development of the spirit, disciples of this Tradition learn to manifest their inner selves into the world through Ki. With great dedication and practice these esoteric warriors learn to manifest their Astral Self, a luminescent projection of their Ki that covers them in armor.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Astral Armor|Alternate Monk|LLAC|Astral Warrior|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Astral Techniques|Alternate Monk|LLAC|Astral Warrior|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Astral Warrior",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "deflect missile|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Astral Visage",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Astral Warrior",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"The power of your Astral Armor infuses your presence even when it is dormant. You learn the thaumaturgy Cantrip, and Wisdom is your spellcasting modifier for it. Also, whenever you make an Insight or Intimidation check you gain a bonus to your roll equal to your Martial Arts Die.",
+				"When your Astral Self is manifested you can see normally in both magical and mundane darkness in a 120-foot radius."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Astral Warrior",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "aura sight|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mystical Defense",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Astral Warrior",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your Astral Armor is reinforced with otherworldly power. You can use {@optfeature deflect strike|LLAC} and {@optfeature deflect missile|LLAC} without spending Ki while your Astral Armor is manifested. You also gain the 11th level benefits of both Techniques one level early.",
+				"After you use one of these Techniques, your next unarmed strike deals bonus damage equal to your Martial Arts Die."
+			]
+		},
+		{
+			"name": "Master Astral Warrior",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Astral Warrior",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"You have become one with your true self, and perfected your Astral Armor. Your Astral Armor now takes 2 Ki to manifest, but while it is manifested, you can reduce any damage you take by your Wisdom modifier.",
+				"Lastly, while your Astral Armor is manifested, you can use an action to unleash a barrage of punches in an adjacent 20-foot cone, forcing creatures in that area to make a Dexterity saving throw against your Technique save DC. On a failure, creatures take force damage equal to four Martial Arts Dice, and half as much force damage on a success."
+			]
+		},
+		{
+			"name": "Boulder Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Boulder",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature deflect strike|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature crushing strike|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature tremor strike|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "deflect strike|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Solid Body",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Boulder",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your great bulk enhances your offense and defense. You can use your Constitution, in place of your Dexterity, for all your Martial Arts features, and for your Unarmored Defense.",
+				"Moreover, whenever you make a Strength ability check or Strength saving throw you can spend 1 Ki to add your Constitution modifier to the result of your roll. While you are touching the ground, this feature does not require Ki to use."
+			]
+		},
+		{
+			"name": "Way of the Boulder",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Boulder",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"As ancient as the mountains themselves, this Tradition has been passed down from master to student since the earliest days of civilization. Building their monasteries on mountain peaks and in deep caverns, students of this Tradition focus on becoming as large and immovable as the mountains.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Boulder Techniques|Alternate Monk|LLAC|Boulder|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Solid Body|Alternate Monk|LLAC|Boulder|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Boulder",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "crushing strike|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Rebounding Defense",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Boulder",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"Your great bulk allows you to deflect mighty blows. You can use the {@optfeature deflect strike|LLAC} Technique without spending Ki. When you do so, you use your Constitution in place of Dexterity to calculate how much the incoming damage is reduced by."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Boulder",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "tremor strike|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Density of Spirit",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Boulder",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"The density of your spirit infuses your body with great weight. You gain resistance to your choice of acid, bludgeoning, cold, fire, lightning, piercing, slashing, or thunder. You can replace this resistance with another from the same list each time you finish a short or long rest.",
+				"You can also spend 2 Ki as a bonus action to replace this damage resistance with another from the list above."
+			]
+		},
+		{
+			"name": "Mighty Form",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Boulder",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"With spiritual reinforcement, your body has surpassed the normal mortal limits of density and mass. Your Constitution score, and your maximum Constitution score, increase by 2, up to a maximum of 22."
+			]
+		},
+		{
+			"name": "Earthshaker",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Boulder",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"You can use your supernatural density to cause the earth to quake. Whenever you use the {@optfeature tremor strike|LLAC} Technique, you can choose to affect the area within a 25-foot radius of you in place of the normal 25-foot cone of earth. You can ignore any difficult terrain created by this Technique.",
+				"Finally, you can use your {@optfeature tremor strike|LLAC} Technique without expending Ki a number of times equal toyour Constitution modifier (a minimum of once),and you regain all uses when you finish a longrest. When you use it without spending Ki, ittakes effect as if you had spent 1 Ki, thoughyou can spend more Ki to empower yourTechnique further, as normal.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mighty Form|Alternate Monk|LLAC|Boulder|LLAC|17|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Streetwise",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Brawler",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have learned what is necessary to survive on the streets. You gain proficiency in Intimidation, and learn to speak, read, and decode Thieves' Cant, the language of criminals."
+			]
+		},
+		{
+			"name": "Savage Exploits",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Brawler",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"In your underhanded brawls you have picked up many brutal and underhanded exploits. You gain the following features:",
+				{
+					"type": "entries",
+					"name": "High Degree",
+					"entries": [
+						"Your Monk level limits the technicality of the Exploits you are able to perform. This limit is reflected in the High Degree column of the Brawler Exploits table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Exploits",
+					"entries": [
+						"You learn two {@filter Savage Exploits|optionalfeatures|feature type=ll:se} of your choice from those available to the Alternate Barbarian. You can only use one Exploit per ability check, attack, or saving throw, and you cannot use an Exploit and Technique at the same time.",
+						"When you gain a Monk level, you can replace one Exploit you know with another Martial Exploit of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brutal Cunning",
+					"entries": [
+						"If an Exploit has a Strength prerequisite, you can learn it if your Wisdom also meets that prerequisite."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throws",
+					"entries": [
+						"If a Savage Exploit requires a creature to make a saving throw, it uses your Technique save DC."
+					]
+				}
+			]
+		},
+		{
+			"name": "Exploit Dice",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Brawler",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"The Brawler Exploits table shows how many Exploit Dice you have to use your Exploits. To use an Exploit you know, you expend an Exploit Die, and you regain all your expended Exploit Dice when you finish a short or long rest. When you use an Exploit, you always roll the Exploit Die."
+			]
+		},
+		{
+			"name": "Way of the Brawler",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Brawler",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"The Way of the Brawler is an informal Monastic Tradition that masters use to denote those who never received formal martial arts training. Brawlers are those who learn to fight in the back alleys and fighting pits. They are often underdogs who come from nothing, and will do whatever it takes to win. To these brutish scrapers, every fight is a fight for survival.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Streetwise|Alternate Monk|LLAC|Brawler|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Savage Exploits|Alternate Monk|LLAC|Brawler|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Exploit Dice|Alternate Monk|LLAC|Brawler|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Violent Enlightenment",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Brawler",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"The brutality and chaos of battle fuels your spiritual power. Your melee Martial Arts attacks score a critical hit on a roll of 19 or 20 on the d20.",
+				"Also, whenever you score a critical hit with a melee Martial Arts attack, you instantly regain 1 expended Ki."
+			]
+		},
+		{
+			"name": "Infamous Reputation",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Brawler",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your reputation for violence and brutality precedes you. As a bonus action, you can spend 1 Ki to force one creature that can see or hear you within 30 feet to make a Wisdom saving throw against your Technique save DC. On a failed save, it is Frightened of you until the start of your next turn.",
+				"Any creature that is Frightened of you has disadvantage on saving throws to resist the effects of your Savage Exploits."
+			]
+		},
+		{
+			"name": "Master of Brutality",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Brawler",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"You are a master of ruthless combat. You have advantage on Martial Arts attacks against creatures Frightened of you.",
+				"Finally, whenever you score a critical hit against a creature with a melee Martial Arts attack, it automatically fails saving throws to resist your Techniques or Savage Exploits."
+			]
+		},
+		{
+			"name": "Drunken Fist Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Drunken Fist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature step of the wind|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature deflect missile|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature heavenly step|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "step of the wind|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Drunken Style",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Drunken Fist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You move about the battle with chaotic grace. Whenever you hit a creature with a Martial Arts attack, your speed increases by 5 feet and that creature cannot target you with opportunity attacks until the start of your next turn."
+			]
+		},
+		{
+			"name": "Way of the Drunken Fist",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Drunken Fist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Where most monks are serious and contemplative, students of the Drunken Fist seek out joy wherever they go. Masters of a style that mimics the unpredictable movements of a drunk, these monks will use their considerable skills to play the fool and make others laugh, or to embarrass haughty nobles."
+			]
+		},
+		{
+			"name": "Dancing Fool",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Drunken Fist",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You use your unique style of martial arts to bring joy with your antics. You gain proficiency in Performance and with either brewer's supplies or a musical instrument. Whenever you make an ability check with any of these proficiencies you gain a bonus to the roll equal to your Martial Arts Die.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Drunken Fist Techniques|Alternate Monk|LLAC|Drunken Fist|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Drunken Style|Alternate Monk|LLAC|Drunken Fist|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Way of the Drunken Fist|Alternate Monk|LLAC|Drunken Fist|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Drunken Fist",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "deflect missile|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Unpredictable Sway",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Drunken Fist",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"Your erratic movements have become more complicated and even harder to predict. You gain the benefits listed below:",
+				{
+					"type": "entries",
+					"name": "Dancing Leap",
+					"entries": [
+						"When you are Prone, you can stand up without expending movement, instead of half your speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tipsy Strike",
+					"entries": [
+						"If a creature you can see misses you with a melee attack, you can use your reaction to expend 1 Ki and cause that same attack to target another target in range."
+					]
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Drunken Fist",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "heavenly step|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Chaotic Luck",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Drunken Fist",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You have an almost comical way of turning the misfortunes that befall you on their head. Whenever you make an attack roll, ability check, or saving throw with disadvantage, you can spend 1 Ki to cancel the disadvantage on that roll."
+			]
+		},
+		{
+			"name": "Master of the Drunken Fist",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Drunken Fist",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"You fly about the battle with an unparalleled level of chaos. When you take the Attack action on your turn, you can make a single Martial Arts attack against each creature you move past that is within range of your unarmed strikes, even if the number of attacks you make would exceed the normal limit."
+			]
+		},
+		{
+			"name": "Flowing River Stance",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Flowing River",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"As a bonus action, you can enter the Flowing River Stance, which exudes a mystical aura to draw violence through you, as water is guided by the banks of the river. Until the start of your next turn, creatures of your choice within 10 feet of you have disadvantage on attacks against targets other than you.",
+				"The radius of this aura grows to match your Unarmored Movement bonus, as shown on the Monk table for your level."
+			]
+		},
+		{
+			"name": "Flowing River Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Flowing River",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature deflect strike|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature deflect missile|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature heavenly step|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "deflect strike|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Monastic Acrobat",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Flowing River",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You carry yourself with a delicate grace. You gain proficiency in both Acrobatics and Performance, and whenever you make an ability check with either skill you gain a bonus to your roll equal to your Martial Arts die.",
+				"You can also use Dexterity, in place of Charisma, whenever you make a Performance check that includes movement."
+			]
+		},
+		{
+			"name": "Way of the Flowing River",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Flowing River",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Novices who adopt the Way of the Flowing River are taught a style of martial arts that emphasizes nonviolence and the use of force only when necessary. Named for the masterful grace and fluidity that these warriors exhibit in battle, practitioners of the Flowing River are often known as dancing Monks.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Flowing River Stance|Alternate Monk|LLAC|Flowing River|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Flowing River Techniques|Alternate Monk|LLAC|Flowing River|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Monastic Acrobat|Alternate Monk|LLAC|Flowing River|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Flowing River",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "deflect missile|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "River's Reprisal",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Flowing River",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"The serenity that comes with the flow of battle allows you to turn your foe's violent intent against them. When a creature you can see misses you with an attack while you are in your Flowing River Stance, you can force it to make a Dexterity saving throw against your Technique save DC as a reaction. On a failure, it is knocked Prone and its speed is reduced to zero until the start of your next turn.",
+				"Also, while you are in your Flowing River Stance, you can use {@optfeature deflect strike|LLAC} and {@optfeature deflect missile|LLAC} without spending Ki."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Flowing River",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "heavenly step|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Grace of the Great Waters",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Flowing River",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"The mystical power of your abilities has grown. If a creature casts a spell that deals damage or forces a saving throw while it is under the effect of your Flowing River Stance, you must be one of the targets of that spell.",
+				"While you are in Flowing River Stance you gain a special reaction that you can take on each creature's turn. It can only be used for River's Reprisal, {@optfeature deflect strike|LLAC}, or {@optfeature deflect missile|LLAC}."
+			]
+		},
+		{
+			"name": "Master of the Flowing River",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Flowing River",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"You can turn even the most violent blows against your foes. Whenever you use {@optfeature deflect strike|LLAC} or {@optfeature deflect missile|LLAC}, you can spend additional Ki (up to your Wisdom modifier) to reduce the damage by an additional Martial Arts Die per Ki spent.",
+				"Finally, when a creature fails its saving throw against your River's Reprisal, you can also knock it back in a straight line a number of feet, then it falls Prone. The distance you knock a creature back is dependent on size, as shown below: ",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-3 text-center",
+						"col-3 text-center",
+						"col-3 text-center",
+						"col-3 text-center"
+					],
+					"rows": [
+						[
+							"Tiny",
+							"60 feet",
+							"Large",
+							"20 feet"
+						],
+						[
+							"Small",
+							"40 feet",
+							"Huge",
+							"15 feet"
+						],
+						[
+							"Medium",
+							"30 feet",
+							"Gargantuan",
+							"10 feet"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Heavy Warrior",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Hurricane",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your style of combat incorporates the mightiest weapons. You gain proficiency with Heavy melee weapons, and your attacks with these weapons count as Martial Arts attacks.",
+				"In addition, while you are wielding a Heavy melee weapon, you have advantage on all ability checks and saving throws to resist being Grappled or moved against your will."
+			]
+		},
+		{
+			"name": "Hurricane Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Hurricane",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature typhoon strike|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature crushing strike|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature tremor strike|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "typhoon strike|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tempestuous Strike",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Hurricane",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You can wield your massive weapons with the fury of a great storm. So long as you are wielding a Heavy melee weapon, you can use {@optfeature Typhoon Strike|LLAC} without expending Ki.",
+				"When you do so, you can make a single attack with the end of your Heavy weapon as a bonus action on your turn. On hit, it deals damage equal to one Martial Arts attack."
+			]
+		},
+		{
+			"name": "Way of the Hurricane",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Hurricane",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Where most martial arts traditions focus on quick strikes and quick movement, disciples of the Hurricane technique master mighty weapons. Hurricane Monks wield massive weapons to devastating effect. On the battlefield they become tempests of steel, cutting down any foe who dares to stand against them.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Heavy Warrior|Alternate Monk|LLAC|Hurricane|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hurricane Techniques|Alternate Monk|LLAC|Hurricane|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tempestuous Strike|Alternate Monk|LLAC|Hurricane|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Hurricane",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "crushing strike|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Crushing Counter",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Hurricane",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"You use the great weight of your massive weapons to rebuke your foes. When a creature you can see hits you with a melee attack while you are wielding a Heavy melee weapon, you can attack it with that Heavy weapon as a reaction.",
+				"If you hit with this attack, the force of the blow reduces the attacker's speed to zero until the start of your next turn."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Hurricane",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "tremor strike|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Buffeting Winds",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Hurricane",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You empower your strikes with great gusts of wind. When you hit a creature with a Heavy melee weapon attack or damage it with {@optfeature Typhoon Strike|LLAC}, you can spend 1 Ki (per target) to force it to make a Strength saving throw against your Technique save DC. On a failure, it is knocked back in a line a number of feet equal to 5 times your Wisdom modifier (minimum of 5 feet).",
+				"Also, whenever you use {@optfeature Typhoon Strike|LLAC}, you can expend Ki (up to your Wisdom modifier) to empower your Technique. If you do, the Techniques deals bonus thunder damage equal to your Martial Arts Die for each Ki spent. If you do, creatures also take half damage from the Technique on a success."
+			]
+		},
+		{
+			"name": "Master of the Hurricane",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Hurricane",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"Your skill with massive weapons makes them appear light as a feather. While wielding a Heavy melee weapon you can use your action to disappear and make one melee weapon attack against up to five creatures you can see within 60 feet.",
+				"You can use this feature once between each short or long rest, after which, you must spend 5 Ki to use it again."
+			]
+		},
+		{
+			"name": "Ascended Warrior",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Mystic",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your ascended spirit propels your body in battle. You can use Wisdom, in place of Dexterity, for your Martial Arts features."
+			]
+		},
+		{
+			"name": "Mystic Talents",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Mystic",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"In your quest for spiritual enlightenment you have unlocked the true potential of your spirit. You learn two Mystic Talents from those available to the {@link Psion|https://www.gmbinder.com/share/-MPkCSxSj0OETiEd3Pyf}. Talents from this feature use the rules below:",
+				{
+					"type": "entries",
+					"name": "Mystical Manifestations",
+					"entries": [
+						"If a Mystic Talent has a prerequisite Psion level, you can learn it if your Monk level would meet that prerequisite. You can also use your Wisdom and your Ki in place of any mentions of Intelligence and Psi Points, respectively."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Learning new Talents",
+					"entries": [
+						"You learn another Mystic Talent of your choice when you reach 6th, 10th, and 17th levels in this class. Finally, whenever you gain a level, you can replace a Talent you know with another Talent. However, you cannot replace a Talent if it is a prerequisite for another Talent you know."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting",
+					"entries": [
+						"Wisdom is your Spellcasting ability for any Mystic Talents you know. Mystic Talents also use your Technique save DC for any saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mystical Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Mystic",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature spiritual armor|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature impairing strike|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature commune with self|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "spiritual armor|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Way of the Mystic",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Mystic",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Meditating on the true spiritual potential of Ki, Mystic Monks gradually forgo their physical training to plumb the depths of their spirit. Often misunderstood to be Wizards or Sorcerers, these mystical sages can draw upon the Ki within their spirits to perform wondrous supernatural feats.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ascended Warrior|Alternate Monk|LLAC|Mystic|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mystic Talents|Alternate Monk|LLAC|Mystic|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mystical Techniques|Alternate Monk|LLAC|Mystic|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Mystic",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "impairing strike|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spiritual Assault",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Mystic",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"You can strike from spirit to spirit, bypassing mortal flesh. As a bonus action, you can force one creature that you can see within 15 feet to make a Charisma saving throw against your Technique save DC.",
+				"On a failed save, it takes psychic damage equal to your Martial Arts Die and it has disadvantage on the first Intelligence, Wisdom, or Charisma saving throwthat it makes before the start of your next turn.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all uses when you finish a long rest. If you have no uses left, you can spend 1 Ki to use your Spiritual Assault feature again."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Mystic",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "commune with self|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Warded Soul",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Mystic",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your spirit protects you from supernatural assaults. When you take necrotic, psychic, or radiant damage you can spend 1 Ki to gain resistance to that instance of damage."
+			]
+		},
+		{
+			"name": "Master Mystic",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Mystic",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"Your spiritual power eclipses that of most living mortals, and some immortal beings. Whenever you deal psychic damage to a creature you add your Wisdom modifier (minimum of 1) to the damage roll if you do not do so already.",
+				"Finally, during a long rest, you can meditate for 1 hour and replace one Talent you know with another of your choice."
+			]
+		},
+		{
+			"name": "Practiced Strikes",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Rigorous discipline has made your abilities second nature. Once on each of your turns when you hit with an unarmed strike, you can use a Strike Technique you know without expending the normal Ki.",
+				"You can use your Strike Techniques in this way a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Way of the Open Hand",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"While all monks are warriors, monks who follow the Way of the Open Hand train relentlessly, forging their bodies into deadly weapons. They do not neglect spiritual training, but disciples of the Open Hand pride themselves on their skill with martial arts, and it is exceptionally rare to see an Open Hand monk who wields a weapon other than their fists."
+			]
+		},
+		{
+			"name": "Open Hand Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the Monk levels noted in the table below, but they do not count against your total number of Techniques Known.",
+				"Also, each time you gain a Monk level, you can replace one of these Techniques with another Strike Technique that you meet the prerequisites for. Strike Techniques are those that can be used when you hit with a melee Martial Arts attack. ",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature empowered strike|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature stunning strike|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature indomitable Spirit|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "empowered strike|LLAM"
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Practiced Strikes|Alternate Monk|LLAC|Open Hand|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Way of the Open Hand|Alternate Monk|LLAC|Open Hand|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "stunning strike|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ebb and Flow",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"You have trained to redirect your enemy's momentum against them. When a creature you can see misses you with a melee attack, you can use one of the following reactions:",
+				{
+					"type": "entries",
+					"name": "Toppling Blow",
+					"entries": [
+						"The creature must succeed on a Dexterity saving throw against your Technique save DC or it falls Prone and its speed is 0 until the end of its turn. Any creature larger than you has advantage on this saving throw."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Swift Reprisal",
+					"entries": [
+						"You make one unarmed strike against it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "indomitable Spirit|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Open Hand Strike",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your strikes disrupt the flow of Ki. If you score a critical hit with an unarmed strike, the creature has disadvantage on any saving throw that you force it to make as part of that attack."
+			]
+		},
+		{
+			"name": "Master of Many Forms",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"During each long rest, you can spend 10 minutes practicing martial arts to replace one Technique you know with another Technique which you meet the prerequisites for.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Open Hand Strike|Alternate Monk|LLAC|Open Hand|LLAC|10|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Master of the Open Hand",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"You have become an unparalleled master of unarmed martial arts and are able to strike with overwhelming power and wondrous speed. Whenever you use Flurry of Blows, Swift Reprisal, or make an opportunity attack you can make one additional unarmed strike."
+			]
+		},
+		{
+			"name": "Frightful Touch",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Reaper",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You can channel deathly Ki to infect foes with fear of death. Once per turn when you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to force the creature to make a Wisdom saving throw against your Technique save DC. On a failure, it is Frightened of you until the start of your next turn."
+			]
+		},
+		{
+			"name": "Reaper Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Reaper",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature crippling strike|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature slowing strike|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature aura sight|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "crippling strike|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Warrior of Death",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Reaper",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your affinity with deathly Ki has completely suffused your body, mind, and spirit, granting certain benefits:",
+				{
+					"type": "entries",
+					"name": "Necrotic Body",
+					"entries": [
+						"You can cause your unarmed strikes to deal necrotic damage in place of bludgeoning, and you gain resistance to necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Necrotic Mind",
+					"entries": [
+						"You have advantage on saving throws to resist and end the Frightened condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Necrotic Spirit",
+					"entries": [
+						"Should you die, your corpse falls under the effects of the {@spell gentle repose} spell for a number of days equal to the Ki you had remaining when you died."
+					]
+				}
+			]
+		},
+		{
+			"name": "Way of the Reaper",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Reaper",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"While most monastic orders teach students to live their lives to their full potential, those who follow the Way of the Reaper are obsessed with the process of death and dying. Reaper Monks learn to channel deathly Ki to fuel their own martial prowess and are experts at using fear and other sinister techniques to drain the life force from others in order to prolong their own lives.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Frightful Touch|Alternate Monk|LLAC|Reaper|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reaper Techniques|Alternate Monk|LLAC|Reaper|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Warrior of Death|Alternate Monk|LLAC|Reaper|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Reaper",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "slowing strike|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sinister Vitality",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Reaper",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"The pain of death gives you life. Once per turn when you deal necrotic damage to a living creature, you can gain temporary hit points equal to your Wisdom modifier (minimum of 1).",
+				"While you have temporary hit points from this feature, you are resistant to bludgeoning, piercing, and slashing damage from non-magial and non-silvered attacks."
+			]
+		},
+		{
+			"name": "Pierce the Veil",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Reaper",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"Your deep knowledge of death allows you to communicate with creatures who have passed. As an action, you can touch a corpse and expend Ki (up to your Wisdom modifier). For each Ki spent, you can ask the corpse a single question, as per the rules of the {@spell speak with dead} spell.",
+				"However, once you use this feature on a corpse, you can't target that corpse with this feature again. Like speak with dead, the corpse is not required to respond to you.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sinister Vitality|Alternate Monk|LLAC|Reaper|LLAC|6|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Reaper",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "aura sight|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Armor of the Grave",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Reaper",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your intimacy with death allows you to resist its pallid touch. When you are reduced to 0 hit points, but not killed outright, you can spend 1 Ki to fall to 1 hit point instead. When you do so, you can also choose to fall under a {@spell feign death} spell.",
+				"However, each subsequent time you use this ability before you complete a long rest, its cost increases by 1 Ki."
+			]
+		},
+		{
+			"name": "Master of Reaping",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Reaper",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"Your knowledge of death allows you to directly attack the life giving Ki within other creatures. Once on each of your turns, you can forgo one attack to touch a creature and spend up to 10 Ki, forcing it to make a Constitution saving throw against your Technique save DC.",
+				"The target takes necrotic damage equal to two Martial Arts Dice per Ki spent on a failure, and half as much on a success.",
+				"Creatures that are Frightened of you have disadvantage on this saving throw. This feature also has no effect on Undead."
+			]
+		},
+		{
+			"name": "Draconic Disciple",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Rising Dragon",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"An ancient dragon, or one of its disciples, has altered your Ki, infusing you with certain draconic abilities:",
+				{
+					"type": "entries",
+					"name": "Ancient Tongue",
+					"entries": [
+						"You speak, read, and write Draconic. You also gain proficiency in Deception, Intimidation, or Persuasion, and when you make an ability check with that skill you add a Martial Arts Die to your roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Element",
+					"entries": [
+						"Choose acid, cold, fire, lightning, or poison as your Element. Dragons often choose the same Element as their breath weapon, but ancient dragons can impart any Element of their choice. Lastly, you can cause your unarmed strikes to deal Element damage on hit."
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Breath",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Rising Dragon",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You can exhale elemental energies like the breath of great dragons. When you take the Attack action, you can forgo one attack to unleash elemental Ki in an adjacent 15-foot cone or 30-foot long, 5-foot wide line forcing Creatures to make a Dexterity saving throw against your Technique save DC. They take Element damage equal to two Martial Arts Dice on a failure, and half on a success.",
+				"Whenever you use this feature, you can also spend Ki (up to your Wisdom modifier) to add an additional Martial Arts Die to the damage roll for each Ki spent."
+			]
+		},
+		{
+			"name": "Rising Dragon Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Rising Dragon",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature step of the wind|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature deflect missile|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature indomitable spirit|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "step of the wind|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Way of the Rising Dragon",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Rising Dragon",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Often found in the service of ancient dragons, disciples of the Rising Dragon learn to use their Ki to mimic the power of dragons. These draconic warriors vary greatly based on the dragons they emulate, but despite differences, they all carry themselves with the regal bearing of a great dragon.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Draconic Disciple|Alternate Monk|LLAC|Rising Dragon|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Elemental Breath|Alternate Monk|LLAC|Rising Dragon|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rising Dragon Techniques|Alternate Monk|LLAC|Rising Dragon|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Rising Dragon",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "deflect missile|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ascendant Step",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Rising Dragon",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"Your Techniques mimic the power of dragons. Whenever you use {@optfeature step of the wind}, you gain a flying speed equal to your walking speed which lasts until the end of your turn."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Rising Dragon",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "indomitable spirit|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Draconic Mantle",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Rising Dragon",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your draconic presence wards those around you from harm. You and creatures of your choice within 10 feet are resistant to your Element and have advantage on all saving throws to resist the Charmed or Frightened conditions.",
+				"In addition, when you use your Elemental Breath, you add your Wisdom modifier (minimum of +1) to the damage roll."
+			]
+		},
+		{
+			"name": "Master of Draconic Might",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Rising Dragon",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"The true potential of your draconic spirit has been unleashed. You gain a flying speed equal to your walking speed, and the radius of your Draconic Mantle increases to 30 feet.",
+				"Finally, whenever you use your Elemental Breath, you can target a 30-foot cone or a 60-foot long, 5-foot wide line."
+			]
+		},
+		{
+			"name": "Celestial Artist",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Sacred Inks",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have mastered the divine artistry of Celesital tattooing. You gain proficiency in calligrapher's supplies, and whenever you make an ability check that includes calligrapher's supplies you add double your Proficiency Bonus to your roll.",
+				"You have also learned to speak, read, and write Celesital, the language of the divine. However, most Monks will only speak Celestial when necessary out of reverence for the divine language."
+			]
+		},
+		{
+			"name": "Divine Conduit",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Sacred Inks",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your Celestial tattoos allow you to channel the divine power of the heavenly hosts to both heal yourself and allies and to pour out judgment on foes. You gain the features below:",
+				{
+					"type": "entries",
+					"name": "Divine Judgement",
+					"entries": [
+						"You can choose to deal radiant damage with your unarmed strikes instead of their normal damage.",
+						"In addition, whenever you hit a creature with an unarmed strike, you can spend 1 Ki to deal bonus radiant damage to it equal to your Martial Arts Die."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Divine Regeneration",
+					"entries": [
+						"Whenever you expend a Hit Die to regain hit points, you can expend 1 Ki to use the maximum value of that Hit Die in place of rolling it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Divine Touch",
+					"entries": [
+						"As an action, you can touch another willing creature other than yourself and expend 1 Ki. It regains hit points equal to one roll of its Hit Die + your Wisdom modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sacred Ink Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Sacred Inks",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature divine light|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature impairing strike|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature commune with self|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "divine light|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Way of the Sacred Inks",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Sacred Inks",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Initiates of the Sacred Inks spend years practicing celestial calligraphy. Once they are ready, the monks mark their bodies with increasingly complex celestial tattoos, granting them access to divine power. As the monk's spiritual connection to the divine grows, so does the beauty of their celestial tattoos.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Celestial Artist|Alternate Monk|LLAC|Sacred Inks|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Divine Conduit|Alternate Monk|LLAC|Sacred Inks|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sacred Ink Techniques|Alternate Monk|LLAC|Sacred Inks|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Sacred Inks",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "impairing strike|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Heavenly Protection",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Sacred Inks",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"Both your connection to the divine and the complexity of your celestial tattoos has increased, granting you a divine blessing that protects you from death. When you are reduced to 0 hit points, you can choose to fall to 1 hit point instead.",
+				"You can use this feature once, and you regain its use after you finish a long rest. Alternately, you can expend 5 Ki as an action on your turn to regain your use of this feature early."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Sacred Inks",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "commune with self|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Searing Light",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Sacred Inks",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"As a bonus action, you can unleash the divine energies within your Celestial tattoos. For 1 minute, you emit bright sunlight out ot a 10-foot radius, and when you expend Ki to use Divine Judgement, your target must also make a Constitution saving throw against your Technique save DC. On a failed save, it is Blinded until the start of your next turn.",
+				"This feature ends if you are Incapacitated or if you end it as a bonus action. Once you use this feature, you must complete a short or long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Master of the Sacred Inks",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Sacred Inks",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"As a bonus action, you can unleash the divine energies within your Celestial tattoos, transforming into a living icon of divine beauty for 1 minute, gaining the following benefits: ",
+				{
+					"type": "list",
+					"items": [
+						"Your Celestial tattoos manifest angelic wings. You gain a flying speed equal to your walking speed and can hover.",
+						"You gain the benefits of Searing Light. Its sunlight radius grows to match your Unarmored Movement bonus."
+					]
+				},
+				"You can transform in this way once between each long rest at no cost, after which, you must spend 5 Ki to use it again."
+			]
+		},
+		{
+			"name": "Eyes of Night",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadow Arts",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have adapted to use your skill under cover of darkness. You gain Darkvision out to a radius of 60 feet, and you have advantage on Stealth checks to hide in darkness.",
+				"If you already have Darkvision from your race or another feature, its range increases by 30 feet."
+			]
+		},
+		{
+			"name": "Shadow Arts",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadow Arts",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You can use your Ki to reproduce the effects of certain spells: {@spell darkness}, {@spell darkvision}, {@spell pass without trace (alternate)|llspell}, or {@spell silence}. Your body is your Spellcasting focus for the spells, and Wisdom is your Spellcating ability. You can see through darkness you create with these spells as if it were daylight.",
+				"You can cast each of these spells once in between each long rest at no cost, after that, you can spend 2 Ki to cast the spell again."
+			]
+		},
+		{
+			"name": "Shadow Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadow Arts",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature slow fall|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature gentling touch|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature heavenly step|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "slow fall|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Way of the Shadow Arts",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadow Arts",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"While most traditional martial artists value honorable tactics and combat styles, disciples of the Shadow Arts exploit every weakness, no matter how dishonorable. Assassins and spies, Shadow Monks only strike if success is absolutely assured.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eyes of Night|Alternate Monk|LLAC|Shadow Arts|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shadow Arts|Alternate Monk|LLAC|Shadow Arts|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shadow Techniques|Alternate Monk|LLAC|Shadow Arts|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadow Arts",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "gentling touch|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Shadow Step",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadow Arts",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"You move undetected through the darkness, and can step from one shadow into another. When you are in dim light or darkness, you can use a bonus action to teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. After teleporting, you have advantage on the first Martial Arts attack you make before the end of that turn."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadow Arts",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "heavenly step|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cloak of Shadows",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadow Arts",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You can cloak yourself with Ki and merge with the shadows. When you are in dim light or darkness, you can use an action to become invisible, and you remain invisible until you attack, cast a spell, or move into an area of bright light.",
+				"If a creature moves into your reach while you are invisible, you can make one opportunity attack against it as a reaction. These opportunity attacks only end your invisibility if you hit the target. If the attack misses, you remain invisible."
+			]
+		},
+		{
+			"name": "Master of Shadows",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadow Arts",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"You are an unrivaled master of the Shadow Arts, and wield dark powers which mark you as a true Master of Shadows. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can cast your Shadow Arts spells at will, without Ki.",
+						"The range of your Shadow Step increases to 120 feet.",
+						"You can use your Cloak of Shadows as a bonus action.",
+						"You can cast both {@spell greater invisibility} and {@spell shadow of moil} once between each long rest at no cost, after which, you must spend 4 Ki to cast that spell again."
+					]
+				}
+			]
+		},
+		{
+			"name": "Deadly Perfection",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shining Steel",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your relentless pursuit of perfection allows you to use the following features while wielding a Signature Weapon:",
+				{
+					"type": "entries",
+					"name": "Masterful Aim",
+					"entries": [
+						"As a bonus action, you can calm your spirit to mystically increase your accuracy. Until the end of your current turn, you treat any weapon attack roll of 7 or lower on the d20 as an 8."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Masterful Parry",
+					"entries": [
+						"When a creature you can see hits you with a melee attack, you can use your reaction to add your Wisdom modifier (minimum of +1) to your Armor Class against that attack."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shining Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shining Steel",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature patient defense|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature seeking strike|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature heavenly step|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "patient defense|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Signature Weapons",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shining Steel",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"While every weapon is deadly in your hands, you strive for mastery over a select few. Choose one melee weapon without the Heavy or Special properties and one ranged weapon to be your Signature Weapons. You are proficient in your Signature Weapons if you were not already, and your attacks with these weapons count as Martial Arts attacks.",
+				"You can choose an additional Signature Weapon when you reach 6th, 10th, and 17th level in this class."
+			]
+		},
+		{
+			"name": "Way of the Shining Steel",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shining Steel",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"While all monks are able to wield the weapons of their style to great effect, those who follow the Way of Shining Steel dedicate their lives to complete mastery over a chosen few weapons. These warriors are known for their extreme focus, and are always looking for progressively stronger warriors to challenge and test their skill with the weapons of war.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Deadly Perfection|Alternate Monk|LLAC|Shining Steel|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shining Techniques|Alternate Monk|LLAC|Shining Steel|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Signature Weapons|Alternate Monk|LLAC|Shining Steel|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shining Steel",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "seeking strike|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Shining Steel",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shining Steel",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"Mastery over your Signature Weapons allows your Ki to flow through them as if they were an extension of your body. Your Signature Weapons gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Ki Blade",
+					"entries": [
+						"You can choose for your Signature Weapons to deal radiant damage in place of their normal damage type."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Perfect Strike",
+					"entries": [
+						"Once on each of your turns when you hit with a Signature Weapon attack you can spend 1 Ki to deal bonus damage equal to your Martial Arts Die."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Steel Wind",
+					"entries": [
+						"When you Flurry of Blows you can replace one unarmed strike with a Signature Weapon attack."
+					]
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shining Steel",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "heavenly step|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spirit Blade",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shining Steel",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You can imbue your Signature Weapons with deadly Ki. Over the course of a long rest, you can spend 1 hour performing a mystical ritual on your Signature Weapons, infusing each of them with Ki (up to your Wisdom modifier).",
+				"The critical hit range of your Signature Weapons increases depending on the Ki you infuse each with, as shown below:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Ki Infused",
+						"Critical Hit Range"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1",
+							"19 or 20"
+						],
+						[
+							"3",
+							"18-20"
+						],
+						[
+							"5",
+							"17-20"
+						]
+					]
+				},
+				"Ki infused into a Signature Weapon remains within it and cannot be regained until you perform this mystic ritual again, at which point you can remove Ki and return it to your spirit."
+			]
+		},
+		{
+			"name": "Master of Shining Steel",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Shining Steel",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"You are an unquestioned master of your Signature Weapons. Once between each short or long rest when you attack with a Signature Weapon, you can replace the result of your d20 roll with your Monk level.",
+				"If using your Monk level would result in a critical hit, that Signature Weapon attack becomes an automatic critical hit."
+			]
+		},
+		{
+			"name": "Combat Ready",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Vigilante",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You are always prepared to stand up and fight for justice. You gain proficiency in either Intimidation or Performance, and whenever you make an ability check with that skill you gain a bonus to your roll equal to your Martial Arts Die.",
+				"You also gain proficiency with light and medium armor and shields, and you can still gain the benefits of your Martial Arts and Unarmored Movement features when using them."
+			]
+		},
+		{
+			"name": "Heroic Persona",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Vigilante",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You have created a Heroic Persona, a larger-than-life identity that can include a set of light or medium armor and a shield. As a bonus action, so long as you can't be seen, you can don your Heroic Persona, which grants you temporary hit points equal to your Monk level, and the benefits listed below:",
+				{
+					"type": "list",
+					"items": [
+						"As a bonus action, you can spend 1 Ki to gain temporary hit points equal to your Wisdom modifier (minimum 1).",
+						"When you hit with a Martial Arts attack, you can spend 1 Ki to deal bonus damage equal to your Martial Arts Die.",
+						"You can use your Wisdom, in place of Dexterity, when calculating your Armor Class in light or medium armor.",
+						"Ability checks and Divination spells that would discern your true identity automatically fail. "
+					]
+				},
+				"The effects of your Heroic Persona last until you doff it as a bonus action, or you become Unconscious. You can don the Heroic Persona any number of times, but you only gain temporary hit points from transforming the first time you do so each long rest, after that, you must expend 3 Ki when you transform to gain the temporary hit points."
+			]
+		},
+		{
+			"name": "Vigilante Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Vigilante",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature slow fall|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature crushing strike|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature indomitable spirit|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "slow fall|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Way of the Vigilante",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Vigilante",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Monks who practice this Tradition use their martial arts skill to fight evil and uphold the virtues of justice, liberty, and fair play. Lauded as heroes by some, and derided as extrajudicial criminals by others, these Vigilante warriors will often adopt a Heroic Persona, a larger-than-life identity that they take up to fight against the forces of evil and injustice in the world.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Combat Ready|Alternate Monk|LLAC|Vigilante|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Heroic Persona|Alternate Monk|LLAC|Vigilante|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vigilante Techniques|Alternate Monk|LLAC|Vigilante|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Vigilante",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "crushing strike|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Valiant Action",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Vigilante",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"The mystical power of your Heroic Persona increases your physical abilities. You gain proficiency in either Acrobatics or Athletics, and while your Heroic Persona is donned, you can use {@optfeature indomitable Spirit|LLAC} once per turn without spending Ki."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Vigilante",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "indomitable spirit|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Inspiring Presence",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Vigilante",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"Your Heroic Persona inspires those who fight alongside you. While your Heroic Persona is donned, you and creatures of your choice within 20 feet have advantage on saving throws to resist being Charmed or Frightened.",
+				"As you gain Monk levels, the radius of this effect increases to match your Unarmored Movement bonus."
+			]
+		},
+		{
+			"name": "Master Vigilante",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Vigilante",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"Your Heroic Persona is a legendary symbol of justice. You are immune to both the Charmed and Frightened conditions, and whenever you hit a creature equal to your size or smaller with an unarmed strike it is knocked back 10 feet in a line."
+			]
+		},
+		{
+			"name": "Entropic Touch",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Void",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You can channel the entropic power of the Void to annihilate pieces of reality. As an action, you can spend 2 Ki and touch a Small or smaller non-magical object that is not being worn or carried, and instantly reduce it to a pile of fine grey dust.",
+				"As you reach certain Monk levels, you gain the ability to channel even more of this entropic power to unmake larger objects, spending more Ki, as shown on the table below:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Ki",
+						"Object Size"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-3 text-center",
+						"col-3 text-center"
+					],
+					"rows": [
+						[
+							"3rd",
+							"2",
+							"Small"
+						],
+						[
+							"6th",
+							"4",
+							"Medium"
+						],
+						[
+							"10th",
+							"6",
+							"Large"
+						],
+						[
+							"17th",
+							"8",
+							"Huge"
+						],
+						[
+							"20th",
+							"12",
+							"Gargantuan"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Void Strike",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Void",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You wield the entropic power of the Void as other warriors wield weapons. Once per turn when you hit a creature with an unarmed strike, you can expend 1 Ki to deal bonus force damage equal to your Martial Arts Die, and until the start of your next turn, that creature cannot regain hit points or gain temporary hit points.",
+				"If the target of this attack is concentrating on a spell, it has disadvantage on its saving throw to maintain concentration."
+			]
+		},
+		{
+			"name": "Void Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Void",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Monk Level",
+						"Technique"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@optfeature step of the wind|LLAC}"
+						],
+						[
+							"5th",
+							"{@optfeature impairing strike|LLAC}"
+						],
+						[
+							"9th",
+							"{@optfeature aura sight|LLAC}"
+						]
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "step of the wind|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Way of the Void",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Void",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"While all Monks look to unite their will with the cosmos, Void Monks seek unity through annihilation. Nihilistic disciples of this Tradition use their mystic power to accelerate the natural processes of cosmic decay, and see themselves as conscious agents of entropy. All will eventually become one in the Void.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Entropic Touch|Alternate Monk|LLAC|Void|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Void Strike|Alternate Monk|LLAC|Void|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Void Techniques|Alternate Monk|LLAC|Void|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Void",
+			"subclassSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "impairing strike|LLAM:E"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Vorpal Step",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Void",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"You can draw upon the energies of the Void to discorporate. When you use step of the wind, you can move through solid non-magical objects and creatures as difficult terrain.",
+				"However, if you stop this special movement while you are inside a solid object or creature, you are instantly shunted to the nearest unoccupied space and take 1d10 force damage for every 5 feet you are forced to move to do so."
+			]
+		},
+		{
+			"name": "Signature Techniques",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Void",
+			"subclassSource": "LLAC",
+			"level": 9,
+			"entries": [
+				"You learn an additional technique for your archetype.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "aura sight|LLAM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Unmake Magic",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Void",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"The entropic power of your spirit allows you to disrupt and destroy magic. You can spend 3 Ki to cast the {@spell counterspell (alternate)|llspell} or {@spell dispel magic} spells at 3rd level. When you do so, Wisdom is considered your Spellcasting ability for these spells."
+			]
+		},
+		{
+			"name": "Master of Entropy",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Void",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"Your power is annihilation itself. Once one each of your turns, you can forgo one unarmed strike to instead touch a creature and force it to make a Constitution saving throw against your Technique save DC. On a failed save, it suffers the effects of a {@spell disintegrate} spell cast at 6th-level.",
+				"You can use this feature once per long rest at no cost, after which, you must spend 6 Ki to use this feature again."
+			]
+		},
+		{
+			"name": "Disciple of the Elements",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Wu Jen",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your Elemental Form lasts for 1 minute, but it ends early if you are incapacitated or use a bonus action to end it. Once yoYou learn ancient monastic arts that allow you to cast spells.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"You learn two cantrips of your choice from the Wu Jen spell list at the end of this Tradition description. You learn one additional Wu Jen cantrip at 10th and 17th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Wu Jen Spellcasting table shows how many spell slots you have, and the level of those slots. All of your spell slots are the same level. To cast a Wu Jen spell of 1st-level or higher, you must expend a spell slot. You use the spell's casting time and other rules, but your body becomes the spellcasting focus for these spells, and you don't need to provide any material components. You regain all expended Wu Jen spell slots when you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known of 1st Level and Higher",
+					"entries": [
+						"You learn three 1st-level spells of your choice from the Wu Jen spell list at the end of this Tradition. The Spells Known column of the Wu Jen Spellcasting table shows when you learn more Wu Jen spells. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level.",
+						"When you gain a level, you can choose a Wu Jen spell you know and replace it with another spell from the Wu Jen spell list, which must be of a level for which you have spell slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Wisdom is your spellcasting ability for your Wu Jen spells, so you use your Wisdom whenever a spell refers to your spellcasting ability, when setting a saving throw DC, and when making a spell attack roll.",
+						{
+							"type": "abilityDc",
+							"name": "Spell save DC",
+							"attributes": [
+								"wis"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell attack modifier",
+							"attributes": [
+								"wis"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fist of the Five Ways",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Wu Jen",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"You can infuse your fists with the power of the five elements. Whenever you make an unarmed strike, you can change its damage to the type dealt by one Wu Jen spell you know.",
+				"When you do, the reach of that unarmed strike increases by 5 feet, as it is wreathed in the power of that element."
+			]
+		},
+		{
+			"name": "Way of the Wu Jen",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Wu Jen",
+			"subclassSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Rather than focus inward, some monks attune themselves to the forces of nature. Known as Wu Jens, these primal sages augment their skills with the power of the five elements; Air, Earth, Fire, Water, and Wood. Through meditation, they can learn to channel their Ki into displays of elemental power.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Disciple of the Elements|Alternate Monk|LLAC|Wu Jen|LLAC|3|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fist of the Five Ways|Alternate Monk|LLAC|Wu Jen|LLAC|3|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Elemental Spirit",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Wu Jen",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"Your spirit is a conduit for your elemental magic. As a bonus action on your turn, you can expend Ki equal to 1 + your Slot Level to regain one expended Wu Jen spell slot.",
+				"Moreover, when you use your action to cast a Wu Jen spell, you can make one unarmed strike attack as a bonus action."
+			]
+		},
+		{
+			"name": "Spiritual Flow",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Wu Jen",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"You weave your martial arts with spiritual magic. When you cast a Wu Jen spell with a casting time of 1 action, you can expend 2 Ki to cast it as a bonus action instead."
+			]
+		},
+		{
+			"name": "Master of the Elements",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Wu Jen",
+			"subclassSource": "LLAC",
+			"level": 17,
+			"entries": [
+				"As an action, you can draw all five elements into yourself to take on an Elemental Form, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a flying speed equal to your walking speed.",
+						"You resist bludgeoning, piercing, and slashing damage.",
+						"Critical hits against you become normal hits.",
+						"Opportunity attacks against you have disadvantage.",
+						"You can gain temporary hit points equal to your Wisdom modifier (minimum of 1) at the start of each of your turns."
+					]
+				},
+				"Your Elemental Form lasts for 1 minute, but it ends early if you are Incapacitated or use a bonus action to end it. You can use this feature once per long rest at no cost, after that, you must expend 6 Ki to transform again."
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Way of Ferocity",
+			"shortName": "Ferocity",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassFeatures": [
+				"Way of Ferocity|Alternate Monk|LLAC|Ferocity|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Ferocity|LLAC|5|LLAC",
+				"Primal Intuition|Alternate Monk|LLAC|Ferocity|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Ferocity|LLAC|9|LLAC",
+				"Ruthless Savagery|Alternate Monk|LLAC|Ferocity|LLAC|10|LLAC",
+				"Master of Ferocity|Alternate Monk|LLAC|Ferocity|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of Harmony",
+			"shortName": "Harmony",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"page": 10,
+			"subclassFeatures": [
+				"Way of Harmony|Alternate Monk|LLAC|Harmony|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Harmony|LLAC|5|LLAC",
+				"Mystic Manipulation|Alternate Monk|LLAC|Harmony|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Harmony|LLAC|9|LLAC",
+				"Harmonious Touch|Alternate Monk|LLAC|Harmony|LLAC|10|LLAC",
+				"Master of Harmony|Alternate Monk|LLAC|Harmony|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of Radiance",
+			"shortName": "Radiance",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"page": 7,
+			"subclassFeatures": [
+				"Way of Radiance|Alternate Monk|LLAC|Radiance|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Radiance|LLAC|5|LLAC",
+				"Luminous Spirit|Alternate Monk|LLAC|Radiance|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Radiance|LLAC|9|LLAC",
+				"Luminous Burst|Alternate Monk|LLAC|Radiance|LLAC|10|LLAC",
+				"Master of Radiance|Alternate Monk|LLAC|Radiance|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Astral Warrior",
+			"shortName": "Astral Warrior",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"page": 10,
+			"subclassFeatures": [
+				"Way of the Astral Warrior|Alternate Monk|LLAC|Astral Warrior|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Astral Warrior|LLAC|5|LLAC",
+				"Astral Visage|Alternate Monk|LLAC|Astral Warrior|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Astral Warrior|LLAC|9|LLAC",
+				"Mystical Defense|Alternate Monk|LLAC|Astral Warrior|LLAC|10|LLAC",
+				"Master Astral Warrior|Alternate Monk|LLAC|Astral Warrior|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Boulder",
+			"shortName": "Boulder",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassFeatures": [
+				"Way of the Boulder|Alternate Monk|LLAC|Boulder|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Boulder|LLAC|5|LLAC",
+				"Rebounding Defense|Alternate Monk|LLAC|Boulder|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Boulder|LLAC|9|LLAC",
+				"Density of Spirit|Alternate Monk|LLAC|Boulder|LLAC|10|LLAC",
+				"Earthshaker|Alternate Monk|LLAC|Boulder|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Brawler",
+			"shortName": "Brawler",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"optionalfeatureProgression": [
+				{
+					"name": "Savage Exploits",
+					"featureType": [
+						"LL:1SE"
+					],
+					"progression": {
+						"3": 2,
+						"5": 3
+					}
+				},
+				{
+					"name": "Savage Exploits",
+					"featureType": [
+						"LL:1SE",
+						"LL:2SE"
+					],
+					"progression": {
+						"7": 1,
+						"11": 2
+					}
+				},
+				{
+					"name": "Savage Exploits",
+					"featureType": [
+						"LL:1SE",
+						"LL:2SE",
+						"LL:3SE"
+					],
+					"progression": {
+						"15": 1,
+						"19": 2
+					}
+				}
+			],
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"title": "Exploit Dice",
+					"configuration": {
+						"identifier": "exploit",
+						"type": "dice",
+						"scale": {
+							"3": {
+								"n": 2,
+								"die": 4
+							},
+							"7": {
+								"n": 3,
+								"die": 6
+							},
+							"16": {
+								"n": 4,
+								"die": 8
+							}
+						}
+					}
+				}
+			],
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Brawler",
+							"source": "LLAM:E"
+						}
+					],
+					"colLabels": [
+						"Exploits Known",
+						"Exploit Die",
+						"Exploit Dice",
+						"High Degree"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							"{@dice d4}",
+							2,
+							"1st"
+						],
+						[
+							2,
+							"{@dice d4}",
+							2,
+							"1st"
+						],
+						[
+							3,
+							"{@dice d4}",
+							2,
+							"1st"
+						],
+						[
+							3,
+							"{@dice d4}",
+							2,
+							"1st"
+						],
+						[
+							4,
+							"{@dice d6}",
+							3,
+							"2nd"
+						],
+						[
+							4,
+							"{@dice d6}",
+							3,
+							"2nd"
+						],
+						[
+							4,
+							"{@dice d6}",
+							3,
+							"2nd"
+						],
+						[
+							4,
+							"{@dice d6}",
+							3,
+							"2nd"
+						],
+						[
+							5,
+							"{@dice d6}",
+							3,
+							"2nd"
+						],
+						[
+							5,
+							"{@dice d6}",
+							3,
+							"2nd"
+						],
+						[
+							5,
+							"{@dice d6}",
+							3,
+							"2nd"
+						],
+						[
+							5,
+							"{@dice d6}",
+							3,
+							"2nd"
+						],
+						[
+							6,
+							"{@dice d8}",
+							4,
+							"3rd"
+						],
+						[
+							6,
+							"{@dice d8}",
+							4,
+							"3rd"
+						],
+						[
+							6,
+							"{@dice d8}",
+							4,
+							"3rd"
+						],
+						[
+							6,
+							"{@dice d8}",
+							4,
+							"3rd"
+						],
+						[
+							7,
+							"{@dice d8}",
+							4,
+							"3rd"
+						],
+						[
+							7,
+							"{@dice d8}",
+							4,
+							"3rd"
+						]
+					]
+				}
+			],
+			"subclassFeatures": [
+				"Way of the Brawler|Alternate Monk|LLAC|Brawler|LLAC|3|LLAC",
+				"Violent Enlightenment|Alternate Monk|LLAC|Brawler|LLAC|6|LLAC",
+				"Infamous Reputation|Alternate Monk|LLAC|Brawler|LLAC|10|LLAC",
+				"Master of Brutality|Alternate Monk|LLAC|Brawler|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Drunken Fist",
+			"shortName": "Drunken Fist",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"page": 5,
+			"subclassFeatures": [
+				"Dancing Fool|Alternate Monk|LLAC|Drunken Fist|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Drunken Fist|LLAC|5|LLAC",
+				"Unpredictable Sway|Alternate Monk|LLAC|Drunken Fist|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Drunken Fist|LLAC|9|LLAC",
+				"Chaotic Luck|Alternate Monk|LLAC|Drunken Fist|LLAC|10|LLAC",
+				"Master of the Drunken Fist|Alternate Monk|LLAC|Drunken Fist|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Flowing River",
+			"shortName": "Flowing River",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassFeatures": [
+				"Way of the Flowing River|Alternate Monk|LLAC|Flowing River|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Flowing River|LLAC|5|LLAC",
+				"River's Reprisal|Alternate Monk|LLAC|Flowing River|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Flowing River|LLAC|9|LLAC",
+				"Grace of the Great Waters|Alternate Monk|LLAC|Flowing River|LLAC|10|LLAC",
+				"Master of the Flowing River|Alternate Monk|LLAC|Flowing River|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Hurricane",
+			"shortName": "Hurricane",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassFeatures": [
+				"Way of the Hurricane|Alternate Monk|LLAC|Hurricane|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Hurricane|LLAC|5|LLAC",
+				"Crushing Counter|Alternate Monk|LLAC|Hurricane|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Hurricane|LLAC|9|LLAC",
+				"Buffeting Winds|Alternate Monk|LLAC|Hurricane|LLAC|10|LLAC",
+				"Master of the Hurricane|Alternate Monk|LLAC|Hurricane|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Mystic",
+			"shortName": "Mystic",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassFeatures": [
+				"Way of the Mystic|Alternate Monk|LLAC|Mystic|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Mystic|LLAC|5|LLAC",
+				"Spiritual Assault|Alternate Monk|LLAC|Mystic|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Mystic|LLAC|9|LLAC",
+				"Warded Soul|Alternate Monk|LLAC|Mystic|LLAC|10|LLAC",
+				"Master Mystic|Alternate Monk|LLAC|Mystic|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Open Hand",
+			"shortName": "Open Hand",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"page": 6,
+			"subclassFeatures": [
+				"Open Hand Techniques|Alternate Monk|LLAC|Open Hand|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Open Hand|LLAC|5|LLAC",
+				"Ebb and Flow|Alternate Monk|LLAC|Open Hand|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Open Hand|LLAC|9|LLAC",
+				"Master of Many Forms|Alternate Monk|LLAC|Open Hand|LLAC|10|LLAC",
+				"Master of the Open Hand|Alternate Monk|LLAC|Open Hand|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Reaper",
+			"shortName": "Reaper",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"page": 7,
+			"subclassFeatures": [
+				"Way of the Reaper|Alternate Monk|LLAC|Reaper|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Reaper|LLAC|5|LLAC",
+				"Pierce the Veil|Alternate Monk|LLAC|Reaper|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Reaper|LLAC|9|LLAC",
+				"Armor of the Grave|Alternate Monk|LLAC|Reaper|LLAC|10|LLAC",
+				"Master of Reaping|Alternate Monk|LLAC|Reaper|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Rising Dragon",
+			"shortName": "Rising Dragon",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"page": 10,
+			"subclassFeatures": [
+				"Way of the Rising Dragon|Alternate Monk|LLAC|Rising Dragon|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Rising Dragon|LLAC|5|LLAC",
+				"Ascendant Step|Alternate Monk|LLAC|Rising Dragon|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Rising Dragon|LLAC|9|LLAC",
+				"Draconic Mantle|Alternate Monk|LLAC|Rising Dragon|LLAC|10|LLAC",
+				"Master of Draconic Might|Alternate Monk|LLAC|Rising Dragon|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Sacred Inks",
+			"shortName": "Sacred Inks",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassFeatures": [
+				"Way of the Sacred Inks|Alternate Monk|LLAC|Sacred Inks|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Sacred Inks|LLAC|5|LLAC",
+				"Heavenly Protection|Alternate Monk|LLAC|Sacred Inks|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Sacred Inks|LLAC|9|LLAC",
+				"Searing Light|Alternate Monk|LLAC|Sacred Inks|LLAC|10|LLAC",
+				"Master of the Sacred Inks|Alternate Monk|LLAC|Sacred Inks|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Shadow Arts",
+			"shortName": "Shadow Arts",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"page": 8,
+			"subclassFeatures": [
+				"Way of the Shadow Arts|Alternate Monk|LLAC|Shadow Arts|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Shadow Arts|LLAC|5|LLAC",
+				"Shadow Step|Alternate Monk|LLAC|Shadow Arts|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Shadow Arts|LLAC|9|LLAC",
+				"Cloak of Shadows|Alternate Monk|LLAC|Shadow Arts|LLAC|10|LLAC",
+				"Master of Shadows|Alternate Monk|LLAC|Shadow Arts|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Shining Steel",
+			"shortName": "Shining Steel",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"page": 10,
+			"subclassFeatures": [
+				"Way of the Shining Steel|Alternate Monk|LLAC|Shining Steel|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Shining Steel|LLAC|5|LLAC",
+				"Shining Steel|Alternate Monk|LLAC|Shining Steel|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Shining Steel|LLAC|9|LLAC",
+				"Spirit Blade|Alternate Monk|LLAC|Shining Steel|LLAC|10|LLAC",
+				"Master of Shining Steel|Alternate Monk|LLAC|Shining Steel|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Vigilante",
+			"shortName": "Vigilante",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassFeatures": [
+				"Way of the Vigilante|Alternate Monk|LLAC|Vigilante|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Vigilante|LLAC|5|LLAC",
+				"Valiant Action|Alternate Monk|LLAC|Vigilante|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Vigilante|LLAC|9|LLAC",
+				"Inspiring Presence|Alternate Monk|LLAC|Vigilante|LLAC|10|LLAC",
+				"Master Vigilante|Alternate Monk|LLAC|Vigilante|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Void",
+			"shortName": "Void",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassFeatures": [
+				"Way of the Void|Alternate Monk|LLAC|Void|LLAC|3|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Void|LLAC|5|LLAC",
+				"Vorpal Step|Alternate Monk|LLAC|Void|LLAC|6|LLAC",
+				"Signature Techniques|Alternate Monk|LLAC|Void|LLAC|9|LLAC",
+				"Unmake Magic|Alternate Monk|LLAC|Void|LLAC|10|LLAC",
+				"Master of Entropy|Alternate Monk|LLAC|Void|LLAC|17|LLAC"
+			]
+		},
+		{
+			"name": "Way of the Wu Jen",
+			"shortName": "Wu Jen",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"page": 9,
+			"spellcastingAbility": "wis",
+			"casterProgression": "pact",
+			"cantripProgression": [
+				0,
+				0,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4
+			],
+			"spellsKnownProgression": [
+				0,
+				0,
+				2,
+				2,
+				3,
+				3,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				6,
+				6,
+				6,
+				6,
+				7,
+				7,
+				7,
+				7
+			],
+			"subclassSpells": [
+				"beckon air|llspell",
+				"blade ward (alternate)|llspell",
+				"Control Flame (Alternate)|llspell",
+				"create bonfire|XGE",
+				"druidcraft",
+				"frostbite",
+				"light",
+				"magic stone|XGE",
+				"mold earth|XGE",
+				"ray of frost",
+				"shape water (Alternate)|llspell",
+				"thorn whip",
+				"thunderclap|XGE",
+				"absorb elements",
+				"armor of agathys",
+				"burning hands",
+				"create water (Alternate)|llspell",
+				"earth tremor|XGE",
+				"ensnaring strike (alternate)|llspell",
+				"entangle",
+				"fog cloud",
+				"hail of thorns (alternate)|llspell",
+				"hellish rebuke",
+				"ice knife|XGE",
+				"sanctuary",
+				"thunderwave",
+				"witch bolt (alternate)|llspell",
+				"barkskin (alternate)|llspell",
+				"continual flame",
+				"dust devil|XGE",
+				"earthbind|XGE",
+				"earthen grasp|XGE",
+				"flame blade",
+				"flaming sphere",
+				"gust of wind",
+				"hold person",
+				"levitate",
+				"misty step",
+				"scorching ray",
+				"shatter",
+				"snowball swarm|XGE",
+				"spike growth",
+				"warding wind|XGE",
+				"call lighting",
+				"erupting earth|XGE",
+				"fireball",
+				"fly",
+				"gaseous form",
+				"grasping vine (alternate)|llspell",
+				"lighting bolt",
+				"meld into stone",
+				"minute meteors|XGE",
+				"plant growth",
+				"sleet storm",
+				"speak with plants",
+				"thunder step|XGE",
+				"tidal wave|XGE",
+				"wall of sand|XGE",
+				"wall of water|XGE",
+				"wind wall",
+				"control water",
+				"elemental bane|XGE",
+				"fire shield",
+				"freedom of movement",
+				"guardian of nature|XGE",
+				"ice storm",
+				"pillars of earth (alternate)|llspell",
+				"resilient sphere",
+				"stone shape",
+				"stoneskin",
+				"storm sphere|XGE",
+				"wall of fire",
+				"watery sphere|XGE"
+			],
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Way of the Wu Jen",
+							"source": "LLAM"
+						}
+					],
+					"colLabels": [
+						"Monk Level",
+						"{@filter Spells Known|spells|subclass=Wu Jen}",
+						"Spell Slots",
+						"Slot Level"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							"3rd",
+							2,
+							1,
+							"{@filter 1st|spells|level=1|subclass=Wu Jen}"
+						],
+						[
+							"4rd",
+							2,
+							2,
+							"{@filter 1st|spells|level=1|subclass=Wu Jen}"
+						],
+						[
+							"5th",
+							3,
+							2,
+							"{@filter 1st|spells|level=1|subclass=Wu Jen}"
+						],
+						[
+							"6th",
+							3,
+							2,
+							"{@filter 1st|spells|level=1|subclass=Wu Jen}"
+						],
+						[
+							"7th",
+							4,
+							2,
+							"{@filter 2nd|spells|level=2|subclass=Wu Jen}"
+						],
+						[
+							"8th",
+							4,
+							2,
+							"{@filter 2nd|spells|level=2|subclass=Wu Jen}"
+						],
+						[
+							"9th",
+							5,
+							2,
+							"{@filter 2nd|spells|level=2|subclass=Wu Jen}"
+						],
+						[
+							"10th",
+							5,
+							2,
+							"{@filter 2nd|spells|level=2|subclass=Wu Jen}"
+						],
+						[
+							"11th",
+							5,
+							2,
+							"{@filter 2nd|spells|level=2|subclass=Wu Jen}"
+						],
+						[
+							"12th",
+							5,
+							2,
+							"{@filter 2nd|spells|level=2|subclass=Wu Jen}"
+						],
+						[
+							"13th",
+							6,
+							2,
+							"{@filter 3rd|spells|level=3|subclass=Wu Jen}"
+						],
+						[
+							"14th",
+							6,
+							2,
+							"{@filter 3rd|spells|level=3|subclass=Wu Jen}"
+						],
+						[
+							"15th",
+							6,
+							2,
+							"{@filter 3rd|spells|level=3|subclass=Wu Jen}"
+						],
+						[
+							"16th",
+							6,
+							2,
+							"{@filter 3rd|spells|level=3|subclass=Wu Jen}"
+						],
+						[
+							"17th",
+							7,
+							2,
+							"{@filter 3rd|spells|level=3|subclass=Wu Jen}"
+						],
+						[
+							"18th",
+							7,
+							2,
+							"{@filter 3rd|spells|level=3|subclass=Wu Jen}"
+						],
+						[
+							"19th",
+							7,
+							2,
+							"{@filter 4th|spells|level=4|subclass=Wu Jen}"
+						],
+						[
+							"20th",
+							7,
+							2,
+							"{@filter 4th|spells|level=4|subclass=Wu Jen}"
+						]
+					]
+				}
+			],
+			"subclassFeatures": [
+				"Way of the Wu Jen|Alternate Monk|LLAC|Wu Jen|LLAC|3|LLAC",
+				"Elemental Spirit|Alternate Monk|LLAC|Wu Jen|LLAC|6|LLAC",
+				"Spiritual Flow|Alternate Monk|LLAC|Wu Jen|LLAC|10|LLAC",
+				"Master of the Elements|Alternate Monk|LLAC|Wu Jen|LLAC|17|LLAC"
+			]
+		}
+	]
+}

@@ -31,7 +31,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit +5} al colpo, 5 ft, 1 target. {@h}4 ({@damage 1 + 3}) danni perforanti."
+						"{@atk mw} {@hit +5} al colpo, 5 ft, 1 target. {@h}1 ({@damage 1 }) danni perforanti."
 					]
 				}
 			],

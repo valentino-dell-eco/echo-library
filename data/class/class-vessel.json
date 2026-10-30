@@ -1,0 +1,2564 @@
+{
+	"classFeature": [
+		{
+			"name": "Iridescent Strikes",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"Spiritual energies empower you. You can use your Charisma, in place of Strength, for your unarmed strike attack rolls. On hit, these unarmed strikes deal radiant damage equal to 1d6 + your Charisma modifier. Also, whenever you take the Attack action, you can make an unarmed strike as a bonus action.",
+				"At certain Vessel levels, the damage die of these Iridescent Strikes increases: at 5th (d8), 11th (d10), and 17th level (d12)."
+			]
+		},
+		{
+			"name": "Spirit Mantle",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"At 1st level, you can use a bonus action to cloak yourself with (or dismiss) your Spirit Mantle, an ethereal cloak of spiritual power. It marks a dramatic change in your appearance which causes you to resemble the Spirit bound to your soul.",
+				"While the Mantle is active, you gain the following features:",
+				{
+					"type": "refClassFeature",
+					"classFeature": "Ethereal Armor|Vessel|LLVessel|1"
+				},
+				{
+					"type": "refClassFeature",
+					"classFeature": "Iridescent Strikes|Vessel|LLVessel|1"
+				}
+			]
+		},
+		{
+			"name": "Ethereal Armor",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"The power of your Mantle wards you from harm. When you are not wearing armor or a shield, your Armor Class is equal to 10 + your Constitution modifier + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Unsealed Aspects",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 1,
+			"entries": [
+				"You have learned to channel Aspects of your Spirit's power. At 1st level, you unlock an Unsealed Aspect of your choice from the list at the end of this class. If an Aspect has a prerequisite, like another Unsealed Aspect or a Vessel level, you must meet those prerequisites to unlock it.",
+				"At certain Vessel levels, you unlock additional Aspects, as shown in the {@filter Unsealed Aspects|optionalfeatures|feature type=LL:UA} column of the Vessel table.",
+				"Finally, when you unlock a new Unsealed Aspect, you can replace one of your Unsealed Aspects with another Aspect of your choice. Though you can't replace prerequisite Aspects."
+			]
+		},
+		{
+			"name": "Vessel Magic",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 2,
+			"entries": [
+				"Also at 2nd level, you learn to draw upon the immense power of the Sealed Spirit bound within your soul to produce spells, much like a Warlock does. You gain the following features:",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"page": 3,
+					"entries": [
+						"You learn two Cantrips of your choice from the Vessel Spell List. You learn another Vessel Cantrip at 4th and 11th level, as shown in the Cantrips Known column of the Vessel table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"page": 3,
+					"entries": [
+						"The Vessel table above shows how many spell slots you have to cast your Vessel spells and the level of those spell slots. All of your spell slots are the same level. To cast a Vessel spell of 1st-level or higher, you must expend a spell slot. You regain all of your spell slots when you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known of 1st-level and Higher",
+					"page": 3,
+					"entries": [
+						"At 2nd level, you learn two 1st-level spells of your choice from the Vessel Spell List, which is found at the end of this class.",
+						"The Spells Known column of the Vessel table shows when you learn additional Vessel spells of 1st-level and up. Vessel spells you learn must all be of a level equal to, or lower than, your Slot Level, as shown on the Vessel table.",
+						"When you gain a Vessel level, you can replace one Vessel spell you know with a Vessel spell of your choice, which also must be of a level for which you have spell slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"page": 3,
+					"entries": [
+						"Charisma is your spellcasting ability for your Vessel spells, as you are using your will to draw on the power of the Spirit that dwells within you. You use your Charisma whenever a spell refers to your spellcasting ability, when you set the saving throw DC for a spell, and when you make a spell attack roll.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"page": 3,
+					"entries": [
+						"Your Spirit Mantle is your Spellcasting Focus for your Vessel spells, and you must be cloaked in it to cast these spells. You must have a free hand to cast a spell that requires a somatic or a material component, and you must still provide material components that are consumed or have a gold cost."
+					]
+				}
+			]
+		},
+		{
+			"name": "Archon Form",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, when you cloak yourself in your Spirit Mantle, you can draw upon even more of your Spirit's power and transform into your Archon Form, using the stat block in your Sealed Spirit description. This Archon Form uses your Proficiency Bonus (PB) and your Vessel Spell save DC.",
+				"You can maintain your Archon Form for 10 minutes. You then revert to your normal form unless you expend a Vessel Magic spell slot to extend the transformation by 10 minutes. You also revert if you become Unconscious, you are reduced to 0 hit points, or you use a bonus action to revert.",
+				"While in your Archon Form, use the following rules:",
+				{
+					"type": "entries",
+					"name": "Archon Form",
+					"entries": [
+						"Your statistics are replaced with those in your Archon Form's stat block. You do retain your alignment, personality, ability scores, and hit points. You also retain skill and saving throw proficiencies, and gain those of your Archon Form."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spirit Mantle",
+					"entries": [
+						"In Archon Form, you are considered cloaked in your Spirit Mantle and gain all its benefits and features, such as Ethereal Armor and Iridescent Strikes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Armor Class Bonus",
+					"entries": [
+						"Some Archon Forms grant you a bonus to your Armor Class. This AC Bonus only applies to your Ethereal Armor from your Spirit Mantle."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Hit Points",
+					"entries": [
+						"When you transform, you gain temporary hit points equal to twice your Vessel level. All temporary hit points you gain in Archon Form are lost when you return to your normal form."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Features",
+					"entries": [
+						"You retain all features from your class, race, or other sources that your Archon is capable of using. This includes the ability to cast spells with Vessel Magic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equipment",
+					"entries": [
+						"When you transform, you must decide if your equipment falls to the ground, merges with your Archon, or is worn by it. Worn equipment functions normally, but your DM decides if your Archon can use it. Any equipment that merges with your Archon has no effect during your transformation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Uses",
+					"entries": [
+						"You can transform into Archon Form once, and you regain the ability to transform again when you finish a short or long rest. If you have no uses left, you can expend a Vessel Magic spell slot to transform into your Archon Form again."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sealed Spirit",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You have unlocked the true power of the entity bound to your soul. ",
+				"Your Sealed Spirit grants you features at 3rd level, and again when you reach 6th, 15th, and 20th level in this class.",
+				"All Sealed Spirit features use your Vessel Spell save DC.",
+				{
+					"type": "entries",
+					"name": "Sealed Magic",
+					"page": 3,
+					"entries": [
+						"Each Sealed Spirit has a list of Sealed Magic spells you learn at the Vessel levels listed in its description. They are Vessel spells for you, but do not count against your number of Spells Known. You can't replace these spells when you gain a level.",
+						"The magic of your Spirit can also change the damage type dealt by your Iridescent Strikes, and is noted here."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of your ability scores above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a Vessel spell, you can make one Iridescent Strike as a bonus action on that turn."
+			]
+		},
+		{
+			"name": "Sealed Spirit Feature",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Sealed Spirit."
+			]
+		},
+		{
+			"name": "Controlled Transformation",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 7,
+			"entries": [
+				"Beginning at 7th level, you can channel and maintain control over more power from your Sealed Spirit. Your Archon Form transformation can now last for up to 1 hour, and it only ends early if you are reduced to 0 hit points or you use your bonus action to end it. You cannot rest in Archon Form.",
+				"Also, when you roll initiative and are not Incapacitated or Surprised, you can instantly transform into Archon Form."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of your ability scores above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Primeval Will",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 10,
+			"entries": [
+				"Beginning at 10th level, your Spirit can lend you its willpower. If you fail an Intelligence, Wisdom, or Charisma saving throw, or a saving throw to maintain concentration you can add your Charisma modifier (minimum of +1) to your roll.",
+				"You can do so a number of times equal to your Charisma modifier (a minimum of once), and you regain all expended uses of this feature when you complete a long rest."
+			]
+		},
+		{
+			"name": "Elder Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 11,
+			"entries": [
+				"You can unleash a greater amount of your Sealed Spirit's true power. Starting at 11th level, when you transform into Archon Form, you can cast one of your Sealed Magic spells as part of your transformation without expending a spell slot. The spell must have a casting time of one action, or one bonus action."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of your ability scores above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Dire Preservation",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 14,
+			"entries": [
+				"At 14th level, the Spirit bound to you will unleash its power to defend its Vessel. When you would be reduced to 0 hit points, but not killed outright, you can transform into Archon Form, expending resources as normal, and fall to 1 hit point instead."
+			]
+		},
+		{
+			"name": "Sealed Spirit Feature",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain a feature granted by your Sealed Spirit."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of your ability scores above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Unchained Power",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 18,
+			"entries": [
+				"You and the Spirit bound to your soul merge and become an entirely new and distinct creature. Upon reaching 18th level, your Archon Form transformation lasts indefinitely and only ends if you are killed or if you use a bonus action to end it."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of your ability scores above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Sealed Spirit Feature",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"level": 20,
+			"entries": [
+				"At 20th level, you gain a feature granted by your Sealed Spirit."
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Vessel",
+			"source": "LLOC",
+			"page": 1,
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"con",
+				"cha"
+			],
+			"spellcastingAbility": "cha",
+			"cantripProgression": [
+				0,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"spellsKnownProgression": [
+				0,
+				2,
+				2,
+				3,
+				3,
+				4,
+				4,
+				5,
+				5,
+				6,
+				6,
+				7,
+				7,
+				8,
+				8,
+				9,
+				9,
+				10,
+				10,
+				11
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							{
+								"choose": "level=1|class=Vessel (LLVes)",
+								"count": 2
+							}
+						],
+						"4": [
+							{
+								"choose": "level=1|class=Vessel (LLVes)"
+							}
+						],
+						"6": [
+							{
+								"choose": "level=1;2|class=Vessel (LLVes)"
+							}
+						],
+						"8": [
+							{
+								"choose": "level=1;2|class=Vessel (LLVes)"
+							}
+						],
+						"10": [
+							{
+								"choose": "level=1;2;3|class=Vessel (LLVes)"
+							}
+						],
+						"12": [
+							{
+								"choose": "level=1;2;3|class=Vessel (LLVes)"
+							}
+						],
+						"14": [
+							{
+								"choose": "level=1;2;3;4|class=Vessel (LLVes)"
+							}
+						],
+						"16": [
+							{
+								"choose": "class=Vessel (LLVes)"
+							}
+						],
+						"18": [
+							{
+								"choose": "class=Vessel (LLVes)"
+							}
+						],
+						"20": [
+							{
+								"choose": "class=Vessel (LLVes)"
+							}
+						]
+					}
+				}
+			],
+			"classSpells": [
+				"chill touch",
+				"create bonfire|XGE",
+				"dancing lights",
+				"friends (alternate)|llspell",
+				"frostbite|XGE",
+				"glitterbeam|llspell",
+				"infestation|XGE",
+				"lightning lure (alternate)|llspell",
+				"mage hand",
+				"message",
+				"minor illusion",
+				"otherworldly grasp|llspell",
+				"thaumaturgy",
+				"thunderclap",
+				"Absorb Elements|XGE",
+				"Armor of Agathys",
+				"Arms of Hadar",
+				"Bane",
+				"Cause Fear|XGE",
+				"Charm Person",
+				"Command",
+				"Dissonant Whispers",
+				"Ethereal Anchor|llspell",
+				"Faerie Fire",
+				"Feather Fall",
+				"Hellish Rebuke",
+				"Inflict Wounds",
+				"Jump (alternate)|llspell",
+				"Longstrider",
+				"Protection from Evil and Good",
+				"Sanctuary",
+				"Sleep",
+				"Thunderwave",
+				"Witch Bolt (alternate)|llspell",
+				"Alter Self",
+				"Augury",
+				"Blindness/Deafness",
+				"Blur",
+				"Darkness",
+				"Darkvision",
+				"Detect Thoughts",
+				"Enhance Ability",
+				"Enlarge/Reduce",
+				"Enthrall",
+				"Flame Whip|llspell",
+				"Hold Person",
+				"Invisibility",
+				"Nystul's Magic Aura",
+				"Mind Spike|XGE",
+				"Tasha's Mind Whip|TCE",
+				"Misty Step",
+				"See Invisibility",
+				"Shadow Blade|XGE",
+				"Silence",
+				"Spider Climb",
+				"Suggestion",
+				"Bestow Curse",
+				"Clairvoyance",
+				"Dispel Magic",
+				"Fear",
+				"Fly",
+				"Gaseous Form",
+				"Haste",
+				"Hunger of Hadar (alternate)|llspell",
+				"Life Transference|XGE",
+				"Nondetection",
+				"Protection from Energy",
+				"Slow",
+				"Spectral Passage|llspell",
+				"Spirit Shroud|TCE",
+				"Thunder Step|XGE",
+				"Vampiric Touch",
+				"Banishment",
+				"Eldritch Tentacles|llspell",
+				"Blight",
+				"Charm Monster|XGE",
+				"Death Ward",
+				"Dimension Door",
+				"Fire Shield",
+				"Freedom of Movement",
+				"Greater Invisibility",
+				"Phantasmal Killer",
+				"Polymorph (alternate)|llspell",
+				"Shadow of Moil|XGE",
+				"Sickening Radiance|XGE",
+				"Bigby's Hand",
+				"Circle of Power",
+				"Cloudkill",
+				"Contact Other Plane",
+				"Destructive Wave",
+				"Dispel Evil and Good",
+				"Enervation|XGE",
+				"Far Step|XGE",
+				"Hold Monster",
+				"wall of light|XGE",
+				"ensnaring strike (alternate)|llspell",
+				"dire wail|llspell",
+				"spiritual sundering|llspell"
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Unsealed Aspects",
+					"featureType": [
+						"LL:UA"
+					],
+					"progression": {
+						"1": 1,
+						"2": 2,
+						"4": 3,
+						"7": 4,
+						"10": 5,
+						"14": 6,
+						"18": 7
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple",
+					"{@item scimitar|phb|scimitars}",
+					"{@item shortsword|phb|shortswords}"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"insight",
+								"intimidation",
+								"perception",
+								"religion",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item scimitar|phb} or (b) two {@item dagger|phb|daggers}",
+					"(a) a {@filter simple weapon|items|source=phb|type=simple weapon} or (b) a {@item shortbow|phb} and {@item arrows (20)|phb|20 arrows}",
+					"(a) an {@item explorer's pack|phb} or (b) a {@item priest's pack|phb}",
+					"{@item leather armor|phb} and a {@item quarterstaff|phb}"
+				],
+				"defaultData": [
+					{
+						"a": [
+							"scimitar|phb"
+						],
+						"b": [
+							{
+								"item": "dagger|phb",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"a": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						],
+						"b": [
+							"shortbow|phb",
+							"arrows (20)|phb"
+						]
+					},
+					{
+						"a": [
+							"explorer's pack|phb"
+						],
+						"b": [
+							"priest's pack|phb"
+						]
+					},
+					{
+						"a": [
+							"leather armor|phb",
+							"quarterstaff|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"cha": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"weapons": [
+						"simple"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Vessel (LLVes)}",
+						"{@filter Spells Known|spells|class=Vessel (LLVes)}",
+						"Spell Slots",
+						"Slot Level",
+						"{@filter Unsealed Aspects|optionalfeatures|feature type=LL:UA}"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0,
+							1
+						],
+						[
+							2,
+							2,
+							2,
+							"{@filter 1st|spells|level=1|class=Vessel (LLVes)}",
+							2
+						],
+						[
+							2,
+							2,
+							2,
+							"{@filter 1st|spells|level=1|class=Vessel (LLVes)}",
+							2
+						],
+						[
+							3,
+							3,
+							2,
+							"{@filter 1st|spells|level=1|class=Vessel (LLVes)}",
+							3
+						],
+						[
+							3,
+							3,
+							2,
+							"{@filter 2nd|spells|level=2|class=Vessel (LLVes)}",
+							3
+						],
+						[
+							3,
+							4,
+							2,
+							"{@filter 2nd|spells|level=2|class=Vessel (LLVes)}",
+							3
+						],
+						[
+							3,
+							4,
+							2,
+							"{@filter 2nd|spells|level=2|class=Vessel (LLVes)}",
+							4
+						],
+						[
+							3,
+							5,
+							2,
+							"{@filter 2nd|spells|level=2|class=Vessel (LLVes)}",
+							4
+						],
+						[
+							3,
+							5,
+							2,
+							"{@filter 3rd|spells|level=3|class=Vessel (LLVes)}",
+							4
+						],
+						[
+							3,
+							6,
+							2,
+							"{@filter 3rd|spells|level=3|class=Vessel (LLVes)}",
+							5
+						],
+						[
+							4,
+							6,
+							3,
+							"{@filter 3rd|spells|level=3|class=Vessel (LLVes)}",
+							5
+						],
+						[
+							4,
+							7,
+							3,
+							"{@filter 3rd|spells|level=3|class=Vessel (LLVes)}",
+							5
+						],
+						[
+							4,
+							7,
+							3,
+							"{@filter 4th|spells|level=4|class=Vessel (LLVes)}",
+							5
+						],
+						[
+							4,
+							8,
+							3,
+							"{@filter 4th|spells|level=4|class=Vessel (LLVes)}",
+							6
+						],
+						[
+							4,
+							8,
+							3,
+							"{@filter 4th|spells|level=4|class=Vessel (LLVes)}",
+							6
+						],
+						[
+							4,
+							9,
+							3,
+							"{@filter 4th|spells|level=4|class=Vessel (LLVes)}",
+							6
+						],
+						[
+							4,
+							9,
+							4,
+							"{@filter 5th|spells|level=5|class=Vessel (LLVes)}",
+							6
+						],
+						[
+							4,
+							10,
+							4,
+							"{@filter 5th|spells|level=5|class=Vessel (LLVes)}",
+							7
+						],
+						[
+							4,
+							10,
+							4,
+							"{@filter 5th|spells|level=5|class=Vessel (LLVes)}",
+							7
+						],
+						[
+							4,
+							11,
+							4,
+							"{@filter 5th|spells|level=5|class=Vessel (LLVes)}",
+							7
+						]
+					]
+				}
+			],
+			"subclassTitle": "Sealed Spirit",
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"title": "Iridescent Strikes",
+					"configuration": {
+						"identifier": "iridescent-strike",
+						"type": "dice",
+						"scale": {
+							"1": {
+								"n": 1,
+								"die": 6
+							},
+							"5": {
+								"n": 1,
+								"die": 8
+							},
+							"11": {
+								"n": 1,
+								"die": 10
+							},
+							"17": {
+								"n": 1,
+								"die": 12
+							}
+						}
+					}
+				},
+				{
+					"type": "ScaleValue",
+					"title": "Archon Form Uses",
+					"configuration": {
+						"identifier": "archon-uses",
+						"type": "numeric",
+						"scale": {
+							"3": {
+								"value": 1
+							},
+							"7": {
+								"value": 2
+							}
+						}
+					}
+				},
+				{
+					"type": "ScaleValue",
+					"title": "Spell Slots",
+					"configuration": {
+						"identifier": "slots",
+						"type": "numeric",
+						"scale": {
+							"1": {
+								"value": 0
+							},
+							"2": {
+								"value": 2
+							},
+							"11": {
+								"value": 3
+							},
+							"17": {
+								"value": 4
+							}
+						}
+					}
+				},
+				{
+					"type": "ScaleValue",
+					"title": "Slot Level",
+					"configuration": {
+						"identifier": "level",
+						"type": "numeric",
+						"scale": {
+							"1": {
+								"value": 0
+							},
+							"2": {
+								"value": 1
+							},
+							"5": {
+								"value": 2
+							},
+							"9": {
+								"value": 3
+							},
+							"13": {
+								"value": 4
+							},
+							"17": {
+								"value": 5
+							}
+						}
+					}
+				}
+			],
+			"foundryImg": "icons/magic/control/silhouette-hold-change-green.webp",
+			"classFeatures": [
+				"Iridescent Strikes|Vessel|LLOC|1|LLOC",
+				"Spirit Mantle|Vessel|LLOC|1|LLOC",
+				"Ethereal Armor|Vessel|LLOC|1|LLOC",
+				"Unsealed Aspects|Vessel|LLOC|1|LLOC",
+				"Vessel Magic|Vessel|LLOC|2|LLOC",
+				"Archon Form|Vessel|LLOC|3|LLOC",
+				{
+					"classFeature": "Sealed Spirit|Vessel|LLOC|3|LLOC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Vessel|LLOC|4|LLOC",
+				"Extra Attack|Vessel|LLOC|5|LLOC",
+				{
+					"classFeature": "Sealed Spirit Feature|Vessel|LLOC|6|LLOC",
+					"gainSubclassFeature": true
+				},
+				"Controlled Transformation|Vessel|LLOC|7|LLOC",
+				"Ability Score Improvement|Vessel|LLOC|8|LLOC",
+				"Primeval Will|Vessel|LLOC|10|LLOC",
+				"Elder Archon|Vessel|LLOC|11|LLOC",
+				"Ability Score Improvement|Vessel|LLOC|12|LLOC",
+				"Dire Preservation|Vessel|LLOC|14|LLOC",
+				{
+					"classFeature": "Sealed Spirit Feature|Vessel|LLOC|15|LLOC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Vessel|LLOC|16|LLOC",
+				"Unchained Power|Vessel|LLOC|18|LLOC",
+				"Ability Score Improvement|Vessel|LLOC|19|LLOC",
+				{
+					"classFeature": "Sealed Spirit Feature|Vessel|LLOC|20|LLOC",
+					"gainSubclassFeature": true
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Ancient Knowledge",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Ascended",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Your Spirit grants you access to its vast esoteric knowledge. During a long rest, you now prepare a number of spells from the Vessel or Wizard spell list equal to your Spells Known, in place of your Spells Known. The spells you prepare must be equal to your Slot level or lower. In addition, you can cast the Ritual version of any spell you prepare."
+			]
+		},
+		{
+			"name": "Ascended Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Ascended",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You take on the luminous form of the ancient spellcaster that is bound to you. Your Archon Form uses the stat block below:",
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"name": "Ascended Archon",
+					"source": "LLVessel",
+					"style": "inset"
+				}
+			]
+		},
+		{
+			"name": "Ascended Magic",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Ascended",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the Vessel levels noted in the table below. These spells don't count against your total number of Spells Known and cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"page": 4,
+					"colLabels": [
+						"Vessel Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell identify}, {@spell shield (alternate)|llspell}"
+						],
+						[
+							"5th",
+							"{@spell hold person}, {@spell invisibility}"
+						],
+						[
+							"9th",
+							"{@spell melf's minute meteors|xge}, {@spell counterspell (alternate)|llspell}"
+						],
+						[
+							"13th",
+							"{@spell divination}, {@spell otiluke's resilient sphere|PHB|resilient sphere}"
+						],
+						[
+							"17th",
+							"{@spell Bigby's Hand}, {@spell commune}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Iridescent Strike Alteration",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Ascended",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Your Iridescent Strikes can also deal the damage type of any Vessel spell you know, which you can choose on hit."
+			]
+		},
+		{
+			"name": "The Ascended",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Ascended",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"When mortals attain heights of arcane power that allow them to ascend beyond their physical forms, they make themselves vulnerable to being sealed away. Often, these great sorcerers and archmages are punished by the deities of magic, and are imprisoned where they can no longer violate arcane laws.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ancient Knowledge|Vessel|LLOC|Ascended|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ascended Archon|Vessel|LLOC|Ascended|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ascended Magic|Vessel|LLOC|Ascended|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Iridescent Strike Alteration|Vessel|LLOC|Ascended|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Ascended",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"The mage imprisoned within your soul empowers your spells. When you deal damage with a Vessel or Wizard spell, you add your Charisma modifier (minimum of +1) to one damage roll."
+			]
+		},
+		{
+			"name": "Ascended Arcanum",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Ascended",
+			"subclassSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"You wrest even greater magics from the Ascended within you. You learn a single 5th-level Wizard spell of your choice, which you can cast once per long rest without spending a spell slot.",
+				"At 20th level, you learn a 6th-level Wizard spell that you can also cast once per long rest without expending a spell slot."
+			]
+		},
+		{
+			"name": "Archmage Reborn",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Ascended",
+			"subclassSource": "LLOC",
+			"level": 20,
+			"entries": [
+				"Your soul allows your Ascended Spirit to manifest itself once again. Your Archon Form gains the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You assume the appearance The Ascended had in life.",
+						"Your flying speed increases to 30 feet.",
+						"The distance you can teleport with Astral Step is doubled.",
+						"As a bonus action on each of your turns, you can teleport up to 30 feet to an unoccupied space you can see in range.",
+						"The radius of your Arcane Blast becomes 15 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cataclysm Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cataclysm",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You can take on a form of pure elemental power, wreathed in storms, flames, stone, or waves. When you transform into your Archon Form, you use the Cataclysm Archon stat block below that corresponds to the Elemental Affinity you chose at 3rd level:",
+				{
+					"type": "table",
+					"page": 7,
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							{
+								"type": "statblock",
+								"tag": "creature",
+								"name": "Air Archon",
+								"source": "LLVessel",
+								"style": "inset"
+							},
+							{
+								"type": "statblock",
+								"tag": "creature",
+								"name": "Fire Archon",
+								"source": "LLVessel",
+								"style": "inset"
+							}
+						],
+						[
+							{
+								"type": "statblock",
+								"tag": "creature",
+								"name": "Earth Archon",
+								"source": "LLVessel",
+								"style": "inset"
+							},
+							{
+								"type": "statblock",
+								"tag": "creature",
+								"name": "Water Archon",
+								"source": "LLVessel",
+								"style": "inset"
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Cataclysm Magic",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cataclysm",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You also learn certain spells at the Vessel levels below. They are Vessel spells for you, but they do not count against your number of Spells Known, and they cannot be replaced.",
+				"Spells on the first table are shared by Cataclysm Vessels of all Elemental Affinities. The second spell you gain at the Vessel levels listed below is determined by your Elemental Affinity, and are listed by Element on the tables below.",
+				{
+					"type": "table",
+					"page": 6,
+					"colLabels": [
+						"Vessel Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell absorb elements|XGE}"
+						],
+						[
+							"5th",
+							"{@spell elemental blade|llspell}"
+						],
+						[
+							"9th",
+							"{@spell elemental bane (alternate)|llspell}"
+						],
+						[
+							"13th",
+							"{@spell otiluke's resilient sphere}"
+						],
+						[
+							"17th",
+							"{@spell far step|XGE}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"page": 6,
+					"colLabels": [
+						"Vessel Level",
+						"Air Spells",
+						"Earth Spells"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-5 text-left",
+						"col-10 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell beckon air|llspell}, {@spell thunderwave}",
+							"{@spell mold earth (alternate)|llspell}, {@spell earth tremor|xge}"
+						],
+						[
+							"5th",
+							"{@spell dust devil|xge}",
+							"{@spell spike growth}"
+						],
+						[
+							"9th",
+							"{@spell sonic wave|llspell}",
+							"{@spell erupting earth|xge}"
+						],
+						[
+							"13th",
+							"{@spell storm sphere|XGE}",
+							"{@spell pillars of earth|llspell}"
+						],
+						[
+							"17th",
+							"{@spell control winds|XGE}",
+							"{@spell wall of stone}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"page": 6,
+					"colLabels": [
+						"Vessel Level",
+						"Fire Spells",
+						"Water Spells"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-5 text-left",
+						"col-10 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell control flame (alternate)|llspell}, {@spell hellish rebuke}",
+							"{@spell shape water (alternate)|llspell}, {@spell torrent|llspell}"
+						],
+						[
+							"5th",
+							"{@spell flaming sphere}",
+							"{@spell misty step}"
+						],
+						[
+							"9th",
+							"{@spell fireball}",
+							"{@spell tidal wave|xge}"
+						],
+						[
+							"13th",
+							"{@spell wall of fire}",
+							"{@spell watery sphere|xge}"
+						],
+						[
+							"17th",
+							"{@spell flame strike}",
+							"{@spell maelstrom|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Affinity",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cataclysm",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Within you is bound an elder elemental Spirit of great power. Choose the element from the list below that best represents that of your Spirit. This choice grants you Affinity with, and resistance to certain damage type, as shown on the table:",
+				{
+					"type": "table",
+					"caption": "Elemental Affinity Table",
+					"page": 6,
+					"colLabels": [
+						"Air",
+						"Earth",
+						"Fire",
+						"Water"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-3 text-center",
+						"col-3 text-center",
+						"col-3 text-center"
+					],
+					"rows": [
+						[
+							"thunder",
+							"bludgeoning",
+							"fire",
+							"cold"
+						]
+					]
+				},
+				"Your Elemental Affinity also determines the statblock you use for your Archon Form, which are found on the next page."
+			]
+		},
+		{
+			"name": "Iridescent Strike Alteration",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cataclysm",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Finally, you can choose for your Iridescent Strikes to deal your Affinity damage type on hit, which is always magical."
+			]
+		},
+		{
+			"name": "The Cataclysm",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cataclysm",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"At the dawn of the multiverse, elemental forces ran wild. Great beings of pure Air, Earth, Fire, and Water ravaged through the material plane, shaping it to their frivolous and destructive will. These primordial elementals and elder genies were banished from the material plane, but are always seeking to return. When they threaten mortal realms, great forces bind these elder elemental beings to mortal hosts, holding back the Cataclysm for a time.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cataclysm Archon|Vessel|LLOC|Cataclysm|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cataclysm Magic|Vessel|LLOC|Cataclysm|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Elemental Affinity|Vessel|LLOC|Cataclysm|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Iridescent Strike Alteration|Vessel|LLOC|Cataclysm|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Elder Power",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cataclysm",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"Your Spirit infuses you with its elder elemental power. While cloaked in your Spirit Mantle, you gain Immunity to Affinity damage you inflict with Vessel spells and other abilities.",
+				"Moreover, when you deal Affinity damage in Archon Form, you treat a roll of 1 or 2 on any of your damage dice as a 3."
+			]
+		},
+		{
+			"name": "Cataclysmic Eruption",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cataclysm",
+			"subclassSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"You can briefly manifest the raw destructive elements of your Spirit. As an action, you can cause a 15-foot diameter, 60-foot high, pillar of elemental power to erupt from a surface you can see within 30 feet, forcing creatures to make a Dexterity saving throw, then it disappears. Creatures take 9d6 Affinity damage on a failure, and half as much on a success.",
+				"You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all uses when you finish a long rest. If you have no uses left, you can expend a Vessel Magic spell slot to use this feature again."
+			]
+		},
+		{
+			"name": "Cataclysm Reborn",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cataclysm",
+			"subclassSource": "LLOC",
+			"level": 20,
+			"entries": [
+				"You wield the full power of your primordial Cataclysm. When you are in your Archon Form you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You assume the true appearance of your Cataclysm.",
+						"The weather in a 1-mile radius surrounding you subtly changes to reflect your primordial elemental influence.",
+						"You can use your Cataclysmic Eruption action at will."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cursed Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cursed",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You can take on a sinister form wreathed in the dark flame and shadow of your Cursed Spirit. When you transform into Archon Form, you use the statblock below.",
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"name": "Cursed Archon",
+					"source": "LLVessel",
+					"style": "inset"
+				}
+			]
+		},
+		{
+			"name": "Cursed Magic",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cursed",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the Vessel levels noted in the table below. These spells don't count against your total number of Spells Known and cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"page": 8,
+					"colLabels": [
+						"Vessel Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Jump (alternate)|llspell}, {@spell hellish rebuke}"
+						],
+						[
+							"5th",
+							"{@spell flame whip|llspell}, {@spell scorching ray}"
+						],
+						[
+							"9th",
+							"{@spell fireball}, {@spell haste}"
+						],
+						[
+							"13th",
+							"{@spell dominate beast}, {@spell wall of fire}"
+						],
+						[
+							"17th",
+							"{@spell flame strike}, {@spell insect plague}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Iridescent Strike Alteration",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cursed",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Your Iridescent Strikes can also deal fire damage on hit."
+			]
+		},
+		{
+			"name": "Malignant Aura",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cursed",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"The aura of the Cursed Spirit sealed within your soul bleeds into your personality. You gain the {@optfeature Striking Presence|LLOC} Aspect. It does not count against your number of Unsealed Aspects and it cannot be replaced with another Aspect.",
+				"If you already have the Striking Presence Aspect, you gain another Unsealed Aspect of your choice.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Striking Presence|LLVessel"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "The Cursed",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cursed",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Condemned by the heavens for transgressions at the dawn of time, Cursed Spirits were once wielders of an overwhelming sinister power. Counted among these Spirits are the demons, devils, and all other nefarious spirits of the lower planes. To be considered one of the Cursed, the Spirit posed a direct threat to the order of the multiverse, and were sealed to prevent untold calamity.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cursed Archon|Vessel|LLOC|Cursed|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cursed Magic|Vessel|LLOC|Cursed|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Iridescent Strike Alteration|Vessel|LLOC|Cursed|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Malignant Aura|Vessel|LLOC|Cursed|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Hellfire",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cursed",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"You can access the true power of the dark Spirit imprisoned within, conjuring cursed infernal flames. Whenever you deal fire damage to a target, you ignore resistance to fire damage and treat immunity to fire as resistance.",
+				"Also, if you deal fire damage to a creature it cannot regain hit points until the start of your next turn."
+			]
+		},
+		{
+			"name": "Dark Sacrifice",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cursed",
+			"subclassSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"You can sacrifice your vitality to your Spirit in return for its power. As a bonus action, you can reduce both your current and maximum hit points by 10 to regain one of your Vessel Magic slots. This reduction cannot be lessened in any way.",
+				"At the end of your next long rest any reduction to your hit point maximum from this feature returns to normal."
+			]
+		},
+		{
+			"name": "Lord of Darkness",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cursed",
+			"subclassSource": "LLOC",
+			"level": 20,
+			"entries": [
+				"Your power allows your Spirit to walk in the material world once again. Your Archon Form gains the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You assume the true appearance of your Cursed Spirit.",
+						"You are immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions, and to both poison and fire damage.",
+						"When you take the Attack action on your turn you can make one bonus Iridescent Strike as part of your action.",
+						"Once per turn when you deal fire damage to a creature with an Iridescent Strike you can cause it to be frightened of you until the beginning of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Celestial Warrior",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Fallen",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You are infused with the skills and vigilance of the heavenly host. You gain proficiency in Insight and all martial weapons.",
+				"Whenever you make an Insight check while cloaked in your Spirit Mantle, you add your Charisma modifier to your roll."
+			]
+		},
+		{
+			"name": "Divine Wrath",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Fallen",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				" When you make a melee weapon attack while cloaked in your Spirit Mantle, you can infuse it with Divine Wrath. When you do, you use Charisma for its attack and damage rolls, it deals radiant damage on hit, and it counts as an Iridescent Strike."
+			]
+		},
+		{
+			"name": "Fallen Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Fallen",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You take on a form wreathed in rings of fire or a humanoid that radiates golden light. When you transform into your Archon Form, you use the Fallen Archon stat block below:",
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"name": "Fallen Archon",
+					"source": "LLVessel",
+					"style": "inset"
+				}
+			]
+		},
+		{
+			"name": "Fallen Magic",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Fallen",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.",
+				{
+					"type": "table",
+					"page": 9,
+					"colLabels": [
+						"Vessel Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell divine favor (alternate)|llspell}, {@spell ethereal anchor|llspell}"
+						],
+						[
+							"5th",
+							"{@spell branding smite (alternate)|llspell}, {@spell spiritual weapon}"
+						],
+						[
+							"9th",
+							"{@spell revivify}, {@spell crusader's mantle}"
+						],
+						[
+							"13th",
+							"{@spell banishment}, {@spell guardian of faith}"
+						],
+						[
+							"17th",
+							"{@spell flame strike}, {@spell circle of power}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "The Fallen",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Fallen",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Not all denizens of the upper planes serve the will of the gods that created them. Those who stray too far from the ordained purpose invoke divine wrath. These wayward celestial beings are branded as Fallen Spirits and hurled from the heavens to be imprisoned in mortals to atone for their sins. Some swear revenge upon the heavens while others seek reconciliation.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Celestial Warrior|Vessel|LLOC|Fallen|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Divine Wrath|Vessel|LLOC|Fallen|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fallen Archon|Vessel|LLOC|Fallen|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fallen Magic|Vessel|LLOC|Fallen|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Condemnation",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Fallen",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"When you hit a creature with a Divine Wrath attack while in Archon Form, you can Condemn it. A Condemned creature must spend two feet of movement for every foot it wishes to move away from you, and your Divine Wrath attacks against it score a critical hit on a roll of 19 or 20 on the d20.",
+				"You can only Condemn a single creature per Archon Form transformation, and it lasts until you revert to normal form."
+			]
+		},
+		{
+			"name": "Heavenly Zeal",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Fallen",
+			"subclassSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"You unlock the {@optfeature Aether Wings|LLOC} Unsealed Aspect, or another if you have already unlocked it. It does not count against your Unsealed Aspects, and Aether Wings cannot be replaced.",
+				"Your Divine Wrath attacks against Condemned creatures also now score a critical hit on a roll of 18-20 on the d20.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Aether Wings|LLVessel"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Divine Avenger",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Fallen",
+			"subclassSource": "LLOC",
+			"level": 20,
+			"entries": [
+				"You can fully channel the divinity of the Spirit bound to your mortal flesh. Your Archon Form gains the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You assume the true appearance of your Fallen Spirit.",
+						"When you miss a target with a weapon attack, the next attack you make against that creature has advantage.",
+						"If you score a critical hit against a creature, it is Blinded, Deafened, and mute until the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Amorphous Shape",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Formless",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"The oozing Spirit bound to your soul allows you to reshape yourself in unnatural ways. You can move through gaps as narrow as 1-inch without having to squeeze. However, this ability has no effect on anything you are wearing or carrying.",
+				"You also gain the {@optfeature Ethereal Tendril|LLOC} Aspect. It does not count against your number of Unsealed Aspects and it cannot be replaced with another Unsealed Aspect.",
+				"If you already know Ethereal Tendril, you gain another Unsealed Aspect of your choice.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Ethereal Tendril|LLVessel"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Formless Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Formless",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You morph into a shapeless form of slime or an unspeakable flowing mass of opaque ooze. When you transform into your Archon Form you use the Formless Archon stat block below:",
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"name": "Formless Archon",
+					"source": "LLVessel",
+					"style": "inset"
+				}
+			]
+		},
+		{
+			"name": "Formless Magic",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Formless",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the Vessel levels noted in the table below. The spells don't count against your total number of Spells Known and cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"page": 10,
+					"colLabels": [
+						"Vessel Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell tasha's caustic brew|TCE|caustic brew}, {@spell entangle}"
+						],
+						[
+							"5th",
+							"{@spell hold person}, {@spell web}"
+						],
+						[
+							"9th",
+							"{@spell grasping vine (alternate)|llspell}, {@spell slow}"
+						],
+						[
+							"13th",
+							"{@spell vitriolic sphere|xge}, {@spell eldritch tentacles|llspell}"
+						],
+						[
+							"17th",
+							"{@spell contagion}, {@spell hold monster}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Iridescent Strike Alteration",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Formless",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Your Iridescent Strikes can also deal acid damage."
+			]
+		},
+		{
+			"name": "The Formless",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Formless",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Before the world was shaped, horrible things slithered about the darkness. Formless monsters with only one desire, to eat and consume anything they could. These shapeless creatures of hunger are known as Formless, and even now, they gnaw the roots of the world, trapped deep below the material plane.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Amorphous Shape|Vessel|LLOC|Formless|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Formless Archon|Vessel|LLOC|Formless|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Formless Magic|Vessel|LLOC|Formless|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Iridescent Strike Alteration|Vessel|LLOC|Formless|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Drain Vitality",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Formless",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"While in Archon Form, you can use a bonus action to force any creatures under the effect of a Formless Magic spell or grappled by you to make a Constitution saving throw. On a failed save, they take 2d8 acid damage and your temporary hit points increase by half the total acid damage dealt. Your temporary hit points cannot exceed twice your level.",
+				"This acid damage increases at certain Vessel levels: at 9th ({@damage 3d8}), 13th ({@damage 4d8}), 17th ({@damage 5d8}), and 20th level ({@damage 6d8})."
+			]
+		},
+		{
+			"name": "Consume Strike",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Formless",
+			"subclassSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"Your Spirit hungers for the power of others. Whenever your Archon Form is hit by an attack, you can use your reaction to temporarily consume the memory of that attack.",
+				"The first Iridescent Strike you make before the end of your next turn morphs into a gelatinous mockery of the attack you consumed. On hit, it applies the damage and effects from the attack you consumed instead of a normal Iridescent Strike."
+			]
+		},
+		{
+			"name": "Primordial Hunger",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Formless",
+			"subclassSource": "LLOC",
+			"level": 20,
+			"entries": [
+				"You and the Formless Spirit bound to you have become one hunger. Your Archon Form gains the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You assume the true appearance of your Formless Spirit.",
+						"You gain immunity to acid damage, and whenever you deal acid damage, you ignore resistance to acid damage and you treat immunity to acid damage as resistance.",
+						"As an action on your turn, you can make one Iridescent Strike with each one of your Archon's Pseudopods."
+					]
+				}
+			]
+		},
+		{
+			"name": "Iridescent Strike Alteration",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Trickster",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"Your Iridescent Strikes can also deal psychic damage."
+			]
+		},
+		{
+			"name": "Shifting Visage",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Trickster",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You can change your appearance to better sow chaos. When your Spirit Mantle is active, you can cast {@spell disguise self} at will, without spending a spell slot, and you can unerringly mimic any sounds or voices you have heard before."
+			]
+		},
+		{
+			"name": "Trickster Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Trickster",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You take on a form that is elegant, whimsical, and terrifying, much like the powerful faerie. When you transform into your Archon Form you use the Trickster Archon stat block below:",
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"name": "Trickster Archon",
+					"source": "LLVessel",
+					"style": "inset"
+				}
+			]
+		},
+		{
+			"name": "Trickster Magic",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Trickster",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"You learn certain spells at the Vessel levels noted in the table below. These spells don't count against your total number of Spells Known and cannot be switched upon gaining a level.",
+				{
+					"type": "table",
+					"page": 11,
+					"colLabels": [
+						"Vessel Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-left"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell charm person}, {@spell disguise self}"
+						],
+						[
+							"5th",
+							"{@spell invisibility}, {@spell misty step}"
+						],
+						[
+							"9th",
+							"{@spell hypnotic pattern (alternate)|llspell}, {@spell enemies abound|xge}"
+						],
+						[
+							"13th",
+							"{@spell charm monster|XGE}, {@spell dimension door}"
+						],
+						[
+							"17th",
+							"{@spell dream}, {@spell mislead}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "The Trickster",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Trickster",
+			"subclassSource": "LLOC",
+			"level": 3,
+			"entries": [
+				"The beings of the Feywild are known for their whimsical and ephemeral ways, often unpredictable to mortals. Most of the faerie are content to follow these self-imposed rules and only interfere with mortals when they are approached. However, the Fey known as Tricksters cannot help but spread discord and need to be sealed away to limit the chaos they spread.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Iridescent Strike Alteration|Vessel|LLOC|Trickster|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shifting Visage|Vessel|LLOC|Trickster|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Trickster Archon|Vessel|LLOC|Trickster|LLOC|3|LLOC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Trickster Magic|Vessel|LLOC|Trickster|LLOC|3|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Illusory Strikes",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Trickster",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"Your Spirit projects potent illusions to attack your enemies. Whenever you would make an Iridescent Strike during your turn, you can forgo that attack to conjure one illusory copy of yourself in an unoccupied space you can see within 30 feet of you. This illusory copy of you makes one Iridescent Strike against a target within range and disappears."
+			]
+		},
+		{
+			"name": "Illusory Appearance",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Trickster",
+			"subclassSource": "LLOC",
+			"level": 6,
+			"entries": [
+				"You can change your appearance to better sow chaos. You can cast {@spell disguise self} at will, without expending a spell slot. This spell can change the appearance of your Archon Form.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Illusory Strikes|Vessel|LLOC|Trickster|LLOC|6|LLOC"
+				}
+			]
+		},
+		{
+			"name": "Fey Retribution",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Trickster",
+			"subclassSource": "LLOC",
+			"level": 15,
+			"entries": [
+				"The power of the Trickster can reflect magic back on your foes. If you succeed on a saving throw against a spell, you can use your reaction to force the caster to make a Wisdom saving throw. On a failure, it suffers the effects of either {@spell charm person} or {@spell charm monster|XGE} spell.",
+				"Once a creature is charmed by you in this way, it can't be charmed by this feature again until the next dawn."
+			]
+		},
+		{
+			"name": "Lord of Mischief",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Trickster",
+			"subclassSource": "LLOC",
+			"level": 20,
+			"entries": [
+				"You can channel the whimsical and terrifying power of The Trickster. Your Archon Form gains the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You assume the true appearance of your Trickster Spirit.",
+						"When you use Illusory Strikes the range becomes 60 feet.",
+						"Once per turn when you use Illusory Strikes you can create two illusory copies of yourself within range.",
+						"When you hit a creature with an Iridescent Strike it has disadvantage on its next Wisdom saving throw."
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "The Ascended",
+			"shortName": "Ascended",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"page": 5,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"arcane lance",
+							"shield (alternate)|llspell"
+						],
+						"5": [
+							"locate creature (alternate)|llspell",
+							"invisibility"
+						],
+						"9": [
+							"melf's minute meteors|xge",
+							"counterspell (alternate)|llspell"
+						],
+						"13": [
+							"divination",
+							"otiluke's resilient sphere"
+						],
+						"17": [
+							"bigby's hand",
+							"commune"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"identify",
+				"shield (alternate)|llspell",
+				"locate creature (alternate)|llspell",
+				"invisibility",
+				"melf's minute meteors|xge",
+				"counterspell (alternate)|llspell",
+				"divination",
+				"otiluke's resilient sphere",
+				"bigby's hand",
+				"commune"
+			],
+			"foundryImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+			"subclassFeatures": [
+				"The Ascended|Vessel|LLOC|Ascended|LLOC|3|LLOC",
+				"Potent Spellcasting|Vessel|LLOC|Ascended|LLOC|6|LLOC",
+				"Ascended Arcanum|Vessel|LLOC|Ascended|LLOC|15|LLOC",
+				"Archmage Reborn|Vessel|LLOC|Ascended|LLOC|20|LLOC"
+			]
+		},
+		{
+			"name": "The Cataclysm",
+			"shortName": "Cataclysm",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"name": "Air",
+					"known": {
+						"3": [
+							"beckon air|llspell",
+							"thunderwave"
+						],
+						"5": [
+							"dust devil|xge"
+						],
+						"9": [
+							"sonic wave|llspell"
+						],
+						"13": [
+							"storm sphere|xge"
+						],
+						"17": [
+							"control winds|xge"
+						]
+					}
+				},
+				{
+					"name": "Earth",
+					"known": {
+						"3": [
+							"mold earth (alternate)|llspell",
+							"earth tremor|xge"
+						],
+						"5": [
+							"spike growth"
+						],
+						"9": [
+							"erupting earth|xge"
+						],
+						"13": [
+							"pillars of earth|llspell"
+						],
+						"17": [
+							"wall of stone"
+						]
+					}
+				},
+				{
+					"name": "Fire",
+					"known": {
+						"3": [
+							"control flame (alternate)|llspell",
+							"hellish rebuke"
+						],
+						"5": [
+							"flaming sphere"
+						],
+						"9": [
+							"fireball"
+						],
+						"13": [
+							"wall of fire"
+						],
+						"17": [
+							"flame strike"
+						]
+					}
+				},
+				{
+					"name": "Water",
+					"known": {
+						"3": [
+							"shape water (alternate)|llspell",
+							"torrent|llspell"
+						],
+						"5": [
+							"misty step"
+						],
+						"9": [
+							"tidal wave|xge"
+						],
+						"13": [
+							"watery sphere|xge"
+						],
+						"17": [
+							"maelstrom"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"absorb elements|xge",
+				"elemental blade|llspell",
+				"elemental bane (alternate)|llspell",
+				"conjure elemental (alternate)|llspell",
+				"bigby's hand"
+			],
+			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
+			"subclassFeatures": [
+				"The Cataclysm|Vessel|LLOC|Cataclysm|LLOC|3|LLOC",
+				"Elder Power|Vessel|LLOC|Cataclysm|LLOC|6|LLOC",
+				"Cataclysmic Eruption|Vessel|LLOC|Cataclysm|LLOC|15|LLOC",
+				"Cataclysm Reborn|Vessel|LLOC|Cataclysm|LLOC|20|LLOC"
+			]
+		},
+		{
+			"name": "The Cursed",
+			"shortName": "Cursed",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"Jump (alternate)|llspell",
+							"hellish rebuke"
+						],
+						"5": [
+							"flame whip|llspell",
+							"scorching ray"
+						],
+						"9": [
+							"fireball",
+							"haste"
+						],
+						"13": [
+							"dominate beast",
+							"wall of fire"
+						],
+						"17": [
+							"flame strike",
+							"insect plague"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Jump (alternate)|llspell",
+				"hellish rebuke",
+				"flame whip|llspell",
+				"scorching ray",
+				"fireball",
+				"haste",
+				"dominate beast",
+				"wall of fire",
+				"flame strike",
+				"insect plague"
+			],
+			"foundryImg": "icons/creatures/unholy/demon-horned-winged-laughing.webp",
+			"subclassFeatures": [
+				"The Cursed|Vessel|LLOC|Cursed|LLOC|3|LLOC",
+				"Hellfire|Vessel|LLOC|Cursed|LLOC|6|LLOC",
+				"Dark Sacrifice|Vessel|LLOC|Cursed|LLOC|15|LLOC",
+				"Lord of Darkness|Vessel|LLOC|Cursed|LLOC|20|LLOC"
+			]
+		},
+		{
+			"name": "The Fallen",
+			"shortName": "Fallen",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"page": 9,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"divine favor (alternate)|llspell",
+							"ethereal anchor|llspell"
+						],
+						"5": [
+							"branding smite (alternate)|llspell",
+							"spiritual weapon"
+						],
+						"9": [
+							"revivify",
+							"crusader's mantle"
+						],
+						"13": [
+							"banishment",
+							"guardian of faith"
+						],
+						"17": [
+							"flame strike",
+							"circle of power"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"divine favor (alternate)|llspell",
+				"ethereal anchor|llspell",
+				"branding smite (alternate)|llspell",
+				"spiritual weapon",
+				"revivify",
+				"crusader's mantle",
+				"banishment",
+				"guardian of faith",
+				"flame strike",
+				"circle of power"
+			],
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"title": "Condemnation Crit Range",
+					"configuration": {
+						"identifier": "holy-zeal",
+						"type": "numeric",
+						"scale": {
+							"6": {
+								"value": 19
+							},
+							"14": {
+								"value": 18
+							},
+							"18": {
+								"value": 17
+							}
+						}
+					}
+				}
+			],
+			"foundryImg": "icons/magic/holy/angel-wings-gray.webp",
+			"subclassFeatures": [
+				"The Fallen|Vessel|LLOC|Fallen|LLOC|3|LLOC",
+				"Condemnation|Vessel|LLOC|Fallen|LLOC|6|LLOC",
+				"Heavenly Zeal|Vessel|LLOC|Fallen|LLOC|15|LLOC",
+				"Divine Avenger|Vessel|LLOC|Fallen|LLOC|20|LLOC"
+			]
+		},
+		{
+			"name": "The Formless",
+			"shortName": "Formless",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"page": 10,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"tasha's caustic brew|TCE",
+							"entangle"
+						],
+						"5": [
+							"hold person",
+							"web"
+						],
+						"9": [
+							"grasping vine (alternate)|llspell",
+							"slow"
+						],
+						"13": [
+							"vitriolic sphere|xge",
+							"eldritch tentacles|llspell"
+						],
+						"17": [
+							"contagion",
+							"hold monster"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"tasha's caustic brew|TCE",
+				"entangle",
+				"hold person",
+				"web",
+				"grasping vine (alternate)|llspell",
+				"slow",
+				"vitriolic sphere|xge",
+				"eldritch tentacles|llspell",
+				"contagion",
+				"hold monster"
+			],
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"title": "Drain Vitality Damage",
+					"configuration": {
+						"identifier": "consume-vitality",
+						"type": "dice",
+						"scale": {
+							"6": {
+								"n": 2,
+								"die": 8
+							},
+							"9": {
+								"n": 3,
+								"die": 8
+							},
+							"13": {
+								"n": 4,
+								"die": 8
+							},
+							"17": {
+								"n": 5,
+								"die": 8
+							},
+							"20": {
+								"n": 6,
+								"die": 8
+							}
+						}
+					}
+				}
+			],
+			"foundryImg": "icons/creatures/slimes/slime-movement-swirling-blue.webp",
+			"subclassFeatures": [
+				"The Formless|Vessel|LLOC|Formless|LLOC|3|LLOC",
+				"Drain Vitality|Vessel|LLOC|Formless|LLOC|6|LLOC",
+				"Consume Strike|Vessel|LLOC|Formless|LLOC|15|LLOC",
+				"Primordial Hunger|Vessel|LLOC|Formless|LLOC|20|LLOC"
+			]
+		},
+		{
+			"name": "The Trickster",
+			"shortName": "Trickster",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"page": 11,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"charm person",
+							"disguise self"
+						],
+						"5": [
+							"invisibility",
+							"misty step"
+						],
+						"9": [
+							"hypnotic pattern (alternate)|llspell",
+							"enemies abound|xge"
+						],
+						"13": [
+							"charm monster|XGE",
+							"dimension door"
+						],
+						"17": [
+							"dream",
+							"mislead"
+						]
+					},
+					"innate": {
+						"3": [
+							"disguise self"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"charm person",
+				"disguise self",
+				"invisibility",
+				"misty step",
+				"hypnotic pattern (alternate)|llspell",
+				"enemies abound|xge",
+				"charm monster|XGE",
+				"dimension door",
+				"dream",
+				"mislead"
+			],
+			"foundryImg": "icons/creatures/magical/fae-fairy-winged-glowing-green.webp",
+			"subclassFeatures": [
+				"The Trickster|Vessel|LLOC|Trickster|LLOC|3|LLOC",
+				"Illusory Appearance|Vessel|LLOC|Trickster|LLOC|6|LLOC",
+				"Fey Retribution|Vessel|LLOC|Trickster|LLOC|15|LLOC",
+				"Lord of Mischief|Vessel|LLOC|Trickster|LLOC|20|LLOC"
+			]
+		}
+	]
+}

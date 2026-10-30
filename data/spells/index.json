@@ -1,0 +1,17 @@
+{
+	"EFA": "spells-efa.json",
+	"AAG": "spells-aag.json",
+	"GGR": "spells-ggr.json",
+	"EGW": "spells-egw.json",
+	"FTD": "spells-ftd.json",
+	"LLK": "spells-llk.json",
+	"SATO": "spells-sato.json",
+	"IDROTF": "spells-idrotf.json",
+	"PHB": "spells-phb.json",
+	"TCE": "spells-tce.json",
+	"XGE": "spells-xge.json",
+	"SCC": "spells-scc.json",
+	"LLAC": "spells-llac.json",
+	"LLOC": "spells-lloc.json",
+	"LLSPELL": "spells-llspell.json"
+}

@@ -1,0 +1,114 @@
+{
+	"foundryMonster": [
+		{
+			"name": "Shade",
+			"source": "LLAC",
+			"system": {
+				"attributes.ac": {
+					"calc": "flat",
+					"flat": 14
+				}
+			}
+		},
+		{
+			"name": "Animated Object (Alternate) (Tiny/Small)",
+			"source": "llspell",
+			"system": {
+				"attributes.ac": {
+					"calc": "natural",
+					"flat": 0
+				}
+			}
+		},
+		{
+			"name": "Animated Object (Alternate) (Medium)",
+			"source": "llspell",
+			"system": {
+				"attributes.ac": {
+					"calc": "natural",
+					"flat": 0
+				}
+			}
+		},
+		{
+			"name": "Animated Object (Alternate) (Large)",
+			"source": "llspell",
+			"system": {
+				"attributes.ac": {
+					"calc": "natural",
+					"flat": 0
+				}
+			}
+		},
+		{
+			"name": "Animated Object (Alternate) (Huge)",
+			"source": "llspell",
+			"system": {
+				"attributes.ac": {
+					"calc": "natural",
+					"flat": 0
+				}
+			}
+		},
+		{
+			"name": "Awakened Plant (Tiny/Small)",
+			"source": "llspell",
+			"system": {
+				"attributes.ac": {
+					"calc": "natural",
+					"flat": 0
+				}
+			}
+		},
+		{
+			"name": "Awakened Plant (Medium)",
+			"source": "llspell",
+			"system": {
+				"attributes.ac": {
+					"calc": "natural",
+					"flat": 0
+				}
+			}
+		},
+		{
+			"name": "Awakened Plant (Large)",
+			"source": "llspell",
+			"system": {
+				"attributes.ac": {
+					"calc": "natural",
+					"flat": 0
+				}
+			}
+		},
+		{
+			"name": "Awakened Plant (Huge)",
+			"source": "llspell",
+			"system": {
+				"attributes.ac": {
+					"calc": "natural",
+					"flat": 0
+				}
+			}
+		},
+		{
+			"name": "Golem Servant",
+			"source": "llspell",
+			"system": {
+				"attributes.ac": {
+					"calc": "natural",
+					"flat": 0
+				}
+			}
+		},
+		{
+			"name": "Homunculus (Alternate)",
+			"source": "llspell",
+			"system": {
+				"attributes.ac": {
+					"calc": "natural",
+					"flat": 0
+				}
+			}
+		}
+	]
+}

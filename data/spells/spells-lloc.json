@@ -1,0 +1,45 @@
+{
+	"spell": [
+		{
+			"name": "Tower of Iron Will",
+			"source": "LLOC",
+			"page": 13,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "when you are forced to make an Intelligence, Wisdom, or Charisma saving throw"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You protect your mind with a mantra of mundane, repetitive thoughts in order to better resist mental assault. Until the beginning of your next turn, you have advantage on all Intelligence, Wisdom, and Charisma saving throws, and you gain resistance to psychic damage."
+			],
+			"miscTags": [
+				"ADV"
+			],
+			"areaTags": [
+				"ST"
+			]
+		}
+	]
+}

@@ -1,0 +1,8099 @@
+{
+	"foundrySubclassFeature": [
+		{
+			"name": "Censure the Divine",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"subclassShortName": "Heretic",
+			"subclassSource": "LLABH",
+			"level": 3,
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Blasphemous Prayer"
+									}
+								}
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"cha"
+						],
+						"dc": {
+							"calculation": "con"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Hybrid Form",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"subclassShortName": "Pale Moon",
+			"subclassSource": "LLABH",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Walking Speed Bonus",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.movement.walk",
+							"mode": "ADD",
+							"value": "+10"
+						},
+						{
+							"key": "system.attributes.movement.climb",
+							"mode": "UPGRADE",
+							"value": "@attributes.movement.walk"
+						}
+					]
+				}
+			],
+			"subEntities": {
+				"item": [
+					{
+						"name": "Natural Weapons (Hybrid Form Only)",
+						"source": "LLABH",
+						"type": "M",
+						"rarity": "none",
+						"weaponCategory": "simple",
+						"property": [
+							"F"
+						],
+						"foundrySystem": {
+							"equipped": true,
+							"damage.parts": [
+								[
+									"@scale.alternate-blood-hunter.rite-die + @mod",
+									"slashing"
+								]
+							]
+						},
+						"foundryImg": "icons/creatures/abilities/fangs-teeth-bite.webp"
+					}
+				]
+			}
+		},
+		{
+			"name": "Lycan Warrior",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"subclassShortName": "Pale Moon",
+			"subclassSource": "LLABH",
+			"level": 7,
+			"effects": [
+				{
+					"name": "Physical Resistances",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.traits.dr.value",
+							"mode": "ADD",
+							"value": "bludgeoning"
+						},
+						{
+							"key": "system.traits.dr.value",
+							"mode": "ADD",
+							"value": "piercing"
+						},
+						{
+							"key": "system.traits.dr.value",
+							"mode": "ADD",
+							"value": "slashing"
+						},
+						{
+							"key": "system.traits.dr.bypasses",
+							"mode": "CUSTOM",
+							"value": "mgc"
+						},
+						{
+							"key": "system.traits.dr.bypasses",
+							"mode": "CUSTOM",
+							"value": "sil"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spectral Nature",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"subclassShortName": "Salt & Iron",
+			"subclassSource": "LLABH",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Physical Resistances",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.traits.dr.value",
+							"mode": "ADD",
+							"value": "bludgeoning"
+						},
+						{
+							"key": "system.traits.dr.value",
+							"mode": "ADD",
+							"value": "piercing"
+						},
+						{
+							"key": "system.traits.dr.value",
+							"mode": "ADD",
+							"value": "slashing"
+						},
+						{
+							"key": "system.traits.dr.bypasses",
+							"mode": "CUSTOM",
+							"value": "mgc"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Warrior of the Dawn",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"subclassShortName": "Salt & Iron",
+			"subclassSource": "LLABH",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Necrotic Resistance",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.traits.dr.value",
+							"mode": "ADD",
+							"value": "necrotic"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spectral Mastery",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"subclassShortName": "Salt & Iron",
+			"subclassSource": "LLABH",
+			"level": 18,
+			"effects": [
+				{
+					"name": "Flying Speed",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.movement.fly",
+							"mode": "UPGRADE",
+							"value": "@attributes.movement.walk"
+						},
+						{
+							"key": "system.attributes.movement.hover",
+							"mode": "CUSTOM",
+							"value": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Vampiric Nature",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying Thirst",
+			"subclassSource": "LLABH",
+			"level": 3,
+			"subEntities": {
+				"item": [
+					{
+						"name": "Vampiric Fangs",
+						"source": "LLABH",
+						"type": "M",
+						"rarity": "none",
+						"foundrySystem": {
+							"type.value": "natural",
+							"ability": "str",
+							"equipped": true,
+							"damage.parts": [
+								[
+									"1@scale.alternate-blood-hunter.rite-die + @mod",
+									"necrotic"
+								]
+							]
+						},
+						"foundryImg": "icons/creatures/abilities/fang-tooth-blood-red.webp"
+					}
+				]
+			}
+		},
+		{
+			"name": "Essence Drain",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying Thirst",
+			"subclassSource": "LLABH",
+			"level": 6,
+			"system": {
+				"uses.max": "@abilities.con.mod"
+			},
+			"activities": [
+				{
+					"name": "Essence Drain",
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Sinister Resilience",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying Thirst",
+			"subclassSource": "LLABH",
+			"level": 7,
+			"effects": [
+				{
+					"name": "Temp HP Buffs",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.traits.dr.value",
+							"mode": "ADD",
+							"value": "bludgeoning"
+						},
+						{
+							"key": "system.traits.dr.value",
+							"mode": "ADD",
+							"value": "piercing"
+						},
+						{
+							"key": "system.traits.dr.value",
+							"mode": "ADD",
+							"value": "slashing"
+						},
+						{
+							"key": "system.traits.dr.bypasses",
+							"mode": "CUSTOM",
+							"value": "mgc"
+						},
+						{
+							"key": "system.traits.dr.bypasses",
+							"mode": "CUSTOM",
+							"value": "sil"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Crimson Lord",
+			"source": "LLAC",
+			"className": "Alternate Blood Hunter",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying Thirst",
+			"subclassSource": "LLABH",
+			"level": 18,
+			"effects": [
+				{
+					"name": "Flying Speed",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.movement.fly",
+							"mode": "UPGRADE",
+							"value": "@attributes.movement.walk"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Elegant Duelist",
+			"source": "LLAC",
+			"className": "Alternate Bard",
+			"classSource": "LLAC",
+			"subclassShortName": "Blade",
+			"subclassSource": "LLABrd",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Dexterity (Performance)",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.prf.ability",
+							"mode": "OVERRIDE",
+							"value": "dex"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cunning Influence",
+			"source": "LLAC",
+			"className": "Alternate Bard",
+			"classSource": "LLAC",
+			"subclassShortName": "Conspirator",
+			"subclassSource": "LLABrd",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Deception Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.dec.bonuses.check",
+							"mode": "ADD",
+							"value": "@scale.alternate-bard.bardic-inspiration"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Satirical Theatrics",
+			"source": "LLAC",
+			"className": "Alternate Bard",
+			"classSource": "LLAC",
+			"subclassShortName": "Fool",
+			"subclassSource": "LLABrd",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Skill Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.acr.bonuses.check",
+							"mode": "ADD",
+							"value": "@scale.alternate-bard.bardic-inspiration"
+						},
+						{
+							"key": "system.skills.slt.bonuses.check",
+							"mode": "ADD",
+							"value": "@scale.alternate-bard.bardic-inspiration"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tumbling Fool",
+			"source": "LLAC",
+			"className": "Alternate Bard",
+			"classSource": "LLAC",
+			"subclassShortName": "Fool",
+			"subclassSource": "LLABrd",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Climbing Speed",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.movement.climb",
+							"mode": "UPGRADE",
+							"value": "@attributes.movement.walk"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Jack of All Trades",
+			"source": "LLAC",
+			"className": "Alternate Bard",
+			"classSource": "LLAC",
+			"subclassShortName": "Loremaster",
+			"subclassSource": "LLABrd",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Jack of All Trades",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.dnd5e.jackOfAllTrades",
+							"mode": "OVERRIDE",
+							"value": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fungal Guardian",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Decay",
+			"subclassSource": "LLADru",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Fungal Shell and the initial transformation",
+					"type": "heal",
+					"activation": {
+						"type": "bonus"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Primal Surge"
+									}
+								}
+							}
+						]
+					},
+					"healing": {
+						"bonus": "@classes.alternate-druid.levels + @classes.alternate-druid.levels",
+						"types": [
+							"temphp"
+						]
+					}
+				},
+				{
+					"name": "Miasma of Spores",
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"target": {
+						"affects": {
+							"count": "1",
+							"type": "creature"
+						}
+					},
+					"range": {
+						"units": "ft",
+						"value": "10"
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "(1 + min(1, floor(@classes.alternate-druid.levels/6)) + min(1, floor(@classes.alternate-druid.levels/10)) + min(1, floor(@classes.alternate-druid.levels/18)))d8"
+								},
+								"types": [
+									"necrotic"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "spellcasting"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Symbiotic Thrall",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Decay",
+			"subclassSource": "LLADru",
+			"level": 6,
+			"system": {
+				"uses.max": "@abilities.wis.mod"
+			},
+			"activities": [
+				{
+					"name": "Free Animate Dead",
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Natural Regeneration",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Land",
+			"subclassSource": "LLADru",
+			"level": 3,
+			"system": {
+				"uses.per": "sr",
+				"uses.max": "1",
+				"uses.recovery": [
+					{
+						"period": "sr",
+						"type": "recoverAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"name": "Natural Regeneration",
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Overgrowth",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Land",
+			"subclassSource": "LLADru",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Overgrowth",
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Primal Surge"
+									}
+								}
+							}
+						]
+					},
+					"target": {
+						"value": 15,
+						"units": "ft",
+						"type": "cube"
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "(3 + min(1, floor(@classes.alternate-druid.levels/6)) + 2*min(1, floor(@classes.alternate-druid.levels/10)) + 3*min(1, floor(@classes.alternate-druid.levels/18)))d6"
+								},
+								"types": [
+									"bludgeoning"
+								]
+							}
+						],
+						"onSave": "half"
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "spellcasting"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Undertow",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Tides",
+			"subclassSource": "LLADru",
+			"level": 6,
+			"activities": [
+				{
+					"name": "Undertow",
+					"type": "save",
+					"activation": {
+						"cost": 1,
+						"type": "action"
+					},
+					"target": {
+						"value": 15,
+						"units": "ft",
+						"type": "radius"
+					},
+					"save": {
+						"ability": "str",
+						"dc": {
+							"calculation": "spellcasting"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Waters of Life",
+			"source": "LLAC",
+			"className": "Alternate Druid",
+			"classSource": "LLAC",
+			"subclassShortName": "Tides",
+			"subclassSource": "LLADru",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Waters of Life",
+					"type": "heal",
+					"activation": {
+						"type": "special"
+					},
+					"healing": {
+						"bonus": "@classes.alternate-druid.levels + @abilities.wis.mod",
+						"types": [
+							"temphp"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Enchanted Armaments",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Arcane Knight",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Bind",
+					"type": "enchant",
+					"activation": {
+						"value": 1,
+						"type": "hour"
+					},
+					"target.affects": {
+						"count": 2,
+						"type": "object"
+					},
+					"effects": [
+						{
+							"foundryId": "LLAFEnchantAKEA0"
+						}
+					],
+					"restrictions.allowMagical": true
+				},
+				{
+					"name": "Conjure",
+					"type": "utility",
+					"activation.type": "bonus"
+				}
+			],
+			"effects": [
+				{
+					"name": "Enchanted Armament",
+					"foundryId": "LLAFEnchantAKEA0",
+					"type": "enchantment",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "Bound {}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcane Surge",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Arcane Knight",
+			"level": 15,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Each time you use Action Surge"
+					},
+					"range": {
+						"value": 30,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "space"
+					}
+				}
+			]
+		},
+		{
+			"name": "Legendary Arcane Knight",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Arcane Knight",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "When you take the Attack action on your turn"
+					}
+				}
+			]
+		},
+		{
+			"name": "Captain Exploits",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Captain",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Save",
+					"type": "save",
+					"activation.type": "",
+					"save.dc.formula": "8 + @prof + @flags.ll.leadership.mod"
+				}
+			],
+			"effects": [
+				{
+					"name": "Leadership Modifier",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.leadership.mod",
+							"mode": "UPGRADE",
+							"value": "max(max(@abilities.int.mod, @abilities.wis.mod), @abilities.cha.mod)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student of War",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Captain",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Roll",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you make an ability check with the chosen skill"
+					},
+					"roll": {
+						"name": "Bonus",
+						"formula": "d@flags.ll.exploit.faces"
+					}
+				}
+			]
+		},
+		{
+			"name": "Strategic Command",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Captain",
+			"level": 7,
+			"activities": [
+				{
+					"name": "Heal",
+					"type": "heal",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you use Second Wind"
+					},
+					"range": {
+						"value": 30,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 3,
+						"type": "creature"
+					},
+					"healing": {
+						"custom": {
+							"enabled": true,
+							"formula": "max(@flags.ll.leadership.mod, 1) + d@flags.ll.exploit.faces"
+						},
+						"types": [
+							"healing"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Heroic Surge",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Captain",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you use Action Surge"
+					},
+					"range": {
+						"value": 30,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": "@scale.captain.heroic-surge",
+						"type": "creature"
+					}
+				}
+			]
+		},
+		{
+			"name": "Inspiring Commands",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Captain",
+			"level": 15,
+			"activities": [
+				{
+					"name": "Heal",
+					"type": "heal",
+					"activation": {
+						"type": "special",
+						"condition": "Once per turn when you use a Tactical Exploit that targets at least one friendly creature"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature",
+						"special": "one target of that Exploit"
+					},
+					"healing": {
+						"custom": {
+							"enabled": true,
+							"formula": "@flags.ll.leadership.mod"
+						},
+						"types": [
+							"temphp"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Mighty Warrior",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Champion",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Mighty Warrior",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.dnd5e.weaponCriticalThreshold",
+							"mode": "DOWNGRADE",
+							"value": "@scale.champion.mighty-warrior"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Peak Athlete",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Champion",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Peak Athlete",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.movement.climb",
+							"mode": "UPGRADE",
+							"value": "@attributes.movement.walk"
+						},
+						{
+							"key": "system.attributes.movement.swim",
+							"mode": "UPGRADE",
+							"value": "@attributes.movement.walk"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Devastating Critical",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Champion",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Bonus Critical Damage",
+					"type": "damage",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you score a critical hit with a weapon attack"
+					},
+					"damage.parts": [
+						{
+							"custom": {
+								"enabled": true,
+								"formula": "@classes.alternate-fighter.levels"
+							}
+						}
+					]
+				},
+				{
+					"name": "Maximize Crit Damage",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you score a critical hit with a weapon attack"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Legendary Champion",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Champion",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Heal",
+					"type": "heal",
+					"activation": {
+						"type": "turnStart",
+						"condition": "If you begin your turn with less than half of your hit points remaining, but at least 1 hit point"
+					},
+					"healing": {
+						"custom": {
+							"enabled": true,
+							"formula": "5 + @abilities.con.mod"
+						},
+						"types": [
+							"healing"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Crusader's Ire",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Crusader",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"foundryId": "LLAFActivityCRCI",
+					"activation.type": "bonus",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"range": {
+						"value": 60,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					}
+				},
+				{
+					"name": "Use (Exploit Die)",
+					"type": "forward",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": 1
+						}
+					],
+					"activity.id": "LLAFActivityCRCI"
+				}
+			]
+		},
+		{
+			"name": "Fanatical Disciple",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Crusader",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Roll",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you make a Religion check related to your god or cause"
+					},
+					"roll": {
+						"name": "Bonus",
+						"formula": "d@flags.ll.exploit.faces"
+					}
+				}
+			]
+		},
+		{
+			"name": "Renewed Fervor",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Crusader",
+			"level": 7,
+			"activities": [
+				{
+					"name": "With Second Wind",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "When you use Second Wind"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Crusader's Ire"
+								}
+							},
+							"value": -1
+						}
+					]
+				},
+				{
+					"name": "With Crusader's Ire",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "When you Mark a creature with Crusader's Ire"
+					}
+				}
+			]
+		},
+		{
+			"name": "Zealous Fury",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Crusader",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "heal",
+					"foundryId": "LLAFActivityCRZF",
+					"activation": {
+						"type": "special",
+						"condition": "When you are reduced to 0 Hit Points but not killed outright"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"healing": {
+						"custom": {
+							"enabled": true,
+							"formula": 1
+						}
+					}
+				},
+				{
+					"name": "Use (Exhaustion)",
+					"type": "forward",
+					"consumption.targets": [
+						{
+							"type": "attribute",
+							"target": "attributes.exhaustion",
+							"value": -1
+						}
+					],
+					"activity.id": "LLAFActivityCRZF"
+				}
+			]
+		},
+		{
+			"name": "Righteous Judgment",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Crusader",
+			"level": 15,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "When you hit the target of Crusader's Ire with a weapon attack"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					]
+				},
+				{
+					"name": "Restore Crusader's Ire",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "If the attack reduces the creature to 0 hit points"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Crusader's Ire"
+								}
+							},
+							"value": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Warrior Smith",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Guardian",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Improve",
+					"type": "enchant",
+					"activation": {
+						"value": 1,
+						"type": "hour",
+						"condition": "During the course of a long rest"
+					},
+					"duration": {
+						"type": "spec",
+						"special": "Until the beginning of your next long rest"
+					},
+					"range.units": "touch",
+					"target.affects": {
+						"count": 1,
+						"type": "object"
+					},
+					"effects": [
+						{
+							"foundryId": "LLAFEffectGDWS00"
+						}
+					],
+					"restrictions": {
+						"type": "equipment",
+						"categories": [
+							"light",
+							"medium",
+							"heavy",
+							"shield"
+						],
+						"allowMagical": true
+					}
+				}
+			],
+			"effects": [
+				{
+					"name": "Smith's Tools Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.tools.smith.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					]
+				},
+				{
+					"name": "Improved",
+					"foundryId": "LLAFEffectGDWS00",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "Improved {}"
+						},
+						{
+							"key": "system.armor.value",
+							"mode": "ADD",
+							"value": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Inspiring Sentinel",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Guardian",
+			"level": 7,
+			"activities": [
+				{
+					"name": "Heal",
+					"type": "heal",
+					"activation": {
+						"type": "special",
+						"condition": "When you use Second Wind"
+					},
+					"range": {
+						"value": 5,
+						"units": "ft"
+					},
+					"target.affects.type": "creature",
+					"healing": {
+						"number": 1,
+						"denomination": 6,
+						"bonus": "max(@abilities.con.mod, 1)",
+						"types": [
+							"temphp"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Adaptable Combatant",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Guerrilla",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Bonus",
+					"type": "utility",
+					"activation.type": "",
+					"roll": {
+						"name": "Bonus",
+						"formula": "d@flags.ll.exploit.faces"
+					}
+				},
+				{
+					"name": "Drills",
+					"type": "utility",
+					"activation": {
+						"value": 1,
+						"type": "hour",
+						"condition": "During the course of a long rest"
+					}
+				}
+			]
+		},
+		{
+			"name": "By Land or Sea",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Guerrilla",
+			"level": 7,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you use your Second Wind"
+					}
+				}
+			],
+			"effects": [
+				{
+					"name": "Ignored Difficult Terrain",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.movement.ignoredDifficultTerrain",
+							"mode": "ADD",
+							"value": "nonmagical"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Identify Weakness",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Guerrilla",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "When you succeed on an Eye for Talent check against a creature"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					}
+				}
+			]
+		},
+		{
+			"name": "Unwavering",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Guerrilla",
+			"level": 15,
+			"activities": [
+				{
+					"name": "With Second Wind",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Each time you use Second Wind"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": -1
+						}
+					]
+				},
+				{
+					"name": "Expend Action Surge",
+					"type": "utility",
+					"activation.type": "",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Action Surge"
+								}
+							},
+							"value": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Legendary Guerrilla",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Guerrilla",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Heal",
+					"type": "heal",
+					"activation.type": "encounter",
+					"healing": {
+						"bonus": "@classes.alternate-fighter.levels",
+						"types": [
+							"temphp"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Loyal Hound",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Hound Master",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Summon",
+					"type": "summon",
+					"activation.type": "",
+					"profiles": [
+						{
+							"uuid": "@creature[Loyal Hound|LLAF:E]",
+							"level": {
+								"max": 17
+							}
+						},
+						{
+							"uuid": "@creature[Hound of Legend|LLAF:E]",
+							"level": {
+								"min": 18
+							}
+						}
+					],
+					"match": {
+						"proficiency": true,
+						"saves": true
+					},
+					"bonuses.hp": "5 * @classes.alternate-fighter.levels",
+					"effects": [
+						{
+							"foundryId": "LLAFEffectHMLHHD"
+						},
+						{
+							"foundryId": "LLAFEffectHMLHLY"
+						}
+					]
+				},
+				{
+					"name": "Stabilize",
+					"type": "utility"
+				},
+				{
+					"name": "Train",
+					"type": "utility",
+					"activation": {
+						"value": 8,
+						"type": "hour"
+					}
+				}
+			],
+			"effects": [
+				{
+					"name": "Hit Dice",
+					"foundryId": "LLAFEffectHMLHHD",
+					"changes": [
+						{
+							"key": "system.attribute.hd.max",
+							"mode": "OVERRIDE",
+							"value": "@flags.dnd5e.summon.level"
+						}
+					]
+				},
+				{
+					"name": "Loyal",
+					"foundryId": "LLAFEffectHMLHLY",
+					"disabled": true,
+					"changes": [
+						{
+							"key": "system.bonuses.abilities.check",
+							"mode": "ADD",
+							"value": "@prof"
+						},
+						{
+							"key": "system.bonuses.abilities.save",
+							"mode": "ADD",
+							"value": "@prof"
+						},
+						{
+							"key": "system.traits.ci.value",
+							"mode": "ADD",
+							"value": "frightened"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "War Hound",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Hound Master",
+			"level": 7,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"value": 1,
+						"type": "hour"
+					}
+				}
+			]
+		},
+		{
+			"name": "Chivalric Mark",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Knight Errant",
+			"subclassSource": "LLAF",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Mark",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Once per turn when you hit a creature with a melee weapon attack"
+					},
+					"duration": {
+						"units": "spec",
+						"special": "Until the end of your next turn"
+					}
+				},
+				{
+					"name": "Reaction",
+					"type": "utility",
+					"activation": {
+						"type": "reaction",
+						"condition": "If a Marked cretaure deals damage to a target other than you"
+					}
+				}
+			]
+		},
+		{
+			"name": "Noble Guardian",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Knight Errant",
+			"subclassSource": "LLAF",
+			"level": 7,
+			"activities": [
+				{
+					"name": "Grant Bonus",
+					"type": "utility",
+					"activation": {
+						"type": "reaction",
+						"condition": "When you or a creature within 5 feet of you is hit by an attack"
+					},
+					"range": {
+						"value": 5,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					},
+					"roll": {
+						"name": "AC Bonus",
+						"formula": "d@flags.ll.exploit.faces"
+					}
+				},
+				{
+					"name": "Grant Resistance",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "If the attack still hits"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Perilous Charge",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Knight Errant",
+			"subclassSource": "LLAF",
+			"level": 15,
+			"activities": [
+				{
+					"name": "Save",
+					"type": "save",
+					"activation": {
+						"type": "special",
+						"condition": "Once per turn, when you move 10 feet in a straight line then hit a creature with a melee weapon attack"
+					},
+					"save": {
+						"ability": [
+							"str"
+						],
+						"dc.formula": "@flags.ll.exploit.dc"
+					}
+				}
+			]
+		},
+		{
+			"name": "Deadly Focus",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Marksman",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "turnStart",
+					"duration": {
+						"value": 1,
+						"units": "turn"
+					}
+				}
+			]
+		},
+		{
+			"name": "Elite Reflexes",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Marksman",
+			"level": 3,
+			"activities": [],
+			"effects": [
+				{
+					"name": "Dexterity Check and Save Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.abilities.dex.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						},
+						{
+							"key": "system.abilities.dex.bonuses.save",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Quick Shot",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Marksman",
+			"level": 7,
+			"effects": [
+				{
+					"name": "Initiative Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.init.bonus",
+							"mode": "ADD",
+							"value": "@prof"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tactical Reposition",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Marksman",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you use your Second Wind"
+					},
+					"effects": [
+						{
+							"foundryId": "LLAFEffectMKTR00"
+						}
+					]
+				}
+			],
+			"effects": [
+				{
+					"name": "Increased Speed",
+					"foundryId": "LLAFEffectMKTR00",
+					"transfer": true,
+					"duration": {
+						"turns": 1
+					},
+					"changes": [
+						{
+							"key": "system.attributes.movement.walk",
+							"mode": "ADD",
+							"value": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Reliable Shot",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Marksman",
+			"level": 15,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Once per turn when you have advantage on a ranged weapon attack"
+					}
+				}
+			]
+		},
+		{
+			"name": "Combat Theorist",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Master at Arms",
+			"level": 3,
+			"activities": [
+				{
+					"name": "History Bonus",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you make an Intelligence (History) check related to the history of combat, warfare, or armaments of war"
+					},
+					"roll": {
+						"name": "Bonus",
+						"formula": "d@flags.ll.exploit.faces"
+					}
+				}
+			]
+		},
+		{
+			"name": "Student of Battle",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Master at Arms",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Student of Battle",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.exploit.number",
+							"mode": "ADD",
+							"value": 1
+						},
+						{
+							"key": "flags.ll.exploit.faces",
+							"mode": "UPGRADE",
+							"value": "@scale.master-at-arms.exploit-dice-roll.faces"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Masterful Focus",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Master at Arms",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you use your Second Wid or Action Surge"
+					}
+				}
+			]
+		},
+		{
+			"name": "Legendary Superiority",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Master at Arms",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "turnStart",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Inscrutable Mind",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Mystic",
+			"level": 10,
+			"effects": [
+				{
+					"name": "Mental Save Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.abilities.int.bonuses.save",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						},
+						{
+							"key": "system.abilities.wis.bonuses.save",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						},
+						{
+							"key": "system.abilities.cha.bonuses.save",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Legendary Mystic",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF",
+			"subclassShortName": "Mystic",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you use Phase Step"
+					},
+					"effects": [
+						{
+							"foundryId": "LLAFEffectMYLM00"
+						}
+					]
+				}
+			],
+			"effects": [
+				{
+					"name": "Flying Speed",
+					"foundryId": "LLAFEffectMYLM00",
+					"duration": {
+						"turns": 1
+					},
+					"changes": [
+						{
+							"key": "system.attributes.movement.fly",
+							"mode": "UPGRADE",
+							"value": "@attributes.movement.walk"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Iron Physique",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Pugilist",
+			"level": 3,
+			"effects": [
+				{
+					"name": "AC (Light Armor)",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.dex",
+							"mode": "UPGRADE",
+							"value": "min(@abilities.con.mod, 2)"
+						}
+					]
+				},
+				{
+					"name": "AC (Medium Armor)",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.dex",
+							"mode": "UPGRADE",
+							"value": "@abilities.con.mod"
+						}
+					]
+				},
+				{
+					"name": "Unarmored AC",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "unarmoredBarb"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Evasive Footwork",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Pugilist",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "When you take the Attack action on your turn and make at least one unarmed strike, Grapple, or Shove"
+					}
+				}
+			]
+		},
+		{
+			"name": "Diamond Physique",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Pugilist",
+			"level": 15,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "When you use Brace Up"
+					}
+				}
+			]
+		},
+		{
+			"name": "Legendary Pugilist",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Pugilist",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you score a critical hit with an unarmed strike or improvised weapon"
+					}
+				}
+			]
+		},
+		{
+			"name": "Down to Earth",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Quartermaster",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.tools.cook.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						},
+						{
+							"key": "system.tools.land.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						},
+						{
+							"key": "system.skills.ani.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Rations",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Quartermaster",
+			"level": 3,
+			"activities": [
+				{
+					"name": "On the Fly",
+					"type": "utility",
+					"activation.type": "action",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": 1
+						}
+					]
+				}
+			],
+			"system": {
+				"uses": {
+					"max": "@abilities.con.mod",
+					"recovery": [
+						{
+							"peroid": "lr",
+							"type": "recoverAll"
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Quick Ration",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Quartermaster",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "bonus",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": 1
+						}
+					],
+					"range": {
+						"value": 5,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ever Ready",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Quartermaster",
+			"level": 15,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "encounter",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Rations"
+								}
+							},
+							"value": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Legendary Quartermaster",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Quartermaster",
+			"level": 18,
+			"effects": [
+				{
+					"name": "Increased Constitution",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.abilities.con.value",
+							"mode": "ADD",
+							"value": 2
+						},
+						{
+							"key": "system.abilities.con.max",
+							"mode": "ADD",
+							"value": 2,
+							"priority": 6
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Unyielding Spirit",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Ronin",
+			"subclassSource": "LLAF",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "heal",
+					"foundryId": "LLAFActivityROUS",
+					"activation.type": "bonus",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"healing": {
+						"bonus": "@classes.alternate-fighter.levels",
+						"types": [
+							"temphp"
+						]
+					}
+				},
+				{
+					"name": "Use (Exhaustion)",
+					"type": "forward",
+					"consumption.targets": [
+						{
+							"type": "attribute",
+							"target": "attributes.exhaustion",
+							"value": -1
+						}
+					],
+					"activity.id": "LLAFActivityROUS"
+				}
+			]
+		},
+		{
+			"name": "Lordly Bearing",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Ronin",
+			"subclassSource": "LLAF",
+			"level": 7,
+			"activities": [
+				{
+					"name": "Bonus",
+					"type": "utility",
+					"activation.type": "",
+					"roll": {
+						"name": "Bonus",
+						"formula": "d@flags.ll.exploit.faces"
+					}
+				}
+			]
+		},
+		{
+			"name": "Unrelenting",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Ronin",
+			"subclassSource": "LLAF",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "encounter",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Unyielding Spirit"
+								}
+							},
+							"value": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Legendary Ronin",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Ronin",
+			"subclassSource": "LLAF",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"foundryId": "LLAFActivityROLR",
+					"activation": {
+						"type": "special",
+						"condition": "When you are reduced to 0 hit points"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					]
+				},
+				{
+					"name": "Use (Action Surge)",
+					"type": "forward",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Action Surge"
+								}
+							},
+							"value": 1
+						}
+					],
+					"activity.id": "LLAFActivityROLR"
+				}
+			]
+		},
+		{
+			"name": "Runic Might",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Runecarver",
+			"subclassSource": "LLAF",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"foundryId": "LLAFActivityRURM",
+					"activation.type": "bonus",
+					"duration": {
+						"value": 1,
+						"units": "minute"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"effects": [
+						{
+							"foundryId": "LLAFEffectRURML0"
+						},
+						{
+							"foundryId": "LLAFEffectRURMH0",
+							"level": {
+								"min": 18
+							}
+						}
+					]
+				},
+				{
+					"name": "Use (Second Wind)",
+					"type": "forward",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Second Wind"
+								}
+							},
+							"value": 1
+						}
+					],
+					"activity.id": "LLAFActivityCRCI"
+				}
+			],
+			"effects": [
+				{
+					"name": "Runic Might",
+					"foundryId": "LLAFEffectRURML0",
+					"duration": {
+						"seconds": 60
+					},
+					"changes": [
+						{
+							"key": "system.traits.size",
+							"mode": "OVERRIDE",
+							"value": "lg"
+						},
+						{
+							"key": "system.abilities.str.check.roll.mode",
+							"mode": "ADD",
+							"value": 1
+						},
+						{
+							"key": "system.abilities.str.save.roll.mode",
+							"mode": "ADD",
+							"value": 1
+						},
+						{
+							"key": "system.bonuses.mwak.damage",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					]
+				},
+				{
+					"name": "Runic Might (Huge)",
+					"foundryId": "LLAFEffectRURMH0",
+					"duration": {
+						"seconds": 60
+					},
+					"changes": [
+						{
+							"key": "system.traits.size",
+							"mode": "OVERRIDE",
+							"value": "huge"
+						},
+						{
+							"key": "system.abilities.str.check.roll.mode",
+							"mode": "ADD",
+							"value": 1
+						},
+						{
+							"key": "system.abilities.str.save.roll.mode",
+							"mode": "ADD",
+							"value": 1
+						},
+						{
+							"key": "system.bonuses.mwak.damage",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					]
+				}
+			],
+			"system": {
+				"uses.recovery": [
+					{
+						"period": "lr",
+						"type": "recoverAll"
+					}
+				]
+			}
+		},
+		{
+			"name": "Conjure Shade",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadowdancer",
+			"subclassSource": "LLAF",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Summon",
+					"type": "summon",
+					"activation.type": "bonus",
+					"range": {
+						"value": 15,
+						"units": "ft"
+					},
+					"profiles": [
+						{
+							"uuid": "@creature[Shade|LLAF]"
+						}
+					],
+					"bonuses.ac": "@abilities.cha.mod",
+					"match.saves": true
+				}
+			]
+		},
+		{
+			"name": "Dance of Shadows",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadowdancer",
+			"subclassSource": "LLAF",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "action",
+					"range": {
+						"value": 30,
+						"units": "ft"
+					}
+				},
+				{
+					"name": "Use (Bonus Action)",
+					"type": "utility",
+					"level": {
+						"min": 15
+					},
+					"activation.type": "bonus",
+					"range": {
+						"value": 30,
+						"units": "ft"
+					}
+				}
+			]
+		},
+		{
+			"name": "Transfer Consciousness",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadowdancer",
+			"subclassSource": "LLAF",
+			"level": 7,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "action",
+					"duration": {
+						"value": 10,
+						"units": "minute"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Second Wind"
+								}
+							},
+							"value": 1
+						}
+					],
+					"range": {
+						"value": 1,
+						"units": "mi"
+					}
+				}
+			]
+		},
+		{
+			"name": "Restorative Shadows",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Shadowdancer",
+			"subclassSource": "LLAF",
+			"level": 15,
+			"activities": [
+				{
+					"name": "Heal",
+					"type": "heal",
+					"activation": {
+						"type": "special",
+						"condition": "When one of your Shades is destroyed by taking damage"
+					},
+					"healing": {
+						"custom": {
+							"enabled": true,
+							"formula": "2d@flags.ll.explot.faces"
+						},
+						"types": [
+							"temphp"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Student of the Blade",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Swordsage",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Student of the Blade",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.prf.ability",
+							"mode": "OVERRIDE",
+							"value": "dex"
+						},
+						{
+							"key": "system.skills.acr.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						},
+						{
+							"key": "system.skills.prf.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Battle Trance",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Swordsage",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"foundryId": "LLAFActivitySSBT",
+					"activation.type": "bonus",
+					"duration": {
+						"value": 1,
+						"units": "minute"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"effects": [
+						{
+							"foundryId": "LLAFEffectSSBS00"
+						}
+					]
+				},
+				{
+					"name": "Use (Exploit Die)",
+					"type": "forward",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": 1
+						}
+					],
+					"activity.id": "LLAFActivitySSBT"
+				},
+				{
+					"name": "Use (At Will)",
+					"type": "forward",
+					"visibility": {
+						"level.min": 18,
+						"identifier": "alternate-fighter"
+					},
+					"activity.id": "LLAFActivitySSBT"
+				}
+			],
+			"effects": [
+				{
+					"name": "Battle Stance",
+					"foundryId": "LLAFEffectSSBS00",
+					"duration": {
+						"seconds": 60
+					},
+					"changes": [
+						{
+							"key": "system.skills.acr.roll.mode",
+							"mode": "ADD",
+							"value": 1
+						},
+						{
+							"key": "system.attributes.ac.bonus",
+							"mode": "ADD",
+							"value": "@scale.swordsage.trance-ac"
+						}
+					]
+				}
+			],
+			"system": {
+				"uses": {
+					"max": 1,
+					"recovery": [
+						{
+							"period": "sr",
+							"type": "recoverAll"
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Mythic Reflexes",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Swordsage",
+			"level": 7,
+			"effects": [
+				{
+					"name": "Initiative Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.init.bonus",
+							"mode": "ADD",
+							"value": "@prof"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Reactive Trance",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Swordsage",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "encounter"
+				}
+			]
+		},
+		{
+			"name": "Legendary Swordsage",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Swordsage",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you take damage while you are in your Battle Trance"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": 1
+						}
+					],
+					"roll": {
+						"name": "Damage Reduction",
+						"formula": "2d@flags.ll.exploit.faces"
+					}
+				}
+			]
+		},
+		{
+			"name": "Enchanted Shots",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Sylvan Archer",
+			"subclassSource": "LLAF",
+			"level": 3,
+			"system": {
+				"uses.max": "max(1, @abilities.wis.mod)"
+			}
+		},
+		{
+			"name": "Sylvan Lore",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Sylvan Archer",
+			"subclassSource": "LLAF",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Wisdom (Nature)",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.nat.ability",
+							"mode": "OVERRIDE",
+							"value": "wis"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Enchanted Quiver",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Sylvan Archer",
+			"subclassSource": "LLAF",
+			"level": 15,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "encounter",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Legendary Sylvan Archer",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassShortName": "Sylvan Archer",
+			"subclassSource": "LLAF",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "When you use an Enchanted Shot"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"target.template": {
+						"size": 20,
+						"units": "ft",
+						"type": "radius"
+					}
+				}
+			]
+		},
+		{
+			"name": "Analytical Mind",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Tinker",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Smith's and Tinker's Tools Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.tools.smith.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						},
+						{
+							"key": "system.tools.tinker.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Increased Function",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Tinker",
+			"level": 7,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"value": 10,
+						"type": "minute"
+					},
+					"duration.units": "perm",
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					}
+				}
+			]
+		},
+		{
+			"name": "Pact Magic",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Witchblade",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Hact Magic",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.spells.spell1.override",
+							"mode": "OVERRIDE",
+							"value": "@spells.spell1.max + @scale.witchblade.1"
+						},
+						{
+							"key": "system.spells.spell2.override",
+							"mode": "OVERRIDE",
+							"value": "@spells.spell2.max + @scale.witchblade.2"
+						},
+						{
+							"key": "system.spells.spell3.override",
+							"mode": "OVERRIDE",
+							"value": "@spells.spell3.max + @scale.witchblade.3"
+						},
+						{
+							"key": "system.spells.spell4.override",
+							"mode": "OVERRIDE",
+							"value": "@spells.spell4.max + @scale.witchblade.4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sanguine Offering",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Witchblade",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Damage",
+					"type": "damage",
+					"activation": {
+						"type": "special",
+						"condition": "Once per turn, when you hit a creature with a melee weapon attack"
+					},
+					"consumption.targets": [
+						{
+							"type": "attribute",
+							"target": "attributes.hp.value",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					],
+					"damage.parts": [
+						{
+							"custom": {
+								"enabled": true,
+								"formula": "2d@flags.ll.exploit.faces"
+							},
+							"types": [
+								"necrotic"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Otherworldly Step",
+			"source": "LLAC",
+			"className": "Alternate Fighter",
+			"classSource": "LLAC",
+			"subclassSource": "LLAF:E",
+			"subclassShortName": "Witchblade",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you cast a Witchblade spell with a casting time of one action or use your Second Wind"
+					},
+					"range": {
+						"value": 60,
+						"units": "ft"
+					}
+				}
+			]
+		},
+		{
+			"name": "Savage Exploits",
+			"source": "LLAC",
+			"className": "Alternate Monk",
+			"classSource": "LLAC",
+			"subclassShortName": "Brawler",
+			"subclassSource": "LLAM:E",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Brawler Exploits",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.exploit.number",
+							"mode": "UPGRADE",
+							"value": "@scale.way-of-the-brawler.exploit.number"
+						},
+						{
+							"key": "flags.ll.exploit.faces",
+							"mode": "UPGRADE",
+							"value": "@scale.way-of-the-brawler.exploit.faces"
+						},
+						{
+							"key": "flags.ll.exploit.dc",
+							"mode": "UPGRADE",
+							"value": "8 + @prof + @abilities.wis.mod"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Dread Ambusher",
+			"source": "LLAC",
+			"className": "Alternate Ranger",
+			"classSource": "LLAC",
+			"subclassShortName": "Deep Stalker",
+			"subclassSource": "LLAR",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Initiative Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.init.bonus",
+							"mode": "ADD",
+							"value": "+max(1, @abilities.wis.mod)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Umbral Sight",
+			"source": "LLAC",
+			"className": "Alternate Ranger",
+			"classSource": "LLAC",
+			"subclassShortName": "Deep Stalker",
+			"subclassSource": "LLAR",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Darkvision",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.senses.darkvision",
+							"mode": "UPGRADE",
+							"priority": 6,
+							"value": 30
+						},
+						{
+							"key": "system.attributes.senses.darkvision",
+							"mode": "ADD",
+							"value": "+30"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Otherworldly Mystique",
+			"source": "LLAC",
+			"className": "Alternate Ranger",
+			"classSource": "LLAC",
+			"subclassShortName": "Fey Wanderer",
+			"subclassSource": "LLAR",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Charisma Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.abilities.cha.bonuses.check",
+							"mode": "ADD",
+							"value": "+max(1, @abilities.wis.mod)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mantle of the Master",
+			"source": "LLAC",
+			"className": "Alternate Ranger",
+			"classSource": "LLAC",
+			"subclassShortName": "Spellbreaker",
+			"subclassSource": "LLAR",
+			"level": 15,
+			"effects": [
+				{
+					"name": "Magic Damage Resistance",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.traits.dr.custom",
+							"mode": "CUSTOM",
+							"value": "from magic"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Writhing Horde",
+			"source": "LLAC",
+			"className": "Alternate Ranger",
+			"classSource": "LLAC",
+			"subclassShortName": "Swarm Keeper",
+			"subclassSource": "LLAR",
+			"level": 7,
+			"effects": [
+				{
+					"name": "Climbing Speed",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.movement.climb",
+							"mode": "UPGRADE",
+							"value": "@attributes.movement.walk"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Martial Exploits",
+			"source": "LLAC",
+			"className": "Alternate Ranger",
+			"classSource": "LLAC",
+			"subclassShortName": "Bounty Hunter",
+			"subclassSource": "LLAR:E",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Bounty Hunter Exploits",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.exploit.number",
+							"mode": "UPGRADE",
+							"value": "@scale.bounty-hunter.exploit.number"
+						},
+						{
+							"key": "flags.ll.exploit.faces",
+							"mode": "UPGRADE",
+							"value": "@scale.bounty-hunter.exploit.faces"
+						},
+						{
+							"key": "flags.ll.exploit.dc",
+							"mode": "UPGRADE",
+							"value": "8 + @prof + max(@abilities.str.mod, @abilities.dex.mod)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Exploit Dice",
+			"source": "LLAC",
+			"className": "Alternate Ranger",
+			"classSource": "LLAC",
+			"subclassShortName": "Bounty Hunter",
+			"subclassSource": "LLAR:E",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Roll",
+					"type": "utility",
+					"activation.type": "",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"roll.formula": "d@flags.ll.exploit.faces"
+				}
+			],
+			"system": {
+				"uses.max": "@flags.ll.exploit.number"
+			}
+		},
+		{
+			"name": "Warden's Rite",
+			"source": "LLAC",
+			"className": "Alternate Ranger",
+			"classSource": "LLAC",
+			"subclassShortName": "Grim Warden",
+			"subclassSource": "LLAR:E",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Religion Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.rel.bonuses.check",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-ranger.quarry"
+						}
+					]
+				},
+				{
+					"name": "HP Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.hp.bonuses.level",
+							"mode": "ADD",
+							"value": "+1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Dark Augmentation",
+			"source": "LLAC",
+			"className": "Alternate Ranger",
+			"classSource": "LLAC",
+			"subclassShortName": "Grim Warden",
+			"subclassSource": "LLAR:E",
+			"level": 7,
+			"effects": [
+				{
+					"name": "Walking Speed Increase",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.movement.walk",
+							"mode": "ADD",
+							"value": "+10"
+						}
+					]
+				},
+				{
+					"name": "STR DEX CON Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.abilities.str.bonuses.check",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-ranger.quarry"
+						},
+						{
+							"key": "system.abilities.dex.bonuses.check",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-ranger.quarry"
+						},
+						{
+							"key": "system.abilities.con.bonuses.check",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-ranger.quarry"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Meticulous Fingers",
+			"source": "LLAC",
+			"className": "Alternate Ranger",
+			"classSource": "LLAC",
+			"subclassShortName": "Trapper",
+			"subclassSource": "LLAR:E",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Sleight of Hand Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.slt.bonuses.check",
+							"mode": "ADD",
+							"value": "+1@scale.alternate-ranger.quarry"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Grave Bolt",
+			"source": "LLAC",
+			"className": "Alternate Rogue",
+			"classSource": "LLAC",
+			"subclassShortName": "Phantom",
+			"subclassSource": "LLARo",
+			"level": 3,
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "special"
+					},
+					"target": {
+						"affects": {
+							"count": "1",
+							"type": "creature"
+						}
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "ceil(@scale.alternate-rogue.sneak-attack / 2)"
+								}
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"wis"
+						],
+						"dc": {
+							"calculation": "dex"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Flying Strike",
+			"source": "LLAC",
+			"className": "Alternate Rogue",
+			"classSource": "LLAC",
+			"subclassShortName": "Acrobat",
+			"subclassSource": "LLARoE",
+			"level": 3,
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "special"
+					},
+					"target": {
+						"affects": {
+							"count": "1",
+							"type": "creature"
+						}
+					},
+					"save": {
+						"ability": [
+							"str"
+						],
+						"dc": {
+							"calculation": "dex"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Divine Favor",
+			"source": "LLAC",
+			"className": "Alternate Rogue",
+			"classSource": "LLAC",
+			"subclassShortName": "Avenger",
+			"subclassSource": "LLARoE",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Cast a 1st level spell",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"value": 0
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				},
+				{
+					"name": "Cast a 2nd level spell",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"value": 0
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "2"
+							}
+						]
+					}
+				},
+				{
+					"name": "Cast a 3rd level spell",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"value": 0
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "3"
+							}
+						]
+					}
+				},
+				{
+					"name": "Cast a 4th level spell",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"value": 0
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "4"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Divine Awareness",
+			"source": "LLAC",
+			"className": "Alternate Rogue",
+			"classSource": "LLAC",
+			"subclassShortName": "Avenger",
+			"subclassSource": "LLARoE",
+			"level": 7,
+			"activities": [
+				{
+					"name": "Free use per Short Rest",
+					"type": "utility",
+					"activation": {
+						"type": "bonus",
+						"value": 1
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				},
+				{
+					"name": "Use for Favor",
+					"type": "utility",
+					"activation": {
+						"type": "bonus",
+						"value": 1
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Divine Favor"
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Vow of Enmity",
+			"source": "LLAC",
+			"className": "Alternate Rogue",
+			"classSource": "LLAC",
+			"subclassShortName": "Avenger",
+			"subclassSource": "LLARoE",
+			"level": 7,
+			"activities": [
+				{
+					"name": "Free use per Short Rest",
+					"type": "utility",
+					"activation": {
+						"type": "bonus",
+						"value": 1
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				},
+				{
+					"name": "Use for Favor",
+					"type": "utility",
+					"activation": {
+						"type": "bonus",
+						"value": 1
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Divine Favor"
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Divine Step",
+			"source": "LLAC",
+			"className": "Alternate Rogue",
+			"classSource": "LLAC",
+			"subclassShortName": "Avenger",
+			"subclassSource": "LLARoE",
+			"level": 13,
+			"activities": [
+				{
+					"name": "Use for Favor",
+					"type": "utility",
+					"activation": {
+						"type": "bonus",
+						"value": 1
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "2",
+								"target": {
+									"consumes": {
+										"name": "Divine Favor"
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Hand of the Gods",
+			"source": "LLAC",
+			"className": "Alternate Rogue",
+			"classSource": "LLAC",
+			"subclassShortName": "Avenger",
+			"subclassSource": "LLARoE",
+			"level": 17,
+			"activities": [
+				{
+					"name": "Regain Channel Divinity",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"value": 1
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "-1",
+								"target": {
+									"consumes": {
+										"name": "Channel Divinity: Divine Awareness"
+									}
+								}
+							},
+							{
+								"type": "itemUses",
+								"value": "-1",
+								"target": {
+									"consumes": {
+										"name": "Channel Divinity: Vow of Enmity"
+									}
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Divine Favor for fulfilling the Vow",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"value": 1
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "-5",
+								"target": {
+									"consumes": {
+										"name": "Divine Favor"
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Arcane Ward",
+			"source": "LLAC",
+			"className": "Alternate Wizard",
+			"classSource": "LLAC",
+			"subclassShortName": "Abjurer",
+			"subclassSource": "LLAWiz",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Empowered Conjuration",
+					"type": "heal",
+					"activation": {
+						"type": "special"
+					},
+					"healing": {
+						"bonus": "@classes.alternate-wizard.levels + @classes.alternate-wizard.levels + @abilities.int.mod",
+						"types": [
+							"temphp"
+						]
+					}
+				}
+			],
+			"advice": {
+				"type": "section",
+				"entries": [
+					"In Foundry Arcane Ward is realized as temporary hit points, but it does not actually grant temporary hit points, nor does it follow the rules of temporary hit points."
+				]
+			}
+		},
+		{
+			"name": "Empowered Conjuration",
+			"source": "LLAC",
+			"className": "Alternate Wizard",
+			"classSource": "LLAC",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "LLAWiz",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Empowered Conjuration",
+					"type": "heal",
+					"activation": {
+						"type": "special"
+					},
+					"healing": {
+						"bonus": "@classes.alternate-wizard.levels + @classes.alternate-wizard.levels",
+						"types": [
+							"temphp"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Ascended Awareness",
+			"source": "LLAC",
+			"className": "Alternate Wizard",
+			"classSource": "LLAC",
+			"subclassShortName": "Diviner",
+			"subclassSource": "LLAWiz",
+			"level": 6,
+			"effects": [
+				{
+					"name": "Ascended Awareness",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.init.bonus",
+							"mode": "ADD",
+							"value": "+@abilities.int.mod"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Beguiling Defense",
+			"source": "LLAC",
+			"className": "Alternate Wizard",
+			"classSource": "LLAC",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "LLAWiz",
+			"level": 6,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "1",
+				"uses.recovery": [
+					{
+						"period": "lr",
+						"type": "recoverAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "reaction"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Beguiling Defense"
+									}
+								}
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"wis"
+						],
+						"dc": {
+							"calculation": "int"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Master of Evocation",
+			"source": "LLAC",
+			"className": "Alternate Wizard",
+			"classSource": "LLAC",
+			"subclassShortName": "Evoker",
+			"subclassSource": "LLAWiz",
+			"level": 14,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "1",
+				"uses.recovery": [
+					{
+						"period": "lr",
+						"type": "recoverAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"name": "Once per long rest",
+					"type": "utility",
+					"activation": {
+						"type": "special"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Master of Evocation"
+									}
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Use for 4d6 damage per spell level",
+					"type": "damage",
+					"activation": {
+						"type": "special"
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "4d6"
+								},
+								"types": [
+									"necrotic"
+								]
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Illusory Self",
+			"source": "LLAC",
+			"className": "Alternate Wizard",
+			"classSource": "LLAC",
+			"subclassShortName": "Illusionist",
+			"subclassSource": "LLAWiz",
+			"level": 10,
+			"system": {
+				"uses.per": "sr",
+				"uses.max": "1",
+				"uses.recovery": [
+					{
+						"period": "sr",
+						"type": "recoverAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"name": "Once per short or long rest",
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Illusory Self"
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Master of Necromancy",
+			"source": "LLAC",
+			"className": "Alternate Wizard",
+			"classSource": "LLAC",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "LLAWiz",
+			"level": 14,
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "action"
+					},
+					"save": {
+						"ability": [
+							"cha"
+						],
+						"dc": {
+							"calculation": "int"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Tactical Surge",
+			"source": "LLAC",
+			"className": "Alternate Wizard",
+			"classSource": "LLAC",
+			"subclassShortName": "War Mage",
+			"subclassSource": "LLAWiz",
+			"level": 6,
+			"system": {
+				"uses.per": "lr",
+				"uses.value": 0,
+				"uses.max": "@abilities.int.mod",
+				"uses.recovery": [
+					{
+						"period": "lr",
+						"type": "loseAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"name": "Gain a Tactical Surge",
+					"type": "utility",
+					"activation": {
+						"type": "special"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "-1",
+								"target": {
+									"consumes": {
+										"name": "Tactical Surge"
+									}
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Spend Tactical Surge for 2d6 damage",
+					"type": "damage",
+					"activation": {
+						"type": "special"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Tactical Surge"
+									}
+								}
+							}
+						]
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "2d6"
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Strategic Surge",
+			"source": "LLAC",
+			"className": "Alternate Wizard",
+			"classSource": "LLAC",
+			"subclassShortName": "War Mage",
+			"subclassSource": "LLAWiz",
+			"level": 10,
+			"activities": [
+				{
+					"name": "Spend a Tactical Surge for initiative bonus",
+					"type": "utility",
+					"activation": {
+						"type": "special"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Tactical Surge"
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Master of Arcane Warfare",
+			"source": "LLAC",
+			"className": "Alternate Wizard",
+			"classSource": "LLAC",
+			"subclassShortName": "War Mage",
+			"subclassSource": "LLAWiz",
+			"level": 14,
+			"activities": [
+				{
+					"name": "Cast Wizard cantrip for a reaction and tactical surge",
+					"type": "utility",
+					"activation": {
+						"type": "reaction"
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"target": {
+									"consumes": {
+										"name": "Tactical Surge"
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Ranged Transposition",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "LLMC",
+			"level": 15,
+			"system": {
+				"uses.per": "sr",
+				"uses.max": "1",
+				"uses.recovery": [
+					{
+						"period": "sr",
+						"type": "recoverAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"name": "Ranged Transposition",
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Mystic Marksman",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "LLMC",
+			"level": 20,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "1",
+				"uses.recovery": [
+					{
+						"period": "lr",
+						"type": "recoverAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"name": "Mystic Marksman",
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Blade Dance",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"subclassShortName": "Blades",
+			"subclassSource": "LLMC",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Blade Dance",
+					"disabled": true,
+					"transfer": true,
+					"duration": {
+						"seconds": 60
+					},
+					"changes": [
+						{
+							"key": "system.attributes.movement.walk",
+							"mode": "ADD",
+							"value": "+10"
+						},
+						{
+							"key": "system.attributes.ac.bonus",
+							"mode": "ADD",
+							"value": "+@scale.order-of-blade-dancers.dance-ac"
+						},
+						{
+							"key": "system.skills.ath.bonuses.check",
+							"mode": "ADD",
+							"value": "+max(1, @abilities.int.mod)"
+						},
+						{
+							"key": "system.skills.acr.bonuses.check",
+							"mode": "ADD",
+							"value": "+max(1, @abilities.int.mod)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fluid Steps",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"subclassShortName": "Blades",
+			"subclassSource": "LLMC",
+			"level": 7,
+			"effects": [
+				{
+					"name": "Initiative Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.init.bonus",
+							"mode": "ADD",
+							"value": "+@prof"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Breath",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "LLMC",
+			"level": 15,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "max(1, @abilities.int.mod)",
+				"uses.recovery": [
+					{
+						"period": "lr",
+						"type": "recoverAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"name": "Elemental Breath",
+					"type": "save",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					},
+					"target": {
+						"value": 30,
+						"units": "ft",
+						"type": "cone"
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "10d6"
+								}
+							}
+						],
+						"onSave": "half"
+					},
+					"save": {
+						"ability": [
+							"dex"
+						],
+						"dc": {
+							"calculation": "spellcasting"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Umbral Sight",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"subclassShortName": "Shade",
+			"subclassSource": "LLMC",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Darkvision",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.senses.darkvision",
+							"mode": "UPGRADE",
+							"priority": 19,
+							"value": 30
+						},
+						{
+							"key": "system.attributes.senses.darkvision",
+							"mode": "ADD",
+							"value": "+30"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Master Spellbreaker",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"subclassShortName": "Spellbreaker",
+			"subclassSource": "LLMC",
+			"level": 20,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "1",
+				"uses.recovery": [
+					{
+						"period": "lr",
+						"type": "recoverAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"name": "Master Spellbreaker",
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Arcane Conduit",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"subclassShortName": "Conduit",
+			"subclassSource": "LLMC:E",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Unarmored Defense",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "10 + @abilities.int.mod + @abilities.dex.mod"
+						},
+						{
+							"key": "system.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ascended Conduit",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"subclassShortName": "Conduit",
+			"subclassSource": "LLMC:E",
+			"level": 20,
+			"system": {
+				"uses.per": "lr",
+				"uses.max": "1",
+				"uses.recovery": [
+					{
+						"period": "lr",
+						"type": "recoverAll"
+					}
+				]
+			},
+			"activities": [
+				{
+					"name": "Ascended Conduit",
+					"type": "utility",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Martial Exploits",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"subclassShortName": "Spellsword",
+			"subclassSource": "LLMC:E",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Bounty Hunter Exploits",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.exploit.number",
+							"mode": "UPGRADE",
+							"value": "@scale.order-of-spellswords.exploit.number"
+						},
+						{
+							"key": "flags.ll.exploit.faces",
+							"mode": "UPGRADE",
+							"value": "@scale.order-of-spellswords.exploit.faces"
+						},
+						{
+							"key": "flags.ll.exploit.dc",
+							"mode": "UPGRADE",
+							"value": "8 + @prof + @abilities.int.mod"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Exploit Dice",
+			"source": "LLOC",
+			"className": "Magus",
+			"classSource": "LLOC",
+			"subclassShortName": "Spellsword",
+			"subclassSource": "LLMC:E",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Roll",
+					"type": "utility",
+					"activation.type": "",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"roll.formula": "d@flags.ll.exploit.faces"
+				}
+			],
+			"system": {
+				"uses.max": "@flags.ll.exploit.number"
+			}
+		},
+		{
+			"name": "Adventuring Academic",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Archaeologist",
+			"subclassSource": "LLSav",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Climbing Speed",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.movement.climb",
+							"mode": "UPGRADE",
+							"value": "@attributes.movement.walk"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student of History",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Archaeologist",
+			"subclassSource": "LLSav",
+			"level": 3,
+			"effects": [
+				{
+					"name": "History and Investigation Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.his.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.inv.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Daring Determination",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Archaeologist",
+			"subclassSource": "LLSav",
+			"level": 6,
+			"effects": [
+				{
+					"name": "Dexterity Save Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.abilities.dex.bonuses.save",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Rough & Tumble",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Investigator",
+			"subclassSource": "LLSav",
+			"level": 3,
+			"subEntities": {
+				"item": [
+					{
+						"name": "Unarmed Strike",
+						"source": "LLSav",
+						"type": "M",
+						"rarity": "none",
+						"weaponCategory": "simple",
+						"foundrySystem": {
+							"ability": "str",
+							"equipped": true,
+							"damage.parts": [
+								[
+									"@scale.savant.intellect-die + @mod",
+									"bludgeoning"
+								]
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Student of Truth",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Investigator",
+			"subclassSource": "LLSav",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Insight and Investigation Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.ins.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.inv.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.ins.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						},
+						{
+							"key": "system.skills.prc.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Master Investigator",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Investigator",
+			"subclassSource": "LLSav",
+			"level": 15,
+			"effects": [
+				{
+					"name": "Truesight",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.senses.truesight",
+							"mode": "UPGRADE",
+							"value": 30
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student of Nature",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Naturalist",
+			"subclassSource": "LLSav",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Nature and Survival Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.nat.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.sur.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.ani.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						},
+						{
+							"key": "system.skills.sur.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student of Medicine",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Physician",
+			"subclassSource": "LLSav",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Medicine and Sleight of Hand Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.med.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.slt.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.med.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student of War",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Tactician",
+			"subclassSource": "LLSav",
+			"level": 3,
+			"effects": [
+				{
+					"name": "History and Persuasion Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.his.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.per.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student of Flavor",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Culinarian",
+			"subclassSource": "LLSavE",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Nature Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.nat.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student of Life",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Mentor",
+			"subclassSource": "LLSavE",
+			"level": 3,
+			"effects": [
+				{
+					"name": "History and Insight Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.his.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.his.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student of Logic",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Orator",
+			"subclassSource": "LLSavE",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Deception and Persuasion Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.dec.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.per.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.dec.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						},
+						{
+							"key": "system.skills.per.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student of Thought",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Philosopher",
+			"subclassSource": "LLSavE",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Arcana and Religion Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.arc.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.rel.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student of Runes",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Rune Scribe",
+			"subclassSource": "LLSavE",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Arcana Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.arc.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student of Music",
+			"source": "LLOC",
+			"className": "Savant",
+			"classSource": "LLOC",
+			"subclassShortName": "Virtuoso",
+			"subclassSource": "LLSavE",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Insight and Performance Check Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.ins.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						},
+						{
+							"key": "system.skills.prf.bonuses.check",
+							"mode": "ADD",
+							"value": "+@scale.savant.intellect-die"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ascended Awareness",
+			"source": "LLOC",
+			"className": "Shaman",
+			"classSource": "LLOC",
+			"subclassShortName": "Far Seer",
+			"subclassSource": "LLSH",
+			"level": 6,
+			"effects": [
+				{
+					"name": "Initiative Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.init.bonus",
+							"mode": "ADD",
+							"value": "+@abilities.wis.mod"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ascended Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Ascended",
+			"subclassSource": "LLVessel",
+			"level": 3,
+			"activities": [
+				{
+					"name": "",
+					"type": "transform",
+					"activation": {
+						"type": "bonus",
+						"override": false,
+						"condition": ""
+					},
+					"duration": {
+						"units": "inst",
+						"concentration": false,
+						"override": false
+					},
+					"consumption": {
+						"scaling": {
+							"allowed": false
+						},
+						"spellSlot": true,
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"scaling": {}
+							}
+						]
+					},
+					"profiles": [
+						{
+							"uuid": "@creature[Ascended Archon|LLVessel]"
+						}
+					],
+					"transform": {
+						"customize": true,
+						"mode": "",
+						"preset": ""
+					},
+					"settings": {
+						"preset": null,
+						"effects": [
+							"origin",
+							"otherOrigin",
+							"background",
+							"class",
+							"feat",
+							"equipment",
+							"spell"
+						],
+						"keep": [
+							"physical",
+							"mental",
+							"saves",
+							"gearProf",
+							"languages",
+							"class",
+							"feats",
+							"items",
+							"spells",
+							"bio",
+							"hp"
+						],
+						"merge": [
+							"skills"
+						],
+						"other": [],
+						"spellLists": [],
+						"transformTokens": false,
+						"minimumAC": "10 + @abilities.cha.mod + @abilities.con.mod",
+						"tempFormula": "@classes.vessel.levels * 2"
+					}
+				}
+			],
+			"advice": {
+				"type": "section",
+				"entries": [
+					"If your Archon form adds a bonus to your Armor Class, temporarily disable the 'Ethereal Armor' active effect on your sheet, so that your AC displays correctly."
+				]
+			},
+			"entries": [
+				"Starting at 3rd level, you can use a bonus action to draw upon your Spirit's power to transform into its Archon Form, which uses the stat block in your Sealed Spirit's description. It may use your proficiency bonus (PB), Charisma modifier (CHA), and your Vessel Spell save DC in several places.",
+				"You can maintain your Archon Form for 10 minutes. You then revert to your normal form unless you expend a Vessel Magic spell slot to extend the transformation by 10 minutes. You also revert to your normal form if you are incapacitated, or use a bonus action on your turn to do so.",
+				"While in your Archon Form, the following rules apply:",
+				{
+					"type": "list",
+					"items": [
+						"Your game statistics are replaced those in your Archon's stat block. You retain your alignment, personality, ability scores, and your hit points. You also retain all your skill and saving throw proficiencies, and gain those of your Archon. If your Archon Form has the same skill proficiency as you, use the higher bonus between the two.",
+						"Your Archon Form gains the benefits of your Spirit Mantle. Some Archon Forms grant a bonus to your AC.",
+						"When you transform, you gain temporary hit points equal to your twice your Vessel level. Any temporary hit points you gain in Archon Form are lost when you revert.",
+						"You retain the benefits of any features from your class, player race, and any other source, and can use them if your Archon Form is capable of doing so, including casting spells with Vessel Magic.",
+						"When you transform, you choose if your equipment falls to the ground, merges into your Archon Form, or is worn by it. Worn equipment functions as normal, but your DM can decide whether it is practical for your Archon to use it. Equipment that merges with your Archon has no effect until your transformation ends."
+					]
+				},
+				"You can transform into your Archon Form once, and you regain the ability to transform again when you finish a short or long rest. If you have no uses left, you can expend a Vessel Magic spell slot to transform into your Archon Form again.",
+				{
+					"type": "entries",
+					"name": "Ascended Archon",
+					"entries": [
+						"You take on the luminous form of the ancient spellcaster that is bound to you. {@creature Ascended Archon|LLOC|Your archon form uses this statblock.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Iridescent Strike Alteration",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Ascended",
+			"subclassSource": "LLVessel",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Iridescent Strike - Acid",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriEleAcid"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Cold",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriEleCold"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Fire",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriEleFire"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Lightning",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriEleLightning"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Thunder",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriEleThunder"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Force",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriEleForce"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Necrotic",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriEleNecrotic"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Radiant",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriEleRadiant"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Poison",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriElePoison"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Psychic",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriElePsychic"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Bludgeoning",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriEleBludge"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Piercing",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriElePiercing"
+						}
+					]
+				},
+				{
+					"name": "Iridescent Strike - Slashing",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriEleSlashing"
+						}
+					]
+				}
+			],
+			"effects": [
+				{
+					"foundryId": "IriEleAcid",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "acid"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Acid)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriEleCold",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "cold"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Cold)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriEleFire",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "fire"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Fire)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriEleLightning",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "lightning"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Lightning)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriEleThunder",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "thunder"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Thunder)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriEleForce",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "force"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Force)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriEleNecrotic",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "necrotic"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Necrotic)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriEleRadiant",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "radiant"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Radiant)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriElePoison",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "poison"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Poison)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriElePsychic",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "psychic"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Psychic)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriEleBludge",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "bludgeoning"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Bludgeoning)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriElePiercing",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "piercing"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Piercing)"
+						}
+					]
+				},
+				{
+					"foundryId": "IriEleSlashing",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "slashing"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Slashing)"
+						}
+					]
+				}
+			],
+			"advice": {
+				"type": "section",
+				"entries": [
+					"Drag the Iridescent Strike weapon from your inventory into the Enchant box in the chat to change the damage type."
+				]
+			},
+			"migrationVersion": 3
+		},
+		{
+			"name": "Cataclysm Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cataclysm",
+			"subclassSource": "LLVessel",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Air Archon",
+					"type": "transform",
+					"activation": {
+						"type": "bonus",
+						"override": false,
+						"condition": ""
+					},
+					"duration": {
+						"units": "inst",
+						"concentration": false,
+						"override": false
+					},
+					"consumption": {
+						"scaling": {
+							"allowed": false
+						},
+						"spellSlot": true,
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"scaling": {}
+							}
+						]
+					},
+					"profiles": [
+						{
+							"uuid": "@creature[Air Archon|LLVessel]"
+						}
+					],
+					"transform": {
+						"customize": true,
+						"mode": "",
+						"preset": ""
+					},
+					"settings": {
+						"preset": null,
+						"effects": [
+							"origin",
+							"otherOrigin",
+							"background",
+							"class",
+							"feat",
+							"equipment",
+							"spell"
+						],
+						"keep": [
+							"physical",
+							"mental",
+							"saves",
+							"gearProf",
+							"languages",
+							"class",
+							"feats",
+							"items",
+							"spells",
+							"bio",
+							"hp"
+						],
+						"merge": [
+							"skills"
+						],
+						"other": [],
+						"spellLists": [],
+						"transformTokens": false,
+						"minimumAC": "10 + @abilities.cha.mod + @abilities.con.mod",
+						"tempFormula": "@classes.vessel.levels * 2"
+					}
+				},
+				{
+					"name": "Water Archon",
+					"type": "transform",
+					"activation": {
+						"type": "bonus",
+						"override": false,
+						"condition": ""
+					},
+					"duration": {
+						"units": "inst",
+						"concentration": false,
+						"override": false
+					},
+					"consumption": {
+						"scaling": {
+							"allowed": false
+						},
+						"spellSlot": true,
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"scaling": {}
+							}
+						]
+					},
+					"profiles": [
+						{
+							"uuid": "@creature[Water Archon|LLVessel]"
+						}
+					],
+					"transform": {
+						"customize": true,
+						"mode": "",
+						"preset": ""
+					},
+					"settings": {
+						"preset": null,
+						"effects": [
+							"origin",
+							"otherOrigin",
+							"background",
+							"class",
+							"feat",
+							"equipment",
+							"spell"
+						],
+						"keep": [
+							"physical",
+							"mental",
+							"saves",
+							"gearProf",
+							"languages",
+							"class",
+							"feats",
+							"items",
+							"spells",
+							"bio",
+							"hp"
+						],
+						"merge": [
+							"skills"
+						],
+						"other": [],
+						"spellLists": [],
+						"transformTokens": false,
+						"minimumAC": "10 + @abilities.cha.mod + @abilities.con.mod",
+						"tempFormula": "@classes.vessel.levels * 2"
+					}
+				},
+				{
+					"name": "Fire Archon",
+					"type": "transform",
+					"activation": {
+						"type": "bonus",
+						"override": false,
+						"condition": ""
+					},
+					"duration": {
+						"units": "inst",
+						"concentration": false,
+						"override": false
+					},
+					"consumption": {
+						"scaling": {
+							"allowed": false
+						},
+						"spellSlot": true,
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"scaling": {}
+							}
+						]
+					},
+					"profiles": [
+						{
+							"uuid": "@creature[Fire Archon|LLVessel]"
+						}
+					],
+					"transform": {
+						"customize": true,
+						"mode": "",
+						"preset": ""
+					},
+					"settings": {
+						"preset": null,
+						"effects": [
+							"origin",
+							"otherOrigin",
+							"background",
+							"class",
+							"feat",
+							"equipment",
+							"spell"
+						],
+						"keep": [
+							"physical",
+							"mental",
+							"saves",
+							"gearProf",
+							"languages",
+							"class",
+							"feats",
+							"items",
+							"spells",
+							"bio",
+							"hp"
+						],
+						"merge": [
+							"skills"
+						],
+						"other": [],
+						"spellLists": [],
+						"transformTokens": false,
+						"minimumAC": "10 + @abilities.cha.mod + @abilities.con.mod",
+						"tempFormula": "@classes.vessel.levels * 2"
+					}
+				},
+				{
+					"name": "Earth Archon",
+					"type": "transform",
+					"activation": {
+						"type": "bonus",
+						"override": false,
+						"condition": ""
+					},
+					"duration": {
+						"units": "inst",
+						"concentration": false,
+						"override": false
+					},
+					"consumption": {
+						"scaling": {
+							"allowed": false
+						},
+						"spellSlot": true,
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"scaling": {}
+							}
+						]
+					},
+					"profiles": [
+						{
+							"uuid": "@creature[Earth Archon|LLVessel]"
+						}
+					],
+					"transform": {
+						"customize": true,
+						"mode": "",
+						"preset": ""
+					},
+					"settings": {
+						"preset": null,
+						"effects": [
+							"origin",
+							"otherOrigin",
+							"background",
+							"class",
+							"feat",
+							"equipment",
+							"spell"
+						],
+						"keep": [
+							"physical",
+							"mental",
+							"saves",
+							"gearProf",
+							"languages",
+							"class",
+							"feats",
+							"items",
+							"spells",
+							"bio",
+							"hp"
+						],
+						"merge": [
+							"skills"
+						],
+						"other": [],
+						"spellLists": [],
+						"transformTokens": false,
+						"minimumAC": "13 + @abilities.cha.mod + @abilities.con.mod",
+						"tempFormula": "@classes.vessel.levels * 2"
+					}
+				}
+			],
+			"advice": {
+				"type": "section",
+				"entries": [
+					"If your Archon form adds a bonus to your Armor Class, temporarily disable the 'Ethereal Armor' active effect on your sheet, so that your AC displays correctly."
+				]
+			},
+			"entries": [
+				"Starting at 3rd level, you can use a bonus action to draw upon your Spirit's power to transform into its Archon Form, which uses the stat block in your Sealed Spirit's description. It may use your proficiency bonus (PB), Charisma modifier (CHA), and your Vessel Spell save DC in several places.",
+				"You can maintain your Archon Form for 10 minutes. You then revert to your normal form unless you expend a Vessel Magic spell slot to extend the transformation by 10 minutes. You also revert to your normal form if you are incapacitated, or use a bonus action on your turn to do so.",
+				"While in your Archon Form, the following rules apply:",
+				{
+					"type": "list",
+					"items": [
+						"Your game statistics are replaced those in your Archon's stat block. You retain your alignment, personality, ability scores, and your hit points. You also retain all your skill and saving throw proficiencies, and gain those of your Archon. If your Archon Form has the same skill proficiency as you, use the higher bonus between the two.",
+						"Your Archon Form gains the benefits of your Spirit Mantle. Some Archon Forms grant a bonus to your AC.",
+						"When you transform, you gain temporary hit points equal to your twice your Vessel level. Any temporary hit points you gain in Archon Form are lost when you revert.",
+						"You retain the benefits of any features from your class, player race, and any other source, and can use them if your Archon Form is capable of doing so, including casting spells with Vessel Magic.",
+						"When you transform, you choose if your equipment falls to the ground, merges into your Archon Form, or is worn by it. Worn equipment functions as normal, but your DM can decide whether it is practical for your Archon to use it. Equipment that merges with your Archon has no effect until your transformation ends."
+					]
+				},
+				"You can transform into your Archon Form once, and you regain the ability to transform again when you finish a short or long rest. If you have no uses left, you can expend a Vessel Magic spell slot to transform into your Archon Form again.",
+				{
+					"type": "inset",
+					"name": "Archon Form Appearance",
+					"entries": [
+						"You determine your Archon's appearance, but this has no effect on its abilities. Most are ethereal in appearance, but all Archons are vaguely humanoid in shape and share a resemblance with your Spirit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cataclysm Archon",
+					"entries": [
+						"You can take on a form of pure elemental power, wreathed in storms, flames, stone, or waves. When you transform into your Archon Form, you use the Cataclysm Archon stat block below that corresponds to the Elemental Affinity you chose at 3rd level: {@creature Water Archon|LLOC|Water}, {@creature Earth Archon|LLOC|Earth}, {@creature Fire Archon|LLOC|Fire} or {@creature Air Archon|LLOC|Air}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cursed Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Cursed",
+			"subclassSource": "LLVessel",
+			"level": 3,
+			"activities": [
+				{
+					"name": "",
+					"type": "transform",
+					"activation": {
+						"type": "bonus",
+						"override": false,
+						"condition": ""
+					},
+					"duration": {
+						"units": "inst",
+						"concentration": false,
+						"override": false
+					},
+					"consumption": {
+						"scaling": {
+							"allowed": false
+						},
+						"spellSlot": true,
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"scaling": {}
+							}
+						]
+					},
+					"profiles": [
+						{
+							"uuid": "@creature[Cursed Archon|LLVessel]"
+						}
+					],
+					"transform": {
+						"customize": true,
+						"mode": "",
+						"preset": ""
+					},
+					"settings": {
+						"preset": null,
+						"effects": [
+							"origin",
+							"otherOrigin",
+							"background",
+							"class",
+							"feat",
+							"equipment",
+							"spell"
+						],
+						"keep": [
+							"physical",
+							"mental",
+							"saves",
+							"gearProf",
+							"languages",
+							"class",
+							"feats",
+							"items",
+							"spells",
+							"bio",
+							"hp"
+						],
+						"merge": [
+							"skills"
+						],
+						"other": [],
+						"spellLists": [],
+						"transformTokens": false,
+						"minimumAC": "11 + @abilities.cha.mod + @abilities.con.mod",
+						"tempFormula": "@classes.vessel.levels * 2"
+					}
+				}
+			],
+			"advice": {
+				"type": "section",
+				"entries": [
+					"If your Archon form adds a bonus to your Armor Class, temporarily disable the 'Ethereal Armor' active effect on your sheet, so that your AC displays correctly."
+				]
+			},
+			"entries": [
+				"Starting at 3rd level, you can use a bonus action to draw upon your Spirit's power to transform into its Archon Form, which uses the stat block in your Sealed Spirit's description. It may use your proficiency bonus (PB), Charisma modifier (CHA), and your Vessel Spell save DC in several places.",
+				"You can maintain your Archon Form for 10 minutes. You then revert to your normal form unless you expend a Vessel Magic spell slot to extend the transformation by 10 minutes. You also revert to your normal form if you are incapacitated, or use a bonus action on your turn to do so.",
+				"While in your Archon Form, the following rules apply:",
+				{
+					"type": "list",
+					"items": [
+						"Your game statistics are replaced those in your Archon's stat block. You retain your alignment, personality, ability scores, and your hit points. You also retain all your skill and saving throw proficiencies, and gain those of your Archon. If your Archon Form has the same skill proficiency as you, use the higher bonus between the two.",
+						"Your Archon Form gains the benefits of your Spirit Mantle. Some Archon Forms grant a bonus to your AC.",
+						"When you transform, you gain temporary hit points equal to your twice your Vessel level. Any temporary hit points you gain in Archon Form are lost when you revert.",
+						"You retain the benefits of any features from your class, player race, and any other source, and can use them if your Archon Form is capable of doing so, including casting spells with Vessel Magic.",
+						"When you transform, you choose if your equipment falls to the ground, merges into your Archon Form, or is worn by it. Worn equipment functions as normal, but your DM can decide whether it is practical for your Archon to use it. Equipment that merges with your Archon has no effect until your transformation ends."
+					]
+				},
+				"You can transform into your Archon Form once, and you regain the ability to transform again when you finish a short or long rest. If you have no uses left, you can expend a Vessel Magic spell slot to transform into your Archon Form again.",
+				{
+					"type": "inset",
+					"name": "Archon Form Appearance",
+					"entries": [
+						"You determine your Archon's appearance, but this has no effect on its abilities. Most are ethereal in appearance, but all Archons are vaguely humanoid in shape and share a resemblance with your Spirit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cursed Archon",
+					"entries": [
+						"You can take on a sinister form wreathed in the dark flame and shadow of your Cursed Spirit. When you transform into Archon Form, {@creature Cursed Archon|LLOC|you use this statblock.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Fallen Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Fallen",
+			"subclassSource": "LLVessel",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Fallen Archon",
+					"type": "transform",
+					"activation": {
+						"type": "bonus",
+						"override": false,
+						"condition": ""
+					},
+					"duration": {
+						"units": "inst",
+						"concentration": false,
+						"override": false
+					},
+					"consumption": {
+						"scaling": {
+							"allowed": false
+						},
+						"spellSlot": true,
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"scaling": {}
+							}
+						]
+					},
+					"profiles": [
+						{
+							"uuid": "@creature[Fallen Archon|LLVessel]"
+						}
+					],
+					"transform": {
+						"customize": true,
+						"mode": "",
+						"preset": ""
+					},
+					"settings": {
+						"preset": null,
+						"effects": [
+							"origin",
+							"otherOrigin",
+							"background",
+							"class",
+							"feat",
+							"equipment",
+							"spell"
+						],
+						"keep": [
+							"physical",
+							"mental",
+							"saves",
+							"gearProf",
+							"languages",
+							"class",
+							"feats",
+							"items",
+							"spells",
+							"bio",
+							"hp"
+						],
+						"merge": [
+							"skills"
+						],
+						"other": [],
+						"spellLists": [],
+						"transformTokens": false,
+						"minimumAC": "12 + @abilities.cha.mod + @abilities.con.mod",
+						"tempFormula": "@classes.vessel.levels * 2"
+					}
+				}
+			],
+			"advice": {
+				"type": "section",
+				"entries": [
+					"If your Archon form adds a bonus to your Armor Class, temporarily disable the 'Ethereal Armor' active effect on your sheet, so that your AC displays correctly."
+				]
+			},
+			"entries": [
+				"Starting at 3rd level, you can use a bonus action to draw upon your Spirit's power to transform into its Archon Form, which uses the stat block in your Sealed Spirit's description. It may use your proficiency bonus (PB), Charisma modifier (CHA), and your Vessel Spell save DC in several places.",
+				"You can maintain your Archon Form for 10 minutes. You then revert to your normal form unless you expend a Vessel Magic spell slot to extend the transformation by 10 minutes. You also revert to your normal form if you are incapacitated, or use a bonus action on your turn to do so.",
+				"While in your Archon Form, the following rules apply:",
+				{
+					"type": "list",
+					"items": [
+						"Your game statistics are replaced those in your Archon's stat block. You retain your alignment, personality, ability scores, and your hit points. You also retain all your skill and saving throw proficiencies, and gain those of your Archon. If your Archon Form has the same skill proficiency as you, use the higher bonus between the two.",
+						"Your Archon Form gains the benefits of your Spirit Mantle. Some Archon Forms grant a bonus to your AC.",
+						"When you transform, you gain temporary hit points equal to your twice your Vessel level. Any temporary hit points you gain in Archon Form are lost when you revert.",
+						"You retain the benefits of any features from your class, player race, and any other source, and can use them if your Archon Form is capable of doing so, including casting spells with Vessel Magic.",
+						"When you transform, you choose if your equipment falls to the ground, merges into your Archon Form, or is worn by it. Worn equipment functions as normal, but your DM can decide whether it is practical for your Archon to use it. Equipment that merges with your Archon has no effect until your transformation ends."
+					]
+				},
+				"You can transform into your Archon Form once, and you regain the ability to transform again when you finish a short or long rest. If you have no uses left, you can expend a Vessel Magic spell slot to transform into your Archon Form again.",
+				{
+					"type": "inset",
+					"name": "Archon Form Appearance",
+					"entries": [
+						"You determine your Archon's appearance, but this has no effect on its abilities. Most are ethereal in appearance, but all Archons are vaguely humanoid in shape and share a resemblance with your Spirit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fallen Archon",
+					"entries": [
+						"You take on a form wreathed in rings of fire or a humanoid that radiates golden light. When you transform into your Archon Form, {@creature Fallen Archon|LLOC|you use this statblock.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Divine Wrath",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Fallen",
+			"subclassSource": "LLVessel",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Divine Wrath",
+					"type": "enchant",
+					"activation": {
+						"type": "special"
+					},
+					"restrictions": {
+						"allowMagical": true,
+						"type": "weapon"
+					},
+					"effects": [
+						{
+							"foundryId": "IriEleRadiant"
+						}
+					]
+				}
+			],
+			"effects": [
+				{
+					"foundryId": "IriEleRadiant",
+					"type": "enchantment",
+					"changes": [
+						{
+							"key": "system.damage.base.types",
+							"mode": "OVERRIDE",
+							"value": "radiant"
+						},
+						{
+							"key": "name",
+							"mode": "OVERRIDE",
+							"value": "{} (Divine Wrath)"
+						},
+						{
+							"key": "activities[attack].attack.ability",
+							"mode": "OVERRIDE",
+							"value": "cha"
+						}
+					]
+				}
+			],
+			"advice": {
+				"type": "section",
+				"entries": [
+					"When you use this feature, you may use the damage die of your Iridescent Strike. By default, this activity does not do that."
+				]
+			}
+		},
+		{
+			"name": "Formless Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Formless",
+			"subclassSource": "LLVessel",
+			"level": 3,
+			"activities": [
+				{
+					"name": "",
+					"type": "transform",
+					"activation": {
+						"type": "bonus",
+						"override": false,
+						"condition": ""
+					},
+					"duration": {
+						"units": "inst",
+						"concentration": false,
+						"override": false
+					},
+					"consumption": {
+						"scaling": {
+							"allowed": false
+						},
+						"spellSlot": true,
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"scaling": {}
+							}
+						]
+					},
+					"profiles": [
+						{
+							"uuid": "@creature[Formless Archon|LLVessel]"
+						}
+					],
+					"transform": {
+						"customize": true,
+						"mode": "",
+						"preset": ""
+					},
+					"settings": {
+						"preset": null,
+						"effects": [
+							"origin",
+							"otherOrigin",
+							"background",
+							"class",
+							"feat",
+							"equipment",
+							"spell"
+						],
+						"keep": [
+							"physical",
+							"mental",
+							"saves",
+							"gearProf",
+							"languages",
+							"class",
+							"feats",
+							"items",
+							"spells",
+							"bio",
+							"hp"
+						],
+						"merge": [
+							"skills"
+						],
+						"other": [],
+						"spellLists": [],
+						"transformTokens": false,
+						"minimumAC": "11 + @abilities.cha.mod + @abilities.con.mod",
+						"tempFormula": "@classes.vessel.levels * 2"
+					}
+				}
+			],
+			"advice": {
+				"type": "section",
+				"entries": [
+					"If your Archon form adds a bonus to your Armor Class, temporarily disable the 'Ethereal Armor' active effect on your sheet, so that your AC displays correctly."
+				]
+			},
+			"entries": [
+				"Starting at 3rd level, you can use a bonus action to draw upon your Spirit's power to transform into its Archon Form, which uses the stat block in your Sealed Spirit's description. It may use your proficiency bonus (PB), Charisma modifier (CHA), and your Vessel Spell save DC in several places.",
+				"You can maintain your Archon Form for 10 minutes. You then revert to your normal form unless you expend a Vessel Magic spell slot to extend the transformation by 10 minutes. You also revert to your normal form if you are incapacitated, or use a bonus action on your turn to do so.",
+				"While in your Archon Form, the following rules apply:",
+				{
+					"type": "list",
+					"items": [
+						"Your game statistics are replaced those in your Archon's stat block. You retain your alignment, personality, ability scores, and your hit points. You also retain all your skill and saving throw proficiencies, and gain those of your Archon. If your Archon Form has the same skill proficiency as you, use the higher bonus between the two.",
+						"Your Archon Form gains the benefits of your Spirit Mantle. Some Archon Forms grant a bonus to your AC.",
+						"When you transform, you gain temporary hit points equal to your twice your Vessel level. Any temporary hit points you gain in Archon Form are lost when you revert.",
+						"You retain the benefits of any features from your class, player race, and any other source, and can use them if your Archon Form is capable of doing so, including casting spells with Vessel Magic.",
+						"When you transform, you choose if your equipment falls to the ground, merges into your Archon Form, or is worn by it. Worn equipment functions as normal, but your DM can decide whether it is practical for your Archon to use it. Equipment that merges with your Archon has no effect until your transformation ends."
+					]
+				},
+				"You can transform into your Archon Form once, and you regain the ability to transform again when you finish a short or long rest. If you have no uses left, you can expend a Vessel Magic spell slot to transform into your Archon Form again.",
+				{
+					"type": "inset",
+					"name": "Archon Form Appearance",
+					"entries": [
+						"You determine your Archon's appearance, but this has no effect on its abilities. Most are ethereal in appearance, but all Archons are vaguely humanoid in shape and share a resemblance with your Spirit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Formless Archon",
+					"entries": [
+						"You morph into a shapeless form of slime or an unspeakable flowing mass of opaque ooze. When you transform into your Archon Form, {@creature Formless Archon|LLOC|you use this statblock.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Drain Vitality",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Formless",
+			"subclassSource": "LLVessel",
+			"level": 6,
+			"activities": [
+				{
+					"type": "save",
+					"activation": {
+						"type": "special"
+					},
+					"damage": {
+						"parts": [
+							{
+								"custom": {
+									"enabled": true,
+									"formula": "@scale.the-formless.consume-vitality"
+								},
+								"bonus": "",
+								"types": [
+									"acid"
+								]
+							}
+						]
+					},
+					"save": {
+						"ability": [
+							"con"
+						],
+						"dc": {
+							"calculation": "cha"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Trickster Archon",
+			"source": "LLOC",
+			"className": "Vessel",
+			"classSource": "LLOC",
+			"subclassShortName": "Trickster",
+			"subclassSource": "LLVessel",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Trickster Archon",
+					"type": "transform",
+					"activation": {
+						"type": "bonus",
+						"override": false,
+						"condition": ""
+					},
+					"duration": {
+						"units": "inst",
+						"concentration": false,
+						"override": false
+					},
+					"consumption": {
+						"scaling": {
+							"allowed": false
+						},
+						"spellSlot": true,
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "1",
+								"scaling": {}
+							}
+						]
+					},
+					"profiles": [
+						{
+							"uuid": "@creature[Trickster Archon|LLVessel]"
+						}
+					],
+					"transform": {
+						"customize": true,
+						"mode": "",
+						"preset": ""
+					},
+					"settings": {
+						"preset": null,
+						"effects": [
+							"origin",
+							"otherOrigin",
+							"background",
+							"class",
+							"feat",
+							"equipment",
+							"spell"
+						],
+						"keep": [
+							"physical",
+							"mental",
+							"saves",
+							"gearProf",
+							"languages",
+							"class",
+							"feats",
+							"items",
+							"spells",
+							"bio",
+							"hp"
+						],
+						"merge": [
+							"skills"
+						],
+						"other": [],
+						"spellLists": [],
+						"transformTokens": false,
+						"minimumAC": "10 + @abilities.cha.mod + @abilities.con.mod",
+						"tempFormula": "@classes.vessel.levels * 2"
+					}
+				}
+			],
+			"advice": {
+				"type": "section",
+				"entries": [
+					"If your Archon form adds a bonus to your Armor Class, temporarily disable the 'Ethereal Armor' active effect on your sheet, so that your AC displays correctly."
+				]
+			},
+			"entries": [
+				"Starting at 3rd level, you can use a bonus action to draw upon your Spirit's power to transform into its Archon Form, which uses the stat block in your Sealed Spirit's description. It may use your proficiency bonus (PB), Charisma modifier (CHA), and your Vessel Spell save DC in several places.",
+				"You can maintain your Archon Form for 10 minutes. You then revert to your normal form unless you expend a Vessel Magic spell slot to extend the transformation by 10 minutes. You also revert to your normal form if you are incapacitated, or use a bonus action on your turn to do so.",
+				"While in your Archon Form, the following rules apply:",
+				{
+					"type": "list",
+					"items": [
+						"Your game statistics are replaced those in your Archon's stat block. You retain your alignment, personality, ability scores, and your hit points. You also retain all your skill and saving throw proficiencies, and gain those of your Archon. If your Archon Form has the same skill proficiency as you, use the higher bonus between the two.",
+						"Your Archon Form gains the benefits of your Spirit Mantle. Some Archon Forms grant a bonus to your AC.",
+						"When you transform, you gain temporary hit points equal to your twice your Vessel level. Any temporary hit points you gain in Archon Form are lost when you revert.",
+						"You retain the benefits of any features from your class, player race, and any other source, and can use them if your Archon Form is capable of doing so, including casting spells with Vessel Magic.",
+						"When you transform, you choose if your equipment falls to the ground, merges into your Archon Form, or is worn by it. Worn equipment functions as normal, but your DM can decide whether it is practical for your Archon to use it. Equipment that merges with your Archon has no effect until your transformation ends."
+					]
+				},
+				"You can transform into your Archon Form once, and you regain the ability to transform again when you finish a short or long rest. If you have no uses left, you can expend a Vessel Magic spell slot to transform into your Archon Form again.",
+				{
+					"type": "inset",
+					"name": "Archon Form Appearance",
+					"entries": [
+						"You determine your Archon's appearance, but this has no effect on its abilities. Most are ethereal in appearance, but all Archons are vaguely humanoid in shape and share a resemblance with your Spirit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trickster Archon",
+					"entries": [
+						"You take on a form that is elegant, whimsical, and terrifying, much like the powerful faerie. When you transform into your Archon Form, {@creature Trickster Archon|LLOC|you use this statblock.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Inspiring Shout",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Chivalry",
+			"subclassSource": "LLAW",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Heal",
+					"type": "heal",
+					"activation.type": "encounter",
+					"cosnumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Inspiring Word"
+								}
+							},
+							"value": 1
+						}
+					],
+					"range": {
+						"value": 30,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": "@flags.ll.leadership.mod",
+						"type": "creature"
+					},
+					"healing": {
+						"custom": {
+							"enabled": true,
+							"formula": "d@flags.ll.exploit.faces + @flags.ll.leadership.mod"
+						},
+						"types": [
+							"temphp"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Flames of Hope",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Chivalry",
+			"subclassSource": "LLAW",
+			"level": 14,
+			"activities": [
+				{
+					"name": "Allies",
+					"type": "heal",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"range": {
+						"value": 30,
+						"units": "ft"
+					},
+					"target.affects.type": "ally",
+					"healing": {
+						"custom": {
+							"enabled": true,
+							"formula": "d@flags.ll.exploit.faces + @flags.ll.leadership.mod"
+						},
+						"types": [
+							"temphp"
+						]
+					}
+				},
+				{
+					"name": "Enemies",
+					"type": "save",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"range": {
+						"value": 30,
+						"units": "ft"
+					},
+					"target.affects.type": "enemy",
+					"save": {
+						"ability": [
+							"wis"
+						],
+						"dc.formula": "@flags.ll.exploit.dc"
+					}
+				}
+			],
+			"system": {
+				"uses": {
+					"max": 1,
+					"recovery": [
+						{
+							"period": "sr",
+							"type": "recoverAll"
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Dark Captain",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLAW",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Intelligence Intimidation & min8",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.itm.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						},
+						{
+							"key": "system.skills.itm.roll.min",
+							"mode": "UPGRADE",
+							"value": 8
+						}
+					]
+				},
+				{
+					"name": "Wisdom Intimidation & min8",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.itm.ability",
+							"mode": "OVERRIDE",
+							"value": "wis"
+						},
+						{
+							"key": "system.skills.itm.roll.min",
+							"mode": "UPGRADE",
+							"value": 8
+						}
+					]
+				},
+				{
+					"name": "Charisma Intimidation & min8",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.itm.ability",
+							"mode": "OVERRIDE",
+							"value": "cha"
+						},
+						{
+							"key": "system.skills.itm.roll.min",
+							"mode": "UPGRADE",
+							"value": 8
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Dread Presence",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLAW",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Save",
+					"type": "save",
+					"activation.type": "bonus",
+					"duration": {
+						"value": 1,
+						"units": "minute"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Inspiring Word"
+								}
+							},
+							"value": 1
+						}
+					],
+					"range": {
+						"value": 30,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					},
+					"save": {
+						"ability": [
+							"wis"
+						],
+						"dc.formula": "@flags.ll.exploit.dc"
+					}
+				}
+			]
+		},
+		{
+			"name": "Merciless",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLAW",
+			"level": 6,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					]
+				}
+			],
+			"system": {
+				"uses": {
+					"max": "max(1, @flags.ll.leadership.mod)",
+					"recovery": [
+						{
+							"period": "lr",
+							"type": "recoverAll"
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Dreadlord",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Dread",
+			"subclassSource": "LLAW",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "",
+					"roll": {
+						"name": "Bonus",
+						"formula": "max(1, @flags.ll.leadership.mod)"
+					}
+				}
+			]
+		},
+		{
+			"name": "Packleader",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAW",
+			"level": 3,
+			"system": {
+				"uses": {
+					"max": "max(1, @flags.ll.leadership.mod)",
+					"recovery": [
+						{
+							"period": "sr",
+							"type": "formula",
+							"formula": 1
+						},
+						{
+							"period": "lr",
+							"type": "recoverAll"
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Silent Stalker",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAW",
+			"level": 6,
+			"effects": [
+				{
+					"name": "Stealth Advantage",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.ste.roll.mode",
+							"mode": "ADD",
+							"value": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Thrill of the Hunt",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAW",
+			"level": 14,
+			"activities": [
+				{
+					"name": "Temporary Hit Points",
+					"type": "heal",
+					"activation": {
+						"type": "reaction",
+						"condition": "When your Prey is killed"
+					},
+					"healing": {
+						"bonus": "@classes.warlord.levels",
+						"types": [
+							"temphp"
+						]
+					}
+				},
+				{
+					"name": "Regain Inspiring Word",
+					"type": "utility",
+					"activation": {
+						"type": "reaction",
+						"condition": "When your Prey is killed"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Inspiring Word"
+								}
+							},
+							"value": -1
+						}
+					]
+				},
+				{
+					"name": "Regain Exploit Die",
+					"type": "utility",
+					"activation": {
+						"type": "reaction",
+						"condition": "When your Prey is killed"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Apex Predator",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "LLAW",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Extra Damage",
+					"type": "damage",
+					"activation.type": "",
+					"target.affects": {
+						"count": 1,
+						"type": "creature",
+						"special": "Your Prey"
+					},
+					"damage.parts": [
+						{
+							"custom": {
+								"enabled": true,
+								"formula": "d@flags.ll.exploit.faces"
+							}
+						}
+					]
+				},
+				{
+					"name": "Grant Extra Speed",
+					"type": "utility",
+					"activation.type": "",
+					"target.affects": {
+						"count": 1,
+						"type": "creature",
+						"special": "Target of Inspiring Word, Rallying Cry, or one of your Tactical Exploits"
+					},
+					"effects": [
+						{
+							"foundryId": "LLAWEffectFeAP00"
+						}
+					]
+				}
+			],
+			"effects": [
+				{
+					"name": "Increased Speed",
+					"foundryId": "LLAWEffectFeAP00",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.movement.walk",
+							"mode": "ADD",
+							"value": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gallant Spellcasting",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLAW",
+			"level": 3,
+			"system": {
+				"uses": {
+					"max": "",
+					"recovery": []
+				}
+			}
+		},
+		{
+			"name": "Warrior Poet",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLAW",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you make a Performance check that includes both a weapon and a musical instrument"
+					},
+					"roll": {
+						"name": "Bonus",
+						"formula": "@classes.warlord.levels"
+					}
+				}
+			]
+		},
+		{
+			"name": "Heroic Charge",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Gallantry",
+			"subclassSource": "LLAW",
+			"level": 6,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "encounter",
+					"duration": {
+						"value": 1,
+						"units": "turn"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Inspiring Word"
+								}
+							},
+							"value": 1
+						}
+					],
+					"range": {
+						"value": "@scale.academy-of-gallantry.heroic-charge",
+						"units": "ft"
+					}
+				}
+			]
+		},
+		{
+			"name": "Cheap Shot",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLAW",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Save",
+					"type": "save",
+					"activation": {
+						"type": "special",
+						"condition": "Once per turn when you hit a creature with a weapon attack"
+					},
+					"duration": {
+						"value": 1,
+						"units": "round"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					},
+					"save": {
+						"ability": [
+							"dex"
+						],
+						"dc.formula": "@flags.ll.exploit.dc"
+					},
+					"effects": [
+						{
+							"foundryId": "LLAWEffectScCS00"
+						}
+					]
+				}
+			],
+			"effects": [
+				{
+					"name": "Halved Speed",
+					"foundryId": "LLAWEffectScCS00",
+					"changes": [
+						{
+							"key": "system.attributes.movement.walk",
+							"mode": "MULTIPLY",
+							"value": 0.5
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Dastardly Talents",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLAW",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Intelligence Deception",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.dec.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						}
+					]
+				},
+				{
+					"name": "Wisdom Deception",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.dec.ability",
+							"mode": "OVERRIDE",
+							"value": "wis"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ruthless Focus",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLAW",
+			"level": 6,
+			"activities": [
+				{
+					"name": "Insightful Order",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "When a creature fails its saving throw against your Cheap Shot"
+					}
+				},
+				{
+					"name": "Disengage or Hide",
+					"type": "utility",
+					"activation.type": "bonus"
+				}
+			]
+		},
+		{
+			"name": "Devious Tactics",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLAW",
+			"level": 14,
+			"activities": [
+				{
+					"name": "Save",
+					"type": "save",
+					"activation": {
+						"type": "reaction",
+						"condition": "When a creature you can see targets you with an attack or forces you to make a saving throw"
+					},
+					"range": {
+						"value": 5,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					},
+					"save": {
+						"ability": [
+							"dex"
+						],
+						"dc.formula": "@flags.ll.exploit.dc"
+					}
+				}
+			]
+		},
+		{
+			"name": "Marked for Death",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Schemes",
+			"subclassSource": "LLAW",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "When a creature fails its saving throw against Cheap Shot"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					}
+				}
+			]
+		},
+		{
+			"name": "Advanced Tactics",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Tactics",
+			"subclassSource": "LLAW",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Tactical Exploits",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.ll.exploit.number",
+							"mode": "ADD",
+							"value": 1
+						},
+						{
+							"key": "flags.ll.exploit.faces",
+							"mode": "UPGRADE",
+							"value": "@scale.academy-of-tactics.exploit.faces"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Monstrous Minion",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Claws",
+			"subclassSource": "LLAW:E",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Dominate",
+					"type": "save",
+					"range": {
+						"value": 10,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					},
+					"save": {
+						"ability": [
+							"cha"
+						],
+						"dc.formula": "@flags.ll.exploit.dc"
+					}
+				},
+				{
+					"name": "Summon",
+					"type": "summon",
+					"activation.type": "",
+					"summon.mode": "cr",
+					"profiles": [
+						{
+							"cr": "floor(@classes.warlord.levels / 3)",
+							"types": [
+								"beast",
+								"monstrosity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Iron Command",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Claws",
+			"subclassSource": "LLAW:E",
+			"level": 6,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "reaction",
+						"condition": "Whenever your Minion makes an attack roll, ability check, or saving throw within range"
+					},
+					"range": {
+						"value": "@scale.academy-of-claws.iron-command",
+						"units": "ft"
+					},
+					"roll": {
+						"name": "Bonus",
+						"formula": "@flags.ll.leadership.mod"
+					}
+				}
+			]
+		},
+		{
+			"name": "Counselor's Protege",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Counsel",
+			"subclassSource": "LLAW:E",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Summon",
+					"type": "summon",
+					"activation": {
+						"value": 8,
+						"type": "hour"
+					},
+					"profiles": [
+						{
+							"uuid": "@creature[Protege|LLAW:E]",
+							"level": {
+								"max": 13
+							}
+						},
+						{
+							"uuid": "@creature[Exalted Protege|LLAW:E]",
+							"level": {
+								"min": 14
+							}
+						}
+					],
+					"match": {
+						"proficiency": true
+					},
+					"bonuses.hp": "5 * @classes.alternate-fighter.levels",
+					"effects": [
+						{
+							"foundryId": "LLAWEffectCoCPHD"
+						}
+					]
+				}
+			],
+			"effects": [
+				{
+					"name": "Hit Dice",
+					"foundryId": "LLAWEffectCoCPHD",
+					"changes": [
+						{
+							"key": "system.attribute.hd.max",
+							"mode": "OVERRIDE",
+							"value": "@flags.dnd5e.summon.level"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Salt of the Earth",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Liberty",
+			"subclassSource": "LLAW:E",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you make an ability check to interact with common people"
+					},
+					"roll": {
+						"name": "Bonus",
+						"formula": "d@flags.ll.exploit.faces"
+					}
+				}
+			],
+			"effects": [
+				{
+					"name": "Bonus HP",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.hp.bonuses.level",
+							"mode": "ADD",
+							"value": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Strength in Numbers",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Liberty",
+			"subclassSource": "LLAW:E",
+			"level": 14,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "encounter",
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"target": {
+									"consumes": {
+										"name": "Exploit Dice"
+									}
+								},
+								"value": -1,
+								"scaling.mode": "amount"
+							}
+						],
+						"scaling.allowed": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Parley",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLAW:E",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Inspiring Word"
+								}
+							},
+							"value": 1
+						}
+					],
+					"range": {
+						"value": 15,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					}
+				}
+			]
+		},
+		{
+			"name": "Seafarer",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLAW:E",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Seafarer Proficiencies (Intelligence)",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.tools.navg.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						},
+						{
+							"key": "system.tools.water.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						},
+						{
+							"key": "system.skills.prc.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						}
+					]
+				},
+				{
+					"name": "Seafarer Proficiencies (Wisdom)",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.tools.navg.ability",
+							"mode": "OVERRIDE",
+							"value": "wis"
+						},
+						{
+							"key": "system.tools.water.ability",
+							"mode": "OVERRIDE",
+							"value": "wis"
+						},
+						{
+							"key": "system.skills.prc.ability",
+							"mode": "OVERRIDE",
+							"value": "wis"
+						}
+					]
+				},
+				{
+					"name": "Seafarer Proficiencies (Charisma)",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.tools.navg.ability",
+							"mode": "OVERRIDE",
+							"value": "cha"
+						},
+						{
+							"key": "system.tools.water.ability",
+							"mode": "OVERRIDE",
+							"value": "cha"
+						},
+						{
+							"key": "system.skills.prc.ability",
+							"mode": "OVERRIDE",
+							"value": "cha"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Navigator's Crew",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Navigator",
+			"subclassSource": "LLAW:E",
+			"level": 6,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "During the course of a long rest"
+					},
+					"target.affects": {
+						"count": "@flags.ll.leadership.mod",
+						"type": "willing"
+					},
+					"roll": {
+						"name": "Bonus",
+						"formula": "@flags.ll.leadership.mod"
+					}
+				}
+			]
+		},
+		{
+			"name": "Keeper of Order",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLAW:E",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"activation.type": "bonus",
+					"roll": {
+						"name": "DC",
+						"formula": "@flags.ll.exploit.dc"
+					}
+				}
+			],
+			"effects": [
+				{
+					"name": "Intelligence Insight and Investigation",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.ins.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						},
+						{
+							"key": "system.skills.inv.ability",
+							"mode": "OVERRIDE",
+							"value": "int"
+						}
+					]
+				},
+				{
+					"name": "Wisdom Insight and Investigation",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.ins.ability",
+							"mode": "OVERRIDE",
+							"value": "wis"
+						},
+						{
+							"key": "system.skills.inv.ability",
+							"mode": "OVERRIDE",
+							"value": "wis"
+						}
+					]
+				},
+				{
+					"name": "Charisma Insight and Investigation",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.ins.ability",
+							"mode": "OVERRIDE",
+							"value": "cha"
+						},
+						{
+							"key": "system.skills.inv.ability",
+							"mode": "OVERRIDE",
+							"value": "cha"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Law's Shield",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLAW:E",
+			"level": 3,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"foundryId": "LLAWActivityOrLS",
+					"activation": {
+						"type": "reaction",
+						"condition": "When a creature you can see within 15 feet is hit by an attack"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"value": 1
+						}
+					],
+					"range": {
+						"value": 15,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					}
+				},
+				{
+					"name": "Use (Inspiring Word)",
+					"type": "forward",
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Inspiring Word"
+								}
+							},
+							"value": 1
+						}
+					],
+					"activity.id": "LLAWActivityOrLS"
+				}
+			],
+			"system": {
+				"uses": {
+					"max": "max(1, @flags.ll.leadership.mod)",
+					"recovery": [
+						{
+							"period": "lr",
+							"type": "recoverAll"
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Halt",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Order",
+			"subclassSource": "LLAW:E",
+			"level": 6,
+			"activities": [
+				{
+					"name": "Save",
+					"type": "save",
+					"activation": {
+						"type": "reaction",
+						"condition": "When a creature you can see within 30 feet moves"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Inspiring Word"
+								}
+							},
+							"value": 1
+						}
+					],
+					"range": {
+						"value": 30,
+						"units": "ft"
+					},
+					"target.affects": {
+						"count": 1,
+						"type": "creature"
+					},
+					"save": {
+						"ability": [
+							"wis"
+						],
+						"dc.formula": "@flags.ll.exploit.dc"
+					},
+					"effects": [
+						{
+							"foundryId": "LLAWEffectOrHS00"
+						}
+					]
+				}
+			],
+			"effects": [
+				{
+					"name": "Zero Speed",
+					"foundryId": "LLAWEffectOrHS00",
+					"duration": {
+						"rounds": 1
+					},
+					"changes": [
+						{
+							"key": "system.attributes.movement.walk",
+							"mode": "OVERRIDE",
+							"value": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Anointed Magic",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLAW:E",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Hact Magic",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.spells.spell1.override",
+							"mode": "OVERRIDE",
+							"value": "@spells.spell1.max + @scale.academy-of-zeal.1"
+						},
+						{
+							"key": "system.spells.spell2.override",
+							"mode": "OVERRIDE",
+							"value": "@spells.spell2.max + @scale.academy-of-zeal.2"
+						},
+						{
+							"key": "system.spells.spell3.override",
+							"mode": "OVERRIDE",
+							"value": "@spells.spell3.max + @scale.academy-of-zeal.3"
+						},
+						{
+							"key": "system.spells.spell4.override",
+							"mode": "OVERRIDE",
+							"value": "@spells.spell4.max + @scale.academy-of-zeal.4"
+						}
+					]
+				}
+			],
+			"system": {
+				"uses": {
+					"max": "",
+					"recovery": []
+				}
+			}
+		},
+		{
+			"name": "Divine Mandate",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLAW:E",
+			"level": 3,
+			"effects": [
+				{
+					"name": "Religion Bonus",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.rel.bonuses.check",
+							"mode": "ADD",
+							"value": "@flags.ll.leadership.mod"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLAW:E",
+			"level": 6,
+			"system": {
+				"uses": {
+					"max": 2,
+					"recovery": [
+						{
+							"period": "sr",
+							"type": "formula",
+							"formula": 1
+						},
+						{
+							"period": "lr",
+							"type": "recoverAll"
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Anointed Disciple",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLAW:E",
+			"level": 6,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"foundryId": "LLAWActivityZeAD",
+					"duration": {
+						"value": 10,
+						"units": "minute"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Channel Divinity"
+								}
+							},
+							"value": 1
+						}
+					],
+					"effects": [
+						{
+							"foundryId": "LLAWEffectZeADLI"
+						},
+						{
+							"foundryId": "LLAWEffectZeADLW"
+						},
+						{
+							"foundryId": "LLAWEffectZeADLC"
+						}
+					]
+				},
+				{
+					"name": "Use (Spell Slot)",
+					"type": "forward",
+					"visibility": {
+						"level.max": 6,
+						"identifier": "warlord"
+					},
+					"consumption.targets": [
+						{
+							"type": "spellSlots",
+							"target": "1",
+							"value": 1
+						}
+					],
+					"activity.id": "LLAWActivityZeAD"
+				},
+				{
+					"name": "Use (Spell Slot)",
+					"type": "forward",
+					"visibility": {
+						"level": {
+							"min": 7,
+							"max": 12
+						},
+						"identifier": "warlord"
+					},
+					"consumption.targets": [
+						{
+							"type": "spellSlots",
+							"target": "2",
+							"value": 1
+						}
+					],
+					"activity.id": "LLAWActivityZeAD"
+				},
+				{
+					"name": "Use (Spell Slot)",
+					"type": "forward",
+					"visibility": {
+						"level": {
+							"min": 13,
+							"max": 18
+						},
+						"identifier": "warlord"
+					},
+					"consumption.targets": [
+						{
+							"type": "spellSlots",
+							"target": "3",
+							"value": 1
+						}
+					],
+					"activity.id": "LLAWActivityZeAD"
+				},
+				{
+					"name": "Use (Spell Slot)",
+					"type": "forward",
+					"visibility": {
+						"level.min": 19,
+						"identifier": "warlord"
+					},
+					"consumption.targets": [
+						{
+							"type": "spellSlots",
+							"target": "4",
+							"value": 1
+						}
+					],
+					"activity.id": "LLAWActivityZeAD"
+				}
+			],
+			"effects": [
+				{
+					"name": "Intelligence Check Bonus",
+					"foundryId": "LLAWEffectZeADLI",
+					"duration": {
+						"seconds": 600
+					},
+					"changes": [
+						{
+							"key": "system.abilities.int.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					]
+				},
+				{
+					"name": "Wisdom Check Bonus",
+					"foundryId": "LLAWEffectZeADLW",
+					"duration": {
+						"seconds": 600
+					},
+					"changes": [
+						{
+							"key": "system.abilities.wis.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					]
+				},
+				{
+					"name": "Charisma Check Bonus",
+					"foundryId": "LLAWEffectZeADLC",
+					"duration": {
+						"seconds": 600
+					},
+					"changes": [
+						{
+							"key": "system.abilities.cha.bonuses.check",
+							"mode": "ADD",
+							"value": "d@flags.ll.exploit.faces"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mantle of Command",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLAW:E",
+			"level": 6,
+			"activities": [
+				{
+					"name": "Use",
+					"type": "utility",
+					"foundryId": "LLAWActivityZeMC",
+					"duration": {
+						"value": 1,
+						"units": "minute"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Channel Divinity"
+								}
+							},
+							"value": 1
+						}
+					]
+				},
+				{
+					"name": "Use (Spell Slot)",
+					"type": "forward",
+					"visibility": {
+						"level.max": 6,
+						"identifier": "warlord"
+					},
+					"consumption.targets": [
+						{
+							"type": "spellSlots",
+							"target": "1",
+							"value": 1
+						}
+					],
+					"activity.id": "LLAWActivityZeMC"
+				},
+				{
+					"name": "Use (Spell Slot)",
+					"type": "forward",
+					"visibility": {
+						"level": {
+							"min": 7,
+							"max": 12
+						},
+						"identifier": "warlord"
+					},
+					"consumption.targets": [
+						{
+							"type": "spellSlots",
+							"target": "2",
+							"value": 1
+						}
+					],
+					"activity.id": "LLAWActivityZeMC"
+				},
+				{
+					"name": "Use (Spell Slot)",
+					"type": "forward",
+					"visibility": {
+						"level": {
+							"min": 13,
+							"max": 18
+						},
+						"identifier": "warlord"
+					},
+					"consumption.targets": [
+						{
+							"type": "spellSlots",
+							"target": "3",
+							"value": 1
+						}
+					],
+					"activity.id": "LLAWActivityZeMC"
+				},
+				{
+					"name": "Use (Spell Slot)",
+					"type": "forward",
+					"visibility": {
+						"level.min": 19,
+						"identifier": "warlord"
+					},
+					"consumption.targets": [
+						{
+							"type": "spellSlots",
+							"target": "4",
+							"value": 1
+						}
+					],
+					"activity.id": "LLAWActivityZeMC"
+				},
+				{
+					"name": "Bonus Action",
+					"type": "utility",
+					"activation.type": "bonus"
+				}
+			]
+		},
+		{
+			"name": "Favored Servant",
+			"source": "LLOC",
+			"className": "Warlord",
+			"classSource": "LLOC",
+			"subclassShortName": "Zeal",
+			"subclassSource": "LLAW:E",
+			"level": 18,
+			"activities": [
+				{
+					"name": "Regain Hit Points",
+					"type": "heal",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you expend an Anointed Magic spell slot"
+					},
+					"healing": {
+						"bonus": "@details.level",
+						"types": [
+							"healing"
+						]
+					}
+				},
+				{
+					"name": "Regain Exploit Die",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you expend an Anointed Magic spell slot"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Exploit Dice"
+								}
+							},
+							"value": -1
+						}
+					]
+				},
+				{
+					"name": "Regain Inspiring Word",
+					"type": "utility",
+					"activation": {
+						"type": "special",
+						"condition": "Whenever you expend an Anointed Magic spell slot"
+					},
+					"consumption.targets": [
+						{
+							"type": "itemUses",
+							"target": {
+								"consumes": {
+									"name": "Inspiring Word"
+								}
+							},
+							"value": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Battle Fervor",
+			"source": "LLAC",
+			"className": "Alternate Barbarian",
+			"classSource": "LLAC",
+			"subclassShortName": "Blood Knight",
+			"subclassSource": "LLABBK",
+			"level": 3,
+			"system": {
+				"activation": {
+					"type": "special",
+					"cost": 1
+				}
+			}
+		},
+		{
+			"name": "Furious Superiority",
+			"source": "LLAC",
+			"className": "Alternate Barbarian",
+			"classSource": "LLAC",
+			"subclassShortName": "Blood Knight",
+			"subclassSource": "LLABBK",
+			"level": 6,
+			"system": {
+				"activation": {
+					"type": "special",
+					"cost": 1
+				}
+			}
+		},
+		{
+			"name": "Warrior's Focus",
+			"source": "LLAC",
+			"className": "Alternate Barbarian",
+			"classSource": "LLAC",
+			"subclassShortName": "Blood Knight",
+			"subclassSource": "LLABBK",
+			"level": 6
+		},
+		{
+			"name": "Battle Lust",
+			"source": "LLAC",
+			"className": "Alternate Barbarian",
+			"classSource": "LLAC",
+			"subclassShortName": "Blood Knight",
+			"subclassSource": "LLABBK",
+			"level": 10,
+			"system": {
+				"activation": {
+					"type": "reaction",
+					"cost": 1
+				}
+			}
+		},
+		{
+			"name": "Avatar of War",
+			"source": "LLAC",
+			"className": "Alternate Barbarian",
+			"classSource": "LLAC",
+			"subclassShortName": "Blood Knight",
+			"subclassSource": "LLABBK",
+			"level": 14,
+			"system": {
+				"activation": {
+					"type": "bonus",
+					"cost": 1
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,1077 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Adult Time Dragon",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"These sleek dragons harness the power of time to manipulate the past, present, and future. Time dragon wyrmlings are born with shining scales and have horns that are barely more than nubs. As they master the flow of time, their horns grow with branching, rainbow-hued veins suggestive of time's paths and possibilities. Ancient time dragons can create temporal gates connected to specific times and places in the multiverse. Using these, they and allied creatures can travel anywhere in time to affect fate-determining moments or to banish threats beyond the flow of time. As a result of their ability to travel between ages, time dragons often seem unstuck from the usual flow of time and have a flexible view of what is, what was, and what will be.",
+						"Time dragons prize historical records, objects representative of lost cultures, and treasures from long-gone creators. They are fascinated by time-manipulation magic and forgotten knowledge. Those who stumble upon a time dragon's hoard might find invaluable historical information from eras past."
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "A Time Dragon's Lair",
+							"entries": [
+								"Time dragons often lair in the ruins of ancient civilizations or temples to dead gods and do their utmost to preserve these historical sites. A time dragon's insatiable desire for knowledge means it's likely to have more than one such lair.",
+								"The challenge rating of an ancient or adult time dragon increases by 1 when it's encountered in its lair."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Adult Time Dragon.webp"
+					},
+					"width": 364,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Ancient Time Dragon",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Ancient Time Dragon.webp"
+					},
+					"width": 773,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Athar Null",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"The Athar deny the legitimacy of gods, believing the so-called deities are merely powerful spellcasters. To combat false gods, Athar nulls train to negate the powers of those with magic. Nulls work in the shadows, serving as assassins and spies for the Athar."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Athar Null.webp"
+					},
+					"width": 579,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Aurumach Rilmani",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Aurumach Rilmani.webp"
+					},
+					"width": 773,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Avoral Guardinal",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Avoral Guardinal.webp"
+					},
+					"width": 653,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Baernaloth",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Baernaloths are tall, gaunt yugoloths who keep to the Gray Wastes of Hades. Their gray, desiccated skin stretches over their bones, and their heads resemble horned equine skulls with ember-like eyes. Sages endlessly debate the nature of baernaloths, and the {@i Books of Keeping}—ancient tomes detailing the true names of the first yugoloths—report no mention of baernaloths within. Some posit that these enigmatic yugoloths were created by a primal evil power before other yugoloths or that they come from an epoch before the current manifestation of the planes. Baernaloths refuse to say, but most obsess over secrets and obscene lore regarding the far-flung past and inscrutable future of the multiverse. Many of these rare scholars of the profane seek to manipulate reality on a grand scale, while others unleash horrific experiments on the planes. It's said the first demodands of Carceri were created by baernaloths.",
+						"Baernaloths spread discord and despair among any creatures they meet. They use their breath, thick with the gloom of Hades, to turn friends against each other and then savor the horror that rises when their victims realize how they've betrayed one another. Baernaloths use their wicked power to keep mortally wounded foes alive, sometimes indefinitely, to prolong their suffering. Even striking against a baernaloth brings misery—they can cause an attacker's old wounds to painfully reopen. All the while, baernaloths are disturbingly detached, observing their victims' agony without emotion."
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "A Baernaloth's Lair",
+							"entries": [
+								"Whether in the hopeless realms of Hades or on the rare occasion they lurk on some other plane, baernaloths lair in remote mountain crags and secluded caves. Their lairs have ample places to house and restrain \"guests,\" particularly those the baernaloths keep hovering at death's door.",
+								"The challenge rating of a baernaloth is 18 (20,000 XP) when it's encountered in its lair."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Baernaloth.webp"
+					},
+					"width": 364,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Bariaur Wanderer",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Hailing from Ysgard, bariaurs are centaur-like Celestials with the lower bodies of goats, humanoid torsos, and curved horns. Some bariaurs sate their wanderlust by exploring their home plane, the Outlands, and the Great Wheel beyond. These bariaur wanderers often serve as guides in the Outlands, assisting visitors by eagerly suggesting gate-town attractions and other points of interest. Throughout their travels, these hardy wanderers absorb ambient planar energies, adapting to the vast and varied terrains of the Outer Planes and frequently taking on aspects of those planes (see \"{@book Planar Influences|MPP|0|Planar Influences}\" in {@book Morte's Planar Parade|MPP})."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Bariaur Wanderer.webp"
+					},
+					"width": 879,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Bleak Cabal Void Soother",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"A void soother cares for creatures struck by curses and the negative effects of the planes. These warriors go to dangerous planes and areas torn by conflict to provide relief to those they find there."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Bleak Cabal Void Soother.webp"
+					},
+					"width": 574,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Cranium Rat Squeaker",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Cranium Rat Squeaker.webp"
+					},
+					"width": 850,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Cranium Rat Squeaker Swarm",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Cranium Rat Squeaker Swarm.webp"
+					},
+					"width": 370,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Cuprilach Rilmani",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Cuprilach Rilmani.webp"
+					},
+					"width": 651,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Dabus",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Among the bustling throngs of Sigil's streets float gray-skinned, vaguely humanlike figures with curled horns. Where they travel, cracks in the mortar seal shut, stray bricks float back into place, and ruined city blocks are restored. These are dabus, the silent caretakers of Sigil and loyal servants of the Lady of Pain.",
+						"Dabus patrol the City of Doors to maintain public buildings, portals, and utilities. They use their innate ability to manipulate Sigil's infrastructure not only to effect repairs but also to combat individuals who disrupt the city's operations or violate the Lady's edicts, hurling bricks at troublemakers and subduing them by causing the streets to sprout grasping cobblestone hands.",
+						"When dabus communicate, rather than speaking or signing words, they create esoteric illusory images and symbols in front of themselves. Scholars have yet to determine the origin of dabus's difficult-to-comprehend rebuses, though some speculate their etymology predates Sigil itself."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Dabus.webp"
+					},
+					"width": 396,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Darkweaver",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Arachnid predators of the Shadowfell, darkweavers inhabit caves, dungeons, and other dark locales throughout the multiverse, including Undersigil and the windswept darkness of Pandemonium. A darkweaver lurks in the shadows of its lair, waiting for hapless prey to pass by. When a target approaches, the darkweaver fires webs of pure shadow at its quarry, then drags the victim into the darkness.",
+						"Darkweavers are fascinated by sensations—particularly taste—and how creatures from across the planes experience reality. For them, the act of eating is an experience to be drawn out and savored, with every meal considered in all its facets. Whether its fare is a demon, an archon, a struggling halfling, or a catatonic mule, all such meals are culinary delights for a darkweaver, served up from the cosmic kitchen that is the multiverse. These spider-like terrors appreciate second-hand descriptions of sensations, especially those they're unlikely to experience in their home environment. A darkweaver's captive might delay being consumed by sharing tales of its experiences, particularly great meals, with the monster. Some might even convince a darkweaver to release them if they promise to return with rare spices or one-of-a-kind meals. Those who manage to escape a darkweaver should think twice about returning to the creature's lair, though, as darkweavers prioritize their appetites over bargains."
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "A Darkweaver's Lair",
+							"entries": [
+								"Darkweavers dwell in lightless caverns, preferring locations touched by pitch-black planes, such as Pandemonium or the Shadowfell. Darkweavers tend to inhabit isolated sites where they can weave webs of shadow undisturbed.",
+								"A darkweaver encountered in its lair has a challenge rating of 11 (7,200 XP)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Darkweaver Webs",
+							"entries": [
+								"A darkweaver's web has a 50 percent chance of having {@dice 1d6} cocoons. Roll on the Darkweaver Cocoon Contents table to determine what might be inside each of these shadowy masses.",
+								{
+									"type": "table",
+									"colLabels": [
+										"d6",
+										"Category"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"Roll a die. If you roll an even number, the cocoon contains the bones of a Humanoid. If you roll an odd number, the cocoon contains the bones of a non-Humanoid creature, such as a flumph or a mule."
+										],
+										[
+											"2",
+											"A swarm of insects that might be a darkweaver's young"
+										],
+										[
+											"3",
+											"A corpse holding a jar of universal solvent with a slightly stuck lid"
+										],
+										[
+											"4",
+											"A collection of menus from restaurants in Sigil"
+										],
+										[
+											"5",
+											"{@dice 4d12} gold pieces amid a digested slurry"
+										],
+										[
+											"6",
+											"A halfling commoner or musteval guardinal that the darkweaver forgot about"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Darkweaver.webp"
+					},
+					"width": 1000,
+					"height": 601
+				}
+			]
+		},
+		{
+			"name": "Doomguard Doom Lord",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Doom lords are the highest-ranking members of the Doomguard, embodying the multiverse's inevitable collapse into dust. Doom lords' mere presence snuffs the life from weaker foes, and the stoutest walls crumble before them."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Doomguard Doom Lord.webp"
+					},
+					"width": 670,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Doomguard Rot Blade",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Rot blades are the entropic levers through which the Doomguard quickens the natural decay of the multiverse. These members wield weapons immersed in necrotic energy, which can turn their enemies to ash."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Doomguard Rot Blade.webp"
+					},
+					"width": 712,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Eater of Knowledge",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Originally created by the mind flayer god-brain Ilsensine and now produced by some of that god's followers, eaters of knowledge are lumbering, bipedal masses of squelching muscles and exposed brain matter. These rugose hulks collect information from others by devouring brains before returning to their masters with delicious secrets. Unlike illithids, which overwhelm their foes with psionic power, eaters of knowledge use their physical strength to hold prey while burly feeding tentacles crack free their victims' brains. Consuming brains fuels these brutes' psionic power, making eaters of knowledge deadlier with each brain devoured."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Eater of Knowledge.webp"
+					},
+					"width": 1000,
+					"height": 701
+				}
+			]
+		},
+		{
+			"name": "Equinal Guardinal",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Equinal Guardinal.webp"
+					},
+					"width": 613,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Farastu Demodand",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Farastu Demodand.webp"
+					},
+					"width": 823,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Fated Shaker",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Fated shakers are bullies who shake down those indebted to the faction's tax collectors and evictors. These enforcers use their magic to intimidate and subjugate those who try to stand up to them."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Fated Shaker.webp"
+					},
+					"width": 697,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Ferrumach Rilmani",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Ferrumach Rilmani.webp"
+					},
+					"width": 555,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Fraternity of Order Law Bender",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Members of the Fraternity of Order find and exploit loopholes in the laws of the multiverse. Law benders are magistrates who skirt the rules of probability and space, moving freely and manipulating the outcomes of actions around them."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Fraternity of Order Law Bender.webp"
+					},
+					"width": 588,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Githzerai Futurist",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Githzerai Futurist.webp"
+					},
+					"width": 696,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Githzerai Traveler",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Githzerai travelers wander the multiverse to train and pursue cosmic enlightenment. These githzerai learn to manipulate planar energies to create wondrous effects.",
+						"Githzerai descend from an ancient people who were also the progenitors of the githyanki—all of whom were destroyed or transformed by mind flayers. Many githzerai dwell in Limbo, honing their psionic powers by shaping their homes on that chaotic plane. The githzerai described here oftentimes traverse the planes, crossing between them via the portals in Sigil and the Outlands. To learn more about other githzerai, see the {@i Monster Manual}."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Githzerai Traveler.webp"
+					},
+					"width": 741,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Githzerai Uniter",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Githzerai Uniter.webp"
+					},
+					"width": 475,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Hands of Havoc Fire Starter",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"The pyromaniacal agents known as fire starters burn away oppressive systems through chaos and flame. They wield hammers that emit magical flames—perfect for smashing and burning."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Hands of Havoc Fire Starter.webp"
+					},
+					"width": 666,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Harmonium Captain",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Harmonium captains lead peacekeeper patrols throughout Sigil. They bolster their subordinates in battle and bring the authority of the Harmonium crashing down on suspects with their commands."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Harmonium Captain.webp"
+					},
+					"width": 597,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Harmonium Peacekeeper",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Peacekeepers wear distinctive red plate armor and wield planar mancatchers, polearms whose metal pincers prevent criminals clamped in their grasp from teleporting away, making them excellent at catching wrongdoers in Sigil."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Harmonium Peacekeeper.webp"
+					},
+					"width": 834,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Heralds of Dust Remnant",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Remnants are Dusters who sought undeath via rituals but failed. Liaisons and spies, these agents exist in a halfway point between life and death."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Heralds of Dust Remnant.webp"
+					},
+					"width": 675,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Hound Archon",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Hound Archon.webp"
+					},
+					"width": 692,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Kelubar Demodand",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Kelubar Demodand.webp"
+					},
+					"width": 905,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Kolyarut",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Created by Primus, the leader of the modrons, the Kolyarut is a wondrous machine capable of forging binding contracts between parties. From the Hall of Concordance in Sigil, the Kolyarut judges the needs of planar beings seeking uniquely binding terms and forges ironclad agreements. Those who break these contracts are pursued by maruts (detailed in {@i Mordenkainen Presents: Monsters of the Multiverse}) and punished in brutally decisive fashion.",
+						"In cases where the terms of a contract or a foundational truth of an agreement come into question, the Kolyarut sends a component part of itself into the planes to seek the truth. Also known as kolyaruts, these manifestations of the great machine function as multiversal investigators and pursue answers to specific quandaries. Once their questions have been satisfied, they report back to their creator, allowing the Kolyarut to impose accurate judgments.",
+						"Kolyaruts are four-armed beings of magic and machinery. Like maruts, they are inevitables, beings dedicated to the smooth exaction of laws across the planes. Kolyaruts wield blades with deadly efficiency, allowing them to defend themselves on their excursions and slice through any who obscure the truth.",
+						"Occasionally, the Hall of Concordance loans kolyaruts to lawful beings who have inherent interest in the orderly functioning of the multiverse, aiding them in seeking answers of planar importance."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Kolyarut.webp"
+					},
+					"width": 1000,
+					"height": 923
+				}
+			]
+		},
+		{
+			"name": "Lantern Archon",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Lantern Archon.webp"
+					},
+					"width": 842,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Maelephant",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Respected as guardians by villains across the multiverse, maelephants are Fiends with pachyderm-like heads. They can exhale toxic fumes that cause foes to temporarily forget their combat training, spellcasting abilities, and other skills.",
+						"Maelephants strike bargains with wicked spellcasters and entities of the Lower Planes, pledging to guard a site or object for decades. The Fiends fulfill their end of the bargain with unwavering loyalty, steadfastly tending to their posts per the terms of their agreement."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Maelephant.webp"
+					},
+					"width": 1000,
+					"height": 667
+				}
+			]
+		},
+		{
+			"name": "Mercykiller Bloodhound",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Clad in black armor and spiked gauntlets that end in steel claws, bloodhounds hunt down those guilty of serious offenses in Sigil. These trackers pursue their targets across the planes."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Mercykiller Bloodhound.webp"
+					},
+					"width": 894,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Mind's Eye Matter Smith",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Members of the Mind's Eye believe the power to transcend the multiverse lies in every individual. Matter smiths harness this innate power to reshape reality in Sigil's Great Foundry, manifesting useful tools from nothing."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Minds Eye Matter Smith.webp"
+					},
+					"width": 631,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Musteval Guardinal",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Musteval Guardinal.webp"
+					},
+					"width": 739,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Planar Incarnate",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"The Upper and Lower Planes are fundamental manifestations of good and evil, law and chaos. In the most dire and fateful circumstances, these planes can manifest primal embodiments of their might. These expressions of a plane's power are called planar incarnates, and they appear as roiling energies with features distinct to the plane that created it. They protect their home from destructive or otherwise antithetical forces, then merge back into their plane of origin.",
+						"Planar incarnates are akin to natural disasters that work to protect and further the virtues and vices of the planes they originate upon. Those from the Lower Planes might appear as roiling waves of fiendish flames or other sinister forms, while those from the Upper Planes often appear as blooms of light and wild growth or similarly majestic shapes. On the rare occasions that planar incarnates appear on another plane, they might take either form or appear as unique manifestations of the philosophies they embody."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Planar Incarnate (Celestial Form).webp"
+					},
+					"width": 562,
+					"height": 1000,
+					"title": "Planar Incarnate (Celestial Form)"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Planar Incarnate (Fiend Form).webp"
+					},
+					"width": 667,
+					"height": 1000,
+					"title": "Planar Incarnate (Fiend Form)"
+				}
+			]
+		},
+		{
+			"name": "Razorvine Blight",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Travelers of Sigil and the Lower Planes take care to avoid razorvine, a creeping plant named for its prickly stems and cutting leaves. While razorvine is normally a mere environmental nuisance or deterrent, razorvine that absorbs the blood of a vampiric passerby can awaken into a terror known as a razorvine blight.",
+						"Razorvine blights lay ambushes on well-traveled paths by standing still to appear as ordinary razorvine. When unassuming travelers pass by the seemingly inanimate plant, the blight strikes, revealing its twisted, humanlike form and lashing out with razor-sharp vines to feed its bloodlust.",
+						"While razorvine blights are usually dangerous, in Sigil they sometimes mimic the behaviors of the city's other inhabitants—for better or worse. At least one blight, known as Patch, spreads copies of itself across the city, creating a spy network of copies with mysterious goals."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Razorvine Blight.webp"
+					},
+					"width": 820,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Shator Demodand",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Shator Demodand.webp"
+					},
+					"width": 1000,
+					"height": 668
+				}
+			]
+		},
+		{
+			"name": "Shemeshka",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Shemeshka the arcanaloth is one of Sigil's most ambitious and notorious crime bosses. From her multiplanar casino, Fortune's Wheel, she manipulates secrets and fates across the planes. Shemeshka and her plots are further detailed in the adventure {@i Turn of Fortune's Wheel}."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Shemeshka.webp"
+					},
+					"width": 386,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Society of Sensation Muse",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"The muses of the Society of Sensation are performers who enthrall crowds with spectacle and minor sensory experiences. When threatened, they beguile their foes, placating their enemies with magical displays."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Society of Sensation Muse.webp"
+					},
+					"width": 918,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Sunfly",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Sunfly.webp"
+					},
+					"width": 1000,
+					"height": 713
+				}
+			]
+		},
+		{
+			"name": "Swarm of Sunflies",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Swarm of Sunflies.webp"
+					},
+					"width": 378,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Time Dragon Wyrmling",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"These sleek dragons harness the power of time to manipulate the past, present, and future. Time dragon wyrmlings are born with shining scales and have horns that are barely more than nubs. As they master the flow of time, their horns grow with branching, rainbow-hued veins suggestive of time's paths and possibilities. Ancient time dragons can create temporal gates connected to specific times and places in the multiverse. Using these, they and allied creatures can travel anywhere in time to affect fate-determining moments or to banish threats beyond the flow of time. As a result of their ability to travel between ages, time dragons often seem unstuck from the usual flow of time and have a flexible view of what is, what was, and what will be.",
+						"Time dragons prize historical records, objects representative of lost cultures, and treasures from long-gone creators. They are fascinated by time-manipulation magic and forgotten knowledge. Those who stumble upon a time dragon's hoard might find invaluable historical information from eras past."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Time Dragon Wyrmling.webp"
+					},
+					"width": 1000,
+					"height": 881
+				}
+			]
+		},
+		{
+			"name": "Transcendent Order Conduit",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Members of the Transcendent Order train to act without thinking, eliminating thought behind action. Conduits react with the cadence of the multiverse. Their sharp reflexes border on precognition, allowing them to unconsciously act before their foes."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Transcendent Order Conduit.webp"
+					},
+					"width": 469,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Transcendent Order Instinct",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Elite martial artists, instincts have learned to fight unburdened by thought, deflecting the blows of their enemies in rapid succession."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Transcendent Order Instinct.webp"
+					},
+					"width": 438,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Vargouille Reflection",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Vargouilles are flying Fiends that resemble disembodied Humanoid heads with wings. While most vargouilles roam the planes to curse Humanoids and create more vargouilles, a variant known as the vargouille reflection resides in Undersigil. When a vargouille reflection spots a Humanoid target, it takes on that creature's visage, terrifying that creature by appearing as its own disembodied head."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Vargouille Reflection.webp"
+					},
+					"width": 375,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Warden Archon",
+			"source": "MPP",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPP/Warden Archon.webp"
+					},
+					"width": 755,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Young Time Dragon",
+			"source": "MPP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"These sleek dragons harness the power of time to manipulate the past, present, and future. Time dragon wyrmlings are born with shining scales and have horns that are barely more than nubs. As they master the flow of time, their horns grow with branching, rainbow-hued veins suggestive of time's paths and possibilities. Ancient time dragons can create temporal gates connected to specific times and places in the multiverse. Using these, they and allied creatures can travel anywhere in time to affect fate-determining moments or to banish threats beyond the flow of time. As a result of their ability to travel between ages, time dragons often seem unstuck from the usual flow of time and have a flexible view of what is, what was, and what will be.",
+						"Time dragons prize historical records, objects representative of lost cultures, and treasures from long-gone creators. They are fascinated by time-manipulation magic and forgotten knowledge. Those who stumble upon a time dragon's hoard might find invaluable historical information from eras past."
+					]
+				}
+			]
+		}
+	]
+}

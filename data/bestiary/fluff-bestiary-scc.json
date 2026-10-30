@@ -1,0 +1,776 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Archaic",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Archaics are towering, multi-armed creatures overflowing with magic. Despite their solitude, archaics carry vast understanding of magic and the world's history, as well as the ability to warp the fabric of the world around them. Sages who seek out archaics for their knowledge receive confusing and often contradictory answers to questions. If a supplicant successfully unwinds the tangle, the answer they seek is revealed.",
+						"In truth, archaics are the reincarnated souls of the oracles of Strixhaven. When an oracle dies, their soul travels back through time to the explosion of magic that brought the Founder Dragons into being. In that outrush of creative force, the oracle's soul can be caught in the tide and clad in the very substance of the world, becoming an archaic. Because their knowledge cuts across the flow of time, archaics are careful how much they reveal to mortals and thus tend to speak in riddles."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Archaic.webp"
+					},
+					"width": 831,
+					"height": 1000,
+					"credit": "Lius Lasahido"
+				}
+			]
+		},
+		{
+			"name": "Art Elemental Mascot",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Often referred to as a \"living expression,\" an art elemental is an aspect of creativity and emotion given physical form—making it the perfect mascot for Prismari College.",
+						"To create an art elemental mascot, a mage draws power from a blend of all the natural elements, extracting their vibrant colors to craft a swirling outer shell before imbuing its core with a planar spirit. As creatures of both precise elemental study and rebellious expression, art elementals can both wreak elemental destruction and emotionally captivate the creatures around them."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Art Elemental Mascot.webp"
+					},
+					"width": 1000,
+					"height": 981,
+					"credit": "Alayna Danner"
+				}
+			]
+		},
+		{
+			"name": "Beledros Witherbloom",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"The dragon Beledros masters the intertwined magic of life and death. Her power taps into the life force flowing through living things and the natural world. She manipulates that energy to give healing and life or to bring death and decay. Her mastery of this magic sustains her own life force even without the sustenance of food, drink, or even air.",
+						"She founded Witherbloom College to pass on her understanding of the natural cycle. She hoped to create generations of stewards who would use her teachings to defend nature and help others. In keeping with the dichotomous nature of her philosophy and magic, she views the more dangerous aspects of nature, including the inevitability of death and decay, as natural and integral parts of existence."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Beledros Witherbloom.webp"
+					},
+					"width": 985,
+					"height": 1000,
+					"credit": "Raymond Swanland"
+				}
+			]
+		},
+		{
+			"name": "Brackish Trudge",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Brackish trudges are lumbering masses of sentient fungus and vegetation that thrive in the bayou. They are living examples of the conflicting forces of life and decay existing in a harmonious cycle. Flowers and other plant life grow on their backs, necks, and heads. When these plants die, they decay and become the ideal habitat for fungi. The older a trudge is, the wilder and more varied are the plants and fungi that thrive in the tiny ecosystem on its back.",
+						"While sometimes ill-tempered and territorial, brackish trudges are usually content to mind their own business. When trudges are roused to defend themselves or drive off rivals, their punishing tusks laced with deadly fungus spores can make short work of the unwary. Trudges are also notoriously difficult to slay; the energies of life and death within them allow them to survive harrowing injuries."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Brackish Trudge.webp"
+					},
+					"width": 1750,
+					"height": 1200,
+					"credit": "Tomasz Jedruszek"
+				}
+			]
+		},
+		{
+			"name": "Cogwork Archivist",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Programmed with knowledge of Strixhaven's extensive lore catalog, cogwork archivists serve as keepers of the university's various libraries. The archivists' towering metal frames are equipped with long, articulated limbs and retractable conservator tools, which they use to organize and preserve documents from throughout Strixhaven's winding history. Many cogwork archivists can be found among the towering shelves of the Biblioplex, simultaneously retrieving scrolls for curious students while keeping a stern eye on any rowdy groups that might disrupt the quiet atmosphere."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Cogwork Archivist.webp"
+					},
+					"width": 1750,
+					"height": 1622,
+					"credit": "Joseph Meehan"
+				}
+			]
+		},
+		{
+			"name": "Daemogoth",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Slipping through the darkest corners of the world, daemogoths are powerful fiendish creatures that feed on misery and other negative emotions. Some sages refer to daemogoths as tear lickers, owing to the fiends' tendency to lurk near battlefields and other sites of great tragedy to consume the anguish saturating the area.",
+						"Daemogoths are creatures of forbidden knowledge and magic, all fueled by their consumption of anguish. They trade magical influence over the lives and minds of others to ambitious mortals in exchange for the mortal's agony.",
+						"Daemogoths are alien-looking in the extreme. Their eyes are insectile or smooth and bulbous like gleaming jewels, and they have five arms. They typically wear long robes, which drape low over their forms, and they sport a halo of horns, antlers, or floating stones or crystals."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Daemogoth.webp"
+					},
+					"width": 1750,
+					"height": 1435,
+					"credit": "Alex Brock"
+				}
+			]
+		},
+		{
+			"name": "Daemogoth Titan",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Daemogoth titans are towering monsters that blight the land around them. A daemogoth grows in power over the course of decades spent feeding on sorrow and draining life from nature. Eventually that growth turns the daemogoth into a titan.",
+						"The titans maintain their lesser cousins' ability to trade magical power for a mortal's pain, but they tend to demand more punishing suffering in exchange for their pacts or knowledge."
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Barbed Gifts",
+							"entries": [
+								"When a supplicant piques a daemogoth titan's interest, the titan can grant a blessing to the supplicant (see \"Supernatural Gifts \"in the Dungeon Master's Guide). As long as the creature has the blessing, it must expend and roll two of its Hit Dice whenever it finishes a long rest. It takes psychic damage equal to the total rolled, and its hit point maximum is reduced by an amount equal to the psychic damage taken. This reduction lasts until the creature finishes its next long rest. The creature dies if this effect reduces its hit point maximum to 0. The blessing can be removed only by a {@spell wish} spell."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Daemogoth Titan.webp"
+					},
+					"width": 850,
+					"height": 1172,
+					"credit": "Chris Cold"
+				}
+			]
+		},
+		{
+			"name": "First-Year Student",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"A student who has not yet chosen one of Strixhaven's five mystic colleges is referred to as a first-year student, after the one year of basic curriculum that most students must complete before selecting their school. These beginner students are taught by faculty from all of Strixhaven's colleges, learning rudimentary magic as they acclimate to the university's environment. Once a student has selected a college, they trade their plain gray first-year uniforms for the trappings of their chosen school and begin honing—or even replacing—the magic they learned in their initial year with other skills."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/First-Year Student.webp"
+					},
+					"width": 1012,
+					"height": 1000,
+					"credit": "Jokubas Uogintas"
+				}
+			]
+		},
+		{
+			"name": "Fractal Mascot",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"To an untrained eye, a fractal mascot looks like a creature made from facets of hard light. But arithmancers know that these fractals are actually living equations: artificial life forms created by extrapolating magic from the mathematical patterns in nature.",
+						"Because of their arithmetic basis, fractal mascots can alter both their size and density. Quandrix College has adopted the fractal as its mascot, and many a Quandrix student can be found playing fetch with a fractal companion in between lessons."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Fractal Mascot.webp"
+					},
+					"width": 913,
+					"height": 1000,
+					"credit": "Andreas Zafiratos"
+				}
+			]
+		},
+		{
+			"name": "Galazeth Prismari",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"The dragon Galazeth Prismari embodies the flow of magic from inspiration into artistic expression, whether through physical form or another sensory medium. His magic draws on primal energy—such as flame, lightning, and the tides—and weaves them into spectacles both beautiful and deadly.",
+						"Galazeth founded Prismari College to ensure that the study of magic wouldn't ever be relegated to pure practicality. His teachings emphasize that magic's beauty must contribute to unfolding culture and personal emotional growth. Galazeth views dynamic expression and precise perfection as necessarily competing forces, both within individuals and the world at large."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Galazeth Prismari.webp"
+					},
+					"width": 1750,
+					"height": 1578,
+					"credit": "Raymond Swanland"
+				}
+			]
+		},
+		{
+			"name": "Groff",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Many a Strixhaven student wandering the bayou has stepped on a seemingly mundane patch of moss—only to discover that it was the back of a hungry groff lurking beneath the surface. These shaggy swamp creatures have canine faces and glowing blue eyes, and they are ravenous carnivores—with pest mascots being their favorite food. A handful of more intrepid Witherbloom mages have learned to follow groffs in order to track down pest mascots, but most of these mages have yet to find a way to capture the pests before the groff eats someone."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Groff.webp"
+					},
+					"width": 1000,
+					"height": 978,
+					"credit": "Ilse Gort"
+				}
+			]
+		},
+		{
+			"name": "Inkling Mascot",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Squelching slightly as they wriggle through the air, inklings serve as the mascots for Silverquill College. These living blobs of shadowy ink are often summoned by professors who require assistance in their writing workshops—the inklings provide endless ink—or by lonely students hoping for company as they study. However, inklings can just as readily support mages in combat, disrupting opponents' sight."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Inkling Mascot.webp"
+					},
+					"width": 901,
+					"height": 1000,
+					"credit": "Scott Murphy"
+				}
+			]
+		},
+		{
+			"name": "Lorehold Apprentice",
+			"source": "SCC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Lorehold Apprentice.webp"
+					},
+					"width": 1750,
+					"height": 1288,
+					"credit": "Manuel Castañón"
+				}
+			]
+		},
+		{
+			"name": "Mage Hunter",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Mage hunters are hideous spider-legged creatures employed by the Oriq to pursue magic-wielders. These creatures can naturally sense magic via the glowing purple spines on their backs.",
+						"A mage hunter is usually in its sentry form, a diamond-shaped drone with a heightened ability to sense and locate mages. Once it finds a quarry, the mage hunter takes on its arachnoid hunter form and pursues its targets with vicious skill."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Mage Hunter.webp"
+					},
+					"width": 1700,
+					"height": 1076,
+					"credit": "Lie Setiawan"
+				}
+			]
+		},
+		{
+			"name": "Murgaxor",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"After giving the characters their quest, Professor Lang hands them a file with information the faculty members have collected about Murgaxor from university records. Tell the players the following to give them context about this evil spellcaster:",
+						{
+							"type": "list",
+							"items": [
+								"Murgaxor is a bullywug who attended Strixhaven 200 years ago. He was a member of Witherbloom College, though there are no records of him participating in any activities or working on campus.",
+								"A mean-spirited, egotistical spellcaster, Murgaxor was censured repeatedly for disregarding safety protocols, hexing and cursing peers, and using harmful magic while on campus.",
+								"University officials believe Murgaxor began his illicit experiments with life-draining magic shortly after he enrolled as a student.",
+								"In his third year, Murgaxor was expelled for using life-draining magic when it resulted in another student's death. Murgaxor fled before he could be handed over to authorities.",
+								"For a few years after his expulsion, Murgaxor was reportedly sighted around the outskirts of campus, specifically in Sedgemoor and the Detention Bog. Authorities believed something about those locations enhanced his magic, but he was never caught. Sightings soon stopped, and no further evidence of Murgaxor's presence was found. Officials assumed he was dead and struck Murgaxor from Strixhaven's records, as they considered him a blot on the university's reputation."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Murgaxor.webp"
+					},
+					"width": 850,
+					"height": 1063,
+					"credit": "Olga Drebas"
+				}
+			]
+		},
+		{
+			"name": "Oracle of Strixhaven",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Somewhere in the lands beyond Strixhaven's borders lives the Oracle: a wise and accomplished mage, tasked by the Founder Dragons to ensure that the magic of Strixhaven is used to help others and not twisted to evil ends. The one who holds the mantle of the Oracle must not only understand the fundamental truths of magic, but also possess impeccable wisdom and unshakable virtue.",
+						"The current Oracle is an elderly human named Jadzi. A graduate of Quandrix College, Jadzi has since expanded her studies to encompass all disciplines of spellcasting, tempering the mathematical abstractions she wielded at Strixhaven with benevolent divination and a return to the basics of magic itself."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Oracle of Strixhaven.webp"
+					},
+					"width": 850,
+					"height": 878,
+					"credit": "Chris Rahn"
+				}
+			]
+		},
+		{
+			"name": "Oriq Blood Mage",
+			"source": "SCC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Oriq Blood Mage.webp"
+					},
+					"width": 850,
+					"height": 781,
+					"credit": "Jihun"
+				}
+			]
+		},
+		{
+			"name": "Oriq Recruiter",
+			"source": "SCC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Oriq Recruiter.webp"
+					},
+					"width": 1699,
+					"height": 1200,
+					"credit": "Billy Christian"
+				}
+			]
+		},
+		{
+			"name": "Pest Mascot",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Grumpy, spiky, and generally irritating, pest mascots inhabit the muggy bayou of Sedgemoor. However, these ferret-sized swamp creatures hold deep wells of life essence, making them convenient fuel sources for the magic of Witherbloom mages. As such, many Witherbloom students have adopted pests from the bayou as pets, and pests, in all their spiny glory, have become the mascots of the college."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Pest Mascot.webp"
+					},
+					"width": 899,
+					"height": 1000,
+					"credit": "Ilse Gort"
+				}
+			]
+		},
+		{
+			"name": "Prismari Apprentice",
+			"source": "SCC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Prismari Apprentice.webp"
+					},
+					"width": 1200,
+					"height": 876,
+					"credit": "Igor Kieryluk"
+				}
+			]
+		},
+		{
+			"name": "Quandrix Apprentice",
+			"source": "SCC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Quandrix Apprentice.webp"
+					},
+					"width": 1700,
+					"height": 1145,
+					"credit": "Ryan Alexander Lee"
+				}
+			]
+		},
+		{
+			"name": "Relic Sloth",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"For long expeditions, Lorehold mages often employ relic sloths to haul adventuring equipment and excavated artifacts—so long as their study isn't in any particular hurry. Relic sloths travel at an excruciatingly slow pace, deliberating every step and moving only when necessary. But this caution makes these hulking creatures perfect for traversing treacherous and crumbling ruins, where other beasts of burden would falter. The distinctive sickle-shaped claws on a relic sloth's forelimbs are primarily used for climbing, though they can fend off a hungry predator in a pinch."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Relic Sloth.webp"
+					},
+					"width": 1700,
+					"height": 1250,
+					"credit": "Ilse Gort"
+				}
+			]
+		},
+		{
+			"name": "Ruin Grinder",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Created by the archaeomancers of Lorehold College, ruin grinders are mighty automatons built to excavate ancient ruins and artifacts. The massive toothed shovels attached to a ruin grinder's arms tear through millennia-old bedrock with ease, leading some Lorehold mages to fear that the grinders destroy more history than they unearth."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Ruin Grinder.webp"
+					},
+					"width": 1700,
+					"height": 1275,
+					"credit": "Hector Ortiz"
+				}
+			]
+		},
+		{
+			"name": "Scufflecup Teacup",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Scufflecup is a game students created after finding a box of teacups in a nearby building's storage room. The students discovered that pouring hot tea into the cups animates them for 10 minutes and causes them to sprout little arms and legs."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shadrix Silverquill",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Centuries ago, the dragon Shadrix Silverquill mastered the magic of light and shadow, and he focused that magic through communication. Shadrix's words thrummed with power, inspiring his allies and demoralizing his enemies.",
+						"He established Silverquill College on the principles of eloquence and leadership, seeking to produce leaders who would go forth to guide others."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Shadrix Silverquill.webp"
+					},
+					"width": 929,
+					"height": 1191,
+					"credit": "Kekai Kotaki"
+				}
+			]
+		},
+		{
+			"name": "Silverquill Apprentice",
+			"source": "SCC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Silverquill Apprentice.webp"
+					},
+					"width": 1713,
+					"height": 1449,
+					"credit": "Mike Bierek"
+				}
+			]
+		},
+		{
+			"name": "Silverquill Pledgemage",
+			"source": "SCC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Silverquill Pledgemage.webp"
+					},
+					"width": 1700,
+					"height": 1031,
+					"credit": "Denman Rooke"
+				}
+			]
+		},
+		{
+			"name": "Spirit Statue Mascot",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"To enhance their studies of the past, Lorehold students often call upon the spirits of dead creatures. Mages seeking longer-term assistance from ancient spirits have learned to house these spirits in statues, giving them a more permanent residence from which to assist the living.",
+						"Some of these spirit statues bond with and mentor a specific mage, but most serve in a variety of roles for numerous individuals, ranging from research colleagues to martial tacticians. Regardless, their appearance is so common around the Lorehold campus that they have become the college's mascots."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Spirit Statue Mascot.webp"
+					},
+					"width": 1699,
+					"height": 1348,
+					"credit": "Andrey Kuzinskiy"
+				}
+			]
+		},
+		{
+			"name": "Strixhaven Campus Guide",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"With cheerful dispositions and a knack for walking backward, Strixhaven campus guides lead gaggles of prospective students on tours. The guides' gold and silver chassis are built in shapes reminiscent of the star arches surrounding Strixhaven. Embedded in their chests are holographic maps of the university's campuses, which the guides use to provide directions. However, it's rare for a campus guide to need its own maps, as these gregarious automatons have a gift for finding things on campus, often popping up at the most inopportune times."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Strixhaven Campus Guide.webp"
+					},
+					"width": 1700,
+					"height": 1317,
+					"credit": "Slawomir Maniak"
+				}
+			]
+		},
+		{
+			"name": "Tanazir Quandrix",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"The dragon Tanazir Quandrix is one of the most potent masters of the magic that governs physical reality and theoretical abstraction. Through this knowledge, she can alter the physical properties of existence, gain fundamental understanding, and manipulate the flow of thought.",
+						"Tanazir founded Quandrix College to nurture the spark of curiosity in those who would pursue knowledge. The goal is to train mages who seek knowledge for its own sake, guided by the mathematical principles that describe and govern the nature of reality.",
+						"Tanazir's spells, legendary actions, and breath weapon manifest luminous patterns of geometric light. These take various forms, such as an interlocking cage around the target of a spell or a wave of infinitely replicating fractal swirls in the area of her breath."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Tanazir Quandrix.webp"
+					},
+					"width": 1700,
+					"height": 1047,
+					"credit": "Raymond Swanland"
+				}
+			]
+		},
+		{
+			"name": "Velomachus Lorehold",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Velomachus Lorehold was the first dragon of Strixhaven to master the magic of order and chaos, the flow and prediction of events through time. Her magic encourages exploration and discovery through the lens of creating a direct conduit to the past.",
+						"She founded Lorehold College to ensure mortals would never forget the lessons of the past. After living for centuries, Velomachus has grown tired of watching the same mistakes repeated continually. She hopes her college's teachings will foster the skills to either predict future pitfalls by taking lessons from those that came before or create flexible mindsets that allow people to shift their plans effectively when the unexpected occurs.",
+						"Velomachus's spells, legendary actions, and breath weapon are accompanied by visual effects resembling tomes and scrolls composed of golden light, perceptible distortions as time doubles back on itself, and thunderous sounds."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Velomachus Lorehold.webp"
+					},
+					"width": 1200,
+					"height": 1007,
+					"credit": "Raymond Swanland"
+				}
+			]
+		},
+		{
+			"name": "Witherbloom Apprentice",
+			"source": "SCC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Witherbloom Apprentice.webp"
+					},
+					"width": 1700,
+					"height": 1251,
+					"credit": "Josh Hass"
+				}
+			]
+		},
+		{
+			"name": "Witherbloom Pledgemage",
+			"source": "SCC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/SCC/Witherbloom Pledgemage.webp"
+					},
+					"width": 1700,
+					"height": 1152,
+					"credit": "Filip Burburan"
+				}
+			]
+		},
+		{
+			"name": "Y'demi",
+			"source": "SCC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"The Oriq are a secret society of mages who wield forbidden magic in the service of their leader, Extus Narr. Narr was in consideration for elevation to the role of Oracle of Strixhaven, but when the Founder Dragons passed him over in favor of Jadzi, his bitterness knew no bounds. He now uses the Oriq to gather the spells and magical energy he needs to summon a devastating being, the Blood Avatar, to destroy Strixhaven.",
+						"The Oriq work in secret, infiltrating Strixhaven to search for the magic their master covets and watch for impressionable students and embittered faculty they might turn to their cause. The Oriq take pains to hide their true allegiance and wear masks to hide their identities. These masks have magical properties that function only for their intended wearers."
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Oriq Blood Mage",
+							"entries": [
+								"Oriq blood mages create deadly weapons formed of their own blood. They can also sense the life energy within nearby creatures, making the blood mages almost impossible to ambush."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

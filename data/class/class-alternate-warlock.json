@@ -1,0 +1,2563 @@
+{
+	"classFeature": [
+		{
+			"name": "Eldritch Blast",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 1,
+			"entries": [
+				"You can unleash the power of your Eldritch Invocations as beams of arcane energy. While holding a Trinket containing an Invocation, you can use your action to make a ranged spell attack against a target you can see within 120 feet. On hit, it takes force damage equal to 1d8 + your Pact modifier."
+			]
+		},
+		{
+			"name": "Eldritch Invocations",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 1,
+			"entries": [
+				"You have bound fragments of occult power known as Eldritch Invocations to Trinkets, tiny objects reminiscent of the power bound within them. If a Trinket is lost or destroyed, it reforms on your person at the end of your next short or long rest.",
+				"Your Trinkets and Eldritch Invocations use the rules below:",
+				{
+					"type": "entries",
+					"name": "Invocations Known",
+					"entries": [
+						"At 1st level, you have two Trinkets, and bound within each is one Eldritch Invocation of your choice from the list at the end of this class. At certain levels, you gain additional Invocations, as shown in the Invocations Known column of the Warlock table above. If the Invocation has prerequisites, you can learn it at the same time that you meet all of its prerequisites.",
+						"When you gain a Warlock level, you can replace an Eldritch Invocation you know with another Invocation of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eldritch Spellcasting",
+					"entries": [
+						"Through occult scholarship, dark bargains, or an unnatural intuition, Warlocks access power through Pacts with eldritch sources. Choose Intelligence, Wisdom, or Charisma to be the spellcasting ability for your Invocation features and spells.",
+						"You use this Pact Ability whenever one of your Invocations or spells refers to your spellcasting ability, whenever you set a saving throw DC, or when you make a spell attack roll.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"int"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"int"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Otherworldly Patron",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, the occult knowledge you have gathered unlocks greater secrets, allowing you to enter into an eldritch bargain with one of the Otherworldly Patrons from the list below.",
+				"Your Patron grants you features at 2nd level, and again at 6th, 10th, and 14th level. If one of your Otherworldly Patron feature forces a saving throw, it uses your Pact save DC.",
+				{
+					"type": "entries",
+					"name": "Patron Magic",
+					"entries": [
+						"Each Otherworldly Patron has a list of Patron Spells that you learn at the Warlock levels noted in your Otherworldly Patron description. These spells count as Warlock spells for you, but they do not count against your total number of Spells Known.",
+						"This magic also changes the effects of your Eldritch Blast."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pact Magic",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"Also at 2nd level, your research and the power bestowed on you by your Patron has given you the ability to cast spells:",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"You learn two cantrips of your choice from the Warlock spell list, which can be found at the end of this class description.",
+						"You learn another Warlock cantrip at 4th and 10th level, as shown in the Cantrips Known column of the Warlock table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"As your Pact Magic is an extension of the otherworldly and esoteric knowledge you have gathered, you use your Eldritch Invocation spellcasting ability for your Pact Magic spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Slots",
+					"entries": [
+						"The Warlock table shows how many spell slots you have to cast your Warlock spells of 1st through 5th-level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast a Warlock spell of 1st-level or higher, you must spend a spell slot. You regain all of your expended spell slots when you finish a short or long rest.",
+						"For example, if you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known of 1st-Level and Higher",
+					"entries": [
+						"At 2nd level, you learn three 1st-level spells of your choice from the Warlock spell list at the end of this class description. The Spells Known column of the Warlock table shows when you learn additional Warlock spells of your choice of 1st-level or higher. A spell you choose must be a level no higher than what's shown in the table's Slot Level column for your level.",
+						"For example, when you reach 6th level in this class, you learn one new Warlock spell of 1st, 2nd, or 3rd level.",
+						"Additionally, when you gain a level in this class, you can choose one of the Warlock spells you know and replace it with another spell of your choice from the Warlock spell list, which also must be of a level for which you have spell slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Invocation Spells",
+					"entries": [
+						"Spells that you learn through Invocations count as Warlock spells for you, but do not count against your Spells Known."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use any Trinket bearing an Eldritch Invocation, or an arcane focus, as a spellcasting focus for your Warlock spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pact Focus",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 3,
+			"entries": [
+				"Your connection to your Otherworldly Patron has grown, and you have learned to channel their eldritch power into a Pact Focus which resembles the true nature of your Patron. At 3rd level, you gain a Pact Focus of your choice from the list below:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Eldritch Blade|LLWrc"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Eldritch Familiar|LLWrc"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Eldritch Tome|LLWrc"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Empowered Blast",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 5,
+			"entries": [
+				"You are able to draw out more power from your Invocations. Starting at 5th level, when you use Eldritch Blast, you create two beams. You can direct the beams at the same target or at different ones, but you make a separate attack roll for each.",
+				"At certain Warlock levels, the number of beams increases: at 11th level it creates three, and finally four at 17th level."
+			]
+		},
+		{
+			"name": "Otherworldly Patron Feature",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Patron."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Otherworldly Patron Feature",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Patron."
+			]
+		},
+		{
+			"name": "Elder Arcanum",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 11,
+			"entries": [
+				"Leveraging the forbidden, occult, and sinister knowledge you have gathered, you gain insight into the secretive workings of the cosmos. This knowledge manifests as an {@filter Elder Arcanum|optionalfeatures|feature type=LL:EA}. At 11th level, you learn one Elder Arcanum from the list at the end of this class. You cannot learn an Arcanum more than once unless specified, and once chosen, it cannot be changed.",
+				"At certain Warlock levels you unlock more of these esoteric secrets. You learn one additional Arcanum of your choice at 13th level, one 15th level, and a final Arcanum at 17th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Otherworldly Patron Feature",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Patron."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Pact Master",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"level": 20,
+			"entries": [
+				"At 20th level, you can strain the eldritch power of your Pact in times of great need. Once per long rest, you can use an action to regain all of your expended Pact Magic spell slots."
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Alternate Warlock",
+			"source": "LLAC",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"wis",
+				"int"
+			],
+			"spellcastingAbility": "int",
+			"casterProgression": "pact",
+			"cantripProgression": [
+				0,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"spellsKnownProgression": [
+				0,
+				3,
+				3,
+				4,
+				4,
+				5,
+				5,
+				6,
+				6,
+				7,
+				7,
+				8,
+				8,
+				8,
+				9,
+				9,
+				9,
+				10,
+				10,
+				10
+			],
+			"classSpells": [
+				"Blade Ward (Alternate)|llspell",
+				"Booming Blade (alternate)|llspell",
+				"Chill Touch",
+				"Create Bonfire|XGE",
+				"Dancing Lights",
+				"Frostbite|XGE",
+				"Green-Flame Blade (Alternate)|llspell",
+				"Tempestuous Blade|llspell",
+				"Infestation|XGE",
+				"Lightning Lure (Alternate)|llspell",
+				"Mage Hand",
+				"Magic Stone|XGE",
+				"Mind Sliver|TCE",
+				"Minor Illusion",
+				"Otherworldly Grasp|llspell",
+				"Poison Spray (alternate)|llspell",
+				"Prestidigitation",
+				"Sword Burst (Alternate)|llspell",
+				"Thunderclap|XGE",
+				"Toll the Dead|XGE",
+				"True Strike (Alternate)|llspell",
+				"Armor of Agathys",
+				"Arms of Hadar",
+				"Bane",
+				"Cause Fear|XGE",
+				"Charm Person",
+				"Color Spray",
+				"Comprehend Languages",
+				"Dissonant Whispers",
+				"Expeditious Retreat",
+				"Ghastly Flight|llspell",
+				"Hellish Rebuke",
+				"Hex",
+				"Tasha's Hideous Laughter",
+				"illusory script",
+				"inflict wounds",
+				"jump|llspell",
+				"Protection from Evil and Good",
+				"Ray of Sickness",
+				"Sleep",
+				"Unseen Servant",
+				"Witch Bolt (Alternate)|llspell",
+				"Cloud of Daggers",
+				"Create Ooze|llspell",
+				"Crown of Madness",
+				"Darkness",
+				"Earthbind|XGE",
+				"Enthrall",
+				"Flame Whip|llspell",
+				"Hold Person",
+				"Invisibility",
+				"Levitate",
+				"mind Spike|XGE",
+				"Tasha's Mind Whip|TCE",
+				"Mirror Image",
+				"Misty Step",
+				"Mystic Spear|llspell",
+				"Phantasmal Force",
+				"Ray of Enfeeblement",
+				"Shadow Blade|XGE",
+				"Shatter",
+				"Spider Climb",
+				"Suggestion",
+				"Bestow Curse",
+				"Conjure Fey (Alternate)|llspell",
+				"Conjure Elemental (Alternate)|llspell",
+				"Conjure Fiend (Alternate)|llspell",
+				"Counterspell (Alternate)|llspell",
+				"Dispel Magic",
+				"Enemies Abound|XGE",
+				"Fear",
+				"Fly",
+				"Gaseous Form",
+				"Hunger of Hadar (Alternate)|llspell",
+				"Hypnotic Pattern (Alternate)|llspell",
+				"Intellect Fortress|TCE",
+				"Life Transference|XGE",
+				"Magic Circle",
+				"Major Image",
+				"Remove Curse",
+				"Slow",
+				"Spirit Shroud|TCE",
+				"Thunder step|XGE",
+				"Tongues",
+				"Vampiric Touch",
+				"Accursed Touch (Alternate)|llspell",
+				"Arcane Eye",
+				"Banishment",
+				"Blight",
+				"Charm Monster|XGE",
+				"Compulsion",
+				"Confusion",
+				"Conjure Aberration|llspell",
+				"Conjure Undead (Alternate)|llspell",
+				"Dimension Door",
+				"Eldritch Tentacles|llspell",
+				"Elemental Bane|XGE",
+				"Giant Insect",
+				"Greater Invisibility",
+				"Hallucinatory Terrain",
+				"Phantasmal Killer",
+				"Polymorph (Alternate)|llspell",
+				"Shadow of Moil|XGE",
+				"Sickening Radiance|XGE",
+				"Summon Aberration|TCE",
+				"Contact Other Plane",
+				"Contagion",
+				"Danse Macabre|XGE",
+				"Dominate Person",
+				"Dream",
+				"Enervation|XGE",
+				"Far Step|XGE",
+				"Geas",
+				"Hallow",
+				"Hold Monster",
+				"Insect Plague",
+				"Legend Lore",
+				"Mislead",
+				"Negative Energy Flood|XGE",
+				"Planar Binding",
+				"Scrying",
+				"Spiritual Sundering|llspell",
+				"Synaptic Static|XGE",
+				"Teleportation Circle",
+				"Wall of Light|XGE"
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Eldritch Invocation (Alternate)",
+					"featureType": [
+						"LL:EInv"
+					],
+					"progression": {
+						"1": 2,
+						"3": 3,
+						"5": 4,
+						"7": 5,
+						"9": 6,
+						"12": 7,
+						"15": 8,
+						"18": 9
+					}
+				},
+				{
+					"name": "Eldrer Arcanum",
+					"featureType": [
+						"LL:EA"
+					],
+					"progression": {
+						"11": 1,
+						"13": 2,
+						"15": 3,
+						"17": 4
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"deception",
+								"history",
+								"intimidation",
+								"investigation",
+								"nature",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item light crossbow|phb} and 20 bolts or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item component poucn|phb} or (b) {@item arcane focus|phb}",
+					"(a) a {@item scholar's pack|phb} or (b) an {@item dungeoneer's pack|phb}",
+					"{@item leather armor|phb}, any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} and 2 daggers"
+				],
+				"defaultData": [
+					{
+						"a": [
+							"light crossbow|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"component pouch|phb"
+						],
+						"b": [
+							{
+								"item": "arcane focus|phb"
+							}
+						]
+					},
+					{
+						"a": [
+							"scholar's pack|phb"
+						],
+						"b": [
+							"dungeoneer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"Leather armor|phb",
+							{
+								"equipmentType": "weaponSimple"
+							},
+							{
+								"item": "dagger|phb",
+								"quantity": 2
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"int": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"weapons": [
+						"simple"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"arcana",
+									"deception",
+									"history",
+									"intimidation",
+									"investigation",
+									"nature",
+									"religion"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Invocations Known|optionalfeatures|feature type=LL:EInv}",
+						"{@filter Cantrips Known|spells|level=0|class=Alternate Warlock (LLWrc)}",
+						"{@filter Spells Known|spells|class=Alternate Warlock (LLWrc)}",
+						"Spell Slots",
+						"Slot Level"
+					],
+					"rows": [
+						[
+							"2",
+							"-",
+							"-",
+							"-",
+							"-"
+						],
+						[
+							"2",
+							"2",
+							"3",
+							"2",
+							"1st"
+						],
+						[
+							"3",
+							"2",
+							"3",
+							"2",
+							"2nd"
+						],
+						[
+							"3",
+							"3",
+							"4",
+							"2",
+							"2nd"
+						],
+						[
+							"4",
+							"3",
+							"4",
+							"2",
+							"3rd"
+						],
+						[
+							"4",
+							"3",
+							"5",
+							"2",
+							"3rd"
+						],
+						[
+							"5",
+							"3",
+							"5",
+							"2",
+							"4th"
+						],
+						[
+							"5",
+							"3",
+							"6",
+							"2",
+							"4th"
+						],
+						[
+							"6",
+							"3",
+							"6",
+							"2",
+							"5th"
+						],
+						[
+							"6",
+							"4",
+							"7",
+							"2",
+							"5th"
+						],
+						[
+							"6",
+							"4",
+							"7",
+							"3",
+							"5th"
+						],
+						[
+							"7",
+							"4",
+							"8",
+							"3",
+							"5th"
+						],
+						[
+							"7",
+							"4",
+							"8",
+							"3",
+							"5th"
+						],
+						[
+							"7",
+							"4",
+							"8",
+							"3",
+							"5th"
+						],
+						[
+							"8",
+							"4",
+							"9",
+							"3",
+							"5th"
+						],
+						[
+							"8",
+							"4",
+							"9",
+							"3",
+							"5th"
+						],
+						[
+							"8",
+							"4",
+							"9",
+							"4",
+							"5th"
+						],
+						[
+							"9",
+							"4",
+							"10",
+							"4",
+							"5th"
+						],
+						[
+							"9",
+							"4",
+							"10",
+							"4",
+							"5th"
+						],
+						[
+							"9",
+							"4",
+							"10",
+							"4",
+							"5th"
+						]
+					]
+				}
+			],
+			"subclassTitle": "Patron",
+			"classFeatures": [
+				"Eldritch Blast|Alternate Warlock|LLAC|1|LLAC",
+				"Eldritch Invocations|Alternate Warlock|LLAC|1|LLAC",
+				{
+					"classFeature": "Otherworldly Patron|Alternate Warlock|LLAC|2|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Pact Magic|Alternate Warlock|LLAC|2|LLAC",
+				"Pact Focus|Alternate Warlock|LLAC|3|LLAC",
+				"Ability Score Improvement|Alternate Warlock|LLAC|4|LLAC",
+				"Empowered Blast|Alternate Warlock|LLAC|5|LLAC",
+				{
+					"classFeature": "Otherworldly Patron Feature|Alternate Warlock|LLAC|6|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Alternate Warlock|LLAC|8|LLAC",
+				{
+					"classFeature": "Otherworldly Patron Feature|Alternate Warlock|LLAC|10|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Elder Arcanum|Alternate Warlock|LLAC|11|LLAC",
+				"Ability Score Improvement|Alternate Warlock|LLAC|12|LLAC",
+				{
+					"classFeature": "Otherworldly Patron Feature|Alternate Warlock|LLAC|14|LLAC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Alternate Warlock|LLAC|16|LLAC",
+				"Ability Score Improvement|Alternate Warlock|LLAC|19|LLAC",
+				"Pact Master|Alternate Warlock|LLAC|20|LLAC"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Fey Presence",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Archfey",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Archfey feature}",
+				"You can channel the magic of the faerie to beguile foes. As an action, you can force one creature within 10 feet that can see or hear you to make a Wisdom saving throw against your Spell save DC. On a failed save, it is either charmed by, or frightened of you for up to 10 minutes. This effect ends early if the creature takes any damage, or if you or your allies attack the creature or force it to make a saving throw.",
+				"Once you use this feature you must complete a short or long rest before you can use it again. When you have no uses left you can expend one Pact Magic spell slot to use it again."
+			]
+		},
+		{
+			"name": "The Archfey",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Archfey",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"You have entered a Pact with a powerful entity of the faerie. Whether you were gifted this Pact, or you tricked your Patron into granting you a measure of power, you can draw upon the whimsical and terrifying power of the Fey. Only the eldest of the faerie can form such Pacts; the Archfey of the Fey courts, ancient sylvan spirits, and the most powerful covens of hags."
+			]
+		},
+		{
+			"name": "Fey Magic",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Archfey",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Archfey feature}",
+				"Your Patron infuses your magic with the mind-bending power of the Feywild. You can choose for your Eldritch Blast to deal psychic damage equal to 1d10 + your Pact modifier.",
+				"You also learn certain spells at the Warlock levels below. They are Warlock spells for you, but they don't count against your number of Spells Known, and they cannot be replaced:",
+				{
+					"type": "table",
+					"caption": "Archfey Spells",
+					"colLabels": [
+						"Alternate Warlock Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell faerie fire}, {@spell sleep}"
+						],
+						[
+							"3rd",
+							"{@spell misty step}, {@spell phantasmal force}"
+						],
+						[
+							"5th",
+							"{@spell fear}, {@spell hypnotic pattern (Alternate)|llspell}"
+						],
+						[
+							"7th",
+							"{@spell hallucinatory terrain}, {@spell greater invisibility}"
+						],
+						[
+							"9th",
+							"{@spell mislead}, {@spell seeming}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fey Presence|Alternate Warlock|LLAC|Archfey|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Archfey|Alternate Warlock|LLAC|Archfey|LLAC|2|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Misty Escape",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Archfey",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Archfey feature}",
+				"You can draw on the magic of the Fey to elude danger. When you take damage, you can use your reaction to turn invisible and teleport to an unoccupied space you can see within 60 feet. You remain invisible until the start of your next turn, or until you attack, cast a spell, or force a saving throw.",
+				"You can use this feature once in between each short or long rest at no cost, after which, you need to expend a Pact Magic spell slot to use this feature again."
+			]
+		},
+		{
+			"name": "Beguiling Blast",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Archfey",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Archfey feature}",
+				"Your magic clouds the minds of your foes. When you deal psychic damage to a creature with Eldritch Blast, it has disadvantage on the first attack roll it makes before the start of your next turn. Any creature immune to the charmed condition is also immune to this effect.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Misty Escape|Alternate Warlock|LLAC|Archfey|LLAC|6|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Whimsical Defense",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Archfey",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Archfey feature}",
+				"You gain Immunity to the Charmed condition, and when a creature attempts to inflict the Charmed condition on you, it must make a Wisdom saving throw. On a failure, it suffers the effects of your Fey Presence. If it also cannot be Charmed, it takes psychic damage equal to your Warlock level."
+			]
+		},
+		{
+			"name": "Terrible Delights",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Archfey",
+			"subclassSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Archfey feature}",
+				"Your fey magic overwhelms even the strongest minds. Your Warlock spells and features ignore immunity to the charmed condition. However, these creatures have advantage on their saving throws to resist being charmed by you.",
+				"Also, whenever a creature fails its saving throw against Fey Presence, you can plunge it into an illusory realm of emotion, but this enhanced effect requires your concentration. For the duration, the target can see and hear only itself, you, and this illusory reality of your creation. Each time it takes damage, it can repeat its Wisdom saving throw, ending this effect on a success.",
+				"Once a creature succeeds on this saving throw it is immune to this effect for 24 hours."
+			]
+		},
+		{
+			"name": "Fell Curses",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Darklord",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"The sinister magic of your Patron enhances the curses you inflict. Your concentration on Darklord Magic spells cannot be broken by taking damage.",
+				"In addition, your attack rolls score a critical hit on a roll of 19 or 20 on the d20 against creatures under the effects of your Darklord Magic spells. Whenever you deal necrotic damage to such a creature, you gain temporary hit points equal to half the damage (up to your Warlock level)."
+			]
+		},
+		{
+			"name": "Shadow Warrior",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Darklord",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Darklord feature}",
+				"Your Pact has deepened the shadows you summon. You gain the Armor of Shadows Invocation, and while it is active, you add your Pact modifier to Stealth checks.",
+				"This Invocation can't be replaced, and if you already know it, you gain a different Eldritch Invocation of your choice."
+			]
+		},
+		{
+			"name": "The Darklord",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Darklord",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"You have entered into a Pact with one of the sinister rulers of the Shadowfell. These powerful entities are imprisoned within their Domain of Dread, only able to affect the outside world through trusted servants. Imbued with a fraction of your Darklord's power, you can wield the sinister power of shadows against your Darklord's foes."
+			]
+		},
+		{
+			"name": "Darklord Magic",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Darklord",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Darklord feature}",
+				"Your Patron infuses your magic with their umbral power. You can choose for your Eldritch Blast to deal necrotic damage equal to 1d10 + your Pact modifier.",
+				"You also learn certain spells at the Warlock levels below. They are Warlock spells for you, but they don't count against your number of Spells Known, and they cannot be replaced:",
+				{
+					"type": "table",
+					"caption": "Darklord Spells",
+					"colLabels": [
+						"Alternate Warlock Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell hex}, {@spell inflict wounds}"
+						],
+						[
+							"3rd",
+							"{@spell blur}, {@spell blindness/deafness}"
+						],
+						[
+							"5th",
+							"{@spell fear}, {@spell enemies abound|xge}"
+						],
+						[
+							"7th",
+							"{@spell accursed touch|llspell}, {@spell phantasmal killer}"
+						],
+						[
+							"9th",
+							"{@spell dream}, {@spell enervation|xge}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fell Curses|Alternate Warlock|LLAC|Darklord|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shadow Warrior|Alternate Warlock|LLAC|Darklord|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Darklord|Alternate Warlock|LLAC|Darklord|LLAC|2|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Cursed Specter",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Darklord",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"You can bind the souls of your slain foes in your service for a short time. When a Humanoid under the effects of a Darklord Magic spell dies, you can capture its spirit as a reaction.",
+				"You can only have a single spirit captured at a time. As an action, you can consume this spirit to conjure a {@creature Specter} in an unoccupied space within 10 feet. It is under your control, and it uses the Specter stat block from the Monster Manual, but it uses your Spell save DC and Spell attack modifier for attack rolls. It remains for 1 minute, or until it is destroyed.",
+				"In combat, your Specter acts during your turn. It can move and use its reaction on its own, but it will only take the Dodge action unless you use your bonus action to order it to take an action from its stat block or another action.",
+				"If you become Unconscious, your Specter is destroyed."
+			]
+		},
+		{
+			"name": "Dread Mantle",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Darklord",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Darklord feature}",
+				"Your curses vex your foes' attempts to harm you. Whenever a creature under the effects of a Darklord Magic spell damages you, you reduce it by your Pact modifier (minimum of 1).",
+				"In addition, whenever you make a death saving throw, you add your Pact modifier (minimum of +1) to your roll."
+			]
+		},
+		{
+			"name": "Right Hand of Dread",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Darklord",
+			"subclassSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"Your dark Pact infuses you with power to rival your Patron. When a creature under the effects of one of your Darklord Magic spells is slain, you can use your reaction to regain a single expended Pact Magic spell slot, in place of capturing its spirit with your Cursed Specter feature.",
+				"Finally, when you use Cursed Specter, you can expend a Pact Magic spell slot to conjure your Specter in place of the spirit. You can only have one Specter conjured at a time."
+			]
+		},
+		{
+			"name": "Grasp of the Deep",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Deep One",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Deep One feature}",
+				"Your oceanic magick calls out to your Patron. Any time you deal cold damage to a Large or smaller creature with Eldritch Blast, you can conjure a spectral tendril of your Patron in its space, which it is Grappled by it for 1 minute.",
+				"As an action, a Grappled creature can make a Strength check against your Spell save DC. On a success, it escapes this Grapple, and the spectral tendril disappears.",
+				"You can use this feature a number of times equal to your Pact modifier (minimum of once). You regain all uses when you finish a long rest. If you have no uses, you can expend a Pact Magic spell slot to use this feature again."
+			]
+		},
+		{
+			"name": "Scion of the Deep",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Deep One",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Deep One feature}",
+				"Your Pact has altered your physiology so that you may survive the depths. You gain Resistance to cold damage, a 30-foot swimming speed, and you can breathe both air and water.",
+				"Also, while underwater, you and any other creature underwater can understand each other as if you shared a common language."
+			]
+		},
+		{
+			"name": "The Deep One",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Deep One",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"You have bonded yourself to a primordial force of the ancient waters, known as a Deep One. These Thalassic entities often enter into Pacts with desperate sailors, expert navigators, or scholars of the oceans. Any aquatic being of sufficient power can form such a Pact, but ancient krakens, primordial water elementals, and demigods of the ocean are most common."
+			]
+		},
+		{
+			"name": "Deep Magic",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Deep One",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Deep One feature}",
+				"Your Patron has infused your magic with the ancient power of the depths. You can choose for your Eldritch Blast to deal cold damage equal to 1d10 + your Pact modifier.",
+				"You also learn certain spells at the Warlock levels below. They are Warlock spells for you, but they don't count against your number of Spells Known, and they cannot be replaced:",
+				{
+					"type": "table",
+					"caption": "Deep One Spells",
+					"colLabels": [
+						"Alternate Warlock Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell create water (alternate)|llspell}, {@spell torrent|llspell}"
+						],
+						[
+							"3rd",
+							"{@spell aura of frost|llspell}, {@spell gust of wind}"
+						],
+						[
+							"5th",
+							"{@spell tidal wave|XGE}, {@spell sleet storm}"
+						],
+						[
+							"7th",
+							"{@spell control water}, {@spell eldritch tentacles|llspell}"
+						],
+						[
+							"9th",
+							"{@spell cone of cold}, {@spell maelstrom|XGE}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Grasp of the Deep|Alternate Warlock|LLAC|Deep One|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Scion of the Deep|Alternate Warlock|LLAC|Deep One|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Deep One|Alternate Warlock|LLAC|Deep One|LLAC|2|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Oceanic Grasp",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Deep One",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Deep One feature}",
+				"If you deal cold damage to a creature with Eldritch Blast two or more times in one turn, you can use Grasp of the Deep without expending a use of that feature."
+			]
+		},
+		{
+			"name": "Thalassic Mind",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Deep One",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Deep One feature}",
+				"Your mind is set in frozen purpose. Your concentration on Deep Magic spells cannot be broken by taking damage."
+			]
+		},
+		{
+			"name": "Great Tendrils",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Deep One",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Deep One feature}",
+				"You bring ever more of your Deep Patron's power to bear upon the world. You can use Grasp of the Deep on Huge creatures, and when a creature begins its turn Grappled by Grasp of the Deep, it takes 2d8 cold damage.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Thalassic Mind|Alternate Warlock|LLAC|Deep One|LLAC|10|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Unleash the Depths",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Deep One",
+			"subclassSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Deep One feature}",
+				"You can cause the full might of your thalassic Patron to burst forth. As an action, you conjure up to five Grasp of the Deep tendrils in spaces of your choice within 30 feet. Each tendril forces one creature within 10 feet to make a Dexterity saving throw. On a failure, creatures take 2d8 cold damage and are Restrained by the tendril for its duration. On a success, they take half as much damage and are not Restrained.",
+				"You can use this feature once per long rest at no cost. After that, you must spend a Pact Magic spell slot to use it again."
+			]
+		},
+		{
+			"name": "Exalted Magic",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Exalted",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Exalted feature}",
+				"Your Patron has infused your magic with the celestial power of heaven. You can choose for Eldritch Blast to deal radiant damage equal to 1d10 + your Pact modifier.",
+				"You also learn certain spells at the Warlock levels below. They are Warlock spells for you, but they don't count against your number of Spells Known, and they cannot be replaced:",
+				{
+					"type": "table",
+					"caption": "Exalted Spells",
+					"colLabels": [
+						"Alternate Warlock Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell cure wounds}, {@spell guiding bolt}"
+						],
+						[
+							"3rd",
+							"{@spell flaming sphere}, {@spell lesser restoration}"
+						],
+						[
+							"5th",
+							"{@spell daylight}, {@spell revivify}"
+						],
+						[
+							"7th",
+							"{@spell guardian of faith}, {@spell wall of fire}"
+						],
+						[
+							"9th",
+							"{@spell flame strike}, {@spell greater restoration}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "The Exalted",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Exalted",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"You have entered into a Pact with a powerful Celestial native to the upper planes of existence. Whether your Patron sought you out as an ally or you proved yourself worthy, you are now bound to a being of absolute good. Only the most powerful of the heavenly hosts can serve as Patrons; Archangels, scions of gods, and powerful demigods of good are most common."
+			]
+		},
+		{
+			"name": "Celestial Light",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Exalted",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Exalted feature}",
+				"You can channel the divine power of your Pact to heal others. When you fire a beam of your Eldritch Blast, you can instead choose to channel a beam of healing light at one creature you can see within range, restoring 1d10 hit points to the target.",
+				"You can do so a number of times equal to 1 + your Warlock level, and you regain all uses when you finish a long rest.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Exalted Magic|Alternate Warlock|LLAC|Exalted|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Exalted|Alternate Warlock|LLAC|Exalted|LLAC|2|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Radiant Conduit",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Exalted",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"Your increased devotion to your Pact allows you to draw upon greater amounts of holy power. You gain resistance to radiant damage, and when you use Celestial Light, you can expend multiple uses (up to your Pact modifier) at one time to restore 1d10 hit points to your target for each use expended.",
+				"In addition, you can expend one of your Pact Magic spell slots as a bonus action to regain expended uses of Celestial Light equal to the level of that Pact Magic spell slot."
+			]
+		},
+		{
+			"name": "Celestial Fortitude",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Exalted",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Exalted feature}",
+				"Your divine presence fortifies you and your allies. Each time you finish a short or long rest you gain temporary hit points equal to your Warlock level + your Pact modifier.",
+				"You can also choose up to five creatures who completed the short or long rest with you to gain temporary hit points equal to half your Warlock level + your Pact modifier."
+			]
+		},
+		{
+			"name": "Blinding Defiance",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Exalted",
+			"subclassSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"The heavenly power infused into your Pact allows you to resist death. When you make a death saving throw, you can choose to instantly return to life with half your maximum hit points, stand up, and unleash a burst of radiant light.",
+				"When you do, creatures of your choice within 30 feet must make a Constitution saving throw against your Spell save DC. On a failed save, creatures take 8d6 radiant damage and are blinded until the end of your current turn. On a success, they take half as much radiant damage and are not blinded.",
+				"Once you use this feature to return to life you must finish a long rest before you can use it again. If you have no uses left, you can expend a Pact Magic spell slot to use it again."
+			]
+		},
+		{
+			"name": "Fiendish Magic",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Fiend",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2rd-level Fiend feature}",
+				"Your Patron infuses your magic with infernal flames. You can choose for Eldritch Blast to deal fire damage equal to 1d10 + your Pact modifier, ignoring resistance to fire damage.",
+				"You also learn certain spells at the Warlock levels below. They are Warlock spells for you, but they don't count against your number of Spells Known, and they cannot be replaced:",
+				{
+					"type": "table",
+					"caption": "Fiend Spells",
+					"colLabels": [
+						"Alternate Warlock Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2rd",
+							"{@spell command}, {@spell hellish rebuke}"
+						],
+						[
+							"3th",
+							"{@spell blindness/deafness}, {@spell Flame Whip|llspell}"
+						],
+						[
+							"5th",
+							"{@spell bestow curse}, {@spell fireball}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell wall of fire}"
+						],
+						[
+							"9th",
+							"{@spell cloudkill}, {@spell Immolation|XGE}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "The Fiend",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Fiend",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"You have entered into a Pact with a powerful Fiend from the lower planes of existence. Whether you struck a bargain, you were coerced, or you tricked your Patron, you are now linked to a being of absolute evil. Only the most powerful Fiends can serve as Patrons; Archdevils, Demon Lords, and particularly powerful servants of extraplanar evil are the most common."
+			]
+		},
+		{
+			"name": "Dark Vitality",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Fiend",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Fiend feature}",
+				"You can draw vitality from death. Whenever you kill a hostile creature, you can choose to gain temporary hit points equal to your Warlock level + your Pact modifier.",
+				"You can also use this feature as a reaction when a hostile creature within 10 feet of you is reduced to 0 hit points.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fiendish Magic|Alternate Warlock|LLAC|Fiend|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Fiend|Alternate Warlock|LLAC|Fiend|LLAC|2|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Dark Bargain",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Fiend",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Fiend feature}",
+				"You can sacrifice your very vitality to alter fate in your favor. When you fail an ability check or saving throw, you can roll a d10, adding the result to your roll, but reducing your hit point maximum by the same amount.",
+				"Reductions to your hit point maximum from this feature are restored at the end of your next long rest."
+			]
+		},
+		{
+			"name": "Accursed Flames",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Fiend",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Fiend feature}",
+				"Your magic scours the very soul of your foes. Whenever you deal fire damage to a creature, it cannot regain hit points or gain temporary hit points until the start of your next turn.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dark Bargain|Alternate Warlock|LLAC|Fiend|LLAC|6|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Fiendish Resilience",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Fiend",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Fiend feature}",
+				"At the end of each short or long rest you choose one type of damage. You gain resistance to that type of damage until the end of your next short or long rest. Damage you take from magical or silvered weapons ignores this resistance."
+			]
+		},
+		{
+			"name": "Hurl Into Hell",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Fiend",
+			"subclassSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Fiend feature}",
+				"You can temporarily inflict the horrors of hell upon your foes. When you deal damage to a creature with Eldritch Blast, you can teleport it to your Patron's domain, where it experiences unimaginable horrors. At the end of your next turn, it returns to the space it previously occupied or the nearest unoccupied space. If the creature was not a Fiend, it takes 6d10 psychic damage as it grapples with the horrors it experienced.",
+				"Once you use this feature you must finish a short or long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Awakened Mind",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Great Old One",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Great Old One feature}",
+				"You can telepathically communicate with any creature you can see within 60 feet. You don't need to share a language, but the target must speak at least one language to respond. You can only communicate with one creature at a time.",
+				"You also gain resistance to psychic damage."
+			]
+		},
+		{
+			"name": "The Great Old One",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Great Old One",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"You have made a Pact with an incomprehensible entity from beyond the reaches of your reality. Perhaps it is from the Far Realm or the void between stars. The desires of the Great Old Ones are incomprehensible to mortals, and true knowledge of the vast alien intelligence of your Patron would shatter your mind and render you completely insane."
+			]
+		},
+		{
+			"name": "Aberrant Magic",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Great Old One",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Great Old One feature}",
+				"Your Patron has tainted your magic with aberrant powers. Whenever you would fire a beam of Eldritch Blast, you can instead force a creature within range of your Eldritch Blast to make an Intelligence saving throw. On a failure, it takes psychic damage equal to 1d10 + your Pact modifier.",
+				"You also learn certain spells at the Warlock levels below. They are Warlock spells for you, but they don't count against your number of Spells Known, and they cannot be replaced:",
+				{
+					"type": "table",
+					"caption": "Great Old One Spells",
+					"colLabels": [
+						"Alternate Warlock Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2rd",
+							"{@spell arms of hadar}, {@spell dissonant whispers}"
+						],
+						[
+							"3th",
+							"{@spell detect thoughts}, {@spell tasha's mind whip|TCE}"
+						],
+						[
+							"5th",
+							"{@spell clairvoyance}, {@spell hunger of hadar (alternate)|llspell}"
+						],
+						[
+							"7th",
+							"{@spell confusion}, {@spell eldritch tentacles|llspell}"
+						],
+						[
+							"9th",
+							"{@spell modify memory}, {@spell telekinesis}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Awakened Mind|Alternate Warlock|LLAC|Great Old One|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Great Old One|Alternate Warlock|LLAC|Great Old One|LLAC|2|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Psionic Ward",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Great Old One",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Great Old One feature}",
+				"You can repel attacks with your mental abilities. Whenever a creature you can see targets you with an attack roll, you can use your reaction to impose disadvantage on its attack roll. If the triggering attack misses, you can target the attacker with one beam of your Eldritch Blast as part of the same reaction.",
+				"You can use this reaction a number of times equal to your Pact modifier (a minimum of once), and you regain all of your expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Mental Lance",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Great Old One",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Great Old One feature}",
+				"Once per turn when you deal psychic damage to a creature with Eldritch Blast, you scour the target's mind so it cannot take reactions until the beginning of your next turn.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Ward|Alternate Warlock|LLAC|Great Old One|LLAC|6|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Thought Shield",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Great Old One",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Great Old One feature}",
+				"Your thoughts cannot be read by telepathy or any other magic or psionic means unless you allow them to. Also, whenever you succeed on an Intelligence or Wisdom saving throw, you can deal psychic damage equal to your Warlock level to the creature that forced you to make the saving throw."
+			]
+		},
+		{
+			"name": "Create Thrall",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Great Old One",
+			"subclassSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Great Old One feature}",
+				"As an action, you can touch one incapacitated humanoid and flood them with the mind-shattering influence of your Patron, turning it into your Thrall.",
+				"This Thrall is charmed by you, and you can telepathically issue it commands so long as you are both on the same plane of existence. It obeys your commands to the best of its ability, but will not follow commands that would cause it immediate harm.",
+				"It remains your Thrall until it dies or it is released from this effect by a remove curse spell or another spell of similar power. You can only have one Thrall under your control, and creating a second Thrall releases any previous Thralls from the effects of your alien influence.."
+			]
+		},
+		{
+			"name": "Noble Magic",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Noble Genie feature}",
+				"Your Patron has infused your magic with its power. You can choose for your Eldritch Blast to deal damage of your Noble Genie's type equal to 1d10 + your Pact modifier.",
+				"You also learn certain spells at the Warlock levels below. They are Warlock spells for you, but they don't count against your number of Spells Known, and they cannot be replaced.",
+				"The first spell is shared by Warlocks of every Noble Genie. Genie Spells are determined by the type of Noble Genie you entered a Pact with, and are shown on the lower table:",
+				{
+					"type": "table",
+					"caption": "Noble Genie Spells",
+					"colLabels": [
+						"Warlock Level",
+						"Genie Spells",
+						"Dao Spells",
+						"Djinn Spells",
+						"Efreeti Spells",
+						"Marid Spells"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-2-2",
+						"col-2-2",
+						"col-2-2",
+						"col-2-2",
+						"col-2-2"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell sleep}",
+							"{@spell sanctuary}",
+							"{@spell thunderwave}",
+							"{@spell burning hands}",
+							"{@spell torrent|llspell}"
+						],
+						[
+							"3rd",
+							"{@spell enlarge/reduce}",
+							"{@spell spike growth}",
+							"{@spell gust of wind}",
+							"{@spell flaming sphere}",
+							"{@spell misty step}"
+						],
+						[
+							"5th",
+							"{@spell fly}",
+							"{@spell meld into stone}",
+							"{@spell gaseous form}",
+							"{@spell Melf's Minute Meteors|xge}",
+							"{@spell tidal wave|XGE}"
+						],
+						[
+							"7th",
+							"{@spell Polymorph (Alternate)|llspell}",
+							"{@spell stone shape}",
+							"{@spell greater invisibility}",
+							"{@spell fire shield}",
+							"{@spell watery sphere|XGE}"
+						],
+						[
+							"9th",
+							"{@spell bigby's hand}",
+							"{@spell wall of stone}",
+							"{@spell seeming}",
+							"{@spell flame strike}",
+							"{@spell cone of cold}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "The Noble Genie",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"You have formed a Pact with a Noble Genie, one of the rulers of the elemental planes. Only the most powerful genies from among the Dao, Djinn, Efretti, and Marid, can rise to heights of power possessed by a Noble Genie. Masters of elemental forces, these entities have magical abilities that rival those of lesser gods, and can alter reality with the wishes they grant.",
+				"Select the kind of your Noble Genie from the table below. Each genie is associated with an Element and Damage Type:",
+				{
+					"type": "table",
+					"caption": "Genie Kind",
+					"colLabels": [
+						"Noble Genie",
+						"Element",
+						"Damage"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-5",
+						"col-5"
+					],
+					"rows": [
+						[
+							"Dao",
+							"Earth",
+							"Bludgeoning"
+						],
+						[
+							"Djinn",
+							"Air",
+							"Thunder"
+						],
+						[
+							"Efreeti",
+							"Fire",
+							"Fire"
+						],
+						[
+							"Marid",
+							"Water",
+							"Cold"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic Vessel",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Noble Genie feature}",
+				"Your Patron has gifted you a magic Vessel as a sign of your Pact. It appears as a Tiny container of your choice, with hit points equal to twice your Warlock level and an Armor Class equal to your Spell save DC. If lost or destroyed, it reappears next to you at the end of your next long rest. Your Vessel can serve as a Trinket for an Eldritch Invocation.",
+				"Inside the Vessel is a 20-foot cube extradimensional space. As an action, you can hold a Medium or smaller object to its opening and store it inside. As an action, you can touch your Vessel and enter this space. You can remain within a number of hours equal to half your Warlock level. You exit early with an action or if your Vessel is destroyed. Anytime you exit, you can bring objects out, and you appear in your Vessel's space.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Noble Magic|Alternate Warlock|LLAC|Noble Genie|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Noble Genie|Alternate Warlock|LLAC|Noble Genie|LLAC|2|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Ethereal Nature",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Noble Genie feature}",
+				"Your elemental magics have begun to physically change you. You gain resistance to the damage type of your Noble Genie.",
+				"Also, once per turn when you deal the damage type of your Noble Genie to a creature with Eldritch Blast, you can force it to make a Charisma saving throw against your Spell save DC. On a failed save, you instantly switch places with the target."
+			]
+		},
+		{
+			"name": "Mystical Sanctuary",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Noble Genie feature}",
+				"When you enter your Vessel, you can choose up to five willing creatures within 30 feet to enter with you. The creatures can remain inside for up to 1 hour, but they exit early if you leave, the Vessel is destroyed, or you use an action to eject them.",
+				"While within your Vessel, creatures can complete a short rest in 10 minutes, following normal short rest limitations."
+			]
+		},
+		{
+			"name": "Limited Wish",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Noble Genie feature}",
+				" You can invoke your Patron to alter reality. As an action, you can hold aloft your Vessel to cast one spell of your choice of 6th-level or lower from any spell list. It must have a casting time of an action or bonus action, and your Vessel replaces material components, including those with a gold cost.",
+				"Once you use this feature, you must finish three long rests before you can use it again."
+			]
+		},
+		{
+			"name": "The Undying",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"You have entered into a Pact with a formerly mortal creature who has found a way to cheat death. Only the most powerful undead can become Undying Patrons: powerful liches, dread vampire lords, death knights, and sinister spirits of undeath."
+			]
+		},
+		{
+			"name": "Touch of the Grave",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Undying feature}",
+				" The magic of your Pact has begun to infect your mortal form. You no longer need to eat, drink, or breathe. Also, Undead of a CR equal to your Warlock level or lower are not Hostile to you until you say or do something Hostile to them."
+			]
+		},
+		{
+			"name": "Undying Magic",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Undying feature}",
+				"Your Patron infuses your magic with the unnatural power of undeath. Whenever you would fire a beam of Eldritch Blast, you can instead force a creature within that range to make a Charisma saving throw. On a failed save, the creature takes necrotic damage equal to 1d8 + your Pact modifier.",
+				"You also learn certain spells at the Warlock levels below. They are Warlock spells for you, but they don't count against your number of Spells Known, and they cannot be replaced:",
+				{
+					"type": "table",
+					"caption": "Undying Spells",
+					"colLabels": [
+						"Alternate Warlock Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell cause fear|XGE}, {@spell ray of sickness}"
+						],
+						[
+							"3th",
+							"{@spell blindness/deafness}, {@spell ray of enfeeblement}"
+						],
+						[
+							"5th",
+							"{@spell phantom steed}, {@spell fear}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell death ward}"
+						],
+						[
+							"9th",
+							"{@spell contagion}, {@spell antilife shell}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Necrotic Husk",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				" As a bonus action, you can infuse yourself with the magic of undeath, decaying into a Necrotic Husk for 1 minute. While transformed you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You resemble your Patron and are horrifying to look at.",
+						"When you transform you gain temporary hit points equal to your Warlock level + your Pact modifier (minimum of 1).",
+						"You are immune to the frightened condition.",
+						"Once per turn when you hit a creature with an attack, you can force it to make a Wisdom saving throw against your Warlock Spell save DC. On a failed save, the creature is frightened of you until the start of your next turn."
+					]
+				},
+				"This transformation lasts for 1 minute, but you can end it early as a bonus action. Once you transform, you must finish a short or long rest before you can do so again. If you have no use left, you can expend a Pact Magic spell slot to transform.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Undying|Alternate Warlock|LLAC|Undying|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Touch of the Grave|Alternate Warlock|LLAC|Undying|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Undying Magic|Alternate Warlock|LLAC|Undying|LLAC|2|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Unsettling Visage",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Undying feature}",
+				" While you are in Necrotic Husk form, creatures that can see you within 30 feet have disadvantage on any saving throw you force them to make to resist the Frightened condition."
+			]
+		},
+		{
+			"name": "Lifedrinker",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Undying feature}",
+				"Your Pact allows you to feed on the vitality of the living. Once per turn, when you deal necrotic damage to a creature that is not a Construct or Undead, you can gain temporary hit points equal to half the damage dealt (up to your Warlock level).",
+				"In Necrotic Husk form, you can add these to the temporary hit points from Necrotic Husk, but your temporary hit points cannot exceed your Warlock level + your Pact modifier.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unsettling Visage|Alternate Warlock|LLAC|Undying|LLAC|6|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Unnatural Resilience",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Undying feature}",
+				"Your mortal form has been fortified by the unnatural magic of your sinister Patron. You gain Resistance to necrotic damage.",
+				"In Necrotic Husk, this becomes Immunity to necrotic, and Resistance to all bludgeoning, piercing, and slashing damage from non-magical and non-silvered weapons."
+			]
+		},
+		{
+			"name": "Unending Life",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Undying",
+			"subclassSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Undying feature}",
+				"If you are reduced to 0 hit points but not killed outright, you instead gain hit points equal to your level. Once you use this feature you must finish a long rest before you use it again.",
+				"Lastly, if you begin your turn with less than half of your total hit points, but at least 1 hit point, you regain hit points equal to your Pact modifier (minimum of 1 hit point)."
+			]
+		},
+		{
+			"name": "The Wyrm",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"Inherently magical beings with incredibly long lifespans, great dragons hoard not only wealth, but servants and slaves as well. Benevolent and malicious, kind and terrible, good and evil, ancient dragons of all types have motivations that are beyond the comprehension of most mortal creatures."
+			]
+		},
+		{
+			"name": "Wyrm Magic",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level Wyrm feature}",
+				"Your magic has been infused with draconic power. You can choose for your Eldritch Blast to deal Draconic Spark damage equal to 1d10 + your Pact modifier.",
+				"You also learn certain spells at the Warlock levels below. They are Warlock spells for you, but they don't count against your number of Spells Known, and they cannot be replaced.",
+				{
+					"type": "table",
+					"caption": "Wyrm Spells",
+					"colLabels": [
+						"Alternate Warlock Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell command}, {@spell burning hands}"
+						],
+						[
+							"3rd",
+							"{@spell scorching ray}, {@spell dragon's breath|XGE}"
+						],
+						[
+							"5th",
+							"{@spell fear}, {@spell fireball}"
+						],
+						[
+							"7th",
+							"{@spell dominate beast}, {@spell wall of fire}"
+						],
+						[
+							"9th",
+							"{@spell dominate person}, {@spell cone of cold}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Draconic Spark",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "LLAC",
+			"level": 2,
+			"entries": [
+				"Your Patron has bestowed upon you a portion of its elemental power, a Draconic Spark. Choose acid, cold, fire, lightning, or poison for your Draconic Spark. Dragons often bestow Sparks that match the power of their breath weapon. Once chosen, your Draconic Spark cannot be changed, and it grants you the benefits below:",
+				{
+					"type": "list",
+					"items": [
+						"You gain Resistance to the damage type of your Draconic Spark.",
+						"Whenever you cast a Warlock spell that deals damage, you can alter the spell, changing its damage type to match that of your Draconic Spark.",
+						"You learn to speak, read, and write Draconic.",
+						"You gain proficiency in either Deception, Intimidation, or Persuasion. When you make an ability check with any of these skills, you use your Pact ability for the ability check."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Wyrm|Alternate Warlock|LLAC|Wyrm|LLAC|2|LLAC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wyrm Magic|Alternate Warlock|LLAC|Wyrm|LLAC|2|LLAC"
+				}
+			]
+		},
+		{
+			"name": "Draconic Blast",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "LLAC",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Wyrm feature}",
+				"Your Pact has reshaped your physiology to resemble that of a dragon. When you use Eldritch Blast or cast a Warlock spell that deals Draconic Spark damage, you can produce its effect from your mouth without the use of a Trinket or Focus.",
+				"When you do so, you ignore Resistance to Draconic Spark damage, treat any Immunities to Draconic Spark damage as Resistance, and treat a roll of 1 or 2 on damage dice as a 3."
+			]
+		},
+		{
+			"name": "Regal Presence",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "LLAC",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Wyrm feature}",
+				"You have developed willpower to rival your ancient Patron. You are immune to the charmed and frightened conditions.",
+				"You also learn the Beguiling Influence Invocation. It does not count against your number of Invocations Known, and it cannot be replaced. If you already know this Invocation, you gain another Eldritch Invocation of your choice."
+			]
+		},
+		{
+			"name": "Dragon Wings",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Wyrm feature}",
+				"As a bonus action on your turn, you can manifest (or retract) a pair of leathery Draconic Wings, which sprout from your back. While these wings are manifested, you have a flying speed equal to your walking speed.",
+				"When you manifest these wings, they destroy any armor or clothing that isn't designed to accommodate your wings."
+			]
+		},
+		{
+			"name": "Ancient Blast",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "LLAC",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Wyrm feature}",
+				"The full power of your Patron's Draconic Spark is realized. When you use Draconic Blast, you can choose for it to be a 25-foot cone or a 50-foot line.",
+				"Finally, whenever you use Draconic Blast, you can expend one of your Pact Magic spell slots to empower that blast. On a failed save, targets take additional Draconic Spark damage equal to 1d10 per level of your Pact Magic spell slot, and they take half as much damage on a successful saving throw.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dragon Wings|Alternate Warlock|LLAC|Wyrm|LLAC|14|LLAC"
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "The Archfey",
+			"shortName": "Archfey",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Faerie Fire",
+							"Sleep"
+						],
+						"3": [
+							"Misty Step",
+							"Phantasmal Force"
+						],
+						"5": [
+							"Fear",
+							"Hypnotic Pattern (Alternate)|llspell"
+						],
+						"7": [
+							"Hallucinatory Terrain",
+							"Greater Invisibility"
+						],
+						"9": [
+							"Mislead",
+							"Seeming"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Faerie Fire",
+				"Sleep",
+				"Misty Step",
+				"Phantasmal Force",
+				"Fear",
+				"Hypnotic Pattern (Alternate)|llspell",
+				"Hallucinatory Terrain",
+				"Greater Invisibility",
+				"Mislead",
+				"Seeming"
+			],
+			"subclassFeatures": [
+				"Fey Magic|Alternate Warlock|LLAC|Archfey|LLAC|2|LLAC",
+				"Beguiling Blast|Alternate Warlock|LLAC|Archfey|LLAC|6|LLAC",
+				"Whimsical Defense|Alternate Warlock|LLAC|Archfey|LLAC|10|LLAC",
+				"Terrible Delights|Alternate Warlock|LLAC|Archfey|LLAC|14|LLAC"
+			]
+		},
+		{
+			"name": "The Darklord",
+			"shortName": "Darklord",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Hex",
+							"Inflict Wounds"
+						],
+						"3": [
+							"Blur",
+							"blindness/deafness"
+						],
+						"5": [
+							"Fear",
+							"Enemies Abound|xge"
+						],
+						"7": [
+							"Accursed touch|llspell",
+							"Phantasmal Killer"
+						],
+						"9": [
+							"Dream",
+							"enervation|llspell"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Hex",
+				"Inflict Wounds",
+				"Blur",
+				"blindness/deafness",
+				"Fear",
+				"Enemies Abound|xge",
+				"Accursed touch|llspell",
+				"Phantasmal Killer",
+				"Dream",
+				"enervation|llspell"
+			],
+			"subclassFeatures": [
+				"Darklord Magic|Alternate Warlock|LLAC|Darklord|LLAC|2|LLAC",
+				"Cursed Specter|Alternate Warlock|LLAC|Darklord|LLAC|6|LLAC",
+				"Dread Mantle|Alternate Warlock|LLAC|Darklord|LLAC|10|LLAC",
+				"Right Hand of Dread|Alternate Warlock|LLAC|Darklord|LLAC|14|LLAC"
+			]
+		},
+		{
+			"name": "The Deep One",
+			"shortName": "Deep One",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Create Water (Alternate)|llspell",
+							"Torrent|llspell"
+						],
+						"3": [
+							"Aura of Frost|llspell",
+							"Shatter"
+						],
+						"5": [
+							"Tidal Wave|xge",
+							"Sleet Storm"
+						],
+						"7": [
+							"Control Water",
+							"Eldritch Tentacles|llspell"
+						],
+						"9": [
+							"Cone of Cold",
+							"Maelstrom|XGE"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Create Water (Alternate)|llspell",
+				"Torrent|llspell",
+				"Gust of Wind",
+				"Aura of Frost|llspell",
+				"Tidal Wave|xge",
+				"Sleet Storm",
+				"Control Water",
+				"Eldritch Tentacles|llspell",
+				"Cone of Cold",
+				"Maelstrom|XGE"
+			],
+			"subclassFeatures": [
+				"Deep Magic|Alternate Warlock|LLAC|Deep One|LLAC|2|LLAC",
+				"Oceanic Grasp|Alternate Warlock|LLAC|Deep One|LLAC|6|LLAC",
+				"Great Tendrils|Alternate Warlock|LLAC|Deep One|LLAC|10|LLAC",
+				"Unleash the Depths|Alternate Warlock|LLAC|Deep One|LLAC|14|LLAC"
+			]
+		},
+		{
+			"name": "The Exalted",
+			"shortName": "Exalted",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Cure Wounds",
+							"Guiding Bolt"
+						],
+						"3": [
+							"Flaming Sphere",
+							"Restoration|llspell"
+						],
+						"5": [
+							"Daylight",
+							"Revivify"
+						],
+						"7": [
+							"Guardian of Faith",
+							"Wall of Fire"
+						],
+						"9": [
+							"Flame Strike",
+							"summon celestial|tce"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Cure Wounds",
+				"Guiding Bolt",
+				"Flaming Sphere",
+				"Restoration|llspell",
+				"Daylight",
+				"Revivify",
+				"Guardian of Faith",
+				"Wall of Fire",
+				"Flame Strike",
+				"summon celestial|tce"
+			],
+			"subclassFeatures": [
+				"Celestial Light|Alternate Warlock|LLAC|Exalted|LLAC|2|LLAC",
+				"Radiant Conduit|Alternate Warlock|LLAC|Exalted|LLAC|6|LLAC",
+				"Celestial Fortitude|Alternate Warlock|LLAC|Exalted|LLAC|10|LLAC",
+				"Blinding Defiance|Alternate Warlock|LLAC|Exalted|LLAC|14|LLAC"
+			]
+		},
+		{
+			"name": "The Fiend",
+			"shortName": "Fiend",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Command",
+							"Hellish Rebuke"
+						],
+						"3": [
+							"Blindness/Deafness",
+							"Flame Whip|llspell"
+						],
+						"5": [
+							"Bestow Curse",
+							"Fireball"
+						],
+						"7": [
+							"Blight",
+							"Wall of Firey"
+						],
+						"9": [
+							"Cloudkill",
+							"Immolation|XGE"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Command",
+				"Hellish Rebuke",
+				"Blindness/Deafness",
+				"Flame Whip|llspell",
+				"Bestow Curse",
+				"Fireball",
+				"Blight",
+				"Wall of Fire",
+				"Cloudkill",
+				"Immolation|XGE"
+			],
+			"subclassFeatures": [
+				"Dark Vitality|Alternate Warlock|LLAC|Fiend|LLAC|2|LLAC",
+				"Accursed Flames|Alternate Warlock|LLAC|Fiend|LLAC|6|LLAC",
+				"Fiendish Resilience|Alternate Warlock|LLAC|Fiend|LLAC|10|LLAC",
+				"Hurl Into Hell|Alternate Warlock|LLAC|Fiend|LLAC|14|LLAC"
+			]
+		},
+		{
+			"name": "The Great Old One",
+			"shortName": "Great Old One",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Arms of Hadar",
+							"Dissonant Whispers"
+						],
+						"3": [
+							"Detect Thoughts",
+							"Tasha's Mind Whip|TCE"
+						],
+						"5": [
+							"Clairvoyance",
+							"Hunger of Hadar (Alternate)|llspell"
+						],
+						"7": [
+							"Confusion",
+							"Eldritch Tentacles|llspell"
+						],
+						"9": [
+							"Modify Memory",
+							"Telekinesis"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Arms of Hadar",
+				"Dissonant Whispers",
+				"Detect Thoughts",
+				"Tasha's Mind Whip|TCE",
+				"Clairvoyance",
+				"Hunger of Hadar (Alternate)|llspell",
+				"Confusion",
+				"Eldritch tentacles|llspell",
+				"Modify Memory",
+				"Telekinesis"
+			],
+			"subclassFeatures": [
+				"Aberrant Magic|Alternate Warlock|LLAC|Great Old One|LLAC|2|LLAC",
+				"Mental Lance|Alternate Warlock|LLAC|Great Old One|LLAC|6|LLAC",
+				"Thought Shield|Alternate Warlock|LLAC|Great Old One|LLAC|10|LLAC",
+				"Create Thrall|Alternate Warlock|LLAC|Great Old One|LLAC|14|LLAC"
+			]
+		},
+		{
+			"name": "The Noble Genie",
+			"shortName": "Noble Genie",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"page": 6,
+			"subclassFeatures": [
+				"Magic Vessel|Alternate Warlock|LLAC|Noble Genie|LLAC|2|LLAC",
+				"Ethereal Nature|Alternate Warlock|LLAC|Noble Genie|LLAC|6|LLAC",
+				"Mystical Sanctuary|Alternate Warlock|LLAC|Noble Genie|LLAC|10|LLAC",
+				"Limited Wish|Alternate Warlock|LLAC|Noble Genie|LLAC|14|LLAC"
+			]
+		},
+		{
+			"name": "The Undying",
+			"shortName": "Undying",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Cause Fear|XGE",
+							"Ray of Sickness"
+						],
+						"3": [
+							"Blindness/Deafness",
+							"Ray of Enfeeblement"
+						],
+						"5": [
+							"Phantom Steed",
+							"Fear"
+						],
+						"7": [
+							"Blight",
+							"Death Ward"
+						],
+						"9": [
+							"Contagion",
+							"Antilife Shell"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Cause Fear|XGE",
+				"Ray of Sickness",
+				"Blindness/Deafness",
+				"Ray of Enfeeblement",
+				"Phantom Steed",
+				"Fear",
+				"Blight",
+				"Death Ward",
+				"Contagion",
+				"Antilife Shell"
+			],
+			"subclassFeatures": [
+				"Necrotic Husk|Alternate Warlock|LLAC|Undying|LLAC|2|LLAC",
+				"Lifedrinker|Alternate Warlock|LLAC|Undying|LLAC|6|LLAC",
+				"Unnatural Resilience|Alternate Warlock|LLAC|Undying|LLAC|10|LLAC",
+				"Unending Life|Alternate Warlock|LLAC|Undying|LLAC|14|LLAC"
+			]
+		},
+		{
+			"name": "The Wyrm",
+			"shortName": "Wyrm",
+			"source": "LLAC",
+			"className": "Alternate Warlock",
+			"classSource": "LLAC",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"Command",
+							"Burning Hands"
+						],
+						"3": [
+							"Dragon's Breath|XGE",
+							"Scorching Ray"
+						],
+						"5": [
+							"Fear",
+							"Fireball"
+						],
+						"7": [
+							"Dominate Beast",
+							"Wall of Fire"
+						],
+						"9": [
+							"Dominate Person",
+							"Cone of Cold"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Command",
+				"Burning Hands",
+				"Dragon's Breath|XGE",
+				"Scorching Ray",
+				"Fear",
+				"Fireball",
+				"Dominate Beast",
+				"Wall of Fire",
+				"Dominate Person",
+				"Cone of Cold"
+			],
+			"subclassFeatures": [
+				"Draconic Spark|Alternate Warlock|LLAC|Wyrm|LLAC|2|LLAC",
+				"Draconic Blast|Alternate Warlock|LLAC|Wyrm|LLAC|6|LLAC",
+				"Regal Presence|Alternate Warlock|LLAC|Wyrm|LLAC|10|LLAC",
+				"Ancient Blast|Alternate Warlock|LLAC|Wyrm|LLAC|14|LLAC"
+			]
+		}
+	]
+}

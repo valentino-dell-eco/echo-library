@@ -1,0 +1,1693 @@
+{
+	"monster": [
+		{
+			"name": "Autocycle",
+			"source": "LLAC",
+			"summonedByClass": "Alternate Artificer (Mechanic)|LLAART:E",
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "10 + INT + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your artificer level"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 18,
+			"con": 12,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			],
+			"trait": [
+				{
+					"name": "Vehicle",
+					"entries": [
+						"The Autocycle is a vehicle with the Max Creature Capacity of 1 Medium creature and Max Cargo Capacity of 50lb."
+					]
+				},
+				{
+					"name": "Empowered Speed",
+					"entries": [
+						"The Autocycle gains additional speed equal to 5 times your INT (minimum of 5 feet)."
+					]
+				},
+				{
+					"name": "Expert Handling",
+					"entries": [
+						"If you are mounted on the Autocycle, and not incapacitated, you add your PB to any ability check or saving throw the Autocycle is forced to make."
+					]
+				},
+				{
+					"name": "Inanimate",
+					"entries": [
+						"The Autocycle is incapacitated without a rider. If it is forced to make an Intelligence, Wisdom, or Charisma ability check or saving throw, its rider is considered to be the target of the effect instead."
+					]
+				},
+				{
+					"name": "Jump",
+					"entries": [
+						"If the Autocycle moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap."
+					]
+				},
+				{
+					"name": "Mechanical Momentum",
+					"entries": [
+						"If the Autocycle moves at least 20 ft. straight toward a creature and hits it with a Ram attack on the same turn, that target must succeed on a Strength saving throw or be knocked prone."
+					]
+				},
+				{
+					"name": "Prone Deficiency",
+					"entries": [
+						"If the Autocycle falls prone, it can't right itself and is incapacitated until a creature uses an action on its turn to stand the Autocycle upright."
+					]
+				},
+				{
+					"name": "Swerve",
+					"entries": [
+						"When the Autocycle is upright and is forced to make a Dexterity saving throw, its rider can use their reaction to grant it advantage on its saving throw."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Ram",
+					"entries": [
+						"{@atk mw} +4 + PB to hit, reach ft., one target you can see. {@h}{@damage 1d10 + 4 + PB} bludgeoning damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Automaton",
+			"source": "LLAC",
+			"summonedByClass": "Alternate Artificer (Machinist)|LLAART:E",
+			"size": [
+				"T"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "13 + INT"
+				}
+			],
+			"hp": {
+				"special": "5 + your artificer level"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 14,
+			"int": 4,
+			"wis": 2,
+			"cha": 2,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhausted",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Model",
+					"entries": [
+						"The Automaton gains the benefits of one Model detailed at the end of this Specailization."
+					]
+				},
+				{
+					"name": "Replaceable parts",
+					"entries": [
+						"When the mending spell is cast on the Automaton, it regains 2d6 hit point"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} + INT + PB to hit, reach ft., one target you can see. {@h}{@damage 1d6+3} bludgeoning damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Homunculus Servant",
+			"source": "LLAC",
+			"size": [
+				"T"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "11 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "1 + two times your artificer level"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 30
+			},
+			"str": 4,
+			"dex": 15,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": "10 + PB",
+			"languages": [
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Arcane Conduit",
+					"entries": [
+						"When your Homunculus is within 120 feet of you, you can cast an Artificer spell with a range of touch through your Homunculus' touch."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the Homunculus makes a Dexterity saving throw to take only half damage, it instead takes no damage on a success, and half damage on a failure."
+					]
+				},
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Homunculus has a total number of d4 Hit Dice equal to your Artificer level. It gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Might of the Master",
+					"entries": [
+						"You add your PB to any ability check or saving throw your Homunculus makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Acidic Spittle",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack} to hit, range 30 ft., one target you can see. {@h}{@damage 2d4 + PB} acid damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rig",
+			"source": "LLAC",
+			"summonedByClass": "Alternate Artificer (Battle Smith)|LLAART:E",
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "10 + INT + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your artificer level (the Steel Defender has a number of Hit Dice [d10s] equal to your artificer level)"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 18,
+			"dex": 8,
+			"con": 16,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhausted",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Inanimate",
+					"entries": [
+						"The Rig is incapacitated without its Pilot. When it is forced to make an Intelligence, Wisdom, or Charisma ability check or saving throw, its Pilot is considered to be the target of the effect instead.",
+						"Moreover, if the Pilot is concentrating on a spell when the Rig takes damage, the Pilot must make its Constitution saving throw to maintain concentration as if the Pilot had taken that damage."
+					]
+				},
+				{
+					"name": "Ironsides",
+					"entries": [
+						"When the Rig takes damage, it reduces the damage by its Constitution modifier (3). Acid and force damage bypass the effects of this feature."
+					]
+				},
+				{
+					"name": "Siege Engine",
+					"entries": [
+						"The Rig's weapon attacks and spells deal maximum possible damage, in place of rolling, when used on non-magical objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} +4 + PB to hit, reach ft., one target you can see. {@h}{@damage 2d6+4} bludgeoning damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Steel Defender (Humanoid)",
+			"source": "LLAC",
+			"summonedByClass": "Alternate Artificer (Battle Smith)|LLAART",
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "13 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your artificer level"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 14,
+			"int": 4,
+			"wis": 10,
+			"cha": 6,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": "10 + PB",
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhausted",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Might of the Master",
+					"entries": [
+						"You can add your PB to any ability check or saving throw that your Steel Defender makes."
+					]
+				},
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"Your Steel Defender resembles a Large beast of your choice. Its speed increases by 10 feet (accounted for in the statblock), and it can be ridden as a mount by you as if it was a trained mount."
+					]
+				},
+				{
+					"name": "Humanoid",
+					"entries": [
+						"Your Steel Defender is the size of a Medium humanoid creature. It is proficient with shields, and it has humanoid hands that it can use to perform basic tasks."
+					]
+				},
+				{
+					"name": "Vigilant",
+					"entries": [
+						"The Steel Defender cannot be surprised."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atk mw} +3 + PB to hit, reach ft., one target you can see. {@h}{@damage 1d8 + 3 + PB} force damage."
+					]
+				},
+				{
+					"name": "Repair",
+					"entries": [
+						"The Steel Defender can expend one of its Hit Dice to restore {@damage 1d10 + PB} hit points to itself or to one construct or object within 5 feet of it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Steel Defender (Quadruped)",
+			"source": "LLAC",
+			"summonedByClass": "Alternate Artificer (Battle Smith)|LLAART",
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "13 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your artificer level"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 14,
+			"int": 4,
+			"wis": 10,
+			"cha": 6,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": "10 + PB",
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhausted",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Might of the Master",
+					"entries": [
+						"You can add your PB to any ability check or saving throw that your Steel Defender makes."
+					]
+				},
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"Your Steel Defender resembles a Large beast of your choice. Its speed increases by 10 feet (accounted for in the statblock), and it can be ridden as a mount by you as if it was a trained mount."
+					]
+				},
+				{
+					"name": "Quadruped",
+					"entries": [
+						"Your Steel Defender resembles a Large beast of your choice. Its speed increases by 10 feet (accounted for in the statblock), and it can be ridden as a mount by you as if it was a trained mount."
+					]
+				},
+				{
+					"name": "Vigilant",
+					"entries": [
+						"The Steel Defender cannot be surprised."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atk mw} +3 + PB to hit, reach ft., one target you can see. {@h}{@damage 1d8 + 3 + PB} force damage."
+					]
+				},
+				{
+					"name": "Repair",
+					"entries": [
+						"The Steel Defender can expend one of its Hit Dice to restore {@damage 1d10 + PB} hit points to itself or to one construct or object within 5 feet of it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Titanic Rig",
+			"source": "LLAC",
+			"summonedByClass": "Alternate Artificer (Battle Smith)|LLAART:E",
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "10 + INT + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your artificer level"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 22,
+			"dex": 6,
+			"con": 19,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhausted",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Inanimate",
+					"entries": [
+						"The Titanic Rig is incapacitated without its Pilot. If it is forced to make an Intelligence, Wisdom, or Charisma ability check or saving throw, its Pilot is considered to be the target of the effect instead.",
+						"Moreover, when the Pilot is concentrating on a spell when the Titanic Rig takes damage, the Pilot must make its Constitution saving throw to maintain concentration as if the Pilot had taken that damage."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The Titanic Rig can choose to ignore any spell or effect that would alter or change its form."
+					]
+				},
+				{
+					"name": "Ironsides",
+					"entries": [
+						"When the Titanic Rig takes damage, it reduces the damage by its Constitution modifier (4). Acid and force damage bypass the effects of this feature."
+					]
+				},
+				{
+					"name": "Siege Engine",
+					"entries": [
+						"The Titanic Rig's weapon attacks and spells deal the maximum possible damage, in place of rolling, when used on non-magical objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} +6 + PB to hit, reach ft., one target you can see. {@h}{@damage 3d6+6} bludgeoning damage."
+					]
+				},
+				{
+					"name": "Titanic Transformation",
+					"entries": [
+						"The Titanic Rig becomes Huge in size, so long as there is room for it to grow. While it is Huge, its Slam attacks deal an additional 1d6 damage on hit, its reach increases by 5 ft., and it adds your INT to all Strength ability checks and saving throws.",
+						"This transformation lasts for 1 minute. It ends early if the Titanic Rig is destroyed, or its Pilot uses their action to cause the Rig to revert to its normal form.",
+						"The Titanic Rig can transform in this way once, and it regains the ability to do so at the following dawn. When it has no uses left, its Pilot can expend a 5th-level spell slot to use this transformation again."
+					]
+				}
+			]
+		},
+		{
+			"name": "Primeval Companion",
+			"source": "LLAC",
+			"page": 3,
+			"summonedByClass": "Alternate Barbarian|LLAB",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"special": "13 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your Barbarian level"
+			},
+			"speed": {
+				"walk": 60,
+				"swim": 40
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 20,
+			"int": 8,
+			"wis": 18,
+			"cha": 10,
+			"languages": [
+				"understand the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Companion has a total number of d8 Hit Dice equal to your Barbarian level. It also gains all of the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"Once per long rest, when your Companion is reduced to 0 hit points, it can choose to instantly gain hit points equal to your Barbarian level instead of falling to 0."
+					]
+				},
+				{
+					"name": "Primal Bond",
+					"entries": [
+						"When your Proficiency Bonus increases at 17th level, this Companion's bonus to its proficient skills and saving throws also increases by the same amount."
+					]
+				},
+				{
+					"name": "Savage Charge",
+					"entries": [
+						"If your Companion moves at least 20 ft. in a straight line then hits a target with its Maul attack it deals bonus damage equal to your Exploit Die on hit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} +4 + PB to hit, reach 5 ft., one target. {@h}{@damage 2d8 + 4 + PB}, and a target equal to the Companion's size (or smaller) is knocked Prone."
+					]
+				}
+			],
+			"miscTags": [
+				"MLW"
+			]
+		},
+		{
+			"name": "Savage Companion",
+			"source": "LLAC",
+			"page": 3,
+			"summonedByClass": "Alternate Barbarian|LLAB",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"special": "13 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your Barbarian level"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 20
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 14,
+			"cha": 8,
+			"passive": 12,
+			"languages": [
+				"understand the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Companion has a total number of d8 Hit Dice equal to your Barbarian level. It also gains all of the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Primal Bond",
+					"entries": [
+						"When your Proficiency Bonus increases, your Companion's bonus to its proficient skills and saving throws also increases by the same amount."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} +2+PB to hit, reach 5 ft., one target. {@h}{@damage 1d8 + 2 + PB}, and a target equal to the Companion's size (or smaller) is knocked Prone."
+					]
+				}
+			],
+			"miscTags": [
+				"MLW"
+			]
+		},
+		{
+			"name": "Living Object",
+			"source": "LLAC",
+			"page": 3,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"G"
+			],
+			"ac": [
+				{
+					"special": "10 + CHA + PB"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your Bard level"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 16,
+			"int": 2,
+			"wis": 4,
+			"cha": 8,
+			"passive": 12,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhausted",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator"
+			],
+			"trait": [
+				{
+					"name": "Creator's Bond",
+					"entries": [
+						"You add your PB to any ability check or saving throw that the Living Object makes."
+					]
+				},
+				{
+					"name": "Enchanting Touch",
+					"entries": [
+						"Once per turn when the Living Object hits a creature with its Slam, the target must succeed on a Wisdom saving throw or its speed is halved until the start of your next turn as it dances."
+					]
+				},
+				{
+					"name": "Lively Dance",
+					"entries": [
+						"If the Living Object makes a Dexterity ability check or saving throw, it gains a bonus to its roll equal to one roll of your Bardic Inspiration Die."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} + CHA + PB to hit, reach 5 ft., one target. On hit: magical bludgeoning damage equal to a roll of your Bardic Inspiration Die + CHA."
+					]
+				}
+			]
+		},
+		{
+			"name": "Loyal Hound",
+			"source": "LLAC",
+			"page": 11,
+			"summonedByClass": "Alternate Fighter|LLAF",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"special": "13 +PB (Natural Armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your Fighter level"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 20
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"passive": 12,
+			"skill": {
+				"perception": "+2"
+			},
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"Your Loyal Hound has a total number of {@dice d8} Hit Dice equal to your Fighter level. It also gains the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Keen Hearing & Smell",
+					"entries": [
+						"The Hound has advantage on all ability checks that incorporate its hearing or smell."
+					]
+				},
+				{
+					"name": "Loyal",
+					"entries": [
+						"While you are within 30 feet of the Hound, it adds your PB to any ability check or saving throw it is forced to make, and it is immune to the {@condition Frightened} condition."
+					]
+				},
+				{
+					"name": "Strong Jaws",
+					"entries": [
+						"If the Hound hits a creature equal to its size or smaller with a Bite, it can automatically {@action Grapple} the target in its jaws. While Grappling a creature, it cannot Bite targets other then that creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} +2 +PB to hit, reach 5 ft., one target. {@h}(Exploit Die +2 +PB) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"P"
+			]
+		},
+		{
+			"name": "Hound of Legend",
+			"source": "LLAC",
+			"page": 12,
+			"summonedByClass": "Alternate Fighter|LLAF",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"Natural Armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "5 + five times your Fighter level"
+			},
+			"speed": {
+				"walk": 60,
+				"swim": 40
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 18,
+			"int": 10,
+			"wis": 18,
+			"cha": 14,
+			"skill": {
+				"intimidation": "+8",
+				"perception": "+10",
+				"survival": "+10"
+			},
+			"conditionImmune": [
+				"frightened"
+			],
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"Your Loyal Hound has a total number of {@dice d8} Hit Dice equal to your Fighter level. It also gains the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Keen Hearing & Smell",
+					"entries": [
+						"The Hound has advantage on all ability checks that incorporate its hearing or smell."
+					]
+				},
+				{
+					"name": "Loyal",
+					"entries": [
+						"While you are within 30 feet of the Hound, it adds your PB to any ability check or saving throw it is forced to make, and it is immune to the {@condition Frightened} condition."
+					]
+				},
+				{
+					"name": "Strong Jaws",
+					"entries": [
+						"If the Hound hits a creature equal to its size or smaller with a Bite, it can automatically {@action Grapple} the target in its jaws. While Grappling a creature, it cannot Bite targets other then that creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} +11 to hit, reach 5 ft., one target. {@h}({@damage 2d6 +11}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"P"
+			]
+		},
+		{
+			"name": "Shade",
+			"source": "LLAC",
+			"page": 22,
+			"summonedByClass": "Alternate Fighter|LLAF",
+			"size": [
+				"V"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "14 + your Charisma modifier"
+				}
+			],
+			"hp": {
+				"special": "1"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"incapacitated",
+				"invisible",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"stunned",
+				"unconscious"
+			],
+			"trait": [
+				{
+					"name": "Dark Bond",
+					"entries": [
+						"When your Shade is forced to make a saving throw, it uses your saving throw bonus for its roll."
+					]
+				},
+				{
+					"name": "Incorporeal Echo",
+					"entries": [
+						"The Shade has no physical presence, but its space counts as {@quickref difficult terrain||3}. It cannot use or interact with objects or magic items."
+					]
+				},
+				{
+					"name": "Umbral Guardian",
+					"entries": [
+						"If a creature provokes an {@action opportunity attack} from the Shade, you can use your reaction to make an opportunity attack from the Shade's space."
+					]
+				}
+			]
+		},
+		{
+			"name": "Beast of the Cave",
+			"source": "LLAC",
+			"summonedByClass": "Alternate Ranger|LLAR",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "13 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your ranger level (The Beast has a total number of [d8] Hit Dice equal to your Ranger level)"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 10
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"senses": [
+				"darkvision 120 ft.",
+				"tremorsense 30 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the languages you speak"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Beast has a total number of {@dice d8} Hit Dice equal to your Ranger level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Tremorsense",
+					"entries": [
+						"The Beast knows the location of anything in contact with the ground within 30 ft."
+					]
+				},
+				{
+					"name": "Primal Bond",
+					"entries": [
+						"You can add your PB to any ability check or saving throw that the Beast makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 2 +PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6 +2 +PB} slashing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Beast of the Land",
+			"source": "LLAC",
+			"summonedByClass": "Alternate Ranger|LLAR",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "13 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your ranger level (The Beast has a total number of [d8] Hit Dice equal to your Ranger level)"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the languages you speak"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Beast has a total number of {@dice d8} Hit Dice equal to your Ranger level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the Beast moves at least 20 ft. in a line toward a target and hits it with a Maul attack, the target takes bonus slashing damage equal to a roll of your Quarry Die. If it is Large or smaller it must succeed on a Strength saving throw or fall {@condition prone}."
+					]
+				},
+				{
+					"name": "Primal Bond",
+					"entries": [
+						"You can add your PB to any ability check or saving throw that the Beast makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} {@hit 2 +PB} to hit, reach 5 ft., one target. {@h}{@damage 1d8 +2 +PB} slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Beast of the Sea",
+			"source": "LLAC",
+			"summonedByClass": "Alternate Ranger|LLAR",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "13 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your ranger level (The Beast has a total number of [d8] Hit Dice equal to your Ranger level)"
+			},
+			"speed": {
+				"walk": 10,
+				"swim": 60
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the languages you speak"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Beast has a total number of {@dice d8} Hit Dice equal to your Ranger level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The Beast can breathe in air and water."
+					]
+				},
+				{
+					"name": "Primal Bond",
+					"entries": [
+						"You can add your PB to any ability check or saving throw that the Beast makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 2 +PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6 +2 +PB} bludgeoning damage, and if the target is Large or smaller, it can choose to instantly {@action grapple} it (escape DC equal to your Spell save DC). While grappling a creature, it can only use its Pseudopod to attack that creature."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Tentacles"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			]
+		},
+		{
+			"name": "Beast of the Sky",
+			"source": "LLAC",
+			"summonedByClass": "Alternate Ranger|LLAR",
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "13 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "4 + five times your ranger level (The Beast has a total number of [d6] Hit Dice equal to your Ranger level)"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 13,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the languages you speak"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Beast has a total number of {@dice d6} Hit Dice equal to your Ranger level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The Beast doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Primal Bond",
+					"entries": [
+						"You can add your PB to any ability check or saving throw that the Beast makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shred",
+					"entries": [
+						"{@atk mw} {@hit 3 +PB} to hit, reach 5 ft., one target. {@h}{@damage 1d4 +3 +PB} slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Draconic Companion",
+			"source": "LLAC",
+			"summonedByClass": "Alternate Ranger|LLAR",
+			"size": [
+				"S"
+			],
+			"type": "dragon",
+			"alignment": [
+				"L",
+				"NY"
+			],
+			"ac": [
+				{
+					"special": "14 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your ranger level (Your Companion has a total number of [d8] Hit Dice equal to your Ranger level)"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 15,
+			"int": 8,
+			"wis": 10,
+			"cha": 14,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				{
+					"special": "Essence type"
+				}
+			],
+			"languages": [
+				"Draconic",
+				"understands any languages spoken by the Drake Guard bound to it."
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"Your Companion has a total number of {@dice d8} Hit Dice equal to your Ranger level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Soul Bond",
+					"entries": [
+						"You add your PB to any ability check or saving throw that the Draconic Companion makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3 +PB} to hit, reach 5 ft., one target. {@h}{@damage 1d4 +3 +PB} slashing damage + {@damage 1d4} Essence damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Aberrant Familiar",
+			"source": "LLAC",
+			"page": 8,
+			"summonedByClass": "Alternate Warlock|LLWrc",
+			"size": [
+				"T"
+			],
+			"type": "aberration",
+			"alignment": [
+				"E"
+			],
+			"ac": [
+				{
+					"special": "11 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + three times your Warlock level"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				}
+			},
+			"str": 3,
+			"dex": 16,
+			"con": 12,
+			"int": 13,
+			"wis": 10,
+			"cha": 8,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"psychic"
+			],
+			"languages": [
+				"Deep Speech, understands the languages spoken by its master."
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Familiar has a total number of d4 Hit Dice equal to your Warlock level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Eldritch Bond",
+					"entries": [
+						"When the Familiar is forced to make an ability check or saving throw, it adds your PB to its roll."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Familiar has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Aberrant Whispers",
+					"entries": [
+						"One creature the Familiar can see within 30 ft. must succeed on an Intelligence saving throw or take 1d4 +PB psychic damage and subtract 1d4 from the first d20 roll it makes before the start of the Familiar's next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Draconic Familiar",
+			"source": "LLAC",
+			"page": 8,
+			"summonedByClass": "Alternate Warlock|LLWrc",
+			"size": [
+				"T"
+			],
+			"type": "dragon",
+			"alignment": [
+				"E"
+			],
+			"ac": [
+				{
+					"special": "13 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + three times your Warlock level"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 60
+			},
+			"str": 3,
+			"dex": 16,
+			"con": 12,
+			"int": 10,
+			"wis": 8,
+			"cha": 13,
+			"senses": [
+				"blindsight 10ft, darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				{
+					"special": "Draconic Essence damage type"
+				}
+			],
+			"languages": [
+				"Draconic, understands the languages spoken by its master."
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Familiar has a total number of d4 Hit Dice equal to your Warlock level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Draconic Essence",
+					"entries": [
+						"When conjured, the Familiar's master chooses acid, cold, fire, poison, or lightning to be the Familiar's Draconic Essence type. This affects its Damage Resistances and Bite attack."
+					]
+				},
+				{
+					"name": "Eldritch Bond",
+					"entries": [
+						"When the Familiar is forced to make an ability check or saving throw, it adds your PB to its roll."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The Familiar has advantage on Wisdom (Perception) checks that rely on its sight or smell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Familiar has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} +Spell Attack modifier to hit, reach 5 ft., one target. {@h}{@damage 1d4 + 3 + PB} piercing damage, + {@damage 1d4} Draconic Essence damage. On hit, the target must succeed on a Strength saving throw (DC equals 10 + PB) or be {@condition grappled}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Faerie Familiar",
+			"source": "LLAC",
+			"page": 8,
+			"summonedByClass": "Alternate Warlock|LLWrc",
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"alignment": [
+				"C"
+			],
+			"ac": [
+				{
+					"special": "11 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + three times your Warlock level"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 60
+			},
+			"str": 3,
+			"dex": 16,
+			"con": 10,
+			"int": 8,
+			"wis": 13,
+			"cha": 12,
+			"passive": 13,
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Sylvan, understands the languages spoken by its master."
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Familiar has a total number of d4 Hit Dice equal to your Warlock level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Eldritch Bond",
+					"entries": [
+						"When the Familiar is forced to make an ability check or saving throw, it adds your PB to its roll."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Familiar has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} +Spell Attack modifier to hit, reach 5 ft., one target. {@h}{@damage 1d4 + 3 + PB} piercing damage. If the target is a creature, the Familiar learns its current emotional state and alignment (if any)."
+					]
+				},
+				{
+					"name": "Invisibility",
+					"entries": [
+						"The Familiar magically turns invisible until it attacks, forces a creature to make a saving throw, or until its concentration ends (as if it was concentrating on a spell). Any equipment the Familiar is wearing or carrying turns invisible with it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fiendish Familiar",
+			"source": "LLAC",
+			"page": 8,
+			"summonedByClass": "Alternate Warlock|LLWrc",
+			"size": [
+				"T"
+			],
+			"type": "fiend",
+			"alignment": [
+				"E"
+			],
+			"ac": [
+				{
+					"special": "11 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + three times your Warlock level"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"str": 3,
+			"dex": 16,
+			"con": 12,
+			"int": 10,
+			"wis": 8,
+			"cha": 13,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"cold",
+				"fire",
+				"poison"
+			],
+			"languages": [
+				"Infernal, understands the languages spoken by its master."
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"The Familiar has a total number of d4 Hit Dice equal to your Warlock level. It also gains all the normal benefits of both short and long rests."
+					]
+				},
+				{
+					"name": "Eldritch Bond",
+					"entries": [
+						"When the Familiar is forced to make an ability check or saving throw, it adds your PB to its roll."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Familiar has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Infernal Sight",
+					"entries": [
+						"The Familiar can see normally in magical and non-magical dim light and darkness."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} +Spell Attack modifier to hit, reach 5 ft., one target. {@h}{@damage 1d4 + 3 + PB} slashing damage. If the target is a creature, it must succeed on a Constitution saving throw or become poisoned until the beginning of the Familiar's next turn."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The Familiar can transform into a beast form that resembles a rat (speed 20 ft., climb 20 ft.), a lizard (20 ft., swim 20 ft.) a raven (20 ft., fly 60 ft.), or back to its true form. Its statistics are the same in each form, except for the speed changes. Its equipment is not transformed. It reverts to its true form if it dies."
+					]
+				}
+			]
+		}
+	]
+}

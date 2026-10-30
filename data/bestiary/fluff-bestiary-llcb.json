@@ -1,0 +1,570 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Black Bear",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Black%20Bear.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Camel",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Camel.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Cat",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Cat.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Cat%20(2).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Cave Bear",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Cave%20Bear.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Colossal Crab",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Colossal%20Crab.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Colossal Toad",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Colossal%20Toad.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Dire Wolf",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Dire%20Wolf.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Fox",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Fox.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Frog",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Frog.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Alligator Turtle",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Alligator%20Turtle.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Badger",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Badger.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Bat",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Bat.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Boar",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Boar.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Crocodile",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Crocodile.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Frog",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Frog.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Goat",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Goat.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Gorilla",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Gorilla.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Heron",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Heron.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Octopus",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Octopus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Soldier Ant",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Soldier%20Ant.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Spider",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Spider.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Squid",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Squid.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Wasp",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Wasp.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Wild Dog",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Giant%20Wild%20Dog.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Gorilla",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Gorilla.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Grizzly Bear",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Grizzly%20Bear.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Hawk",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Hawk.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Hippopotamus",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Hippopotamus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Hunter Shark",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Hunter%20Shark.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "King Cobra",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/King%20Cobra.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Monkey",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Monkey.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Octopus",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Octopus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Panther",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Panther.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Rhinoceros",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Rhinoceros.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Rodent",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Rodent.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Royal Eagle",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Royal%20Eagle.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Saber-Toothed Tiger",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Saber-Toothed%20Tiger.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sperm Whale",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Sperm%20Whale.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Stag",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Stag.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Tiger",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Tiger.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Titanoboa",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Titanoboa.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Viper",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Viper.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Vulture",
+			"source": "LLCB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Vulture.webp"
+					}
+				}
+			]
+		}
+	]
+}

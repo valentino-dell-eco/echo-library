@@ -1,0 +1,1000 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Belashyrra",
+			"source": "ERLW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Belashyrra.webp"
+					},
+					"width": 750,
+					"height": 1000,
+					"credit": "Cory Trego-Erdner"
+				}
+			]
+		},
+		{
+			"name": "Bone Knight",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Bone knights are the champions of the Order of the Emerald Claw. Clad in distinctive bonecraft armor—heavy armor adorned with the bones of fallen enemies—these fearsome warriors command squads of undead soldiers as they pursue the sinister goals of Lady Illmarrow.",
+								{
+									"type": "entries",
+									"name": "Karrnathi Patriots",
+									"entries": [
+										"Early in the Last War, Karrnath turned to the necromancers of the Blood of Vol to bolster the nation's army with undead forces. The skeletons and zombies created by the necromancers were mindless creatures that required guidance. The first bone knights were appointed to provide this control.",
+										"Devoted paladins of the Blood of Vol were fused into suits of bonecraft armor, whose magic focused their divine gifts, allowing them to command units of mindless undead. Bonecraft armor can't be removed without killing the knight who wears it, and when donning it, each bone knight understood that their former life was over."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Fall of the Emerald Claw",
+									"entries": [
+										"During the Last War, many bone knights took service with the Order of the Emerald Claw, helping that name strike fear into the enemies of Karrnath. In the last decade, King Kaius III of Karrnath has done much to ensure a peaceful end to the Last War. Under the terms of the Treaty of Thronehold, Kaius sealed most of Karrnath's undead in deep vaults, and the Order of the Emerald Claw was disbanded. A few bone knights remained in service to the crown, but most were cast aside—still bound to their bonecraft armor and still convinced of Karrnathi supremacy. These bone knights felt that Kaius had betrayed both them and their nation, leading their once-proud order to find a new purpose in the service of Lady Illmarrow."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Bone Knight.webp"
+					},
+					"width": 731,
+					"height": 1000,
+					"credit": "Tomas Giorello"
+				}
+			]
+		},
+		{
+			"name": "Changeling",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Changelings are a humanoid race of shapechangers who conceal their true identities behind false faces. Their gifts of mimicry allow them to appear as members of any humanoid culture, playing the part of a dwarf one day and a dragonborn the next. Although changelings can adopt any guise, most rely on a few established personas, each with a developed history and a network of friends and acquaintances."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Clawfoot",
+			"source": "ERLW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Clawfoot.webp"
+					},
+					"width": 1000,
+					"height": 788,
+					"credit": "Art from Wayfinder's Guide to Eberron"
+				}
+			]
+		},
+		{
+			"name": "Dolgaunt",
+			"source": "ERLW",
+			"entries": [
+				"Dolgaunts are emaciated hobgoblins with disease-hued flesh. Their eye sockets gape open and empty above a mouth with a wormlike tongue. Writhing cilia cover their bodies, with longer tendrils around their heads and two wiry tentacles protruding from their bare shoulders. A dolgaunt is blind but can perceive its surroundings through the sensitive cilia that cover its skin. It can also absorb life through its tentacles, allowing it to drain the vitality out of any creature it touches.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Warped by Chaos",
+									"entries": [
+										"When the daelkyr emerged from Xoriat to conquer Khorvaire, they captured and transformed that land's indigenous creatures to create armies of hideous warriors. Dyrrn the Corruptor shaped dolgaunts from hobgoblin stock, turning them into intelligent, cold, and efficient killers.",
+										"When the daelkyr were defeated, the dolgaunts descended into the depths of Khyber with their masters. There, they study in cavernous monasteries, forging their bodies into living weapons dedicated to the missions given them by those masters. Dolgaunts are often found commanding squads of dolgrims, and can also be found working with the Cults of the Dragon Below—particularly those devoted to Dyrrn the Corruptor."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Dolgaunt.webp"
+					},
+					"width": 729,
+					"height": 1000,
+					"credit": "Dave Allsop"
+				}
+			]
+		},
+		{
+			"name": "Dolgrim",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Dolgrims are squat, deformed things. Warped by the daelkyr, a dolgrim is essentially two goblins crushed into one creature, their misshapen body boasting four arms and a pair of twisted mouths that gibber and slather at the front of a headless torso. The two mouths of a dolgrim sometimes carry on demented conversations with one another. However, a dolgrim has only a single personality—sadistic, bloodthirsty, and brutally dedicated to serving itself.",
+								"Small numbers of these creatures sometimes make their way to the surface, often under the command of dolgaunts, and undertaking missions advancing the inscrutable schemes of their malevolent masters. But great hordes of dolgrims remain clustered in Khyber with the daelkyr, dreaming of the day when they will be released into Eberron to feast and destroy."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Dolgrim.webp"
+					},
+					"width": 1000,
+					"height": 917,
+					"credit": "Dave Allsop"
+				}
+			]
+		},
+		{
+			"name": "Dusk Hag",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Dusk hags resemble gnarled crones with shriveled orange skin, tangled gray hair, and eyes that burn like hot coals. They see visions of the future in their dreams, and their dark magic allows them to influence the dreams of others, sending messages or inflicting nightmares with a touch. Tales talk of ambitious wizards, frantic monarchs, and desperate heroes undertaking quests or making bargains with a dusk hag in exchange for its prophecies and visions of the future. But the information gained from a dusk hag often has a way of causing more pain than joy. Like all hags, dusk hags enjoy causing strife to those who bargain with them, and find ways to twist and turn promises to their own advantage. The Dusk Hag Prophecies table provides examples of the sort of dreams dusk hags might share with unsuspecting sleepers.",
+								{
+									"type": "table",
+									"caption": "Dusk Hag Prophecies",
+									"colLabels": [
+										"d10",
+										"Prophecy"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"\"A red hat approaches with ill intent. Be wary.\""
+										],
+										[
+											"2",
+											"\"A ship comes on a sea of bones, but treasure waits behind a silver skull.\""
+										],
+										[
+											"3",
+											"\"Three days, three deaths, three eyes, three breaths.\""
+										],
+										[
+											"4",
+											"\"Doom falls on the peacock and the sparrow alike. Best be a raven.\""
+										],
+										[
+											"5",
+											"\"A white hand on a black field holds the golden key.\""
+										],
+										[
+											"6",
+											"\"Beware the black horse.\""
+										],
+										[
+											"7",
+											"\"The fish is your friend.\""
+										],
+										[
+											"8",
+											"\"The stairs downward lead to that which you seek.\""
+										],
+										[
+											"9",
+											"\"Look for two crossed swords. There your goal lies.\""
+										],
+										[
+											"10",
+											"\"If you see two crows, turn back. Beyond is death.\""
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Dusk Hag.webp"
+					},
+					"width": 988,
+					"height": 1000,
+					"credit": "Colin Boyer"
+				}
+			]
+		},
+		{
+			"name": "Dyrrn",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Dyrrn is known to its followers as the Corruptor, the Stealer of Thoughts, the Slithering Lord, and the Foul Labyrinth. In the lore of the Gatekeepers, it is said that Dyrrn plants thoughts in the weak minded—the seeds of terrible ideas that fester and grow. Those who are particularly brilliant often draw the attention of the Foul Labyrinth, which hungers to consume unique minds.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Twisting Flesh and Thought",
+									"entries": [
+										"The mind flayers of Eberron know Dyrrn as the Overmind, and it serves as the cornerstone of their collective consciousness. Of all the daelkyr, the Corruptor is the most adept at twisting minds and bodies to create monsters. It was Dyrrn who turned goblinoid prisoners into the first dolgaunts and dolgrims, creating the legions that would savage the nations of Khorvaire. Dyrrn is also a prolific creator of symbionts—treasures that tempt people to bind alien entities to their flesh."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dyrrn's Cults",
+									"entries": [
+										"Dyrrn's lair touches the Eldeen Reaches, and the druids of the Towering Wood are always watching for Dyrrn's influence. At the start of the Last War, the dwarves of the Mror Holds discovered passages to the daelkyr's realm below their halls, and Dyrrn's cults have spread from there.",
+										"Mind flayers often work with Dyrrn's cults, many of which are obsessed with evolution—through the use of symbionts or by becoming an aberration. Those who worship the Stealer of Thoughts believe that Dyrrn will consume all sentient beings, except for its servants.",
+										"Dyrrn most often appears as a tall humanoid male with pale skin, clad in a heavy cassock of interwoven black leather that slithers unsettlingly around the daelkyr's form. Dyrrn can extend tentacles from its body, using them to extract the brains of others."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dyrrn's Lair",
+							"entries": [
+								"Dyrrn makes its lair in the Palace of Sinew, a horrid site shaped from the leftover flesh and bones of the daelkyr's sculpting. The walls of the palace undulate as air flows through them, as if the space were breathing."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Madness of Dyrrn",
+							"entries": [
+								"If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains a form of indefinite madness. Roll on the Madness of Dyrrn table to determine the nature of this madness, which takes the form of a character flaw that lasts until cured. Chapter 8 of the {@book Dungeon Master's Guide|DMG} has more information on madness.",
+								{
+									"type": "table",
+									"caption": "Madness of Dyrrn",
+									"colLabels": [
+										"d6",
+										"Flaw (lasts until cured)"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"\"There's an illithid parasite living in my brain!\""
+										],
+										[
+											"2",
+											"\"I can feel myself evolving into an aberration.\""
+										],
+										[
+											"3",
+											"\"Aberrations are the only natural things.\""
+										],
+										[
+											"4",
+											"\"A part of me has become a conscious entity.\""
+										],
+										[
+											"5",
+											"\"My opponents must bow down to a mind flayer!\""
+										],
+										[
+											"6",
+											"\"Dyrrn and the mind flayers simply want to unite all sentient creatures in collective consciousness. And I receive messages from the group mind!\""
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Dyrrn.webp"
+					},
+					"width": 1000,
+					"height": 661,
+					"credit": "Brian Valeza"
+				}
+			]
+		},
+		{
+			"name": "Inspired",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"The rulers of distant Sarlona are known as the Inspired. These noble families are said to be bound to celestial spirits that guide and empower them, but the truth is far darker. The Inspired are the mortal hosts of the nightmare spirits of Dal Quor, and they carry out the foul agenda of the Dreaming Dark.",
+								"Any humanoid who can dream can volunteer to serve as a quori vessel. But the Inspired of Sarlona are humans bred to be such vessels. They have no choice in this destiny, since they can't resist quori possession. Physically, Inspired resemble the kalashtar, possessing an almost supernatural beauty.",
+								"Most of the people of the Five Nations have heard of the Inspired lords in Riedra—never realizing that Inspired are spread throughout Khorvaire as well. Beggars and generals, mayors and merchants might all be secret servants of the Dreaming Dark. Such Inspired have to willingly accept quori possession, but the Dreaming Dark has long experience in weaving dreams that can convince mortals to surrender their bodies."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Inspired.webp"
+					},
+					"width": 766,
+					"height": 1000,
+					"credit": "Lake Hurwitz"
+				}
+			]
+		},
+		{
+			"name": "Kalashtar",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"The kalashtar have bonded with good-aligned quori spirits, which communicate with their hosts through dreams and visions. Descended from monks who offered their bodies as sanctuaries to those quori escaping the evil of Dal Quor, the kalashtar now fight to herald in a new age of light and balance."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Kalashtar.webp"
+					},
+					"width": 571,
+					"height": 1000,
+					"credit": "Efflam Mercier"
+				}
+			]
+		},
+		{
+			"name": "Karrnathi Undead Soldier",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Undead soldiers form the elite core of the army of Karrnath. Fearless and tireless, they are a terrifying sight on the battlefield. With the end of the Last War, most Karrnathi undead have been sealed in vaults below the city of Atur. However, the Karrnathi army keeps numerous undead in its service, while others have been commandeered by the malevolent Order of the Emerald Claw.",
+								{
+									"type": "entries",
+									"name": "The Odakyr Rites",
+									"entries": [
+										"The nation of Karrnath has a proud martial heritage, and its soldiers are unmatched in discipline. But in the early years of the Last War, Karrnath was crippled by famine and plague. In desperation, King Kaius I embraced the Blood of Vol, whose priests bolstered the armies of Karrnath with undead.",
+										"Initially, those skeletons and zombies required constant control and served as cannon fodder. Over decades, a high priest named Malevanor worked with the necromancers of the Blood of Vol to develop the Odakyr Rites, which grant Karrnathi undead the ability to make tactical decisions and operate without direct guidance.",
+										"The Odakyr Rites work only when performed on the remains of a soldier slain in battle, and only in manifest zones tied to the plane of Mabar. The most significant such zones in Karrnath exist in the cities of Atur and Odakyr (now called Fort Bones). The number of Karrnathi undead soldiers steadily increased over the course of the war, with the losses of Karrnath's living troops offset by the recovery and raising of their remains.",
+										"Malevanor claimed that Karrnathi undead are animated and granted intelligence by the patriotic spirit of Karrnath. However, many Karrns fear that the undead are vessels for a darker power—and that Lady Illmarrow or someone else will turn the undead against the living."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Intelligent and Inhuman",
+									"entries": [
+										"Karrnathi undead bear little resemblance to the people they were in life. These undead are content to stand motionless and silent for days. They show no emotion, and certainly no mercy or compassion. Undead soldiers kill any opposing forces—including civilians among those forces—unless given explicit instructions to the contrary.",
+										"A few exceptional Karrnathi undead retain their individuality and the memories of their former lives. Such undead are often found as champions of the Blood of Vol or agents of the Order of the Emerald Claw."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A Karrnathi undead soldier doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Karrnathi Undead Soldier.webp"
+					},
+					"width": 677,
+					"height": 1000,
+					"credit": "Andrew Jones"
+				}
+			]
+		},
+		{
+			"name": "Lady Illmarrow",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Lady Illmarrow is a legend—an ancient lich said to dwell in a castle of bone and ice in the coldest regions of the Lhazaar Principalities. Some stories say that she is served by a legion of undead and that she maintains a court of vampires and ghosts in her palace of ice. Other tales claim that when anyone dies in Lhazaar, Illmarrow chooses whether to take their soul before it passes on to the Keeper and Dolurrh.",
+								"But Lady Illmarrow is no folk tale. She is the greatest necromancer in Eberron, and after centuries of silence, she is setting ancient plots into motion at last. She is the power behind the Order of the Emerald Claw, but her motives for founding the order are buried in her past. Lady Illmarrow has no interest in ruling the living. Rather, she seeks to become Queen of the Dead.",
+								{
+									"type": "entries",
+									"name": "The Mark of Death",
+									"entries": [
+										"Illmarrow is a fiefdom on the isle of Farlnen—home to a community of elves exiled from Aerenal, who have practiced necromancy for centuries. But Lady Illmarrow's roots extend far beyond her island domain.",
+										"Long ago, it was revealed that the elven line of Vol—a house that practiced the art of necromancy and bore the Dragonmark of Death—was engaged in secret blood rites with a clan of dragons. The discovery of this pact triggered an unprecedented alliance between the Sibling Kings of Aerenal and the dragons of Argonnessen. The Sibling Kings proclaimed that House Vol would be exterminated to the last member, and the Mark of Death would be eliminated from the world.",
+										"The line of Vol had long been rivals of the Undying Court, and many whisper even today that the attack on House Vol was nothing more than an excuse to eliminate a political rival. But others believe that what the Undying Court truly feared was a path shown in the Draconic Prophecy—that a child born of dragon and elf could become a godlike avatar of death."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Illmarrow Rises",
+									"entries": [
+										"Even as dragons and elves fought to destroy the line of Vol, a child was born to the house: Erandis. A scion of elf and dragon, Erandis bore a Mark of Death unlike any other. In time, it might have been her gateway to immortality and unrivaled power, but she was hunted down and killed long before she could master the mark's magic. Her mother, Minara Vol, escaped with her daughter's body to the icy reaches of Farlnen, far from the conflict. There, Minara unleashed all her necromantic power to raise Erandis as a lich.",
+										"As an undead being, Erandis lost the use of her dragonmark. Thus, when the diviners of Aerenal asked if the line of Vol had been exterminated and the Mark of Death destroyed, they received a vision affirming that the bloodline of Vol was no more. To the world, the last survivor of that bloodline is known as Lady Illmarrow. But in truth, she is Erandis Vol, heir to the Mark of Death."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Trapped in Undeath",
+									"entries": [
+										"When Minara restored Erandis as a lich, she hid her daughter's phylactery, weaving enchantments into it that cause Erandis to be reborn in a random safe haven after she is destroyed. Thus, even Erandis herself doesn't know the location or form of her phylactery."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Restoring the Mark",
+									"entries": [
+										"Though she takes great pleasure in fighting the dragons and elves who destroyed her ancestors, Lady Illmarrow has a more important goal: restoring her dragonmark and unlocking godlike powers. The agents of the Emerald Claw who serve her fight either for the good of Karrnath or for personal gain, but Illmarrow cares for nothing except increasing her necromantic knowledge and finding a way to restore her lost mark.",
+										{
+											"type": "inset",
+											"name": "Lady Illmarrow and the Blood of Vol",
+											"entries": [
+												"The Blood of Vol and Lady Illmarrow are both legacies of the line of Vol, but they aren't one and the same. As far as the world knows, the line of Vol was exterminated. Followers of the Blood of Vol who have heard of Lady Illmarrow believe that she's a champion of their faith, but they don't worship or serve her. And the powers of priests of the Blood of Vol don't come from Lady Illmarrow."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Lady Illmarrow.webp"
+					},
+					"width": 948,
+					"height": 1000,
+					"credit": "Lake Hurwitz"
+				}
+			]
+		},
+		{
+			"name": "Magewright",
+			"source": "ERLW",
+			"entries": [
+				"In Khorvaire, magic is part of everyday life. A chef might use {@spell prestidigitation} to heat and season food, while a blacksmith uses {@spell mending} to perform minor repairs and {@spell guidance} to help inspire their work. Those who work minor magic into their labors are called magewrights.",
+				"Far more limited in magical power than a typical spellcaster, a magewright is dedicated to learning a handful of spells, and magewrights cast their non-cantrip spells as rituals—even spells that can't normally be cast in this way. Most magewright rituals take 10 minutes to perform, but certain complex rituals can take up to 1 hour. However long the ritual takes, it requires extra material components, usually in the form of dragonshards.",
+				{
+					"type": "entries",
+					"name": "Creating a Magewright",
+					"entries": [
+						"The magewright stat block provides the baseline statistics for a magewright. You then add to that baseline by choosing a specialty from the Magewright Specialties table, or roll for one. The specialty determines additional spells the magewright knows, including ones that can be cast only as rituals. The specialty also gives the magewright more proficiencies.",
+						{
+							"type": "table",
+							"caption": "Magewright Specialties",
+							"colLabels": [
+								"d8",
+								"Specialty",
+								"Spells",
+								"Proficiencies"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-1 text-center",
+								"col-6",
+								"col-4 text-center"
+							],
+							"rows": [
+								[
+									"1",
+									"Artisan",
+									"{@spell Guidance}, {@spell mending}",
+									"One type of artisan's tools"
+								],
+								[
+									"2",
+									"Entertainer",
+									"{@spell Minor illusion}, {@spell thaumaturgy}. Ritual only: {@spell disguise self}.",
+									"{@skill Performance} (+3)"
+								],
+								[
+									"3",
+									"Healer",
+									"{@spell Resistance}, {@spell spare the dying}. Ritual only: {@spell detect poison and disease}, {@spell lesser restoration} (1 hour).",
+									"{@skill Medicine} (+4), {@item herbalism kit|PHB}"
+								],
+								[
+									"4",
+									"Lamplighter",
+									"{@spell Light}. Ritual only: {@spell continual flame} (1 hour).",
+									"{@item Tinker's tools|PHB}"
+								],
+								[
+									"5",
+									"Locksmith",
+									"{@spell Mending}. Ritual only: {@spell arcane lock} (1 hour), {@spell knock}.",
+									"{@item Thieves' tools|PHB}, {@item tinker's tools|PHB}"
+								],
+								[
+									"6",
+									"Mediator",
+									"{@spell Guidance}. Ritual only: {@spell comprehend languages}, {@spell zone of truth}.",
+									"{@skill Insight} (+4), {@skill Persuasion} (+3)"
+								],
+								[
+									"7",
+									"Medium",
+									"{@spell Minor illusion}. Ritual only: {@spell speak with dead}.",
+									"{@skill Deception} (+3), {@skill Religion} (+4)"
+								],
+								[
+									"8",
+									"Oracle",
+									"{@spell Guidance}. Ritual only: {@spell augury}, {@spell divination} (1 hour).",
+									"{@skill History} (+4), {@skill Religion} (+4)"
+								]
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Magewright.webp"
+					},
+					"width": 664,
+					"height": 1000,
+					"credit": "Sam Keiser"
+				}
+			]
+		},
+		{
+			"name": "Mordakhesh",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"In the age when fiends and dragons waged war across Eberron, rakshasas served the fiendish lords as strategists and generals. A rakshasa named Mordakhesh rose up through the ranks to become one of the greatest commanders of his age, and a dragon-slaying specialist. For this, he earned the nickname Shadowsword, along with a legendary reputation for leaving death in his wake.",
+								"Mordakhesh serves as the prakhutu or \"speaker\" of his imprisoned master, Rak Tulkhesh, and he seeks to free his lord by bathing the world in blood. Like a spider with multiple webs, he has agents and pawns (which he calls his \"claws\") established in armies across Khorvaire. The most significant of those is the barbarian horde he amasses in the Demon Wastes—warriors who threaten to sweep into Aundair on a tide of blood.",
+								"Many of the horrors of the Last War were instigated—or at least encouraged—by Mordakhesh's operatives, and his claws are known to have perpetrated some of the most brutal massacres of that conflict. No one knows how far the Shadowsword's reach extends, or which commanders in the armies of Khorvaire serve him."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Mordakhesh.webp"
+					},
+					"width": 752,
+					"height": 1000,
+					"credit": "Zack Stella"
+				}
+			]
+		},
+		{
+			"name": "Radiant Idol",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A radiant idol was an angel that was banished from the celestial realm of Syrania and cast down to the Material Plane. One sin led to their fall: the desire to be worshiped by mortals. Now in the mortal realm, most radiant idols gather cults of devoted followers.",
+								{
+									"type": "entries",
+									"name": "Fallen Angels",
+									"entries": [
+										"The insatiable hunger to be adored can transform a fallen angel, physically and mentally. In its true form, a radiant idol appears to be a warped angel. It might have bloody stumps in place of its wings, or its wings could be weighted down with chains representing its pride. A radiant idol uses {@spell disguise self} to hide its corruption, presenting an image of celestial glory."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Weight of Corruption",
+									"entries": [
+										"When a radiant idol achieves a sizable following through silvered words and demonstrations of power, its facade begins to crack, and a downward spiral ensues. As the radiant idol sinks deeper into the realm of material power, it begins twisting its followers, leading them ever deeper into ominous ritualism, hedonistic folly, and fanatical doom."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Immortal Nature",
+									"entries": [
+										"A radiant idol doesn't require food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Radiant Idol.webp"
+					},
+					"width": 619,
+					"height": 1000,
+					"credit": "Craig J Spearing"
+				}
+			]
+		},
+		{
+			"name": "Shifter",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Shifters are tied to primal spirits, which most of them refer to as the beast within. They are lithe of form and have bestial features: large eyes, flat noses, pointed ears, and light fur over much of their bodies. When a shifter fully embraces the beast within by \"shifting,\" these features become even more pronounced."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Shifter.webp"
+					},
+					"width": 854,
+					"height": 1000,
+					"credit": "Cory Trego-Erdner"
+				}
+			]
+		},
+		{
+			"name": "Tarkanan Assassin",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Tarkanan assassins are the elite killers, spies, and thieves who work for House Tarkanan, a criminal organization specializing in theft and assassination. In addition to their deadly skill, a Tarkanan assassin possesses an aberrant dragonmark—a twisted sigil that provides them with magical power. House Tarkanan actively seeks and recruits people with aberrant dragonmarks.",
+								{
+									"type": "inset",
+									"name": "Aberrant Dragonmark Innate Spells",
+									"entries": [
+										"The power granted by an aberrant dragonmark is unpredictable. When running a Tarkanan assassin, you can roll on the Aberrant Dragonmark Innate Spells table to determine the spells gained from that NPC's aberrant mark, replacing the spells in the stat block's Innate Spellcasting trait.",
+										{
+											"type": "table",
+											"colLabels": [
+												"d6",
+												"At Will",
+												"1/Day"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-5",
+												"col-5"
+											],
+											"rows": [
+												[
+													"1",
+													"{@spell Fire bolt} ({@dice 2d10})",
+													"{@spell Burning hands} ({@dice 3d6})"
+												],
+												[
+													"2",
+													"{@spell Shocking grasp} ({@dice 2d8})",
+													"{@spell Chromatic orb} ({@dice 4d8})"
+												],
+												[
+													"3",
+													"{@spell Poison spray} ({@dice 2d12})",
+													"{@spell Ray of sickness} ({@dice 3d8})"
+												],
+												[
+													"4",
+													"{@spell Friends}",
+													"{@spell Charm person} (two creatures)"
+												],
+												[
+													"5",
+													"{@spell Minor illusion}",
+													"{@spell Thunderwave} ({@dice 2d8})"
+												],
+												[
+													"6",
+													"{@spell Dancing lights}",
+													"{@spell Sleep} ({@dice 7d8})"
+												]
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Tarkanan Assassin.webp"
+					},
+					"width": 733,
+					"height": 1000,
+					"credit": "Efflam Mercier"
+				}
+			]
+		},
+		{
+			"name": "The Lord of Blades",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"The Lord of Blades is a warforged warlord who has broken all ties with his former masters. He has established a nation for his people deep in the Mournland, centered in a great fortress where warforged from all over Khorvaire can come and feel a sense of belonging. No one knows what the Lord of Blades plans for his followers, but many fear that he intends to build a legion of warforged zealots, primed to march from the Mournland to unleash destruction on their former masters.",
+								"Some tales assert that the Lord of Blades led the warforged armies of Cyre in the Last War. Others cast him as a newer warforged, perhaps the last to come out of the Cannith creation forges before the Thronehold Accords led to their dismantling. One story claims the Lord of Blades caused the destruction of Cyre and warns that he plans to repeat the Day of Mourning in each of the remaining Five Nations. Whatever the truth, he has become a beacon for warforged everywhere.",
+								{
+									"type": "entries",
+									"name": "Warforged Nature",
+									"entries": [
+										"The Lord of Blades doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/The Lord of Blades.webp"
+					},
+					"width": 1000,
+					"height": 889,
+					"credit": "Steve Prescott"
+				}
+			]
+		},
+		{
+			"name": "Warforged Colossus",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"In the final days of the Last War, House Cannith unleashed its mightiest creations: the warforged colossi. These enormous mechanical warriors thundered across Cyre, crushing everything in their paths and leaving ruin behind them. Meant to end the war decisively, the colossi pulverized hundreds of soldiers beneath their feet and incinerated whole legions with beams of fiery light that shot from their mouths. This rampage was cut short on the Day of Mourning. The arcane cataclysm that engulfed Cyre destroyed most of the warforged colossi, causing them to collapse into lifeless heaps.",
+								{
+									"type": "entries",
+									"name": "Colossal Survivors",
+									"entries": [
+										"Some warforged colossi survived the Day of Mourning more or less intact and are thought to only be in stasis, waiting to be awakened. Cannith artificers are eager to track them down and determine whether they can be awakened or, at the very least, salvaged for {@i docents} and other magic items. Here are locations where operational warforged colossi are rumored to dwell:",
+										{
+											"type": "list",
+											"items": [
+												"\"Arkus\" (Colossus WX-11) lies {@condition prone} at the bottom of the Glowing Chasm in the northern part of the Mournland, with one of its arms torn off.",
+												"\"Artorok\" (Colossus WX-73) sits at the bottom of Lake Cyre amid the scaffolding of a sunken House Cannith workshop, flooded but otherwise intact.",
+												"\"Hanamar\" (Colossus WX-42) stands at the bottom of Kraken Bay, near the coast of Valenar, buried up to its knees in sand and flooded, but it is otherwise intact.",
+												"\"Karrnslayer\" (Colossus WX-31) lost its legs but crawls through the Mournland, using its arms to drag its great bulk across the ground. It is always {@condition prone} and can't use its Stomp action, but makes three extra turret attacks when it takes the Multiattack action option.",
+												"\"Landro\" (Colossus WX-33) is partially phased into a mountainside on the border of Cyre and Breland, but still explorable and potentially salvageable.",
+												"\"Norr\" (Colossus WX-5) is slumped amid the ruins of Metrol, the former capital of Cyre.",
+												"\"Tymber\" (Colossus WX-12) squats in the Crawling Swamp, in the northwest corner of the Shadow Marches. How it got there, no one knows."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hollow Structure",
+									"entries": [
+										"Although it can operate without a crew, a warforged colossus is built to carry wizards, artificers, magewrights, and elite troops. For this reason, these constructs are largely hollow on the inside, with tunnels, ladders, storage areas, and observation decks.",
+										"A colossus might be filled with monsters and secrets, in addition to the corpses of those who died inside it. In chapter 4, map 4.8 illustrates an inactive warforged colossus, and the text that accompanies it explains how the colossus might serve as an adventure location."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/124-4-07.webp"
+					},
+					"width": 1200,
+					"height": 627,
+					"credit": "Titus Lunter"
+				}
+			]
+		},
+		{
+			"name": "Warforged Soldier",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Warforged soldiers are humanoids formed from wood and steel, then magically imbued with life and sentience. The warforged were created to fight in the Last War, and in the aftermath of that conflict, they struggle to understand their place in the world.",
+								"Most warforged soldiers still serve their former masters, often guarding dragonmarked houses or merchant caravans. Many warforged find it difficult to separate themselves from the soldiers they were made to be, seeking work as bouncers, bailiffs, and bodyguards. Others put their tireless strength to work as laborers, committed to the reconstruction of the towns and cities they defended or destroyed in the war."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Warforged Soldier.webp"
+					},
+					"width": 715,
+					"height": 1000,
+					"credit": "Claudio Pozas"
+				}
+			]
+		},
+		{
+			"name": "Warforged Titan",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Warforged titans are hulking constructs built to wreak paths of destruction through enemy armies. Some of the most feared combatants of the Last War, warforged titans are barely sentient, with just enough intelligence to follow commands.",
+								{
+									"type": "entries",
+									"name": "Legacy of Giants",
+									"entries": [
+										"In the Age of Giants, giant artificers built mindless war golems to aid them in their war against the quori. Millennia later, some of these golems were unearthed by adventurers searching for the secrets of that age, then turned over to artificers working for the dragonmarked houses during the Last War. House Cannith studied these designs, and in the course of uncovering the secrets of the golems and the giant artificers who made them, House Cannith created the first warforged titans."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Warforged Titan.webp"
+					},
+					"width": 634,
+					"height": 1000,
+					"credit": "Wayne Reynolds"
+				}
+			]
+		},
+		{
+			"name": "Zakya Rakshasa",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Millions of years before the rise of the humanoid races, the rakshasas of Eberron ruled a civilization that spanned Khorvaire. Masters of combat, the rakshasas of Eberron wield their weapons with demonic fury, rushing into battle seeking vengeance against those who bound their fiendish masters.",
+								"Rakshasas are described in the {@book Monster Manual|MM}. A martial variant—the zakya rakshasa—is presented here.",
+								"Zakya rakshasas are the bloodthirsty foot soldiers of the rakshasa horde. They are driven to free their fiendish rulers, seeking vengeance against the dragons and those who revere the couatls. Unlike other rakshasas with their luxurious robes and fineries, zakya rakshasas are almost always clad in battle gear: well-worn scale mail, a razor-sharp longsword, and a heavy shield bearing the emblem of their demonic master."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/ERLW/Zakya Rakshasa.webp"
+					},
+					"width": 738,
+					"height": 1000,
+					"credit": "Zack Stella"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"book": [
+		{
+			"name": "Compendium of Beasts - Dinosaurs",
+			"id": "LLCompendiumOfBeastsDinosaurs",
+			"source": "LLCBD",
+			"group": "homebrew",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/LLCompendiumOfBeastsDinosaurs/cover.webp"
+			},
+			"published": "2026-03-05",
+			"author": "LaserLlama",
+			"contents": [
+				{
+					"name": "Cover"
+				},
+				{
+					"name": "Compendium of Beasts—Dinosaurs"
+				},
+				{
+					"name": "Alternate Dinosaurs"
+				}
+			]
+		},
+		{
+			"name": "Compendium of Beasts",
+			"id": "LLCompendiumOfBeasts",
+			"source": "LLCB",
+			"group": "homebrew",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/LLCompendiumOfBeasts/cover.webp"
+			},
+			"published": "2025-04-18",
+			"author": "LaserLlama",
+			"contents": [
+				{
+					"name": "Compendium of Beasts"
+				},
+				{
+					"name": "Laserllama Compendium of Beasts v2.0.0",
+					"headers": [
+						"Challenge Rating: 0",
+						{
+							"header": "Reskinning Beast Statblocks",
+							"depth": 1
+						},
+						"Challenge Rating: ⅛",
+						"Challenge Rating: ¼",
+						"Challenge Rating: ½",
+						"Challenge Rating: 1",
+						"Challenge Rating: 2",
+						"Challenge Rating: 3",
+						"Challenge Rating: 4",
+						"Challenge Rating: 5",
+						"Challenge Rating: 6",
+						"Challenge Rating: 8"
+					]
+				},
+				{
+					"name": "Alternate Beasts"
+				}
+			]
+		}
+	]
+}
