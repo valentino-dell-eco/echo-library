@@ -2080,7 +2080,7 @@
 			"name": "Alchemist Spells",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Alchemist",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2126,7 +2126,7 @@
 			"name": "Experimental Elixir",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Alchemist",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2179,7 +2179,7 @@
 			"name": "Tool Proficiency",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Alchemist",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2191,7 +2191,7 @@
 			"name": "Alchemist",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Alchemist",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2199,15 +2199,15 @@
 				"An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Alchemist Spells|Artificer|EFA|Alchemist|TCE|3|TCE"
+					"subclassFeature": "Alchemist Spells|Artificer|TCE|Alchemist|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Experimental Elixir|Artificer|EFA|Alchemist|TCE|3|TCE"
+					"subclassFeature": "Experimental Elixir|Artificer|TCE|Alchemist|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|EFA|Alchemist|TCE|3|TCE"
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Alchemist|TCE|3|TCE"
 				}
 			]
 		},
@@ -2215,7 +2215,7 @@
 			"name": "Alchemical Savant",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Alchemist",
 			"subclassSource": "TCE",
 			"level": 5,
@@ -2227,7 +2227,7 @@
 			"name": "Restorative Reagents",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Alchemist",
 			"subclassSource": "TCE",
 			"level": 9,
@@ -2246,7 +2246,7 @@
 			"name": "Chemical Mastery",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Alchemist",
 			"subclassSource": "TCE",
 			"level": 15,
@@ -2265,7 +2265,7 @@
 			"name": "Dampening Field",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2277,7 +2277,7 @@
 			"name": "Defensive Field",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2289,7 +2289,7 @@
 			"name": "Lightning Launcher",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2301,7 +2301,7 @@
 			"name": "Powered Steps",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2313,7 +2313,7 @@
 			"name": "Thunder Gauntlets",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2325,7 +2325,7 @@
 			"name": "Arcane Armor",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2348,7 +2348,7 @@
 			"name": "Armor Model",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2414,7 +2414,7 @@
 			"name": "Armorer Spells",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2461,7 +2461,7 @@
 			"name": "Tools of the Trade",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2474,7 +2474,7 @@
 			"name": "Armorer",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2482,39 +2482,39 @@
 				"An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dampening Field|Artificer|EFA|Armorer|TCE|3|TCE"
+					"subclassFeature": "Dampening Field|Artificer|TCE|Armorer|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Defensive Field|Artificer|EFA|Armorer|TCE|3|TCE"
+					"subclassFeature": "Defensive Field|Artificer|TCE|Armorer|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lightning Launcher|Artificer|EFA|Armorer|TCE|3|TCE"
+					"subclassFeature": "Lightning Launcher|Artificer|TCE|Armorer|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Powered Steps|Artificer|EFA|Armorer|TCE|3|TCE"
+					"subclassFeature": "Powered Steps|Artificer|TCE|Armorer|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Thunder Gauntlets|Artificer|EFA|Armorer|TCE|3|TCE"
+					"subclassFeature": "Thunder Gauntlets|Artificer|TCE|Armorer|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Armor|Artificer|EFA|Armorer|TCE|3|TCE"
+					"subclassFeature": "Arcane Armor|Artificer|TCE|Armorer|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Armor Model|Artificer|EFA|Armorer|TCE|3|TCE"
+					"subclassFeature": "Armor Model|Artificer|TCE|Armorer|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Armorer Spells|Artificer|EFA|Armorer|TCE|3|TCE"
+					"subclassFeature": "Armorer Spells|Artificer|TCE|Armorer|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Trade|Artificer|EFA|Armorer|TCE|3|TCE"
+					"subclassFeature": "Tools of the Trade|Artificer|TCE|Armorer|TCE|3|TCE"
 				}
 			]
 		},
@@ -2522,7 +2522,7 @@
 			"name": "Extra Attack",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 5,
@@ -2535,7 +2535,7 @@
 			"name": "Armor Modifications",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 9,
@@ -2548,7 +2548,7 @@
 			"name": "Infiltrator",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 15,
@@ -2560,7 +2560,7 @@
 			"name": "Perfected Armor",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 15,
@@ -2573,7 +2573,7 @@
 			"name": "Guardian",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Armorer",
 			"subclassSource": "TCE",
 			"level": 15,
@@ -2582,11 +2582,11 @@
 				"You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Infiltrator|Artificer|EFA|Armorer|TCE|15|TCE"
+					"subclassFeature": "Infiltrator|Artificer|TCE|Armorer|TCE|15|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Perfected Armor|Artificer|EFA|Armorer|TCE|15|TCE"
+					"subclassFeature": "Perfected Armor|Artificer|TCE|Armorer|TCE|15|TCE"
 				}
 			]
 		},
@@ -2594,7 +2594,7 @@
 			"name": "Artillerist Spells",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Artillerist",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2640,7 +2640,7 @@
 			"name": "Eldritch Cannon",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Artillerist",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2681,7 +2681,7 @@
 			"name": "Tool Proficiency",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Artillerist",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2693,7 +2693,7 @@
 			"name": "Artillerist",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Artillerist",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2702,15 +2702,15 @@
 				"The gnome artificer Vi, an unlikely yet key member of House Cannith's warforged project, has been especially vocal about making things right: \"It's about time we fixed things instead of blowing them all to hell.\"",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Artillerist Spells|Artificer|EFA|Artillerist|TCE|3|TCE"
+					"subclassFeature": "Artillerist Spells|Artificer|TCE|Artillerist|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eldritch Cannon|Artificer|EFA|Artillerist|TCE|3|TCE"
+					"subclassFeature": "Eldritch Cannon|Artificer|TCE|Artillerist|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|EFA|Artillerist|TCE|3|TCE"
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Artillerist|TCE|3|TCE"
 				}
 			]
 		},
@@ -2718,7 +2718,7 @@
 			"name": "Arcane Firearm",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Artillerist",
 			"subclassSource": "TCE",
 			"level": 5,
@@ -2731,7 +2731,7 @@
 			"name": "Explosive Cannon",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Artillerist",
 			"subclassSource": "TCE",
 			"level": 9,
@@ -2750,7 +2750,7 @@
 			"name": "Fortified Position",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Artillerist",
 			"subclassSource": "TCE",
 			"level": 15,
@@ -2769,7 +2769,7 @@
 			"name": "Battle Ready",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Battle Smith",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2788,7 +2788,7 @@
 			"name": "Battle Smith Spells",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Battle Smith",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2834,7 +2834,7 @@
 			"name": "Steel Defender",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Battle Smith",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2849,7 +2849,7 @@
 			"name": "Tool Proficiency",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Battle Smith",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2861,7 +2861,7 @@
 			"name": "Battle Smith",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Battle Smith",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2870,19 +2870,19 @@
 				"Battle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Battle Ready|Artificer|EFA|Battle Smith|TCE|3|TCE"
+					"subclassFeature": "Battle Ready|Artificer|TCE|Battle Smith|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Battle Smith Spells|Artificer|EFA|Battle Smith|TCE|3|TCE"
+					"subclassFeature": "Battle Smith Spells|Artificer|TCE|Battle Smith|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Steel Defender|Artificer|EFA|Battle Smith|TCE|3|TCE"
+					"subclassFeature": "Steel Defender|Artificer|TCE|Battle Smith|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|EFA|Battle Smith|TCE|3|TCE"
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Battle Smith|TCE|3|TCE"
 				}
 			]
 		},
@@ -2890,7 +2890,7 @@
 			"name": "Extra Attack",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Battle Smith",
 			"subclassSource": "TCE",
 			"level": 5,
@@ -2902,7 +2902,7 @@
 			"name": "Arcane Jolt",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Battle Smith",
 			"subclassSource": "TCE",
 			"level": 9,
@@ -2922,7 +2922,7 @@
 			"name": "Improved Defender",
 			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
+			"classSource": "TCE",
 			"subclassShortName": "Battle Smith",
 			"subclassSource": "TCE",
 			"level": 15,
@@ -4353,115 +4353,163 @@
 	],
 	"subclass": [
 		{
-			"name": "Alchemist",
 			"shortName": "Alchemist",
-			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
-			"_copy": {
-				"name": "Alchemist",
-				"source": "TCE",
-				"shortName": "Alchemist",
-				"className": "Artificer",
-				"classSource": "TCE",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "TCE",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"healing word",
+							"ray of sickness"
+						],
+						"5": [
+							"flaming sphere",
+							"melf's acid arrow"
+						],
+						"9": [
+							"gaseous form",
+							"mass healing word"
+						],
+						"13": [
+							"blight",
+							"death ward"
+						],
+						"17": [
+							"cloudkill",
+							"raise dead"
+						]
+					}
 				}
-			},
+			],
+			"name": "Alchemist",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Alchemist|Artificer|EFA|Alchemist|TCE|3|TCE",
-				"Alchemical Savant|Artificer|EFA|Alchemist|TCE|5|TCE",
-				"Restorative Reagents|Artificer|EFA|Alchemist|TCE|9|TCE",
-				"Chemical Mastery|Artificer|EFA|Alchemist|TCE|15|TCE"
+				"Alchemist|Artificer|TCE|Alchemist|TCE|3|TCE",
+				"Alchemical Savant|Artificer|TCE|Alchemist|TCE|5|TCE",
+				"Restorative Reagents|Artificer|TCE|Alchemist|TCE|9|TCE",
+				"Chemical Mastery|Artificer|TCE|Alchemist|TCE|15|TCE"
 			]
 		},
 		{
-			"name": "Armorer",
 			"shortName": "Armorer",
-			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
-			"_copy": {
-				"name": "Armorer",
-				"source": "TCE",
-				"shortName": "Armorer",
-				"className": "Artificer",
-				"classSource": "TCE",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "TCE",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"magic missile",
+							"thunderwave"
+						],
+						"5": [
+							"mirror image",
+							"shatter"
+						],
+						"9": [
+							"hypnotic pattern",
+							"lightning bolt"
+						],
+						"13": [
+							"fire shield",
+							"greater invisibility"
+						],
+						"17": [
+							"passwall",
+							"wall of force"
+						]
+					}
 				}
-			},
+			],
+			"name": "Armorer",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Armorer|Artificer|EFA|Armorer|TCE|3|TCE",
-				"Extra Attack|Artificer|EFA|Armorer|TCE|5|TCE",
-				"Armor Modifications|Artificer|EFA|Armorer|TCE|9|TCE",
-				"Guardian|Artificer|EFA|Armorer|TCE|15|TCE"
+				"Armorer|Artificer|TCE|Armorer|TCE|3|TCE",
+				"Extra Attack|Artificer|TCE|Armorer|TCE|5|TCE",
+				"Armor Modifications|Artificer|TCE|Armorer|TCE|9|TCE",
+				"Guardian|Artificer|TCE|Armorer|TCE|15|TCE"
 			]
 		},
 		{
-			"name": "Artillerist",
 			"shortName": "Artillerist",
-			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
-			"_copy": {
-				"name": "Artillerist",
-				"source": "TCE",
-				"shortName": "Artillerist",
-				"className": "Artificer",
-				"classSource": "TCE",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "TCE",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"shield",
+							"thunderwave"
+						],
+						"5": [
+							"scorching ray",
+							"shatter"
+						],
+						"9": [
+							"fireball",
+							"wind wall"
+						],
+						"13": [
+							"ice storm",
+							"wall of fire"
+						],
+						"17": [
+							"cone of cold",
+							"wall of force"
+						]
+					}
 				}
-			},
+			],
+			"name": "Artillerist",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Artillerist|Artificer|EFA|Artillerist|TCE|3|TCE",
-				"Arcane Firearm|Artificer|EFA|Artillerist|TCE|5|TCE",
-				"Explosive Cannon|Artificer|EFA|Artillerist|TCE|9|TCE",
-				"Fortified Position|Artificer|EFA|Artillerist|TCE|15|TCE"
+				"Artillerist|Artificer|TCE|Artillerist|TCE|3|TCE",
+				"Arcane Firearm|Artificer|TCE|Artillerist|TCE|5|TCE",
+				"Explosive Cannon|Artificer|TCE|Artillerist|TCE|9|TCE",
+				"Fortified Position|Artificer|TCE|Artillerist|TCE|15|TCE"
 			]
 		},
 		{
-			"name": "Battle Smith",
 			"shortName": "Battle Smith",
-			"source": "TCE",
 			"className": "Artificer",
-			"classSource": "EFA",
-			"_copy": {
-				"name": "Battle Smith",
-				"source": "TCE",
-				"shortName": "Battle Smith",
-				"className": "Artificer",
-				"classSource": "TCE",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "TCE",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"heroism",
+							"shield"
+						],
+						"5": [
+							"branding smite",
+							"warding bond"
+						],
+						"9": [
+							"aura of vitality",
+							"conjure barrage"
+						],
+						"13": [
+							"aura of purity",
+							"fire shield"
+						],
+						"17": [
+							"banishing smite",
+							"mass cure wounds"
+						]
+					}
 				}
-			},
+			],
+			"name": "Battle Smith",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Battle Smith|Artificer|EFA|Battle Smith|TCE|3|TCE",
-				"Extra Attack|Artificer|EFA|Battle Smith|TCE|5|TCE",
-				"Arcane Jolt|Artificer|EFA|Battle Smith|TCE|9|TCE",
-				"Improved Defender|Artificer|EFA|Battle Smith|TCE|15|TCE"
+				"Battle Smith|Artificer|TCE|Battle Smith|TCE|3|TCE",
+				"Extra Attack|Artificer|TCE|Battle Smith|TCE|5|TCE",
+				"Arcane Jolt|Artificer|TCE|Battle Smith|TCE|9|TCE",
+				"Improved Defender|Artificer|TCE|Battle Smith|TCE|15|TCE"
 			]
 		},
 		{

@@ -29,6 +29,13 @@
 					"width": 1700,
 					"height": 1126,
 					"title": "Arveiaturace the White Wyrm and Her Mysterious Rider"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/IDRotF/Arveiaturace.webp"
+					}
 				}
 			]
 		},
@@ -104,6 +111,32 @@
 					},
 					"width": 1700,
 					"height": 1136
+				}
+			]
+		},
+		{
+			"name": "Battlehammer Dwarf",
+			"source": "IDRotF",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Scouts are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/IDRotF/Battlehammer%20Dwarf.webp"
+					}
 				}
 			]
 		},
@@ -243,6 +276,19 @@
 					"entries": [
 						"Snowshoe hares are gentle herbivores that live in burrows throughout Icewind Dale. They have shorter ears than other hares and are acclimated to cold weather. Chimeric hares have feathered wings."
 					]
+				}
+			]
+		},
+		{
+			"name": "Chimeric Rat",
+			"source": "IDRotF",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/IDRotF/Chimeric%20Rat.webp"
+					}
 				}
 			]
 		},
@@ -452,6 +498,64 @@
 					},
 					"width": 1704,
 					"height": 1363
+				}
+			]
+		},
+		{
+			"name": "F'yorl",
+			"source": "IDRotF",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Mind flayers, also called illithids, are the scourge of sentient creatures across countless worlds. Psionic tyrants, slavers, and interdimensional voyagers, they are insidious masterminds that harvest entire races for their own twisted ends. Four tentacles snake from their octopus-like heads, flexing in hungry anticipation when sentient creatures come near.",
+								"In eons past, illithids controlled empires that spanned many worlds. They subjugated and consequently warped whole races of humanoid slaves, including the githyanki and githzerai, the grimlocks, and the kuo-toa. Conjoined by a collective consciousness, the illithids hatch plots as far-reaching and evil as their fathomless minds can conceive.",
+								"Since the fall of their empires, illithid collectives on the Material Plane have resided in the Underdark.",
+								{
+									"type": "entries",
+									"name": "Psionic Commanders",
+									"entries": [
+										"Mind flayers possess psionic powers that enable them to control the minds of creatures such as troglodytes, grimlocks, quaggoths, and ogres. Illithids prefer to communicate via telepathy and use their telepathy when issuing commands to their thralls.",
+										"When an illithid meets strong resistance, it avoids initial combat as it orders its thralls to attack. Like physical extensions of the illithid's thoughts, these thralls interpose themselves between the mind flayer and its foes, sacrificing their lives so that their master can escape."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hive Mind Colonies",
+									"entries": [
+										"Solitary mind flayers are likely rogues and outcasts. Most illithids belong to a colony of sibling mind flayers devoted to an elder brain-a massive brain-like being that resides in a briny pool near the center of a mind flayer community. From its pool, an elder brain telepathically dictates its desires to each individual mind flayer within 5 miles of it, for it is able to hold multiple mental conversations at once."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hunger of the Mind",
+									"entries": [
+										"Illithids subsist on the brains of humanoids. The brains provide enzymes, hormones, and psychic energy necessary for their survival. An illithid healthy from a brain-rich diet secretes a thin glaze of mucus that coats its mauve skin.",
+										"An illithid experiences euphoria as it devours the brain of a humanoid, along with its memories, personality, and innermost fears. Mind flayers will sometimes harvest a brain rather than devour it, using it as part of some alien experiment or transforming it into an intellect devourer."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Qualith",
+									"entries": [
+										"On the rare occasion that mind flayers need to write something down, they do so in Qualith. This system of tactile writing (similar to braille) is read by an illithid's tentacles. Qualith is written in four-line stanzas and is so alien in construction that non-illithids must resort to magic to discern its meaning. Though Qualith can be used to keep records, illithids most often use it to mark portals or other surfaces with warnings or instructions."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/IDRotF/F'yorl.webp"
+					}
 				}
 			]
 		},
@@ -770,6 +874,70 @@
 			]
 		},
 		{
+			"name": "Gromin'gorn",
+			"source": "IDRotF",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Gunvald Halraggson",
 			"source": "IDRotF",
 			"entries": [
@@ -1004,6 +1172,13 @@
 					},
 					"width": 700,
 					"height": 1500
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/IDRotF/Kadroth.webp"
+					}
 				}
 			]
 		},
@@ -1180,6 +1355,13 @@
 					"width": 606,
 					"height": 1000,
 					"credit": "Tomas Giorello"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/IDRotF/Lonelywood%20Banshee.webp"
+					}
 				}
 			]
 		},
@@ -1480,6 +1662,13 @@
 					},
 					"width": 942,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/IDRotF/Snowy%20Owlbear.webp"
+					}
 				}
 			]
 		},
@@ -1590,6 +1779,23 @@
 					},
 					"width": 605,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Tribal Warrior Spore Servant",
+			"source": "IDRotF",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Tribal warriors live beyond civilization, most often subsisting on fishing and hunting. Each tribe acts in accordance with the wishes of its chief, who is the greatest or oldest warrior of the tribe or a tribe member blessed by the gods."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1809,6 +2015,13 @@
 					},
 					"width": 651,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/IDRotF/Young%20Griffon%20(Medium).webp"
+					}
 				}
 			]
 		},
@@ -1832,6 +2045,13 @@
 					},
 					"width": 651,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/IDRotF/Young%20Griffon%20(Small).webp"
+					}
 				}
 			]
 		},
@@ -1855,6 +2075,13 @@
 					},
 					"width": 651,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/IDRotF/Young%20Griffon%20(Tiny).webp"
+					}
 				}
 			]
 		}

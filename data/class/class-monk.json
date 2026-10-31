@@ -906,7 +906,7 @@
 			"name": "Shadow Arts",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -918,7 +918,7 @@
 			"name": "Way of Shadow",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -926,7 +926,7 @@
 				"Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadow dancers, and they serve as spies and assassins. Sometimes the members of a ninja monastery are family members, forming a clan sworn to secrecy about their arts and missions. Other monasteries are more like thieves' guilds, hiring out their services to nobles, rich merchants, or anyone else who can pay their fees. Regardless of their methods, the heads of these monasteries expect the unquestioning obedience of their students.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Shadow Arts|Monk|XPHB|Shadow|PHB|3|PHB"
+					"subclassFeature": "Shadow Arts|Monk|PHB|Shadow|PHB|3|PHB"
 				}
 			]
 		},
@@ -934,7 +934,7 @@
 			"name": "Shadow Step",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -946,7 +946,7 @@
 			"name": "Cloak of Shadows",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -958,7 +958,7 @@
 			"name": "Opportunist",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -970,7 +970,7 @@
 			"name": "Disciple of the Elements",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1023,7 +1023,7 @@
 			"name": "Elemental Disciplines",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1121,7 +1121,7 @@
 			"name": "Way of the Four Elements",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1130,11 +1130,11 @@
 				"Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Disciple of the Elements|Monk|XPHB|Four Elements|PHB|3|PHB"
+					"subclassFeature": "Disciple of the Elements|Monk|PHB|Four Elements|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elemental Disciplines|Monk|XPHB|Four Elements|PHB|3|PHB"
+					"subclassFeature": "Elemental Disciplines|Monk|PHB|Four Elements|PHB|3|PHB"
 				}
 			]
 		},
@@ -1142,7 +1142,7 @@
 			"name": "Extra Elemental Discipline",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1155,7 +1155,7 @@
 			"name": "Extra Elemental Discipline",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1168,7 +1168,7 @@
 			"name": "Extra Elemental Discipline",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -1181,7 +1181,7 @@
 			"name": "Open Hand Technique",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Open Hand",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1201,7 +1201,7 @@
 			"name": "Way of the Open Hand",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Open Hand",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1209,7 +1209,7 @@
 				"Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Open Hand Technique|Monk|XPHB|Open Hand|PHB|3|PHB"
+					"subclassFeature": "Open Hand Technique|Monk|PHB|Open Hand|PHB|3|PHB"
 				}
 			]
 		},
@@ -1217,7 +1217,7 @@
 			"name": "Wholeness of Body",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Open Hand",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1229,7 +1229,7 @@
 			"name": "Tranquility",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Open Hand",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1241,7 +1241,7 @@
 			"name": "Quivering Palm",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Open Hand",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -1254,7 +1254,7 @@
 			"name": "Touch of Death",
 			"source": "SCAG",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Long Death",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1266,7 +1266,7 @@
 			"name": "Way of the Long Death",
 			"source": "SCAG",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Long Death",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1274,7 +1274,7 @@
 				"Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Touch of Death|Monk|XPHB|Long Death|SCAG|3|SCAG"
+					"subclassFeature": "Touch of Death|Monk|PHB|Long Death|SCAG|3|SCAG"
 				}
 			]
 		},
@@ -1282,7 +1282,7 @@
 			"name": "Hour of Reaping",
 			"source": "SCAG",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Long Death",
 			"subclassSource": "SCAG",
 			"level": 6,
@@ -1294,7 +1294,7 @@
 			"name": "Mastery of Death",
 			"source": "SCAG",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Long Death",
 			"subclassSource": "SCAG",
 			"level": 11,
@@ -1306,7 +1306,7 @@
 			"name": "Touch of the Long Death",
 			"source": "SCAG",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Long Death",
 			"subclassSource": "SCAG",
 			"level": 17,
@@ -1318,7 +1318,7 @@
 			"name": "Bonus Proficiencies",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drunken Master",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1330,7 +1330,7 @@
 			"name": "Drunken Technique",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drunken Master",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1342,7 +1342,7 @@
 			"name": "Way of the Drunken Master",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drunken Master",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1351,11 +1351,11 @@
 				"A drunken master often enjoys playing the fool to bring gladness to the despondent or to demonstrate humility to the arrogant, but when battle is joined, the drunken master can be a maddening, masterful foe.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Monk|XPHB|Drunken Master|XGE|3|XGE"
+					"subclassFeature": "Bonus Proficiencies|Monk|PHB|Drunken Master|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Drunken Technique|Monk|XPHB|Drunken Master|XGE|3|XGE"
+					"subclassFeature": "Drunken Technique|Monk|PHB|Drunken Master|XGE|3|XGE"
 				}
 			]
 		},
@@ -1363,7 +1363,7 @@
 			"name": "Redirect Attack",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drunken Master",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1375,7 +1375,7 @@
 			"name": "Tipsy Sway",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drunken Master",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1400,7 +1400,7 @@
 			"name": "Leap to Your Feet",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drunken Master",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1408,11 +1408,11 @@
 				"When you're {@condition prone}, you can stand up by spending 5 feet of movement, rather than half your speed.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Redirect Attack|Monk|XPHB|Drunken Master|XGE|6|XGE"
+					"subclassFeature": "Redirect Attack|Monk|PHB|Drunken Master|XGE|6|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tipsy Sway|Monk|XPHB|Drunken Master|XGE|6|XGE"
+					"subclassFeature": "Tipsy Sway|Monk|PHB|Drunken Master|XGE|6|XGE"
 				}
 			]
 		},
@@ -1420,7 +1420,7 @@
 			"name": "Drunkard's Luck",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drunken Master",
 			"subclassSource": "XGE",
 			"level": 11,
@@ -1432,7 +1432,7 @@
 			"name": "Intoxicated Frenzy",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drunken Master",
 			"subclassSource": "XGE",
 			"level": 17,
@@ -1444,7 +1444,7 @@
 			"name": "Kensei's Shot",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Kensei",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1456,7 +1456,7 @@
 			"name": "Way of the Kensei",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Kensei",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1469,7 +1469,7 @@
 			"name": "Path of the Kensei",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Kensei",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1508,7 +1508,7 @@
 			"name": "Agile Parry",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Kensei",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1516,15 +1516,15 @@
 				"If you make an unarmed strike as part of the {@action Attack} action on your turn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't {@condition incapacitated}.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Kensei's Shot|Monk|XPHB|Kensei|XGE|3|XGE"
+					"subclassFeature": "Kensei's Shot|Monk|PHB|Kensei|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Way of the Kensei|Monk|XPHB|Kensei|XGE|3|XGE"
+					"subclassFeature": "Way of the Kensei|Monk|PHB|Kensei|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Path of the Kensei|Monk|XPHB|Kensei|XGE|3|XGE"
+					"subclassFeature": "Path of the Kensei|Monk|PHB|Kensei|XGE|3|XGE"
 				}
 			]
 		},
@@ -1532,7 +1532,7 @@
 			"name": "One with the Blade",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Kensei",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1558,7 +1558,7 @@
 			"name": "Sharpen the Blade",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Kensei",
 			"subclassSource": "XGE",
 			"level": 11,
@@ -1570,7 +1570,7 @@
 			"name": "Unerring Accuracy",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Kensei",
 			"subclassSource": "XGE",
 			"level": 17,
@@ -1582,7 +1582,7 @@
 			"name": "Radiant Sun Bolt",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Sun Soul",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1596,7 +1596,7 @@
 			"name": "Way of the Sun Soul",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Sun Soul",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1604,7 +1604,7 @@
 				"Monks of the Way of the Sun Soul learn to channel their life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Radiant Sun Bolt|Monk|XPHB|Sun Soul|XGE|3|XGE"
+					"subclassFeature": "Radiant Sun Bolt|Monk|PHB|Sun Soul|XGE|3|XGE"
 				}
 			]
 		},
@@ -1612,7 +1612,7 @@
 			"name": "Searing Arc Strike",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Sun Soul",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1625,7 +1625,7 @@
 			"name": "Searing Sunburst",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Sun Soul",
 			"subclassSource": "XGE",
 			"level": 11,
@@ -1639,7 +1639,7 @@
 			"name": "Sun Shield",
 			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Sun Soul",
 			"subclassSource": "XGE",
 			"level": 17,
@@ -1652,7 +1652,7 @@
 			"name": "Hand of Harm",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mercy",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1665,7 +1665,7 @@
 			"name": "Hand of Healing",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mercy",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1679,7 +1679,7 @@
 			"name": "Implements of Mercy",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mercy",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1731,7 +1731,7 @@
 			"name": "Way of Mercy",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mercy",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1741,15 +1741,15 @@
 				"The walkers of this way usually don robes with deep cowls, and they often conceal their faces with masks, presenting themselves as the faceless bringers of life and death.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hand of Harm|Monk|XPHB|Mercy|TCE|3|TCE"
+					"subclassFeature": "Hand of Harm|Monk|PHB|Mercy|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hand of Healing|Monk|XPHB|Mercy|TCE|3|TCE"
+					"subclassFeature": "Hand of Healing|Monk|PHB|Mercy|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Implements of Mercy|Monk|XPHB|Mercy|TCE|3|TCE"
+					"subclassFeature": "Implements of Mercy|Monk|PHB|Mercy|TCE|3|TCE"
 				}
 			]
 		},
@@ -1757,7 +1757,7 @@
 			"name": "Physician's Touch",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mercy",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1772,7 +1772,7 @@
 			"name": "Flurry of Healing and Harm",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mercy",
 			"subclassSource": "TCE",
 			"level": 11,
@@ -1786,7 +1786,7 @@
 			"name": "Hand of Ultimate Mercy",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mercy",
 			"subclassSource": "TCE",
 			"level": 17,
@@ -1800,7 +1800,7 @@
 			"name": "Arms of the Astral Self",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Self",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1824,7 +1824,7 @@
 			"name": "Forms of Your Astral Self",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Self",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1837,7 +1837,7 @@
 			"name": "Way of the Astral Self",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Self",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1845,11 +1845,11 @@
 				"A monk who follows the Way of the Astral Self believes their body is an illusion. They see their ki as a representation of their true form, an astral self. This astral self has the capacity to be a force of order or disorder, with some monasteries training students to use their power to protect the weak and other instructing aspirants in how to manifest their true selves in service to the mighty.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arms of the Astral Self|Monk|XPHB|Astral Self|TCE|3|TCE"
+					"subclassFeature": "Arms of the Astral Self|Monk|PHB|Astral Self|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Forms of Your Astral Self|Monk|XPHB|Astral Self|TCE|3|TCE"
+					"subclassFeature": "Forms of Your Astral Self|Monk|PHB|Astral Self|TCE|3|TCE"
 				}
 			]
 		},
@@ -1857,7 +1857,7 @@
 			"name": "Visage of the Astral Self",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Self",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1893,7 +1893,7 @@
 			"name": "Body of the Astral Self",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Self",
 			"subclassSource": "TCE",
 			"level": 11,
@@ -1921,7 +1921,7 @@
 			"name": "Awakened Astral Self",
 			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Self",
 			"subclassSource": "TCE",
 			"level": 17,
@@ -1949,7 +1949,7 @@
 			"name": "Breath of the Dragon",
 			"source": "FTD",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ascendant Dragon",
 			"subclassSource": "FTD",
 			"level": 3,
@@ -1964,7 +1964,7 @@
 			"name": "Draconic Disciple",
 			"source": "FTD",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ascendant Dragon",
 			"subclassSource": "FTD",
 			"level": 3,
@@ -1998,7 +1998,7 @@
 			"name": "Way of the Ascendant Dragon",
 			"source": "FTD",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ascendant Dragon",
 			"subclassSource": "FTD",
 			"level": 3,
@@ -2045,11 +2045,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Breath of the Dragon|Monk|XPHB|Ascendant Dragon|FTD|3|FTD"
+					"subclassFeature": "Breath of the Dragon|Monk|PHB|Ascendant Dragon|FTD|3|FTD"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Draconic Disciple|Monk|XPHB|Ascendant Dragon|FTD|3|FTD"
+					"subclassFeature": "Draconic Disciple|Monk|PHB|Ascendant Dragon|FTD|3|FTD"
 				}
 			]
 		},
@@ -2057,7 +2057,7 @@
 			"name": "Wings Unfurled",
 			"source": "FTD",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ascendant Dragon",
 			"subclassSource": "FTD",
 			"level": 6,
@@ -2071,7 +2071,7 @@
 			"name": "Aspect of the Wyrm",
 			"source": "FTD",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ascendant Dragon",
 			"subclassSource": "FTD",
 			"level": 11,
@@ -2101,7 +2101,7 @@
 			"name": "Ascendant Aspect",
 			"source": "FTD",
 			"className": "Monk",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ascendant Dragon",
 			"subclassSource": "FTD",
 			"level": 17,
@@ -2134,283 +2134,215 @@
 	],
 	"subclass": [
 		{
-			"name": "Way of Shadow",
 			"shortName": "Shadow",
-			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Way of Shadow",
-				"source": "PHB",
-				"shortName": "Shadow",
-				"className": "Monk",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"minor illusion#c"
+						]
+					},
+					"innate": {
+						"3": {
+							"resource": {
+								"2": [
+									"darkness",
+									"darkvision",
+									"pass without trace",
+									"silence"
+								]
+							}
+						}
+					},
+					"resourceName": "Ki",
+					"ability": "wis"
 				}
-			},
+			],
+			"name": "Way of Shadow",
+			"source": "PHB",
 			"subclassFeatures": [
-				"Way of Shadow|Monk|XPHB|Shadow|PHB|3|PHB",
-				"Shadow Step|Monk|XPHB|Shadow|PHB|6|PHB",
-				"Cloak of Shadows|Monk|XPHB|Shadow|PHB|11|PHB",
-				"Opportunist|Monk|XPHB|Shadow|PHB|17|PHB"
+				"Way of Shadow|Monk|PHB|Shadow|PHB|3|PHB",
+				"Shadow Step|Monk|PHB|Shadow|PHB|6|PHB",
+				"Cloak of Shadows|Monk|PHB|Shadow|PHB|11|PHB",
+				"Opportunist|Monk|PHB|Shadow|PHB|17|PHB"
 			]
 		},
 		{
-			"name": "Way of the Four Elements",
 			"shortName": "Four Elements",
-			"source": "PHB",
 			"className": "Monk",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Way of the Four Elements",
-				"source": "PHB",
-				"shortName": "Four Elements",
-				"className": "Monk",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"spellcastingAbility": "wis",
+			"optionalfeatureProgression": [
+				{
+					"name": "Elemental Disciplines",
+					"featureType": [
+						"ED"
+					],
+					"progression": {
+						"3": 2,
+						"6": 3,
+						"11": 4,
+						"17": 5
+					},
+					"required": {
+						"3": [
+							"Elemental Attunement|PHB"
+						]
+					}
 				}
-			},
+			],
+			"name": "Way of the Four Elements",
+			"source": "PHB",
 			"subclassFeatures": [
-				"Way of the Four Elements|Monk|XPHB|Four Elements|PHB|3|PHB",
-				"Extra Elemental Discipline|Monk|XPHB|Four Elements|PHB|6|PHB",
-				"Extra Elemental Discipline|Monk|XPHB|Four Elements|PHB|11|PHB",
-				"Extra Elemental Discipline|Monk|XPHB|Four Elements|PHB|17|PHB"
+				"Way of the Four Elements|Monk|PHB|Four Elements|PHB|3|PHB",
+				"Extra Elemental Discipline|Monk|PHB|Four Elements|PHB|6|PHB",
+				"Extra Elemental Discipline|Monk|PHB|Four Elements|PHB|11|PHB",
+				"Extra Elemental Discipline|Monk|PHB|Four Elements|PHB|17|PHB"
 			]
 		},
 		{
-			"name": "Way of the Open Hand",
 			"shortName": "Open Hand",
+			"className": "Monk",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"innate": {
+						"11": {
+							"daily": {
+								"1": [
+									"sanctuary"
+								]
+							}
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"name": "Way of the Open Hand",
 			"source": "PHB",
-			"className": "Monk",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Way of the Open Hand",
-				"source": "PHB",
-				"shortName": "Open Hand",
-				"className": "Monk",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Way of the Open Hand|Monk|XPHB|Open Hand|PHB|3|PHB",
-				"Wholeness of Body|Monk|XPHB|Open Hand|PHB|6|PHB",
-				"Tranquility|Monk|XPHB|Open Hand|PHB|11|PHB",
-				"Quivering Palm|Monk|XPHB|Open Hand|PHB|17|PHB"
+				"Way of the Open Hand|Monk|PHB|Open Hand|PHB|3|PHB",
+				"Wholeness of Body|Monk|PHB|Open Hand|PHB|6|PHB",
+				"Tranquility|Monk|PHB|Open Hand|PHB|11|PHB",
+				"Quivering Palm|Monk|PHB|Open Hand|PHB|17|PHB"
 			]
 		},
 		{
-			"name": "Way of the Long Death",
 			"shortName": "Long Death",
+			"className": "Monk",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Way of the Long Death",
 			"source": "SCAG",
-			"className": "Monk",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Way of the Long Death",
-				"source": "SCAG",
-				"shortName": "Long Death",
-				"className": "Monk",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Way of the Long Death|Monk|XPHB|Long Death|SCAG|3|SCAG",
-				"Hour of Reaping|Monk|XPHB|Long Death|SCAG|6|SCAG",
-				"Mastery of Death|Monk|XPHB|Long Death|SCAG|11|SCAG",
-				"Touch of the Long Death|Monk|XPHB|Long Death|SCAG|17|SCAG"
+				"Way of the Long Death|Monk|PHB|Long Death|SCAG|3|SCAG",
+				"Hour of Reaping|Monk|PHB|Long Death|SCAG|6|SCAG",
+				"Mastery of Death|Monk|PHB|Long Death|SCAG|11|SCAG",
+				"Touch of the Long Death|Monk|PHB|Long Death|SCAG|17|SCAG"
 			]
 		},
 		{
-			"name": "Way of the Drunken Master",
 			"shortName": "Drunken Master",
-			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Way of the Drunken Master",
-				"source": "XGE",
-				"shortName": "Drunken Master",
-				"className": "Monk",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Way of the Drunken Master",
+			"source": "XGE",
 			"subclassFeatures": [
-				"Way of the Drunken Master|Monk|XPHB|Drunken Master|XGE|3|XGE",
-				"Leap to Your Feet|Monk|XPHB|Drunken Master|XGE|6|XGE",
-				"Drunkard's Luck|Monk|XPHB|Drunken Master|XGE|11|XGE",
-				"Intoxicated Frenzy|Monk|XPHB|Drunken Master|XGE|17|XGE"
+				"Way of the Drunken Master|Monk|PHB|Drunken Master|XGE|3|XGE",
+				"Leap to Your Feet|Monk|PHB|Drunken Master|XGE|6|XGE",
+				"Drunkard's Luck|Monk|PHB|Drunken Master|XGE|11|XGE",
+				"Intoxicated Frenzy|Monk|PHB|Drunken Master|XGE|17|XGE"
 			]
 		},
 		{
-			"name": "Way of the Kensei",
 			"shortName": "Kensei",
-			"source": "XGE",
 			"className": "Monk",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Way of the Kensei",
-				"source": "XGE",
-				"shortName": "Kensei",
-				"className": "Monk",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Way of the Kensei",
+			"source": "XGE",
 			"subclassFeatures": [
-				"Agile Parry|Monk|XPHB|Kensei|XGE|3|XGE",
-				"One with the Blade|Monk|XPHB|Kensei|XGE|6|XGE",
-				"Sharpen the Blade|Monk|XPHB|Kensei|XGE|11|XGE",
-				"Unerring Accuracy|Monk|XPHB|Kensei|XGE|17|XGE"
+				"Agile Parry|Monk|PHB|Kensei|XGE|3|XGE",
+				"One with the Blade|Monk|PHB|Kensei|XGE|6|XGE",
+				"Sharpen the Blade|Monk|PHB|Kensei|XGE|11|XGE",
+				"Unerring Accuracy|Monk|PHB|Kensei|XGE|17|XGE"
 			]
 		},
 		{
-			"name": "Way of the Sun Soul",
 			"shortName": "Sun Soul",
+			"className": "Monk",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"innate": {
+						"6": {
+							"resource": {
+								"2": [
+									"burning hands"
+								]
+							}
+						}
+					},
+					"resourceName": "Ki",
+					"ability": "wis"
+				}
+			],
+			"name": "Way of the Sun Soul",
 			"source": "XGE",
-			"className": "Monk",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Way of the Sun Soul",
-				"source": "XGE",
-				"shortName": "Sun Soul",
-				"className": "Monk",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Way of the Sun Soul|Monk|XPHB|Sun Soul|XGE|3|XGE",
-				"Searing Arc Strike|Monk|XPHB|Sun Soul|XGE|6|XGE",
-				"Searing Sunburst|Monk|XPHB|Sun Soul|XGE|11|XGE",
-				"Sun Shield|Monk|XPHB|Sun Soul|XGE|17|XGE"
+				"Way of the Sun Soul|Monk|PHB|Sun Soul|XGE|3|XGE",
+				"Searing Arc Strike|Monk|PHB|Sun Soul|XGE|6|XGE",
+				"Searing Sunburst|Monk|PHB|Sun Soul|XGE|11|XGE",
+				"Sun Shield|Monk|PHB|Sun Soul|XGE|17|XGE"
 			]
 		},
 		{
-			"name": "Way of Mercy",
 			"shortName": "Mercy",
-			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Way of Mercy",
-				"source": "TCE",
-				"shortName": "Mercy",
-				"className": "Monk",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Way of Mercy",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Way of Mercy|Monk|XPHB|Mercy|TCE|3|TCE",
-				"Physician's Touch|Monk|XPHB|Mercy|TCE|6|TCE",
-				"Flurry of Healing and Harm|Monk|XPHB|Mercy|TCE|11|TCE",
-				"Hand of Ultimate Mercy|Monk|XPHB|Mercy|TCE|17|TCE"
+				"Way of Mercy|Monk|PHB|Mercy|TCE|3|TCE",
+				"Physician's Touch|Monk|PHB|Mercy|TCE|6|TCE",
+				"Flurry of Healing and Harm|Monk|PHB|Mercy|TCE|11|TCE",
+				"Hand of Ultimate Mercy|Monk|PHB|Mercy|TCE|17|TCE"
 			]
 		},
 		{
-			"name": "Way of the Astral Self",
 			"shortName": "Astral Self",
-			"source": "TCE",
 			"className": "Monk",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Way of the Astral Self",
-				"source": "TCE",
-				"shortName": "Astral Self",
-				"className": "Monk",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Way of the Astral Self",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Way of the Astral Self|Monk|XPHB|Astral Self|TCE|3|TCE",
-				"Visage of the Astral Self|Monk|XPHB|Astral Self|TCE|6|TCE",
-				"Body of the Astral Self|Monk|XPHB|Astral Self|TCE|11|TCE",
-				"Awakened Astral Self|Monk|XPHB|Astral Self|TCE|17|TCE"
+				"Way of the Astral Self|Monk|PHB|Astral Self|TCE|3|TCE",
+				"Visage of the Astral Self|Monk|PHB|Astral Self|TCE|6|TCE",
+				"Body of the Astral Self|Monk|PHB|Astral Self|TCE|11|TCE",
+				"Awakened Astral Self|Monk|PHB|Astral Self|TCE|17|TCE"
 			]
 		},
 		{
-			"name": "Way of the Ascendant Dragon",
 			"shortName": "Ascendant Dragon",
-			"source": "FTD",
 			"className": "Monk",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Way of the Ascendant Dragon",
-				"source": "FTD",
-				"shortName": "Ascendant Dragon",
-				"className": "Monk",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Way of the Ascendant Dragon",
+			"source": "FTD",
 			"subclassFeatures": [
-				"Way of the Ascendant Dragon|Monk|XPHB|Ascendant Dragon|FTD|3|FTD",
-				"Wings Unfurled|Monk|XPHB|Ascendant Dragon|FTD|6|FTD",
-				"Aspect of the Wyrm|Monk|XPHB|Ascendant Dragon|FTD|11|FTD",
-				"Ascendant Aspect|Monk|XPHB|Ascendant Dragon|FTD|17|FTD"
+				"Way of the Ascendant Dragon|Monk|PHB|Ascendant Dragon|FTD|3|FTD",
+				"Wings Unfurled|Monk|PHB|Ascendant Dragon|FTD|6|FTD",
+				"Aspect of the Wyrm|Monk|PHB|Ascendant Dragon|FTD|11|FTD",
+				"Ascendant Aspect|Monk|PHB|Ascendant Dragon|FTD|17|FTD"
 			]
 		}
 	]

@@ -42,6 +42,19 @@
 			]
 		},
 		{
+			"name": "Myla",
+			"source": "DoSI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Kobolds are reptilian Humanoids that often revere dragons. Physically weak, they find strength in numbers.",
+						"A few kobolds are born with leathery wings and can fly, which is often seen as a gift from dragon gods."
+					]
+				}
+			]
+		},
+		{
 			"name": "Runara",
 			"source": "DoSI",
 			"entries": [
@@ -74,6 +87,13 @@
 					"width": 1700,
 					"height": 1176,
 					"credit": "David Auden Nash"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/DoSI/Runara.webp"
+					}
 				}
 			]
 		},

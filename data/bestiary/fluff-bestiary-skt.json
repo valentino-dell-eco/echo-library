@@ -1,6 +1,23 @@
 {
 	"monsterFluff": [
 		{
+			"name": "Alastrah",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Augrek Brighthelm",
 			"source": "SKT",
 			"entries": [
@@ -42,6 +59,30 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Augrek%20Brighthelm.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Axe of Mirabar Soldier",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Veterans are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -87,6 +128,77 @@
 					},
 					"width": 809,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Beldora.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Braxow",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -198,6 +310,281 @@
 			]
 		},
 		{
+			"name": "Chief Kartha-Kaya",
+			"source": "SKT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Chief%20Kartha-Kaya.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Cinderhild",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Ogres are as lazy of mind as they are strong of body. They live by raiding, scavenging, and killing for food and pleasure. The average adult specimen stands between 9 and 10 feet tall and weighs close to a thousand pounds.",
+								{
+									"type": "entries",
+									"name": "Furious Tempers",
+									"entries": [
+										"Ogres are notorious for their quick tempers, which flare at the smallest perceived offense. Insults and name-calling can rouse an ogre's wrath in an instant-as can stealing from it, bumping, jabbing, or prodding it, laughing, making faces, or simply looking at it the wrong way. When its rage is incited, an ogre lashes out in a frustrated tantrum until it runs out of objects or creatures to smash."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Gruesome Gluttons",
+									"entries": [
+										"Ogres eat almost anything, but they especially enjoy the taste of dwarves, halflings, and elves. When they can, they combine dinner with pleasure, chasing scurrying victims around before eating them raw. If enough of its victim remains after the ogre has gorged itself, it might make a loincloth from its quarry's skin and a necklace from its leftover bones. This macabre crafting is the height of ogre culture."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Greedy Collectors",
+									"entries": [
+										"An ogre's eyes glitter with avarice when it sees the possessions of others. Ogres carry rough sacks on their raids, which they fill with fabulous \"treasure\" taken from their victims. This might include a collection of battered helmets, a moldy wheel of cheese, a rough patch of animal fur fastened like a cloak, or a squealing, mud-spattered pig. Ogres also delight in the gleam of gold and silver, and they will fight one another over small handfuls of coins. Smarter creatures can earn an ogre's trust by offering it gold or a weapon forged for a creature of its size."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Legendary Stupidity",
+									"entries": [
+										"Few ogres can count to ten, even with their fingers in front of them. Most speak only a rudimentary form of Giant and know a smattering of Common words. Ogres believe what they are told and are easy to fool or confuse, but they break things they don't understand. Silver-tongued tricksters who test their talents on these savages typically end up eating their eloquent words-and then being eaten in turn."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Primitive Wanderers",
+									"entries": [
+										"Ogres clothe themselves in animal pelts and uproot trees for use as crude tools and weapons. They create stone-tipped javelins for hunting. When they establish lairs, they settle near the rural edges of civilized lands, taking advantage of poorly protected livestock, undefended larders, and unwary farmers.",
+										"An ogre sleeps in caves, animal dens, or under trees until it finds a cabin or isolated farmhouse, whereupon it kills the inhabitants and lairs there. Whenever it is bored or hungry, an ogre ventures out from its lair, attacking anything that crosses its path. Only after an ogre has depleted an area of food does it move on."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ogre Gangs",
+									"entries": [
+										"Ogres sometimes band together in small, nomadic groups, but they lack a true sense of tribalism. When bands of ogres meet, one might attempt to capture the members of the other group to increase its numbers. However, ogre bands are just as likely to trade members freely, especially if the welcoming band is temporarily flush with food and weapons.",
+										"Whenever possible, ogres gang up with other monsters to bully or prey on creatures weaker than themselves. They associate freely with goblinoids, orcs, and trolls, and practically worship giants. In the giants' complex social structure (known as the ordning), ogres rank beneath the lowest giants in status. As a result, an ogre will do nearly anything a giant asks."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Worst. Dancers. Ever."
+									],
+									"by": "Riddlefiddle the Satyr, on ogres"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Cinderhild.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Claugiyliamatar",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Dragons",
+					"entries": [
+						"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+						"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+						"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+						"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+						{
+							"type": "table",
+							"caption": "Dragon Age Categories",
+							"colLabels": [
+								"Category",
+								"Size",
+								"Age Range"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Wyrmling",
+									"Medium",
+									"5 years or less"
+								],
+								[
+									"Young",
+									"Large",
+									"6–100 years"
+								],
+								[
+									"Adult",
+									"Huge",
+									"101–800 years"
+								],
+								[
+									"Ancient",
+									"Gargantuan",
+									"801 years or more"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cog",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Count Thullen",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Countess Sansuri",
 			"source": "SKT",
 			"entries": [
@@ -295,6 +682,13 @@
 					},
 					"width": 537,
 					"height": 706
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Countess%20Sansuri.webp"
+					}
 				}
 			]
 		},
@@ -325,6 +719,122 @@
 					},
 					"width": 756,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Cressaro",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cryovain",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Dragons",
+					"entries": [
+						"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+						"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+						"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+						"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+						{
+							"type": "table",
+							"caption": "Dragon Age Categories",
+							"colLabels": [
+								"Category",
+								"Size",
+								"Age Range"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Wyrmling",
+									"Medium",
+									"5 years or less"
+								],
+								[
+									"Young",
+									"Large",
+									"6–100 years"
+								],
+								[
+									"Adult",
+									"Huge",
+									"101–800 years"
+								],
+								[
+									"Ancient",
+									"Gargantuan",
+									"801 years or more"
+								]
+							]
+						}
+					]
 				}
 			]
 		},
@@ -370,6 +880,13 @@
 					},
 					"width": 859,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Darathra%20Shendrel.webp"
+					}
 				}
 			]
 		},
@@ -415,6 +932,141 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Darz%20Helgar.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Deadstone Cleft Stone Giant",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Duchess Brimskarda",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -561,6 +1213,147 @@
 					},
 					"width": 773,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Duvessa%20Shane.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Eigeron's Ghost",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A ghost is the soul of a once-living creature, bound to haunt a specific location, creature, or object that held significance to it in its life.",
+								{
+									"type": "entries",
+									"name": "Unfinished Business",
+									"entries": [
+										"A ghost yearns to complete some unresolved task from its life. It might seek to avenge its own death, fulfill an oath, or relay a message to a loved one. A ghost might not realize that it has died and continue the everyday routine of its life. Others are driven by wickedness or spite, as with a ghost that refuses to rest until every member of a certain family or organization is dead.",
+										"The surest way to rid an area of a ghost is to resolve its unfinished business. A ghost can be destroyed more easily by invoking a weakness tied to its former life. The ghost of a person tortured to death might be killed again by the implements of that torture. The ghost of a gardener might become more vulnerable when exposed to a potent floral fragrance."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ghostly Manifestations",
+									"entries": [
+										"Sensations of profound sadness, loneliness, and unfulfilled yearning emanate from places where ghostly hauntings occur. Strange sounds or unnatural silences create an unsettling atmosphere. Cold spots settle in rooms that have roaring fires. A choking stench might seep into the area, inanimate objects might move of their own accord, and corpses might rise from the grave. The ghost has no control over these manifestations; they simply occur."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A ghost doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Eigeron's%20Ghost.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Elister",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Priests bring the teachings of their gods to the common folk. They are the spiritual leaders of temples and shrines and often hold positions of influence in their communities. Evil priests might work openly under a tyrant, or they might be the leaders of religious sects hidden in the shadows of good society, overseeing depraved rites. A priest typically has one or more acolytes to help with religious ceremonies and other sacred duties."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Felbarren Dwarf",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Felgolos",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Dragons",
+					"entries": [
+						"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+						"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+						"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+						"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+						{
+							"type": "table",
+							"caption": "Dragon Age Categories",
+							"colLabels": [
+								"Category",
+								"Size",
+								"Age Range"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Wyrmling",
+									"Medium",
+									"5 years or less"
+								],
+								[
+									"Young",
+									"Large",
+									"6–100 years"
+								],
+								[
+									"Adult",
+									"Huge",
+									"101–800 years"
+								],
+								[
+									"Ancient",
+									"Gargantuan",
+									"801 years or more"
+								]
+							]
+						}
+					]
 				}
 			]
 		},
@@ -606,6 +1399,47 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Ghelryn%20Foehammer.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Raven",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A giant vulture has advanced intelligence and a malevolent bent. Unlike its smaller kin, it will attack a wounded creature to hasten its end. Giant vultures have been known to haunt a thirsty, starving creature for days to enjoy its suffering."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Great Chief Halric Bonesnapper",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Hailing from uncivilized lands, unpredictable berserkers come together in war parties and seek conflict wherever they can find it."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -697,6 +1531,83 @@
 			]
 		},
 		{
+			"name": "Hellenhild",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Huge Stone Golem",
+			"source": "SKT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Huge%20Stone%20Golem.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Hulking Crab",
 			"source": "SKT",
 			"entries": [
@@ -707,6 +1618,191 @@
 							"type": "entries",
 							"entries": [
 								"Much bigger than a giant crab, a hulking crab has a body 15 to 20 feet in diameter. Its shell is often covered with coral, anemones, ship wreckage, or some other sort of detritus salvaged from the ocean floor."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hydia Moonmusk",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Gladiators battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-or-death struggle, while others are professional duelists who command huge fees but rarely fight to the death."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ice Spider",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"To snare its prey, a giant spider spins elaborate webs or shoots sticky strands of webbing from its abdomen. Giant spiders are most commonly found underground, making their lairs on ceilings or in dark, web-filled crevices. Such lairs are often festooned with web cocoons holding past victims."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Ice%20Spider.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ice Spider Queen",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"To snare its prey, a giant spider spins elaborate webs or shoots sticky strands of webbing from its abdomen. Giant spiders are most commonly found underground, making their lairs on ceilings or in dark, web-filled crevices. Such lairs are often festooned with web cocoons holding past victims."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Ice%20Spider%20Queen.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Imperator Uthor",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Isendraug",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Dragons",
+					"entries": [
+						"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+						"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+						"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+						"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+						{
+							"type": "table",
+							"caption": "Dragon Age Categories",
+							"colLabels": [
+								"Category",
+								"Size",
+								"Age Range"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Wyrmling",
+									"Medium",
+									"5 years or less"
+								],
+								[
+									"Young",
+									"Large",
+									"6–100 years"
+								],
+								[
+									"Adult",
+									"Huge",
+									"101–800 years"
+								],
+								[
+									"Ancient",
+									"Gargantuan",
+									"801 years or more"
+								]
 							]
 						}
 					]
@@ -973,6 +2069,66 @@
 			]
 		},
 		{
+			"name": "Jasper Dimmerchasm",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Veterans are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Kaaltar",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Kella Darkhope",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Kella%20Darkhope.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Khaspere Drylund",
 			"source": "SKT",
 			"images": [
@@ -984,6 +2140,13 @@
 					},
 					"width": 964,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Khaspere%20Drylund.webp"
+					}
 				}
 			]
 		},
@@ -1226,6 +2389,23 @@
 			]
 		},
 		{
+			"name": "Knight of the Mithral Shield",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Lifferlas",
 			"source": "SKT",
 			"entries": [
@@ -1267,6 +2447,13 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Lifferlas.webp"
+					}
 				}
 			]
 		},
@@ -1331,6 +2518,13 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Markham%20Southwell.webp"
+					}
 				}
 			]
 		},
@@ -1376,6 +2570,111 @@
 					},
 					"width": 1000,
 					"height": 894
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Miros%20Xelbrin.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mirran",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Morak Ur'gray",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Narbeck Horn",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1421,6 +2720,13 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Narth%20Tezrin.webp"
+					}
 				}
 			]
 		},
@@ -1466,6 +2772,240 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Naxene%20Drathkala.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Nimir",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Noori",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Hailing from uncivilized lands, unpredictable berserkers come together in war parties and seek conflict wherever they can find it."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Nym",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ogre Goblin Hucker",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Ogres are as lazy of mind as they are strong of body. They live by raiding, scavenging, and killing for food and pleasure. The average adult specimen stands between 9 and 10 feet tall and weighs close to a thousand pounds.",
+								{
+									"type": "entries",
+									"name": "Furious Tempers",
+									"entries": [
+										"Ogres are notorious for their quick tempers, which flare at the smallest perceived offense. Insults and name-calling can rouse an ogre's wrath in an instant-as can stealing from it, bumping, jabbing, or prodding it, laughing, making faces, or simply looking at it the wrong way. When its rage is incited, an ogre lashes out in a frustrated tantrum until it runs out of objects or creatures to smash."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Gruesome Gluttons",
+									"entries": [
+										"Ogres eat almost anything, but they especially enjoy the taste of dwarves, halflings, and elves. When they can, they combine dinner with pleasure, chasing scurrying victims around before eating them raw. If enough of its victim remains after the ogre has gorged itself, it might make a loincloth from its quarry's skin and a necklace from its leftover bones. This macabre crafting is the height of ogre culture."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Greedy Collectors",
+									"entries": [
+										"An ogre's eyes glitter with avarice when it sees the possessions of others. Ogres carry rough sacks on their raids, which they fill with fabulous \"treasure\" taken from their victims. This might include a collection of battered helmets, a moldy wheel of cheese, a rough patch of animal fur fastened like a cloak, or a squealing, mud-spattered pig. Ogres also delight in the gleam of gold and silver, and they will fight one another over small handfuls of coins. Smarter creatures can earn an ogre's trust by offering it gold or a weapon forged for a creature of its size."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Legendary Stupidity",
+									"entries": [
+										"Few ogres can count to ten, even with their fingers in front of them. Most speak only a rudimentary form of Giant and know a smattering of Common words. Ogres believe what they are told and are easy to fool or confuse, but they break things they don't understand. Silver-tongued tricksters who test their talents on these savages typically end up eating their eloquent words-and then being eaten in turn."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Primitive Wanderers",
+									"entries": [
+										"Ogres clothe themselves in animal pelts and uproot trees for use as crude tools and weapons. They create stone-tipped javelins for hunting. When they establish lairs, they settle near the rural edges of civilized lands, taking advantage of poorly protected livestock, undefended larders, and unwary farmers.",
+										"An ogre sleeps in caves, animal dens, or under trees until it finds a cabin or isolated farmhouse, whereupon it kills the inhabitants and lairs there. Whenever it is bored or hungry, an ogre ventures out from its lair, attacking anything that crosses its path. Only after an ogre has depleted an area of food does it move on."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ogre Gangs",
+									"entries": [
+										"Ogres sometimes band together in small, nomadic groups, but they lack a true sense of tribalism. When bands of ogres meet, one might attempt to capture the members of the other group to increase its numbers. However, ogre bands are just as likely to trade members freely, especially if the welcoming band is temporarily flush with food and weapons.",
+										"Whenever possible, ogres gang up with other monsters to bully or prey on creatures weaker than themselves. They associate freely with goblinoids, orcs, and trolls, and practically worship giants. In the giants' complex social structure (known as the ordning), ogres rank beneath the lowest giants in status. As a result, an ogre will do nearly anything a giant asks."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Worst. Dancers. Ever."
+									],
+									"by": "Riddlefiddle the Satyr, on ogres"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Ogre%20Goblin%20Hucker.webp"
+					}
 				}
 			]
 		},
@@ -1511,6 +3051,124 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Oren%20Yogilvy.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Orlekto",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Orok",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons' lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.",
+								{
+									"type": "entries",
+									"name": "Strength in Numbers",
+									"entries": [
+										"Kobolds are egg-laying creatures. They mature quickly and can live to be \"great wyrms\" more than a century old. However, many kobolds perish before they reach the end of their first decade. Physically weak, they are easy prey for predators. This vulnerability forces them to band together. Their superior numbers can win battles against powerful adversaries, but often with massive casualties on the kobold side."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Tunnelers and Builders",
+									"entries": [
+										"Kobolds make up for their physical ineptitude with a cleverness for trap making and tunneling. Their lairs consist of low tunnels through which they move easily but which hinder larger humanoids. Kobolds also riddle their lairs with traps. The most insidious kobold traps make use of natural hazards and other creatures. A trip wire might connect to a spring-loaded trap that hurls clay pots of flesh-eating green slime or flings crates of venomous giant centipedes at intruders."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Lost God",
+									"entries": [
+										"In addition to the dragons they revere, kobolds worship a lesser god named Kurtulmak. Legends speak of how Kurtulmak served as Tiamat's vassal in the Nine Hells until Garl Glittergold, the god of gnomes, stole a trinket from the Dragon Queen's hoard. Tiamat sent Kurtulmak to retrieve the trinket, but Garl Glittergold played a trick on him, collapsing the earth and trapping the kobold god in an underground maze for eternity. For this reason, kobolds hate gnomes and pranks of any kind. Kurtulmak's most devoted worshipers dedicate themselves to finding and releasing their lost god from his prison-maze."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Orok.webp"
+					}
 				}
 			]
 		},
@@ -1556,6 +3214,13 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Othovir.webp"
+					}
 				}
 			]
 		},
@@ -1571,6 +3236,13 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Pow%20Ming.webp"
+					}
 				}
 			]
 		},
@@ -1586,6 +3258,13 @@
 					},
 					"width": 503,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Princess%20Serissa.webp"
+					}
 				}
 			]
 		},
@@ -1600,6 +3279,132 @@
 							"type": "entries",
 							"entries": [
 								"A purple wormling is a baby purple worm no more than six weeks old. Its rubbery body is 9 feet long and weighs 1,500 pounds. Its mouth and musculature aren't yet strong enough to allow the wormling to burrow through rock. The poison in its tail stinger and the acid in its gullet are still relatively weak as well. Nevertheless, the wormling is a voracious feeder and attacks just about anything it can wrap its mouth around. A wormling's gullet can hold up to four Small creatures."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Rool",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Rool.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sea Elf",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Aquatic humanoids with the upper body of a human and the lower body of a fish, merfolk adorn their skin and scales with shell decorations.",
+								"Merfolk tribes and kingdoms span the world, and their people are as varied in color, culture, and outlook as the human races of the surface. Land folk and merfolk rarely meet except by chance, though starry-eyed mariners tell tales of romance with these creatures along the shoals of faraway islands.",
+								"Merfolk lack the materials and practical means to forge weapons beneath the waves, to write books and keep lore, or to shape stone to raise buildings and cities. As a result, most live in small hunter-gatherer tribes, each of which holds unique values and creeds. Only occasionally do merfolk unite under the rule of a single leader. They do so to face a common threat or to complete a conquest. Such unifications can be the beginning of undersea kingdoms with dynasties lasting hundreds of years.",
+								{
+									"type": "entries",
+									"name": "Merfolk Settlements",
+									"entries": [
+										"Merfolk build their settlements in vast undersea caverns, mazes of coral, the ruins of sunken cities, or structures they carve from the rocky seabed. They live in water shallow enough that the passage of time can be marked by the gleam and fade of sunlight through the water. In the reefs and trenches near their settlements, merfolk harvest coral and farm the seabed, shepherding schools of fish as land-based farmers tend sheep. Only rarely do merfolk venture into the darkest depths of the ocean. In such depths and in their undersea caverns, merfolk rely on the light of bioluminescent flora and fauna, such as jellyfish, whose slow pulsing movements lend merfolk settlements an otherworldly aesthetic.",
+										"Merfolk defend their communities with spears crafted from whatever materials they can salvage from shipwrecks, beaches, and dead undersea creatures."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Sea%20Elf.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shaldoor",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
 							]
 						}
 					]
@@ -1648,6 +3453,83 @@
 					},
 					"width": 763,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Shalvus%20Martholio.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sharda",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Fanatics are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all else"
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Sharda.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shield Dwarf Guard",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Shield Dwarf Noble",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.",
+								"The noble's statistics can also be used to represent courtiers who aren't of noble birth."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Shield%20Dwarf%20Noble.webp"
+					}
 				}
 			]
 		},
@@ -1693,6 +3575,13 @@
 					},
 					"width": 773,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Sir%20Baric%20Nylef.webp"
+					}
 				}
 			]
 		},
@@ -1738,6 +3627,13 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Sirac%20of%20Suzail.webp"
+					}
 				}
 			]
 		},
@@ -1793,6 +3689,109 @@
 					},
 					"width": 698,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Stone Giant Statue",
+			"source": "SKT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Stone%20Giant%20Statue.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Tartha",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tau",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Fanatics are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all else"
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Tau.webp"
+					}
 				}
 			]
 		},
@@ -1895,6 +3894,61 @@
 			]
 		},
 		{
+			"name": "The Weevil",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades.",
+								"In addition to managing a crew of selfish malcontents, the pirate captain is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis.",
+								"More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/The%20Weevil.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Tholtz Daggerdark",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Archmages are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.",
+								"An archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Tholtz%20Daggerdark.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Tressym",
 			"source": "SKT",
 			"entries": [
@@ -1924,6 +3978,118 @@
 					},
 					"width": 1000,
 					"height": 824
+				}
+			]
+		},
+		{
+			"name": "Tug",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Turlang",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Treants are awakened trees that dwell in ancient forests. Although treants prefer to while away the days, months, and years in quiet contemplation, they fiercely protect their woodland demesnes from outside threats.",
+								{
+									"type": "entries",
+									"name": "The Sleeping Tree Awakens",
+									"entries": [
+										"A tree destined to become a treant meditates through a long cycle of seasons, living normally for decades or centuries before realizing its potential. Trees that awaken do so only under special circumstances and in places steeped with nature's magic. Treants and powerful druids can sense when a tree has the spark of potential, and they protect such trees in secret groves as they draw near the moment of their awakening. During the long process of awakening, a tree acquires face-like features in its bark, a division of the lower trunk into legs, and long branches bending downward to serve as its arms. When it is ready, the tree pulls its legs free from the clutching earth and joins its fellows in protecting its woodland home."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Legendary Guardians",
+									"entries": [
+										"After a treant awakens, it continues to grow exactly as it did when it was a tree. Treants created from the mightiest trees can reach great sizes while developing an innate magical power over plants and animals. Such treants can animate plants, using them to ensnare and trap intruders. They can call wild creatures to aid them or carry messages across great distances."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Protectors of the Wild",
+									"entries": [
+										"Even after awakening, a treant spends much of its time living as a tree. While rooted in place, a treant remains aware of its surroundings, and can perceive the effects of events taking place miles away based on subtle changes nearby.",
+										"Woodcutters who avoid culling healthy living trees and hunters who take only what they need of the forest's bounty are unlikely to arouse a treant's ire. Creatures careless with fire, those who poison the forest, and those who destroy great trees, especially a tree close to awakening, face the treant's wrath."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Turlang.webp"
+					}
 				}
 			]
 		},
@@ -1969,6 +4135,30 @@
 					},
 					"width": 727,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Urgala%20Meltimer.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Uthgardt Barbarian Leader",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Hailing from uncivilized lands, unpredictable berserkers come together in war parties and seek conflict wherever they can find it."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -2022,6 +4212,205 @@
 			]
 		},
 		{
+			"name": "Vaal",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Vaasha",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Wiri Fleagol",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Wood Elf",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Scouts are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Wood%20Elf.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Xolkin Alassandar",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades.",
+								"In addition to managing a crew of selfish malcontents, the pirate captain is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis.",
+								"More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Xolkin%20Alassandar.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Yakfolk Warrior",
 			"source": "SKT",
 			"images": [
@@ -2033,6 +4422,70 @@
 					},
 					"width": 745,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Young Cloud Giant",
+			"source": "SKT",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -2179,6 +4632,13 @@
 					},
 					"width": 773,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/SKT/Zi%20Liang.webp"
+					}
 				}
 			]
 		}

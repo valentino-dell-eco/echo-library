@@ -158,54 +158,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Andras",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "IMR",
-			"page": 31,
-			"_copy": {
-				"name": "Assassin",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the assassin",
-						"with": "Andras",
-						"flags": "i"
-					},
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Keen Hearing and Sight",
-							"entries": [
-								"Andras advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
-							]
-						}
-					},
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Shortsword",
-							"items": {
-								"name": "Shortsword",
-								"entries": [
-									"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must succeed on a {@dc 11} Constitution saving throw or be cursed with wererat {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Light Crossbow",
-							"items": {
-								"name": "Light Crossbow",
-								"entries": [
-									"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must succeed on a {@dc 11} Constitution saving throw or be cursed with wererat {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}."
-								]
-							}
-						}
-					]
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -236,25 +190,350 @@
 			"miscTags": [
 				"CUR"
 			],
-			"hasToken": true
+			"name": "Andras",
+			"source": "IMR",
+			"page": 31,
+			"referenceSources": [
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"RoT",
+				"SatO",
+				"SKT",
+				"TCE",
+				"TftYP",
+				"TftYP-AtG",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 13,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"dex": "+6",
+				"int": "+4"
+			},
+			"skill": {
+				"acrobatics": "+6",
+				"deception": "+3",
+				"perception": "+3",
+				"stealth": "+9"
+			},
+			"passive": 13,
+			"resist": [
+				"poison"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, Andras has advantage on attack rolls against any creature that hasn't taken a turn. Any hit Andras scores against a {@status surprised} creature is a critical hit."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Andras is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Andras instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Andras deals an extra 14 ({@damage 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Andras that isn't {@condition incapacitated} and Andras doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"Andras advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Andras makes two shortsword attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must succeed on a {@dc 11} Constitution saving throw or be cursed with wererat {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must succeed on a {@dc 11} Constitution saving throw or be cursed with wererat {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"light crossbow|phb",
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Andras.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Banrion",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Banrion",
 			"source": "IMR",
 			"page": 91,
-			"_copy": {
-				"name": "Unicorn",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the unicorn",
-						"with": "Banrion",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"BGDIA",
+				"GoS",
+				"IMR",
+				"KftGV",
+				"MOT",
+				"OoW",
+				"QftIS",
+				"SatO",
+				"TCE",
+				"VEoR",
+				"WBtW"
+			],
+			"size": [
+				"L"
+			],
+			"type": "celestial",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d10 + 18"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 15,
+			"int": 11,
+			"wis": 17,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"Celestial",
+				"Elvish",
+				"Sylvan",
+				"telepathy 60 ft."
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Banrion's innate spellcasting ability is Charisma (spell save {@dc 14}). Banrion can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell detect evil and good}",
+						"{@spell druidcraft}",
+						"{@spell pass without trace}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell calm emotions}",
+							"{@spell dispel evil and good}",
+							"{@spell entangle}"
+						]
+					},
+					"ability": "cha"
 				}
+			],
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If Banrion moves at least 20 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Banrion has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Banrion's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Banrion makes two attacks: one with its hooves and one with its horn."
+					]
+				},
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Horn",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Healing Touch (3/Day)",
+					"entries": [
+						"Banrion touches another creature with its horn. The target magically regains 11 ({@dice 2d8 + 2}) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target."
+					]
+				},
+				{
+					"name": "Teleport (1/Day)",
+					"entries": [
+						"Banrion magically teleports itself and up to three willing creatures it can see within 5 feet of it, along with any equipment they are wearing or carrying, to a location Banrion is familiar with, up to 1 mile away."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Hooves",
+					"entries": [
+						"Banrion makes one attack with its hooves."
+					]
+				},
+				{
+					"name": "Shimmering Shield (Costs 2 Actions)",
+					"entries": [
+						"Banrion creates a shimmering, magical field around itself or another creature it can see within 60 feet of it. The target gains a +2 bonus to AC until the end of Banrion's next turn."
+					]
+				},
+				{
+					"name": "Heal Self (Costs 3 Actions)",
+					"entries": [
+						"Banrion magically regains 11 ({@dice 2d8 + 2}) hit points."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Unicorn",
+				"source": "MM"
+			},
+			"environment": [
+				"forest"
+			],
+			"traitTags": [
+				"Charge",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"languageTags": [
+				"CE",
+				"E",
+				"S",
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"conditionInflictSpell": [
+				"restrained"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Banrion.webp"
 			},
 			"hasToken": true,
 			"hasFluff": true,
@@ -425,20 +704,6 @@
 			"hasToken": true
 		},
 		{
-			"name": "Brain in Iron",
-			"source": "IMR",
-			"page": 48,
-			"_copy": {
-				"name": "Brain in a Jar",
-				"source": "LLK",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "brain in a jar",
-						"with": "brain in iron"
-					}
-				}
-			},
 			"size": [
 				"L"
 			],
@@ -459,30 +724,131 @@
 				"walk": 20
 			},
 			"tokenCustom": true,
+			"name": "Brain in Iron",
+			"source": "IMR",
+			"page": 48,
+			"referenceSources": [
+				"IMR"
+			],
+			"hp": {
+				"average": 58,
+				"formula": "9d8 + 18"
+			},
+			"str": 1,
+			"dex": 1,
+			"con": 15,
+			"int": 19,
+			"wis": 10,
+			"cha": 15,
+			"save": {
+				"int": "+7",
+				"cha": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"necrotic",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The brain in iron's innate spellcasting ability is Intelligence (spell save {@dc 15}). It can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell detect thoughts}",
+						"{@spell mage hand}",
+						"{@spell zone of truth}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm person}",
+							"{@spell command}",
+							"{@spell hold person}"
+						],
+						"1e": [
+							"{@spell compulsion}",
+							"{@spell hold monster}",
+							"{@spell sleep} (cast at 3rd level)",
+							"{@spell Tasha's hideous laughter}"
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Detect Sentience",
+					"entries": [
+						"The brain in iron can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a {@spell mind blank} spell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The brain in iron has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mind Blast {@recharge 5}",
+					"entries": [
+						"The brain in iron magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 13 ({@damage 2d8 + 4}) psychic damage and be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"incapacitated",
+				"paralyzed",
+				"prone",
+				"unconscious"
+			],
+			"savingThrowForced": [
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Brain%20in%20Iron.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Dwarven Worker",
-			"source": "IMR",
-			"page": 15,
-			"_copy": {
-				"name": "Cultist",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Mountain Dwarf",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "cultist",
-						"with": "worker",
-						"flags": "i"
-					}
-				}
-			},
 			"action": [
 				{
 					"name": "Pick or Hammer",
@@ -501,19 +867,121 @@
 				"B",
 				"P"
 			],
-			"hasToken": true
+			"name": "Dwarven Worker",
+			"source": "IMR",
+			"page": 15,
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"DC",
+				"DD",
+				"DIP",
+				"EGW",
+				"FS",
+				"GoS",
+				"HftT",
+				"HotDQ",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"KKW",
+				"LLK",
+				"LMoP",
+				"MOT",
+				"OotA",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RMBRE",
+				"RoT",
+				"SKT",
+				"SLW",
+				"US",
+				"VEoR",
+				"VNotEE",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"deception": "+2",
+				"religion": "+2"
+			},
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Dark Devotion",
+					"entries": [
+						"The worker has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"scimitar|phb"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Dwarven%20Worker.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Enhanced Medusa",
 			"alias": [
 				"Daoud's Living Lanthor"
 			],
-			"source": "IMR",
-			"page": 47,
-			"_copy": {
-				"name": "Medusa",
-				"source": "MM"
-			},
 			"senses": [
 				"truesight 120 ft."
 			],
@@ -558,37 +1026,276 @@
 			"savingThrowForcedSpell": [
 				"dexterity"
 			],
-			"hasToken": true
+			"name": "Enhanced Medusa",
+			"source": "IMR",
+			"page": 47,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"ERLW",
+				"GoS",
+				"IMR",
+				"LLK",
+				"OotA",
+				"PaBTSO",
+				"SatO",
+				"ToA",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "17d8 + 51"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 16,
+			"int": 12,
+			"wis": 13,
+			"cha": 15,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"passive": 14,
+			"languages": [
+				"Common"
+			],
+			"cr": "6",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The medusa makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow."
+					]
+				},
+				{
+					"name": "Snake Hair",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 14 ({@damage 4d6}) poison damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+					]
+				}
+			],
+			"environment": [
+				"desert"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Enhanced%20Medusa.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Grandfather Oak",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"tokenCustom": true,
+			"name": "Grandfather Oak",
 			"source": "IMR",
 			"page": 5,
-			"_copy": {
-				"name": "Treant",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the treant",
-						"with": "Grandfather Oak",
-						"flags": "i"
-					},
-					"action": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Pacifying Spores (3/Day)",
-							"entries": [
-								"Grandfather Oak ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-							]
-						}
-					}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"LLK",
+				"LoX",
+				"MOT",
+				"OoW",
+				"PSI",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SCC-ARiR",
+				"SKT",
+				"TCE",
+				"VEoR",
+				"WBtW",
+				"WDH"
+			],
+			"size": [
+				"H"
+			],
+			"type": "plant",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 138,
+				"formula": "12d12 + 60"
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"speed": {
+				"walk": 30
+			},
+			"str": 23,
+			"dex": 8,
+			"con": 21,
+			"int": 12,
+			"wis": 16,
+			"cha": 12,
+			"passive": 13,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Druidic",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While Grandfather Oak remains motionless, it is indistinguishable from a normal tree."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"Grandfather Oak deals double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Grandfather Oak makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 60/180 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Animate Trees (1/Day)",
+					"entries": [
+						"Grandfather Oak magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a {@creature treant}, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of Grandfather Oak. The tree remains animate for 1 day or until it dies; until Grandfather Oak dies or is more than 120 feet from the tree; or until Grandfather Oak takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible."
+					]
+				},
+				{
+					"name": "Pacifying Spores (3/Day)",
+					"entries": [
+						"Grandfather Oak ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"traitTags": [
+				"False Appearance",
+				"Siege Monster"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DU",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Grandfather%20Oak.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Lynx Creatlach",
@@ -1091,40 +1798,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Seodra",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "IMR",
-			"page": 41,
-			"_copy": {
-				"name": "Noble",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the noble",
-						"with": "Seodra",
-						"flags": "i"
-					},
-					"trait": {
-						"mode": "appendArr",
-						"items": [
-							{
-								"name": "Earth Walk",
-								"entries": [
-									"Seodra can move across {@quickref difficult terrain||3} made of earth or stone without expending extra movement."
-								]
-							},
-							{
-								"name": "Treasure Sense",
-								"entries": [
-									"Seodra can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 feet of her."
-								]
-							}
-						]
-					}
-				}
-			},
 			"ac": [
 				{
 					"ac": 19,
@@ -1142,7 +1817,134 @@
 				"C",
 				"P"
 			],
-			"hasToken": true
+			"name": "Seodra",
+			"source": "IMR",
+			"page": 41,
+			"referenceSources": [
+				"AZfyT",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"KKW",
+				"MOT",
+				"NRH-CoI",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 11,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"persuasion": "+5"
+			},
+			"passive": 12,
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Seodra adds 2 to its AC against one melee attack that would hit it. To do so, Seodra must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"rapier|phb"
+			],
+			"actionTags": [
+				"Parry"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"trait": [
+				{
+					"name": "Earth Walk",
+					"entries": [
+						"Seodra can move across {@quickref difficult terrain||3} made of earth or stone without expending extra movement."
+					]
+				},
+				{
+					"name": "Treasure Sense",
+					"entries": [
+						"Seodra can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 feet of her."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Seodra.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Sir Ursas",
@@ -1293,13 +2095,120 @@
 			"hasFluff": true
 		},
 		{
+			"type": "undead",
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"tokenCustom": true,
 			"name": "Skeletal Giant Owl",
 			"source": "IMR",
 			"page": 33,
-			"_copy": {
-				"name": "Giant Owl",
-				"source": "MM"
+			"referenceSources": [
+				"BMT",
+				"EGW",
+				"ERLW",
+				"IMR",
+				"SKT"
+			],
+			"size": [
+				"L"
+			],
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 19,
+				"formula": "3d10 + 3"
 			},
+			"speed": {
+				"walk": 5,
+				"fly": 60
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 12,
+			"int": 8,
+			"wis": 13,
+			"cha": 10,
+			"skill": {
+				"perception": "+5",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Giant Owl",
+				"understands Common, Elvish, and Sylvan but can't speak them"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The owl has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 1}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"hill",
+				"arctic"
+			],
+			"traitTags": [
+				"Flyby",
+				"Keen Senses"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"CS",
+				"E",
+				"OTH",
+				"S"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Skeletal%20Giant%20Owl.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"type": "undead",
 			"immune": [
 				"poison"
@@ -1312,16 +2221,127 @@
 				"poisoned"
 			],
 			"tokenCustom": true,
-			"hasToken": true
-		},
-		{
 			"name": "Skeletal Owlbear",
 			"source": "IMR",
 			"page": 36,
-			"_copy": {
-				"name": "Owlbear",
-				"source": "MM"
+			"referenceSources": [
+				"BMT",
+				"CRCotN",
+				"DIP",
+				"DoSI",
+				"EGW",
+				"GoS",
+				"HftT",
+				"IDRotF",
+				"IMR",
+				"LMoP",
+				"LRDT",
+				"NRH-AT",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RMBRE",
+				"RtG",
+				"SCC-CK",
+				"SDW",
+				"SKT",
+				"TftYP",
+				"TftYP-DiT",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 59,
+				"formula": "7d10 + 21"
 			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 17,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"The owlbear has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The owlbear makes two attacks: one with its beak and one with its claws."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}10 ({@damage 1d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Skeletal%20Owlbear.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"type": "undead",
 			"immune": [
 				"poison"
@@ -1334,16 +2354,106 @@
 				"poisoned"
 			],
 			"tokenCustom": true,
-			"hasToken": true
-		},
-		{
 			"name": "Skeletal Polar Bear",
 			"source": "IMR",
 			"page": 34,
-			"_copy": {
-				"name": "Polar Bear",
-				"source": "MM"
+			"referenceSources": [
+				"CoA",
+				"EGW",
+				"IDRotF",
+				"IMR",
+				"OotA",
+				"RoT",
+				"SKT",
+				"TftYP-AtG",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 42,
+				"formula": "5d10 + 15"
 			},
+			"speed": {
+				"walk": 40,
+				"swim": 30
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 16,
+			"int": 2,
+			"wis": 13,
+			"cha": 7,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bear makes two attacks: one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"arctic"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Skeletal%20Polar%20Bear.webp"
+			},
+			"hasToken": true
+		},
+		{
 			"type": "undead",
 			"immune": [
 				"poison"
@@ -1356,48 +2466,101 @@
 				"poisoned"
 			],
 			"tokenCustom": true,
-			"hasToken": true
-		},
-		{
 			"name": "Skeletal Two-Headed Owlbear",
 			"source": "IMR",
 			"page": 36,
-			"_copy": {
-				"name": "Two-Headed Owlbear",
-				"source": "IMR"
+			"size": [
+				"L"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 59,
+				"formula": "7d10 + 21"
 			},
-			"type": "undead",
-			"immune": [
-				"poison"
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 17,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60"
 			],
-			"vulnerable": [
-				"bludgeoning"
+			"passive": 13,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Two Heads",
+					"entries": [
+						"The two-headed owlbear has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+					]
+				},
+				{
+					"name": "Wakeful",
+					"entries": [
+						"When one of the owlbear's heads is asleep, its other head is awake."
+					]
+				}
 			],
-			"conditionImmune": [
-				"exhaustion",
-				"poisoned"
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The two-headed owlbear makes three attacks: two with its beaks and one with its claws."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage."
+					]
+				}
 			],
-			"tokenCustom": true,
-			"hasToken": true
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Skeletal%20Two-Headed%20Owlbear.webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Stolos",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "IMR",
-			"page": 33,
-			"_copy": {
-				"name": "Warlock of the Great Old One",
-				"source": "VGM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the warlock",
-						"with": "Stolos",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"N",
 				"E"
@@ -1422,35 +2585,179 @@
 			"miscTags": [
 				"MW"
 			],
-			"hasToken": true
-		},
-		{
-			"name": "Tarnhem",
-			"isNpc": true,
-			"isNamedCreature": true,
+			"name": "Stolos",
 			"source": "IMR",
-			"page": 19,
-			"_copy": {
-				"name": "Balor",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the balor",
-						"with": "Tarnhem",
-						"flags": "i"
+			"page": 33,
+			"referenceSources": [
+				"IMR"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 91,
+				"formula": "14d8 + 28"
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 15,
+			"int": 12,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"wis": "+4",
+				"cha": "+7"
+			},
+			"skill": {
+				"arcana": "+4",
+				"history": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"psychic"
+			],
+			"languages": [
+				"any two languages",
+				"telepathy 30 ft."
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Stolos's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 15}), requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell jump}",
+						"{@spell levitate}",
+						"{@spell mage armor} (self only)",
+						"{@spell speak with dead}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell arcane gate}",
+							"{@spell true seeing}"
+						]
 					},
-					"action": {
-						"mode": "prependArr",
-						"items": {
-							"name": "Fist of Retribution",
-							"entries": [
-								"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d4 + 8}) bludgeoning damage plus 7 ({@damage 2d6}) fire damage."
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Stolos is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell eldritch blast}",
+								"{@spell guidance}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"5": {
+							"lower": 1,
+							"slots": 3,
+							"spells": [
+								"{@spell armor of Agathys}",
+								"{@spell arms of Hadar}",
+								"{@spell crown of madness}",
+								"{@spell clairvoyance}",
+								"{@spell contact other plane}",
+								"{@spell detect thoughts}",
+								"{@spell dimension door}",
+								"{@spell dissonant whispers}",
+								"{@spell dominate beast}",
+								"{@spell telekinesis}",
+								"{@spell vampiric touch}"
 							]
 						}
-					}
+					},
+					"ability": "cha"
 				}
+			],
+			"trait": [
+				{
+					"name": "Whispering Aura",
+					"entries": [
+						"At the start of each of Stolos's turns, each creature of its choice within 5 feet of it must succeed on a {@dc 15} Wisdom saving throw or take 10 ({@damage 3d6}) psychic damage, provided that Stolos isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"hill",
+				"mountain",
+				"underdark",
+				"urban"
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"TP",
+				"X"
+			],
+			"damageTagsSpell": [
+				"C",
+				"L",
+				"N",
+				"O",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"intelligence",
+				"strength",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Stolos.webp"
 			},
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"isNpc": true,
+			"isNamedCreature": true,
 			"tokenCustom": true,
 			"damageTags": [
 				"B",
@@ -1458,7 +2765,198 @@
 				"L",
 				"S"
 			],
-			"hasToken": true
+			"name": "Tarnhem",
+			"source": "IMR",
+			"page": 19,
+			"referenceSources": [
+				"BGDIA",
+				"CoA",
+				"CRCotN",
+				"EGW",
+				"IMR",
+				"OotA",
+				"TCE",
+				"ToFW"
+			],
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 262,
+				"formula": "21d12 + 126"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 26,
+			"dex": 15,
+			"con": 22,
+			"int": 20,
+			"wis": 16,
+			"cha": 22,
+			"save": {
+				"str": "+14",
+				"con": "+12",
+				"wis": "+9",
+				"cha": "+12"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"cold",
+				"lightning",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"telepathy 120 ft."
+			],
+			"cr": "19",
+			"trait": [
+				{
+					"name": "Death Throes",
+					"entries": [
+						"When Tarnhem dies, it explodes, and each creature within 30 feet of it must make a {@dc 20} Dexterity saving throw, taking 70 ({@damage 20d6}) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys Tarnhem's weapons."
+					]
+				},
+				{
+					"name": "Fire Aura",
+					"entries": [
+						"At the start of each of Tarnhem's turns, each creature within 5 feet of it takes 10 ({@damage 3d6}) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches Tarnhem or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) fire damage."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Tarnhem has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Tarnhem's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Fist of Retribution",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d4 + 8}) bludgeoning damage plus 7 ({@damage 2d6}) fire damage."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Tarnhem makes two attacks: one with its longsword and one with its whip."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}21 ({@damage 3d8 + 8}) slashing damage plus 13 ({@damage 3d8}) lightning damage. If Tarnhem scores a critical hit, it rolls damage dice three times, instead of twice."
+					]
+				},
+				{
+					"name": "Whip",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 30 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage plus 10 ({@damage 3d6}) fire damage, and the target must succeed on a {@dc 20} Strength saving throw or be pulled up to 25 feet toward Tarnhem."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"Tarnhem magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Summon Demon (1/Day)",
+					"entries": [
+						"The demon chooses what to summon and attempts a magical summoning.",
+						"A balor has a {@chance 50|50 percent|50% summoning chance} chance of summoning {@dice 1d8} {@creature vrock||vrocks}, {@dice 1d6} {@creature hezrou||hezrous}, {@dice 1d4} {@creature glabrezu||glabrezus}, {@dice 1d3} {@creature nalfeshnee||nalfeshnees}, {@dice 1d2} {@creature marilith||mariliths}, or one {@creature goristro}.",
+						"A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+					],
+					"_version": {
+						"name": "Balor (Summoner)",
+						"addAs": "action"
+					}
+				}
+			],
+			"attachedItems": [
+				"longsword|phb",
+				"whip|phb"
+			],
+			"traitTags": [
+				"Death Burst",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"languageTags": [
+				"AB",
+				"TP"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW",
+				"RCH"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Tarnhem.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Thessalar",
@@ -1660,26 +3158,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Thessalar's Homunculus",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "IMR",
-			"page": 35,
-			"_copy": {
-				"name": "Homunculus",
-				"source": "MM",
-				"_mod": {
-					"action": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Acidic Spittle",
-							"entries": [
-								"{@atk rw} {@hit 4} to hit, range 30 ft., one target. {@h}5 ({@damage 1d6 + 2}) acid damage."
-							]
-						}
-					}
-				}
-			},
 			"damageTags": [
 				"A",
 				"P"
@@ -1688,6 +3168,102 @@
 				"MW",
 				"RW"
 			],
+			"name": "Thessalar's Homunculus",
+			"source": "IMR",
+			"page": 35,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"ERLW",
+				"IMR",
+				"MOT",
+				"PaBTSO",
+				"WDMM"
+			],
+			"size": [
+				"T"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 5,
+				"formula": "2d4"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"str": 4,
+			"dex": 15,
+			"con": 11,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Telepathic Bond",
+					"entries": [
+						"While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}1 piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition poisoned} for 5 ({@dice 1d10}) minutes and {@condition unconscious} while {@condition poisoned} in this way."
+					]
+				},
+				{
+					"name": "Acidic Spittle",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30 ft., one target. {@h}5 ({@damage 1d6 + 2}) acid damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"conditionInflict": [
+				"poisoned",
+				"unconscious"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Thessalar's%20Homunculus.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -1974,26 +3550,6 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Tiefling Muralist",
-			"source": "IMR",
-			"page": 17,
-			"_copy": {
-				"name": "Cultist",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Tiefling",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "cultist",
-						"with": "muralist"
-					}
-				}
-			},
 			"tokenCustom": true,
 			"languageTags": [
 				"C",
@@ -2003,7 +3559,127 @@
 			"damageTagsSpell": [
 				"F"
 			],
-			"hasToken": true
+			"name": "Tiefling Muralist",
+			"source": "IMR",
+			"page": 17,
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"DC",
+				"DD",
+				"DIP",
+				"EGW",
+				"FS",
+				"GoS",
+				"HftT",
+				"HotDQ",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"KKW",
+				"LLK",
+				"LMoP",
+				"MOT",
+				"OotA",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RMBRE",
+				"RoT",
+				"SKT",
+				"SLW",
+				"US",
+				"VEoR",
+				"VNotEE",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"deception": "+2",
+				"religion": "+2"
+			},
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Dark Devotion",
+					"entries": [
+						"The muralist has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"scimitar|phb"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IMR/Tiefling%20Muralist.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Two-Headed Crocodile",

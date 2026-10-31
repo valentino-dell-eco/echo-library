@@ -1516,10 +1516,6 @@
 			"name": "Augen Trust (Spy)",
 			"source": "EGW",
 			"page": 203,
-			"_copy": {
-				"name": "Variant Criminal (Spy)",
-				"source": "PHB"
-			},
 			"hasFluff": true
 		},
 		{
@@ -2968,10 +2964,6 @@
 			"name": "Cobalt Scholar (Sage)",
 			"source": "EGW",
 			"page": 203,
-			"_copy": {
-				"name": "Sage",
-				"source": "PHB"
-			},
 			"hasFluff": true
 		},
 		{
@@ -10460,27 +10452,7 @@
 		{
 			"name": "Initiate (Dissenter)",
 			"source": "PSA",
-			"page": 11,
-			"_copy": {
-				"name": "Initiate",
-				"source": "PSA",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Feature: Trials of the Five Gods",
-						"items": {
-							"name": "Feature: Shelter of Dissenters",
-							"type": "entries",
-							"entries": [
-								"If they wish to have any hope of survival, whether hiding within the city or cast out into the desert, dissenters must help each other. You can find a place to hide, rest, or recuperate among other dissenters. They will help shield you from those who hunt you, possibly even risking their lives for you."
-							],
-							"data": {
-								"isFeature": true
-							}
-						}
-					}
-				}
-			}
+			"page": 11
 		},
 		{
 			"name": "Inquisitive",
@@ -12166,10 +12138,6 @@
 			"name": "Luxonborn (Acolyte)",
 			"source": "EGW",
 			"page": 203,
-			"_copy": {
-				"name": "Acolyte",
-				"source": "PHB"
-			},
 			"hasFluff": true
 		},
 		{
@@ -12788,10 +12756,6 @@
 			"name": "Myriad Operative (Criminal)",
 			"source": "EGW",
 			"page": 203,
-			"_copy": {
-				"name": "Criminal",
-				"source": "PHB"
-			},
 			"hasFluff": true
 		},
 		{
@@ -15041,10 +15005,6 @@
 			"name": "Revelry Pirate (Sailor)",
 			"source": "EGW",
 			"page": 203,
-			"_copy": {
-				"name": "Sailor",
-				"source": "PHB"
-			},
 			"hasFluff": true
 		},
 		{
@@ -18513,128 +18473,15 @@
 			"name": "Variant Criminal (Spy)",
 			"source": "PHB",
 			"page": 130,
-			"basicRules": true,
-			"_copy": {
-				"name": "Criminal",
-				"source": "PHB",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Feature: Criminal Contact",
-						"items": {
-							"name": "Feature: Spy Contact",
-							"type": "entries",
-							"entries": [
-								"You have a reliable and trustworthy contact who acts as your liaison to a network of other spies. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you."
-							],
-							"data": {
-								"isFeature": true
-							}
-						}
-					}
-				}
-			},
 			"hasFluff": true
 		},
 		{
 			"name": "Variant Entertainer (Gladiator)",
 			"source": "PHB",
 			"page": 131,
-			"_copy": {
-				"name": "Entertainer",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "replaceArr",
-							"replace": {
-								"index": 0
-							},
-							"items": {
-								"type": "list",
-								"style": "list-hang-notitle",
-								"items": [
-									{
-										"type": "item",
-										"name": "Skill Proficiencies:",
-										"entry": "{@skill Acrobatics}, {@skill Performance}"
-									},
-									{
-										"type": "item",
-										"name": "Tool Proficiencies:",
-										"entry": "{@item Disguise kit|phb}, one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
-									},
-									{
-										"type": "item",
-										"name": "Equipment:",
-										"entry": "An inexpensive but unusual weapon, such as a {@item trident|phb} or {@item net|phb} (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), {@item costume clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
-									}
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": {
-								"index": 1
-							},
-							"items": {
-								"name": "Feature: By Popular Demand",
-								"type": "entries",
-								"entries": [
-									"You can always find a place to perform in any place that features combat for entertainment—perhaps a gladiatorial arena or secret pit fighting club. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
-								],
-								"data": {
-									"isFeature": true
-								}
-							}
-						}
-					]
-				}
-			},
 			"hasFluff": true
 		},
 		{
-			"name": "Variant Guild Artisan (Guild Merchant)",
-			"source": "PHB",
-			"page": 133,
-			"_copy": {
-				"name": "Guild Artisan",
-				"source": "PHB",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": {
-							"index": 0
-						},
-						"items": {
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Skill Proficiencies:",
-									"entry": "{@skill Insight}, {@skill Persuasion}"
-								},
-								{
-									"type": "item",
-									"name": "Tool Proficiencies:",
-									"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, or {@item navigator's tools|phb}, or an additional language"
-								},
-								{
-									"type": "item",
-									"name": "Languages:",
-									"entry": "One of your choice"
-								},
-								{
-									"type": "item",
-									"name": "Equipment:",
-									"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} (one of your choice) or a {@item mule|phb} and {@item cart|phb}, a letter of introduction from your guild, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
-								}
-							]
-						}
-					}
-				}
-			},
 			"skillProficiencies": [
 				{
 					"insight": true,
@@ -18651,100 +18498,26 @@
 					}
 				}
 			],
+			"name": "Variant Guild Artisan (Guild Merchant)",
+			"source": "PHB",
+			"page": 133,
 			"hasFluff": true
 		},
 		{
 			"name": "Variant Noble (Knight)",
 			"source": "PHB",
 			"page": 136,
-			"_copy": {
-				"name": "Noble",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "replaceArr",
-							"replace": "Feature: Position of Privilege",
-							"items": {
-								"name": "Feature: Retainers",
-								"type": "entries",
-								"entries": [
-									"You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. {@b One of your retainers is a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood} (This person could be your bond.). Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on).",
-									"Your retainers can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
-								],
-								"data": {
-									"isFeature": true
-								}
-							}
-						},
-						{
-							"mode": "insertArr",
-							"index": 1,
-							"items": {
-								"name": "Variant Noble (Knight)",
-								"type": "entries",
-								"entries": [
-									"A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature instead of the Position of Privilege feature.",
-									"As an emblem of chivalry and the ideals of courtly love, you might include among your equipment a banner or other token from a noble lord or lady to whom you have given your heart-in a chaste sort of devotion."
-								]
-							}
-						}
-					]
-				}
-			},
 			"hasFluff": true
 		},
 		{
 			"name": "Variant Noble (Retainers)",
 			"source": "PHB",
-			"page": 136,
-			"_copy": {
-				"name": "Noble",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "replaceArr",
-							"replace": "Feature: Position of Privilege",
-							"items": {
-								"name": "Feature: Retainers",
-								"type": "entries",
-								"entries": [
-									"You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are {@creature commoner||commoners} who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
-								],
-								"data": {
-									"isFeature": true
-								}
-							}
-						}
-					]
-				}
-			}
+			"page": 136
 		},
 		{
 			"name": "Variant Sailor (Pirate)",
 			"source": "PHB",
 			"page": 139,
-			"_copy": {
-				"name": "Sailor",
-				"source": "PHB",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Feature: Ship's Passage",
-						"items": {
-							"name": "Feature: Bad Reputation",
-							"type": "entries",
-							"entries": [
-								"No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
-							],
-							"data": {
-								"isFeature": true
-							}
-						}
-					}
-				}
-			},
 			"hasFluff": true
 		},
 		{
@@ -19002,27 +18775,7 @@
 		{
 			"name": "Vizier (Dissenter)",
 			"source": "PSA",
-			"page": 11,
-			"_copy": {
-				"name": "Vizier",
-				"source": "PSA",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Feature: Voice of Authority",
-						"items": {
-							"name": "Feature: Shelter of Dissenters",
-							"type": "entries",
-							"entries": [
-								"If they wish to have any hope of survival, whether hiding within the city or cast out into the desert, dissenters must help each other. You can find a place to hide, rest, or recuperate among other dissenters. They will help shield you from those who hunt you, possibly even risking their lives for you."
-							],
-							"data": {
-								"isFeature": true
-							}
-						}
-					}
-				}
-			}
+			"page": 11
 		},
 		{
 			"name": "Volstrucker Agent",

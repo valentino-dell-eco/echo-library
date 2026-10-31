@@ -29,6 +29,13 @@
 					"width": 1700,
 					"height": 1102,
 					"credit": "Zoltan Boros"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Agathe%20Silverspoon.webp"
+					}
 				}
 			]
 		},
@@ -45,6 +52,13 @@
 					"width": 850,
 					"height": 2183,
 					"credit": "Isabel Gibney"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Aloysia%20Telfan.webp"
+					}
 				}
 			]
 		},
@@ -173,6 +187,13 @@
 					"width": 500,
 					"height": 850,
 					"credit": "David Sladek"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Aradrine%20the%20Owl.webp"
+					}
 				}
 			]
 		},
@@ -189,6 +210,13 @@
 					"width": 425,
 					"height": 850,
 					"credit": "Anna Veltkamp"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Ashann.webp"
+					}
 				}
 			]
 		},
@@ -435,6 +463,13 @@
 					"width": 1700,
 					"height": 1118,
 					"credit": "Maria Zolotukhina"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Celeste.webp"
+					}
 				}
 			]
 		},
@@ -715,6 +750,71 @@
 			]
 		},
 		{
+			"name": "Fiendish Orc",
+			"source": "CRCotN",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.",
+								{
+									"type": "entries",
+									"name": "Gruumsh One-Eye",
+									"entries": [
+										"Orcs worship Gruumsh, the mightiest of the orc deities and their creator. The orcs believe that in ancient days, the gods gathered to divide the world among their followers. When Gruumsh claimed the mountains, he learned they had been taken by the dwarves. He laid claim to the forests, but those had been settled by the elves. Each place that Gruumsh wanted had already been claimed. The other gods laughed at Gruumsh, but he responded with a furious bellow. Grasping his mighty spear, he laid waste to the mountains, set the forests aflame, and carved great furrows in the fields. Such was the role of the orcs, he proclaimed, to take and destroy all that the other races would deny them. To this day, the orcs wage an endless war on humans, elves, dwarves, and other folk.",
+										"Orcs hold a particular hatred for elves. The elven god Corellon Larethian half-blinded Gruumsh with a well-placed arrow to the orc god's eye. Since then, the orcs have taken particular joy in slaughtering elves. Turning his injury into a baleful gift, Gruumsh grants divine might to any champion who willingly plucks out one of its eyes in his honor."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Tribes like Plagues",
+									"entries": [
+										"Orcs gather in tribes that exert their dominance and satisfy their bloodlust by plundering villages, devouring or driving off roaming herds, and slaying any humanoids that stand against them. After savaging a settlement, orcs pick it clean of wealth and items usable in their own lands. They set the remains of villages and camps ablaze, then retreat whence they came, their bloodlust satisfied."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ranging Scavengers",
+									"entries": [
+										"Their lust for slaughter demands that orcs dwell always within striking distance of new targets. As such, they seldom settle permanently, instead converting ruins, cavern complexes, and defeated foes' villages into fortified camps and strongholds. Orcs build only for defense, making no innovation or improvement to their lairs beyond mounting the severed body parts of their victims on spiked stockade walls or pikes jutting up from moats and trenches.",
+										"When an existing territory is depleted of food, an orc tribe divides into roving bands that scout for choice hunting grounds. When each party returns, it brings back trophies and news of targets ripe for attack, the richest of which is chosen. The tribe then sets out en masse to carve a bloody path to its new territory.",
+										"On rare occasions, a tribe's leader chooses to hold onto a particularly defensible lair for decades. The orcs of such a tribe must range far across the countryside to sate their appetites."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Leadership and Might",
+									"entries": [
+										"Orc tribes are mostly patriarchal, flaunting such vivid or grotesque titles as Many-Arrows, Screaming Eye, and Elf Ripper. Occasionally, a powerful war chief unites scattered orc tribes into a single rampaging horde, which runs roughshod over other orc tribes and humanoid settlements from a position of overwhelming strength.",
+										"Strength and power are the greatest of orcish virtues, and orcs embrace all manner of mighty creatures in their tribes. Rejecting notions of racial purity, they proudly welcome ogres, trolls, half-orcs, and orogs into their ranks. As well, orcs respect and fear the size and power of evil giants, and often serve them as guards and soldiers."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Orc Crossbreeds",
+									"entries": [
+										"Luthic, the orc goddess of fertility and wife of Gruumsh, demands that orcs procreate often and indiscriminately so that orc hordes swell generation after generation. The orcs' drive to reproduce runs stronger than any other humanoid race, and they readily crossbreed with other races. When an orc procreates with a non-orc humanoid of similar size and stature (such as a human or a dwarf), the resulting child is either an orc or a half-orc. When an orc produces young with an ogre, the child is a half-ogre of intimidating strength and brutish features called an ogrillon."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Fiendish%20Orc.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Foghome",
 			"source": "CRCotN",
 			"images": [
@@ -727,6 +827,13 @@
 					"width": 757,
 					"height": 850,
 					"credit": "Shawn Wood"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Foghome.webp"
+					}
 				}
 			]
 		},
@@ -1015,6 +1122,13 @@
 					"width": 417,
 					"height": 850,
 					"credit": "Tyler Walpole"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Gryz%20Alakritos.webp"
+					}
 				}
 			]
 		},
@@ -1308,6 +1422,13 @@
 					"width": 417,
 					"height": 850,
 					"credit": "Tyler Walpole"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/James%20Cryon.webp"
+					}
 				}
 			]
 		},
@@ -1324,6 +1445,13 @@
 					"width": 297,
 					"height": 850,
 					"credit": "Anna Veltkamp"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Jamil%20A'alithiya.webp"
+					}
 				}
 			]
 		},
@@ -1340,6 +1468,13 @@
 					"width": 1700,
 					"height": 1120,
 					"credit": "Goñi Montes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Koris.webp"
+					}
 				}
 			]
 		},
@@ -1620,6 +1755,13 @@
 					"width": 1700,
 					"height": 1118,
 					"credit": "Maria Zolotukhina"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Marisa.webp"
+					}
 				}
 			]
 		},
@@ -1636,6 +1778,13 @@
 					"width": 1700,
 					"height": 1118,
 					"credit": "Maria Zolotukhina"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Meri.webp"
+					}
 				}
 			]
 		},
@@ -1874,6 +2023,13 @@
 					"width": 1700,
 					"height": 1206,
 					"credit": "Nikki Dawes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Perigee.webp"
+					}
 				}
 			]
 		},
@@ -1890,6 +2046,13 @@
 					"width": 850,
 					"height": 2183,
 					"credit": "Isabel Gibney"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Prolix%20Yusaf.webp"
+					}
 				}
 			]
 		},
@@ -2039,6 +2202,13 @@
 					"width": 1700,
 					"height": 1099,
 					"credit": "Linda Lithén"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Scribble.webp"
+					}
 				}
 			]
 		},
@@ -2204,6 +2374,13 @@
 					"width": 1700,
 					"height": 1099,
 					"credit": "Linda Lithén"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CRCotN/Xot.webp"
+					}
 				}
 			]
 		}

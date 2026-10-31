@@ -960,7 +960,7 @@
 			"name": "Bonus Proficiencies",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -972,7 +972,7 @@
 			"name": "Cutting Words",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -984,7 +984,7 @@
 			"name": "College of Lore",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -994,11 +994,11 @@
 				"The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard|XPHB|Lore|PHB|3|PHB"
+					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Lore|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Cutting Words|Bard|XPHB|Lore|PHB|3|PHB"
+					"subclassFeature": "Cutting Words|Bard|PHB|Lore|PHB|3|PHB"
 				}
 			]
 		},
@@ -1006,7 +1006,7 @@
 			"name": "Additional Magical Secrets",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1018,7 +1018,7 @@
 			"name": "Peerless Skill",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1030,7 +1030,7 @@
 			"name": "Bonus Proficiencies",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1042,7 +1042,7 @@
 			"name": "Combat Inspiration",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1054,7 +1054,7 @@
 			"name": "College of Valor",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1062,11 +1062,11 @@
 				"Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard|XPHB|Valor|PHB|3|PHB"
+					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Valor|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Inspiration|Bard|XPHB|Valor|PHB|3|PHB"
+					"subclassFeature": "Combat Inspiration|Bard|PHB|Valor|PHB|3|PHB"
 				}
 			]
 		},
@@ -1074,7 +1074,7 @@
 			"name": "Extra Attack",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1086,7 +1086,7 @@
 			"name": "Battle Magic",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1098,7 +1098,7 @@
 			"name": "Enthralling Performance",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glamour",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1113,7 +1113,7 @@
 			"name": "Mantle of Inspiration",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glamour",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1127,7 +1127,7 @@
 			"name": "College of Glamour",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glamour",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1136,11 +1136,11 @@
 				"The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, misusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Enthralling Performance|Bard|XPHB|Glamour|XGE|3|XGE"
+					"subclassFeature": "Enthralling Performance|Bard|PHB|Glamour|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mantle of Inspiration|Bard|XPHB|Glamour|XGE|3|XGE"
+					"subclassFeature": "Mantle of Inspiration|Bard|PHB|Glamour|XGE|3|XGE"
 				}
 			]
 		},
@@ -1148,7 +1148,7 @@
 			"name": "Mantle of Majesty",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glamour",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1162,7 +1162,7 @@
 			"name": "Unbreakable Majesty",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glamour",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1176,7 +1176,7 @@
 			"name": "Defensive Flourish",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1188,7 +1188,7 @@
 			"name": "Mobile Flourish",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1200,7 +1200,7 @@
 			"name": "Slashing Flourish",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1212,7 +1212,7 @@
 			"name": "Blade Flourish",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1242,7 +1242,7 @@
 			"name": "Bonus Proficiencies",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1255,7 +1255,7 @@
 			"name": "Fighting Style",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1281,7 +1281,7 @@
 			"name": "College of Swords",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1291,27 +1291,27 @@
 				"Blades who abandon their lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most troupes. With their weapon skills and magic, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Defensive Flourish|Bard|XPHB|Swords|XGE|3|XGE"
+					"subclassFeature": "Defensive Flourish|Bard|PHB|Swords|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mobile Flourish|Bard|XPHB|Swords|XGE|3|XGE"
+					"subclassFeature": "Mobile Flourish|Bard|PHB|Swords|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Slashing Flourish|Bard|XPHB|Swords|XGE|3|XGE"
+					"subclassFeature": "Slashing Flourish|Bard|PHB|Swords|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blade Flourish|Bard|XPHB|Swords|XGE|3|XGE"
+					"subclassFeature": "Blade Flourish|Bard|PHB|Swords|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard|XPHB|Swords|XGE|3|XGE"
+					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Swords|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fighting Style|Bard|XPHB|Swords|XGE|3|XGE"
+					"subclassFeature": "Fighting Style|Bard|PHB|Swords|XGE|3|XGE"
 				}
 			]
 		},
@@ -1319,7 +1319,7 @@
 			"name": "Extra Attack",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1331,7 +1331,7 @@
 			"name": "Master's Flourish",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1343,7 +1343,7 @@
 			"name": "Psychic Blades",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Whispers",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1357,7 +1357,7 @@
 			"name": "Words of Terror",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Whispers",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1372,7 +1372,7 @@
 			"name": "College of Whispers",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Whispers",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1381,11 +1381,11 @@
 				"Many other bards hate the College of Whispers, viewing it as a parasite that uses a bard's reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psychic Blades|Bard|XPHB|Whispers|XGE|3|XGE"
+					"subclassFeature": "Psychic Blades|Bard|PHB|Whispers|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Words of Terror|Bard|XPHB|Whispers|XGE|3|XGE"
+					"subclassFeature": "Words of Terror|Bard|PHB|Whispers|XGE|3|XGE"
 				}
 			]
 		},
@@ -1393,7 +1393,7 @@
 			"name": "Mantle of Whispers",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Whispers",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1409,7 +1409,7 @@
 			"name": "Shadow Lore",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Whispers",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1426,7 +1426,7 @@
 			"name": "Mote of Potential",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Creation",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1461,7 +1461,7 @@
 			"name": "Performance of Creation",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Creation",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1476,7 +1476,7 @@
 			"name": "College of Creation",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Creation",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1486,11 +1486,11 @@
 				"Dwarves and gnomes often encourage their bards to become students of the Song of Creation. And among dragonborn, the Song of Creation is revered, for legends portray Bahamut and Tiamat-the greatest of dragons-as two of the song's first singers.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mote of Potential|Bard|XPHB|Creation|TCE|3|TCE"
+					"subclassFeature": "Mote of Potential|Bard|PHB|Creation|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Performance of Creation|Bard|XPHB|Creation|TCE|3|TCE"
+					"subclassFeature": "Performance of Creation|Bard|PHB|Creation|TCE|3|TCE"
 				}
 			]
 		},
@@ -1498,7 +1498,7 @@
 			"name": "Animating Performance",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Creation",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1514,7 +1514,7 @@
 			"name": "Creative Crescendo",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Creation",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -1528,7 +1528,7 @@
 			"name": "Silver Tongue",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1541,7 +1541,7 @@
 			"name": "Unsettling Words",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1554,7 +1554,7 @@
 			"name": "College of Eloquence",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1562,11 +1562,11 @@
 				"Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more persuasive than facts. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments and plucking at heartstrings to appeal to the emotions of audiences.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Silver Tongue|Bard|XPHB|Eloquence|TCE|3|TCE"
+					"subclassFeature": "Silver Tongue|Bard|PHB|Eloquence|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unsettling Words|Bard|XPHB|Eloquence|TCE|3|TCE"
+					"subclassFeature": "Unsettling Words|Bard|PHB|Eloquence|TCE|3|TCE"
 				}
 			]
 		},
@@ -1574,7 +1574,7 @@
 			"name": "Universal Speech",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1588,7 +1588,7 @@
 			"name": "Unfailing Inspiration",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1597,7 +1597,7 @@
 				"Your inspiring words are so persuasive that others feel driven to succeed. When a creature adds one of your Bardic Inspiration dice to its ability check, attack roll, or saving throw and the roll fails, the creature can keep the Bardic Inspiration die.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Universal Speech|Bard|XPHB|Eloquence|TCE|6|TCE"
+					"subclassFeature": "Universal Speech|Bard|PHB|Eloquence|TCE|6|TCE"
 				}
 			]
 		},
@@ -1605,7 +1605,7 @@
 			"name": "Infectious Inspiration",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -1619,7 +1619,7 @@
 			"name": "Guiding Whispers",
 			"source": "VRGR",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 3,
@@ -1632,7 +1632,7 @@
 			"name": "Spiritual Focus",
 			"source": "VRGR",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 3,
@@ -1646,7 +1646,7 @@
 			"name": "Tales from Beyond",
 			"source": "VRGR",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 3,
@@ -1729,7 +1729,7 @@
 			"name": "College of Spirits",
 			"source": "VRGR",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 3,
@@ -1737,15 +1737,15 @@
 				"Bards of the College of Spirits seek tales with inherent power—be they legends, histories, or fictions—and bring their subjects to life. Using occult trappings, these bards conjure spiritual embodiments of powerful forces to change the world once more. Such spirits are capricious, though, and what a bard summons isn't always entirely under their control.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Guiding Whispers|Bard|XPHB|Spirits|VRGR|3|VRGR"
+					"subclassFeature": "Guiding Whispers|Bard|PHB|Spirits|VRGR|3|VRGR"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spiritual Focus|Bard|XPHB|Spirits|VRGR|3|VRGR"
+					"subclassFeature": "Spiritual Focus|Bard|PHB|Spirits|VRGR|3|VRGR"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tales from Beyond|Bard|XPHB|Spirits|VRGR|3|VRGR"
+					"subclassFeature": "Tales from Beyond|Bard|PHB|Spirits|VRGR|3|VRGR"
 				}
 			]
 		},
@@ -1753,7 +1753,7 @@
 			"name": "Spirit Session",
 			"source": "VRGR",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 6,
@@ -1768,7 +1768,7 @@
 			"name": "Mystical Connection",
 			"source": "VRGR",
 			"className": "Bard",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 14,
@@ -1961,222 +1961,151 @@
 	],
 	"subclass": [
 		{
-			"name": "College of Lore",
 			"shortName": "Lore",
-			"source": "PHB",
 			"className": "Bard",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "College of Lore",
-				"source": "PHB",
-				"shortName": "Lore",
-				"className": "Bard",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"name": "Additional Magical Secrets",
+					"known": {
+						"6": [
+							{
+								"choose": "level=0;1;2;3"
+							},
+							{
+								"choose": "level=0;1;2;3"
+							}
+						]
+					}
 				}
-			},
-			"subclassFeatures": [
-				"College of Lore|Bard|XPHB|Lore|PHB|3|PHB",
-				"Additional Magical Secrets|Bard|XPHB|Lore|PHB|6|PHB",
-				"Peerless Skill|Bard|XPHB|Lore|PHB|14|PHB"
-			]
-		},
-		{
-			"name": "College of Valor",
-			"shortName": "Valor",
-			"source": "PHB",
-			"className": "Bard",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "College of Valor",
-				"source": "PHB",
-				"shortName": "Valor",
-				"className": "Bard",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"College of Valor|Bard|XPHB|Valor|PHB|3|PHB",
-				"Extra Attack|Bard|XPHB|Valor|PHB|6|PHB",
-				"Battle Magic|Bard|XPHB|Valor|PHB|14|PHB"
-			]
-		},
-		{
-			"name": "College of Glamour",
-			"shortName": "Glamour",
-			"source": "XGE",
-			"className": "Bard",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "College of Glamour",
-				"source": "XGE",
-				"shortName": "Glamour",
-				"className": "Bard",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"College of Glamour|Bard|XPHB|Glamour|XGE|3|XGE",
-				"Mantle of Majesty|Bard|XPHB|Glamour|XGE|6|XGE",
-				"Unbreakable Majesty|Bard|XPHB|Glamour|XGE|14|XGE"
-			]
-		},
-		{
-			"name": "College of Swords",
-			"shortName": "Swords",
-			"source": "XGE",
-			"className": "Bard",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "College of Swords",
-				"source": "XGE",
-				"shortName": "Swords",
-				"className": "Bard",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"College of Swords|Bard|XPHB|Swords|XGE|3|XGE",
-				"Extra Attack|Bard|XPHB|Swords|XGE|6|XGE",
-				"Master's Flourish|Bard|XPHB|Swords|XGE|14|XGE"
-			]
-		},
-		{
-			"name": "College of Whispers",
-			"shortName": "Whispers",
-			"source": "XGE",
-			"className": "Bard",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "College of Whispers",
-				"source": "XGE",
-				"shortName": "Whispers",
-				"className": "Bard",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"College of Whispers|Bard|XPHB|Whispers|XGE|3|XGE",
-				"Mantle of Whispers|Bard|XPHB|Whispers|XGE|6|XGE",
-				"Shadow Lore|Bard|XPHB|Whispers|XGE|14|XGE"
-			]
-		},
-		{
-			"name": "College of Creation",
-			"shortName": "Creation",
-			"source": "TCE",
-			"className": "Bard",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "College of Creation",
-				"source": "TCE",
-				"shortName": "Creation",
-				"className": "Bard",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"College of Creation|Bard|XPHB|Creation|TCE|3|TCE",
-				"Animating Performance|Bard|XPHB|Creation|TCE|6|TCE",
-				"Creative Crescendo|Bard|XPHB|Creation|TCE|14|TCE"
-			]
-		},
-		{
-			"name": "College of Eloquence",
-			"shortName": "Eloquence",
-			"source": "TCE",
-			"className": "Bard",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "College of Eloquence",
-				"source": "TCE",
-				"shortName": "Eloquence",
-				"className": "Bard",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"College of Eloquence|Bard|XPHB|Eloquence|TCE|3|TCE",
-				"Unfailing Inspiration|Bard|XPHB|Eloquence|TCE|6|TCE",
-				"Infectious Inspiration|Bard|XPHB|Eloquence|TCE|14|TCE"
-			]
-		},
-		{
-			"name": "College of Spirits",
-			"shortName": "Spirits",
-			"source": "VRGR",
-			"className": "Bard",
-			"classSource": "XPHB",
-			"reprintedAs": [
-				"Spirits|Bard|XPHB|RHW"
 			],
-			"_copy": {
-				"name": "College of Spirits",
-				"source": "VRGR",
-				"shortName": "Spirits",
-				"className": "Bard",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"name": "College of Lore",
+			"source": "PHB",
 			"subclassFeatures": [
-				"College of Spirits|Bard|XPHB|Spirits|VRGR|3|VRGR",
-				"Spirit Session|Bard|XPHB|Spirits|VRGR|6|VRGR",
-				"Mystical Connection|Bard|XPHB|Spirits|VRGR|14|VRGR"
+				"College of Lore|Bard|PHB|Lore|PHB|3|PHB",
+				"Additional Magical Secrets|Bard|PHB|Lore|PHB|6|PHB",
+				"Peerless Skill|Bard|PHB|Lore|PHB|14|PHB"
+			]
+		},
+		{
+			"shortName": "Valor",
+			"className": "Bard",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "College of Valor",
+			"source": "PHB",
+			"subclassFeatures": [
+				"College of Valor|Bard|PHB|Valor|PHB|3|PHB",
+				"Extra Attack|Bard|PHB|Valor|PHB|6|PHB",
+				"Battle Magic|Bard|PHB|Valor|PHB|14|PHB"
+			]
+		},
+		{
+			"shortName": "Glamour",
+			"className": "Bard",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"innate": {
+						"6": [
+							"command"
+						]
+					}
+				}
+			],
+			"name": "College of Glamour",
+			"source": "XGE",
+			"subclassFeatures": [
+				"College of Glamour|Bard|PHB|Glamour|XGE|3|XGE",
+				"Mantle of Majesty|Bard|PHB|Glamour|XGE|6|XGE",
+				"Unbreakable Majesty|Bard|PHB|Glamour|XGE|14|XGE"
+			]
+		},
+		{
+			"shortName": "Swords",
+			"className": "Bard",
+			"classSource": "PHB",
+			"edition": "classic",
+			"optionalfeatureProgression": [
+				{
+					"name": "Fighting Style",
+					"featureType": [
+						"FS:B"
+					],
+					"progression": {
+						"3": 1
+					}
+				}
+			],
+			"name": "College of Swords",
+			"source": "XGE",
+			"subclassFeatures": [
+				"College of Swords|Bard|PHB|Swords|XGE|3|XGE",
+				"Extra Attack|Bard|PHB|Swords|XGE|6|XGE",
+				"Master's Flourish|Bard|PHB|Swords|XGE|14|XGE"
+			]
+		},
+		{
+			"shortName": "Whispers",
+			"className": "Bard",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "College of Whispers",
+			"source": "XGE",
+			"subclassFeatures": [
+				"College of Whispers|Bard|PHB|Whispers|XGE|3|XGE",
+				"Mantle of Whispers|Bard|PHB|Whispers|XGE|6|XGE",
+				"Shadow Lore|Bard|PHB|Whispers|XGE|14|XGE"
+			]
+		},
+		{
+			"shortName": "Creation",
+			"className": "Bard",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "College of Creation",
+			"source": "TCE",
+			"subclassFeatures": [
+				"College of Creation|Bard|PHB|Creation|TCE|3|TCE",
+				"Animating Performance|Bard|PHB|Creation|TCE|6|TCE",
+				"Creative Crescendo|Bard|PHB|Creation|TCE|14|TCE"
+			]
+		},
+		{
+			"shortName": "Eloquence",
+			"className": "Bard",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "College of Eloquence",
+			"source": "TCE",
+			"subclassFeatures": [
+				"College of Eloquence|Bard|PHB|Eloquence|TCE|3|TCE",
+				"Unfailing Inspiration|Bard|PHB|Eloquence|TCE|6|TCE",
+				"Infectious Inspiration|Bard|PHB|Eloquence|TCE|14|TCE"
+			]
+		},
+		{
+			"shortName": "Spirits",
+			"className": "Bard",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"guidance#c"
+						]
+					}
+				}
+			],
+			"name": "College of Spirits",
+			"source": "VRGR",
+			"subclassFeatures": [
+				"College of Spirits|Bard|PHB|Spirits|VRGR|3|VRGR",
+				"Spirit Session|Bard|PHB|Spirits|VRGR|6|VRGR",
+				"Mystical Connection|Bard|PHB|Spirits|VRGR|14|VRGR"
 			]
 		},
 		{

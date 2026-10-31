@@ -223,61 +223,8 @@
 			"hasToken": true
 		},
 		{
-			"name": "Fhenimore",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "LR",
-			"page": 20,
-			"_copy": {
-				"name": "Kraken Priest",
-				"source": "VGM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the priest",
-						"with": "Fhenimore",
-						"flags": "i"
-					},
-					"_": {
-						"mode": "replaceSpells",
-						"daily": {
-							"1e": [
-								{
-									"replace": "{@spell call lightning}",
-									"with": "{@spell lightning bolt}"
-								}
-							]
-						}
-					},
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Blood Frenzy",
-							"entries": [
-								"Fhenimore has advantage on melee attack rolls against any creature that doesn't have all its hit points."
-							]
-						}
-					},
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Voice of the Kraken (Recharges after a Short or Long Rest)",
-						"items": [
-							{
-								"name": "Multiattack",
-								"entries": [
-									"Fhenimore can attack once with her bite attack and once with Thunderous Touch."
-								]
-							},
-							{
-								"name": "Bite",
-								"entries": [
-									"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
-								]
-							}
-						]
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -316,7 +263,143 @@
 			"miscTags": [
 				"MW"
 			],
-			"hasToken": true
+			"name": "Fhenimore",
+			"source": "LR",
+			"page": 20,
+			"referenceSources": [
+				"DIP",
+				"GoS",
+				"LR",
+				"SLW"
+			],
+			"size": [
+				"M"
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"dex": 10,
+			"con": 16,
+			"int": 10,
+			"wis": 15,
+			"cha": 14,
+			"skill": {
+				"perception": "+5"
+			},
+			"passive": 15,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Fhenimore's spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell command}",
+						"{@spell create or destroy water}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell control water}",
+							"{@spell darkness}",
+							"{@spell water breathing}",
+							"{@spell water walk}"
+						],
+						"1e": [
+							"{@spell call lightning}",
+							"{@spell Evard's black tentacles}"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Fhenimore can breathe air and water."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"Fhenimore has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Thunderous Touch",
+					"entries": [
+						"{@atk ms} {@hit 5} to hit, reach 5 ft., one creature. {@h}27 ({@damage 5d10}) thunder damage."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Fhenimore can attack once with her bite attack and once with Thunderous Touch."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"underwater"
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"damageTagsSpell": [
+				"B",
+				"L"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictSpell": [
+				"prone",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"charisma"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"strength",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/LR/Fhenimore.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Gar Shatterkeel",
@@ -769,52 +852,8 @@
 			"hasToken": true
 		},
 		{
-			"name": "Whymsee",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "LR",
-			"page": 20,
-			"_copy": {
-				"name": "Kraken Priest",
-				"source": "VGM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the priest",
-						"with": "Whymsee",
-						"flags": "i"
-					},
-					"_": {
-						"mode": "replaceSpells",
-						"daily": {
-							"1e": [
-								{
-									"replace": "{@spell call lightning}",
-									"with": "{@spell lightning bolt}"
-								}
-							]
-						}
-					},
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Voice of the Kraken (Recharges after a Short or Long Rest)",
-						"items": [
-							{
-								"name": "Ink Cloud",
-								"entries": [
-									"While underwater, Whymsee can expel an ink cloud in a 20-foot radius. The cloud spreads around corners, and that area is {@quickref Vision and Light||2||heavily obscured} to creatures other than kraken priests or a kraken. Each creature other than a kraken priest or a kraken that ends its turn there must succeed on a {@dc 14} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of Whymsee's next turn."
-								]
-							},
-							{
-								"name": "Shell Defense",
-								"entries": [
-									"Whymsee withdraws into her shell. Until she emerges, she gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in her shell, Whymsee is {@condition prone}, her speed is 0 and can't increase, she has disadvantage on Dexterity saving throws, it can't take reactions, and the only action she can take is a bonus action to emerge."
-								]
-							}
-						]
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -849,7 +888,138 @@
 			"miscTags": [
 				"AOE"
 			],
-			"hasToken": true
+			"name": "Whymsee",
+			"source": "LR",
+			"page": 20,
+			"referenceSources": [
+				"DIP",
+				"GoS",
+				"LR",
+				"SLW"
+			],
+			"size": [
+				"M"
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 16,
+			"int": 10,
+			"wis": 15,
+			"cha": 14,
+			"skill": {
+				"perception": "+5"
+			},
+			"passive": 15,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Whymsee's spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell command}",
+						"{@spell create or destroy water}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell control water}",
+							"{@spell darkness}",
+							"{@spell water breathing}",
+							"{@spell water walk}"
+						],
+						"1e": [
+							"{@spell call lightning}",
+							"{@spell Evard's black tentacles}"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Whymsee can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Thunderous Touch",
+					"entries": [
+						"{@atk ms} {@hit 5} to hit, reach 5 ft., one creature. {@h}27 ({@damage 5d10}) thunder damage."
+					]
+				},
+				{
+					"name": "Ink Cloud",
+					"entries": [
+						"While underwater, Whymsee can expel an ink cloud in a 20-foot radius. The cloud spreads around corners, and that area is {@quickref Vision and Light||2||heavily obscured} to creatures other than kraken priests or a kraken. Each creature other than a kraken priest or a kraken that ends its turn there must succeed on a {@dc 14} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of Whymsee's next turn."
+					]
+				},
+				{
+					"name": "Shell Defense",
+					"entries": [
+						"Whymsee withdraws into her shell. Until she emerges, she gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in her shell, Whymsee is {@condition prone}, her speed is 0 and can't increase, she has disadvantage on Dexterity saving throws, it can't take reactions, and the only action she can take is a bonus action to emerge."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"underwater"
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"damageTagsSpell": [
+				"B",
+				"L"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictSpell": [
+				"prone",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"charisma"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"strength",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/LR/Whymsee.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Young Kraken",

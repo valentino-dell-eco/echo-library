@@ -47,6 +47,83 @@
 			]
 		},
 		{
+			"name": "Argentia Skywright",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Lycanthropes",
+					"entries": [
+						"One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.",
+						"Evil lycanthropes hide among normal folk, emerging in animal form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Curse of Lycanthropy",
+									"entries": [
+										"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
+										"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
+										"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Player Characters as Lycanthropes",
+							"entries": [
+								"A character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in non-humanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.",
+								"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw ({@dc 8} + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
+								"The following information applies to specific lycanthropes.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "{@creature Werebear}",
+											"entries": [
+												"The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Wereboar}",
+											"entries": [
+												"The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Wererat}",
+											"entries": [
+												"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Weretiger}",
+											"entries": [
+												"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Werewolf}",
+											"entries": [
+												"The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Black Rose Bearer",
 			"source": "VEoR",
 			"entries": [
@@ -317,6 +394,39 @@
 			]
 		},
 		{
+			"name": "Crunch",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Blade scouts are responsible for exploring and charting Mournland regions not yet claimed by the Lord of Blades' legions."
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Blades of Eberron",
+							"entries": [
+								"In the aftermath of Eberron's Last War, a warforged called the Lord of Blades rose to fill the power vacuum left in the devastated Mournland. The Lord of Blades' followers, known as blades, formed a cult of personality that deifies the Lord of Blades and preaches a bloody, jingoistic doctrine of warforged superiority. The primary tenet of the blades is that non-warforged on the continent of Khorvaire must be slaughtered."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Crunch.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Deadbark Dryad",
 			"source": "VEoR",
 			"entries": [
@@ -397,6 +507,23 @@
 			]
 		},
 		{
+			"name": "Eldon Keyward",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Priests bring the teachings of their gods to the common folk. They are the spiritual leaders of temples and shrines and often hold positions of influence in their communities. Evil priests might work openly under a tyrant, or they might be the leaders of religious sects hidden in the shadows of good society, overseeing depraved rites. A priest typically has one or more acolytes to help with religious ceremonies and other sacred duties."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "False Lich",
 			"source": "VEoR",
 			"entries": [
@@ -418,6 +545,314 @@
 					},
 					"width": 745,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Fernitha",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Devils",
+					"entries": [
+						"Devils personify tyranny, with a totalitarian society dedicated to the domination of mortal life. The shadow of the Nine Hells of Baator extends far across the multiverse, and Asmodeus, the dark lord of Nessus, strives to subjugate the cosmos to satisfy his thirst for power. To do so, he must continually expand his infernal armies, sending his servants to the mortal realm to corrupt the souls from which new devils are spawned.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Lords of Tyranny",
+											"entries": [
+												"Devils live to conquer, enslave, and oppress. They take perverse delight in exercising authority over the weak, and any creature that defies the authority of a devil faces swift and cruel punishment. Every interaction is an opportunity for a devil to display its power, and all devils have a keen understanding of how to use and abuse their power.",
+												"Devils understand the failings that plague intelligent mortals, and they use that knowledge to lead mortals into temptation and darkness, turning creatures into slaves to their own corruption. Devils on the Material Plane use their influence to manipulate humanoid rulers, whispering evil thoughts, fomenting paranoia, and eventually driving them to tyrannical actions."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Obedience and Ambition",
+											"entries": [
+												"In accordance with their lawful alignment, devils obey even when they envy or dislike their superiors, knowing that their obedience will be rewarded. The hierarchy of the Nine Hells depends on this unswerving loyalty, without which that fiendish plane would become as anarchic as the Abyss.",
+												"At the same time, it is in the nature of devils to scheme, creating in some a desire to rule that eclipses their contentment to be ruled. This singular ambition is strongest among the archdevils whom Asmodeus appoints to rule the nine layers of the Nine Hells. These high-ranking fiends are the only devils to ever sample true power, which they crave like the sweetest ambrosia."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dark Dealers and Soul Mongers",
+											"entries": [
+												"Devils are confined to the Lower Planes, but they can travel beyond those planes by way of portals or powerful summoning magic. They love to strike bargains with mortals seeking to gain some benefit or prize, but a mortal making such a bargain must be wary. Devils are crafty negotiators and positively ruthless at enforcing the terms of an agreement. Moreover, a contract with even the lowliest devil is enforced by Asmodeus's will. Any mortal creature that breaks such a contract instantly forfeits its soul, which is spirited away to the Nine Hells.",
+												"To own a creature's soul is to have absolute control over that creature, and most devils accept no other currency in exchange for the fiendish power and boons they can provide. A soul is usually forfeited when a mortal dies naturally, for devils are immortal and can wait years for a contract to play out. If a contract allows a devil to claim a mortal's soul before death, it can instantly return to the Nine Hells with the soul in its possession. Only divine intervention can release a soul after a devil has claimed it."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Infernal Hierarchy",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"The Nine Hells has a rigid hierarchy that defines every aspect of its society. Asmodeus is the supreme ruler of all devils, and the only creature in the Nine Hells with the powers of a lesser god. Worshiped as such in the Material Plane, Asmodeus inspires the evil humanoid cults that take his name. In the Nine Hells, he commands scores of pit fiend generals, which in turn command legions of subordinates.",
+										"A supreme tyrant, a brilliant deceiver, and a master of subtlety, Asmodeus protects his throne by keeping his friends close and his enemies closer. He delegates most matters of rulership to the pit fiends and lesser archdevils that make up the infernal bureaucracy of the Nine Hells, even as he knows that those powerful devils conspire to usurp the Throne of Baator from which he rules. Asmodeus appoints archdevils, and he can strip any member of the infernal hierarchy of rank and status as he likes.",
+										"If it dies outside the Nine Hells, a devil disappears in a cloud of sulfurous smoke or dissolves into a pool of ichor, instantly returning to its home layer, where it reforms at full strength. Devils that die in the Nine Hells are destroyed forever-a fate that even Asmodeus fears.",
+										{
+											"type": "entries",
+											"name": "Archdevils",
+											"entries": [
+												"The archdevils include all the current and deposed rulers of the Nine Hells (see the Layers and Lords of the Nine Hells table), as well as the dukes and duchesses that make up their courts, attend them as advisers, and hope to supplant them. Every archdevil is a unique being with an appearance that reflects its particular evil nature."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Greater Devils",
+											"entries": [
+												"The greater devils include the pit fiends, erinyes, horned devils, and ice devils that command lesser devils and attend the archdevils."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Lesser Devils",
+											"entries": [
+												"The lesser devils include numerous strains of fiends, including imps, chain devils, spined devils, bearded devils, barbed devils, and bone devils."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Lemures",
+											"entries": [
+												"The lowest form of devil, lemures are the twisted and tormented souls of evil and corrupted mortals. A lemure killed in the Nine Hells is only permanently destroyed if it is killed with a blessed weapon or if its shapeless corpse is splashed with holy water before it can return to life."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Promotion and Demotion",
+											"entries": [
+												"When the soul of an evil mortal sinks into the Nine Hells, it takes on the physical form of a wretched lemure. Archdevils and greater devils have the power to promote lemures to lesser devils. Archdevils can promote lesser devils to greater devils, and Asmodeus alone can promote a greater devil to archdevil status. This diabolic promotion invokes a brief, painful transformation, with the devil's memories passing intact from one form to the next.",
+												"Low-level promotions are typically based on need, such as when a pit fiend transforms lemures into imps to gain invisible spies under its command. High-level promotions are almost always based on merit, such as when a bone devil that distinguishes itself in battle is transformed into a horned devil by the archdevil it serves. A devil is seldom promoted more than one step at a time in the hierarchy of infernal forms.",
+												"Demotion is the customary punishment for failure or disobedience among the devils. Archdevils or greater devils can demote a lesser devil to a lemure, which loses all memory of its prior existence. An archdevil can demote a greater devil to lesser devil status, but the demoted devil retains its memories-and might seek vengeance if the severity of the demotion is excessive.",
+												"No devil can promote or demote another devil that has not sworn fealty to it, preventing rival archdevils from demoting each other's most powerful servants. Since all devils swear fealty to Asmodeus, he can freely demote any other devil, transforming it into whatever infernal form he desires.",
+												{
+													"type": "table",
+													"caption": "Infernal Hierarchy",
+													"colLabels": [
+														"Rank",
+														"Devil(s)"
+													],
+													"colStyles": [
+														"col-4",
+														"col-8"
+													],
+													"rows": [
+														[
+															"1.",
+															"lemure"
+														],
+														[
+															"2. (Lesser devils)",
+															"imp"
+														],
+														[
+															"3.",
+															"spined devil"
+														],
+														[
+															"4.",
+															"bearded devil"
+														],
+														[
+															"5.",
+															"barbed devil"
+														],
+														[
+															"6.",
+															"chain devil"
+														],
+														[
+															"7.",
+															"bone devil"
+														],
+														[
+															"8. (Greater devils)",
+															"horned devil"
+														],
+														[
+															"9.",
+															"erinyes"
+														],
+														[
+															"10.",
+															"ice devil"
+														],
+														[
+															"11.",
+															"pit fiend"
+														],
+														[
+															"12. (Archdevils)",
+															"duke or duchess"
+														],
+														[
+															"13.",
+															"archduke or archduchess"
+														]
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Nine Hells",
+									"entries": [
+										"The Nine Hells are a single plane comprising nine separate layers (see the Layers and Lords of the Nine Hells table). The first eight layers are each ruled by archdevils that answer to the greatest archdevil of all: Asmodeus, the Archduke of Nessus, the ninth layer. To reach the deepest layer of the Nine Hells, one must descend through all eight of the layers above it, in order. The most expeditious means of doing so is the River Styx, which plunges ever deeper as it flows from one layer to the next. Only the most courageous adventurers can withstand the torment and horror of that journey.",
+										{
+											"type": "table",
+											"caption": "Layers and Lords of the Nine Hells Layer",
+											"colLabels": [
+												"Layer",
+												"Layer Name",
+												"Archduke or Archduchess",
+												"Previous Rulers",
+												"Primary Inhabitants"
+											],
+											"colStyles": [
+												"col-1",
+												"col-2",
+												"col-3",
+												"col-3",
+												"col-3"
+											],
+											"rows": [
+												[
+													"1",
+													"Avernus",
+													"Zariel",
+													"Bel, Tiamat",
+													"Erinyes, imps, spined devils"
+												],
+												[
+													"2",
+													"Dis",
+													"Dispater",
+													"—",
+													"Bearded devils, erinyes, imps, spined devils"
+												],
+												[
+													"3",
+													"Minauros",
+													"Mammon",
+													"—",
+													"Bearded devils, chain devils, imps, spined devils"
+												],
+												[
+													"4",
+													"Phlegethos",
+													"Belial and Fierna",
+													"—",
+													"Barbed devils, bone devils, imps, spined devils"
+												],
+												[
+													"5",
+													"Stygia",
+													"Levistus",
+													"Geryon",
+													"Bone devils, erinyes, ice devils, imps"
+												],
+												[
+													"6",
+													"Malbolge",
+													"Glasya",
+													"Malagard, Moloch",
+													"Barbed devils, bone devils, horned devils, imps"
+												],
+												[
+													"7",
+													"Maladomini",
+													"Baalzebul",
+													"—",
+													"Barbed devils, bone devils, horned devils, imps"
+												],
+												[
+													"8",
+													"Cania",
+													"Mephistopheles",
+													"—",
+													"Horned devils, ice devils, imps, pit fiends"
+												],
+												[
+													"9",
+													"Nessus",
+													"Asmodeus",
+													"—",
+													"All devils"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Devil True Names and Talismans",
+							"entries": [
+								"Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if {@condition charmed}, and ancient scrolls and tomes are said to exist that list the true names of certain devils.",
+								"A mortal who learns a devil's true name can use powerful summoning magic to call the devil from the Nine Hells and bind it into service. Binding can also be accomplished with the help of a devil talisman. Each of these ancient relics is inscribed with the true name of a devil it controls, and was bathed in the blood of a worthy sacrifice-typically someone the creator loved-when crafted.",
+								"However it is summoned, a devil brought to the Material Plane typically resents being pressed into service. However, the devil seizes every opportunity to corrupt its summoner so that the summoner's soul ends up in the Nine Hells. Only imps are truly content to be summoned, and they easily commit to serving a summoner as a familiar, but they still do their utmost to corrupt those who summon them."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Variant: Devil Summoning",
+							"entries": [
+								"Some devils can have an action option that allows them to summon other devils.",
+								{
+									"type": "entries",
+									"name": "Summon Devil (1/Day)",
+									"entries": [
+										"The devil chooses what to summon and attempts a magical summoning."
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"A barbed devil has a {@chance 30} chance of summoning one barbed devil.",
+										"A bearded devil has a {@chance 30} chance of summoning one bearded devil.",
+										"A bone devil has a {@chance 40} chance of summoning {@dice 2d6} spined devils or one bone devil.",
+										"An erinyes has a {@chance 50} chance of summoning {@dice 3d6} spined devils, {@dice 1d6} bearded devils, or one erinyes.",
+										"A horned devil has a {@chance 30} chance of summoning one horned devil.",
+										"An ice devil has a {@chance 60} chance of summoning one ice devil.",
+										"A pit fiend summons {@dice 2d4} bearded devils, {@dice 1d4} barbed devils, or one erinyes with no chance of failure."
+									]
+								},
+								"A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Figaro",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -471,6 +906,23 @@
 					},
 					"width": 1000,
 					"height": 941
+				}
+			]
+		},
+		{
+			"name": "Grottenelle Stonecutter",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -532,6 +984,59 @@
 					},
 					"width": 1000,
 					"height": 953
+				}
+			]
+		},
+		{
+			"name": "Inda Malayuri",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Inda%20Malayuri.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Indrina Lamsensettle",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.",
+								"The noble's statistics can also be used to represent courtiers who aren't of noble birth."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Indrina%20Lamsensettle.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Jerot Galgin",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Jerot%20Galgin.webp"
+					}
 				}
 			]
 		},
@@ -606,6 +1111,210 @@
 					},
 					"width": 550,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Kaylan Renaudon",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Awakened to an endless night, vampires hunger for the life they have lost and sate that hunger by drinking the blood of the living. Vampires abhor sunlight, for its touch burns them. They never cast shadows or reflections, and any vampire wishing to move unnoticed among the living keeps to the darkness and far from reflective surfaces.",
+								{
+									"type": "entries",
+									"name": "Dark Desires",
+									"entries": [
+										"Whether or not a vampire retains any memories from its former life, its emotional attachments wither as once-pure feelings become twisted by undeath. Love turns into hungry obsession, while friendship becomes bitter jealousy. In place of emotion, vampires pursue physical symbols of what they crave, so that a vampire seeking love might fixate on a young beauty. A child might become an object of fascination for a vampire obsessed with youth and potential. Others surround themselves with art, books, or sinister items such as torture devices or trophies from creatures they have killed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Born from Death",
+									"entries": [
+										"Most of a vampire's victims become vampire spawn-ravenous creatures with a vampire's hunger for blood, but under the control of the vampire that created them. If a true vampire allows a spawn to draw blood from its own body, the spawn transforms into a true vampire no longer under its master's control. Few vampires are willing to relinquish their control in this manner. Vampire spawn become free-willed when their creator dies."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Chained to the Grave",
+									"entries": [
+										"Every vampire remains bound to its coffin, crypt, or grave site, where it must rest by day. If a vampire didn't receive a formal burial, it must lie beneath a foot of earth at the place of its transition to undeath. A vampire can move its place of burial by transporting its coffin or a significant amount of grave dirt to another location. Some vampires set up multiple resting places this way."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"Neither a vampire nor a vampire spawn requires air."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A Vampire's Lair",
+									"entries": [
+										"A vampire chooses a grand yet defensible location for its lair, such as a castle, fortified manor, or walled abbey. It hides its coffin in an underground crypt or vault guarded by vampire spawn or other loyal creatures of the night."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Player Characters as Vampires",
+									"entries": [
+										"The game statistics of a player character transformed into a vampire spawn and then a vampire don't change, except that the character's Strength, Dexterity, and Constitution scores become 18 if they aren't higher. In addition, the character gains the vampire's damage resistances, {@sense darkvision}, traits, and actions. Attack and damage rolls for the vampire's attacks are based on Strength.",
+										"The save DC for Charm is 8 + the vampire's proficiency bonus + the vampire's Charisma modifier. The character's alignment becomes lawful evil, and the DM might take control of the character until the vampirism is reversed with a {@spell wish} spell or the character is killed and brought back to life."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Strahd von Zarovich",
+									"entries": [
+										"A brilliant thinker and capable warrior in life, Strahd von Zarovich fought in countless battles for his people. When war and killing finally stripped him of his youth and strength, he settled in the remote valley of Barovia and built a castle on a towering pinnacle, from which he could survey his lands. His brother Sergei came to live with him in Castle Ravenloft, becoming Strahd's adviser and constant companion.",
+										"In his brother, Strahd saw everything he had lost. Sergei was handsome and young, while Strahd had become old and scarred. Resentment colored their relationship, eventually turning into hatred. Strahd's beloved, Tatyana, spurned him for Sergei, whom she pledged to marry.",
+										"In a desperate attempt to win Tatyana's heart, Strahd forged a pact with dark powers that made him immortal. At the wedding of Sergei and Tatyana, he confronted his brother and killed him. Tatyana fled and flung herself from Ravenloft's walls. Strahd's guards, seeing him for a monster, shot him with arrows. But he did not die. He became a vampire-the first vampire, according to many sages.",
+										"In the centuries since his transformation, Strahd's lust for life and youth have only grown. He broods in his dark castle, cursing the living for stealing away what he lost, and never admitting his hand in the tragedy he created."
+									]
+								},
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"I am The Ancient, I am The Land. My beginnings are lost in the darkness of the past. I was the warrior, I was good and just. I thundered across the land like the wrath of a just god, but the war years and the killing years wore down my soul as the wind wears down stone into sand."
+											],
+											"by": "Count Strahd von Zarovich"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Kaylan%20Renaudon.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ker-arach",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"The terrors known as spiderdragons were first found in the deepest corners of the Underdark and trace their origins to black dragon wyrmlings who ate a steady diet of spiders. Though spiderdragons were not created in the Abyss or by Lolth's faithful, worshipers of the Spider Queen claim that spiderdragons are a gift from their deity, as spiderdragons are most numerous in Underdark areas that Lolth's faithful claim as their own. Lolth worshipers might employ spiderdragons as guards or treat them as venerated guests. The creatures aren't as powerful as their black dragon progenitors, though, and they often drain the enclaves' resources with their selfish demands.",
+						"Uninterested in building lairs, spiderdragons weave powerful webs and eat an abundance of prey before losing interest in an area and moving on, even when they're treated like beloved guests. Unlike their black dragon progenitors, spiderdragons aren't particularly clever, though some of them understand their significance to Lolth worshipers and exploit their positions for as long as possible."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Ker-arach.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Kevetta Dolindar",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Kevetta%20Dolindar.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Khai Kiroth",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Khai%20Kiroth.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Laysa Matulin",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Laysa%20Matulin.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Lysan",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Lysan.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Malaina van Talstiv",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Malaina%20van%20Talstiv.webp"
+					}
 				}
 			]
 		},
@@ -707,6 +1416,47 @@
 			]
 		},
 		{
+			"name": "Naxa",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Naxa.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Nyssa Otellion",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Nyssa%20Otellion.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Orinix",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Lunar dragons (also known as moon dragons or phase dragons) are capricious, xenophobic creatures that make their lairs inside desolate moons by burrowing through the rock.",
+						"Before laying eggs, a female lunar dragon stocks her lair with food; she won't leave the lair again until the eggs hatch and the offspring are old enough to fend for themselves. Lunar dragon eggs have stony shells that are pale white to light gray in color. Lunar dragons are alabaster white when they hatch and gradually turn darker as they age. Ancient moon dragons are the color of slate.",
+						"Lunar dragons enjoy depriving other creatures of treasure more than acquiring the treasure themselves. Often found among the treasures in a lunar dragon's hoard are one or more spelljamming helms (see the {@i Astral Adventurer's Guide}) taken from vessels that dared to invade the dragon's territory.",
+						"A lunar dragon can become incorporeal, but not to the extent that it can pass through other creatures or solid objects. In this semi-incorporeal state, roughly half of the dragon's body has a dark, indistinctly spectral form."
+					]
+				}
+			]
+		},
+		{
 			"name": "Phisarazu Spyder-Fiend",
 			"source": "VEoR",
 			"entries": [
@@ -782,6 +1532,39 @@
 			]
 		},
 		{
+			"name": "Rack",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Blade scouts are responsible for exploring and charting Mournland regions not yet claimed by the Lord of Blades' legions."
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Blades of Eberron",
+							"entries": [
+								"In the aftermath of Eberron's Last War, a warforged called the Lord of Blades rose to fill the power vacuum left in the devastated Mournland. The Lord of Blades' followers, known as blades, formed a cult of personality that deifies the Lord of Blades and preaches a bloody, jingoistic doctrine of warforged superiority. The primary tenet of the blades is that non-warforged on the continent of Khorvaire must be slaughtered."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Rack.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Raklupis Spyder-Fiend",
 			"source": "VEoR",
 			"entries": [
@@ -819,6 +1602,54 @@
 			]
 		},
 		{
+			"name": "Redbud",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Treants are awakened trees that dwell in ancient forests. Although treants prefer to while away the days, months, and years in quiet contemplation, they fiercely protect their woodland demesnes from outside threats.",
+								{
+									"type": "entries",
+									"name": "The Sleeping Tree Awakens",
+									"entries": [
+										"A tree destined to become a treant meditates through a long cycle of seasons, living normally for decades or centuries before realizing its potential. Trees that awaken do so only under special circumstances and in places steeped with nature's magic. Treants and powerful druids can sense when a tree has the spark of potential, and they protect such trees in secret groves as they draw near the moment of their awakening. During the long process of awakening, a tree acquires face-like features in its bark, a division of the lower trunk into legs, and long branches bending downward to serve as its arms. When it is ready, the tree pulls its legs free from the clutching earth and joins its fellows in protecting its woodland home."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Legendary Guardians",
+									"entries": [
+										"After a treant awakens, it continues to grow exactly as it did when it was a tree. Treants created from the mightiest trees can reach great sizes while developing an innate magical power over plants and animals. Such treants can animate plants, using them to ensnare and trap intruders. They can call wild creatures to aid them or carry messages across great distances."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Protectors of the Wild",
+									"entries": [
+										"Even after awakening, a treant spends much of its time living as a tree. While rooted in place, a treant remains aware of its surroundings, and can perceive the effects of events taking place miles away based on subtle changes nearby.",
+										"Woodcutters who avoid culling healthy living trees and hunters who take only what they need of the forest's bounty are unlikely to arouse a treant's ire. Creatures careless with fire, those who poison the forest, and those who destroy great trees, especially a tree close to awakening, face the treant's wrath."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Redbud.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Relentless Impaler",
 			"source": "VEoR",
 			"entries": [
@@ -840,6 +1671,320 @@
 					},
 					"width": 849,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Rerak",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Occasionally, liches create nefarious magical copies of themselves to fool enemies, to guard treasure, or for other inscrutable reasons.",
+						"To create a false lich, a lich binds a shred of its life force to a corpse in a profane ritual. This transforms the corpse into a near-identical copy of the lich with immense necrotic power and some of its creator's arcane prowess. The creator then embeds enchanted gemstones into the corpse's eye sockets; the gems allow the false lich to trap creatures' souls and transfer the souls to its creator.",
+						"A false lich often gradually gains a sense of self-identity. While many false liches remain steadfastly loyal to their creators, others resent their creators for imprisoning and abandoning them."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Rerak.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Rezran \"Snake Eyes\" Agrodro",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Rezran%20Snake%20Eyes%20Agrodro.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Riffel",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Lycanthropes",
+					"entries": [
+						"One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.",
+						"Evil lycanthropes hide among normal folk, emerging in animal form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Curse of Lycanthropy",
+									"entries": [
+										"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
+										"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
+										"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Player Characters as Lycanthropes",
+							"entries": [
+								"A character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in non-humanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.",
+								"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw ({@dc 8} + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
+								"The following information applies to specific lycanthropes.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "{@creature Werebear}",
+											"entries": [
+												"The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Wereboar}",
+											"entries": [
+												"The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Wererat}",
+											"entries": [
+												"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Weretiger}",
+											"entries": [
+												"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Werewolf}",
+											"entries": [
+												"The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sangora",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Awakened to an endless night, vampires hunger for the life they have lost and sate that hunger by drinking the blood of the living. Vampires abhor sunlight, for its touch burns them. They never cast shadows or reflections, and any vampire wishing to move unnoticed among the living keeps to the darkness and far from reflective surfaces.",
+								{
+									"type": "entries",
+									"name": "Dark Desires",
+									"entries": [
+										"Whether or not a vampire retains any memories from its former life, its emotional attachments wither as once-pure feelings become twisted by undeath. Love turns into hungry obsession, while friendship becomes bitter jealousy. In place of emotion, vampires pursue physical symbols of what they crave, so that a vampire seeking love might fixate on a young beauty. A child might become an object of fascination for a vampire obsessed with youth and potential. Others surround themselves with art, books, or sinister items such as torture devices or trophies from creatures they have killed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Born from Death",
+									"entries": [
+										"Most of a vampire's victims become vampire spawn-ravenous creatures with a vampire's hunger for blood, but under the control of the vampire that created them. If a true vampire allows a spawn to draw blood from its own body, the spawn transforms into a true vampire no longer under its master's control. Few vampires are willing to relinquish their control in this manner. Vampire spawn become free-willed when their creator dies."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Chained to the Grave",
+									"entries": [
+										"Every vampire remains bound to its coffin, crypt, or grave site, where it must rest by day. If a vampire didn't receive a formal burial, it must lie beneath a foot of earth at the place of its transition to undeath. A vampire can move its place of burial by transporting its coffin or a significant amount of grave dirt to another location. Some vampires set up multiple resting places this way."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"Neither a vampire nor a vampire spawn requires air."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A Vampire's Lair",
+									"entries": [
+										"A vampire chooses a grand yet defensible location for its lair, such as a castle, fortified manor, or walled abbey. It hides its coffin in an underground crypt or vault guarded by vampire spawn or other loyal creatures of the night."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Player Characters as Vampires",
+									"entries": [
+										"The game statistics of a player character transformed into a vampire spawn and then a vampire don't change, except that the character's Strength, Dexterity, and Constitution scores become 18 if they aren't higher. In addition, the character gains the vampire's damage resistances, {@sense darkvision}, traits, and actions. Attack and damage rolls for the vampire's attacks are based on Strength.",
+										"The save DC for Charm is 8 + the vampire's proficiency bonus + the vampire's Charisma modifier. The character's alignment becomes lawful evil, and the DM might take control of the character until the vampirism is reversed with a {@spell wish} spell or the character is killed and brought back to life."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Strahd von Zarovich",
+									"entries": [
+										"A brilliant thinker and capable warrior in life, Strahd von Zarovich fought in countless battles for his people. When war and killing finally stripped him of his youth and strength, he settled in the remote valley of Barovia and built a castle on a towering pinnacle, from which he could survey his lands. His brother Sergei came to live with him in Castle Ravenloft, becoming Strahd's adviser and constant companion.",
+										"In his brother, Strahd saw everything he had lost. Sergei was handsome and young, while Strahd had become old and scarred. Resentment colored their relationship, eventually turning into hatred. Strahd's beloved, Tatyana, spurned him for Sergei, whom she pledged to marry.",
+										"In a desperate attempt to win Tatyana's heart, Strahd forged a pact with dark powers that made him immortal. At the wedding of Sergei and Tatyana, he confronted his brother and killed him. Tatyana fled and flung herself from Ravenloft's walls. Strahd's guards, seeing him for a monster, shot him with arrows. But he did not die. He became a vampire-the first vampire, according to many sages.",
+										"In the centuries since his transformation, Strahd's lust for life and youth have only grown. He broods in his dark castle, cursing the living for stealing away what he lost, and never admitting his hand in the tragedy he created."
+									]
+								},
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"I am The Ancient, I am The Land. My beginnings are lost in the darkness of the past. I was the warrior, I was good and just. I thundered across the land like the wrath of a just god, but the war years and the killing years wore down my soul as the wind wears down stone into sand."
+											],
+											"by": "Count Strahd von Zarovich"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Sangora.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sarcelle Malinosh",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sarusanda Allester",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"\"Evil lurks everywhere. With our minds, we will unearth it, we will plumb its depths, and we will annihilate it.\" With those words, the psychically gifted priest Ulmed founded the Ulmist Inquisition, an order of psionic inquisitors that seeks to discover the wickedness hiding in people's souls.",
+						"In the days before Count Strahd von Zarovich became the first vampire, Strahd thundered across the lands with Ulmed. Their mission was clear: to destroy the infernal powers that had corrupted the world and to ensure that those powers never rose again. Strahd, Ulmed, and their companions hunted Fiends, Undead, Aberrations, and other supernatural threats and were tireless foes of cults like the priests of Osybus. When Strahd fell into darkness, Ulmed was heartbroken at his friend's transformation and changed the inquisition's mission. Instead of focusing on hunting monsters, it would also hunt the seeds of evil that can corrupt a person.",
+						"Ulmed and his friends Cosima, Ansel, and Tristian organized the inquisition into three orders, with each one specializing in a type of psionic power. The Order of Cosima harnessed the Mind Fire—their name for the fire of thought that blazes within each person's mind. They used that power to read thoughts, reshape memories, and dominate the recalcitrant. The inquisitors in the Order of Ansel subjected themselves to harsh asceticism in an effort to use psionic energy to empower their own bodies. They succeeded and became the martial arm of the inquisition, represented by a sword. Finally, the Order of Tristian endeavored to use intellect to alter the environment through telekinetic force, and the order's members became the inquisition's scholars, represented by a tome.",
+						"Today the inquisition rules the city of Malitain, a vast city-state to the north of Barovia's original site, and the inquisition sends its members throughout the multiverse, seeking to thwart the work of malevolent cults, otherworldly horrors, and the malice of mortals. The zeal of the inquisitors in this work has caused them to be a source of terror in many communities, where folk fear that an overzealous inquisitor might be as great a monster as the fiends the inquisitors originally hunted."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Sarusanda%20Allester.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shanzezim",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Hailing from the Elemental Plane of Water, the marids are the most wondrous of genie-kind. Although all genies wield great power, even the lowliest marid sees itself as clearly superior to the flighty djinn, the ground-hugging dao, and the fuming efreet. Large and piscine, marids are a strange sight to behold, particularly when clad in the finely stitched vests and colorful pantaloons they favor. They speak in voices as soft as the sea breeze or as sonorous as storm waves breaking against a rocky cliff. In flight, their lower bodies transform into columns of foamy water.",
+								{
+									"type": "entries",
+									"name": "Water Lords",
+									"entries": [
+										"Water is a marid's native element, and the genie can manipulate water in virtually any way it desires. A marid can walk on water and breathe naturally beneath its surface. It can create water or shape clouds of fog and mist from the vapor in the air. It can even transform itself into mist, or use water as a weapon to bludgeon its foes."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Marid Homes",
+									"entries": [
+										"Marids are rare on the Material Plane. They inhabit mighty and majestic coral fortresses located in the Elemental Plane of Water. These citadels float in the depths of the plane and contain opulent, air-filled chambers where slaves and guests reside.",
+										"A marid doesn't expect much from its slaves, simply wanting to have them for the status of ownership. Marids go out of their way to obtain skilled slaves, and aren't above kidnapping mortal artists, entertainers, or storytellers for use in their courts."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Egotistical Hierarchs",
+									"entries": [
+										"All marids claim a title of nobility, and the race is awash in shahs, sultans, muftis, and khedives. Most of these titles are mere pretense on the part of the self-important marids.",
+										"Marids treat all others-including other genies-as inferiors of various grades, ranging from poor cousins to petty annoyances. They tolerate djinn, dislike dao, and despise efreet.",
+										"Humanoids are among the lowest of the creatures that marids must tolerate, although they sometimes deal with powerful wizards and exceptional leaders on an almost-equal footing. Doing so has sometimes proven to be a mistake, since wizards have managed to imprison marids in conch shells, flasks, and decanters over the ages. Bribery and flattery are the best means of dealing with marids, to which an obsequious mortal is a creature that knows its place."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Whimsical Storytellers",
+									"entries": [
+										"Marids are champion tale-tellers, whose favorite legends emphasize the prowess of marids in general and of the speaker in particular. Fanciful genies, they lie often and creatively. They aren't always malicious in their deception, but embellishments suit their fancy. Marids consider it a crime for a lesser being to interrupt one of their tales, and offending a marid is a sure way to invoke its wrath."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"The marid poured out of the flask like water and said, 'Your wish is my command.' The halfling, overjoyed, wished for immortality, so the marid polymorphed him into a fish that flopped around humorously until, finally, it expired. It's a cautionary tale that has survived through the ages, so I suppose the halfling got his wish."
+									],
+									"by": "Kesto Brighteyes, Gnome Proprietor of the Parted Veil, a bookshop in Sigil"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Shanzezim.webp"
+					}
 				}
 			]
 		},
@@ -958,6 +2103,195 @@
 					},
 					"width": 508,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Teremini Nightsedge",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Archmages are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.",
+								"An archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Teremini%20Nightsedge.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Umberto Noblin",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Uvashar",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"The rakshasa employs delicacy and misdirection in its pursuit of dominion over others. Few creatures ever see the fiend in its true form, for it can take on any guise it wants, although it prefers to masquerade as someone powerful or influential: a noble, cardinal, or rich merchant, for example. A rakshasa's true form combines the features of a human and a tiger, with one noteworthy deformity: its palms are where the backs of the hands would be on a human.",
+								{
+									"type": "entries",
+									"name": "Evil Spirits in Mortal Flesh",
+									"entries": [
+										"Rakshasas originated long ago in the Nine Hells, when powerful devils created a dark ritual to free their essence from their fiendish bodies in order to escape the Lower Planes. A rakshasa enters the Material Plane to feed its appetite for humanoid flesh and evil schemes. It selects its prey with care, taking pains to keep its presence in the world a secret."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Evil Reborn",
+									"entries": [
+										"For a rakshasa, death on the Material Plane means an agonizing and torturous return to the Nine Hells, where its essence remains trapped until its body reforms-a process that can take months or years.",
+										"When the rakshasa is reborn, it has all the memories and knowledge of its former life, and it seeks retribution against the one who slew it. If the target has somehow slipped through its grasp, the rakshasa might punish its killer's family, friends, or descendants.",
+										"Like devils, rakshasas killed in the Nine Hells are forever destroyed."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Slay me once, shame on you.",
+										"Slay me twice, shame on me."
+									],
+									"by": "Rakshasa maxim"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Uvashar.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Vaeve",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Vaeve.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Valendar",
+			"source": "VEoR",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Lycanthropes",
+					"entries": [
+						"One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.",
+						"Evil lycanthropes hide among normal folk, emerging in animal form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Curse of Lycanthropy",
+									"entries": [
+										"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
+										"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
+										"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Player Characters as Lycanthropes",
+							"entries": [
+								"A character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in non-humanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.",
+								"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw ({@dc 8} + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
+								"The following information applies to specific lycanthropes.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "{@creature Werebear}",
+											"entries": [
+												"The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Wereboar}",
+											"entries": [
+												"The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Wererat}",
+											"entries": [
+												"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Weretiger}",
+											"entries": [
+												"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@creature Werewolf}",
+											"entries": [
+												"The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1095,6 +2429,19 @@
 					},
 					"width": 906,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Zastra",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VEoR/Zastra.webp"
+					}
 				}
 			]
 		}

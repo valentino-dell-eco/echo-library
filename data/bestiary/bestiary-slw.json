@@ -1,8 +1,6 @@
 {
 	"monster": [
 		{
-			"name": "Expert",
-			"source": "SLW",
 			"level": 7,
 			"size": [
 				"M"
@@ -106,6 +104,12 @@
 				"RW",
 				"THW"
 			],
+			"name": "Expert",
+			"source": "SLW",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/SLW/Expert.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -185,8 +189,6 @@
 			"hasToken": true
 		},
 		{
-			"name": "Spellcaster (Healer)",
-			"source": "SLW",
 			"level": 7,
 			"size": [
 				"M"
@@ -319,11 +321,15 @@
 			"savingThrowForcedSpell": [
 				"dexterity"
 			],
+			"name": "Spellcaster (Healer)",
+			"source": "SLW",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/SLW/Spellcaster%20(Healer).webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Spellcaster (Mage)",
-			"source": "SLW",
 			"level": 7,
 			"size": [
 				"M"
@@ -456,6 +462,12 @@
 			"savingThrowForcedSpell": [
 				"dexterity"
 			],
+			"name": "Spellcaster (Mage)",
+			"source": "SLW",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/SLW/Spellcaster%20(Mage).webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -679,8 +691,6 @@
 			"hasToken": true
 		},
 		{
-			"name": "Warrior",
-			"source": "SLW",
 			"level": 7,
 			"size": [
 				"M"
@@ -815,6 +825,12 @@
 				"RNG",
 				"RW"
 			],
+			"name": "Warrior",
+			"source": "SLW",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/SLW/Warrior.webp"
+			},
 			"hasToken": true
 		}
 	]

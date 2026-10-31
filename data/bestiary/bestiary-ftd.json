@@ -9145,12 +9145,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Draconic Spirit",
-			"source": "FTD",
-			"page": 21,
-			"reprintedAs": [
-				"Draconic Spirit|XPHB"
-			],
 			"summonedBySpell": "Summon Draconic Spirit|FTD",
 			"summonedBySpellLevel": 5,
 			"size": [
@@ -9270,42 +9264,14 @@
 				"MW",
 				"RCH"
 			],
-			"hasToken": true,
-			"_versions": [
-				{
-					"name": "Draconic Spirit (Chromatic)",
-					"source": "FTD",
-					"resist": [
-						"acid",
-						"cold",
-						"fire",
-						"lightning",
-						"poison"
-					]
-				},
-				{
-					"name": "Draconic Spirit (Gem)",
-					"source": "FTD",
-					"resist": [
-						"force",
-						"necrotic",
-						"psychic",
-						"radiant",
-						"thunder"
-					]
-				},
-				{
-					"name": "Draconic Spirit (Metallic)",
-					"source": "FTD",
-					"resist": [
-						"acid",
-						"cold",
-						"fire",
-						"lightning",
-						"poison"
-					]
-				}
-			]
+			"name": "Draconic Spirit",
+			"source": "FTD",
+			"page": 21,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/FTD/Draconic%20Spirit.webp"
+			},
+			"hasToken": true
 		},
 		{
 			"name": "Dragon Blessed",
@@ -10811,9 +10777,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Drake Companion",
-			"source": "FTD",
-			"page": 15,
 			"summonedByClass": "Ranger|PHB",
 			"size": [
 				"S"
@@ -10886,6 +10849,13 @@
 			"miscTags": [
 				"MW"
 			],
+			"name": "Drake Companion",
+			"source": "FTD",
+			"page": 15,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/FTD/Drake%20Companion.webp"
+			},
 			"hasToken": true
 		},
 		{

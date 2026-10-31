@@ -1073,44 +1073,136 @@
 		},
 		{
 			"name": "Dragon Tortoise",
-			"source": "CM",
-			"page": 205,
-			"_copy": {
-				"name": "Dragon Turtle",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "turtle",
-						"with": "tortoise"
-					},
-					"trait": {
-						"mode": "removeArr",
-						"names": "Amphibious"
-					},
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Steam Breath {@recharge 5}",
-						"items": {
-							"name": "Sand Breath {@recharge 5}",
-							"entries": [
-								"The dragon tortoise exhales abrasive sand in a 60-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) slashing damage on a failed save, or half as much damage on a successful one."
-							]
-						}
-					}
+			"referenceSources": [
+				"CM",
+				"CoA",
+				"EGW",
+				"GoS",
+				"JttRC",
+				"MOT",
+				"PotA",
+				"ToA"
+			],
+			"size": [
+				"G"
+			],
+			"type": "dragon",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 341,
+				"formula": "22d20 + 110"
 			},
 			"speed": {
 				"walk": 20
 			},
+			"str": 25,
+			"dex": 10,
+			"con": 20,
+			"int": 10,
+			"wis": 12,
+			"cha": 12,
+			"save": {
+				"dex": "+6",
+				"con": "+11",
+				"wis": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"fire"
+			],
 			"languages": [
 				"Draconic",
 				"Terran"
+			],
+			"cr": "17",
+			"trait": [],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon tortoise makes three attacks: one with its bite and two with its claws. It can make one tail attack in place of its two claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}26 ({@damage 3d12 + 7}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d8 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}26 ({@damage 3d12 + 7}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be pushed up to 10 feet away from the dragon tortoise and knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Sand Breath {@recharge 5}",
+					"entries": [
+						"The dragon tortoise exhales abrasive sand in a 60-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) slashing damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"underwater",
+				"coastal"
+			],
+			"dragonAge": "adult",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
 			],
 			"languageTags": [
 				"DR",
 				"T"
 			],
+			"damageTags": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
+			],
+			"source": "CM",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CM/Dragon%20Tortoise.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -1681,71 +1773,269 @@
 		},
 		{
 			"name": "Hag of the Fetid Gaze",
-			"isNpc": true,
-			"source": "CM",
-			"page": 76,
-			"_copy": {
+			"referenceSources": [
+				"BMT",
+				"CM",
+				"EGW",
+				"GoS",
+				"IMR",
+				"JttRC",
+				"MOT",
+				"OotA",
+				"PSI",
+				"SatO",
+				"SCC-TMM",
+				"TCE",
+				"ToA",
+				"WBtW"
+			],
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 82,
+				"formula": "11d8 + 33"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 13,
+			"wis": 14,
+			"cha": 14,
+			"skill": {
+				"arcana": "+3",
+				"deception": "+4",
+				"perception": "+4",
+				"stealth": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Sylvan"
+			],
+			"cr": {
+				"cr": "3",
+				"coven": "5"
+			},
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The hag's innate spellcasting ability is Charisma (spell save {@dc 12}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell minor illusion}",
+						"{@spell vicious mockery}"
+					],
+					"ability": "cha"
+				},
+				{
+					"name": "Shared Spellcasting (Coven Only)",
+					"headerEntries": [
+						"While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
+					],
+					"spells": {
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell charm person}",
+								"{@spell witch bolt}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell alter self}",
+								"{@spell suggestion}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell glyph of warding}",
+								"{@spell slow}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell blight}",
+								"{@spell polymorph}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell dominate person}",
+								"{@spell seeming}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell Otto's irresistible dance}"
+							]
+						}
+					},
+					"footerEntries": [
+						"For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The hag can breathe air and water."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Wisdom ({@skill Insight}) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Illusory Appearance",
+					"entries": [
+						"The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.",
+						"The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a {@dc 20} Intelligence ({@skill Investigation}) check to discern that the hag is disguised."
+					]
+				},
+				{
+					"name": "Invisible Passage",
+					"entries": [
+						"The hag magically turns {@condition invisible} until she attacks or casts a spell, or until her {@status concentration} ends (as if {@status concentration||concentrating} on a spell). While {@condition invisible}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition invisible} with her."
+					]
+				}
+			],
+			"legendaryGroup": {
 				"name": "Green Hag",
-				"source": "MM",
-				"_mod": {
-					"spellcasting": {
-						"mode": "appendArr",
-						"items": {
+				"source": "MM"
+			},
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Hag Covens",
+					"entries": [
+						"When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.",
+						"A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.",
+						{
+							"type": "spellcasting",
 							"name": "Shared Spellcasting (Coven Only)",
 							"headerEntries": [
 								"While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
+							],
+							"footerEntries": [
+								"For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
 							],
 							"spells": {
 								"1": {
 									"slots": 4,
 									"spells": [
-										"{@spell charm person}",
-										"{@spell witch bolt}"
+										"{@spell identify}",
+										"{@spell ray of sickness}"
 									]
 								},
 								"2": {
 									"slots": 3,
 									"spells": [
-										"{@spell alter self}",
-										"{@spell suggestion}"
+										"{@spell hold person}",
+										"{@spell locate object}"
 									]
 								},
 								"3": {
 									"slots": 3,
 									"spells": [
-										"{@spell dispel magic}",
-										"{@spell glyph of warding}",
-										"{@spell slow}"
+										"{@spell bestow curse}",
+										"{@spell counterspell}",
+										"{@spell lightning bolt}"
 									]
 								},
 								"4": {
 									"slots": 3,
 									"spells": [
-										"{@spell blight}",
+										"{@spell phantasmal killer}",
 										"{@spell polymorph}"
 									]
 								},
 								"5": {
 									"slots": 2,
 									"spells": [
-										"{@spell dominate person}",
-										"{@spell seeming}"
+										"{@spell contact other plane}",
+										"{@spell scrying}"
 									]
 								},
 								"6": {
 									"slots": 1,
 									"spells": [
-										"{@spell Otto's irresistible dance}"
+										"{@spell eyebite}"
 									]
 								}
-							},
-							"footerEntries": [
-								"For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Hag Eye",
+							"entries": [
+								"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes {@damage 3d10} psychic damage and is {@condition blinded} for 24 hours.",
+								"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
 							]
 						}
-					}
+					]
 				}
-			},
+			],
+			"environment": [
+				"forest",
+				"swamp",
+				"hill"
+			],
+			"traitTags": [
+				"Amphibious",
+				"Mimicry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"S"
+			],
+			"damageTags": [
+				"S"
+			],
 			"damageTagsSpell": [
 				"A",
 				"B",
@@ -1763,6 +2053,27 @@
 				"I",
 				"S"
 			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"isNpc": true,
+			"source": "CM",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CM/Hag%20of%20the%20Fetid%20Gaze.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -2142,47 +2453,165 @@
 		},
 		{
 			"name": "Kharbek",
-			"isNpc": true,
-			"isNamedCreature": true,
-			"source": "CM",
-			"page": 167,
-			"_copy": {
-				"name": "Scout",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Mountain Dwarf",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the scout",
-						"with": "Kharbek",
-						"flags": "i"
-					},
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Exhaustion",
-							"entries": [
-								"Kharbek has 5 levels of {@condition exhaustion}."
-							]
-						}
-					}
-				}
+			"referenceSources": [
+				"AZfyT",
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"FS",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TftYP",
+				"TftYP-THSoT",
+				"TftYP-TSC",
+				"ToA",
+				"ToR",
+				"VNotEE",
+				"WBtW",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
 			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
 			"hp": {
 				"average": 1,
 				"formula": "3d8 + 3"
 			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"nature": "+4",
+				"perception": "+5",
+				"stealth": "+6",
+				"survival": "+5"
+			},
+			"passive": 15,
 			"languages": [
 				"Common",
 				"Dwarvish"
 			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"Kharbek has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				},
+				{
+					"name": "Exhaustion",
+					"entries": [
+						"Kharbek has 5 levels of {@condition exhaustion}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kharbek makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, ranged 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
 			"tokenCredit": "Obsidian Entertainment",
 			"tokenCustom": true,
+			"source": "CM",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CM/Kharbek.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -3454,21 +3883,137 @@
 		},
 		{
 			"name": "Ogruhl",
+			"referenceSources": [
+				"CM",
+				"CoA",
+				"EGW",
+				"GoS",
+				"JttRC",
+				"MOT",
+				"PotA",
+				"ToA"
+			],
+			"size": [
+				"G"
+			],
+			"type": "dragon",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 341,
+				"formula": "22d20 + 110"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 25,
+			"dex": 10,
+			"con": 20,
+			"int": 10,
+			"wis": 12,
+			"cha": 12,
+			"save": {
+				"dex": "+6",
+				"con": "+11",
+				"wis": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Draconic",
+				"Terran"
+			],
+			"cr": "17",
+			"trait": [],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Ogruhl makes three attacks: one with its bite and two with its claws. It can make one tail attack in place of its two claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}26 ({@damage 3d12 + 7}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d8 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}26 ({@damage 3d12 + 7}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be pushed up to 10 feet away from Ogruhl and knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Sand Breath {@recharge 5}",
+					"entries": [
+						"Ogruhl exhales abrasive sand in a 60-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) slashing damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"underwater",
+				"coastal"
+			],
+			"dragonAge": "adult",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR",
+				"T"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
+			],
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "CM",
-			"page": 205,
-			"_copy": {
-				"name": "Dragon Tortoise",
-				"source": "CM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the dragon tortoise",
-						"with": "Ogruhl",
-						"flags": "i"
-					}
-				}
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CM/Ogruhl.webp"
 			},
 			"hasToken": true,
 			"hasFluff": true
@@ -4970,73 +5515,444 @@
 		},
 		{
 			"name": "Wood Elf Wizard",
-			"source": "CM",
-			"page": 187,
-			"_copy": {
-				"name": "Drow Mage",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "\\bdrow\\b",
-						"with": "wood elf"
-					},
-					"trait": {
-						"mode": "removeArr",
-						"names": "Sunlight Sensitivity"
+			"referenceSources": [
+				"CM",
+				"CoA",
+				"DC",
+				"DIP",
+				"IDRotF",
+				"OotA",
+				"PotA",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"ToA",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
 					}
-				}
+				]
 			},
-			"tokenCustom": true,
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "10d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 10,
+			"int": 17,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"arcana": "+6",
+				"deception": "+4",
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "7",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The wood elf's spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness}",
+							"{@spell faerie fire}",
+							"{@spell levitate} (self only)"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The wood elf is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The wood elf has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell poison spray}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}",
+								"{@spell witch bolt}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell alter self}",
+								"{@spell misty step}",
+								"{@spell web}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell fly}",
+								"{@spell lightning bolt}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell Evard's black tentacles}",
+								"{@spell greater invisibility}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell cloudkill}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The wood elf has advantage on saving throws against being {@condition charmed}, and magic can't put the wood elf to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage, or 3 ({@damage 1d8 - 1}) bludgeoning damage if used with two hands, plus 3 ({@damage 1d6}) poison damage."
+					]
+				},
+				{
+					"name": "Summon Demon (1/Day)",
+					"entries": [
+						"The wood elf magically summons a {@creature quasit}, or attempts to summon a {@creature shadow demon} with a {@chance 50|50 percent|50% summoning chance} chance of success. The summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
 			"traitTags": [
 				"Fey Ancestry"
 			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"E",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"I"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"I",
+				"L",
+				"O",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"CW",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"invisible",
+				"restrained"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity"
+			],
+			"tokenCustom": true,
+			"source": "CM",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CM/Wood%20Elf%20Wizard.webp"
+			},
 			"hasToken": true
 		},
 		{
 			"name": "Zikran",
-			"isNpc": true,
-			"isNamedCreature": true,
-			"source": "CM",
-			"page": 145,
-			"_copy": {
-				"name": "Archmage",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Water Genasi",
-						"source": "EEPC"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the archmage",
-						"with": "Zikran",
-						"flags": "i"
-					},
-					"_": {
-						"mode": "addSpells",
-						"spells": {
-							"5": {
-								"spells": [
-									"{@spell conjure elemental}"
-								]
-							}
-						}
-					}
-				}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"LoX",
+				"MOT",
+				"NRH-TLT",
+				"OotA",
+				"OoW",
+				"QftIS",
+				"SatO",
+				"SKT",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
 			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
 			"hp": {
 				"average": 144,
 				"formula": "18d8 + 18"
 			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 20,
+			"wis": 15,
+			"cha": 16,
+			"save": {
+				"int": "+9",
+				"wis": "+6"
+			},
+			"skill": {
+				"arcana": "+13",
+				"history": "+13"
+			},
+			"passive": 12,
+			"resist": [
+				{
+					"special": "damage from spells"
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "(from stoneskin)",
+					"cond": true,
+					"preNote": "nonmagical"
+				}
+			],
 			"languages": [
 				"Aquan",
 				"Common",
 				"Primordial",
 				"Sahuagin",
 				"Undercommon"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Zikran is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Zikran can cast {@spell disguise self} and {@spell invisibility} at will and has the following wizard spells prepared:"
+					],
+					"will": [
+						"{@spell disguise self}",
+						"{@spell invisibility}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"{@spell mage armor}*",
+								"{@spell magic missile}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell mirror image}",
+								"{@spell misty step}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fly}",
+								"{@spell lightning bolt}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell fire shield}",
+								"{@spell stoneskin}*"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell scrying}",
+								"{@spell wall of force}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell globe of invulnerability}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell teleport}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell mind blank}*"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell time stop}"
+							]
+						}
+					},
+					"footerEntries": [
+						"*Zikran casts these spells on itself before combat."
+					],
+					"ability": "int",
+					"hidden": [
+						"will"
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Zikran has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"dagger|phb"
 			],
 			"traitTags": [
 				"Amphibious",
@@ -5049,6 +5965,37 @@
 				"P",
 				"U"
 			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"L",
+				"O"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "CM",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CM/Zikran.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true

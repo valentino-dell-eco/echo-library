@@ -44,6 +44,53 @@
 			]
 		},
 		{
+			"name": "Aquatic Ghoul",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Ghouls roam the night in packs, driven by an insatiable hunger for humanoid flesh.",
+								{
+									"type": "entries",
+									"name": "Devourers of Flesh",
+									"entries": [
+										"Like maggots or carrion beetles, ghouls thrive in places rank with decay and death. A ghoul haunts a place where it can gorge on dead flesh and decomposing organs. When it can't feed on the dead, it pursues living creatures and attempts to make corpses of them. Though they gain no nourishment from the corpses they devour, ghouls are driven by an unending hunger that compels them to consume. A ghoul's undead flesh never rots, and this monster can persist in a crypt or tomb for untold ages without feeding."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Abyssal Origins",
+									"entries": [
+										"Ghouls trace their origins to the Abyss. Doresain, the first of their kind, was an elf worshiper of Orcus. Turning against his own people, he feasted on humanoid flesh to honor the Demon Prince of Undeath. As a reward for his service, Orcus transformed Doresain into the first ghoul. Doresain served Orcus faithfully in the Abyss, creating ghouls from the demon lord's other servants until an incursion by Yeenoghu, the demonic Gnoll Lord, robbed Doresain of his abyssal domain. When Orcus would not intervene on his behalf, Doresain turned to the elf gods for salvation, and they took pity on him and helped him escape certain destruction. Since then, elves have been immune to the ghouls' paralytic touch."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ghasts",
+									"entries": [
+										"Orcus sometimes infuses a ghoul with a stronger dose of abyssal energy, making a ghast. Whereas ghouls are little more than savage beasts, a ghast is cunning and can inspire a pack of ghouls to follow its commands."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Aquatic%20Ghoul.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Bastian Thermandar",
 			"source": "PotA",
 			"entries": [
@@ -134,6 +181,72 @@
 			]
 		},
 		{
+			"name": "Braelen Hatherhand",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bronzefume",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Dragon turtles are among the most fearsome creatures of the oceans. As large and voracious as the oldest of its land-based dragon kin, a dragon turtle strikes with its deadly jaws, steaming breath, and crushing tail.",
+								"A dragon turtle's rough shell is the same dark green color as the deep water where this monster dwells. Silver highlights lining the shell resemble light dancing on open water, and a surfacing dragon turtle is sometimes mistaken for the reflection of the sun or moon on the waves.",
+								{
+									"type": "entries",
+									"name": "Dragons of the Deep",
+									"entries": [
+										"Like true dragons, dragon turtles collect treasure, first by sinking ships and then by sifting through the wreckage for coins and other precious items. A dragon turtle swallows treasure for transport, then regurgitates it when it reaches its lair.",
+										"Dragon turtles dwell in caves hidden in coral reefs or beneath the seafloor, or along rugged stretches of coastline. If a choice cave is already inhabited, a dragon turtle attacks its current residents in an attempt to take over."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Mercenary Monsters",
+									"entries": [
+										"A dragon turtle is smart enough to be bribed, and pirates sailing seas patrolled by these creatures quickly learn to offer them treasure in exchange for safe passage. Clever sahuagin sometimes ally with dragon turtles, enticing them with treasure to use their blistering breath weapons in sahuagin raids against ships and coastal settlements."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Elemental Might",
+									"entries": [
+										"Dragon turtles sometimes find their way through sunken planar rifts to the Elemental Plane of Water. Those monstrous specimens can often be found in the service of marids, which strap magnificent coral thrones to the backs of dragon turtles and ride them as mounts."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Bronzefume.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Burrowshark",
 			"source": "PotA",
 			"entries": [
@@ -164,6 +277,23 @@
 					},
 					"width": 980,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Cavil Zaltobar",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -235,6 +365,23 @@
 			]
 		},
 		{
+			"name": "Darathra Shendrel",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Dark Tide Knight",
 			"source": "PotA",
 			"entries": [
@@ -265,6 +412,33 @@
 					},
 					"width": 776,
 					"height": 850
+				}
+			]
+		},
+		{
+			"name": "Deseyna Majarra",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.",
+								"The noble's statistics can also be used to represent courtiers who aren't of noble birth."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Deseyna%20Majarra.webp"
+					}
 				}
 			]
 		},
@@ -321,6 +495,51 @@
 					},
 					"width": 449,
 					"height": 850
+				}
+			]
+		},
+		{
+			"name": "Emberhorn Minotaur",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A minotaur's roar is a savage battle cry that most civilized creatures fear. Born into the mortal realm by demonic rites, minotaurs are savage conquerors and carnivores that live for the hunt. Their brown or black fur is stained with the blood of fallen foes, and they carry the stench of death.",
+								{
+									"type": "entries",
+									"name": "The Beast Within",
+									"entries": [
+										"Most minotaurs are solitary carnivores that roam labyrinthine dungeons, twisting caves, primeval woods, and the maze-like streets and passages of desolate ruins. A minotaur can visualize every route it might take to close the distance to its prey.",
+										"The scent of blood, the tearing of flesh, and the cracking of bones spur a minotaur's lust for carnage, overwhelming all thought and reason. In a blood rage, a minotaur charges anything it sees, butting and goring like a battering ram, then chopping the fallen in twain.",
+										"Apart from ambushing creatures that wander into its labyrinth, a minotaur cares little for strategy or tactics. Minotaurs seldom organize, they don't respect authority or hierarchy, and they are notoriously difficult to enslave, let alone control."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Cults of the Horned King",
+									"entries": [
+										"Minotaurs are the dark descendants of humanoids transformed by the rituals of cults that reject the oppression of authority by returning to nature. Inductees often mistake these cults for druidic circles or totemic religions whose ceremonies involve entering a labyrinth while wearing a ceremonial animal mask.",
+										"Within these bounded environments, cultists hunt, kill, and eat wild beasts, indulging their basest primal urges. In the end, however, sacrificial animals are exchanged for humanoid sacrifice-sometimes an inductee that tried to escape the cult after learning its secrets. These labyrinths become blood-soaked halls of slaughter, echoing to the cultists' savagery.",
+										"Unknown to all but their highest-ranking leaders, these mystery cults are creations of the demon lord Baphomet, the Horned King, whose layer of the Abyss is a gigantic labyrinth. Some of his followers are fervent supplicants that plead for strength and power. Others come to the cult seeking a life free from authority's chains-and are liberated of their humanity instead as Baphomet transforms them into the minotaurs that echo his own savage form.",
+										"Although they begin as creations of the Horned King, minotaurs can breed true with one another, giving rise to an independent race of Baphomet's savage children in the world."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Emberhorn%20Minotaur.webp"
+					}
 				}
 			]
 		},
@@ -460,6 +679,23 @@
 			]
 		},
 		{
+			"name": "Fennor",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Hailing from uncivilized lands, unpredictable berserkers come together in war parties and seek conflict wherever they can find it."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Flamewrath",
 			"source": "PotA",
 			"entries": [
@@ -579,6 +815,13 @@
 					},
 					"width": 618,
 					"height": 850
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Grumink%20the%20Renegade.webp"
+					}
 				}
 			]
 		},
@@ -728,6 +971,23 @@
 			]
 		},
 		{
+			"name": "Lyzandra \"Lyzzie\" Calderos",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Maegla Tarnlar",
 			"source": "PotA",
 			"images": [
@@ -739,6 +999,13 @@
 					},
 					"width": 350,
 					"height": 850
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Maegla%20Tarnlar.webp"
+					}
 				}
 			]
 		},
@@ -807,6 +1074,48 @@
 			]
 		},
 		{
+			"name": "Molten Magma Roper",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Living in caves and caverns throughout the Underdark, voracious ropers feast on whatever they can catch and seize. A roper eats any creature, from Underdark beasts to adventurers and their gear.",
+								"A roper has the appearance of a stalagmite or stalactite, which often allows it to attack with surprise. The creature can move slowly using thousands of sticky cilia beneath its base. It creeps up cave walls and along stone ceilings, finding the best position from which to attack.",
+								{
+									"type": "entries",
+									"name": "Underdark Hunters",
+									"entries": [
+										"The roper is an evolved, mature form of piercer, with which it shares its rock-like appearance and hunting tactics. A roper can hold still for long hours, shutting its single eye to look like nothing more than a mundane formation of rock. Creatures that come too close are surprised when that eye snaps open and sticky tendrils shoot out to seize them. The roper then makes horrible guttural sounds as it reels in its struggling victims, drawing them close for the fatal bite of its stony teeth.",
+										"A roper can digest anything it eats with the exception of platinum, gemstones, and magic items, which can sometimes be retrieved from the creature's gizzard after death. A roper's digestive juices are also valuable, fetching a high price from alchemists who use them as a solvent."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Weakening Tendrils",
+									"entries": [
+										"A roper has six nubs set along its body, through which it extrudes sticky tendrils that bond to whatever they touch. Each tendril sends out hair-like growths that penetrate a creature's flesh and sap its strength, so the victim can struggle only weakly as the roper reels it in. If a tendril is cut through or broken, the roper produces a new one to replace it."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Molten%20Magma%20Roper.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Nurvureem, The Dark Lady",
 			"source": "PotA",
 			"images": [
@@ -827,6 +1136,20 @@
 					},
 					"width": 607,
 					"height": 850
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Nurvureem%2C%20The%20Dark%20Lady.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Nurvureem%2C%20The%20Dark%20Lady%20(2).webp"
+					}
 				}
 			]
 		},
@@ -984,6 +1307,23 @@
 			]
 		},
 		{
+			"name": "Padraich",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Hailing from uncivilized lands, unpredictable berserkers come together in war parties and seek conflict wherever they can find it."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Razerblast",
 			"source": "PotA",
 			"entries": [
@@ -1014,6 +1354,105 @@
 					},
 					"width": 509,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Renwick",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Liches are the remains of great wizards who embrace undeath as a means of preserving themselves. They further their own power at any cost, having no interest in the affairs of the living except where those affairs interfere with their own. Scheming and insane, they hunger for long-forgotten knowledge and the most terrible secrets. Because the shadow of death doesn't hang over them, they can conceive plans that take years, decades, or centuries to come to fruition.",
+								"A lich is a gaunt and skeletal humanoid with withered flesh stretched tight across its bones. Its eyes succumbed to decay long ago, but points of light burn in its empty sockets. It is often garbed in the moldering remains of fine clothing and jewelry worn and dulled by the passage of time.",
+								{
+									"type": "entries",
+									"name": "Secrets of Undeath",
+									"entries": [
+										"No wizard takes up the path to lichdom on a whim, and the process of becoming a lich is a well-guarded secret. Wizards that seek lichdom must make bargains with fiends, evil gods, or other foul entities. Many turn to Orcus, Demon Prince of Undeath, whose power has created countless liches. However, those that control the power of lichdom always demand fealty and service for their knowledge.",
+										"A lich is created by an arcane ritual that traps the wizard's soul within a phylactery. Doing so binds the soul to the mortal world, preventing it from traveling to the Outer Planes after death. A phylactery is traditionally an amulet in the shape of a small box, but it can take the form of any item possessing an interior space into which arcane sigils of naming, binding, immortality, and dark magic are scribed in silver.",
+										"With its phylactery prepared, the future lich drinks a potion of transformation-a vile concoction of poison mixed with the blood of a sentient creature whose soul is sacrificed to the phylactery. The wizard falls dead, then rises as a lich as its soul is drawn into the phylactery, where it forever remains."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Soul Sacrifices",
+									"entries": [
+										"A lich must periodically feed souls to its phylactery to sustain the magic preserving its body and consciousness. It does this using the {@spell imprisonment} spell. Instead of choosing one of the normal options of the spell, the lich uses the spell to magically trap the target's body and soul inside its phylactery. The phylactery must be on the same plane as the lich for the spell to work. A lich's phylactery can hold only one creature at a time, and a {@spell dispel magic} cast as a 9th-level spell upon the phylactery releases any creature imprisoned within it. A creature imprisoned in the phylactery for 24 hours is consumed and destroyed utterly, whereupon nothing short of divine intervention can restore it to life.",
+										"A lich that fails or forgets to maintain its body with sacrificed souls begins to physically fall apart, and might eventually become a demilich."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Death and Restoration",
+									"entries": [
+										"When a lich's body is broken by accident or assault, the will and mind of the lich drains from it, leaving only a lifeless corpse behind. Within days, a new body reforms next to the lich's phylactery, coalescing out of glowing smoke that issues from the device. Because the destruction of its phylactery means the possibility of eternal death, a lich usually keeps its phylactery in a hidden, well-guarded location.",
+										"Destroying a lich's phylactery is no easy task and often requires a special ritual, item, or weapon. Every phylactery is unique, and discovering the key to its destruction can be a quest in and of itself."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lonely Existence",
+									"entries": [
+										"From time to time, a lich might be stirred from its single-minded pursuit of power to take an interest in the world around it, most often when some great event reminds it of the life it once led. It otherwise lives in isolation, engaging only with those creatures whose service helps secure its lair.",
+										"Few liches call themselves by their former names, instead adopting monikers such as the Black Hand or the Forgotten King."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Magic Collectors",
+									"entries": [
+										"Liches collect spells and magic items. In addition to its spell repertoire, a lich has ready access to potions, scrolls, libraries of spellbooks, one or more wands, and perhaps a staff or two. It has no qualms about putting these treasures to use whenever its lair comes under attack."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A lich doesn't require air, food, drink, or sleep."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A Lich's Lair",
+									"entries": [
+										"A lich often haunts the abode it favored in life, such as a lonely tower, a haunted ruin, or an academy of black magic. Alternatively, some liches construct secret tombs filled with powerful guardians and traps. Everything about a lich's lair reflects its keen mind and wicked cunning, including the magic and mundane traps that secure it. Undead, constructs, and bound demons lurk in shadowy recesses, emerging to destroy those who dare to disturb the lich's work.",
+										"A lich encountered in its lair has a challenge rating of 22 (41,000 XP)."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Renwick.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Rhundorth",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1095,6 +1534,19 @@
 			]
 		},
 		{
+			"name": "Stone Warrior",
+			"source": "PotA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Stone%20Warrior.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Stonemelder",
 			"source": "PotA",
 			"entries": [
@@ -1138,6 +1590,84 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"name": "Tornscale",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Lizardfolk are primitive reptilian humanoids that lurk in the swamps and jungles of the world. Their hut villages thrive in forbidding grottos, half-sunken ruins, and watery caverns.",
+								{
+									"type": "entries",
+									"name": "Territorial Xenophobes",
+									"entries": [
+										"Lizardfolk deal and trade with other races only rarely. Fiercely territorial, they use camouflaged scouts to guard the perimeter of their domain. When unwelcome visitors are detected, a tribe sends a hunting band to harass or drive the trespassers off, or tricks them into blundering into the lairs of crocodiles and other dangerous creatures.",
+										"Lizardfolk have no notion of traditional morality, and they find the concepts of good and evil utterly alien. Truly neutral creatures, they kill when it is expedient and do whatever it takes to survive.",
+										"Lizardfolk rarely stray beyond their claimed hunting grounds. Any creature that enters their territory is fair game to be stalked, killed, and devoured. They make no distinction between humanoids, beasts, and monsters. Similarly, lizardfolk don't like reaching too far beyond their borders, where they could easily become the hunted instead of the hunters.",
+										"Occasions might arise when lizardfolk will form alliances with their neighbors. These lizardfolk usually learn firsthand that humans, dwarves, halflings, and elves can sometimes prove helpful or trustworthy. Once lizardfolk forge ties with outsiders, they are steadfast and fierce allies."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Great Feasts and Sacrifices",
+									"entries": [
+										"Lizardfolk are omnivorous, but they have a taste for humanoid flesh. Prisoners are often taken back to their camps to become the centerpieces of great feasts and rites involving dancing, storytelling, and ritual combat.",
+										"Victims are either cooked and eaten by the tribe, or are sacrificed to Semuanya, the lizardfolk god."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Canny Crafters",
+									"entries": [
+										"Though they aren't skilled artisans, lizardfolk craft tools and ornamental jewelry out of the bones of their kills, and they use the hides and shells of dead monsters to create shields."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lizardfolk Leaders",
+									"entries": [
+										"Lizardfolk respect and fear magic with a religious awe. Lizardfolk shamans lead their tribes, overseeing rites and ceremonies performed to honor Semuanya. From time to time, however, a lizardfolk tribe produces a powerful figure touched not by Semuanya but by Sess'inek-a reptilian demon lord who seeks to corrupt and control the lizardfolk.",
+										"Lizardfolk born in Sess'inek's image are larger and more cunning than other lizardfolk, and are thoroughly evil. These lizard kings and queens dominate lizardfolk tribes, usurping a shaman's authority and inspiring uncharacteristic aggression among their subjects."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dragon Worshipers",
+									"entries": [
+										"Lizardfolk speak Draconic, which they are thought to have learned from dragons in ancient times. A tribe that wanders into the territory of a dragon will offer it tribute to win its favor. An evil dragon might exploit lizardfolk for its own vile ends, turning them into raiders and plunderers."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"In all my dealings with the lizardfolk, I was never able to tell what they were thinking. Their reptilian eyes belied no hint of their intentions. I gave them supplies. They gave me the willies."
+									],
+									"by": "A merchant's account of his experience with the lizardfolk tribes of the Lizard Marsh"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Tornscale.webp"
+					}
 				}
 			]
 		},
@@ -1278,6 +1808,48 @@
 			]
 		},
 		{
+			"name": "Young Purple Worm",
+			"source": "PotA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"The massive burrowing monster known as the purple worm terrorizes the creatures of the Underdark as it chews through solid rock in pursuit of prey. A dimwitted, ravenous force of nature, this creature regards anything it encounters as food.",
+								{
+									"type": "entries",
+									"name": "Ravenous Hunters",
+									"entries": [
+										"Loud noise attracts purple worms, which have been known to interrupt underground battles and tear through subterranean cities seeking prey. The underground civilizations of the drow, the duergar, and the mind flayers maintain special wards around their settlements to deter these monsters.",
+										"Though most common in the Underdark, purple worms are frequently seen on the surface world in rocky and mountainous lands. The maw of a purple worm is large enough to swallow a horse whole, and no creature is safe from its hunger. It lunges forward by rhythmically compressing and expanding its body, catching other Underdark dwellers by surprise with the speed of its advance."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Boons of the Worm",
+									"entries": [
+										"When a purple worm burrows through the ground, it consumes earth and rock, which it breaks down and constantly excretes. Precious metals and gems can thus be found within the bodies of purple worms, which are targeted by particularly brave and foolhardy treasure hunters.",
+										"A burrowing purple worm constantly creates new tunnels throughout the Underdark, which are quickly made use of by other creatures as corridors and highways. Because a purple worm rarely returns to its own tunnels, such passageways are a good place to avoid these monsters. Areas rich in prey quickly become interlaced with complex tunnel systems resulting from several worms hunting together."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Young%20Purple%20Worm.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Zegdar",
 			"source": "PotA",
 			"images": [
@@ -1289,6 +1861,13 @@
 					},
 					"width": 1700,
 					"height": 1167
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PotA/Zegdar.webp"
+					}
 				}
 			]
 		}

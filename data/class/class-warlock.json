@@ -688,7 +688,7 @@
 			"name": "Fey Presence",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -701,7 +701,7 @@
 			"name": "The Archfey",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -750,7 +750,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fey Presence|Warlock|XPHB|Archfey|PHB|1|PHB"
+					"subclassFeature": "Fey Presence|Warlock|PHB|Archfey|PHB|1|PHB"
 				}
 			]
 		},
@@ -758,7 +758,7 @@
 			"name": "The Archfey",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -768,7 +768,7 @@
 			"name": "Misty Escape",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -781,7 +781,7 @@
 			"name": "Beguiling Defenses",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -793,7 +793,7 @@
 			"name": "Dark Delirium",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -807,7 +807,7 @@
 			"name": "Dark One's Blessing",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -819,7 +819,7 @@
 			"name": "The Fiend",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -868,7 +868,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dark One's Blessing|Warlock|XPHB|Fiend|PHB|1|PHB"
+					"subclassFeature": "Dark One's Blessing|Warlock|PHB|Fiend|PHB|1|PHB"
 				}
 			]
 		},
@@ -876,7 +876,7 @@
 			"name": "The Fiend",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -886,7 +886,7 @@
 			"name": "Dark One's Own Luck",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -899,7 +899,7 @@
 			"name": "Fiendish Resilience",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -911,7 +911,7 @@
 			"name": "Hurl Through Hell",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -925,7 +925,7 @@
 			"name": "Awakened Mind",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -937,7 +937,7 @@
 			"name": "The Great Old One",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -986,7 +986,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Awakened Mind|Warlock|XPHB|Great Old One|PHB|1|PHB"
+					"subclassFeature": "Awakened Mind|Warlock|PHB|Great Old One|PHB|1|PHB"
 				}
 			]
 		},
@@ -994,7 +994,7 @@
 			"name": "The Great Old One",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1004,7 +1004,7 @@
 			"name": "Entropic Ward",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1017,7 +1017,7 @@
 			"name": "Thought Shield",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -1029,7 +1029,7 @@
 			"name": "Create Thrall",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1042,7 +1042,7 @@
 			"name": "Among the Dead",
 			"source": "SCAG",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undying",
 			"subclassSource": "SCAG",
 			"level": 1,
@@ -1055,7 +1055,7 @@
 			"name": "The Undying",
 			"source": "SCAG",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undying",
 			"subclassSource": "SCAG",
 			"level": 1,
@@ -1105,7 +1105,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Among the Dead|Warlock|XPHB|Undying|SCAG|1|SCAG"
+					"subclassFeature": "Among the Dead|Warlock|PHB|Undying|SCAG|1|SCAG"
 				}
 			]
 		},
@@ -1113,7 +1113,7 @@
 			"name": "The Undying",
 			"source": "SCAG",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undying",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1123,7 +1123,7 @@
 			"name": "Defy Death",
 			"source": "SCAG",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undying",
 			"subclassSource": "SCAG",
 			"level": 6,
@@ -1136,7 +1136,7 @@
 			"name": "Undying Nature",
 			"source": "SCAG",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undying",
 			"subclassSource": "SCAG",
 			"level": 10,
@@ -1149,7 +1149,7 @@
 			"name": "Indestructible Life",
 			"source": "SCAG",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undying",
 			"subclassSource": "SCAG",
 			"level": 14,
@@ -1162,7 +1162,7 @@
 			"name": "Bonus Cantrips",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1174,7 +1174,7 @@
 			"name": "Healing Light",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1188,7 +1188,7 @@
 			"name": "The Celestial",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1238,11 +1238,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Cantrips|Warlock|XPHB|Celestial|XGE|1|XGE"
+					"subclassFeature": "Bonus Cantrips|Warlock|PHB|Celestial|XGE|1|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Healing Light|Warlock|XPHB|Celestial|XGE|1|XGE"
+					"subclassFeature": "Healing Light|Warlock|PHB|Celestial|XGE|1|XGE"
 				}
 			]
 		},
@@ -1250,7 +1250,7 @@
 			"name": "The Celestial",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1260,7 +1260,7 @@
 			"name": "Radiant Soul",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1272,7 +1272,7 @@
 			"name": "Celestial Resilience",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -1284,7 +1284,7 @@
 			"name": "Searing Vengeance",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1297,7 +1297,7 @@
 			"name": "Hex Warrior",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1310,7 +1310,7 @@
 			"name": "Hexblade's Curse",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1331,7 +1331,7 @@
 			"name": "The Hexblade",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1381,11 +1381,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hex Warrior|Warlock|XPHB|Hexblade|XGE|1|XGE"
+					"subclassFeature": "Hex Warrior|Warlock|PHB|Hexblade|XGE|1|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hexblade's Curse|Warlock|XPHB|Hexblade|XGE|1|XGE"
+					"subclassFeature": "Hexblade's Curse|Warlock|PHB|Hexblade|XGE|1|XGE"
 				}
 			]
 		},
@@ -1393,7 +1393,7 @@
 			"name": "The Hexblade",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1403,7 +1403,7 @@
 			"name": "Accursed Specter",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1417,7 +1417,7 @@
 			"name": "Armor of Hexes",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -1429,7 +1429,7 @@
 			"name": "Master of Hexes",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1441,7 +1441,7 @@
 			"name": "Gift of the Sea",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -1454,7 +1454,7 @@
 			"name": "Tentacle of the Deeps",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -1470,7 +1470,7 @@
 			"name": "The Fathomless",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -1522,11 +1522,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Gift of the Sea|Warlock|XPHB|Fathomless|TCE|1|TCE"
+					"subclassFeature": "Gift of the Sea|Warlock|PHB|Fathomless|TCE|1|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tentacle of the Deeps|Warlock|XPHB|Fathomless|TCE|1|TCE"
+					"subclassFeature": "Tentacle of the Deeps|Warlock|PHB|Fathomless|TCE|1|TCE"
 				}
 			]
 		},
@@ -1534,7 +1534,7 @@
 			"name": "The Fathomless",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1544,7 +1544,7 @@
 			"name": "Oceanic Soul",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1557,7 +1557,7 @@
 			"name": "Guardian Coil",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1566,7 +1566,7 @@
 				"Your Tentacle of the Deeps can defend you and others, interposing itself between them and harm. When you or a creature you can see takes damage while within 10 feet of the tentacle, you can use your reaction to choose one of those creatures and reduce the damage to that creature by {@dice 1d8}. When you reach 10th level in this class, the damage reduced by the tentacle increases to {@dice 2d8}.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oceanic Soul|Warlock|XPHB|Fathomless|TCE|6|TCE"
+					"subclassFeature": "Oceanic Soul|Warlock|PHB|Fathomless|TCE|6|TCE"
 				}
 			]
 		},
@@ -1574,7 +1574,7 @@
 			"name": "Grasping Tentacles",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 10,
@@ -1588,7 +1588,7 @@
 			"name": "Fathomless Plunge",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -1602,7 +1602,7 @@
 			"name": "Genie's Wrath",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -1614,7 +1614,7 @@
 			"name": "The Genie",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -1741,7 +1741,7 @@
 			"name": "Genie's Vessel",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -1809,7 +1809,7 @@
 			"name": "Bottled Respite",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -1817,15 +1817,15 @@
 				"As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior of the vessel is an extradimensional space in the shape of a 20-foot-radius cylinder, 20 feet high, and resembles your vessel. The interior is appointed with cushions and low tables and is a comfortable temperature. While inside, you can hear the area around your vessel as if you were in its space. You can remain inside the vessel up to a number of hours equal to twice your proficiency bonus. You exit the vessel early if you use a bonus action to leave, if you die, or if the vessel is destroyed. When you exit the vessel, you appear in the unoccupied space closest to it. Any objects left in the vessel remain there until carried out, and if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to the vessel's former space. Once you enter the vessel, you can't enter again until you finish a long rest.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Genie's Wrath|Warlock|XPHB|Genie|TCE|1|TCE"
+					"subclassFeature": "Genie's Wrath|Warlock|PHB|Genie|TCE|1|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "The Genie|Warlock|XPHB|Genie|TCE|1|TCE"
+					"subclassFeature": "The Genie|Warlock|PHB|Genie|TCE|1|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Genie's Vessel|Warlock|XPHB|Genie|TCE|1|TCE"
+					"subclassFeature": "Genie's Vessel|Warlock|PHB|Genie|TCE|1|TCE"
 				}
 			]
 		},
@@ -1833,7 +1833,7 @@
 			"name": "The Genie",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1843,7 +1843,7 @@
 			"name": "Elemental Gift",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1857,7 +1857,7 @@
 			"name": "Sanctuary Vessel",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 10,
@@ -1872,7 +1872,7 @@
 			"name": "Limited Wish",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -1886,7 +1886,7 @@
 			"name": "Form of Dread",
 			"source": "VRGR",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undead",
 			"subclassSource": "VRGR",
 			"level": 1,
@@ -1909,7 +1909,7 @@
 			"name": "The Undead",
 			"source": "VRGR",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undead",
 			"subclassSource": "VRGR",
 			"level": 1,
@@ -1960,7 +1960,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Form of Dread|Warlock|XPHB|Undead|VRGR|1|VRGR"
+					"subclassFeature": "Form of Dread|Warlock|PHB|Undead|VRGR|1|VRGR"
 				}
 			]
 		},
@@ -1968,7 +1968,7 @@
 			"name": "The Undead",
 			"source": "VRGR",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undead",
 			"subclassSource": "VRGR",
 			"level": 3,
@@ -1978,7 +1978,7 @@
 			"name": "Grave Touched",
 			"source": "VRGR",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undead",
 			"subclassSource": "VRGR",
 			"level": 6,
@@ -1992,7 +1992,7 @@
 			"name": "Necrotic Husk",
 			"source": "VRGR",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undead",
 			"subclassSource": "VRGR",
 			"level": 10,
@@ -2006,7 +2006,7 @@
 			"name": "Spirit Projection",
 			"source": "VRGR",
 			"className": "Warlock",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Undead",
 			"subclassSource": "VRGR",
 			"level": 14,
@@ -2219,267 +2219,480 @@
 	],
 	"subclass": [
 		{
-			"name": "The Archfey",
 			"shortName": "Archfey",
-			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "The Archfey",
-				"source": "PHB",
-				"shortName": "Archfey",
-				"className": "Warlock",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"faerie fire",
+							"sleep"
+						],
+						"s2": [
+							"calm emotions",
+							"phantasmal force"
+						],
+						"s3": [
+							"blink",
+							"plant growth"
+						],
+						"s4": [
+							"dominate beast",
+							"greater invisibility"
+						],
+						"s5": [
+							"dominate person",
+							"seeming"
+						]
+					}
 				}
-			},
-			"subclassFeatures": [
-				"The Archfey|Warlock|XPHB|Archfey|PHB|1|PHB",
-				"The Archfey|Warlock|XPHB|Archfey|PHB|3|PHB",
-				"Misty Escape|Warlock|XPHB|Archfey|PHB|6|PHB",
-				"Beguiling Defenses|Warlock|XPHB|Archfey|PHB|10|PHB",
-				"Dark Delirium|Warlock|XPHB|Archfey|PHB|14|PHB"
-			]
-		},
-		{
-			"name": "The Fiend",
-			"shortName": "Fiend",
-			"source": "PHB",
-			"className": "Warlock",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "The Fiend",
-				"source": "PHB",
-				"shortName": "Fiend",
-				"className": "Warlock",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"The Fiend|Warlock|XPHB|Fiend|PHB|1|PHB",
-				"The Fiend|Warlock|XPHB|Fiend|PHB|3|PHB",
-				"Dark One's Own Luck|Warlock|XPHB|Fiend|PHB|6|PHB",
-				"Fiendish Resilience|Warlock|XPHB|Fiend|PHB|10|PHB",
-				"Hurl Through Hell|Warlock|XPHB|Fiend|PHB|14|PHB"
-			]
-		},
-		{
-			"name": "The Great Old One",
-			"shortName": "Great Old One",
-			"source": "PHB",
-			"className": "Warlock",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "The Great Old One",
-				"source": "PHB",
-				"shortName": "Great Old One",
-				"className": "Warlock",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"The Great Old One|Warlock|XPHB|Great Old One|PHB|1|PHB",
-				"The Great Old One|Warlock|XPHB|Great Old One|PHB|3|PHB",
-				"Entropic Ward|Warlock|XPHB|Great Old One|PHB|6|PHB",
-				"Thought Shield|Warlock|XPHB|Great Old One|PHB|10|PHB",
-				"Create Thrall|Warlock|XPHB|Great Old One|PHB|14|PHB"
-			]
-		},
-		{
-			"name": "The Undying",
-			"shortName": "Undying",
-			"source": "SCAG",
-			"className": "Warlock",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "The Undying",
-				"source": "SCAG",
-				"shortName": "Undying",
-				"className": "Warlock",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"The Undying|Warlock|XPHB|Undying|SCAG|1|SCAG",
-				"The Undying|Warlock|XPHB|Undying|SCAG|3|SCAG",
-				"Defy Death|Warlock|XPHB|Undying|SCAG|6|SCAG",
-				"Undying Nature|Warlock|XPHB|Undying|SCAG|10|SCAG",
-				"Indestructible Life|Warlock|XPHB|Undying|SCAG|14|SCAG"
-			]
-		},
-		{
-			"name": "The Celestial",
-			"shortName": "Celestial",
-			"source": "XGE",
-			"className": "Warlock",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "The Celestial",
-				"source": "XGE",
-				"shortName": "Celestial",
-				"className": "Warlock",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"The Celestial|Warlock|XPHB|Celestial|XGE|1|XGE",
-				"The Celestial|Warlock|XPHB|Celestial|XGE|3|XGE",
-				"Radiant Soul|Warlock|XPHB|Celestial|XGE|6|XGE",
-				"Celestial Resilience|Warlock|XPHB|Celestial|XGE|10|XGE",
-				"Searing Vengeance|Warlock|XPHB|Celestial|XGE|14|XGE"
-			]
-		},
-		{
-			"name": "The Hexblade",
-			"shortName": "Hexblade",
-			"source": "XGE",
-			"className": "Warlock",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "The Hexblade",
-				"source": "XGE",
-				"shortName": "Hexblade",
-				"className": "Warlock",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"The Hexblade|Warlock|XPHB|Hexblade|XGE|1|XGE",
-				"The Hexblade|Warlock|XPHB|Hexblade|XGE|3|XGE",
-				"Accursed Specter|Warlock|XPHB|Hexblade|XGE|6|XGE",
-				"Armor of Hexes|Warlock|XPHB|Hexblade|XGE|10|XGE",
-				"Master of Hexes|Warlock|XPHB|Hexblade|XGE|14|XGE"
-			]
-		},
-		{
-			"name": "The Fathomless",
-			"shortName": "Fathomless",
-			"source": "TCE",
-			"className": "Warlock",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "The Fathomless",
-				"source": "TCE",
-				"shortName": "Fathomless",
-				"className": "Warlock",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"The Fathomless|Warlock|XPHB|Fathomless|TCE|1|TCE",
-				"The Fathomless|Warlock|XPHB|Fathomless|TCE|3|TCE",
-				"Guardian Coil|Warlock|XPHB|Fathomless|TCE|6|TCE",
-				"Grasping Tentacles|Warlock|XPHB|Fathomless|TCE|10|TCE",
-				"Fathomless Plunge|Warlock|XPHB|Fathomless|TCE|14|TCE"
-			]
-		},
-		{
-			"name": "The Genie",
-			"shortName": "Genie",
-			"source": "TCE",
-			"className": "Warlock",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "The Genie",
-				"source": "TCE",
-				"shortName": "Genie",
-				"className": "Warlock",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"Bottled Respite|Warlock|XPHB|Genie|TCE|1|TCE",
-				"The Genie|Warlock|XPHB|Genie|TCE|3|TCE",
-				"Elemental Gift|Warlock|XPHB|Genie|TCE|6|TCE",
-				"Sanctuary Vessel|Warlock|XPHB|Genie|TCE|10|TCE",
-				"Limited Wish|Warlock|XPHB|Genie|TCE|14|TCE"
-			]
-		},
-		{
-			"name": "The Undead",
-			"shortName": "Undead",
-			"source": "VRGR",
-			"className": "Warlock",
-			"classSource": "XPHB",
-			"reprintedAs": [
-				"Undead|Warlock|XPHB|RHW"
 			],
-			"_copy": {
-				"name": "The Undead",
-				"source": "VRGR",
-				"shortName": "Undead",
-				"className": "Warlock",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"name": "The Archfey",
+			"source": "PHB",
 			"subclassFeatures": [
-				"The Undead|Warlock|XPHB|Undead|VRGR|1|VRGR",
-				"The Undead|Warlock|XPHB|Undead|VRGR|3|VRGR",
-				"Grave Touched|Warlock|XPHB|Undead|VRGR|6|VRGR",
-				"Necrotic Husk|Warlock|XPHB|Undead|VRGR|10|VRGR",
-				"Spirit Projection|Warlock|XPHB|Undead|VRGR|14|VRGR"
+				"The Archfey|Warlock|PHB|Archfey|PHB|1|PHB",
+				"The Archfey|Warlock|PHB|Archfey|PHB|3|PHB",
+				"Misty Escape|Warlock|PHB|Archfey|PHB|6|PHB",
+				"Beguiling Defenses|Warlock|PHB|Archfey|PHB|10|PHB",
+				"Dark Delirium|Warlock|PHB|Archfey|PHB|14|PHB"
+			]
+		},
+		{
+			"shortName": "Fiend",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"burning hands",
+							"command"
+						],
+						"s2": [
+							"blindness/deafness",
+							"scorching ray"
+						],
+						"s3": [
+							"fireball",
+							"stinking cloud"
+						],
+						"s4": [
+							"fire shield",
+							"wall of fire"
+						],
+						"s5": [
+							"flame strike",
+							"hallow"
+						]
+					}
+				}
+			],
+			"name": "The Fiend",
+			"source": "PHB",
+			"subclassFeatures": [
+				"The Fiend|Warlock|PHB|Fiend|PHB|1|PHB",
+				"The Fiend|Warlock|PHB|Fiend|PHB|3|PHB",
+				"Dark One's Own Luck|Warlock|PHB|Fiend|PHB|6|PHB",
+				"Fiendish Resilience|Warlock|PHB|Fiend|PHB|10|PHB",
+				"Hurl Through Hell|Warlock|PHB|Fiend|PHB|14|PHB"
+			]
+		},
+		{
+			"shortName": "Great Old One",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"dissonant whispers",
+							"Tasha's hideous laughter"
+						],
+						"s2": [
+							"detect thoughts",
+							"phantasmal force"
+						],
+						"s3": [
+							"clairvoyance",
+							"sending"
+						],
+						"s4": [
+							"dominate beast",
+							"Evard's black tentacles"
+						],
+						"s5": [
+							"dominate person",
+							"telekinesis"
+						]
+					}
+				}
+			],
+			"name": "The Great Old One",
+			"source": "PHB",
+			"subclassFeatures": [
+				"The Great Old One|Warlock|PHB|Great Old One|PHB|1|PHB",
+				"The Great Old One|Warlock|PHB|Great Old One|PHB|3|PHB",
+				"Entropic Ward|Warlock|PHB|Great Old One|PHB|6|PHB",
+				"Thought Shield|Warlock|PHB|Great Old One|PHB|10|PHB",
+				"Create Thrall|Warlock|PHB|Great Old One|PHB|14|PHB"
+			]
+		},
+		{
+			"shortName": "Undying",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"spare the dying#c"
+						]
+					},
+					"expanded": {
+						"s1": [
+							"false life",
+							"ray of sickness"
+						],
+						"s2": [
+							"blindness/deafness",
+							"silence"
+						],
+						"s3": [
+							"feign death",
+							"speak with dead"
+						],
+						"s4": [
+							"aura of life",
+							"death ward"
+						],
+						"s5": [
+							"contagion",
+							"legend lore"
+						]
+					}
+				}
+			],
+			"name": "The Undying",
+			"source": "SCAG",
+			"subclassFeatures": [
+				"The Undying|Warlock|PHB|Undying|SCAG|1|SCAG",
+				"The Undying|Warlock|PHB|Undying|SCAG|3|SCAG",
+				"Defy Death|Warlock|PHB|Undying|SCAG|6|SCAG",
+				"Undying Nature|Warlock|PHB|Undying|SCAG|10|SCAG",
+				"Indestructible Life|Warlock|PHB|Undying|SCAG|14|SCAG"
+			]
+		},
+		{
+			"shortName": "Celestial",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"sacred flame#c",
+							"light#c"
+						]
+					},
+					"expanded": {
+						"s1": [
+							"cure wounds",
+							"guiding bolt"
+						],
+						"s2": [
+							"flaming sphere",
+							"lesser restoration"
+						],
+						"s3": [
+							"daylight",
+							"revivify"
+						],
+						"s4": [
+							"guardian of faith",
+							"wall of fire"
+						],
+						"s5": [
+							"flame strike",
+							"greater restoration"
+						]
+					}
+				}
+			],
+			"name": "The Celestial",
+			"source": "XGE",
+			"subclassFeatures": [
+				"The Celestial|Warlock|PHB|Celestial|XGE|1|XGE",
+				"The Celestial|Warlock|PHB|Celestial|XGE|3|XGE",
+				"Radiant Soul|Warlock|PHB|Celestial|XGE|6|XGE",
+				"Celestial Resilience|Warlock|PHB|Celestial|XGE|10|XGE",
+				"Searing Vengeance|Warlock|PHB|Celestial|XGE|14|XGE"
+			]
+		},
+		{
+			"shortName": "Hexblade",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"shield",
+							"wrathful smite"
+						],
+						"s2": [
+							"blur",
+							"branding smite"
+						],
+						"s3": [
+							"blink",
+							"elemental weapon"
+						],
+						"s4": [
+							"phantasmal killer",
+							"staggering smite"
+						],
+						"s5": [
+							"banishing smite",
+							"cone of cold"
+						]
+					}
+				}
+			],
+			"name": "The Hexblade",
+			"source": "XGE",
+			"subclassFeatures": [
+				"The Hexblade|Warlock|PHB|Hexblade|XGE|1|XGE",
+				"The Hexblade|Warlock|PHB|Hexblade|XGE|3|XGE",
+				"Accursed Specter|Warlock|PHB|Hexblade|XGE|6|XGE",
+				"Armor of Hexes|Warlock|PHB|Hexblade|XGE|10|XGE",
+				"Master of Hexes|Warlock|PHB|Hexblade|XGE|14|XGE"
+			]
+		},
+		{
+			"shortName": "Fathomless",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"create or destroy water",
+							"thunderwave"
+						],
+						"s2": [
+							"gust of wind",
+							"silence"
+						],
+						"s3": [
+							"lightning bolt",
+							"sleet storm"
+						],
+						"s4": [
+							"control water",
+							"summon elemental|tce"
+						],
+						"s5": [
+							"Bigby's hand",
+							"cone of cold"
+						]
+					},
+					"known": {
+						"10": {
+							"daily": {
+								"1": [
+									"Evard's black tentacles"
+								]
+							}
+						}
+					}
+				}
+			],
+			"name": "The Fathomless",
+			"source": "TCE",
+			"subclassFeatures": [
+				"The Fathomless|Warlock|PHB|Fathomless|TCE|1|TCE",
+				"The Fathomless|Warlock|PHB|Fathomless|TCE|3|TCE",
+				"Guardian Coil|Warlock|PHB|Fathomless|TCE|6|TCE",
+				"Grasping Tentacles|Warlock|PHB|Fathomless|TCE|10|TCE",
+				"Fathomless Plunge|Warlock|PHB|Fathomless|TCE|14|TCE"
+			]
+		},
+		{
+			"shortName": "Genie",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"name": "Dao",
+					"expanded": {
+						"9": [
+							"wish"
+						],
+						"s1": [
+							"detect evil and good",
+							"sanctuary"
+						],
+						"s2": [
+							"phantasmal force",
+							"spike growth"
+						],
+						"s3": [
+							"create food and water",
+							"meld into stone"
+						],
+						"s4": [
+							"phantasmal killer",
+							"stone shape"
+						],
+						"s5": [
+							"creation",
+							"wall of stone"
+						]
+					}
+				},
+				{
+					"name": "Djinni",
+					"expanded": {
+						"9": [
+							"wish"
+						],
+						"s1": [
+							"detect evil and good",
+							"thunderwave"
+						],
+						"s2": [
+							"phantasmal force",
+							"gust of wind"
+						],
+						"s3": [
+							"create food and water",
+							"wind wall"
+						],
+						"s4": [
+							"phantasmal killer",
+							"greater invisibility"
+						],
+						"s5": [
+							"creation",
+							"seeming"
+						]
+					}
+				},
+				{
+					"name": "Efreeti",
+					"expanded": {
+						"9": [
+							"wish"
+						],
+						"s1": [
+							"detect evil and good",
+							"burning hands"
+						],
+						"s2": [
+							"phantasmal force",
+							"scorching ray"
+						],
+						"s3": [
+							"create food and water",
+							"fireball"
+						],
+						"s4": [
+							"phantasmal killer",
+							"fire shield"
+						],
+						"s5": [
+							"creation",
+							"flame strike"
+						]
+					}
+				},
+				{
+					"name": "Marid",
+					"expanded": {
+						"9": [
+							"wish"
+						],
+						"s1": [
+							"detect evil and good",
+							"fog cloud"
+						],
+						"s2": [
+							"phantasmal force",
+							"blur"
+						],
+						"s3": [
+							"create food and water",
+							"sleet storm"
+						],
+						"s4": [
+							"phantasmal killer",
+							"control water"
+						],
+						"s5": [
+							"creation",
+							"cone of cold"
+						]
+					}
+				}
+			],
+			"name": "The Genie",
+			"source": "TCE",
+			"subclassFeatures": [
+				"Bottled Respite|Warlock|PHB|Genie|TCE|1|TCE",
+				"The Genie|Warlock|PHB|Genie|TCE|3|TCE",
+				"Elemental Gift|Warlock|PHB|Genie|TCE|6|TCE",
+				"Sanctuary Vessel|Warlock|PHB|Genie|TCE|10|TCE",
+				"Limited Wish|Warlock|PHB|Genie|TCE|14|TCE"
+			]
+		},
+		{
+			"shortName": "Undead",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"bane",
+							"false life"
+						],
+						"s2": [
+							"blindness/deafness",
+							"phantasmal force"
+						],
+						"s3": [
+							"phantom steed",
+							"speak with dead"
+						],
+						"s4": [
+							"death ward",
+							"greater invisibility"
+						],
+						"s5": [
+							"antilife shell",
+							"cloudkill"
+						]
+					}
+				}
+			],
+			"name": "The Undead",
+			"source": "VRGR",
+			"subclassFeatures": [
+				"The Undead|Warlock|PHB|Undead|VRGR|1|VRGR",
+				"The Undead|Warlock|PHB|Undead|VRGR|3|VRGR",
+				"Grave Touched|Warlock|PHB|Undead|VRGR|6|VRGR",
+				"Necrotic Husk|Warlock|PHB|Undead|VRGR|10|VRGR",
+				"Spirit Projection|Warlock|PHB|Undead|VRGR|14|VRGR"
 			]
 		},
 		{

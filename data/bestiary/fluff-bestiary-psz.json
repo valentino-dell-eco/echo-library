@@ -19,6 +19,13 @@
 					"height": 427,
 					"title": "Angel of Renewal",
 					"credit": "Todd Lockwood"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Angel.webp"
+					}
 				}
 			]
 		},
@@ -60,6 +67,31 @@
 					"height": 251,
 					"title": "Rampaging Baloths",
 					"credit": "Eric Deschamps"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Baloth.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Boulderfoot Giant",
+			"source": "PSZ",
+			"entries": [
+				"Zendikar's giants are enormous humanoids that live in tight-knit tribes as far as possible from the settlements of other races. Compared to ogres and minotaurs, they are civilized and intelligent, though they are wilder than the smaller humanoid races.",
+				"Three major groupings of giants inhabit three of Zendikar's continents. In the mountains of Akoum, the giants of the Boulderfoot tribe have a well-earned reputation for trampling their enemies underfoot (hence their name). In the Skyfang Mountains of Murasa, the giants of the Shatterskull tribe are rough brigands who often extort \"tolls\" from travelers trying to navigate the treacherous pass that shares the tribe's name. The Boulderfoot and Shatterskull giants are {@creature stone giant|MM|stone giants} in D&D terms.",
+				"In Ondu, the giants of the Turntimber tribe live in the forest of the same name. They hunt baloths and other large game, living in close harmony with the woodland. Their druids are the only giants of Zendikar that are inclined toward magic. Some legends hold that the Turntimber giants are unrelated to the other giant tribes, but were originally druids who became giants only after years of living among the twisted trees. Elsewhere on Ondu, in the Makindi Trenches, a handful of deformed giants called trench giants scale the canyon walls looking for prey. They are solitary and do not think of themselves as members of a tribe. In fact, they are outcasts of the Turntimber tribe, banished because the mana of the forest warped their bodies and their hearts. The giants of the Turntimber tribe are similar to {@creature cloud giant|MM|cloud giants}, and the trench giants can be considered {@creature fomorian|MM|fomorians}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Boulderfoot%20Giant.webp"
+					}
 				}
 			]
 		},
@@ -77,6 +109,13 @@
 					"height": 285,
 					"title": "Caustic Crawler",
 					"credit": "Raymond Swanland"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Caustic%20Crawler.webp"
+					}
 				}
 			]
 		},
@@ -98,6 +137,43 @@
 					"height": 415,
 					"title": "Champion's Drake",
 					"credit": "Lars Grant-West"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Drake%20(Large).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Drake (Small)",
+			"source": "PSZ",
+			"entries": [
+				"Drakes are superficially similar to dragons, with reptilian bodies and large, leathery wings. They have only two legs, though. They are strongly associated with blue mana, the air, and the sea, rather than the dragons' mountains and fire. Many drakes are found in Akoum, but they typically live at higher altitudes and farther north than the dragons there.",
+				"A {@creature pteranodon} can represent a smaller drake, while a larger one is more like a {@creature giant eagle}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Drake%20(Small).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Emrakul",
+			"source": "PSZ",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Emrakul.webp"
+					}
 				}
 			]
 		},
@@ -148,6 +224,13 @@
 					"height": 312,
 					"title": "Guard Gomazoa",
 					"credit": "Rob Alexander"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Gomazoa.webp"
+					}
 				}
 			]
 		},
@@ -168,6 +251,13 @@
 					"height": 302,
 					"title": "Scythe Leopard",
 					"credit": "Winona Nelson"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Great%20Cat.webp"
+					}
 				}
 			]
 		},
@@ -189,6 +279,30 @@
 					"height": 278,
 					"title": "Courier Griffin",
 					"credit": "Kieran Yanner"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Griffin%20(Type%201).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Griffin (Type 2)",
+			"source": "PSZ",
+			"entries": [
+				"Less intelligent and less magical than {@creature felidar|PSZ|felidars}, griffins share those great cats' noble nature and alignment with the principles of white mana. Larger griffin species are about the size of horses and can be ridden. Indeed, such griffins are often the only reliable means of reaching certain remote locations, particularly in Akoum. Smaller griffins range from the size of donkeys to large dogs, and are trained to carry messages or supplies without a rider.",
+				"Zendikar's griffins are much like D&D's {@creature griffon|MM|griffons} (aside from the spelling) and {@creature hippogriff|MM|hippogriffs}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Griffin%20(Type%202).webp"
+					}
 				}
 			]
 		},
@@ -218,6 +332,13 @@
 					"height": 657,
 					"title": "Hellion Eruption",
 					"credit": "Anthony Francisco"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Hellion.webp"
+					}
 				}
 			]
 		},
@@ -240,6 +361,44 @@
 					"height": 270,
 					"title": "Battle Hurda",
 					"credit": "Christopher Moeller"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Hurda.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Iona",
+			"source": "PSZ",
+			"entries": [
+				"The angels of Zendikar are living manifestations of white mana, and they embody its inherent tendencies toward morality and order. Peace and harmony are their goals, though they are more concerned with reestablishing the natural order of the plane than with interfering in disputes between the lowly mortal races. Angels appear similar to female humans possessing two, four, or six feathered wings. Their eyes glow with inner light, and glowing golden rings surround their heads—usually positioned to cover their eyes.",
+				"Zendikar's people consider the angels to be aloof but benevolent. Their resistance to the Eldrazi broods in the ancient past is vaguely remembered in the myths of the humans, kor, and merfolk. Humans in particular venerate angels as divine protectors because of those myths.",
+				"You can represent most angels in Zendikar using the {@creature deva} in the Monster Manual. For unique or more powerful angels, you can use the {@creature planetar} or {@creature solar} instead. Perhaps {@creature Linvala|PSZ} is a {@creature planetar} and {@creature Iona|PSZ} is a {@creature solar}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Iona.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Kozilek",
+			"source": "PSZ",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Kozilek.webp"
+					}
 				}
 			]
 		},
@@ -266,6 +425,24 @@
 			]
 		},
 		{
+			"name": "Linvala",
+			"source": "PSZ",
+			"entries": [
+				"The angels of Zendikar are living manifestations of white mana, and they embody its inherent tendencies toward morality and order. Peace and harmony are their goals, though they are more concerned with reestablishing the natural order of the plane than with interfering in disputes between the lowly mortal races. Angels appear similar to female humans possessing two, four, or six feathered wings. Their eyes glow with inner light, and glowing golden rings surround their heads—usually positioned to cover their eyes.",
+				"Zendikar's people consider the angels to be aloof but benevolent. Their resistance to the Eldrazi broods in the ancient past is vaguely remembered in the myths of the humans, kor, and merfolk. Humans in particular venerate angels as divine protectors because of those myths.",
+				"You can represent most angels in Zendikar using the {@creature deva} in the Monster Manual. For unique or more powerful angels, you can use the {@creature planetar} or {@creature solar} instead. Perhaps {@creature Linvala|PSZ} is a {@creature planetar} and {@creature Iona|PSZ} is a {@creature solar}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Linvala.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Ogre Channeler",
 			"source": "PSZ",
 			"entries": [
@@ -283,6 +460,13 @@
 					"height": 170,
 					"title": "Ogre Sentry",
 					"credit": "Eric Deschamps"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Ogre%20Channeler.webp"
+					}
 				}
 			]
 		},
@@ -312,6 +496,48 @@
 					"height": 290,
 					"title": "Pestilence Demon",
 					"credit": "Justin Sweet"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Pestilence%20Demon.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shade",
+			"source": "PSZ",
+			"entries": [
+				"Magic fueled by black mana can alter the natural cycle of life and death. Whether wielded by mortal wizards or demons, or simply an environmental manifestation of black mana's flow through the land, such magic can trap spirits between the realm of the living and the mysterious fate of the dead. These ghostly undead are as destructive and hateful as the magic that calls them into being. Zendikar's shades and wraiths can be represented by the {@creature shadow||shadows} and {@creature wraith||wraiths} in the Monster Manual.",
+				"Not all spirits are created with black mana, however, and not all are malevolent. The spirits of the dead sometimes linger in the world to protect their kin or communities, or to stand guard over sacred or important sites. These spirits can be dangerous, but they are not usually malicious. Both the kor and the Mul Daya elves remain in communion with the spirits of their dead kindred, entreating them for wisdom and protection. Such spirits are best described as the {@creature ghost||ghosts} in the Monster Manual."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Shade.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shatterskull Giant",
+			"source": "PSZ",
+			"entries": [
+				"Zendikar's giants are enormous humanoids that live in tight-knit tribes as far as possible from the settlements of other races. Compared to ogres and minotaurs, they are civilized and intelligent, though they are wilder than the smaller humanoid races.",
+				"Three major groupings of giants inhabit three of Zendikar's continents. In the mountains of Akoum, the giants of the Boulderfoot tribe have a well-earned reputation for trampling their enemies underfoot (hence their name). In the Skyfang Mountains of Murasa, the giants of the Shatterskull tribe are rough brigands who often extort \"tolls\" from travelers trying to navigate the treacherous pass that shares the tribe's name. The Boulderfoot and Shatterskull giants are {@creature stone giant|MM|stone giants} in D&D terms.",
+				"In Ondu, the giants of the Turntimber tribe live in the forest of the same name. They hunt baloths and other large game, living in close harmony with the woodland. Their druids are the only giants of Zendikar that are inclined toward magic. Some legends hold that the Turntimber giants are unrelated to the other giant tribes, but were originally druids who became giants only after years of living among the twisted trees. Elsewhere on Ondu, in the Makindi Trenches, a handful of deformed giants called trench giants scale the canyon walls looking for prey. They are solitary and do not think of themselves as members of a tribe. In fact, they are outcasts of the Turntimber tribe, banished because the mana of the forest warped their bodies and their hearts. The giants of the Turntimber tribe are similar to {@creature cloud giant|MM|cloud giants}, and the trench giants can be considered {@creature fomorian|MM|fomorians}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Shatterskull%20Giant.webp"
+					}
 				}
 			]
 		},
@@ -341,6 +567,31 @@
 					"height": 366,
 					"title": "Sphinx of the Final Word",
 					"credit": "Lius Lasahido"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Sphinx%20(Type%201).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sphinx (Type 2)",
+			"source": "PSZ",
+			"entries": [
+				"Utterly inscrutable, sphinxes are mysterious creatures known for their wisdom and knowledge. Closely aligned with blue mana, they are utterly devoted to gaining and possessing knowledge—but not to sharing or acting upon it. Sphinxes are content to search out the mysteries of Zendikar, then sit in quiet contemplation of what they have learned. To them, everything is an intellectual exercise, including conversation. They are famously oblique, answering questions with questions and posing riddles to test the acuity of others.",
+				"Sphinxes choose remote locations for their lairs, preferring sites of great natural beauty such as waterfalls, high promontories, and small islands. They jealously protect their lairs from other sphinxes and large predators, such as dragons, but they pay little attention to smaller visitors. A sphinx's lair is often difficult to reach, and typically involves treacherous climbing for creatures without the ability to fly. A visitor who can reach the spot is often rewarded with an audience—but those who come in search of answers are likely to leave disappointed.",
+				"Either sphinx in the Monster Manual can represent the various sphinxes of Zendikar."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Sphinx%20(Type%202).webp"
+					}
 				}
 			]
 		},
@@ -362,6 +613,13 @@
 					"height": 371,
 					"title": "Bog Tatters",
 					"credit": "Daarken"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Spirit.webp"
+					}
 				}
 			]
 		},
@@ -383,6 +641,13 @@
 					"height": 244,
 					"title": "Shoreline Salvager",
 					"credit": "Igor Kieryluk"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Surrakar.webp"
+					}
 				}
 			]
 		},
@@ -403,6 +668,13 @@
 					"height": 303,
 					"title": "Terastodon",
 					"credit": "Lars Grant-West"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Terastodon.webp"
+					}
 				}
 			]
 		},
@@ -418,6 +690,24 @@
 			"source": "PSZ",
 			"entries": [
 				"Timbermaws dwell in the hollow trunks of strange floating trees, emerging with deadly speed when prey wanders near. (The {@creature grick} statistics can represent a timbermaw, adjusting its stone camouflage trait to hide it in the woodlands.)"
+			]
+		},
+		{
+			"name": "Trench Giant",
+			"source": "PSZ",
+			"entries": [
+				"Zendikar's giants are enormous humanoids that live in tight-knit tribes as far as possible from the settlements of other races. Compared to ogres and minotaurs, they are civilized and intelligent, though they are wilder than the smaller humanoid races.",
+				"Three major groupings of giants inhabit three of Zendikar's continents. In the mountains of Akoum, the giants of the Boulderfoot tribe have a well-earned reputation for trampling their enemies underfoot (hence their name). In the Skyfang Mountains of Murasa, the giants of the Shatterskull tribe are rough brigands who often extort \"tolls\" from travelers trying to navigate the treacherous pass that shares the tribe's name. The Boulderfoot and Shatterskull giants are {@creature stone giant|MM|stone giants} in D&D terms.",
+				"In Ondu, the giants of the Turntimber tribe live in the forest of the same name. They hunt baloths and other large game, living in close harmony with the woodland. Their druids are the only giants of Zendikar that are inclined toward magic. Some legends hold that the Turntimber giants are unrelated to the other giant tribes, but were originally druids who became giants only after years of living among the twisted trees. Elsewhere on Ondu, in the Makindi Trenches, a handful of deformed giants called trench giants scale the canyon walls looking for prey. They are solitary and do not think of themselves as members of a tribe. In fact, they are outcasts of the Turntimber tribe, banished because the mana of the forest warped their bodies and their hearts. The giants of the Turntimber tribe are similar to {@creature cloud giant|MM|cloud giants}, and the trench giants can be considered {@creature fomorian|MM|fomorians}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Trench%20Giant.webp"
+					}
+				}
 			]
 		},
 		{
@@ -439,6 +729,26 @@
 					"height": 256,
 					"title": "Ondu Giant",
 					"credit": "Igor Kieryluk"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Turntimber%20Giant.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ulamog",
+			"source": "PSZ",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Ulamog.webp"
+					}
 				}
 			]
 		},
@@ -447,6 +757,22 @@
 			"source": "PSZ",
 			"entries": [
 				"The various forms of undead ghosts are the incorporeal remnants of life and personality left after the death of a mortal body. But sometimes the reverse is true: a body retains its animation and hunger while losing any trace of its soul, becoming a zombie. When a vampire who is not a bloodchief drains the blood from a living humanoid, that creature undergoes a horrible transformation, becoming a stronger, faster version of a {@creature zombie} called a null. Nulls' heads are featureless except for a gaping mouth filled with jagged teeth. Their bodies are shriveled and distorted, but preternaturally strong. They are mindlessly loyal servants to the vampire nobility, and the number of nulls under a vampire's control is a mark of status and power among the vampire houses of Guul Draz."
+			]
+		},
+		{
+			"name": "Woodcrasher Baloth",
+			"source": "PSZ",
+			"entries": [
+				"Baloths are perhaps the most distinctive of Zendikar's beasts. They are muscular, omnivorous hunters covered in horns, spines, and plates of various shapes. The woodcrasher baloths of the Turntimber forest are surprisingly agile, leaping from tree to tree by using their great claws to clutch each spiraling trunk. The leatherback baloths of Ora Ondar are heavier and keep to the ground, where their thick, plated hide protects them from danger. Baloth herds occasionally stampede across the Onduan plains—and do so more frequently since the rise of the Eldrazi, as if sharing in Zendikar's anger. Use the {@creature triceratops} statistics for baloths, but woodcrasher baloths have a climbing speed of 30 feet in addition to their normal walking speed."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Woodcrasher%20Baloth.webp"
+					}
+				}
 			]
 		},
 		{
@@ -478,6 +804,13 @@
 					"height": 383,
 					"title": "Tyrant of Valakut",
 					"credit": "Steven Belledin"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Zendikar%20Dragon.webp"
+					}
 				}
 			]
 		},
@@ -500,6 +833,13 @@
 					"height": 503,
 					"title": "Hedron Crawler",
 					"credit": "Daniel Ljunggren"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSZ/Zendikar%20Golem.webp"
+					}
 				}
 			]
 		}

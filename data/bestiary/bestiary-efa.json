@@ -1164,9 +1164,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Homunculus Servant",
-			"source": "EFA",
-			"page": 21,
 			"summonedBySpell": "Homunculus Servant|EFA",
 			"summonedBySpellLevel": 2,
 			"size": [
@@ -1248,6 +1245,13 @@
 				"MA",
 				"RA"
 			],
+			"name": "Homunculus Servant",
+			"source": "EFA",
+			"page": 21,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/EFA/Homunculus%20Servant.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -2328,9 +2332,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Steel Defender",
-			"source": "EFA",
-			"page": 19,
 			"summonedByClass": "Artificer|EFA",
 			"size": [
 				"M"
@@ -2408,6 +2409,13 @@
 			"miscTags": [
 				"MA"
 			],
+			"name": "Steel Defender",
+			"source": "EFA",
+			"page": 19,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/EFA/Steel%20Defender.webp"
+			},
 			"hasToken": true
 		},
 		{

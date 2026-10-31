@@ -997,7 +997,7 @@
 			"name": "Draconic Resilience",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1010,7 +1010,7 @@
 			"name": "Dragon Ancestor",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1077,7 +1077,7 @@
 			"name": "Draconic Bloodline",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1085,11 +1085,11 @@
 				"Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Draconic Resilience|Sorcerer|XPHB|Draconic|PHB|1|PHB"
+					"subclassFeature": "Draconic Resilience|Sorcerer|PHB|Draconic|PHB|1|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dragon Ancestor|Sorcerer|XPHB|Draconic|PHB|1|PHB"
+					"subclassFeature": "Dragon Ancestor|Sorcerer|PHB|Draconic|PHB|1|PHB"
 				}
 			]
 		},
@@ -1097,7 +1097,7 @@
 			"name": "Draconic Bloodline",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1107,7 +1107,7 @@
 			"name": "Elemental Affinity",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1119,7 +1119,7 @@
 			"name": "Dragon Wings",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1132,7 +1132,7 @@
 			"name": "Draconic Presence",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 18,
@@ -1144,7 +1144,7 @@
 			"name": "Tides of Chaos",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1157,7 +1157,7 @@
 			"name": "Wild Magic Surge",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1392,7 +1392,7 @@
 			"name": "Wild Magic",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1400,11 +1400,11 @@
 				"Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tides of Chaos|Sorcerer|XPHB|Wild|PHB|1|PHB"
+					"subclassFeature": "Tides of Chaos|Sorcerer|PHB|Wild|PHB|1|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wild Magic Surge|Sorcerer|XPHB|Wild|PHB|1|PHB"
+					"subclassFeature": "Wild Magic Surge|Sorcerer|PHB|Wild|PHB|1|PHB"
 				}
 			]
 		},
@@ -1412,7 +1412,7 @@
 			"name": "Wild Magic",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1422,7 +1422,7 @@
 			"name": "Bend Luck",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1434,7 +1434,7 @@
 			"name": "Controlled Chaos",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1446,7 +1446,7 @@
 			"name": "Spell Bombardment",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 18,
@@ -1458,7 +1458,7 @@
 			"name": "Heart of Fire",
 			"source": "PSK",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Pyromancer (PSK)",
 			"subclassSource": "PSK",
 			"level": 1,
@@ -1470,7 +1470,7 @@
 			"name": "Pyromancer (PSK)",
 			"source": "PSK",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Pyromancer (PSK)",
 			"subclassSource": "PSK",
 			"level": 1,
@@ -1478,7 +1478,7 @@
 				"Your innate magic manifests in fire. You are your fire, and your fire is you.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Heart of Fire|Sorcerer|XPHB|Pyromancer (PSK)|PSK|1|PSK"
+					"subclassFeature": "Heart of Fire|Sorcerer|PHB|Pyromancer (PSK)|PSK|1|PSK"
 				}
 			]
 		},
@@ -1486,7 +1486,7 @@
 			"name": "Pyromancer (PSK)",
 			"source": "PSK",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Pyromancer (PSK)",
 			"subclassSource": "PSK",
 			"level": 3,
@@ -1496,7 +1496,7 @@
 			"name": "Fire in the Veins",
 			"source": "PSK",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Pyromancer (PSK)",
 			"subclassSource": "PSK",
 			"level": 6,
@@ -1508,7 +1508,7 @@
 			"name": "Pyromancer's Fury",
 			"source": "PSK",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Pyromancer (PSK)",
 			"subclassSource": "PSK",
 			"level": 14,
@@ -1520,7 +1520,7 @@
 			"name": "Fiery Soul",
 			"source": "PSK",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Pyromancer (PSK)",
 			"subclassSource": "PSK",
 			"level": 18,
@@ -1532,7 +1532,7 @@
 			"name": "Divine Magic",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Divine Soul",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1578,7 +1578,7 @@
 			"name": "Favored by the Gods",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Divine Soul",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1590,7 +1590,7 @@
 			"name": "Divine Soul",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Divine Soul",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1601,11 +1601,11 @@
 				"In some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Magic|Sorcerer|XPHB|Divine Soul|XGE|1|XGE"
+					"subclassFeature": "Divine Magic|Sorcerer|PHB|Divine Soul|XGE|1|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Favored by the Gods|Sorcerer|XPHB|Divine Soul|XGE|1|XGE"
+					"subclassFeature": "Favored by the Gods|Sorcerer|PHB|Divine Soul|XGE|1|XGE"
 				}
 			]
 		},
@@ -1613,7 +1613,7 @@
 			"name": "Divine Soul",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Divine Soul",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1623,7 +1623,7 @@
 			"name": "Empowered Healing",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Divine Soul",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1635,7 +1635,7 @@
 			"name": "Otherworldly Wings",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Divine Soul",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1648,7 +1648,7 @@
 			"name": "Unearthly Recovery",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Divine Soul",
 			"subclassSource": "XGE",
 			"level": 18,
@@ -1661,7 +1661,7 @@
 			"name": "Eyes of the Dark",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1674,7 +1674,7 @@
 			"name": "Strength of the Grave",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1687,7 +1687,7 @@
 			"name": "Shadow Magic",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1734,11 +1734,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eyes of the Dark|Sorcerer|XPHB|Shadow|XGE|1|XGE"
+					"subclassFeature": "Eyes of the Dark|Sorcerer|PHB|Shadow|XGE|1|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Strength of the Grave|Sorcerer|XPHB|Shadow|XGE|1|XGE"
+					"subclassFeature": "Strength of the Grave|Sorcerer|PHB|Shadow|XGE|1|XGE"
 				}
 			]
 		},
@@ -1746,7 +1746,7 @@
 			"name": "Shadow Magic",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1756,7 +1756,7 @@
 			"name": "Hound of Ill Omen",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1778,7 +1778,7 @@
 			"name": "Shadow Walk",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1790,7 +1790,7 @@
 			"name": "Umbral Form",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "XGE",
 			"level": 18,
@@ -1803,7 +1803,7 @@
 			"name": "Tempestuous Magic",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1815,7 +1815,7 @@
 			"name": "Wind Speaker",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1827,7 +1827,7 @@
 			"name": "Storm Sorcery",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -1836,11 +1836,11 @@
 				"Storm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tempestuous Magic|Sorcerer|XPHB|Storm|XGE|1|XGE"
+					"subclassFeature": "Tempestuous Magic|Sorcerer|PHB|Storm|XGE|1|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wind Speaker|Sorcerer|XPHB|Storm|XGE|1|XGE"
+					"subclassFeature": "Wind Speaker|Sorcerer|PHB|Storm|XGE|1|XGE"
 				}
 			]
 		},
@@ -1848,7 +1848,7 @@
 			"name": "Storm Sorcery",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1858,7 +1858,7 @@
 			"name": "Storm Guide",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1872,7 +1872,7 @@
 			"name": "Heart of the Storm",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1880,7 +1880,7 @@
 				"At 6th level, you gain resistance to lightning and thunder damage. In addition, whenever you start casting a spell of 1st level or higher that deals lightning or thunder damage, stormy magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Storm Guide|Sorcerer|XPHB|Storm|XGE|6|XGE"
+					"subclassFeature": "Storm Guide|Sorcerer|PHB|Storm|XGE|6|XGE"
 				}
 			]
 		},
@@ -1888,7 +1888,7 @@
 			"name": "Storm's Fury",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1900,7 +1900,7 @@
 			"name": "Wind Soul",
 			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm",
 			"subclassSource": "XGE",
 			"level": 18,
@@ -1913,7 +1913,7 @@
 			"name": "Psionic Spells",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Aberrant Mind",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -1961,7 +1961,7 @@
 			"name": "Telepathic Speech",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Aberrant Mind",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -1975,7 +1975,7 @@
 			"name": "Aberrant Mind",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Aberrant Mind",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -2022,11 +2022,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Spells|Sorcerer|XPHB|Aberrant Mind|TCE|1|TCE"
+					"subclassFeature": "Psionic Spells|Sorcerer|PHB|Aberrant Mind|TCE|1|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Telepathic Speech|Sorcerer|XPHB|Aberrant Mind|TCE|1|TCE"
+					"subclassFeature": "Telepathic Speech|Sorcerer|PHB|Aberrant Mind|TCE|1|TCE"
 				}
 			]
 		},
@@ -2034,7 +2034,7 @@
 			"name": "Aberrant Mind",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Aberrant Mind",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2044,7 +2044,7 @@
 			"name": "Psychic Defenses",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Aberrant Mind",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -2057,7 +2057,7 @@
 			"name": "Psionic Sorcery",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Aberrant Mind",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -2067,7 +2067,7 @@
 				"If you cast the spell using sorcery points, it requires no verbal or somatic components, and it requires no material components, unless they are consumed by the spell.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psychic Defenses|Sorcerer|XPHB|Aberrant Mind|TCE|6|TCE"
+					"subclassFeature": "Psychic Defenses|Sorcerer|PHB|Aberrant Mind|TCE|6|TCE"
 				}
 			]
 		},
@@ -2075,7 +2075,7 @@
 			"name": "Revelation in Flesh",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Aberrant Mind",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -2097,7 +2097,7 @@
 			"name": "Warping Implosion",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Aberrant Mind",
 			"subclassSource": "TCE",
 			"level": 18,
@@ -2111,7 +2111,7 @@
 			"name": "Clockwork Magic",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Clockwork Soul",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -2198,7 +2198,7 @@
 			"name": "Restore Balance",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Clockwork Soul",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -2212,7 +2212,7 @@
 			"name": "Clockwork Soul",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Clockwork Soul",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -2220,11 +2220,11 @@
 				"The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it-a plane of existence shaped entirely by clockwork efficiency. You, or someone from your lineage, might have become entangled in the machinations of the modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it is part of a vast and glorious system.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Clockwork Magic|Sorcerer|XPHB|Clockwork Soul|TCE|1|TCE"
+					"subclassFeature": "Clockwork Magic|Sorcerer|PHB|Clockwork Soul|TCE|1|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Restore Balance|Sorcerer|XPHB|Clockwork Soul|TCE|1|TCE"
+					"subclassFeature": "Restore Balance|Sorcerer|PHB|Clockwork Soul|TCE|1|TCE"
 				}
 			]
 		},
@@ -2232,7 +2232,7 @@
 			"name": "Clockwork Soul",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Clockwork Soul",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2242,7 +2242,7 @@
 			"name": "Bastion of Law",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Clockwork Soul",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -2256,7 +2256,7 @@
 			"name": "Trance of Order",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Clockwork Soul",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -2270,7 +2270,7 @@
 			"name": "Clockwork Cavalcade",
 			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Clockwork Soul",
 			"subclassSource": "TCE",
 			"level": 18,
@@ -2292,7 +2292,7 @@
 			"name": "Lunar Embodiment",
 			"source": "DSotDQ",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lunar",
 			"subclassSource": "DSotDQ",
 			"level": 1,
@@ -2354,7 +2354,7 @@
 			"name": "Moon Fire",
 			"source": "DSotDQ",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lunar",
 			"subclassSource": "DSotDQ",
 			"level": 1,
@@ -2367,7 +2367,7 @@
 			"name": "Lunar Sorcery",
 			"source": "DSotDQ",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lunar",
 			"subclassSource": "DSotDQ",
 			"level": 1,
@@ -2376,11 +2376,11 @@
 				"You or someone from your lineage has been exposed to the concentrated magic of the moon (or moons) of your world, imbuing you with lunar magic. Perhaps your ancestor was involved in a druidic ritual involving an eclipse, or maybe a mystical fragment of a moon crashed near you. However you came to have your magic, your connection to the moon is obvious when you cast sorcerer spells—perhaps making your pupils glow with the color of a moon from your world, causing spectral manifestations of lunar phases to orbit you, or some other effect.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lunar Embodiment|Sorcerer|XPHB|Lunar|DSotDQ|1|DSotDQ"
+					"subclassFeature": "Lunar Embodiment|Sorcerer|PHB|Lunar|DSotDQ|1|DSotDQ"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Moon Fire|Sorcerer|XPHB|Lunar|DSotDQ|1|DSotDQ"
+					"subclassFeature": "Moon Fire|Sorcerer|PHB|Lunar|DSotDQ|1|DSotDQ"
 				}
 			]
 		},
@@ -2388,7 +2388,7 @@
 			"name": "Lunar Sorcery",
 			"source": "DSotDQ",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lunar",
 			"subclassSource": "DSotDQ",
 			"level": 3,
@@ -2398,7 +2398,7 @@
 			"name": "Waxing and Waning",
 			"source": "DSotDQ",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lunar",
 			"subclassSource": "DSotDQ",
 			"level": 6,
@@ -2412,7 +2412,7 @@
 			"name": "Lunar Boons",
 			"source": "DSotDQ",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lunar",
 			"subclassSource": "DSotDQ",
 			"level": 6,
@@ -2449,7 +2449,7 @@
 				"Whenever you use Metamagic on a spell of a school of magic associated with your current Lunar Embodiment phase, you can reduce the sorcery points spent by 1 (minimum 0). You can reduce the sorcery points spent for your Metamagic a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Waxing and Waning|Sorcerer|XPHB|Lunar|DSotDQ|6|DSotDQ"
+					"subclassFeature": "Waxing and Waning|Sorcerer|PHB|Lunar|DSotDQ|6|DSotDQ"
 				}
 			]
 		},
@@ -2457,7 +2457,7 @@
 			"name": "Lunar Empowerment",
 			"source": "DSotDQ",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lunar",
 			"subclassSource": "DSotDQ",
 			"level": 14,
@@ -2497,7 +2497,7 @@
 			"name": "Lunar Phenomenon",
 			"source": "DSotDQ",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Lunar",
 			"subclassSource": "DSotDQ",
 			"level": 18,
@@ -2677,267 +2677,524 @@
 	],
 	"subclass": [
 		{
-			"name": "Draconic Bloodline",
 			"shortName": "Draconic",
-			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Draconic Bloodline",
-				"source": "PHB",
-				"shortName": "Draconic",
-				"className": "Sorcerer",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Draconic Bloodline",
+			"source": "PHB",
 			"subclassFeatures": [
-				"Draconic Bloodline|Sorcerer|XPHB|Draconic|PHB|1|PHB",
-				"Draconic Bloodline|Sorcerer|XPHB|Draconic|PHB|3|PHB",
-				"Elemental Affinity|Sorcerer|XPHB|Draconic|PHB|6|PHB",
-				"Dragon Wings|Sorcerer|XPHB|Draconic|PHB|14|PHB",
-				"Draconic Presence|Sorcerer|XPHB|Draconic|PHB|18|PHB"
+				"Draconic Bloodline|Sorcerer|PHB|Draconic|PHB|1|PHB",
+				"Draconic Bloodline|Sorcerer|PHB|Draconic|PHB|3|PHB",
+				"Elemental Affinity|Sorcerer|PHB|Draconic|PHB|6|PHB",
+				"Dragon Wings|Sorcerer|PHB|Draconic|PHB|14|PHB",
+				"Draconic Presence|Sorcerer|PHB|Draconic|PHB|18|PHB"
 			]
 		},
 		{
-			"name": "Wild Magic",
 			"shortName": "Wild",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Wild Magic",
 			"source": "PHB",
-			"className": "Sorcerer",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Wild Magic",
-				"source": "PHB",
-				"shortName": "Wild",
-				"className": "Sorcerer",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Wild Magic|Sorcerer|XPHB|Wild|PHB|1|PHB",
-				"Wild Magic|Sorcerer|XPHB|Wild|PHB|3|PHB",
-				"Bend Luck|Sorcerer|XPHB|Wild|PHB|6|PHB",
-				"Controlled Chaos|Sorcerer|XPHB|Wild|PHB|14|PHB",
-				"Spell Bombardment|Sorcerer|XPHB|Wild|PHB|18|PHB"
+				"Wild Magic|Sorcerer|PHB|Wild|PHB|1|PHB",
+				"Wild Magic|Sorcerer|PHB|Wild|PHB|3|PHB",
+				"Bend Luck|Sorcerer|PHB|Wild|PHB|6|PHB",
+				"Controlled Chaos|Sorcerer|PHB|Wild|PHB|14|PHB",
+				"Spell Bombardment|Sorcerer|PHB|Wild|PHB|18|PHB"
 			]
 		},
 		{
-			"name": "Pyromancer (PSK)",
 			"shortName": "Pyromancer (PSK)",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Pyromancer (PSK)",
 			"source": "PSK",
-			"className": "Sorcerer",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Pyromancer (PSK)",
-				"source": "PSK",
-				"shortName": "Pyromancer (PSK)",
-				"className": "Sorcerer",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Pyromancer (PSK)|Sorcerer|XPHB|Pyromancer (PSK)|PSK|1|PSK",
-				"Pyromancer (PSK)|Sorcerer|XPHB|Pyromancer (PSK)|PSK|3|PSK",
-				"Fire in the Veins|Sorcerer|XPHB|Pyromancer (PSK)|PSK|6|PSK",
-				"Pyromancer's Fury|Sorcerer|XPHB|Pyromancer (PSK)|PSK|14|PSK",
-				"Fiery Soul|Sorcerer|XPHB|Pyromancer (PSK)|PSK|18|PSK"
+				"Pyromancer (PSK)|Sorcerer|PHB|Pyromancer (PSK)|PSK|1|PSK",
+				"Pyromancer (PSK)|Sorcerer|PHB|Pyromancer (PSK)|PSK|3|PSK",
+				"Fire in the Veins|Sorcerer|PHB|Pyromancer (PSK)|PSK|6|PSK",
+				"Pyromancer's Fury|Sorcerer|PHB|Pyromancer (PSK)|PSK|14|PSK",
+				"Fiery Soul|Sorcerer|PHB|Pyromancer (PSK)|PSK|18|PSK"
 			]
 		},
 		{
-			"name": "Divine Soul",
 			"shortName": "Divine Soul",
-			"source": "XGE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Divine Soul",
-				"source": "XGE",
-				"shortName": "Divine Soul",
-				"className": "Sorcerer",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"name": "Good",
+					"known": {
+						"1": [
+							"cure wounds"
+						]
+					},
+					"expanded": {
+						"1": [
+							{
+								"all": "level=0|class=Cleric"
+							},
+							{
+								"all": "level=1|class=Cleric"
+							}
+						],
+						"3": [
+							{
+								"all": "level=2|class=Cleric"
+							}
+						],
+						"5": [
+							{
+								"all": "level=3|class=Cleric"
+							}
+						],
+						"7": [
+							{
+								"all": "level=4|class=Cleric"
+							}
+						],
+						"9": [
+							{
+								"all": "level=5|class=Cleric"
+							}
+						],
+						"11": [
+							{
+								"all": "level=6|class=Cleric"
+							}
+						],
+						"13": [
+							{
+								"all": "level=7|class=Cleric"
+							}
+						],
+						"15": [
+							{
+								"all": "level=8|class=Cleric"
+							}
+						],
+						"17": [
+							{
+								"all": "level=9|class=Cleric"
+							}
+						]
+					}
+				},
+				{
+					"name": "Evil",
+					"known": {
+						"1": [
+							"inflict wounds"
+						]
+					},
+					"expanded": {
+						"1": [
+							{
+								"all": "level=0|class=Cleric"
+							},
+							{
+								"all": "level=1|class=Cleric"
+							}
+						],
+						"3": [
+							{
+								"all": "level=2|class=Cleric"
+							}
+						],
+						"5": [
+							{
+								"all": "level=3|class=Cleric"
+							}
+						],
+						"7": [
+							{
+								"all": "level=4|class=Cleric"
+							}
+						],
+						"9": [
+							{
+								"all": "level=5|class=Cleric"
+							}
+						],
+						"11": [
+							{
+								"all": "level=6|class=Cleric"
+							}
+						],
+						"13": [
+							{
+								"all": "level=7|class=Cleric"
+							}
+						],
+						"15": [
+							{
+								"all": "level=8|class=Cleric"
+							}
+						],
+						"17": [
+							{
+								"all": "level=9|class=Cleric"
+							}
+						]
+					}
+				},
+				{
+					"name": "Law",
+					"known": {
+						"1": [
+							"bless"
+						]
+					},
+					"expanded": {
+						"1": [
+							{
+								"all": "level=0|class=Cleric"
+							},
+							{
+								"all": "level=1|class=Cleric"
+							}
+						],
+						"3": [
+							{
+								"all": "level=2|class=Cleric"
+							}
+						],
+						"5": [
+							{
+								"all": "level=3|class=Cleric"
+							}
+						],
+						"7": [
+							{
+								"all": "level=4|class=Cleric"
+							}
+						],
+						"9": [
+							{
+								"all": "level=5|class=Cleric"
+							}
+						],
+						"11": [
+							{
+								"all": "level=6|class=Cleric"
+							}
+						],
+						"13": [
+							{
+								"all": "level=7|class=Cleric"
+							}
+						],
+						"15": [
+							{
+								"all": "level=8|class=Cleric"
+							}
+						],
+						"17": [
+							{
+								"all": "level=9|class=Cleric"
+							}
+						]
+					}
+				},
+				{
+					"name": "Chaos",
+					"known": {
+						"1": [
+							"bane"
+						]
+					},
+					"expanded": {
+						"1": [
+							{
+								"all": "level=0|class=Cleric"
+							},
+							{
+								"all": "level=1|class=Cleric"
+							}
+						],
+						"3": [
+							{
+								"all": "level=2|class=Cleric"
+							}
+						],
+						"5": [
+							{
+								"all": "level=3|class=Cleric"
+							}
+						],
+						"7": [
+							{
+								"all": "level=4|class=Cleric"
+							}
+						],
+						"9": [
+							{
+								"all": "level=5|class=Cleric"
+							}
+						],
+						"11": [
+							{
+								"all": "level=6|class=Cleric"
+							}
+						],
+						"13": [
+							{
+								"all": "level=7|class=Cleric"
+							}
+						],
+						"15": [
+							{
+								"all": "level=8|class=Cleric"
+							}
+						],
+						"17": [
+							{
+								"all": "level=9|class=Cleric"
+							}
+						]
+					}
+				},
+				{
+					"name": "Neutrality",
+					"known": {
+						"1": [
+							"protection from evil and good"
+						]
+					},
+					"expanded": {
+						"1": [
+							{
+								"all": "level=0|class=Cleric"
+							},
+							{
+								"all": "level=1|class=Cleric"
+							}
+						],
+						"3": [
+							{
+								"all": "level=2|class=Cleric"
+							}
+						],
+						"5": [
+							{
+								"all": "level=3|class=Cleric"
+							}
+						],
+						"7": [
+							{
+								"all": "level=4|class=Cleric"
+							}
+						],
+						"9": [
+							{
+								"all": "level=5|class=Cleric"
+							}
+						],
+						"11": [
+							{
+								"all": "level=6|class=Cleric"
+							}
+						],
+						"13": [
+							{
+								"all": "level=7|class=Cleric"
+							}
+						],
+						"15": [
+							{
+								"all": "level=8|class=Cleric"
+							}
+						],
+						"17": [
+							{
+								"all": "level=9|class=Cleric"
+							}
+						]
+					}
 				}
-			},
-			"subclassFeatures": [
-				"Divine Soul|Sorcerer|XPHB|Divine Soul|XGE|1|XGE",
-				"Divine Soul|Sorcerer|XPHB|Divine Soul|XGE|3|XGE",
-				"Empowered Healing|Sorcerer|XPHB|Divine Soul|XGE|6|XGE",
-				"Otherworldly Wings|Sorcerer|XPHB|Divine Soul|XGE|14|XGE",
-				"Unearthly Recovery|Sorcerer|XPHB|Divine Soul|XGE|18|XGE"
-			]
-		},
-		{
-			"name": "Shadow Magic",
-			"shortName": "Shadow",
-			"source": "XGE",
-			"className": "Sorcerer",
-			"classSource": "XPHB",
-			"reprintedAs": [
-				"Shadow|Sorcerer|XPHB|RHW"
 			],
-			"_copy": {
-				"name": "Shadow Magic",
-				"source": "XGE",
-				"shortName": "Shadow",
-				"className": "Sorcerer",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"Shadow Magic|Sorcerer|XPHB|Shadow|XGE|1|XGE",
-				"Shadow Magic|Sorcerer|XPHB|Shadow|XGE|3|XGE",
-				"Hound of Ill Omen|Sorcerer|XPHB|Shadow|XGE|6|XGE",
-				"Shadow Walk|Sorcerer|XPHB|Shadow|XGE|14|XGE",
-				"Umbral Form|Sorcerer|XPHB|Shadow|XGE|18|XGE"
-			]
-		},
-		{
-			"name": "Storm Sorcery",
-			"shortName": "Storm",
+			"name": "Divine Soul",
 			"source": "XGE",
-			"className": "Sorcerer",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Storm Sorcery",
-				"source": "XGE",
-				"shortName": "Storm",
-				"className": "Sorcerer",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Storm Sorcery|Sorcerer|XPHB|Storm|XGE|1|XGE",
-				"Storm Sorcery|Sorcerer|XPHB|Storm|XGE|3|XGE",
-				"Heart of the Storm|Sorcerer|XPHB|Storm|XGE|6|XGE",
-				"Storm's Fury|Sorcerer|XPHB|Storm|XGE|14|XGE",
-				"Wind Soul|Sorcerer|XPHB|Storm|XGE|18|XGE"
+				"Divine Soul|Sorcerer|PHB|Divine Soul|XGE|1|XGE",
+				"Divine Soul|Sorcerer|PHB|Divine Soul|XGE|3|XGE",
+				"Empowered Healing|Sorcerer|PHB|Divine Soul|XGE|6|XGE",
+				"Otherworldly Wings|Sorcerer|PHB|Divine Soul|XGE|14|XGE",
+				"Unearthly Recovery|Sorcerer|PHB|Divine Soul|XGE|18|XGE"
 			]
 		},
 		{
-			"name": "Aberrant Mind",
+			"shortName": "Shadow",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"darkness"
+						]
+					}
+				}
+			],
+			"name": "Shadow Magic",
+			"source": "XGE",
+			"subclassFeatures": [
+				"Shadow Magic|Sorcerer|PHB|Shadow|XGE|1|XGE",
+				"Shadow Magic|Sorcerer|PHB|Shadow|XGE|3|XGE",
+				"Hound of Ill Omen|Sorcerer|PHB|Shadow|XGE|6|XGE",
+				"Shadow Walk|Sorcerer|PHB|Shadow|XGE|14|XGE",
+				"Umbral Form|Sorcerer|PHB|Shadow|XGE|18|XGE"
+			]
+		},
+		{
+			"shortName": "Storm",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Storm Sorcery",
+			"source": "XGE",
+			"subclassFeatures": [
+				"Storm Sorcery|Sorcerer|PHB|Storm|XGE|1|XGE",
+				"Storm Sorcery|Sorcerer|PHB|Storm|XGE|3|XGE",
+				"Heart of the Storm|Sorcerer|PHB|Storm|XGE|6|XGE",
+				"Storm's Fury|Sorcerer|PHB|Storm|XGE|14|XGE",
+				"Wind Soul|Sorcerer|PHB|Storm|XGE|18|XGE"
+			]
+		},
+		{
 			"shortName": "Aberrant Mind",
-			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Aberrant Mind",
-				"source": "TCE",
-				"shortName": "Aberrant Mind",
-				"className": "Sorcerer",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"mind sliver|tce#c",
+							"arms of Hadar",
+							"dissonant whispers"
+						],
+						"3": [
+							"calm emotions",
+							"detect thoughts"
+						],
+						"5": [
+							"hunger of Hadar",
+							"sending"
+						],
+						"7": [
+							"Evard's black tentacles",
+							"summon aberration|TCE"
+						],
+						"9": [
+							"Rary's telepathic bond",
+							"telekinesis"
+						]
+					}
 				}
-			},
+			],
+			"name": "Aberrant Mind",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Aberrant Mind|Sorcerer|XPHB|Aberrant Mind|TCE|1|TCE",
-				"Aberrant Mind|Sorcerer|XPHB|Aberrant Mind|TCE|3|TCE",
-				"Psionic Sorcery|Sorcerer|XPHB|Aberrant Mind|TCE|6|TCE",
-				"Revelation in Flesh|Sorcerer|XPHB|Aberrant Mind|TCE|14|TCE",
-				"Warping Implosion|Sorcerer|XPHB|Aberrant Mind|TCE|18|TCE"
+				"Aberrant Mind|Sorcerer|PHB|Aberrant Mind|TCE|1|TCE",
+				"Aberrant Mind|Sorcerer|PHB|Aberrant Mind|TCE|3|TCE",
+				"Psionic Sorcery|Sorcerer|PHB|Aberrant Mind|TCE|6|TCE",
+				"Revelation in Flesh|Sorcerer|PHB|Aberrant Mind|TCE|14|TCE",
+				"Warping Implosion|Sorcerer|PHB|Aberrant Mind|TCE|18|TCE"
 			]
 		},
 		{
-			"name": "Clockwork Soul",
 			"shortName": "Clockwork Soul",
-			"source": "TCE",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Clockwork Soul",
-				"source": "TCE",
-				"shortName": "Clockwork Soul",
-				"className": "Sorcerer",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"alarm",
+							"protection from evil and good"
+						],
+						"3": [
+							"aid",
+							"lesser restoration"
+						],
+						"5": [
+							"dispel magic",
+							"protection from energy"
+						],
+						"7": [
+							"freedom of movement",
+							"summon construct|TCE"
+						],
+						"9": [
+							"greater restoration",
+							"wall of force"
+						]
+					}
 				}
-			},
+			],
+			"name": "Clockwork Soul",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Clockwork Soul|Sorcerer|XPHB|Clockwork Soul|TCE|1|TCE",
-				"Clockwork Soul|Sorcerer|XPHB|Clockwork Soul|TCE|3|TCE",
-				"Bastion of Law|Sorcerer|XPHB|Clockwork Soul|TCE|6|TCE",
-				"Trance of Order|Sorcerer|XPHB|Clockwork Soul|TCE|14|TCE",
-				"Clockwork Cavalcade|Sorcerer|XPHB|Clockwork Soul|TCE|18|TCE"
+				"Clockwork Soul|Sorcerer|PHB|Clockwork Soul|TCE|1|TCE",
+				"Clockwork Soul|Sorcerer|PHB|Clockwork Soul|TCE|3|TCE",
+				"Bastion of Law|Sorcerer|PHB|Clockwork Soul|TCE|6|TCE",
+				"Trance of Order|Sorcerer|PHB|Clockwork Soul|TCE|14|TCE",
+				"Clockwork Cavalcade|Sorcerer|PHB|Clockwork Soul|TCE|18|TCE"
 			]
 		},
 		{
-			"name": "Lunar Sorcery",
 			"shortName": "Lunar",
-			"source": "DSotDQ",
 			"className": "Sorcerer",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Lunar Sorcery",
-				"source": "DSotDQ",
-				"shortName": "Lunar",
-				"className": "Sorcerer",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"name": "Full Moon",
+					"known": {
+						"1": [
+							"shield",
+							"ray of sickness",
+							"color spray"
+						],
+						"3": [
+							"lesser restoration",
+							"blindness/deafness",
+							"alter self"
+						],
+						"5": [
+							"dispel magic",
+							"vampiric touch",
+							"phantom steed"
+						],
+						"7": [
+							"death ward",
+							"confusion",
+							"hallucinatory terrain"
+						],
+						"9": [
+							"Rary's telepathic bond",
+							"hold monster",
+							"mislead"
+						]
+					}
 				}
-			},
+			],
+			"name": "Lunar Sorcery",
+			"source": "DSotDQ",
 			"subclassFeatures": [
-				"Lunar Sorcery|Sorcerer|XPHB|Lunar|DSotDQ|1|DSotDQ",
-				"Lunar Sorcery|Sorcerer|XPHB|Lunar|DSotDQ|3|DSotDQ",
-				"Lunar Boons|Sorcerer|XPHB|Lunar|DSotDQ|6|DSotDQ",
-				"Lunar Empowerment|Sorcerer|XPHB|Lunar|DSotDQ|14|DSotDQ",
-				"Lunar Phenomenon|Sorcerer|XPHB|Lunar|DSotDQ|18|DSotDQ"
+				"Lunar Sorcery|Sorcerer|PHB|Lunar|DSotDQ|1|DSotDQ",
+				"Lunar Sorcery|Sorcerer|PHB|Lunar|DSotDQ|3|DSotDQ",
+				"Lunar Boons|Sorcerer|PHB|Lunar|DSotDQ|6|DSotDQ",
+				"Lunar Empowerment|Sorcerer|PHB|Lunar|DSotDQ|14|DSotDQ",
+				"Lunar Phenomenon|Sorcerer|PHB|Lunar|DSotDQ|18|DSotDQ"
 			]
 		},
 		{

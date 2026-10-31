@@ -1345,27 +1345,185 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Azaka Stormfang",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 33,
-			"_copy": {
-				"name": "Weretiger",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "weretiger",
-						"with": "Azaka",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"N",
 				"G"
 			],
+			"name": "Azaka Stormfang",
+			"source": "ToA",
+			"page": 33,
+			"group": [
+				"Lycanthropes"
+			],
+			"referenceSources": [
+				"EGW",
+				"JttRC",
+				"TftYP-THSoT",
+				"ToA",
+				"ToFW",
+				"TTP"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"shapechanger"
+				]
+			},
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 120,
+				"formula": "16d8 + 48"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(40 ft. in tiger form)"
+				}
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"perception": "+5",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Common (can't speak in tiger form)"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The Azaka can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The Azaka has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Pounce (Tiger or Hybrid Form Only)",
+					"entries": [
+						"If the Azaka moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the Azaka can make one bite attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"In humanoid form, the Azaka makes two scimitar attacks or two longbow attacks. In hybrid form, it can attack like a humanoid or make two claw attacks."
+					]
+				},
+				{
+					"name": "Bite (Tiger or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 13} Constitution saving throw or be cursed with Azaka {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}."
+					]
+				},
+				{
+					"name": "Claw (Tiger or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Scimitar (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Longbow (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Nonhuman Lycanthropes",
+					"entries": [
+						"The statistics presented in this section assume a base creature of human. However, you can also use the statistics to represent nonhuman lycanthropes, adding verisimilitude by allowing a nonhuman lycanthrope to retain one or more of its humanoid racial traits. For example, an elf werewolf might have the Fey Ancestry trait."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"forest",
+				"desert"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"scimitar|phb"
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pounce",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"CUR",
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Azaka%20Stormfang.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -1522,21 +1680,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Blind Artist",
 			"isNpc": true,
-			"source": "ToA",
-			"page": 164,
-			"_copy": {
-				"name": "Zombie",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "zombie",
-						"with": "artist"
-					}
-				}
-			},
 			"senses": [
 				"blindsight 30 ft. (blind beyond this radius)"
 			],
@@ -1549,36 +1693,117 @@
 			"senseTags": [
 				"B"
 			],
+			"name": "Blind Artist",
+			"source": "ToA",
+			"page": 164,
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CoS",
+				"DC",
+				"DIP",
+				"DoSI",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"FS",
+				"GoS",
+				"HftT",
+				"JttRC",
+				"KftGV",
+				"KKW",
+				"LMoP",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"RMBRE",
+				"RtG",
+				"SatO",
+				"SDW",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-THSoT",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"VNotEE",
+				"WBtW",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				8
+			],
+			"hp": {
+				"average": 22,
+				"formula": "3d8 + 9"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 13,
+			"dex": 6,
+			"con": 16,
+			"int": 3,
+			"wis": 6,
+			"cha": 5,
+			"save": {
+				"wis": "+0"
+			},
+			"passive": 8,
+			"immune": [
+				"poison"
+			],
+			"languages": [
+				"understands all languages it spoke in life but can't speak"
+			],
+			"trait": [
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the artist to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the artist drops to 1 hit point instead."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Blind%20Artist.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Bosco Daggerhand",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 68,
-			"_copy": {
-				"name": "Thug",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the thug",
-						"with": "Bosco",
-						"flags": "i"
-					},
-					"trait": {
-						"mode": "prependArr",
-						"items": {
-							"name": "Special Equipment",
-							"entries": [
-								"Bosco wears a {@item ring of animal influence}."
-							]
-						}
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1590,7 +1815,138 @@
 				"E"
 			],
 			"tokenCustom": true,
-			"hasToken": true
+			"name": "Bosco Daggerhand",
+			"source": "ToA",
+			"page": 68,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"EGW",
+				"FS",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"LLK",
+				"LoX",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"SKT",
+				"SLW",
+				"TCE",
+				"ToA",
+				"ToFW",
+				"ToR",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d8 + 10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 11,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 11,
+			"skill": {
+				"intimidation": "+2"
+			},
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Bosco wears a {@item ring of animal influence}."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"Bosco has advantage on an attack roll against a creature if at least one of Bosco's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Bosco makes two melee attacks."
+					]
+				},
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 100/400 ft., one target. {@h}5 ({@damage 1d10}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"heavy crossbow|phb",
+				"mace|phb"
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Bosco%20Daggerhand.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Chwinga",
@@ -1934,29 +2290,142 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Drufi",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 64,
-			"_copy": {
-				"name": "Frost Giant",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the giant",
-						"with": "Drufi",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"N",
 				"E"
 			],
 			"tokenCustom": true,
-			"hasToken": true
+			"name": "Drufi",
+			"source": "ToA",
+			"page": 64,
+			"referenceSources": [
+				"CoA",
+				"EGW",
+				"IDRotF",
+				"SatO",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"ToA"
+			],
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"patchwork armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 138,
+				"formula": "12d12 + 60"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 21,
+			"int": 9,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"con": "+8",
+				"wis": "+3",
+				"cha": "+4"
+			},
+			"skill": {
+				"athletics": "+9",
+				"perception": "+3"
+			},
+			"passive": 13,
+			"immune": [
+				"cold"
+			],
+			"languages": [
+				"Giant"
+			],
+			"cr": "8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Drufi makes two greataxe attacks."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d12 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 60/240 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "New Giant Options",
+					"source": "SKT",
+					"page": 246,
+					"entries": [
+						"Some adult frost giants are skilled hunters who construct and hurl nets weighted down with fragments of metal or bone. This ability is represented by the following action option.",
+						{
+							"type": "entries",
+							"name": "Weighted Net",
+							"entries": [
+								"{@atk rw} {@hit 5} to hit, ranged 20/60 ft., one Small, Medium, or Large creature. {@h}The target is {@condition restrained} until it escapes the net. Any creature can use its action to make a {@dc 17} Strength check to free itself or another creature in the net, ending the effect on a success. Dealing 15 slashing damage to the net (AC 12) destroys the net and frees the target."
+							]
+						}
+					],
+					"_version": {
+						"name": "Frost Giant (Optional Actions)",
+						"addHeadersAs": "action"
+					}
+				}
+			],
+			"environment": [
+				"mountain",
+				"arctic"
+			],
+			"attachedItems": [
+				"greataxe|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Drufi.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Eblis",
@@ -2054,23 +2523,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Ekene-Afa",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 25,
-			"_copy": {
-				"name": "Gladiator",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the gladiator",
-						"with": "Ekene-Afa",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2081,73 +2535,525 @@
 				"L",
 				"G"
 			],
+			"name": "Ekene-Afa",
+			"source": "ToA",
+			"page": 25,
+			"referenceSources": [
+				"AitFR-FCD",
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"KftGV",
+				"MOT",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SCC-CK",
+				"SKT",
+				"SLW",
+				"ToA",
+				"ToFW"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 112,
+				"formula": "15d8 + 45"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"str": "+7",
+				"dex": "+5",
+				"con": "+6"
+			},
+			"skill": {
+				"athletics": "+10",
+				"intimidation": "+5"
+			},
+			"passive": 11,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Ekene-Afa has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when Ekene-Afa hits with it (included in the attack)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Ekene-Afa makes three melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. and range 20/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, or 13 ({@damage 2d8 + 4}) piercing damage if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Ekene-Afa adds 3 to its AC against one melee attack that would hit it. To do so, Ekene-Afa must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"traitTags": [
+				"Brute"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Ekene-Afa.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Eku",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Eku",
 			"source": "ToA",
 			"page": 34,
-			"_copy": {
-				"name": "Couatl",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the couatl",
-						"with": "Eku",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"BMT",
+				"CoA",
+				"EGW",
+				"IDRotF",
+				"PSX",
+				"SKT",
+				"TftYP",
+				"TftYP-THSoT",
+				"ToA",
+				"VEoR",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "celestial",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 97,
+				"formula": "13d8 + 39"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 90
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 17,
+			"int": 18,
+			"wis": 20,
+			"cha": 18,
+			"save": {
+				"con": "+5",
+				"wis": "+7",
+				"cha": "+6"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"radiant"
+			],
+			"immune": [
+				"psychic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Eku's spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell detect evil and good}",
+						"{@spell detect magic}",
+						"{@spell detect thoughts}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell bless}",
+							"{@spell create food and water}",
+							"{@spell cure wounds}",
+							"{@spell lesser restoration}",
+							"{@spell protection from poison}",
+							"{@spell sanctuary}",
+							"{@spell shield}"
+						],
+						"1e": [
+							"{@spell dream}",
+							"{@spell greater restoration}",
+							"{@spell scrying}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Eku's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Shielded Mind",
+					"entries": [
+						"Eku is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d6 + 5}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 24 hours. Until this poison ends, the target is {@condition unconscious}. Another creature can use an action to shake the target awake."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one Medium or smaller creature. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and Eku can't constrict another target."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"Eku magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (Eku's choice).",
+						"In a new form, Eku retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, Eku can use its bite in that form."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"forest",
+				"urban",
+				"desert"
+			],
+			"traitTags": [
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Shapechanger"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"damageTagsSpell": [
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"poisoned",
+				"restrained",
+				"unconscious"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Eku.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Elok Jaharwon",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 67,
-			"_copy": {
-				"name": "Wereboar",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the wereboar",
-						"with": "Elok",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"N",
 				"E"
 			],
+			"name": "Elok Jaharwon",
+			"source": "ToA",
+			"page": 67,
+			"group": [
+				"Lycanthropes"
+			],
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"DC",
+				"DIP",
+				"EGW",
+				"IMR",
+				"PotA",
+				"TCE",
+				"ToA"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"shapechanger"
+				]
+			},
+			"ac": [
+				{
+					"ac": 10,
+					"condition": "in humanoid form"
+				},
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					],
+					"condition": "in boar or hybrid form"
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(40 ft. in boar form)"
+				}
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 15,
+			"int": 10,
+			"wis": 11,
+			"cha": 8,
+			"skill": {
+				"perception": "+2"
+			},
+			"passive": 12,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Common (can't speak in boar form)"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Elok can use its action to polymorph into a boar-humanoid hybrid or into a boar, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Charge (Boar or Hybrid Form Only)",
+					"entries": [
+						"If Elok moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 ({@damage 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Relentless (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If Elok takes 14 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"Elok makes two attacks, only one of which can be with its tusks."
+					]
+				},
+				{
+					"name": "Maul (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Tusks (Boar or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with wereboar {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Nonhuman Lycanthropes",
+					"entries": [
+						"The statistics presented in this section assume a base creature of human. However, you can also use the statistics to represent nonhuman lycanthropes, adding verisimilitude by allowing a nonhuman lycanthrope to retain one or more of its humanoid racial traits. For example, an elf werewolf might have the Fey Ancestry trait."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"forest",
+				"hill"
+			],
+			"attachedItems": [
+				"maul|phb"
+			],
+			"traitTags": [
+				"Charge",
+				"Shapechanger"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"CUR",
+				"MLW",
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Elok%20Jaharwon.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Faroul",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 34,
-			"_copy": {
-				"name": "Scout",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the scout",
-						"with": "Faroul",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2158,47 +3064,529 @@
 				"N",
 				"G"
 			],
-			"hasToken": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Fenthaza",
-			"isNpc": true,
-			"isNamedCreature": true,
+			"name": "Faroul",
 			"source": "ToA",
-			"page": 113,
-			"_copy": {
-				"name": "Yuan-ti Nightmare Speaker",
-				"source": "VGM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the yuan-ti",
-						"with": "Fenthaza",
-						"flags": "i"
-					}
+			"page": 34,
+			"referenceSources": [
+				"AZfyT",
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"FS",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TftYP",
+				"TftYP-THSoT",
+				"TftYP-TSC",
+				"ToA",
+				"ToR",
+				"VNotEE",
+				"WBtW",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
 				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"nature": "+4",
+				"perception": "+5",
+				"stealth": "+6",
+				"survival": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"Faroul has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Faroul makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, ranged 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Faroul.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Flask of Wine",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Fenthaza",
 			"source": "ToA",
-			"page": 35,
-			"_copy": {
-				"name": "Tabaxi Hunter",
-				"source": "ToA",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the tabaxi",
-						"with": "Flask of Wine",
-						"flags": "i"
+			"page": 113,
+			"referenceSources": [
+				"ToA"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger",
+					"yuan-ti"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "13d8 + 13"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 13,
+			"int": 14,
+			"wis": 12,
+			"cha": 16,
+			"save": {
+				"wis": "+3",
+				"cha": "+5"
+			},
+			"skill": {
+				"deception": "+5",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft. (penetrates magical darkness)"
+			],
+			"passive": 11,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Yuan-ti Form Only)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Fenthaza's innate spellcasting ability is Charisma (spell save {@dc 13}). Fenthaza can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell animal friendship} (snakes only)"
+					],
+					"daily": {
+						"3": [
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting (Yuan-ti Form Only)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Fenthaza is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell eldritch blast} (range 300 ft., +3 bonus to each damage roll)",
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell poison spray}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"3": {
+							"lower": 1,
+							"slots": 2,
+							"spells": [
+								"{@spell arms of Hadar}",
+								"{@spell darkness}",
+								"{@spell fear}",
+								"{@spell hex}",
+								"{@spell hold person}",
+								"{@spell hunger of Hadar}",
+								"{@spell witch bolt}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Fenthaza can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. If it dies, it stays in its current form."
+					]
+				},
+				{
+					"name": "Death Fangs (2/Day)",
+					"entries": [
+						"The first time Fenthaza hits with a melee attack on its turn, it can deal an extra 16 ({@damage 3d10}) necrotic damage to the target."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Fenthaza has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Yuan-ti Form Only)",
+					"entries": [
+						"Fenthaza makes one constrict attack and one scimitar attack."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 14}) if it is a Large or smaller creature. Until this grapple ends, the target is {@condition restrained}, and Fenthaza can't constrict another target."
+					]
+				},
+				{
+					"name": "Scimitar (Yuan-ti Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Invoke Nightmare (Recharges after a Short or Long Rest)",
+					"entries": [
+						"Fenthaza taps into the nightmares of a creature it can see within 60 feet of it and creates an illusory, immobile manifestation of the creature's deepest fears, visible only to that creature. The target must make a {@dc 13} Intelligence saving throw. On a failed save, the target takes 11 ({@damage 2d10}) psychic damage and is {@condition frightened} of the manifestation, believing it to be real. Fenthaza must concentrate to maintain the illusion (as if {@status concentration||concentrating} on a spell), which lasts for up to 1 minute and can't be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success, or taking 11 ({@damage 2d10}) psychic damage on a failure."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Chameleon Skin",
+					"entries": [
+						"Fenthaza has advantage on Dexterity ({@skill Stealth}) checks made to hide."
+					],
+					"_version": {
+						"name": "Yuan-ti Nightmare Speaker (Chameleon Skin)",
+						"addAs": "trait"
+					}
+				},
+				{
+					"type": "variant",
+					"name": "Shed Skin (1/Day)",
+					"entries": [
+						"Fenthaza can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If Fenthaza spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum."
+					],
+					"_version": {
+						"name": "Yuan-ti Nightmare Speaker (Shed Skin)",
+						"addAs": "bonus"
 					}
 				}
+			],
+			"environment": [
+				"underdark",
+				"forest",
+				"desert"
+			],
+			"attachedItems": [
+				"scimitar|phb"
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"S",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"I",
+				"L",
+				"N",
+				"O"
+			],
+			"spellcastingTags": [
+				"CL",
+				"F",
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"grappled",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"frightened",
+				"paralyzed"
+			],
+			"savingThrowForced": [
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"strength",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Fenthaza.webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"isNpc": true,
+			"isNamedCreature": true,
+			"name": "Flask of Wine",
+			"source": "ToA",
+			"page": 35,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tabaxi"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d8"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 10,
+			"dex": 17,
+			"con": 11,
+			"int": 13,
+			"wis": 14,
+			"cha": 15,
+			"skill": {
+				"athletics": "+2",
+				"perception": "+4",
+				"stealth": "+5",
+				"survival": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common plus any one language"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Feline Agility",
+					"entries": [
+						"When Flask of Wine moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, Flask of Wine can't use it again until it moves 0 feet on one of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Flask of Wine makes two attacks with its claws, its shortsword, or its shortbow."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"shortbow|phb",
+				"shortsword|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Flask%20of%20Wine.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
@@ -2574,29 +3962,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Gondolo",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 34,
-			"_copy": {
-				"name": "Scout",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Stout Halfling",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the scout",
-						"with": "Gondolo",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"C",
 				"G"
@@ -2610,48 +3977,291 @@
 				"H",
 				"X"
 			],
+			"name": "Gondolo",
+			"source": "ToA",
+			"page": 34,
+			"referenceSources": [
+				"AZfyT",
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"FS",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TftYP",
+				"TftYP-THSoT",
+				"TftYP-TSC",
+				"ToA",
+				"ToR",
+				"VNotEE",
+				"WBtW",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"nature": "+4",
+				"perception": "+5",
+				"stealth": "+6",
+				"survival": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"Gondolo has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Gondolo makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, ranged 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Gondolo.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Grabstab",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Grabstab",
 			"source": "ToA",
 			"page": 89,
-			"_copy": {
-				"name": "Goblin Boss",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the goblin",
-						"with": "Grabstab",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"BGDIA",
+				"GoS",
+				"IDRotF",
+				"KftGV",
+				"KKW",
+				"OotA",
+				"PaBTSO",
+				"SKT",
+				"TCE",
+				"ToA",
+				"WBtW",
+				"WDMM"
+			],
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item chain shirt|phb}",
+						"{@item shield|phb}"
+					]
 				}
+			],
+			"hp": {
+				"average": 21,
+				"formula": "6d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 10,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"Grabstab can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Grabstab makes two attacks with its scimitar. The second attack has disadvantage."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Redirect Attack",
+					"entries": [
+						"When a creature Grabstab can see targets it with an attack, Grabstab chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"grassland",
+				"forest",
+				"hill"
+			],
+			"attachedItems": [
+				"javelin|phb",
+				"scimitar|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Grabstab.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Grandfather Zitembe",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 20,
-			"_copy": {
-				"name": "Priest",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the priest",
-						"with": "Zitembe",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2663,7 +4273,174 @@
 				"G"
 			],
 			"tokenCustom": true,
-			"hasToken": true
+			"name": "Grandfather Zitembe",
+			"source": "ToA",
+			"page": 20,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"US",
+				"VEoR",
+				"WDH",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 12,
+			"int": 13,
+			"wis": 16,
+			"cha": 13,
+			"skill": {
+				"medicine": "+7",
+				"persuasion": "+3",
+				"religion": "+5"
+			},
+			"passive": 13,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Zitembe is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Zitembe has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell guiding bolt}",
+								"{@spell sanctuary}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell spirit guardians}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Divine Eminence",
+					"entries": [
+						"As a bonus action, Zitembe can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Zitembe expends a spell slot of 2nd level or higher, the extra damage increases by {@damage 1d6} for each level above 1st."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"mace|phb"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Grandfather%20Zitembe.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Hew Hackinstone",
@@ -2766,23 +4543,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Ifan Talro'a",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 25,
-			"_copy": {
-				"name": "Noble",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the noble",
-						"with": "Ifan",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2793,6 +4555,122 @@
 				"N",
 				"E"
 			],
+			"name": "Ifan Talro'a",
+			"source": "ToA",
+			"page": 25,
+			"referenceSources": [
+				"AZfyT",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"KKW",
+				"MOT",
+				"NRH-CoI",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 11,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"persuasion": "+5"
+			},
+			"passive": 12,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Ifan adds 2 to its AC against one melee attack that would hit it. To do so, Ifan must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"rapier|phb"
+			],
+			"actionTags": [
+				"Parry"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Ifan%20Talro'a.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -2887,23 +4765,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Jessamine",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 26,
-			"_copy": {
-				"name": "Assassin",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the noble",
-						"with": "Ifan",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2917,27 +4780,155 @@
 				"average": 58,
 				"formula": "12d8 + 24"
 			},
+			"name": "Jessamine",
+			"source": "ToA",
+			"page": 26,
+			"referenceSources": [
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"RoT",
+				"SatO",
+				"SKT",
+				"TCE",
+				"TftYP",
+				"TftYP-AtG",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 13,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"dex": "+6",
+				"int": "+4"
+			},
+			"skill": {
+				"acrobatics": "+6",
+				"deception": "+3",
+				"perception": "+3",
+				"stealth": "+9"
+			},
+			"passive": 13,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Thieves' cant plus any two languages"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a {@status surprised} creature is a critical hit."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The assassin deals an extra 14 ({@damage 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't {@condition incapacitated} and the assassin doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The assassin makes two shortsword attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"light crossbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TC",
+				"X"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Jessamine.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Jobal",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 26,
-			"_copy": {
-				"name": "Scout",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the scout",
-						"with": "Jobal",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2948,6 +4939,147 @@
 				"N",
 				"E"
 			],
+			"name": "Jobal",
+			"source": "ToA",
+			"page": 26,
+			"referenceSources": [
+				"AZfyT",
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"FS",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TftYP",
+				"TftYP-THSoT",
+				"TftYP-TSC",
+				"ToA",
+				"ToR",
+				"VNotEE",
+				"WBtW",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"nature": "+4",
+				"perception": "+5",
+				"stealth": "+6",
+				"survival": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"Jobal has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Jobal makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, ranged 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Jobal.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -3185,84 +5317,294 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Kupalué",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Kupalué",
 			"source": "ToA",
 			"page": 35,
-			"_copy": {
-				"name": "Vegepygmy",
-				"source": "VGM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the vegepygmy",
-						"with": "Kupalué",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"ToA"
+			],
+			"size": [
+				"S"
+			],
+			"type": "plant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d6 + 2"
 			},
-			"hasToken": true,
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 14,
+			"con": 13,
+			"int": 6,
+			"wis": 11,
+			"cha": 7,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"lightning",
+				"piercing"
+			],
+			"languages": [
+				"Vegepygmy"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Plant Camouflage",
+					"entries": [
+						"Kupalué has advantage on Dexterity ({@skill Stealth}) checks it makes in any terrain with ample obscuring plant life."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Kupalué regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of Kupalué's next turn. Kupalué dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Sling",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			],
+			"attachedItems": [
+				"sling|phb"
+			],
+			"traitTags": [
+				"Camouflage",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Kwayothé",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"name": "Kwayothé",
 			"source": "ToA",
 			"page": 26,
-			"_copy": {
-				"name": "Priest",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the priest",
-						"with": "Kwayothé",
-						"flags": "i"
-					}
-				}
-			},
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
-			"alignment": [
-				"N",
-				"E"
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"US",
+				"VEoR",
+				"WDH",
+				"WDMM",
+				"XMtS"
 			],
-			"hasToken": true,
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 12,
+			"int": 13,
+			"wis": 16,
+			"cha": 13,
+			"skill": {
+				"medicine": "+7",
+				"persuasion": "+3",
+				"religion": "+5"
+			},
+			"passive": 13,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Kwayothé is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Kwayothé has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell guiding bolt}",
+								"{@spell sanctuary}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell spirit guardians}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Divine Eminence",
+					"entries": [
+						"As a bonus action, Kwayothé can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Kwayothé expends a spell slot of 2nd level or higher, the extra damage increases by {@damage 1d6} for each level above 1st."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"mace|phb"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Laskilar",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 67,
-			"_copy": {
-				"name": "Bandit Captain",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the captain",
-						"with": "Laskilar",
-						"flags": "i"
-					},
-					"trait": {
-						"mode": "prependArr",
-						"items": {
-							"name": "Special Equipment",
-							"entries": [
-								"Laskilar wears a {@item cape of the mountebank}."
-							]
-						}
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3273,6 +5615,148 @@
 				"N",
 				"E"
 			],
+			"name": "Laskilar",
+			"source": "ToA",
+			"page": 67,
+			"referenceSources": [
+				"AitFR-ISF",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"KftGV",
+				"LLK",
+				"LoX",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"SatO",
+				"SKT",
+				"SLW",
+				"TLK",
+				"ToA",
+				"ToFW",
+				"ToR",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 14,
+			"int": 14,
+			"wis": 11,
+			"cha": 14,
+			"save": {
+				"str": "+4",
+				"dex": "+5",
+				"wis": "+2"
+			},
+			"skill": {
+				"athletics": "+4",
+				"deception": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "2",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Laskilar makes three melee attacks: two with its scimitar and one with its dagger. Or Laskilar makes two ranged attacks with its daggers."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Laskilar adds 2 to its AC against one melee attack that would hit it. To do so, Laskilar must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"hill",
+				"arctic",
+				"urban",
+				"forest",
+				"desert"
+			],
+			"attachedItems": [
+				"dagger|phb",
+				"scimitar|phb"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Laskilar wears a {@item cape of the mountebank}."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Laskilar.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -3482,47 +5966,259 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Mister Threadneedle",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Mister Threadneedle",
 			"source": "ToA",
 			"page": 183,
-			"_copy": {
-				"name": "Scarecrow",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the scarecrow",
-						"with": "Mister Threadneedle",
-						"flags": "i"
-					}
-				}
+			"referenceSources": [
+				"CM",
+				"CoS",
+				"HoL",
+				"KftGV",
+				"OoW",
+				"ToA",
+				"WDH"
+			],
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 36,
+				"formula": "8d8"
 			},
-			"hasToken": true
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 13,
+			"con": 11,
+			"int": 10,
+			"wis": 10,
+			"cha": 13,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While Mister Threadneedle remains motionless, it is indistinguishable from an ordinary, inanimate scarecrow."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Mister Threadneedle makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) slashing damage. If the target is a creature, it must succeed on a {@dc 11} Wisdom saving throw or be {@condition frightened} until the end of Mister Threadneedle's next turn."
+					]
+				},
+				{
+					"name": "Terrifying Glare",
+					"entries": [
+						"Mister Threadneedle targets one creature it can see within 30 feet of it. If the target can see Mister Threadneedle, the target must succeed on a {@dc 11} Wisdom saving throw or be magically {@condition frightened} until the end of Mister Threadneedle's next turn. The {@condition frightened} target is {@condition paralyzed}."
+					]
+				}
+			],
+			"environment": [
+				"grassland"
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Mister%20Threadneedle.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Musharib",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 34,
-			"_copy": {
-				"name": "Albino Dwarf Spirit Warrior",
-				"source": "ToA",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the dwarf",
-						"with": "Musharib",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"L",
 				"G"
 			],
+			"name": "Musharib",
+			"source": "ToA",
+			"page": 34,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 13,
+			"dex": 13,
+			"con": 17,
+			"int": 12,
+			"wis": 14,
+			"cha": 11,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+3",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Musharib's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell hunter's mark}",
+							"{@spell jump}",
+							"{@spell pass without trace}",
+							"{@spell speak with animals}",
+							"{@spell speak with plants}"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"Musharib has advantage on saving throws against poison."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Handaxe",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"handaxe|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Musharib.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -3685,44 +6381,254 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Nanny Pu'pu",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Nanny Pu'pu",
 			"source": "ToA",
 			"page": 72,
-			"_copy": {
-				"name": "Green Hag",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the hag",
-						"with": "Pu'pu",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"BMT",
+				"CM",
+				"EGW",
+				"GoS",
+				"IMR",
+				"JttRC",
+				"MOT",
+				"OotA",
+				"PSI",
+				"SatO",
+				"SCC-TMM",
+				"TCE",
+				"ToA",
+				"WBtW"
+			],
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 82,
+				"formula": "11d8 + 33"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 13,
+			"wis": 14,
+			"cha": 14,
+			"skill": {
+				"arcana": "+3",
+				"deception": "+4",
+				"perception": "+4",
+				"stealth": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Sylvan"
+			],
+			"cr": {
+				"cr": "3",
+				"coven": "5"
+			},
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Pu'pu's innate spellcasting ability is Charisma (spell save {@dc 12}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell minor illusion}",
+						"{@spell vicious mockery}"
+					],
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Pu'pu can breathe air and water."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"Pu'pu can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Wisdom ({@skill Insight}) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Illusory Appearance",
+					"entries": [
+						"Pu'pu covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if Pu'pu takes a bonus action to end it or if she dies.",
+						"The changes wrought by this effect fail to hold up to physical inspection. For example, Pu'pu could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a {@dc 20} Intelligence ({@skill Investigation}) check to discern that Pu'pu is disguised."
+					]
+				},
+				{
+					"name": "Invisible Passage",
+					"entries": [
+						"Pu'pu magically turns {@condition invisible} until she attacks or casts a spell, or until her {@status concentration} ends (as if {@status concentration||concentrating} on a spell). While {@condition invisible}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition invisible} with her."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Green Hag",
+				"source": "MM"
+			},
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Hag Covens",
+					"entries": [
+						"When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of Pu'pus continues to desire more personal power.",
+						"A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.",
+						{
+							"type": "spellcasting",
+							"name": "Shared Spellcasting (Coven Only)",
+							"headerEntries": [
+								"While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
+							],
+							"footerEntries": [
+								"For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + Pu'pu's Intelligence modifier, and the spell attack bonus is 4 + Pu'pu's Intelligence modifier."
+							],
+							"spells": {
+								"1": {
+									"slots": 4,
+									"spells": [
+										"{@spell identify}",
+										"{@spell ray of sickness}"
+									]
+								},
+								"2": {
+									"slots": 3,
+									"spells": [
+										"{@spell hold person}",
+										"{@spell locate object}"
+									]
+								},
+								"3": {
+									"slots": 3,
+									"spells": [
+										"{@spell bestow curse}",
+										"{@spell counterspell}",
+										"{@spell lightning bolt}"
+									]
+								},
+								"4": {
+									"slots": 3,
+									"spells": [
+										"{@spell phantasmal killer}",
+										"{@spell polymorph}"
+									]
+								},
+								"5": {
+									"slots": 2,
+									"spells": [
+										"{@spell contact other plane}",
+										"{@spell scrying}"
+									]
+								},
+								"6": {
+									"slots": 1,
+									"spells": [
+										"{@spell eyebite}"
+									]
+								}
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Hag Eye",
+							"entries": [
+								"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. Pu'pu eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what Pu'pu eye sees if Pu'pu eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes {@damage 3d10} psychic damage and is {@condition blinded} for 24 hours.",
+								"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and Pu'pus can't perform it while {@condition blinded}. During the ritual, if Pu'pus take any action other than performing the ritual, they must start over."
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp",
+				"hill"
+			],
+			"traitTags": [
+				"Amphibious",
+				"Mimicry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"S"
+			],
+			"damageTags": [
+				"S"
+			],
+			"damageTagsSpell": [
+				"Y"
+			],
+			"spellcastingTags": [
+				"CW",
+				"I",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Nanny%20Pu'pu.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Nepartak",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 137,
-			"_copy": {
-				"name": "Flameskull",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the flameskull",
-						"with": "Nepartak",
-						"flags": "i"
-					}
-				}
-			},
 			"languages": [
 				"Common",
 				"telepathy 30 ft."
@@ -3731,26 +6637,203 @@
 				"C",
 				"TP"
 			],
-			"hasToken": true
+			"name": "Nepartak",
+			"source": "ToA",
+			"page": 137,
+			"referenceSources": [
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DSotDQ",
+				"GoS",
+				"HftT",
+				"IDRotF",
+				"JttRC",
+				"LMoP",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RMBRE",
+				"RtG",
+				"SatO",
+				"SCC-ARiR",
+				"SDW",
+				"TCE",
+				"ToA",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"T"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d4 + 18"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 1,
+			"dex": 17,
+			"con": 14,
+			"int": 16,
+			"wis": 10,
+			"cha": 11,
+			"skill": {
+				"arcana": "+5",
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"lightning",
+				"necrotic",
+				"piercing"
+			],
+			"immune": [
+				"cold",
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"prone"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Nepartak is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It requires no somatic or material components to cast its spells. Nepartak has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}"
+							]
+						},
+						"1": {
+							"slots": 3,
+							"spells": [
+								"{@spell magic missile}",
+								"{@spell shield}"
+							]
+						},
+						"2": {
+							"slots": 2,
+							"spells": [
+								"{@spell blur}",
+								"{@spell flaming sphere}"
+							]
+						},
+						"3": {
+							"slots": 1,
+							"spells": [
+								"{@spell fireball}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Illumination",
+					"entries": [
+						"Nepartak sheds either dim light in a 15-foot radius, or bright light in a 15-foot radius and dim light for an additional 15 feet. It can switch between the options as an action."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Nepartak has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"If Nepartak is destroyed, it regains all its hit points in 1 hour unless {@item Holy Water (Flask)|PHB|holy water} is sprinkled on its remains or a {@spell dispel magic} or {@spell remove curse} spell is cast on them."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Nepartak uses Fire Ray twice."
+					]
+				},
+				{
+					"name": "Fire Ray",
+					"entries": [
+						"{@atk rs} {@hit 5} to hit, range 30 ft., one target. {@h}10 ({@damage 3d6}) fire damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"traitTags": [
+				"Illumination",
+				"Magic Resistance",
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"F"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Nepartak.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Niles Breakbone",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 47,
-			"_copy": {
-				"name": "Noble",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the noble",
-						"with": "Niles",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3762,32 +6845,129 @@
 				"G"
 			],
 			"tokenCustom": true,
-			"hasToken": true
+			"name": "Niles Breakbone",
+			"source": "ToA",
+			"page": 47,
+			"referenceSources": [
+				"AZfyT",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"KKW",
+				"MOT",
+				"NRH-CoI",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 11,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"persuasion": "+5"
+			},
+			"passive": 12,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Niles adds 2 to its AC against one melee attack that would hit it. To do so, Niles must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"rapier|phb"
+			],
+			"actionTags": [
+				"Parry"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Niles%20Breakbone.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Ortimay Swift and Dark",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 21,
-			"_copy": {
-				"name": "Bandit Captain",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Rock Gnome",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the captain",
-						"with": "Ortimay",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"C",
 				"G"
@@ -3799,26 +6979,150 @@
 				"G",
 				"X"
 			],
-			"hasToken": true
+			"name": "Ortimay Swift and Dark",
+			"source": "ToA",
+			"page": 21,
+			"referenceSources": [
+				"AitFR-ISF",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"KftGV",
+				"LLK",
+				"LoX",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"SatO",
+				"SKT",
+				"SLW",
+				"TLK",
+				"ToA",
+				"ToFW",
+				"ToR",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 14,
+			"int": 14,
+			"wis": 11,
+			"cha": 14,
+			"save": {
+				"str": "+4",
+				"dex": "+5",
+				"wis": "+2"
+			},
+			"skill": {
+				"athletics": "+4",
+				"deception": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "2",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Ortimay makes three melee attacks: two with its scimitar and one with its dagger. Or Ortimay makes two ranged attacks with its daggers."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Ortimay adds 2 to its AC against one melee attack that would hit it. To do so, Ortimay must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"hill",
+				"arctic",
+				"urban",
+				"forest",
+				"desert"
+			],
+			"attachedItems": [
+				"dagger|phb",
+				"scimitar|phb"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Ortimay%20Swift%20and%20Dark.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Orvex Ocrammas",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 96,
-			"_copy": {
-				"name": "Spy",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the spy",
-						"with": "Orvex",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3836,6 +7140,133 @@
 				"C",
 				"OTH"
 			],
+			"name": "Orvex Ocrammas",
+			"source": "ToA",
+			"page": 96,
+			"referenceSources": [
+				"AitFR-ISF",
+				"AZfyT",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"SatO",
+				"SKT",
+				"SLW",
+				"TftYP-DiT",
+				"ToA",
+				"ToFW",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 10,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"investigation": "+5",
+				"perception": "+6",
+				"persuasion": "+5",
+				"sleight of hand": "+4",
+				"stealth": "+4"
+			},
+			"passive": 16,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, Orvex can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Orvex deals an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Orvex that isn't {@condition incapacitated} and Orvex doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Orvex makes two melee attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"hand crossbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Orvex%20Ocrammas.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -3943,23 +7374,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Qawasha",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 35,
-			"_copy": {
-				"name": "Druid",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the druid",
-						"with": "Qawasha",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3970,6 +7386,158 @@
 				"N",
 				"G"
 			],
+			"name": "Qawasha",
+			"source": "ToA",
+			"page": 35,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DD",
+				"DIP",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"LoX",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SDW",
+				"SKT",
+				"TftYP-DiT",
+				"TftYP-TSC",
+				"ToA",
+				"ToR",
+				"VEoR",
+				"WBtW",
+				"WDH"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				11,
+				{
+					"ac": 16,
+					"condition": "with {@spell barkskin}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 13,
+			"int": 12,
+			"wis": 15,
+			"cha": 11,
+			"skill": {
+				"medicine": "+4",
+				"nature": "+3",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"Druidic plus any two languages"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Qawasha is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell produce flame}",
+								"{@spell shillelagh}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell entangle}",
+								"{@spell longstrider}",
+								"{@spell speak with animals}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell barkskin}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit ({@hit 4} to hit with shillelagh), reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, 4 ({@damage 1d8}) bludgeoning damage if wielded with two hands, or 6 ({@damage 1d8 + 2}) bludgeoning damage with {@spell shillelagh}."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"attachedItems": [
+				"quarterstaff|phb"
+			],
+			"languageTags": [
+				"DU",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F",
+				"T"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Qawasha.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -4232,44 +7800,128 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "River Mist",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "River Mist",
 			"source": "ToA",
 			"page": 35,
-			"_copy": {
-				"name": "Tabaxi Hunter",
-				"source": "ToA",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the tabaxi",
-						"with": "River Mist",
-						"flags": "i"
-					}
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tabaxi"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
 				}
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d8"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 10,
+			"dex": 17,
+			"con": 11,
+			"int": 13,
+			"wis": 14,
+			"cha": 15,
+			"skill": {
+				"athletics": "+2",
+				"perception": "+4",
+				"stealth": "+5",
+				"survival": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common plus any one language"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Feline Agility",
+					"entries": [
+						"When River Mist moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, River Mist can't use it again until it moves 0 feet on one of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"River Mist makes two attacks with its claws, its shortsword, or its shortbow."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"shortbow|phb",
+				"shortsword|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/River%20Mist.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Salida",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 35,
-			"_copy": {
-				"name": "Yuan-ti Pureblood",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the yuan-ti",
-						"with": "Salida",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"N",
 				"E"
@@ -4280,33 +7932,162 @@
 				"stealth": "+3",
 				"survival": "+5"
 			},
+			"name": "Salida",
+			"source": "ToA",
+			"page": 35,
+			"referenceSources": [
+				"CM",
+				"HotDQ",
+				"PSI",
+				"RoT",
+				"SKT",
+				"ToA",
+				"TTP",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"yuan-ti"
+				]
+			},
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 11,
+			"int": 13,
+			"wis": 12,
+			"cha": 14,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Salida's spellcasting ability is Charisma (spell save {@dc 12}). Salida can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell animal friendship} (snakes only)"
+					],
+					"daily": {
+						"3e": [
+							"{@spell poison spray}",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Salida has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Salida makes two melee attacks."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp",
+				"urban",
+				"desert"
+			],
+			"attachedItems": [
+				"scimitar|phb",
+				"shortbow|phb"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"I"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Salida.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Sekelok",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 120,
-			"_copy": {
-				"name": "Champion",
-				"source": "VGM",
-				"_templates": [
-					{
-						"name": "Yuan-ti Pureblood",
-						"source": "VGM"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the champion",
-						"with": "Sekelok",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"N",
 				"E"
@@ -4337,26 +8118,124 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"hasToken": true
+			"name": "Sekelok",
+			"source": "ToA",
+			"page": 120,
+			"referenceSources": [
+				"GoS",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-THSoT",
+				"TftYP-ToH",
+				"TftYP-TSC",
+				"TftYP-WPM",
+				"ToA",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"hp": {
+				"average": 143,
+				"formula": "22d8 + 44"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 15,
+			"con": 14,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"str": "+9",
+				"con": "+6"
+			},
+			"skill": {
+				"athletics": "+9",
+				"intimidation": "+5",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"Sekelok rerolls a failed saving throw."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, Sekelok can regain 20 hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Sekelok makes three attacks with its greatsword or its shortbow."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage, plus 7 ({@damage 2d6}) slashing damage if Sekelok has more than half of its total hit points remaining."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, plus 7 ({@damage 2d6}) piercing damage if Sekelok has more than half of its total hit points remaining."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"urban"
+			],
+			"attachedItems": [
+				"greatsword|phb",
+				"shortbow|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Sekelok.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Shago",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 35,
-			"_copy": {
-				"name": "Gladiator",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the gladiator",
-						"with": "Shago",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4372,28 +8251,149 @@
 				"intimidation": "+5",
 				"survival": "+7"
 			},
+			"name": "Shago",
+			"source": "ToA",
+			"page": 35,
+			"referenceSources": [
+				"AitFR-FCD",
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"KftGV",
+				"MOT",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SCC-CK",
+				"SKT",
+				"SLW",
+				"ToA",
+				"ToFW"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 112,
+				"formula": "15d8 + 45"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"str": "+7",
+				"dex": "+5",
+				"con": "+6"
+			},
+			"passive": 11,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Shago has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when Shago hits with it (included in the attack)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Shago makes three melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. and range 20/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, or 13 ({@damage 2d8 + 4}) piercing damage if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Shago adds 3 to its AC against one melee attack that would hit it. To do so, Shago must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"traitTags": [
+				"Brute"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Shago.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Skeleton Key",
-			"source": "ToA",
-			"page": 126,
-			"_copy": {
-				"name": "Skeleton",
-				"source": "MM",
-				"_mod": {
-					"trait": {
-						"mode": "prependArr",
-						"items": {
-							"name": "Spider Climb",
-							"entries": [
-								"The skeleton can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-							]
-						}
-					}
-				}
-			},
 			"alignment": [
 				"U"
 			],
@@ -4428,6 +8428,116 @@
 				"MLW",
 				"MW"
 			],
+			"name": "Skeleton Key",
+			"source": "ToA",
+			"page": 126,
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"GoS",
+				"HftT",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"LLK",
+				"LMoP",
+				"LRDT",
+				"NRH-ASS",
+				"NRH-AT",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RMBRE",
+				"RtG",
+				"SatO",
+				"SDW",
+				"SKT",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"armor scraps"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "2d8 + 4"
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands all languages it spoke in life but can't speak"
+			],
+			"cr": "1/4",
+			"environment": [
+				"urban"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"damageTags": [
+				"P"
+			],
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The skeleton can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Skeleton%20Key.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -4776,23 +8886,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Syndra Silvane",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 8,
-			"_copy": {
-				"name": "Archmage",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the archmage",
-						"with": "Syndra",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4816,7 +8911,247 @@
 				"E",
 				"H"
 			],
-			"hasToken": true
+			"name": "Syndra Silvane",
+			"source": "ToA",
+			"page": 8,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"LoX",
+				"MOT",
+				"NRH-TLT",
+				"OotA",
+				"OoW",
+				"QftIS",
+				"SatO",
+				"SKT",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 99,
+				"formula": "18d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 20,
+			"wis": 15,
+			"cha": 16,
+			"save": {
+				"int": "+9",
+				"wis": "+6"
+			},
+			"skill": {
+				"arcana": "+13",
+				"history": "+13"
+			},
+			"passive": 12,
+			"resist": [
+				{
+					"special": "damage from spells"
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "(from stoneskin)",
+					"cond": true,
+					"preNote": "nonmagical"
+				}
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Syndra is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Syndra can cast {@spell disguise self} and {@spell invisibility} at will and has the following wizard spells prepared:"
+					],
+					"will": [
+						"{@spell disguise self}",
+						"{@spell invisibility}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"{@spell mage armor}*",
+								"{@spell magic missile}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell mirror image}",
+								"{@spell misty step}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fly}",
+								"{@spell lightning bolt}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell fire shield}",
+								"{@spell stoneskin}*"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell scrying}",
+								"{@spell wall of force}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell globe of invulnerability}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell teleport}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell mind blank}*"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell time stop}"
+							]
+						}
+					},
+					"footerEntries": [
+						"*Syndra casts these spells on itself before combat."
+					],
+					"ability": "int",
+					"hidden": [
+						"will"
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Syndra has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"L",
+				"O"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Syndra%20Silvane.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Tabaxi Hunter",
@@ -5039,56 +9374,142 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Terracotta Warrior",
-			"source": "ToA",
-			"page": 161,
-			"_copy": {
-				"name": "Animated Armor",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "armor",
-						"with": "terracotta warrior"
-					},
-					"trait": [
-						{
-							"mode": "replaceArr",
-							"replace": "False Appearance",
-							"items": {
-								"name": "False Appearance",
-								"entries": [
-									"While the terracotta warrior remains motionless, it is indistinguishable from a terracotta statue."
-								]
-							}
-						},
-						{
-							"mode": "prependArr",
-							"items": {
-								"name": "Fragile",
-								"entries": [
-									"If a critical hit is scored against the terracotta warrior, it shatters and is destroyed."
-								]
-							}
-						}
-					],
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Slam",
-						"items": {
-							"name": "Shortsword",
-							"entries": [
-								"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
-							]
-						}
-					}
-				}
-			},
 			"tokenCustom": true,
 			"damageTags": [
 				"P"
 			],
-			"hasToken": true
+			"name": "Terracotta Warrior",
+			"source": "ToA",
+			"page": 161,
+			"group": [
+				"Animated Objects"
+			],
+			"referenceSources": [
+				"BGDIA",
+				"CM",
+				"CoS",
+				"EGW",
+				"FS",
+				"GoS",
+				"IDRotF",
+				"KftGV",
+				"OotA",
+				"PaBTSO",
+				"QftIS",
+				"RoT",
+				"RtG",
+				"SatO",
+				"SCC-CK",
+				"SKT",
+				"TCE",
+				"TftYP",
+				"TftYP-TFoF",
+				"ToA",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural terracotta warrior"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 14,
+			"dex": 11,
+			"con": 13,
+			"int": 1,
+			"wis": 3,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 6,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Fragile",
+					"entries": [
+						"If a critical hit is scored against the terracotta warrior, it shatters and is destroyed."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries": [
+						"The terracotta warrior is {@condition incapacitated} while in the area of an {@spell antimagic field}. If targeted by {@spell dispel magic}, the terracotta warrior must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition unconscious} for 1 minute."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the terracotta warrior remains motionless, it is indistinguishable from a terracotta statue."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The terracotta warrior makes two melee attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Antimagic Susceptibility",
+				"False Appearance"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Terracotta%20Warrior.webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Tomb Dwarf",
@@ -5965,23 +10386,8 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Wakanga O'tamu",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 27,
-			"_copy": {
-				"name": "Mage",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mage",
-						"with": "Wakanga",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5992,6 +10398,199 @@
 				"L",
 				"N"
 			],
+			"name": "Wakanga O'tamu",
+			"source": "ToA",
+			"page": 27,
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"FS",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"LoX",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"RoT",
+				"RtG",
+				"SatO",
+				"SCC-CK",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TCE",
+				"ToA",
+				"ToFW",
+				"ToR",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 11,
+			"int": 17,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+6",
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+6",
+				"history": "+6"
+			},
+			"passive": 11,
+			"languages": [
+				"any four languages"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Wakanga is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Wakanga has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell misty step}",
+								"{@spell suggestion}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fireball}",
+								"{@spell fly}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell greater invisibility}",
+								"{@spell ice storm}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell cone of cold}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"O"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Wakanga%20O'tamu.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -5999,16 +10598,79 @@
 			"name": "Wild Dog",
 			"source": "ToA",
 			"page": 96,
-			"_copy": {
-				"name": "Jackal",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "jackal",
-						"with": "dog"
-					}
+			"referenceSources": [
+				"GoS",
+				"OoW",
+				"ToA"
+			],
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 3,
+				"formula": "1d6"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 8,
+			"dex": 15,
+			"con": 11,
+			"int": 3,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The dog has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The dog has advantage on an attack roll against a creature if at least one of the dog's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
 				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"desert"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Wild%20Dog.webp"
 			},
 			"hasToken": true
 		},
@@ -6016,18 +10678,139 @@
 			"name": "Wine Weird",
 			"source": "ToA",
 			"page": 141,
-			"_copy": {
-				"name": "Water Weird",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "water weird",
-						"with": "wine weird"
-					}
-				}
+			"referenceSources": [
+				"AitFR-AVT",
+				"CM",
+				"DIP",
+				"DitLCoT",
+				"DSotDQ",
+				"IDRotF",
+				"JttRC",
+				"LK",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RtG",
+				"SCC-ARiR",
+				"SCC-HfMT",
+				"SLW",
+				"TftYP",
+				"TftYP-THSoT",
+				"ToA",
+				"VEoR",
+				"VNotEE",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 58,
+				"formula": "9d10 + 9"
 			},
-			"hasToken": true
+			"speed": {
+				"walk": 0,
+				"swim": 60
+			},
+			"str": 17,
+			"dex": 16,
+			"con": 13,
+			"int": 11,
+			"wis": 10,
+			"cha": 10,
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"fire",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"poisoned",
+				"restrained",
+				"prone",
+				"unconscious"
+			],
+			"languages": [
+				"understands Aquan but doesn't speak"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Invisible in Water",
+					"entries": [
+						"The wine weird is {@condition invisible} while fully immersed in water."
+					]
+				},
+				{
+					"name": "Water Bound",
+					"entries": [
+						"The wine weird dies if it leaves the water to which it is bound or if that water is destroyed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one creature. {@h}13 ({@damage 3d6 + 3}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 13}) and pulled 5 feet toward the wine weird. Until this grapple ends, the target is {@condition restrained}, the wine weird tries to drown it, and the wine weird can't constrict another target."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"senseTags": [
+				"B"
+			],
+			"languageTags": [
+				"AQ"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"invisible",
+				"restrained"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Wine%20Weird.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Withers",
@@ -6559,43 +11342,197 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Yorb",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Yorb",
 			"source": "ToA",
 			"page": 108,
-			"_copy": {
-				"name": "Grung Elite Warrior",
-				"source": "VGM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the grung",
-						"with": "Yorb",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"ToA"
+			],
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"grung"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 49,
+				"formula": "9d6 + 18"
+			},
+			"speed": {
+				"walk": 25,
+				"climb": 25
+			},
+			"str": 7,
+			"dex": 16,
+			"con": 15,
+			"int": 10,
+			"wis": 11,
+			"cha": 12,
+			"save": {
+				"dex": "+5"
+			},
+			"skill": {
+				"athletics": "+2",
+				"perception": "+2",
+				"stealth": "+5",
+				"survival": "+2"
+			},
+			"passive": 12,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Grung"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Yorb can breathe air and water."
+					]
 				},
-				"_preserve": {
-					"variant": true
+				{
+					"name": "Poisonous Skin",
+					"entries": [
+						"Any creature that grapples Yorb or otherwise comes into direct contact with Yorb's skin must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. A {@condition poisoned} creature no longer in direct contact with Yorb can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"Yorb's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start."
+					]
 				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage, and the target must succeed on a {@dc 12} Constitution saving throw or take 5 ({@damage 2d4}) poison damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must succeed on a {@dc 12} Constitution saving throw or take 5 ({@damage 2d4}) poison damage."
+					]
+				},
+				{
+					"name": "Mesmerizing Chirr {@recharge}",
+					"entries": [
+						"Yorb makes a chirring noise to which grungs are immune. Each humanoid or beast that is within 15 feet of Yorb and able to hear it must succeed on a {@dc 12} Wisdom saving throw or be {@condition stunned} until the end of Yorb's next turn."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Grung Poison",
+					"entries": [
+						"Grung poison loses its potency 1 minute after being removed from a grung. A similar breakdown occurs if Yorb dies. A creature {@condition poisoned} by a grung can suffer an additional effect that varies depending on Yorb's skin color. This effect lasts until the creature is no longer {@condition poisoned} by Yorb.",
+						{
+							"type": "entries",
+							"name": "Green",
+							"entries": [
+								"The {@condition poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Blue",
+							"entries": [
+								"The {@condition poisoned} creature must shout loudly or otherwise make a loud noise at the start and end of its turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Purple",
+							"entries": [
+								"The {@condition poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Red",
+							"entries": [
+								"The {@condition poisoned} creature must use its action to eat if food is within reach."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Orange",
+							"entries": [
+								"The {@condition poisoned} creature is {@condition frightened} of its allies."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gold",
+							"entries": [
+								"The {@condition poisoned} creature is {@condition charmed} and can speak Grung."
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"attachedItems": [
+				"dagger|phb",
+				"shortbow|phb"
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"frightened",
+				"poisoned",
+				"stunned"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Yorb.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Yuan-ti Priest",
-			"source": "ToA",
-			"page": 118,
-			"_copy": {
-				"name": "Yuan-ti Malison (Type 3)",
-				"source": "MM",
-				"_mod": {
-					"action": {
-						"mode": "removeArr",
-						"names": "Longbow (Yuan-ti Form Only)"
-					}
-				}
-			},
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting (Yuan-ti Form Only)",
@@ -6628,47 +11565,320 @@
 				"constitution",
 				"wisdom"
 			],
-			"hasToken": true
+			"name": "Yuan-ti Priest",
+			"source": "ToA",
+			"page": 118,
+			"referenceSources": [
+				"CM",
+				"HotDQ",
+				"SKT",
+				"TftYP-DiT",
+				"ToA"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger",
+					"yuan-ti"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 13,
+			"int": 14,
+			"wis": 12,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The yuan-ti can use its action to polymorph into a Medium snake, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The yuan-ti has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Malison Type",
+					"entries": [
+						"The yuan-ti has one of the following types:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Type 1:",
+									"entry": "Human body with snake head"
+								},
+								{
+									"type": "item",
+									"name": "Type 2:",
+									"entry": "Human head and body with snakes for arms"
+								},
+								{
+									"type": "item",
+									"name": "Type 3:",
+									"entry": "Human head and upper body with a serpentine lower body instead of legs"
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Yuan-ti Form Only)",
+					"entries": [
+						"The yuan-ti makes two ranged attacks or two melee attacks, but can constrict only once."
+					]
+				},
+				{
+					"name": "Bite (Snake Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}, and the yuan-ti can't constrict another target."
+					]
+				},
+				{
+					"name": "Scimitar (Yuan-ti Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp",
+				"desert"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"scimitar|phb"
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"F",
+				"I"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"charmed"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Yuan-ti%20Priest.webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Zalkoré",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"tokenCustom": true,
+			"name": "Zalkoré",
 			"source": "ToA",
 			"page": 79,
-			"_copy": {
-				"name": "Medusa",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the medusa",
-						"with": "Zalkoré",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"ERLW",
+				"GoS",
+				"IMR",
+				"LLK",
+				"OotA",
+				"PaBTSO",
+				"SatO",
+				"ToA",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "17d8 + 51"
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 16,
+			"int": 12,
+			"wis": 13,
+			"cha": 15,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Petrifying Gaze",
+					"entries": [
+						"When a creature that can see Zalkoré's eyes starts its turn within 30 feet of Zalkoré, Zalkoré can force it to make a {@dc 14} Constitution saving throw if Zalkoré isn't {@condition incapacitated} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified}. Otherwise, a creature that fails the save begins to turn to stone and is {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic.",
+						"Unless {@status surprised}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Zalkoré until the start of its next turn, when it can avert its eyes again. If the creature looks at Zalkoré in the meantime, it must immediately make the save.",
+						"If Zalkoré sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, Zalkoré is, due to its curse, affected by its own gaze."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Zalkoré makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow."
+					]
+				},
+				{
+					"name": "Snake Hair",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 14 ({@damage 4d6}) poison damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+					]
+				}
+			],
+			"environment": [
+				"desert"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"petrified",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Zaroum Al-Saryak",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 67,
-			"_copy": {
-				"name": "Bandit Captain",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the captain",
-						"with": "Zaroum",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6679,6 +11889,140 @@
 				"L",
 				"E"
 			],
+			"name": "Zaroum Al-Saryak",
+			"source": "ToA",
+			"page": 67,
+			"referenceSources": [
+				"AitFR-ISF",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"KftGV",
+				"LLK",
+				"LoX",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"SatO",
+				"SKT",
+				"SLW",
+				"TLK",
+				"ToA",
+				"ToFW",
+				"ToR",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 14,
+			"int": 14,
+			"wis": 11,
+			"cha": 14,
+			"save": {
+				"str": "+4",
+				"dex": "+5",
+				"wis": "+2"
+			},
+			"skill": {
+				"athletics": "+4",
+				"deception": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "2",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Zaroum makes three melee attacks: two with its scimitar and one with its dagger. Or Zaroum makes two ranged attacks with its daggers."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Zaroum adds 2 to its AC against one melee attack that would hit it. To do so, Zaroum must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"hill",
+				"arctic",
+				"urban",
+				"forest",
+				"desert"
+			],
+			"attachedItems": [
+				"dagger|phb",
+				"scimitar|phb"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Zaroum%20Al-Saryak.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -6686,30 +12030,73 @@
 			"name": "Zebra",
 			"source": "ToA",
 			"page": 106,
-			"_copy": {
-				"name": "Riding Horse",
-				"source": "MM"
+			"referenceSources": [
+				"BGDIA",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"EGW",
+				"JttRC",
+				"KftGV",
+				"QftIS",
+				"SKT",
+				"ToA",
+				"WDH",
+				"XMtS"
+			],
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 13,
+				"formula": "2d10 + 2"
 			},
-			"hasToken": true
+			"speed": {
+				"walk": 60
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 12,
+			"int": 2,
+			"wis": 11,
+			"cha": 7,
+			"passive": 10,
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"urban"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Zebra.webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Zhanthi",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ToA",
-			"page": 27,
-			"_copy": {
-				"name": "Noble",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the noble",
-						"with": "Zhanthi",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6720,6 +12107,122 @@
 				"N",
 				"G"
 			],
+			"name": "Zhanthi",
+			"source": "ToA",
+			"page": 27,
+			"referenceSources": [
+				"AZfyT",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"KKW",
+				"MOT",
+				"NRH-CoI",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 11,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"persuasion": "+5"
+			},
+			"passive": 12,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Zhanthi adds 2 to its AC against one melee attack that would hit it. To do so, Zhanthi must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"rapier|phb"
+			],
+			"actionTags": [
+				"Parry"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ToA/Zhanthi.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},

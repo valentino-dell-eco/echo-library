@@ -4,48 +4,178 @@
 			"name": "Angel",
 			"source": "PSK",
 			"page": 27,
-			"_copy": {
-				"name": "Deva",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "deva",
-						"with": "angel"
-					},
-					"trait": {
-						"mode": "replaceArr",
-						"replace": "Angelic Weapons",
-						"items": {
-							"name": "Angelic Weapons",
-							"entries": [
-								"The deva's weapon attacks are magical. When the deva hits with any weapon, the weapon deals an extra {@damage 1d10} radiant damage (included in the attack)."
-							]
-						}
-					},
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Multiattack",
-							"items": {
-								"name": "Multiattack",
-								"entries": [
-									"The deva makes four melee attacks."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Mace",
-							"items": {
-								"name": "Shortsword",
-								"entries": [
-									"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage plus 13 ({@damage 1d10}) radiant damage."
-								]
-							}
-						}
+			"group": [
+				"Angels"
+			],
+			"referenceSources": [
+				"BMT",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"JttRC",
+				"KftGV",
+				"QftIS",
+				"SatO",
+				"TftYP-DiT",
+				"ToFW",
+				"VEoR",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "celestial",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
 					]
 				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d8 + 64"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 90
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 18,
+			"int": 17,
+			"wis": 20,
+			"cha": 20,
+			"save": {
+				"wis": "+9",
+				"cha": "+9"
+			},
+			"skill": {
+				"insight": "+9",
+				"perception": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 19,
+			"resist": [
+				"radiant",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The angel's spellcasting ability is Charisma (spell save {@dc 17}). The angel can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell detect evil and good}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell commune}",
+							"{@spell raise dead}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Angelic Weapons",
+					"entries": [
+						"The deva's weapon attacks are magical. When the deva hits with any weapon, the weapon deals an extra {@damage 1d10} radiant damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The angel has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The deva makes four melee attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage plus 13 ({@damage 1d10}) radiant damage."
+					]
+				},
+				{
+					"name": "Healing Touch (3/Day)",
+					"entries": [
+						"The angel touches another creature. The target magically regains 20 ({@dice 4d8 + 2}) hit points and is freed from any curse, disease, poison, blindness, or deafness."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The angel magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the angel's choice).",
+						"In a new form, the angel retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks."
+					]
+				}
+			],
+			"attachedItems": [
+				"mace|phb"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Angel.webp"
 			},
 			"hasToken": true,
 			"hasFluff": true,
@@ -55,16 +185,129 @@
 			"name": "Construct (Animated Armor)",
 			"source": "PSK",
 			"page": 32,
-			"_copy": {
-				"name": "Animated Armor",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "armor",
-						"with": "construct"
-					}
+			"group": [
+				"Animated Objects"
+			],
+			"referenceSources": [
+				"BGDIA",
+				"CM",
+				"CoS",
+				"EGW",
+				"FS",
+				"GoS",
+				"IDRotF",
+				"KftGV",
+				"OotA",
+				"PaBTSO",
+				"QftIS",
+				"RoT",
+				"RtG",
+				"SatO",
+				"SCC-CK",
+				"SKT",
+				"TCE",
+				"TftYP",
+				"TftYP-TFoF",
+				"ToA",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural construct"
+					]
 				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 14,
+			"dex": 11,
+			"con": 13,
+			"int": 1,
+			"wis": 3,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 6,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Antimagic Susceptibility",
+					"entries": [
+						"The construct is {@condition incapacitated} while in the area of an {@spell antimagic field}. If targeted by {@spell dispel magic}, the construct must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition unconscious} for 1 minute."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the construct remains motionless, it is indistinguishable from a normal suit of construct."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The construct makes two melee attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Antimagic Susceptibility",
+				"False Appearance"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Construct%20(Animated%20Armor).webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
@@ -73,106 +316,601 @@
 			"name": "Construct (Helmed Horror)",
 			"source": "PSK",
 			"page": 32,
-			"_copy": {
-				"name": "Helmed Horror",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "helmed horror",
-						"with": "construct"
-					}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SCC-TMM",
+				"SKT",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-THSoT",
+				"VEoR",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
 				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d8 + 24"
 			},
-			"hasToken": true
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 14,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine",
+					"cond": true
+				}
+			],
+			"immune": [
+				"force",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The construct has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Spell Immunity",
+					"entries": [
+						"The construct is immune to three spells chosen by its creator. Typical immunities include {@spell fireball}, {@spell heat metal}, and {@spell lightning bolt}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The construct makes two longsword attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands."
+					]
+				}
+			],
+			"attachedItems": [
+				"longsword|phb"
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Spell Immunity"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Construct%20(Helmed%20Horror).webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Construct (Modron)",
 			"source": "PSK",
 			"page": 32,
-			"_copy": {
-				"name": "Monodrone",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "monodrone",
-						"with": "construct"
-					}
+			"group": [
+				"Modrons"
+			],
+			"referenceSources": [
+				"BGDIA",
+				"CM",
+				"KftGV",
+				"LLK",
+				"OotA",
+				"OoW",
+				"SatO",
+				"ToA",
+				"ToFW"
+			],
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 5,
+				"formula": "1d8 + 1"
 			},
-			"hasToken": true
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 13,
+			"con": 12,
+			"int": 4,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Modron"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Axiomatic Mind",
+					"entries": [
+						"The construct can't be compelled to act in a manner contrary to its nature or its instructions."
+					]
+				},
+				{
+					"name": "Disintegration",
+					"entries": [
+						"If the construct dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Rogue Modrons",
+					"entries": [
+						"A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+						"A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb",
+				"javelin|phb"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Construct%20(Modron).webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Construct (Shield Guardian)",
 			"source": "PSK",
 			"page": 32,
-			"_copy": {
-				"name": "Shield Guardian",
-				"source": "MM",
-				"_mod": {
-					"*": [
-						{
-							"mode": "replaceTxt",
-							"replace": "shield guardian",
-							"with": "construct"
-						},
-						{
-							"mode": "replaceTxt",
-							"replace": "guardian",
-							"with": "construct"
-						}
+			"alias": [
+				"Shield Golem"
+			],
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"GoS",
+				"IDRotF",
+				"KftGV",
+				"OotA",
+				"PaBTSO",
+				"PotA",
+				"RtG",
+				"SCC-CK",
+				"SKT",
+				"ToA",
+				"VEoR",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
 					]
 				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "15d10 + 60"
 			},
-			"hasToken": true
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 8,
+			"con": 18,
+			"int": 7,
+			"wis": 10,
+			"cha": 3,
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"understands commands given in any language but can't speak"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Bound",
+					"entries": [
+						"The construct is magically bound to an amulet. As long as the construct and its amulet are on the same plane of existence, the amulet's wearer can telepathically call the construct to travel to it, and the construct knows the distance and direction to the amulet. If the construct is within 60 feet of the amulet's wearer, half of any damage the wearer takes (rounded up) is transferred to the construct."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The construct regains 10 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Spell Storing",
+					"entries": [
+						"A spellcaster who wears the construct's amulet can cause the construct to store one spell of 4th level or lower. To do so, the wearer must cast the spell on the construct. The spell has no effect but is stored within the construct. When commanded to do so by the wearer or when a situation arises that was predefined by the spellcaster, the construct casts the stored spell with any parameters set by the original caster, requiring no components. When the spell is cast or a new spell is stored, any previously stored spell is lost."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The construct makes two fist attacks."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Shield",
+					"entries": [
+						"When a creature makes an attack against the wearer of the construct's amulet, the construct grants a +2 bonus to the wearer's AC if the construct is within 5 feet of the wearer."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Construct%20(Shield%20Guardian).webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Demon",
 			"source": "PSK",
 			"page": 27,
-			"_copy": {
-				"name": "Erinyes",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "erinyes",
-						"with": "demon"
-					},
-					"trait": {
-						"mode": "replaceArr",
-						"replace": "Hellish Weapons",
-						"items": {
-							"name": "Hellish Weapons",
-							"entries": [
-								"The demon's weapon attacks are magical and deal an extra 13 ({@damage 3d8}) necrotic damage on a hit (included in the attacks)."
-							]
-						}
-					},
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Longsword",
-							"items": {
-								"name": "Longsword",
-								"entries": [
-									"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands, plus 13 ({@damage 3d8}) necrotic damage."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Longbow",
-							"items": {
-								"name": "Longbow",
-								"entries": [
-									"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 13 ({@damage 3d8}) necrotic damage."
-								]
-							}
-						}
+			"referenceSources": [
+				"BGDIA",
+				"CoA",
+				"EGW",
+				"KftGV",
+				"SatO",
+				"ToA",
+				"VEoR"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
 					]
 				}
+			],
+			"hp": {
+				"average": 153,
+				"formula": "18d8 + 72"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 18,
+			"int": 14,
+			"wis": 14,
+			"cha": 18,
+			"save": {
+				"dex": "+7",
+				"con": "+8",
+				"wis": "+6",
+				"cha": "+8"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Infernal",
+				"telepathy 120 ft."
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Hellish Weapons",
+					"entries": [
+						"The demon's weapon attacks are magical and deal an extra 13 ({@damage 3d8}) necrotic damage on a hit (included in the attacks)."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The demon has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The demon makes three attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands, plus 13 ({@damage 3d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 13 ({@damage 3d8}) necrotic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The demon adds 4 to its AC against one melee attack that would hit it. To do so, the demon must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Rope of Entanglement",
+					"entries": [
+						"Some demon carry a {@item rope of entanglement} (detailed in the Dungeon Master's Guide). When such an demon uses its Multiattack, the demon can use the rope in place of two of the attacks."
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Summon Devil (1/Day)",
+					"entries": [
+						"The devil chooses what to summon and attempts a magical summoning.",
+						"An demon has a {@chance 50} chance of summoning {@dice 3d6} {@creature spined devil||spined devils}, {@dice 1d6} {@creature bearded devil||bearded devils}, or one {@creature demon}.",
+						"A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+					],
+					"_version": {
+						"name": "Erinyes (Summoner)",
+						"addAs": "action"
+					}
+				}
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"longsword|phb"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Demon.webp"
 			},
 			"hasToken": true,
 			"hasFluff": true,
@@ -182,60 +920,483 @@
 			"name": "Dragon",
 			"source": "PSK",
 			"page": 29,
-			"_copy": {
-				"name": "Adult Red Dragon",
-				"source": "MM",
-				"_mod": {
-					"action": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Fiery Bite {@recharge 5}",
+			"group": [
+				"Chromatic Dragon"
+			],
+			"referenceSources": [
+				"BMT",
+				"CoA",
+				"EGW",
+				"GoS",
+				"GotSF",
+				"LRDT",
+				"MOT",
+				"OotA",
+				"TftYP",
+				"TftYP-AtG",
+				"WDMM"
+			],
+			"size": [
+				"H"
+			],
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 256,
+				"formula": "19d12 + 133"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 80
+			},
+			"str": 27,
+			"dex": 10,
+			"con": 25,
+			"int": 16,
+			"wis": 13,
+			"cha": 21,
+			"save": {
+				"dex": "+6",
+				"con": "+13",
+				"wis": "+7",
+				"cha": "+11"
+			},
+			"skill": {
+				"perception": "+13",
+				"stealth": "+6"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 23,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "17",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 7 ({@damage 2d6}) fire damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales fire in a 60-foot cone. Each creature in that area must make a {@dc 21} Dexterity saving throw, taking 63 ({@damage 18d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Fiery Bite {@recharge 5}",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 63 ({@damage 18d6}) fire damage. This counts as a use of the dragon's breath weapon."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 22} Dexterity saving throw or take 15 ({@damage 2d6 + 8}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Red Dragon",
+				"source": "MM"
+			},
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Customizing Dragons",
+					"source": "FTD",
+					"page": 33,
+					"entries": [
+						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						{
+							"type": "entries",
+							"name": "Languages",
 							"entries": [
-								"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 63 ({@damage 18d6}) fire damage. This counts as a use of the dragon's breath weapon."
+								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Skills",
+							"entries": [
+								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spells",
+							"entries": [
+								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Traits and Actions",
+							"entries": [
+								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Damage Absorption",
+											"entries": [
+												"You might decide that this dragon is not only unharmed by fire damage, but actually healed by it.",
+												"Whenever the dragon is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Flyby",
+											"entries": [
+												"The dragon is an agile flier, quick to fly out of enemies' reach.",
+												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Mimicry",
+											"entries": [
+												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
+												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 13} Wisdom ({@skill Insight}) check."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Rejuvenation",
+											"entries": [
+												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
+												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Special Senses",
+											"entries": [
+												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
+											]
+										}
+									]
+								}
 							]
 						}
-					}
-				},
-				"_preserve": {
-					"legendaryGroup": true
+					]
 				}
+			],
+			"environment": [
+				"mountain",
+				"hill"
+			],
+			"dragonCastingColor": "red",
+			"dragonAge": "adult",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
+			"damageTagsLegendary": [
+				"F"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			],
+			"conditionInflictLegendary": [
+				"incapacitated",
+				"poisoned",
+				"prone"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"wisdom"
+			],
+			"savingThrowForcedLegendary": [
+				"constitution",
+				"dexterity"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Dragon.webp"
 			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
+			"languages": null,
 			"name": "Drake (Large)",
 			"source": "PSK",
 			"page": 29,
-			"_copy": {
-				"name": "Giant Eagle",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "eagle",
-						"with": "drake"
-					}
-				}
+			"referenceSources": [
+				"GoS",
+				"QftIS",
+				"SatO",
+				"ToFW",
+				"WBtW"
+			],
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d10 + 4"
 			},
-			"languages": null,
-			"hasToken": true
+			"speed": {
+				"walk": 10,
+				"fly": 80
+			},
+			"str": 16,
+			"dex": 17,
+			"con": 13,
+			"int": 8,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The drake has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The drake makes two attacks: one with its beak and one with its talons."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"grassland",
+				"hill",
+				"coastal"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AU",
+				"C",
+				"CS",
+				"OTH"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Drake%20(Large).webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Drake (Small)",
 			"source": "PSK",
 			"page": 29,
-			"_copy": {
-				"name": "Pteranodon",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "pteranodon",
-						"with": "drake"
-					}
+			"group": [
+				"Dinosaurs"
+			],
+			"referenceSources": [
+				"ERLW",
+				"GoS",
+				"SCC-CK",
+				"ToA",
+				"ToFW",
+				"TTP",
+				"WBtW"
+			],
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 10,
+			"int": 2,
+			"wis": 9,
+			"cha": 5,
+			"skill": {
+				"perception": "+1"
+			},
+			"passive": 11,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The drake doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"grassland",
+				"coastal"
+			],
+			"traitTags": [
+				"Flyby"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Drake%20(Small).webp"
 			},
 			"hasToken": true,
 			"hasFluff": true,
@@ -245,9 +1406,166 @@
 			"name": "Giant",
 			"source": "PSK",
 			"page": 30,
-			"_copy": {
-				"name": "Stone Giant",
-				"source": "MM"
+			"referenceSources": [
+				"HotDQ",
+				"MOT",
+				"OotA",
+				"QftIS",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-DiT",
+				"WDMM"
+			],
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "11d12 + 55"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 15,
+			"con": 20,
+			"int": 10,
+			"wis": 12,
+			"cha": 9,
+			"save": {
+				"dex": "+5",
+				"con": "+8",
+				"wis": "+4"
+			},
+			"skill": {
+				"athletics": "+12",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Giant"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Stone Camouflage",
+					"entries": [
+						"The giant has advantage on Dexterity ({@skill Stealth}) checks made to hide in rocky terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two greatclub attacks."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 60/240 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Rock Catching",
+					"entries": [
+						"If a rock or similar object is hurled at the giant, the giant can, with a successful {@dc 10} Dexterity saving throw, catch the missile and take no bludgeoning damage from it."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "New Giant Options",
+					"source": "SKT",
+					"page": 246,
+					"entries": [
+						"Some adult stone giants like to grab enemies and fling them through the air. They can also roll boulders across the ground, striking multiple enemies in a line. These abilities are represented by the following action options.",
+						{
+							"type": "entries",
+							"name": "Fling",
+							"entries": [
+								"The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a {@dc 17} Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the giant's choice and land {@condition prone}, taking 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rolling Rock",
+							"entries": [
+								"The giant sends a rock tumbling along the ground in a 30-foot line that is 5 feet wide. Each creature in that line must make a {@dc 17} Dexterity saving throw, taking 22 ({@damage 3d10 + 6}) bludgeoning damage and falling {@condition prone} on a failed save"
+							]
+						}
+					],
+					"_version": {
+						"name": "Stone Giant (Optional Actions)",
+						"addHeadersAs": "action"
+					}
+				}
+			],
+			"environment": [
+				"underdark",
+				"mountain",
+				"hill"
+			],
+			"attachedItems": [
+				"greatclub|phb"
+			],
+			"traitTags": [
+				"Camouflage"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Giant.webp"
 			},
 			"hasToken": true,
 			"hasFluff": true,
@@ -328,33 +1646,198 @@
 			"name": "Hellion (Huge)",
 			"source": "PSK",
 			"page": 31,
-			"_copy": {
-				"name": "Remorhaz",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "remorhaz",
-						"with": "hellion"
-					}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CoA",
+				"EGW",
+				"IDRotF",
+				"IMR",
+				"LoX",
+				"PaBTSO",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"WDMM"
+			],
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 195,
+				"formula": "17d12 + 85"
 			},
-			"hasToken": true
+			"speed": {
+				"walk": 30,
+				"burrow": 20
+			},
+			"str": 24,
+			"dex": 13,
+			"con": 21,
+			"int": 4,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"cold",
+				"fire"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Heated Body",
+					"entries": [
+						"A creature that touches the hellion or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) fire damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}40 ({@damage 6d10 + 7}) piercing damage plus 10 ({@damage 3d6}) fire damage. If the target is a creature, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and the hellion can't bite another target."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The hellion makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has {@quickref Cover||3||total cover} against attacks and other effects outside the hellion, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the hellion's turns.",
+						"If the hellion takes 30 damage or more on a single turn from a creature inside it, the hellion must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the hellion. If the hellion dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 15 feet of movement, exiting {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"actionTags": [
+				"Swallow"
+			],
+			"damageTags": [
+				"A",
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Hellion%20(Huge).webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Hellion (Large)",
 			"source": "PSK",
 			"page": 31,
-			"_copy": {
-				"name": "Young Remorhaz",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "remorhaz",
-						"with": "hellion"
-					}
+			"referenceSources": [
+				"EGW",
+				"IDRotF",
+				"SKT"
+			],
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 93,
+				"formula": "11d10 + 33"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 30
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 17,
+			"int": 3,
+			"wis": 10,
+			"cha": 4,
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"cold",
+				"fire"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Heated Body",
+					"entries": [
+						"A creature that touches the hellion or hits it with a melee attack while within 5 feet of it takes 7 ({@damage 2d6}) fire damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d10 + 4}) piercing damage plus 7 ({@damage 2d6}) fire damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Hellion%20(Large).webp"
 			},
 			"hasToken": true,
 			"hasFluff": true,
@@ -485,13 +1968,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Lifecraft Elephant",
-			"source": "PSK",
-			"page": 33,
-			"_copy": {
-				"name": "Elephant",
-				"source": "MM"
-			},
 			"type": "construct",
 			"immune": [
 				"poison"
@@ -500,6 +1976,84 @@
 				"charmed",
 				"poisoned"
 			],
+			"name": "Lifecraft Elephant",
+			"source": "PSK",
+			"page": 33,
+			"referenceSources": [
+				"SatO",
+				"ToFW"
+			],
+			"size": [
+				"H"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 76,
+				"formula": "8d12 + 24"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 22,
+			"dex": 9,
+			"con": 17,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"passive": 10,
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Trampling Charge",
+					"entries": [
+						"If the elephant moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the elephant can make one stomp attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Stomp",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one {@condition prone} creature. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Lifecraft%20Elephant.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -638,32 +2192,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Sky Whale",
-			"source": "PSK",
-			"page": 28,
-			"_copy": {
-				"name": "Giant Crocodile",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "crocodile",
-						"with": "whale"
-					},
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Bite",
-							"items": {
-								"name": "Flipper",
-								"entries": [
-									"{@atk mw} {@hit 8} to hit, reach 10 ft., one target not {@condition grappled} by the whale. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
-								]
-							}
-						}
-					]
-				}
-			},
 			"speed": {
 				"fly": {
 					"number": 50,
@@ -671,23 +2199,112 @@
 				},
 				"canHover": true
 			},
-			"hasToken": true
+			"name": "Sky Whale",
+			"source": "PSK",
+			"page": 28,
+			"referenceSources": [
+				"DIP",
+				"JttRC",
+				"PotA",
+				"SCC-TMM",
+				"SLW",
+				"TftYP-AtG",
+				"ToA",
+				"ToFW",
+				"XMtS"
+			],
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 85,
+				"formula": "9d12 + 27"
+			},
+			"str": 21,
+			"dex": 9,
+			"con": 17,
+			"int": 2,
+			"wis": 10,
+			"cha": 7,
+			"skill": {
+				"stealth": "+5"
+			},
+			"passive": 10,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The whale can hold its breath for 30 minutes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The whale makes two attacks: one with its bite and one with its tail."
+					]
+				},
+				{
+					"name": "Flipper",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target not {@condition grappled} by the whale. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target not {@condition grappled} by the whale. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"swamp"
+			],
+			"traitTags": [
+				"Hold Breath"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Sky%20Whale.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Thopter (Bat)",
-			"source": "PSK",
-			"page": 33,
-			"_copy": {
-				"name": "Bat",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "bat",
-						"with": "thopter"
-					}
-				}
-			},
 			"type": "construct",
 			"immune": [
 				"poison"
@@ -696,24 +2313,185 @@
 				"charmed",
 				"poisoned"
 			],
+			"name": "Thopter (Bat)",
+			"source": "PSK",
+			"page": 33,
+			"referenceSources": [
+				"CoS",
+				"IDRotF",
+				"PSX",
+				"SKT",
+				"ToA",
+				"TTP",
+				"WBtW",
+				"WDMM"
+			],
+			"size": [
+				"T"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
+			},
+			"speed": {
+				"walk": 5,
+				"fly": 30
+			},
+			"str": 2,
+			"dex": 15,
+			"con": 8,
+			"int": 2,
+			"wis": 12,
+			"cha": 4,
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 11,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Echolocation",
+					"entries": [
+						"The thopter can't use its blindsight while {@condition deafened}."
+					]
+				},
+				{
+					"name": "Keen Hearing",
+					"entries": [
+						"The thopter has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 0} to hit, reach 5 ft., one creature. {@h}1 piercing damage."
+					]
+				}
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Thopter%20(Bat).webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
+			"type": "construct",
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
 			"name": "Thopter (Blood Hawk)",
 			"source": "PSK",
 			"page": 33,
-			"_copy": {
-				"name": "Blood Hawk",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "hawk",
-						"with": "thopter"
-					}
-				}
+			"referenceSources": [
+				"CM",
+				"EGW",
+				"GoS",
+				"PotA",
+				"SKT",
+				"TTP"
+			],
+			"size": [
+				"S"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
 			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 10,
+			"int": 3,
+			"wis": 14,
+			"cha": 5,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The thopter has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The thopter has advantage on an attack roll against a creature if at least one of the thopter's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"grassland",
+				"forest",
+				"hill",
+				"coastal",
+				"arctic"
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Thopter%20(Blood%20Hawk).webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
 			"type": "construct",
 			"immune": [
 				"poison"
@@ -722,23 +2500,82 @@
 				"charmed",
 				"poisoned"
 			],
-			"hasToken": true
-		},
-		{
 			"name": "Thopter (Eagle)",
 			"source": "PSK",
 			"page": 33,
-			"_copy": {
-				"name": "Eagle",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "eagle",
-						"with": "thopter"
-					}
-				}
+			"referenceSources": [
+				"CM",
+				"DSotDQ",
+				"ToFW"
+			],
+			"size": [
+				"S"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 3,
+				"formula": "1d6"
 			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 6,
+			"dex": 15,
+			"con": 10,
+			"int": 2,
+			"wis": 14,
+			"cha": 7,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The thopter has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"grassland",
+				"hill",
+				"coastal"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Thopter%20(Eagle).webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
 			"type": "construct",
 			"immune": [
 				"poison"
@@ -747,23 +2584,81 @@
 				"charmed",
 				"poisoned"
 			],
-			"hasToken": true
-		},
-		{
 			"name": "Thopter (Hawk)",
 			"source": "PSK",
 			"page": 33,
-			"_copy": {
-				"name": "Hawk",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "hawk",
-						"with": "thopter"
-					}
-				}
+			"referenceSources": [
+				"BGDIA",
+				"CM",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"QftIS",
+				"WBtW",
+				"WDH"
+			],
+			"size": [
+				"T"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
 			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 5,
+			"dex": 16,
+			"con": 8,
+			"int": 2,
+			"wis": 14,
+			"cha": 6,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The thopter has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+					]
+				}
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Thopter%20(Hawk).webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
 			"type": "construct",
 			"immune": [
 				"poison"
@@ -772,23 +2667,96 @@
 				"charmed",
 				"poisoned"
 			],
-			"hasToken": true
-		},
-		{
 			"name": "Thopter (Owl)",
 			"source": "PSK",
 			"page": 33,
-			"_copy": {
-				"name": "Owl",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "owl",
-						"with": "thopter"
-					}
-				}
+			"referenceSources": [
+				"CM",
+				"IDRotF",
+				"IMR",
+				"RoT",
+				"ToFW"
+			],
+			"size": [
+				"T"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
 			},
+			"speed": {
+				"walk": 5,
+				"fly": 60
+			},
+			"str": 3,
+			"dex": 13,
+			"con": 8,
+			"int": 2,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+3"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The thopter doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The thopter has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"arctic"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Flyby",
+				"Keen Senses"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Thopter%20(Owl).webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
 			"type": "construct",
 			"immune": [
 				"poison"
@@ -797,23 +2765,152 @@
 				"charmed",
 				"poisoned"
 			],
-			"hasToken": true
-		},
-		{
 			"name": "Thopter (Pseudodragon)",
 			"source": "PSK",
 			"page": 33,
-			"_copy": {
-				"name": "Pseudodragon",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "pseudodragon",
-						"with": "thopter"
+			"referenceSources": [
+				"EGW",
+				"ERLW",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"RoT",
+				"ToA",
+				"WDMM"
+			],
+			"size": [
+				"T"
+			],
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d4 + 2"
+			},
+			"speed": {
+				"walk": 15,
+				"fly": 60
+			},
+			"str": 6,
+			"dex": 15,
+			"con": 13,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"understands Common and Draconic but can't speak"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The thopter has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing, or smell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The thopter has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Limited Telepathy",
+					"entries": [
+						"The thopter can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the target must succeed on a {@dc 11} Constitution saving throw or become {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target falls {@condition unconscious} for the same duration, or until it takes damage or another creature uses an action to shake it awake."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Pseudodragon Familiar",
+					"entries": [
+						"Some thopters are willing to serve spellcasters as a familiar. Such thopters have the following trait.",
+						{
+							"type": "entries",
+							"name": "Familiar",
+							"entries": [
+								"The thopter can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the thopter senses as long as they are within 1 mile of each other. While the thopter is within 10 feet of its companion, the companion shares the thopter's Magic Resistance trait. At any time and for any reason, the thopter can end its service as a familiar, ending the telepathic bond."
+							]
+						}
+					],
+					"_version": {
+						"addHeadersAs": "trait"
 					}
 				}
+			],
+			"environment": [
+				"mountain",
+				"forest",
+				"hill",
+				"urban",
+				"desert",
+				"coastal"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"CS",
+				"DR"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned",
+				"unconscious"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Thopter%20(Pseudodragon).webp"
 			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
 			"type": "construct",
 			"immune": [
 				"poison"
@@ -822,23 +2919,86 @@
 				"charmed",
 				"poisoned"
 			],
-			"hasToken": true
-		},
-		{
 			"name": "Thopter (Raven)",
 			"source": "PSK",
 			"page": 33,
-			"_copy": {
-				"name": "Raven",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "raven",
-						"with": "thopter"
-					}
-				}
+			"referenceSources": [
+				"CM",
+				"CoS",
+				"IDRotF",
+				"KftGV",
+				"TTP",
+				"VEoR",
+				"WBtW",
+				"WDMM"
+			],
+			"size": [
+				"T"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
 			},
+			"speed": {
+				"walk": 10,
+				"fly": 50
+			},
+			"str": 2,
+			"dex": 14,
+			"con": 8,
+			"int": 2,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The thopter can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 10} Wisdom ({@skill Insight}) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"hill",
+				"urban"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Mimicry"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Thopter%20(Raven).webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
 			"type": "construct",
 			"immune": [
 				"poison"
@@ -847,32 +3007,89 @@
 				"charmed",
 				"poisoned"
 			],
-			"hasToken": true
-		},
-		{
 			"name": "Thopter (Vulture)",
 			"source": "PSK",
 			"page": 33,
-			"_copy": {
-				"name": "Vulture",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "vulture",
-						"with": "thopter"
-					}
-				}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"RoT",
+				"ToA",
+				"WBtW"
+			],
+			"size": [
+				"M"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 5,
+				"formula": "1d8 + 1"
 			},
-			"type": "construct",
-			"immune": [
-				"poison"
+			"speed": {
+				"walk": 10,
+				"fly": 50
+			},
+			"str": 7,
+			"dex": 10,
+			"con": 13,
+			"int": 2,
+			"wis": 12,
+			"cha": 4,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"The thopter has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The thopter has advantage on an attack roll against a creature if at least one of the thopter's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
 			],
-			"conditionImmune": [
-				"charmed",
-				"poisoned"
+			"action": [
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+					]
+				}
 			],
-			"hasToken": true
+			"environment": [
+				"grassland",
+				"hill",
+				"desert"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PSK/Thopter%20(Vulture).webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
 			"size": [

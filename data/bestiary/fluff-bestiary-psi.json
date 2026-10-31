@@ -1,6 +1,140 @@
 {
 	"monsterFluff": [
 		{
+			"name": "Avacyn",
+			"source": "PSI",
+			"entries": [
+				"{@creature Avacyn|PSI} was the archangel of Innistrad, revered across the plane as the source of hope, of protection, and of the Blessed Rest—a peaceful eternity of slumber in the grave. She offered the faithful magical wards against vampires and werewolves, a tranquil oblivion rather than the damned fate of a tormented spirit or undead abomination, and a distant hope that someday, their descendants might live in an Innistrad free from all the horrors of darkness.",
+				"Traditionally, three groups of angels known as flights or hosts served {@creature Avacyn|PSI}, each under the leadership of a lesser archangel.",
+				{
+					"type": "entries",
+					"name": "Flight Alabaster",
+					"page": 26,
+					"entries": [
+						"The practical and sympathetic angels of Flight Alabaster were instrumental in maintaining Avacyn's wards against the supernatural evils of Innistrad. They preferred the use of spells to weapons, and engaged in battle only when they had exhausted other options. As a result, angels of other flights sometimes dismissed them as overly sentimental. Alabaster angels aided priests and cathars in maintaining the protective wards on city walls and at holy sites throughout the plane, and also aided Avacyn in conducting the spirits of the dead to their ultimate fate, dissolving into Innistrad's Æthereal essence. The leader of Flight Alabaster was {@creature Bruna|PSI}, called the Light of Alabaster."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Host of Herons",
+					"page": 26,
+					"entries": [
+						"The Host of Herons comprised the angels of birth, rebirth, and purity, whose magic was said to ward humans against harm in life. This was always the smallest flight of angels, and its primary function was the scouting and tracking of werewolves and other marauding monsters. {@creature Sigarda|PSI} led the Host of Herons, wielding a scythe shaped like the head of a heron."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight Goldnight",
+					"page": 26,
+					"entries": [
+						"Flight Goldnight was an army of soldier-angels focused on the martial strength of the church. These angels were characterized by pragmatism and strict observance of church law. They were strategists in battle and skillful leaders during armed conflicts, cultivating a martial mindset that made them more than willing to take up arms when the need arose. The leader of Flight Goldnight was {@creature Gisela|PSI}, called the Blade of Goldnight or the Blade of the Church."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Madness of Avacyn",
+					"page": 27,
+					"entries": [
+						"When the Eldrazi titan Emrakul first approached Innistrad, {@creature Avacyn|PSI} perceived her influence as a contagion that must be expunged from the world. However, unable to identify the source of that contagion, {@creature Avacyn|PSI} was driven mad, lashing out instead at every living thing. She led the angels in a vain effort to purge this corruption from the plane, viewing the humans they once protected as part of the maddening illness. The different flights of angels even began to war against each other, drastically reducing the number of angels on the plane.",
+						"Wielding fiery swords and clad in full armor, the soldier-angels of Flight Goldnight became the scourge of all mortal life on Innistrad. None could predict what would trigger their violent judgment or where they would strike next. The angels of Flight Alabaster had always been at the forefront of the church's efforts to root out and punish demon cultists, necromancers, and other heretics. With Emrakul's approach, they grew at least as mad as {@creature Avacyn|PSI} herself. Their fervent obsession drove the forces of the Lunarch Inquisition, the church's efforts to root out sin among the human populace. The angels prodded the church to ever greater and more desperate action.",
+						"Amid the chaos, {@creature Avacyn|PSI} created a new angelic flight to serve as her honor guard. Armed with moonsilver spears forged from shards of the broken Helvault, these angels of the Flight of Moonsilver served as sentries and guards at Thraben Cathedral, and flew alongside {@creature Avacyn|PSI} into battle against any perceived threat to Innistrad.",
+						"Only {@creature Sigarda|PSI} and the Host of Herons remained unaffected by Avacyn's madness, perhaps because they were the angels of purity. The survivors of this host retreated to their old haunt in Gavony's remote parish of Videns to maintain a safe distance from {@creature Avacyn|PSI}.",
+						"Angels that have gone mad can cast {@spell flame strike} once per day using their Innate Spellcasting trait. Additionally, the extra damage from their Angelic Weapons is half fire damage and half radiant damage."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Avacyn.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Avacyn%20(2).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Avacyn%20(3).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Bruna",
+			"source": "PSI",
+			"entries": [
+				"{@creature Avacyn|PSI} was the archangel of Innistrad, revered across the plane as the source of hope, of protection, and of the Blessed Rest—a peaceful eternity of slumber in the grave. She offered the faithful magical wards against vampires and werewolves, a tranquil oblivion rather than the damned fate of a tormented spirit or undead abomination, and a distant hope that someday, their descendants might live in an Innistrad free from all the horrors of darkness.",
+				"Traditionally, three groups of angels known as flights or hosts served {@creature Avacyn|PSI}, each under the leadership of a lesser archangel.",
+				{
+					"type": "entries",
+					"name": "Flight Alabaster",
+					"page": 26,
+					"entries": [
+						"The practical and sympathetic angels of Flight Alabaster were instrumental in maintaining Avacyn's wards against the supernatural evils of Innistrad. They preferred the use of spells to weapons, and engaged in battle only when they had exhausted other options. As a result, angels of other flights sometimes dismissed them as overly sentimental. Alabaster angels aided priests and cathars in maintaining the protective wards on city walls and at holy sites throughout the plane, and also aided Avacyn in conducting the spirits of the dead to their ultimate fate, dissolving into Innistrad's Æthereal essence. The leader of Flight Alabaster was {@creature Bruna|PSI}, called the Light of Alabaster."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Host of Herons",
+					"page": 26,
+					"entries": [
+						"The Host of Herons comprised the angels of birth, rebirth, and purity, whose magic was said to ward humans against harm in life. This was always the smallest flight of angels, and its primary function was the scouting and tracking of werewolves and other marauding monsters. {@creature Sigarda|PSI} led the Host of Herons, wielding a scythe shaped like the head of a heron."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight Goldnight",
+					"page": 26,
+					"entries": [
+						"Flight Goldnight was an army of soldier-angels focused on the martial strength of the church. These angels were characterized by pragmatism and strict observance of church law. They were strategists in battle and skillful leaders during armed conflicts, cultivating a martial mindset that made them more than willing to take up arms when the need arose. The leader of Flight Goldnight was {@creature Gisela|PSI}, called the Blade of Goldnight or the Blade of the Church."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Madness of Avacyn",
+					"page": 27,
+					"entries": [
+						"When the Eldrazi titan Emrakul first approached Innistrad, {@creature Avacyn|PSI} perceived her influence as a contagion that must be expunged from the world. However, unable to identify the source of that contagion, {@creature Avacyn|PSI} was driven mad, lashing out instead at every living thing. She led the angels in a vain effort to purge this corruption from the plane, viewing the humans they once protected as part of the maddening illness. The different flights of angels even began to war against each other, drastically reducing the number of angels on the plane.",
+						"Wielding fiery swords and clad in full armor, the soldier-angels of Flight Goldnight became the scourge of all mortal life on Innistrad. None could predict what would trigger their violent judgment or where they would strike next. The angels of Flight Alabaster had always been at the forefront of the church's efforts to root out and punish demon cultists, necromancers, and other heretics. With Emrakul's approach, they grew at least as mad as {@creature Avacyn|PSI} herself. Their fervent obsession drove the forces of the Lunarch Inquisition, the church's efforts to root out sin among the human populace. The angels prodded the church to ever greater and more desperate action.",
+						"Amid the chaos, {@creature Avacyn|PSI} created a new angelic flight to serve as her honor guard. Armed with moonsilver spears forged from shards of the broken Helvault, these angels of the Flight of Moonsilver served as sentries and guards at Thraben Cathedral, and flew alongside {@creature Avacyn|PSI} into battle against any perceived threat to Innistrad.",
+						"Only {@creature Sigarda|PSI} and the Host of Herons remained unaffected by Avacyn's madness, perhaps because they were the angels of purity. The survivors of this host retreated to their old haunt in Gavony's remote parish of Videns to maintain a safe distance from {@creature Avacyn|PSI}.",
+						"Angels that have gone mad can cast {@spell flame strike} once per day using their Innate Spellcasting trait. Additionally, the extra damage from their Angelic Weapons is half fire damage and half radiant damage."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Bruna.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Bruna%20(2).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Bruna%20(3).webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Creepy Doll",
 			"source": "PSI",
 			"entries": [
@@ -17,6 +151,498 @@
 					"height": 470,
 					"title": "Creepy Doll",
 					"credit": "Matt Stewart"
+				}
+			]
+		},
+		{
+			"name": "Demonlord of Ashmouth",
+			"source": "PSI",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Devils",
+					"entries": [
+						"Devils personify tyranny, with a totalitarian society dedicated to the domination of mortal life. The shadow of the Nine Hells of Baator extends far across the multiverse, and Asmodeus, the dark lord of Nessus, strives to subjugate the cosmos to satisfy his thirst for power. To do so, he must continually expand his infernal armies, sending his servants to the mortal realm to corrupt the souls from which new devils are spawned.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Lords of Tyranny",
+											"entries": [
+												"Devils live to conquer, enslave, and oppress. They take perverse delight in exercising authority over the weak, and any creature that defies the authority of a devil faces swift and cruel punishment. Every interaction is an opportunity for a devil to display its power, and all devils have a keen understanding of how to use and abuse their power.",
+												"Devils understand the failings that plague intelligent mortals, and they use that knowledge to lead mortals into temptation and darkness, turning creatures into slaves to their own corruption. Devils on the Material Plane use their influence to manipulate humanoid rulers, whispering evil thoughts, fomenting paranoia, and eventually driving them to tyrannical actions."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Obedience and Ambition",
+											"entries": [
+												"In accordance with their lawful alignment, devils obey even when they envy or dislike their superiors, knowing that their obedience will be rewarded. The hierarchy of the Nine Hells depends on this unswerving loyalty, without which that fiendish plane would become as anarchic as the Abyss.",
+												"At the same time, it is in the nature of devils to scheme, creating in some a desire to rule that eclipses their contentment to be ruled. This singular ambition is strongest among the archdevils whom Asmodeus appoints to rule the nine layers of the Nine Hells. These high-ranking fiends are the only devils to ever sample true power, which they crave like the sweetest ambrosia."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dark Dealers and Soul Mongers",
+											"entries": [
+												"Devils are confined to the Lower Planes, but they can travel beyond those planes by way of portals or powerful summoning magic. They love to strike bargains with mortals seeking to gain some benefit or prize, but a mortal making such a bargain must be wary. Devils are crafty negotiators and positively ruthless at enforcing the terms of an agreement. Moreover, a contract with even the lowliest devil is enforced by Asmodeus's will. Any mortal creature that breaks such a contract instantly forfeits its soul, which is spirited away to the Nine Hells.",
+												"To own a creature's soul is to have absolute control over that creature, and most devils accept no other currency in exchange for the fiendish power and boons they can provide. A soul is usually forfeited when a mortal dies naturally, for devils are immortal and can wait years for a contract to play out. If a contract allows a devil to claim a mortal's soul before death, it can instantly return to the Nine Hells with the soul in its possession. Only divine intervention can release a soul after a devil has claimed it."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Infernal Hierarchy",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"The Nine Hells has a rigid hierarchy that defines every aspect of its society. Asmodeus is the supreme ruler of all devils, and the only creature in the Nine Hells with the powers of a lesser god. Worshiped as such in the Material Plane, Asmodeus inspires the evil humanoid cults that take his name. In the Nine Hells, he commands scores of pit fiend generals, which in turn command legions of subordinates.",
+										"A supreme tyrant, a brilliant deceiver, and a master of subtlety, Asmodeus protects his throne by keeping his friends close and his enemies closer. He delegates most matters of rulership to the pit fiends and lesser archdevils that make up the infernal bureaucracy of the Nine Hells, even as he knows that those powerful devils conspire to usurp the Throne of Baator from which he rules. Asmodeus appoints archdevils, and he can strip any member of the infernal hierarchy of rank and status as he likes.",
+										"If it dies outside the Nine Hells, a devil disappears in a cloud of sulfurous smoke or dissolves into a pool of ichor, instantly returning to its home layer, where it reforms at full strength. Devils that die in the Nine Hells are destroyed forever-a fate that even Asmodeus fears.",
+										{
+											"type": "entries",
+											"name": "Archdevils",
+											"entries": [
+												"The archdevils include all the current and deposed rulers of the Nine Hells (see the Layers and Lords of the Nine Hells table), as well as the dukes and duchesses that make up their courts, attend them as advisers, and hope to supplant them. Every archdevil is a unique being with an appearance that reflects its particular evil nature."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Greater Devils",
+											"entries": [
+												"The greater devils include the pit fiends, erinyes, horned devils, and ice devils that command lesser devils and attend the archdevils."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Lesser Devils",
+											"entries": [
+												"The lesser devils include numerous strains of fiends, including imps, chain devils, spined devils, bearded devils, barbed devils, and bone devils."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Lemures",
+											"entries": [
+												"The lowest form of devil, lemures are the twisted and tormented souls of evil and corrupted mortals. A lemure killed in the Nine Hells is only permanently destroyed if it is killed with a blessed weapon or if its shapeless corpse is splashed with holy water before it can return to life."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Promotion and Demotion",
+											"entries": [
+												"When the soul of an evil mortal sinks into the Nine Hells, it takes on the physical form of a wretched lemure. Archdevils and greater devils have the power to promote lemures to lesser devils. Archdevils can promote lesser devils to greater devils, and Asmodeus alone can promote a greater devil to archdevil status. This diabolic promotion invokes a brief, painful transformation, with the devil's memories passing intact from one form to the next.",
+												"Low-level promotions are typically based on need, such as when a pit fiend transforms lemures into imps to gain invisible spies under its command. High-level promotions are almost always based on merit, such as when a bone devil that distinguishes itself in battle is transformed into a horned devil by the archdevil it serves. A devil is seldom promoted more than one step at a time in the hierarchy of infernal forms.",
+												"Demotion is the customary punishment for failure or disobedience among the devils. Archdevils or greater devils can demote a lesser devil to a lemure, which loses all memory of its prior existence. An archdevil can demote a greater devil to lesser devil status, but the demoted devil retains its memories-and might seek vengeance if the severity of the demotion is excessive.",
+												"No devil can promote or demote another devil that has not sworn fealty to it, preventing rival archdevils from demoting each other's most powerful servants. Since all devils swear fealty to Asmodeus, he can freely demote any other devil, transforming it into whatever infernal form he desires.",
+												{
+													"type": "table",
+													"caption": "Infernal Hierarchy",
+													"colLabels": [
+														"Rank",
+														"Devil(s)"
+													],
+													"colStyles": [
+														"col-4",
+														"col-8"
+													],
+													"rows": [
+														[
+															"1.",
+															"lemure"
+														],
+														[
+															"2. (Lesser devils)",
+															"imp"
+														],
+														[
+															"3.",
+															"spined devil"
+														],
+														[
+															"4.",
+															"bearded devil"
+														],
+														[
+															"5.",
+															"barbed devil"
+														],
+														[
+															"6.",
+															"chain devil"
+														],
+														[
+															"7.",
+															"bone devil"
+														],
+														[
+															"8. (Greater devils)",
+															"horned devil"
+														],
+														[
+															"9.",
+															"erinyes"
+														],
+														[
+															"10.",
+															"ice devil"
+														],
+														[
+															"11.",
+															"pit fiend"
+														],
+														[
+															"12. (Archdevils)",
+															"duke or duchess"
+														],
+														[
+															"13.",
+															"archduke or archduchess"
+														]
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Nine Hells",
+									"entries": [
+										"The Nine Hells are a single plane comprising nine separate layers (see the Layers and Lords of the Nine Hells table). The first eight layers are each ruled by archdevils that answer to the greatest archdevil of all: Asmodeus, the Archduke of Nessus, the ninth layer. To reach the deepest layer of the Nine Hells, one must descend through all eight of the layers above it, in order. The most expeditious means of doing so is the River Styx, which plunges ever deeper as it flows from one layer to the next. Only the most courageous adventurers can withstand the torment and horror of that journey.",
+										{
+											"type": "table",
+											"caption": "Layers and Lords of the Nine Hells Layer",
+											"colLabels": [
+												"Layer",
+												"Layer Name",
+												"Archduke or Archduchess",
+												"Previous Rulers",
+												"Primary Inhabitants"
+											],
+											"colStyles": [
+												"col-1",
+												"col-2",
+												"col-3",
+												"col-3",
+												"col-3"
+											],
+											"rows": [
+												[
+													"1",
+													"Avernus",
+													"Zariel",
+													"Bel, Tiamat",
+													"Erinyes, imps, spined devils"
+												],
+												[
+													"2",
+													"Dis",
+													"Dispater",
+													"—",
+													"Bearded devils, erinyes, imps, spined devils"
+												],
+												[
+													"3",
+													"Minauros",
+													"Mammon",
+													"—",
+													"Bearded devils, chain devils, imps, spined devils"
+												],
+												[
+													"4",
+													"Phlegethos",
+													"Belial and Fierna",
+													"—",
+													"Barbed devils, bone devils, imps, spined devils"
+												],
+												[
+													"5",
+													"Stygia",
+													"Levistus",
+													"Geryon",
+													"Bone devils, erinyes, ice devils, imps"
+												],
+												[
+													"6",
+													"Malbolge",
+													"Glasya",
+													"Malagard, Moloch",
+													"Barbed devils, bone devils, horned devils, imps"
+												],
+												[
+													"7",
+													"Maladomini",
+													"Baalzebul",
+													"—",
+													"Barbed devils, bone devils, horned devils, imps"
+												],
+												[
+													"8",
+													"Cania",
+													"Mephistopheles",
+													"—",
+													"Horned devils, ice devils, imps, pit fiends"
+												],
+												[
+													"9",
+													"Nessus",
+													"Asmodeus",
+													"—",
+													"All devils"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Devil True Names and Talismans",
+							"entries": [
+								"Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if {@condition charmed}, and ancient scrolls and tomes are said to exist that list the true names of certain devils.",
+								"A mortal who learns a devil's true name can use powerful summoning magic to call the devil from the Nine Hells and bind it into service. Binding can also be accomplished with the help of a devil talisman. Each of these ancient relics is inscribed with the true name of a devil it controls, and was bathed in the blood of a worthy sacrifice-typically someone the creator loved-when crafted.",
+								"However it is summoned, a devil brought to the Material Plane typically resents being pressed into service. However, the devil seizes every opportunity to corrupt its summoner so that the summoner's soul ends up in the Nine Hells. Only imps are truly content to be summoned, and they easily commit to serving a summoner as a familiar, but they still do their utmost to corrupt those who summon them."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Variant: Devil Summoning",
+							"entries": [
+								"Some devils can have an action option that allows them to summon other devils.",
+								{
+									"type": "entries",
+									"name": "Summon Devil (1/Day)",
+									"entries": [
+										"The devil chooses what to summon and attempts a magical summoning."
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"A barbed devil has a {@chance 30} chance of summoning one barbed devil.",
+										"A bearded devil has a {@chance 30} chance of summoning one bearded devil.",
+										"A bone devil has a {@chance 40} chance of summoning {@dice 2d6} spined devils or one bone devil.",
+										"An erinyes has a {@chance 50} chance of summoning {@dice 3d6} spined devils, {@dice 1d6} bearded devils, or one erinyes.",
+										"A horned devil has a {@chance 30} chance of summoning one horned devil.",
+										"An ice devil has a {@chance 60} chance of summoning one ice devil.",
+										"A pit fiend summons {@dice 2d4} bearded devils, {@dice 1d4} barbed devils, or one erinyes with no chance of failure."
+									]
+								},
+								"A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Flight Alabaster Angel",
+			"source": "PSI",
+			"entries": [
+				"{@creature Avacyn|PSI} was the archangel of Innistrad, revered across the plane as the source of hope, of protection, and of the Blessed Rest—a peaceful eternity of slumber in the grave. She offered the faithful magical wards against vampires and werewolves, a tranquil oblivion rather than the damned fate of a tormented spirit or undead abomination, and a distant hope that someday, their descendants might live in an Innistrad free from all the horrors of darkness.",
+				"Traditionally, three groups of angels known as flights or hosts served {@creature Avacyn|PSI}, each under the leadership of a lesser archangel.",
+				{
+					"type": "entries",
+					"name": "Flight Alabaster",
+					"page": 26,
+					"entries": [
+						"The practical and sympathetic angels of Flight Alabaster were instrumental in maintaining Avacyn's wards against the supernatural evils of Innistrad. They preferred the use of spells to weapons, and engaged in battle only when they had exhausted other options. As a result, angels of other flights sometimes dismissed them as overly sentimental. Alabaster angels aided priests and cathars in maintaining the protective wards on city walls and at holy sites throughout the plane, and also aided Avacyn in conducting the spirits of the dead to their ultimate fate, dissolving into Innistrad's Æthereal essence. The leader of Flight Alabaster was {@creature Bruna|PSI}, called the Light of Alabaster."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Host of Herons",
+					"page": 26,
+					"entries": [
+						"The Host of Herons comprised the angels of birth, rebirth, and purity, whose magic was said to ward humans against harm in life. This was always the smallest flight of angels, and its primary function was the scouting and tracking of werewolves and other marauding monsters. {@creature Sigarda|PSI} led the Host of Herons, wielding a scythe shaped like the head of a heron."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight Goldnight",
+					"page": 26,
+					"entries": [
+						"Flight Goldnight was an army of soldier-angels focused on the martial strength of the church. These angels were characterized by pragmatism and strict observance of church law. They were strategists in battle and skillful leaders during armed conflicts, cultivating a martial mindset that made them more than willing to take up arms when the need arose. The leader of Flight Goldnight was {@creature Gisela|PSI}, called the Blade of Goldnight or the Blade of the Church."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Madness of Avacyn",
+					"page": 27,
+					"entries": [
+						"When the Eldrazi titan Emrakul first approached Innistrad, {@creature Avacyn|PSI} perceived her influence as a contagion that must be expunged from the world. However, unable to identify the source of that contagion, {@creature Avacyn|PSI} was driven mad, lashing out instead at every living thing. She led the angels in a vain effort to purge this corruption from the plane, viewing the humans they once protected as part of the maddening illness. The different flights of angels even began to war against each other, drastically reducing the number of angels on the plane.",
+						"Wielding fiery swords and clad in full armor, the soldier-angels of Flight Goldnight became the scourge of all mortal life on Innistrad. None could predict what would trigger their violent judgment or where they would strike next. The angels of Flight Alabaster had always been at the forefront of the church's efforts to root out and punish demon cultists, necromancers, and other heretics. With Emrakul's approach, they grew at least as mad as {@creature Avacyn|PSI} herself. Their fervent obsession drove the forces of the Lunarch Inquisition, the church's efforts to root out sin among the human populace. The angels prodded the church to ever greater and more desperate action.",
+						"Amid the chaos, {@creature Avacyn|PSI} created a new angelic flight to serve as her honor guard. Armed with moonsilver spears forged from shards of the broken Helvault, these angels of the Flight of Moonsilver served as sentries and guards at Thraben Cathedral, and flew alongside {@creature Avacyn|PSI} into battle against any perceived threat to Innistrad.",
+						"Only {@creature Sigarda|PSI} and the Host of Herons remained unaffected by Avacyn's madness, perhaps because they were the angels of purity. The survivors of this host retreated to their old haunt in Gavony's remote parish of Videns to maintain a safe distance from {@creature Avacyn|PSI}.",
+						"Angels that have gone mad can cast {@spell flame strike} once per day using their Innate Spellcasting trait. Additionally, the extra damage from their Angelic Weapons is half fire damage and half radiant damage."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Flight%20Alabaster%20Angel.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Flight%20Alabaster%20Angel%20(2).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Flight%20Alabaster%20Angel%20(3).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Flight Goldnight Angel",
+			"source": "PSI",
+			"entries": [
+				"{@creature Avacyn|PSI} was the archangel of Innistrad, revered across the plane as the source of hope, of protection, and of the Blessed Rest—a peaceful eternity of slumber in the grave. She offered the faithful magical wards against vampires and werewolves, a tranquil oblivion rather than the damned fate of a tormented spirit or undead abomination, and a distant hope that someday, their descendants might live in an Innistrad free from all the horrors of darkness.",
+				"Traditionally, three groups of angels known as flights or hosts served {@creature Avacyn|PSI}, each under the leadership of a lesser archangel.",
+				{
+					"type": "entries",
+					"name": "Flight Alabaster",
+					"page": 26,
+					"entries": [
+						"The practical and sympathetic angels of Flight Alabaster were instrumental in maintaining Avacyn's wards against the supernatural evils of Innistrad. They preferred the use of spells to weapons, and engaged in battle only when they had exhausted other options. As a result, angels of other flights sometimes dismissed them as overly sentimental. Alabaster angels aided priests and cathars in maintaining the protective wards on city walls and at holy sites throughout the plane, and also aided Avacyn in conducting the spirits of the dead to their ultimate fate, dissolving into Innistrad's Æthereal essence. The leader of Flight Alabaster was {@creature Bruna|PSI}, called the Light of Alabaster."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Host of Herons",
+					"page": 26,
+					"entries": [
+						"The Host of Herons comprised the angels of birth, rebirth, and purity, whose magic was said to ward humans against harm in life. This was always the smallest flight of angels, and its primary function was the scouting and tracking of werewolves and other marauding monsters. {@creature Sigarda|PSI} led the Host of Herons, wielding a scythe shaped like the head of a heron."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight Goldnight",
+					"page": 26,
+					"entries": [
+						"Flight Goldnight was an army of soldier-angels focused on the martial strength of the church. These angels were characterized by pragmatism and strict observance of church law. They were strategists in battle and skillful leaders during armed conflicts, cultivating a martial mindset that made them more than willing to take up arms when the need arose. The leader of Flight Goldnight was {@creature Gisela|PSI}, called the Blade of Goldnight or the Blade of the Church."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Madness of Avacyn",
+					"page": 27,
+					"entries": [
+						"When the Eldrazi titan Emrakul first approached Innistrad, {@creature Avacyn|PSI} perceived her influence as a contagion that must be expunged from the world. However, unable to identify the source of that contagion, {@creature Avacyn|PSI} was driven mad, lashing out instead at every living thing. She led the angels in a vain effort to purge this corruption from the plane, viewing the humans they once protected as part of the maddening illness. The different flights of angels even began to war against each other, drastically reducing the number of angels on the plane.",
+						"Wielding fiery swords and clad in full armor, the soldier-angels of Flight Goldnight became the scourge of all mortal life on Innistrad. None could predict what would trigger their violent judgment or where they would strike next. The angels of Flight Alabaster had always been at the forefront of the church's efforts to root out and punish demon cultists, necromancers, and other heretics. With Emrakul's approach, they grew at least as mad as {@creature Avacyn|PSI} herself. Their fervent obsession drove the forces of the Lunarch Inquisition, the church's efforts to root out sin among the human populace. The angels prodded the church to ever greater and more desperate action.",
+						"Amid the chaos, {@creature Avacyn|PSI} created a new angelic flight to serve as her honor guard. Armed with moonsilver spears forged from shards of the broken Helvault, these angels of the Flight of Moonsilver served as sentries and guards at Thraben Cathedral, and flew alongside {@creature Avacyn|PSI} into battle against any perceived threat to Innistrad.",
+						"Only {@creature Sigarda|PSI} and the Host of Herons remained unaffected by Avacyn's madness, perhaps because they were the angels of purity. The survivors of this host retreated to their old haunt in Gavony's remote parish of Videns to maintain a safe distance from {@creature Avacyn|PSI}.",
+						"Angels that have gone mad can cast {@spell flame strike} once per day using their Innate Spellcasting trait. Additionally, the extra damage from their Angelic Weapons is half fire damage and half radiant damage."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Flight%20Goldnight%20Angel.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Flight%20Goldnight%20Angel%20(2).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Flight%20Goldnight%20Angel%20(3).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Flight of Moonsilver Angel",
+			"source": "PSI",
+			"entries": [
+				"{@creature Avacyn|PSI} was the archangel of Innistrad, revered across the plane as the source of hope, of protection, and of the Blessed Rest—a peaceful eternity of slumber in the grave. She offered the faithful magical wards against vampires and werewolves, a tranquil oblivion rather than the damned fate of a tormented spirit or undead abomination, and a distant hope that someday, their descendants might live in an Innistrad free from all the horrors of darkness.",
+				"Traditionally, three groups of angels known as flights or hosts served {@creature Avacyn|PSI}, each under the leadership of a lesser archangel.",
+				{
+					"type": "entries",
+					"name": "Flight Alabaster",
+					"page": 26,
+					"entries": [
+						"The practical and sympathetic angels of Flight Alabaster were instrumental in maintaining Avacyn's wards against the supernatural evils of Innistrad. They preferred the use of spells to weapons, and engaged in battle only when they had exhausted other options. As a result, angels of other flights sometimes dismissed them as overly sentimental. Alabaster angels aided priests and cathars in maintaining the protective wards on city walls and at holy sites throughout the plane, and also aided Avacyn in conducting the spirits of the dead to their ultimate fate, dissolving into Innistrad's Æthereal essence. The leader of Flight Alabaster was {@creature Bruna|PSI}, called the Light of Alabaster."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Host of Herons",
+					"page": 26,
+					"entries": [
+						"The Host of Herons comprised the angels of birth, rebirth, and purity, whose magic was said to ward humans against harm in life. This was always the smallest flight of angels, and its primary function was the scouting and tracking of werewolves and other marauding monsters. {@creature Sigarda|PSI} led the Host of Herons, wielding a scythe shaped like the head of a heron."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight Goldnight",
+					"page": 26,
+					"entries": [
+						"Flight Goldnight was an army of soldier-angels focused on the martial strength of the church. These angels were characterized by pragmatism and strict observance of church law. They were strategists in battle and skillful leaders during armed conflicts, cultivating a martial mindset that made them more than willing to take up arms when the need arose. The leader of Flight Goldnight was {@creature Gisela|PSI}, called the Blade of Goldnight or the Blade of the Church."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Madness of Avacyn",
+					"page": 27,
+					"entries": [
+						"When the Eldrazi titan Emrakul first approached Innistrad, {@creature Avacyn|PSI} perceived her influence as a contagion that must be expunged from the world. However, unable to identify the source of that contagion, {@creature Avacyn|PSI} was driven mad, lashing out instead at every living thing. She led the angels in a vain effort to purge this corruption from the plane, viewing the humans they once protected as part of the maddening illness. The different flights of angels even began to war against each other, drastically reducing the number of angels on the plane.",
+						"Wielding fiery swords and clad in full armor, the soldier-angels of Flight Goldnight became the scourge of all mortal life on Innistrad. None could predict what would trigger their violent judgment or where they would strike next. The angels of Flight Alabaster had always been at the forefront of the church's efforts to root out and punish demon cultists, necromancers, and other heretics. With Emrakul's approach, they grew at least as mad as {@creature Avacyn|PSI} herself. Their fervent obsession drove the forces of the Lunarch Inquisition, the church's efforts to root out sin among the human populace. The angels prodded the church to ever greater and more desperate action.",
+						"Amid the chaos, {@creature Avacyn|PSI} created a new angelic flight to serve as her honor guard. Armed with moonsilver spears forged from shards of the broken Helvault, these angels of the Flight of Moonsilver served as sentries and guards at Thraben Cathedral, and flew alongside {@creature Avacyn|PSI} into battle against any perceived threat to Innistrad.",
+						"Only {@creature Sigarda|PSI} and the Host of Herons remained unaffected by Avacyn's madness, perhaps because they were the angels of purity. The survivors of this host retreated to their old haunt in Gavony's remote parish of Videns to maintain a safe distance from {@creature Avacyn|PSI}.",
+						"Angels that have gone mad can cast {@spell flame strike} once per day using their Innate Spellcasting trait. Additionally, the extra damage from their Angelic Weapons is half fire damage and half radiant damage."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Flight%20of%20Moonsilver%20Angel.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Flight%20of%20Moonsilver%20Angel%20(2).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Flight%20of%20Moonsilver%20Angel%20(3).webp"
+					}
 				}
 			]
 		},
@@ -91,6 +717,196 @@
 			]
 		},
 		{
+			"name": "Gisela",
+			"source": "PSI",
+			"entries": [
+				"{@creature Avacyn|PSI} was the archangel of Innistrad, revered across the plane as the source of hope, of protection, and of the Blessed Rest—a peaceful eternity of slumber in the grave. She offered the faithful magical wards against vampires and werewolves, a tranquil oblivion rather than the damned fate of a tormented spirit or undead abomination, and a distant hope that someday, their descendants might live in an Innistrad free from all the horrors of darkness.",
+				"Traditionally, three groups of angels known as flights or hosts served {@creature Avacyn|PSI}, each under the leadership of a lesser archangel.",
+				{
+					"type": "entries",
+					"name": "Flight Alabaster",
+					"page": 26,
+					"entries": [
+						"The practical and sympathetic angels of Flight Alabaster were instrumental in maintaining Avacyn's wards against the supernatural evils of Innistrad. They preferred the use of spells to weapons, and engaged in battle only when they had exhausted other options. As a result, angels of other flights sometimes dismissed them as overly sentimental. Alabaster angels aided priests and cathars in maintaining the protective wards on city walls and at holy sites throughout the plane, and also aided Avacyn in conducting the spirits of the dead to their ultimate fate, dissolving into Innistrad's Æthereal essence. The leader of Flight Alabaster was {@creature Bruna|PSI}, called the Light of Alabaster."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Host of Herons",
+					"page": 26,
+					"entries": [
+						"The Host of Herons comprised the angels of birth, rebirth, and purity, whose magic was said to ward humans against harm in life. This was always the smallest flight of angels, and its primary function was the scouting and tracking of werewolves and other marauding monsters. {@creature Sigarda|PSI} led the Host of Herons, wielding a scythe shaped like the head of a heron."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight Goldnight",
+					"page": 26,
+					"entries": [
+						"Flight Goldnight was an army of soldier-angels focused on the martial strength of the church. These angels were characterized by pragmatism and strict observance of church law. They were strategists in battle and skillful leaders during armed conflicts, cultivating a martial mindset that made them more than willing to take up arms when the need arose. The leader of Flight Goldnight was {@creature Gisela|PSI}, called the Blade of Goldnight or the Blade of the Church."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Madness of Avacyn",
+					"page": 27,
+					"entries": [
+						"When the Eldrazi titan Emrakul first approached Innistrad, {@creature Avacyn|PSI} perceived her influence as a contagion that must be expunged from the world. However, unable to identify the source of that contagion, {@creature Avacyn|PSI} was driven mad, lashing out instead at every living thing. She led the angels in a vain effort to purge this corruption from the plane, viewing the humans they once protected as part of the maddening illness. The different flights of angels even began to war against each other, drastically reducing the number of angels on the plane.",
+						"Wielding fiery swords and clad in full armor, the soldier-angels of Flight Goldnight became the scourge of all mortal life on Innistrad. None could predict what would trigger their violent judgment or where they would strike next. The angels of Flight Alabaster had always been at the forefront of the church's efforts to root out and punish demon cultists, necromancers, and other heretics. With Emrakul's approach, they grew at least as mad as {@creature Avacyn|PSI} herself. Their fervent obsession drove the forces of the Lunarch Inquisition, the church's efforts to root out sin among the human populace. The angels prodded the church to ever greater and more desperate action.",
+						"Amid the chaos, {@creature Avacyn|PSI} created a new angelic flight to serve as her honor guard. Armed with moonsilver spears forged from shards of the broken Helvault, these angels of the Flight of Moonsilver served as sentries and guards at Thraben Cathedral, and flew alongside {@creature Avacyn|PSI} into battle against any perceived threat to Innistrad.",
+						"Only {@creature Sigarda|PSI} and the Host of Herons remained unaffected by Avacyn's madness, perhaps because they were the angels of purity. The survivors of this host retreated to their old haunt in Gavony's remote parish of Videns to maintain a safe distance from {@creature Avacyn|PSI}.",
+						"Angels that have gone mad can cast {@spell flame strike} once per day using their Innate Spellcasting trait. Additionally, the extra damage from their Angelic Weapons is half fire damage and half radiant damage."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Gisela.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Gisela%20(2).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Gisela%20(3).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Host of Herons Angel",
+			"source": "PSI",
+			"entries": [
+				"{@creature Avacyn|PSI} was the archangel of Innistrad, revered across the plane as the source of hope, of protection, and of the Blessed Rest—a peaceful eternity of slumber in the grave. She offered the faithful magical wards against vampires and werewolves, a tranquil oblivion rather than the damned fate of a tormented spirit or undead abomination, and a distant hope that someday, their descendants might live in an Innistrad free from all the horrors of darkness.",
+				"Traditionally, three groups of angels known as flights or hosts served {@creature Avacyn|PSI}, each under the leadership of a lesser archangel.",
+				{
+					"type": "entries",
+					"name": "Flight Alabaster",
+					"page": 26,
+					"entries": [
+						"The practical and sympathetic angels of Flight Alabaster were instrumental in maintaining Avacyn's wards against the supernatural evils of Innistrad. They preferred the use of spells to weapons, and engaged in battle only when they had exhausted other options. As a result, angels of other flights sometimes dismissed them as overly sentimental. Alabaster angels aided priests and cathars in maintaining the protective wards on city walls and at holy sites throughout the plane, and also aided Avacyn in conducting the spirits of the dead to their ultimate fate, dissolving into Innistrad's Æthereal essence. The leader of Flight Alabaster was {@creature Bruna|PSI}, called the Light of Alabaster."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Host of Herons",
+					"page": 26,
+					"entries": [
+						"The Host of Herons comprised the angels of birth, rebirth, and purity, whose magic was said to ward humans against harm in life. This was always the smallest flight of angels, and its primary function was the scouting and tracking of werewolves and other marauding monsters. {@creature Sigarda|PSI} led the Host of Herons, wielding a scythe shaped like the head of a heron."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight Goldnight",
+					"page": 26,
+					"entries": [
+						"Flight Goldnight was an army of soldier-angels focused on the martial strength of the church. These angels were characterized by pragmatism and strict observance of church law. They were strategists in battle and skillful leaders during armed conflicts, cultivating a martial mindset that made them more than willing to take up arms when the need arose. The leader of Flight Goldnight was {@creature Gisela|PSI}, called the Blade of Goldnight or the Blade of the Church."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Madness of Avacyn",
+					"page": 27,
+					"entries": [
+						"When the Eldrazi titan Emrakul first approached Innistrad, {@creature Avacyn|PSI} perceived her influence as a contagion that must be expunged from the world. However, unable to identify the source of that contagion, {@creature Avacyn|PSI} was driven mad, lashing out instead at every living thing. She led the angels in a vain effort to purge this corruption from the plane, viewing the humans they once protected as part of the maddening illness. The different flights of angels even began to war against each other, drastically reducing the number of angels on the plane.",
+						"Wielding fiery swords and clad in full armor, the soldier-angels of Flight Goldnight became the scourge of all mortal life on Innistrad. None could predict what would trigger their violent judgment or where they would strike next. The angels of Flight Alabaster had always been at the forefront of the church's efforts to root out and punish demon cultists, necromancers, and other heretics. With Emrakul's approach, they grew at least as mad as {@creature Avacyn|PSI} herself. Their fervent obsession drove the forces of the Lunarch Inquisition, the church's efforts to root out sin among the human populace. The angels prodded the church to ever greater and more desperate action.",
+						"Amid the chaos, {@creature Avacyn|PSI} created a new angelic flight to serve as her honor guard. Armed with moonsilver spears forged from shards of the broken Helvault, these angels of the Flight of Moonsilver served as sentries and guards at Thraben Cathedral, and flew alongside {@creature Avacyn|PSI} into battle against any perceived threat to Innistrad.",
+						"Only {@creature Sigarda|PSI} and the Host of Herons remained unaffected by Avacyn's madness, perhaps because they were the angels of purity. The survivors of this host retreated to their old haunt in Gavony's remote parish of Videns to maintain a safe distance from {@creature Avacyn|PSI}.",
+						"Angels that have gone mad can cast {@spell flame strike} once per day using their Innate Spellcasting trait. Additionally, the extra damage from their Angelic Weapons is half fire damage and half radiant damage."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Host%20of%20Herons%20Angel.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Host%20of%20Herons%20Angel%20(2).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Host%20of%20Herons%20Angel%20(3).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Keeper of the Feather",
+			"source": "PSI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Wereravens are secretive and extraordinarily cautious lycanthropes that trust one another but are wary of just about everyone else. Although skilled at blending into society, they keep mostly to themselves, respect local laws, and strive to do good whenever possible.",
+								"In their human and hybrid forms, wereravens favor light weapons. They are reluctant to make bite attacks in raven form for fear of spreading their curse to those who don't deserve it or who would abuse it.",
+								{
+									"type": "entries",
+									"name": "A Kindness of Wereravens",
+									"entries": [
+										"Wereravens refer to their tightly knit groups as kindnesses. A kindness of wereravens usually numbers between seven and twelve individuals. Not surprisingly, wereravens get along well with ravens and often hide in plain sight among them."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Charitable Collectors",
+									"entries": [
+										"Wereravens like to collect shiny trinkets and precious baubles. They are fond of sharing their wealth with those in need and, in their humanoid forms, modestly give money to charity. They take steps to keep magic items out of evil hands by stashing them in secret hiding places."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Characters as Wereravens",
+									"entries": [
+										"The Monster Manual has rules for characters afflicted with lycanthropy. The following text applies to wereraven characters specifically.",
+										"A character cursed with wereraven lycanthropy gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the wereraven's bite are based on whichever is higher of the character's Strength and Dexterity. The bite of a wereraven in raven form deals 1 piercing damage (no ability modifier applies to this damage) and carries the curse of lycanthropy; see the \"Player Characters as Lycanthropes\" sidebar in the lycanthropes entry in the Monster Manual for details."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Keeper%20of%20the%20Feather.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Keeper%20of%20the%20Feather%20(2).webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Necro-Alchemist",
 			"source": "PSI",
 			"entries": [
@@ -109,6 +925,80 @@
 					"height": 585,
 					"title": "Laboratory Maniac",
 					"credit": "Jason Felix"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Necro-Alchemist.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sigarda",
+			"source": "PSI",
+			"entries": [
+				"{@creature Avacyn|PSI} was the archangel of Innistrad, revered across the plane as the source of hope, of protection, and of the Blessed Rest—a peaceful eternity of slumber in the grave. She offered the faithful magical wards against vampires and werewolves, a tranquil oblivion rather than the damned fate of a tormented spirit or undead abomination, and a distant hope that someday, their descendants might live in an Innistrad free from all the horrors of darkness.",
+				"Traditionally, three groups of angels known as flights or hosts served {@creature Avacyn|PSI}, each under the leadership of a lesser archangel.",
+				{
+					"type": "entries",
+					"name": "Flight Alabaster",
+					"page": 26,
+					"entries": [
+						"The practical and sympathetic angels of Flight Alabaster were instrumental in maintaining Avacyn's wards against the supernatural evils of Innistrad. They preferred the use of spells to weapons, and engaged in battle only when they had exhausted other options. As a result, angels of other flights sometimes dismissed them as overly sentimental. Alabaster angels aided priests and cathars in maintaining the protective wards on city walls and at holy sites throughout the plane, and also aided Avacyn in conducting the spirits of the dead to their ultimate fate, dissolving into Innistrad's Æthereal essence. The leader of Flight Alabaster was {@creature Bruna|PSI}, called the Light of Alabaster."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Host of Herons",
+					"page": 26,
+					"entries": [
+						"The Host of Herons comprised the angels of birth, rebirth, and purity, whose magic was said to ward humans against harm in life. This was always the smallest flight of angels, and its primary function was the scouting and tracking of werewolves and other marauding monsters. {@creature Sigarda|PSI} led the Host of Herons, wielding a scythe shaped like the head of a heron."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight Goldnight",
+					"page": 26,
+					"entries": [
+						"Flight Goldnight was an army of soldier-angels focused on the martial strength of the church. These angels were characterized by pragmatism and strict observance of church law. They were strategists in battle and skillful leaders during armed conflicts, cultivating a martial mindset that made them more than willing to take up arms when the need arose. The leader of Flight Goldnight was {@creature Gisela|PSI}, called the Blade of Goldnight or the Blade of the Church."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Madness of Avacyn",
+					"page": 27,
+					"entries": [
+						"When the Eldrazi titan Emrakul first approached Innistrad, {@creature Avacyn|PSI} perceived her influence as a contagion that must be expunged from the world. However, unable to identify the source of that contagion, {@creature Avacyn|PSI} was driven mad, lashing out instead at every living thing. She led the angels in a vain effort to purge this corruption from the plane, viewing the humans they once protected as part of the maddening illness. The different flights of angels even began to war against each other, drastically reducing the number of angels on the plane.",
+						"Wielding fiery swords and clad in full armor, the soldier-angels of Flight Goldnight became the scourge of all mortal life on Innistrad. None could predict what would trigger their violent judgment or where they would strike next. The angels of Flight Alabaster had always been at the forefront of the church's efforts to root out and punish demon cultists, necromancers, and other heretics. With Emrakul's approach, they grew at least as mad as {@creature Avacyn|PSI} herself. Their fervent obsession drove the forces of the Lunarch Inquisition, the church's efforts to root out sin among the human populace. The angels prodded the church to ever greater and more desperate action.",
+						"Amid the chaos, {@creature Avacyn|PSI} created a new angelic flight to serve as her honor guard. Armed with moonsilver spears forged from shards of the broken Helvault, these angels of the Flight of Moonsilver served as sentries and guards at Thraben Cathedral, and flew alongside {@creature Avacyn|PSI} into battle against any perceived threat to Innistrad.",
+						"Only {@creature Sigarda|PSI} and the Host of Herons remained unaffected by Avacyn's madness, perhaps because they were the angels of purity. The survivors of this host retreated to their old haunt in Gavony's remote parish of Videns to maintain a safe distance from {@creature Avacyn|PSI}.",
+						"Angels that have gone mad can cast {@spell flame strike} once per day using their Innate Spellcasting trait. Additionally, the extra damage from their Angelic Weapons is half fire damage and half radiant damage."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Sigarda.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Sigarda%20(2).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Sigarda%20(3).webp"
+					}
 				}
 			]
 		},
@@ -141,6 +1031,13 @@
 					"height": 823,
 					"title": "Falkenrath Noble",
 					"credit": "Slawomir Maniak"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Strefan%20Maurer.webp"
+					}
 				}
 			]
 		},
@@ -326,6 +1223,51 @@
 					"height": 916,
 					"title": "Unbreathing Horde",
 					"credit": "Dave Kendall"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Zombie%20Cat.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Zombie Rat",
+			"source": "PSI",
+			"entries": [
+				"Ghoulcallers are necromancers—mages who use black mana to call forth the dead from graveyards. These risen dead are called ghouls, or the unhallowed. The ghoulcaller fills the fragile mind of his or her creation with a single driving purpose, which the ghoul carries out to the best of its ability using whatever skills it has. The result is a grotesque parody of life: risen blacksmiths attempting to \"reforge\" their opponents, fallen warriors rasping incoherent battle cries, undead murderers reawakening their deadly slyness, and fallen mages trying to weave spells that often result in some horrible distortion of their original purpose.",
+				"The clergy of Avacyn perform rituals on the final resting places of the dead to ensure the Blessed Sleep, but during Avacyn's time in the Helvault, ghoulcallers had an easier time in their work. In this present age of Avacyn's madness, not only are necromancers easily able to plunder the graves of the fallen, but ghouls seem to arise spontaneously from graves across Innistrad.",
+				"The {@creature zombie|MM|zombies} in the {@i Monster Manual} describe the most common ghouls of Innistrad. More powerful necromancers might raise unhallowed dead with the statistics of {@creature ghast|MM|ghasts}, {@creature ghoul|MM|ghouls}, {@creature mummy|MM|mummies}, or {@creature wight|MM|wights}.",
+				"Ghouls also include zombie animals, often animated by necromancers to serve as familiars—most commonly {@creature zombie cat|PSI|cats}, {@creature zombie rat|PSI|rats}, and {@creature zombie snake|PSI|snakes}. These creatures have the statistics of the small animals in the {@i Monster Manual}, with the addition of the zombie's Undead Fortitude trait."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Zombie%20Rat.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Zombie Snake",
+			"source": "PSI",
+			"entries": [
+				"Ghoulcallers are necromancers—mages who use black mana to call forth the dead from graveyards. These risen dead are called ghouls, or the unhallowed. The ghoulcaller fills the fragile mind of his or her creation with a single driving purpose, which the ghoul carries out to the best of its ability using whatever skills it has. The result is a grotesque parody of life: risen blacksmiths attempting to \"reforge\" their opponents, fallen warriors rasping incoherent battle cries, undead murderers reawakening their deadly slyness, and fallen mages trying to weave spells that often result in some horrible distortion of their original purpose.",
+				"The clergy of Avacyn perform rituals on the final resting places of the dead to ensure the Blessed Sleep, but during Avacyn's time in the Helvault, ghoulcallers had an easier time in their work. In this present age of Avacyn's madness, not only are necromancers easily able to plunder the graves of the fallen, but ghouls seem to arise spontaneously from graves across Innistrad.",
+				"The {@creature zombie|MM|zombies} in the {@i Monster Manual} describe the most common ghouls of Innistrad. More powerful necromancers might raise unhallowed dead with the statistics of {@creature ghast|MM|ghasts}, {@creature ghoul|MM|ghouls}, {@creature mummy|MM|mummies}, or {@creature wight|MM|wights}.",
+				"Ghouls also include zombie animals, often animated by necromancers to serve as familiars—most commonly {@creature zombie cat|PSI|cats}, {@creature zombie rat|PSI|rats}, and {@creature zombie snake|PSI|snakes}. These creatures have the statistics of the small animals in the {@i Monster Manual}, with the addition of the zombie's Undead Fortitude trait."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSI/Zombie%20Snake.webp"
+					}
 				}
 			]
 		}

@@ -90,6 +90,20 @@
 					},
 					"width": 1000,
 					"height": 664
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Aurinax.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Aurinax%20(2).webp"
+					}
 				}
 			]
 		},
@@ -209,6 +223,46 @@
 			]
 		},
 		{
+			"name": "Blinded Troll",
+			"source": "WDH",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Born with horrific appetites, trolls eat anything they can catch and devour. They have no society to speak of, but they do serve as mercenaries to orcs, ogres, ettins, hags, and giants. As payment, trolls demand food and treasure. Trolls are difficult to control, however, doing as they please even when working with more powerful creatures.",
+								{
+									"type": "entries",
+									"name": "Regeneration",
+									"entries": [
+										"Smashing a troll's bones and slashing through its rubbery hide only makes it angry. A troll's wounds close quickly. If the monster loses an arm, a leg, or even its head, those dismembered parts can sometimes act with a life of their own. A troll can even reattach severed body parts, untroubled by its momentary disability. Only acid and fire can arrest the regenerative properties of a troll's flesh. The trolls, enraged, will attack individuals making acid and fire attacks against them above all other prey."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Troll Freaks",
+									"entries": [
+										"Their regenerative capabilities make trolls especially susceptible to mutation. Although uncommon, such transformations can result from what the troll has done or what has been done to it. A decapitated troll might grow two heads from the stump of its neck, while a troll that eats a fey creature might gain one or more of that creature's traits."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Blinded%20Troll.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Bonnie",
 			"source": "WDH",
 			"entries": [
@@ -229,6 +283,13 @@
 					},
 					"width": 267,
 					"height": 420
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Bonnie.webp"
+					}
 				}
 			]
 		},
@@ -271,6 +332,23 @@
 					},
 					"width": 750,
 					"height": 1225
+				}
+			]
+		},
+		{
+			"name": "Diatryma",
+			"source": "WDH",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"An axe beak is a tall flightless bird with strong legs and a heavy, wedge-shaped beak. It has a nasty disposition and tends to attack any unfamiliar creature that wanders too close."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -362,6 +440,13 @@
 					},
 					"width": 1000,
 					"height": 691
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Elzerina%20Cassalanter.webp"
+					}
 				}
 			]
 		},
@@ -381,6 +466,23 @@
 										"Embric tends the forge in the Steam and Steel shop in Trollskull Alley. He is an expert weaponsmith and claims descent from the efreet of Calimshan and is prone to extreme mood swings. He is married to Avi."
 									]
 								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Emmek Frewn",
+			"source": "WDH",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
 							]
 						}
 					]
@@ -425,6 +527,67 @@
 										"Fala Lefaliir is an outgoing wood elf with long, braided hair. Like the elven god Corellon Larethian, Fala is neither male nor female. If referred to as \"he\" or \"she,\" Fala gently requests to be addressed by name or as \"they.\" Fala is friends with a member of the Zhentarim named Ziraj, who saved Fala's life. He visits Fala from time to time, and Fala has set aside a room for him on the second floor. Fala runs Correllon's Crown, a herbalist shop in Trollskull Alley"
 									]
 								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Falcon",
+			"source": "WDH",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Falcon.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Fel'rekt Lafeen",
+			"source": "WDH",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Firearms aren't widely available in the North, but some members of Bregan D'aerthe are equipped with Lantanese pistols, bullets, and packets of smokepowder. These drow gunslingers are expert pistoleers, as skilled with their guns as the best archers are with their bows."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Fel'rekt%20Lafeen.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Floon Blagmaar",
+			"source": "WDH",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
 							]
 						}
 					]
@@ -496,6 +659,13 @@
 					},
 					"width": 1000,
 					"height": 617
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Grinda%20Garloth.webp"
+					}
 				}
 			]
 		},
@@ -515,6 +685,23 @@
 										"Apprentice wizards are novice arcane spellcasters who serve more experienced wizards or attend school. They perform menial work, such as cooking and cleaning, in exchange for education in the ways of magic."
 									]
 								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hester Barch",
+			"source": "WDH",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Acolytes are junior members of a clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities."
 							]
 						}
 					]
@@ -749,6 +936,13 @@
 					},
 					"width": 1000,
 					"height": 664
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Jenks.webp"
+					}
 				}
 			]
 		},
@@ -793,6 +987,37 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"name": "Krebbyg Masq'il'yr",
+			"source": "WDH",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Firearms aren't widely available in the North, but some members of Bregan D'aerthe are equipped with Lantanese pistols, bullets, and packets of smokepowder. These drow gunslingers are expert pistoleers, as skilled with their guns as the best archers are with their bows."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Krebbyg%20Masq'il'yr.webp"
+					}
 				}
 			]
 		},
@@ -1060,6 +1285,13 @@
 					},
 					"width": 446,
 					"height": 475
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Mattrim%20Threestrings%20Mereg.webp"
+					}
 				}
 			]
 		},
@@ -1237,6 +1469,13 @@
 					},
 					"width": 650,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Nar'l%20Xibrindas.webp"
+					}
 				}
 			]
 		},
@@ -1252,6 +1491,13 @@
 					},
 					"width": 1000,
 					"height": 664
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Nat.webp"
+					}
 				}
 			]
 		},
@@ -1271,6 +1517,13 @@
 					},
 					"width": 650,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Nihiloor.webp"
+					}
 				}
 			]
 		},
@@ -1375,6 +1628,13 @@
 					},
 					"width": 366,
 					"height": 479
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Obaya%20Uday.webp"
+					}
 				}
 			]
 		},
@@ -1435,6 +1695,13 @@
 					},
 					"width": 734,
 					"height": 948
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Orond%20Gralhund.webp"
+					}
 				}
 			]
 		},
@@ -1450,6 +1717,13 @@
 					},
 					"width": 1000,
 					"height": 691
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Osvaldo%20Cassalanter.webp"
+					}
 				}
 			]
 		},
@@ -1572,6 +1846,13 @@
 					},
 					"width": 650,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Renaer%20Neverember.webp"
+					}
 				}
 			]
 		},
@@ -1627,6 +1908,56 @@
 					},
 					"width": 416,
 					"height": 1024
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Saeth%20Cromley.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Samara Strongbones",
+			"source": "WDH",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Samara%20Strongbones.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sergeant",
+			"source": "WDH",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1728,6 +2059,13 @@
 					},
 					"width": 1000,
 					"height": 664
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Squiddly.webp"
+					}
 				}
 			]
 		},
@@ -1970,6 +2308,13 @@
 					},
 					"width": 1000,
 					"height": 625
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Urstul%20Floxin.webp"
+					}
 				}
 			]
 		},
@@ -2062,6 +2407,61 @@
 			]
 		},
 		{
+			"name": "Vincent Trench",
+			"source": "WDH",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"The rakshasa employs delicacy and misdirection in its pursuit of dominion over others. Few creatures ever see the fiend in its true form, for it can take on any guise it wants, although it prefers to masquerade as someone powerful or influential: a noble, cardinal, or rich merchant, for example. A rakshasa's true form combines the features of a human and a tiger, with one noteworthy deformity: its palms are where the backs of the hands would be on a human.",
+								{
+									"type": "entries",
+									"name": "Evil Spirits in Mortal Flesh",
+									"entries": [
+										"Rakshasas originated long ago in the Nine Hells, when powerful devils created a dark ritual to free their essence from their fiendish bodies in order to escape the Lower Planes. A rakshasa enters the Material Plane to feed its appetite for humanoid flesh and evil schemes. It selects its prey with care, taking pains to keep its presence in the world a secret."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Evil Reborn",
+									"entries": [
+										"For a rakshasa, death on the Material Plane means an agonizing and torturous return to the Nine Hells, where its essence remains trapped until its body reforms-a process that can take months or years.",
+										"When the rakshasa is reborn, it has all the memories and knowledge of its former life, and it seeks retribution against the one who slew it. If the target has somehow slipped through its grasp, the rakshasa might punish its killer's family, friends, or descendants.",
+										"Like devils, rakshasas killed in the Nine Hells are forever destroyed."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Slay me once, shame on you.",
+										"Slay me twice, shame on me."
+									],
+									"by": "Rakshasa maxim"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Vincent%20Trench.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Walking Statue of Waterdeep",
 			"source": "WDH",
 			"entries": [
@@ -2110,6 +2510,53 @@
 			]
 		},
 		{
+			"name": "Willifort Crowelle",
+			"source": "WDH",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Doppelgangers are devious shapeshifters that take on the appearance of other humanoids, throwing off pursuit or luring victims to their doom with misdirection and disguise. Few creatures spread fear, suspicion, and deceit better than doppelgangers. Found in every land and culture, they can take on the guise of any individual of any race.",
+								{
+									"type": "entries",
+									"name": "Stealing Secrets",
+									"entries": [
+										"A doppelganger's adopted form allows it to blend into almost any group or community, but its transformation doesn't impart languages, mannerisms, memory, or personality. Doppelgangers often follow or capture creatures they intend to impersonate, studying them and probing their minds for secrets. A doppelganger can read a creature's surface thoughts, allowing it to glean that creature's name, desires, and fears, along with a few scattered memories. A doppelganger impersonating a specific creature as part of a long-term plot might keep its double alive and close at hand for weeks, probing the victim's mind daily to learn how to behave and speak authentically."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hedonistic Swindlers",
+									"entries": [
+										"Doppelgangers work alone or in small groups, with group roles shifting from con to con. While one doppelganger takes the place of a murdered merchant or noble, the others take on a number of identities as circumstances warrant, playing the parts of family or servants while they live off the victim's riches."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Changelings",
+									"entries": [
+										"Doppelgangers are too lazy or self-interested to raise their young. They assume attractive male forms and seduce women, leaving them to raise their progeny. A doppelganger child appears to be a normal member of its mother's species until it reaches adolescence, at which point it discovers its true nature and is driven to seek out its kind to join them."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Willifort%20Crowelle.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Xanathar",
 			"source": "WDH",
 			"entries": [
@@ -2129,6 +2576,13 @@
 					},
 					"width": 1000,
 					"height": 691
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Xanathar.webp"
+					}
 				}
 			]
 		},
@@ -2204,6 +2658,13 @@
 					},
 					"width": 734,
 					"height": 948
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WDH/Yalah%20Gralhund.webp"
+					}
 				}
 			]
 		},

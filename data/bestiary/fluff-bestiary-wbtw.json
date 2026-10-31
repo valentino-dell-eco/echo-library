@@ -233,6 +233,47 @@
 			]
 		},
 		{
+			"name": "Detached Shadow",
+			"source": "WBtW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Shadows are undead that resemble dark exaggerations of humanoid shadows.",
+								{
+									"type": "entries",
+									"name": "Dark Disposition",
+									"entries": [
+										"From the darkness, the shadow reaches out to feed on living creatures' vitality. They can consume any living creature, but they are especially drawn to creatures untainted by evil. A creature that lives a life of goodness and piety consigns its basest impulses and strongest temptations to the darkness where the shadows hunger. As a shadow drains its victim's strength and physical form, the victim's shadow darkens and begins to move of its own volition. In death, the creature's shadow breaks free, becoming a new undead shadow hungry for more life to consume.",
+										"If a creature from which a shadow has been created somehow returns to life, its undead shadow senses the return. The shadow might seek its \"parent\" to vex or slay. Whether the shadow pursues its living counterpart, the creature that birthed the shadow no longer casts one until the monster is destroyed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A shadow doesn't require air, food, drink, or sleep"
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WBtW/Detached%20Shadow.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Displacer Beast Kitten",
 			"source": "WBtW",
 			"images": [
@@ -981,6 +1022,13 @@
 					"width": 850,
 					"height": 1063,
 					"credit": "Axel Defois"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WBtW/Thinnings.webp"
+					}
 				}
 			]
 		},
@@ -1050,7 +1098,77 @@
 			]
 		},
 		{
+			"name": "Will-o'-Wells",
+			"source": "WBtW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Will-o'-wisps are malevolent, wispy balls of light that haunt lonely places and battlefields, bound by dark fate or dark magic to feed on fear and despair.",
+								{
+									"type": "entries",
+									"name": "Hope and Doom",
+									"entries": [
+										"Will-o'-wisps look like bobbing lantern lights in the distance, although they can choose to alter their colors, or wink out completely. When they activate their lights, will-o'-wisps offer hope, hinting of safety to creatures that follow them.",
+										"Will-o'-wisps lure unwary creatures into quicksand pits, monster lairs, and other dangerous places so that they can feed on the suffering of their prey and revel in their death screams. An evil being that falls prey to a will-o'-wisp might become a wisp itself, its woeful spirit coalescing above its lifeless corpse like a flickering flame.",
+										{
+											"type": "entries",
+											"name": "Consumed by Despair",
+											"entries": [
+												"Will-o'-wisps are the souls of evil beings that perished in anguish or misery as they wandered forsaken lands permeated with powerful magic. They thrive in swampy bogs and bone-strewn battlefields where the oppressive weight of sorrow stoops even heavier than the low-hanging mist and fog. Trapped in these desolate places of lost hope and memory, will-o'-wisps lure other creatures toward dismal fates and feed on their misery."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Agents of Evil",
+									"entries": [
+										"Will-o'-wisps rarely speak, but when they do, their voices sound like faint or distant whispers. In the miserable domains they haunt, will-o'-wisps sometimes form symbiotic relationships with their wicked neighbors. Hags, oni, black dragons, and evil cultists work with will-o'-wisps to draw creatures into ambush. As their evil allies surround and slaughter creatures, the wisps hover above them, drinking the agony of a last breath and savoring the sensation as the light of life goes out in a creature's eyes."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A will-o'-wisp doesn't require air, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/WBtW/Will-o'-Wells.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Witchlight Hand (Medium)",
+			"source": "WBtW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Witchlight hands are the backbone of the Witchlight Carnival, a motley collection of individuals who operate many of the booths, make repairs, feed and exercise the animals, keep an eye out for thieves and other miscreants, and perform other miscellaneous tasks as Mister Witch dictates. A few also work part-time as performers and attractions. Although they travel to many worlds throughout the Material Plane, Witchlight hands rarely leave the carnival grounds. The carnival is the only world they know and care about.",
+						"All hands enter into an agreement when they join the carnival: they must never harm another staff member, and they can't leave the carnival for more than a day at a time. (A longer absence is equivalent to resignation, in Mister Witch's estimation.) On-duty staff members are required to wear fake butterfly wings strapped to their backs. Mister Witch and Mister Light also furnish them with small amounts of pixie dust (see appendix A).",
+						"Witchlight hands are paid only a small fraction of the carnival's profits, but it's enough to keep them fed, clothed, and cared for. Some hands work longer hours or do extra chores to pay off debts and loans.",
+						"Most Witchlight hands are taught how to perform minor magic tricks, which they use to amuse themselves as well as entertain the masses."
+					]
+				}
+			]
+		},
+		{
+			"name": "Witchlight Hand (Small)",
 			"source": "WBtW",
 			"entries": [
 				{

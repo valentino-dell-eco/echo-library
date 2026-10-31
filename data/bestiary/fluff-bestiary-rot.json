@@ -1,6 +1,278 @@
 {
 	"monsterFluff": [
 		{
+			"name": "Animated Tile Chimera",
+			"source": "RoT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Chimeras were created after mortals summoned Demogorgon to the world. The Prince of Demons, unimpressed with the creatures that surrounded it, transformed them into horrific, multi-headed monstrosities. This act gave rise to the first chimeras.",
+								"Gifted with demonic cruelty, a chimera serves as a grim reminder of what happens when demon princes find their way to the Material Plane. A typical specimen has the hindquarters of a large goat, the forequarters of a lion, and the leathery wings of a dragon, along with the heads of all three of those creatures. The monster likes to surprise its victims, swooping down from the sky and engulfing prey with its fiery breath before landing.",
+								{
+									"type": "entries",
+									"name": "Conflicted Creature",
+									"entries": [
+										"A chimera combines the worst aspects of its three parts. Its dragon head drives it to raid, plunder, and accumulate a great hoard. Its leonine nature compels it to hunt and kill powerful creatures that threaten its territory. Its goat head grants it a vicious, stubborn streak that compels it to fight to the death. These three aspects drive a chimera to stake out a territory that is as large as 10 miles wide. It preys on wild game, viewing more powerful creatures as rivals to be humiliated and defeated. Its greatest rivals are dragons, griffons, manticores, perytons, and wyverns. When it hunts, the chimera looks for easy ways to amuse itself. It enjoys the fear and suffering of weaker creatures. The monster often toys with its prey, breaking off an attack prematurely and leaving a creature wounded and terrified before returning to finish it off."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Servant of Evil",
+									"entries": [
+										"Though chimeras are far from cunning, their draconic ego makes them susceptible to flattery and gifts. If offered food and treasure, a chimera might spare a traveler. A villain can lure a chimera into service by keeping it well fed and its treasure hoard well stocked."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RoT/Animated%20Tile%20Chimera.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Aquatic Troll",
+			"source": "RoT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Born with horrific appetites, trolls eat anything they can catch and devour. They have no society to speak of, but they do serve as mercenaries to orcs, ogres, ettins, hags, and giants. As payment, trolls demand food and treasure. Trolls are difficult to control, however, doing as they please even when working with more powerful creatures.",
+								{
+									"type": "entries",
+									"name": "Regeneration",
+									"entries": [
+										"Smashing a troll's bones and slashing through its rubbery hide only makes it angry. A troll's wounds close quickly. If the monster loses an arm, a leg, or even its head, those dismembered parts can sometimes act with a life of their own. A troll can even reattach severed body parts, untroubled by its momentary disability. Only acid and fire can arrest the regenerative properties of a troll's flesh. The trolls, enraged, will attack individuals making acid and fire attacks against them above all other prey."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Troll Freaks",
+									"entries": [
+										"Their regenerative capabilities make trolls especially susceptible to mutation. Although uncommon, such transformations can result from what the troll has done or what has been done to it. A decapitated troll might grow two heads from the stump of its neck, while a troll that eats a fey creature might gain one or more of that creature's traits."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RoT/Aquatic%20Troll.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Carnivorous Flower",
+			"source": "RoT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"An otyugh is a grotesque, bulbous creature borne along on three sturdy legs, its eyes and nose set along a vine-like stalk that snakes from the top of its bloated body. Two rubbery tentacles end in spiky, leaf-like appendages that the otyugh uses to shovel food into its gaping maw.",
+								"An otyugh buries itself under mounds of offal and carrion, leaving only its sensory stalk exposed. When an edible creature happens by, the otyugh's tentacles erupt from the filth and grab hold of it.",
+								"Otyughs make the most of any opportunity to ambush and devour prey. They use a limited form of telepathy to urge sentient creatures toward their lairs, sometimes by pretending to be something else.",
+								{
+									"type": "entries",
+									"name": "Dwellers in Darkness",
+									"entries": [
+										"Otyughs tolerate bright light only when considerable stores of carrion or garbage lie within reach. In the wilderness, they dwell in stagnant swamps, scum-filled ponds, and damp forest dells. The scent of graveyards, city sewers, village middens, and manure-filled animal pens attracts them to civilized areas.",
+										"Since otyughs lack concern for anything but food, their nests sometimes accumulate a variety of treasures shed from their victims and mixed among the junk."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Symbiotic Guardians",
+									"entries": [
+										"Sentient subterranean beings can coexist with otyughs, employing them as garbage disposals. With such plentiful sustenance, otyughs grow fat in their wallows, unmoved by any other drive or desire. This sedentary gluttony makes them reliable guardians. As long as it is fed, an otyugh refrains from attacking other creatures. However, would-be otyugh masters can easily underestimate the quantity of waste, carrion, and meat necessary to keep an otyugh from wandering off in search of food. More than one \"trained\" otyugh has eaten its keeper after devouring all the waste in its wallow."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RoT/Carnivorous%20Flower.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Diderius",
+			"source": "RoT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Raised by dark funerary rituals, a mummy shambles from the shrouded stillness of a time-lost temple or tomb. Having been awoken from its rest, it punishes transgressors with the power of its unholy curse.",
+								{
+									"type": "entries",
+									"name": "Preserved Wrath",
+									"entries": [
+										"The long burial rituals that accompany a mummy's entombment help protect its body from rot. In the embalming process, the newly dead creature's organs are removed and placed in special jars, and its corpse is treated with preserving oils, herbs, and wrappings. After the body has been prepared, the corpse is typically wrapped in linen bandages."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Will of Dark Gods",
+									"entries": [
+										"An undead mummy is created when the priest of a death god or other dark deity ritually imbues a prepared corpse with necromantic magic. The mummy's linen wrappings are inscribed with necromantic markings before the burial ritual concludes with an invocation to darkness. As a mummy endures in undeath, it animates in response to conditions specified by the ritual. Most commonly, a transgression against its tomb, treasures, lands, or former loved ones will cause a mummy to rise."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Punished",
+									"entries": [
+										"Once deceased, an individual has no say in whether or not its body is made into a mummy. Some mummies were powerful individuals who displeased a high priest or pharaoh, or who committed crimes of treason, adultery, or murder. As punishment, they were cursed with eternal undeath, embalmed, mummified, and sealed away. Other times, mummies acting as tomb guardians are created from slaves put to death specifically to serve a greater purpose."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Creature of Ritual",
+									"entries": [
+										"A mummy obeys the conditions and parameters laid down by the rituals that created it, driven only to punish transgressors. The overwhelming terror that foreshadows a mummy's attack can leave the intended victim paralyzed with fright. In the days following a mummy's touch, a victim's body rots from the outside in, until nothing but dust remains."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ending a Mummy's Curse",
+									"entries": [
+										"Rare magic can undo or dispel the ritual that gave rise to a mummy, allowing it to truly die. More commonly, a mummy can be sent back to its endless rest by undoing the transgression that caused it to rise. A sacred idol might be replaced in its niche, a stolen treasure could be returned to its tomb, or a temple might be purified of despoiling bloodshed.",
+										"More ephemeral or permanent offenses, such as revealing a secret the mummy wished kept or killing an individual the mummy loved, can't be so easily remedied. In such cases, a mummy might slaughter all the creatures responsible and still not sate its wrath."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Archives",
+									"entries": [
+										"Though they seldom bother to do so, mummies can speak. As a result, some serve as undead repositories of lost lore, and can be consulted by the descendants of those who created them. Powerful individuals sometimes intentionally sequester mummies away for occasional consultation."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A mummy doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Before opening a sarcophagus, light a torch."
+									],
+									"by": "X the Mystic's 7th rule of dungeon survival"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RoT/Diderius.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Half-Blue Dragon Gladiator",
+			"source": "RoT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Gladiators battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-or-death struggle, while others are professional duelists who command huge fees but rarely fight to the death."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Half-Green Dragon Assassin",
+			"source": "RoT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RoT/Half-Green%20Dragon%20Assassin.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Half-Red Dragon Gladiator",
+			"source": "RoT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Gladiators battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-or-death struggle, while others are professional duelists who command huge fees but rarely fight to the death."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Ice Toad",
 			"source": "RoT",
 			"entries": [
@@ -36,6 +308,13 @@
 					},
 					"width": 714,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RoT/Iskander.webp"
+					}
 				}
 			]
 		},
@@ -51,6 +330,54 @@
 					},
 					"width": 697,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RoT/Maccath%20the%20Crimson.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Marfulb",
+			"source": "RoT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Arauthator has attracted a number of ice toads to Oyaviggaton, where they help to maintain the iceberg and the dragon's many treasures and trophies. The ice toads are good at this job, thanks to their exceptionally intelligent leader, Marfulb.",
+										"Feeding on seals, sea birds, and fish caught for them by the Ice Hunters, Oyaviggaton's ice toads are not automatically hostile to strangers. Once characters get inside Arauthator's lair, they might find that these creatures can be helpful to their quest. Ice toads normally speak only their own obscure language. Those in Oyaviggaton know a little Draconic and Uluik (the language of the Ice Hunters), but their accents are thick and their pronunciation atrocious. Marfulb is fluent in Draconic thanks to many hours spent conversing with Arauthator.",
+										"When the characters encounter ice toads, their intelligence won't be apparent until they act or attempt to speak. Even then, characters might not recognize the ice toads' croaking as language. Ice toads move on all fours, but their webbed front feet are surprisingly dexterous. Some carry tools and useful items in pouches slung around their necks."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mend-nets",
+			"source": "RoT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Tribal warriors live beyond civilization, most often subsisting on fishing and hunting. Each tribe acts in accordance with the wishes of its chief, who is the greatest or oldest warrior of the tribe or a tribe member blessed by the gods."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -85,6 +412,36 @@
 			]
 		},
 		{
+			"name": "Paper Whirlwind",
+			"source": "RoT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RoT/Paper%20Whirlwind.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Red Wizard",
+			"source": "RoT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Severin",
 			"source": "RoT",
 			"entries": [
@@ -105,6 +462,66 @@
 					},
 					"width": 667,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Sled Dog",
+			"source": "RoT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RoT/Sled%20Dog.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Snake Horror",
+			"source": "RoT",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"This construct possesses intelligence, the ability to reason and adjust its tactics, and an unswerving devotion to its maker that persists even after its maker's demise. Resembling an animated suit of empty plate armor, a helmed horror serves without ambition or emotion.",
+								{
+									"type": "entries",
+									"name": "Magical Purpose",
+									"entries": [
+										"Though it takes more magical resources to create a helmed horror than a lesser suit of animated armor, the helmed horror requires less direction and maintenance as it carries out its appointed tasks. A helmed horror follows its orders with complete loyalty, and is intelligent enough to understand the difference between an order's intent and its exact wording. Unlike many constructs, it seeks to fulfill the former rather than slavishly follow the latter."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Tactical Cunning",
+									"entries": [
+										"A helmed horror fights with the cunning of a skilled warrior, taking to the air as it attacks weaker characters and spellcasters first. However, a helmed horror lacks the insight to change its environment, fortify it, or otherwise take active measures to improve its defensive position."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Constructed Nature",
+									"entries": [
+										"A helmed horror doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RoT/Snake%20Horror.webp"
+					}
 				}
 			]
 		},
@@ -135,6 +552,13 @@
 					},
 					"width": 796,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RoT/Varram.webp"
+					}
 				}
 			]
 		}

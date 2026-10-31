@@ -1075,13 +1075,9 @@
 			"hasFluffImages": true
 		},
 		{
+			"lineage": null,
 			"name": "Boggart",
 			"source": "LFL",
-			"_copy": {
-				"name": "Goblin",
-				"source": "MPMM"
-			},
-			"lineage": null,
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -3934,82 +3930,9 @@
 			"hasFluffImages": true
 		},
 		{
+			"lineage": null,
 			"name": "Faerie",
 			"source": "LFL",
-			"_copy": {
-				"name": "Fairy",
-				"source": "MPMM",
-				"_mod": {
-					"entries": {
-						"mode": "appendArr",
-						"items": {
-							"type": "entries",
-							"name": "Faerie Lineage",
-							"entries": [
-								"As a native of either Lorwyn and Shadowmoor, you may gain additional traits.",
-								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"name": "Lorwyn",
-											"entries": [
-												"You do not gain any additional traits."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Shadowmoor",
-											"entries": [
-												"You have {@sense Darkvision|XPHB} with a range of 120 feet."
-											]
-										}
-									]
-								}
-							]
-						}
-					}
-				}
-			},
-			"lineage": null,
-			"_versions": [
-				{
-					"name": "Faerie; Lorwyn",
-					"source": "LFL",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "removeArr",
-								"names": "Faerie Lineage"
-							}
-						]
-					}
-				},
-				{
-					"name": "Faerie; Shadowmoor",
-					"source": "LFL",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "prependArr",
-								"items": {
-									"type": "entries",
-									"name": "Darkvision",
-									"entries": [
-										"You have {@sense Darkvision|XPHB} with a range of 120 feet."
-									]
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Faerie Lineage"
-							}
-						]
-					},
-					"darkvision": 120
-				}
-			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -4352,34 +4275,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Flamekin",
-			"source": "LFL",
-			"_copy": {
-				"name": "Genasi",
-				"source": "MPMM",
-				"_mod": {
-					"entries": {
-						"mode": "appendArr",
-						"items": [
-							{
-								"type": "entries",
-								"name": "Fire Resistance",
-								"entries": [
-									"You have resistance to fire damage."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Reach to the Blaze",
-								"entries": [
-									"You know the {@spell produce flame|XPHB} cantrip. Starting at 3rd level, you can cast the {@spell burning hands|XPHB} spell with this trait. Starting at 5th level, you can also cast the {@spell flame blade|XPHB} spell with this trait, without a material component. Once you cast {@spell burning hands|XPHB} or {@spell flame blade|XPHB} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
-									"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
-								]
-							}
-						]
-					}
-				}
-			},
 			"lineage": null,
 			"resist": [
 				"fire"
@@ -4416,6 +4311,8 @@
 					}
 				}
 			],
+			"name": "Flamekin",
+			"source": "LFL",
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -5409,47 +5306,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Goblin (Dankwood)",
-			"source": "AWM",
-			"page": 35,
-			"_copy": {
-				"name": "Goblin",
-				"source": "VGM",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "replaceTxt",
-							"replace": "Goblins",
-							"with": "Dankwood goblins",
-							"flags": "i"
-						},
-						{
-							"mode": "appendArr",
-							"items": {
-								"name": "Alignment",
-								"type": "entries",
-								"entries": [
-									"Dankwood goblins are typically neutral or neutral good, though some mischievous Dankwood goblins are chaotic neutral."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Fury of the Small",
-							"items": {
-								"name": "Speak with Small Beasts",
-								"type": "entries",
-								"entries": [
-									"Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Dankwood goblins love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
-								]
-							}
-						}
-					]
-				},
-				"_preserve": {
-					"reprintedAs": true
-				}
-			},
 			"ability": [
 				{
 					"dex": 2,
@@ -5457,10 +5313,9 @@
 				}
 			],
 			"heightAndWeight": null,
-			"soundClip": {
-				"type": "internal",
-				"path": "races/goblin.opus"
-			},
+			"name": "Goblin (Dankwood)",
+			"source": "AWM",
+			"page": 35,
 			"hasFluff": true
 		},
 		{
@@ -6847,48 +6702,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Human (Ixalan)",
-			"source": "PSX",
-			"page": 11,
-			"_copy": {
-				"name": "Human",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "appendArr",
-							"items": {
-								"name": "Alignment",
-								"type": "entries",
-								"entries": [
-									"Humans tend toward no particular alignment. The best and the worst are found among them."
-								]
-							}
-						},
-						{
-							"mode": "appendArr",
-							"items": {
-								"name": "Speed",
-								"type": "entries",
-								"entries": [
-									"Your base walking speed is 30 feet."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Languages",
-							"items": {
-								"name": "Languages",
-								"type": "entries",
-								"entries": [
-									"You can speak, read, and write {@language Common} and one extra language of your choice. Or, if your campaign uses the optional rules for languages found in the previous section, your national origin determines your native language: {@language Itzocan|PSX} for the Sun Empire, {@language Coalition pidgin|PSX} for the Brazen Coalition, or {@language Vampire|PSX} for the Legion of Dusk. You still speak one additional language of your choice, and {@language Common Trade Pidgin|PSX|Common} if it exists in your campaign."
-								]
-							}
-						}
-					]
-				}
-			},
 			"ability": [
 				{
 					"str": 1,
@@ -6910,94 +6723,30 @@
 					"anyStandard": 1
 				}
 			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/human.opus"
-			},
+			"name": "Human (Ixalan)",
+			"source": "PSX",
+			"page": 11,
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
+			"ability": [
+				{
+					"str": 1,
+					"dex": 1,
+					"con": 1,
+					"int": 1,
+					"wis": 1,
+					"cha": 1
+				}
+			],
 			"name": "Human (Kaladesh)",
 			"source": "PSK",
 			"page": 22,
-			"_copy": {
-				"name": "Human",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "appendArr",
-							"items": {
-								"name": "Alignment",
-								"type": "entries",
-								"entries": [
-									"Humans tend toward no particular alignment."
-								]
-							}
-						},
-						{
-							"mode": "appendArr",
-							"items": {
-								"name": "Speed",
-								"type": "entries",
-								"entries": [
-									"Your base walking speed is 30 feet."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Languages",
-							"items": {
-								"name": "Languages",
-								"type": "entries",
-								"entries": [
-									"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Dwarvish curses, Elvish musical expressions, {@race Vedalken|PSK} scholarly jargon, and so on."
-								]
-							}
-						}
-					]
-				}
-			},
-			"ability": [
-				{
-					"str": 1,
-					"dex": 1,
-					"con": 1,
-					"int": 1,
-					"wis": 1,
-					"cha": 1
-				}
-			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/human.opus"
-			},
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Human (Zendikar)",
-			"source": "PSZ",
-			"page": 9,
-			"_copy": {
-				"name": "Human",
-				"source": "PHB",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Languages",
-						"items": {
-							"name": "Languages",
-							"entries": [
-								"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: vampire curses, Elvish musical expressions, merfolk scholarly jargon, and so on."
-							],
-							"type": "entries"
-						}
-					}
-				}
-			},
 			"ability": [
 				{
 					"str": 1,
@@ -7008,10 +6757,9 @@
 					"cha": 1
 				}
 			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/human.opus"
-			},
+			"name": "Human (Zendikar)",
+			"source": "PSZ",
+			"page": 9,
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -7595,82 +7343,9 @@
 			"hasFluffImages": true
 		},
 		{
+			"darkvision": 120,
 			"name": "Kithkin",
 			"source": "LFL",
-			"_copy": {
-				"name": "Halfling",
-				"source": "XPHB",
-				"_mod": {
-					"entries": {
-						"mode": "appendArr",
-						"items": {
-							"type": "entries",
-							"name": "Kithkin Lineage",
-							"entries": [
-								"As a native of either Lorwyn and Shadowmoor, you may gain additional traits.",
-								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"name": "Lorwyn",
-											"entries": [
-												"You do not gain any additional traits."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Shadowmoor",
-											"entries": [
-												"You have {@sense Darkvision|XPHB} with a range of 120 feet."
-											]
-										}
-									]
-								}
-							]
-						}
-					}
-				}
-			},
-			"darkvision": 120,
-			"_versions": [
-				{
-					"name": "Kithkin; Lorwyn",
-					"source": "LFL",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "removeArr",
-								"names": "Kithkin Lineage"
-							}
-						]
-					}
-				},
-				{
-					"name": "Kithkin; Shadowmoor",
-					"source": "LFL",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "prependArr",
-								"items": {
-									"type": "entries",
-									"name": "Darkvision",
-									"entries": [
-										"You have {@sense Darkvision|XPHB} with a range of 120 feet."
-									]
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Kithkin Lineage"
-							}
-						]
-					},
-					"darkvision": 120
-				}
-			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -13129,48 +12804,76 @@
 			"name": "Amonkhet",
 			"source": "PSA",
 			"page": 14,
-			"_copy": {
-				"name": "Variant",
-				"source": "PHB",
-				"raceName": "Human",
-				"raceSource": "PHB",
-				"_mod": {
+			"raceName": "Human",
+			"raceSource": "PHB",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"feats": [
+				{
+					"any": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Skills",
 					"entries": [
-						{
-							"mode": "appendArr",
-							"items": [
-								{
-									"name": "Age",
-									"type": "entries",
-									"entries": [
-										"Humans reach adulthood in their late teens. Most human initiates have completed the trials and found a glorious or inglorious death before they turn 30. Viziers can enjoy longer service to their gods, in theory living up to a century."
-									],
-									"data": {
-										"overwrite": "Age"
-									}
-								},
-								{
-									"name": "Languages",
-									"entries": [
-										"You can speak, read, and write Common and one extra language of your choice."
-									],
-									"type": "entries",
-									"data": {
-										"overwrite": "Languages"
-									}
-								},
-								{
-									"name": "Alignment",
-									"type": "entries",
-									"entries": [
-										"Humans tend toward no particular alignment. The best and the worst are found among them."
-									]
-								}
-							]
-						}
+						"You gain proficiency in one skill of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feat",
+					"entries": [
+						"You gain one {@5etools feat|feats.html} of your choice."
+					]
+				},
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Humans reach adulthood in their late teens. Most human initiates have completed the trials and found a glorious or inglorious death before they turn 30. Viziers can enjoy longer service to their gods, in theory living up to a century."
+					],
+					"data": {
+						"overwrite": "Age"
+					}
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one extra language of your choice."
+					],
+					"type": "entries",
+					"data": {
+						"overwrite": "Languages"
+					}
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Humans tend toward no particular alignment. The best and the worst are found among them."
 					]
 				}
-			}
+			]
 		},
 		{
 			"name": "Fallen",

@@ -78,7 +78,8 @@
 			],
 			"damageTags": [
 				"S"
-			]
+			],
+			"cr": "0"
 		},
 		{
 			"name": "Mercenary (Scout)",
@@ -158,7 +159,8 @@
 			],
 			"damageTags": [
 				"P"
-			]
+			],
+			"cr": "0"
 		}
 	]
 }

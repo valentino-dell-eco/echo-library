@@ -48,6 +48,13 @@
 					},
 					"width": 850,
 					"height": 540
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RMBRE/Large%20Mimic.webp"
+					}
 				}
 			]
 		},
@@ -115,6 +122,30 @@
 					},
 					"width": 792,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RMBRE/Lycanthropickle.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Meeseeks",
+			"source": "RMBRE",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -165,6 +196,13 @@
 					},
 					"width": 623,
 					"height": 800
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RMBRE/Tommy%20Two-Butts.webp"
+					}
 				}
 			]
 		}

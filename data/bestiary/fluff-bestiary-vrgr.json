@@ -1240,6 +1240,13 @@
 					"width": 850,
 					"height": 839,
 					"credit": "Steven Oakley"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/VRGR/The%20Bagman.webp"
+					}
 				}
 			]
 		},

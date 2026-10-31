@@ -175,26 +175,189 @@
 			"hasFluffImages": true
 		},
 		{
+			"tokenCustom": true,
 			"name": "Aberrant Zealot (Tentacled)",
 			"source": "PaBTSO",
 			"page": 181,
-			"_copy": {
-				"name": "Aberrant Zealot",
-				"source": "PaBTSO",
-				"_mod": {
-					"action": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Mind Blast {@recharge 5}",
-							"entries": [
-								"The zealot magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 22 ({@damage 4d8 + 4}) psychic damage and have the {@condition stunned} condition for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the {@condition stunned} condition on itself on a success."
-							]
-						}
-					}
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|PHB}"
+					]
 				}
+			],
+			"hp": {
+				"average": 93,
+				"formula": "17d8 + 17"
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 18,
+			"con": 12,
+			"int": 13,
+			"wis": 8,
+			"cha": 19,
+			"save": {
+				"dex": "+7",
+				"cha": "+7"
+			},
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"truesight 10 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened",
+				"grappled",
+				"restrained"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The zealot casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+					],
+					"will": [
+						"{@spell detect thoughts}",
+						"{@spell minor illusion}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell arcane gate}",
+							"{@spell hunger of Hadar}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Aberrant Form",
+					"entries": [
+						"The zealot exudes the chaos of the Far Realm. Any non-Aberration creature that starts its turn within 5 feet of the zealot must succeed on a {@dc 15} Wisdom saving throw or take 7 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Weirdly Pliable",
+					"entries": [
+						"The zealot, along with any equipment it is wearing or carrying, is unnaturally flexible. The zealot can move through any space as narrow as 1 inch without squeezing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The zealot makes one Psychic Rend attack and two Shortsword attacks."
+					]
+				},
+				{
+					"name": "Psychic Rend",
+					"entries": [
+						"{@atk ms,rs} {@hit 7} to hit, reach 15 ft. or range 120 ft., one target. {@h}14 ({@damage 3d6 + 4}) psychic damage, and the target must succeed on a {@dc 15} Wisdom saving throw or have the {@condition stunned} condition until the start of the zealot's next turn."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Mind Blast {@recharge 5}",
+					"entries": [
+						"The zealot magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 22 ({@damage 4d8 + 4}) psychic damage and have the {@condition stunned} condition for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the {@condition stunned} condition on itself on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Void Warp {@recharge 5}",
+					"entries": [
+						"The zealot teleports, along with any equipment it is wearing or carrying, to an unoccupied space it can see within 120 feet of itself, leaving a churning void in the space it left. Immediately after it teleports, each creature within 30 feet of the void other than the zealot must make a {@dc 15} Strength saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) force damage and is pulled to the unoccupied space closest to the void. On a successful save, the creature takes half as much damage only. The void then disappears."
+					]
+				}
+			],
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DS"
+			],
+			"damageTags": [
+				"O",
+				"P",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C"
+			],
+			"spellcastingTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"blinded"
+			],
+			"savingThrowForced": [
+				"strength",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Aberrant%20Zealot%20(Tentacled).webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"size": [
@@ -285,20 +448,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Brain Breaker",
-			"source": "PaBTSO",
-			"page": 199,
-			"_copy": {
-				"name": "Infected Elder Brain",
-				"source": "PaBTSO",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "elder brain",
-						"with": "brain breaker"
-					}
-				}
-			},
 			"ac": [
 				{
 					"ac": 14,
@@ -317,64 +466,439 @@
 			},
 			"cr": "12",
 			"tokenCustom": true,
+			"name": "Brain Breaker",
+			"source": "PaBTSO",
+			"page": 199,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"mind flayer"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"hp": {
+				"average": 189,
+				"formula": "18d10 + 90"
+			},
+			"str": 15,
+			"dex": 10,
+			"con": 20,
+			"int": 21,
+			"wis": 19,
+			"cha": 20,
+			"save": {
+				"int": "+9",
+				"wis": "+8",
+				"cha": "+9"
+			},
+			"skill": {
+				"arcana": "+9",
+				"insight": "+12"
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"telepathy 1 mile; understands Common",
+				"Deep Speech",
+				"and Undercommon but can't speak"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The brain breaker casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"will": [
+						"{@spell detect thoughts}",
+						"{@spell levitate}"
+					],
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Creature Sense",
+					"entries": [
+						"The brain breaker is aware of creatures within 1 mile of itself that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a {@spell mind blank} spell, a {@spell nondetection} spell, or similar magic can't be perceived in this manner."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The brain breaker has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Telepathic Hub",
+					"entries": [
+						"The brain breaker can use its telepathy to initiate and maintain telepathic conversations with up to ten creatures at a time. The brain breaker can let those creatures telepathically hear each other while connected in this way."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The brain breaker makes two Tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 30 ft., one target. {@h}15 ({@damage 3d8 + 2}) bludgeoning damage. If the target is a Huge or smaller creature, it has the {@condition grappled} condition (escape {@dc 14}) and takes 9 ({@damage 1d8 + 5}) psychic damage at the start of each of its turns until the grapple ends. The brain breaker can have up to four targets {@condition grappled} at a time."
+					]
+				},
+				{
+					"name": "Mind Blast {@recharge 5}",
+					"entries": [
+						"Creatures of the brain breaker's choice within 60 feet of itself must succeed on a {@dc 17} Intelligence saving throw or take 32 ({@damage 5d10 + 5}) psychic damage and have the {@condition stunned} condition for 1 minute. A {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Psychic Link",
+					"entries": [
+						"The brain breaker targets one creature with the {@condition incapacitated} condition that the brain breaker senses with its Creature Sense trait and establishes a psychic link with the target. Until the link ends, the brain breaker can perceive everything the target senses. The target becomes aware that something is linked to its mind once it no longer has the {@condition incapacitated} condition, and the brain breaker can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the link, doing so with a successful {@dc 17} Charisma check. If the target breaks the link this way, the target takes 10 ({@damage 3d6}) psychic damage. The link also ends if the target and the brain breaker are more than 1 mile apart. The brain breaker can form psychic links with up to ten creatures at a time."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags": [
+				"C",
+				"CS",
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"spellcastingTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"savingThrowForced": [
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Brain%20Breaker.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
 		{
-			"name": "Chishinix",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Chishinix",
 			"source": "PaBTSO",
 			"page": 194,
-			"_copy": {
-				"name": "Mind Flayer Clairvoyant",
-				"source": "PaBTSO",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mind flayer",
-						"with": "Chishinix",
-						"flags": "i"
-					},
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Severed Head",
-							"entries": [
-								"Chishinix is always accompanied by a {@creature Chishinix' Head|PaBTSO|severed head}."
-							]
-						}
-					}
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item breastplate|PHB}"
+					]
 				}
+			],
+			"hp": {
+				"average": 156,
+				"formula": "24d8 + 48"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 15,
+			"int": 21,
+			"wis": 17,
+			"cha": 18,
+			"save": {
+				"int": "+9",
+				"wis": "+7",
+				"cha": "+8"
+			},
+			"skill": {
+				"arcana": "+9",
+				"insight": "+7",
+				"perception": "+7",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 15 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Deep Speech",
+				"telepathy 120 ft.",
+				"Undercommon"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Chishinix casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell mage hand} (the hand is invisible)"
+					],
+					"daily": {
+						"1": [
+							"{@spell plane shift} (self only)"
+						],
+						"3e": [
+							"{@spell clairvoyance} (as an action)",
+							"{@spell dispel magic}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Chishinix fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Chishinix has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Severed Head",
+					"entries": [
+						"Chishinix is always accompanied by a {@creature Chishinix' Head|PaBTSO|severed head}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Chishinix makes two Tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}21 ({@damage 3d10 + 5}) psychic damage. If the target is Medium or smaller, it has the {@condition grappled} condition (escape {@dc 17}) and must succeed on a {@dc 17} Intelligence saving throw or have the {@condition incapacitated} condition until the grapple ends."
+					]
+				},
+				{
+					"name": "Extract Brain",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one {@condition incapacitated} Humanoid {@condition grappled} by Chishinix. {@h}55 ({@damage 10d10}) piercing damage. If this damage reduces the target to 0 hit points, Chishinix kills it by extracting and devouring its brain."
+					]
+				},
+				{
+					"name": "Unleash Void {@recharge 5}",
+					"entries": [
+						"Chishinix opens a rift into the Far Realm, centered on a point Chishinix can see within 60 feet of itself, and a tentacle lashes across creatures near the rift. Each creature other than mind flayers within 30 feet of the rift must make a {@dc 17} Intelligence saving throw, after which the tentacle disappears and the rift closes. On a failed save, a creature takes 18 ({@damage 4d8}) cold damage from the rift plus 18 ({@damage 4d8}) psychic damage from the tentacle and has the {@condition stunned} condition for 1 minute. On a successful save, a creature takes half as much damage only. A {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Warp Reality",
+					"entries": [
+						"When hit by an attack roll, Chishinix gains a +4 bonus to its AC against that attack roll, potentially causing it to miss. Then Chishinix, along with any equipment it is wearing or carrying, magically teleports up to 60 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags": [
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"C",
+				"P",
+				"Y"
+			],
+			"spellcastingTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"incapacitated",
+				"stunned"
+			],
+			"savingThrowForced": [
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Chishinix.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Chishinix' Head",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "PaBTSO",
-			"page": 194,
-			"_copy": {
-				"name": "Encephalon Gemmule",
-				"source": "PaBTSO",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "gemmule",
-						"with": "head"
-					},
-					"trait": {
-						"mode": "removeArr",
-						"names": "Encephalon Progeny"
-					}
-				}
-			},
 			"speed": {
 				"walk": 10
 			},
-			"hasToken": true
+			"name": "Chishinix' Head",
+			"source": "PaBTSO",
+			"page": 194,
+			"size": [
+				"T"
+			],
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 54,
+				"formula": "12d4 + 24"
+			},
+			"str": 1,
+			"dex": 18,
+			"con": 14,
+			"int": 5,
+			"wis": 12,
+			"cha": 7,
+			"senses": [
+				"blindsight 30 ft. (can't see beyond this radius)"
+			],
+			"passive": 11,
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The head has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Psychic Slam",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d10}) psychic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Leech",
+					"entries": [
+						"The head targets one creature within 5 feet of itself and forces the target to make a {@dc 14} Dexterity saving throw. On a failed save, the head enters the target's space and attaches to the target. While the head is attached, the target takes 7 ({@damage 3d4}) piercing damage at the start of each of its turns, and the head can't use Leech again until it detaches. It can detach itself by spending 5 feet of its movement. As an action, the target or a creature within 5 feet of the target can detach the head by succeeding on a {@dc 15} Strength check."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"P",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Chishinix'%20Head.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Cloaker Mutate",
@@ -1137,27 +1661,144 @@
 			"hasFluffImages": true
 		},
 		{
+			"tokenCustom": true,
 			"name": "Goblin Boss Archer",
 			"source": "PaBTSO",
 			"page": 60,
-			"_copy": {
-				"name": "Goblin Boss",
-				"source": "MM",
-				"_mod": {
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Javelin",
-						"items": {
-							"name": "Shortbow",
-							"entries": [
-								"{@atk rw} {@hit 4} to hit, range 80 ft./320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
-							]
-						}
-					}
-				}
+			"referenceSources": [
+				"BGDIA",
+				"GoS",
+				"IDRotF",
+				"KftGV",
+				"KKW",
+				"OotA",
+				"PaBTSO",
+				"SKT",
+				"TCE",
+				"ToA",
+				"WBtW",
+				"WDMM"
+			],
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item chain shirt|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 21,
+				"formula": "6d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 10,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The goblin makes two attacks with its scimitar. The second attack has disadvantage."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80 ft./320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Redirect Attack",
+					"entries": [
+						"When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"grassland",
+				"forest",
+				"hill"
+			],
+			"attachedItems": [
+				"javelin|phb",
+				"scimitar|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Goblin%20Boss%20Archer.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Goblin Psi Brawler",
@@ -1456,22 +2097,131 @@
 			"hasToken": true
 		},
 		{
-			"name": "Grandlejaw",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Grandlejaw",
 			"source": "PaBTSO",
 			"page": 121,
-			"_copy": {
-				"name": "Hydra",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the hydra",
-						"with": "Grandlejaw",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"DIP",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"LoX",
+				"MOT",
+				"PaBTSO",
+				"PotA",
+				"PSZ",
+				"SatO",
+				"SCC-ARiR",
+				"SLW",
+				"TftYP",
+				"TftYP-AtG",
+				"ToA",
+				"WDMM"
+			],
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 172,
+				"formula": "15d12 + 75"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 20,
+			"int": 2,
+			"wis": 10,
+			"cha": 7,
+			"skill": {
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"Grandlejaw can hold its breath for 1 hour."
+					]
+				},
+				{
+					"name": "Multiple Heads",
+					"entries": [
+						"Grandlejaw has five heads. While it has more than one head, Grandlejaw has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}.",
+						"Whenever Grandlejaw takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, Grandlejaw dies.",
+						"At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. Grandlejaw regains 10 hit points for each head regrown in this way."
+					]
+				},
+				{
+					"name": "Reactive Heads",
+					"entries": [
+						"For each head Grandlejaw has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+					]
+				},
+				{
+					"name": "Wakeful",
+					"entries": [
+						"While Grandlejaw sleeps, at least one of its heads is awake."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Grandlejaw makes as many bite attacks as it has heads."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"swamp"
+			],
+			"traitTags": [
+				"Hold Breath"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Grandlejaw.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
@@ -1613,122 +2363,740 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Gundren Rockseeker",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Gundren Rockseeker",
 			"source": "PaBTSO",
 			"page": 10,
-			"_copy": {
-				"name": "Commoner",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Mountain Dwarf",
-						"source": "PHB"
-					}
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DD",
+				"DIP",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"FS",
+				"GoS",
+				"GotSF",
+				"HFStCM",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"LLK",
+				"LMoP",
+				"LoX",
+				"MOT",
+				"NRH-CoI",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RMBRE",
+				"RoT",
+				"SatO",
+				"SCC-CK",
+				"SCC-TMM",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-THSoT",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"ToR",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
 				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "0",
+			"action": [
+				{
+					"name": "Club",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"desert",
+				"coastal",
+				"grassland",
+				"hill",
+				"urban",
+				"forest"
+			],
+			"attachedItems": [
+				"club|phb"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Gundren%20Rockseeker.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Gwyn Oresong",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "PaBTSO",
-			"page": 8,
-			"_copy": {
-				"name": "Acolyte",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Mountain Dwarf",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the acolyte",
-						"with": "Gwyn",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"N",
 				"G"
 			],
+			"name": "Gwyn Oresong",
+			"source": "PaBTSO",
+			"page": 8,
+			"referenceSources": [
+				"BGDIA",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"SjA",
+				"SKT",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToR",
+				"WDH"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"skill": {
+				"medicine": "+4",
+				"religion": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Gwyn is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). Gwyn has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 3,
+							"spells": [
+								"{@spell bless}",
+								"{@spell cure wounds}",
+								"{@spell sanctuary}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"action": [
+				{
+					"name": "Club",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"club|phb"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Gwyn%20Oresong.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Hashutu",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "PaBTSO",
-			"page": 194,
-			"_copy": {
-				"name": "Mind Flayer Clairvoyant",
-				"source": "PaBTSO",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mind flayer",
-						"with": "Hashutu",
-						"flags": "i"
-					}
-				}
-			},
 			"senses": [
 				"blindsight 60 ft.",
 				"darkvision 120 ft.",
 				"truesight 15 ft."
 			],
+			"name": "Hashutu",
+			"source": "PaBTSO",
+			"page": 194,
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item breastplate|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 156,
+				"formula": "24d8 + 48"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 15,
+			"int": 21,
+			"wis": 17,
+			"cha": 18,
+			"save": {
+				"int": "+9",
+				"wis": "+7",
+				"cha": "+8"
+			},
+			"skill": {
+				"arcana": "+9",
+				"insight": "+7",
+				"perception": "+7",
+				"stealth": "+5"
+			},
+			"passive": 17,
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Deep Speech",
+				"telepathy 120 ft.",
+				"Undercommon"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Hashutu casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell mage hand} (the hand is invisible)"
+					],
+					"daily": {
+						"1": [
+							"{@spell plane shift} (self only)"
+						],
+						"3e": [
+							"{@spell clairvoyance} (as an action)",
+							"{@spell dispel magic}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Hashutu fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Hashutu has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Hashutu makes two Tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}21 ({@damage 3d10 + 5}) psychic damage. If the target is Medium or smaller, it has the {@condition grappled} condition (escape {@dc 17}) and must succeed on a {@dc 17} Intelligence saving throw or have the {@condition incapacitated} condition until the grapple ends."
+					]
+				},
+				{
+					"name": "Extract Brain",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one {@condition incapacitated} Humanoid {@condition grappled} by Hashutu. {@h}55 ({@damage 10d10}) piercing damage. If this damage reduces the target to 0 hit points, Hashutu kills it by extracting and devouring its brain."
+					]
+				},
+				{
+					"name": "Unleash Void {@recharge 5}",
+					"entries": [
+						"Hashutu opens a rift into the Far Realm, centered on a point Hashutu can see within 60 feet of itself, and a tentacle lashes across creatures near the rift. Each creature other than mind flayers within 30 feet of the rift must make a {@dc 17} Intelligence saving throw, after which the tentacle disappears and the rift closes. On a failed save, a creature takes 18 ({@damage 4d8}) cold damage from the rift plus 18 ({@damage 4d8}) psychic damage from the tentacle and has the {@condition stunned} condition for 1 minute. On a successful save, a creature takes half as much damage only. A {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Warp Reality",
+					"entries": [
+						"When hit by an attack roll, Hashutu gains a +4 bonus to its AC against that attack roll, potentially causing it to miss. Then Hashutu, along with any equipment it is wearing or carrying, magically teleports up to 60 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags": [
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"C",
+				"P",
+				"Y"
+			],
+			"spellcastingTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"incapacitated",
+				"stunned"
+			],
+			"savingThrowForced": [
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Hashutu.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Hjoldak Hollowhelm",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "PaBTSO",
-			"page": 93,
-			"_copy": {
-				"name": "Psionic Ashenwight",
-				"source": "PaBTSO",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the ashenwight",
-						"with": "Hjoldak",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"N"
 			],
+			"name": "Hjoldak Hollowhelm",
+			"source": "PaBTSO",
+			"page": 93,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 19,
+			"dex": 13,
+			"con": 15,
+			"int": 17,
+			"wis": 14,
+			"cha": 6,
+			"save": {
+				"str": "+7",
+				"con": "+5",
+				"int": "+6",
+				"wis": "+5"
+			},
+			"passive": 12,
+			"resist": [
+				"necrotic",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"telepathy 120 ft.",
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "7",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Hjoldak casts one of the following spells, requiring no spellcasting components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
+					],
+					"will": [
+						"{@spell mage hand} (the hand is invisible)"
+					],
+					"daily": {
+						"1": [
+							"{@spell calm emotions}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Hjoldak makes two Necrotic Shard attacks. It also uses Psionic Crown if available."
+					]
+				},
+				{
+					"name": "Necrotic Shard",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 60 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 9 ({@damage 2d8}) necrotic damage. If the target is a creature, it has disadvantage on the next attack roll it makes before the end of its next turn."
+					]
+				},
+				{
+					"name": "Psionic Crown {@recharge 5}",
+					"entries": [
+						"Hjoldak wreathes the head of a creature it can see within 60 feet of itself with a crown of jagged, spectral crystals. The target must succeed on a {@dc 14} Wisdom saving throw or have the {@condition charmed} condition for 1 minute. While {@condition charmed} in this way, the target's thoughts are sluggish; it can't take reactions, its speed is halved, and it takes 9 ({@damage 2d8}) psychic damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"LF",
+				"TP"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"Y"
+			],
+			"spellcastingTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"charisma"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Hjoldak%20Hollowhelm.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Honna",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Honna",
 			"source": "PaBTSO",
 			"page": 110,
-			"_copy": {
-				"name": "Medusa",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the medusa",
-						"with": "Honna",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"ERLW",
+				"GoS",
+				"IMR",
+				"LLK",
+				"OotA",
+				"PaBTSO",
+				"SatO",
+				"ToA",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "17d8 + 51"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 16,
+			"int": 12,
+			"wis": 13,
+			"cha": 15,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Petrifying Gaze",
+					"entries": [
+						"When a creature that can see Honna's eyes starts its turn within 30 feet of Honna, Honna can force it to make a {@dc 14} Constitution saving throw if Honna isn't {@condition incapacitated} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified}. Otherwise, a creature that fails the save begins to turn to stone and is {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic.",
+						"Unless {@status surprised}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Honna until the start of its next turn, when it can avert its eyes again. If the creature looks at Honna in the meantime, it must immediately make the save.",
+						"If Honna sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, Honna is, due to its curse, affected by its own gaze."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Honna makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow."
+					]
+				},
+				{
+					"name": "Snake Hair",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 14 ({@damage 4d6}) poison damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+					]
+				}
+			],
+			"environment": [
+				"desert"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"petrified",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Honna.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
@@ -2144,26 +3512,115 @@
 			"name": "Infected Townsperson",
 			"source": "PaBTSO",
 			"page": 139,
-			"_copy": {
-				"name": "Berserker",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "berserker",
-						"with": "townsperson"
-					},
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Greataxe",
-						"items": {
-							"name": "Psychic Slam",
-							"entries": [
-								"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 3 ({@damage 1d6}) psychic damage."
-							]
-						}
-					}
+			"referenceSources": [
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"EGW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"LLK",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"SKT",
+				"SLW",
+				"ToA",
+				"ToFW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"C",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item hide armor|phb}"
+					]
 				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 17,
+			"int": 9,
+			"wis": 11,
+			"cha": 9,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the townsperson can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Psychic Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 3 ({@damage 1d6}) psychic damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"hill",
+				"arctic",
+				"forest",
+				"desert"
+			],
+			"attachedItems": [
+				"greataxe|phb"
+			],
+			"traitTags": [
+				"Reckless"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Infected%20Townsperson.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
@@ -2292,22 +3749,140 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Kellikilli",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Kellikilli",
 			"source": "PaBTSO",
 			"page": 121,
-			"_copy": {
-				"name": "Water Weird",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the water weird",
-						"with": "Kellikilli",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"AitFR-AVT",
+				"CM",
+				"DIP",
+				"DitLCoT",
+				"DSotDQ",
+				"IDRotF",
+				"JttRC",
+				"LK",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RtG",
+				"SCC-ARiR",
+				"SCC-HfMT",
+				"SLW",
+				"TftYP",
+				"TftYP-THSoT",
+				"ToA",
+				"VEoR",
+				"VNotEE",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 58,
+				"formula": "9d10 + 9"
+			},
+			"speed": {
+				"walk": 0,
+				"swim": 60
+			},
+			"str": 17,
+			"dex": 16,
+			"con": 13,
+			"int": 11,
+			"wis": 10,
+			"cha": 10,
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"fire",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"poisoned",
+				"restrained",
+				"prone",
+				"unconscious"
+			],
+			"languages": [
+				"understands Aquan but doesn't speak"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Invisible in Water",
+					"entries": [
+						"Kellikilli is {@condition invisible} while fully immersed in water."
+					]
+				},
+				{
+					"name": "Water Bound",
+					"entries": [
+						"Kellikilli dies if it leaves the water to which it is bound or if that water is destroyed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one creature. {@h}13 ({@damage 3d6 + 3}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 13}) and pulled 5 feet toward Kellikilli. Until this grapple ends, the target is {@condition restrained}, Kellikilli tries to drown it, and Kellikilli can't constrict another target."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"senseTags": [
+				"B"
+			],
+			"languageTags": [
+				"AQ"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"invisible",
+				"restrained"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Kellikilli.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
@@ -2487,22 +4062,121 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Malinia",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Malinia",
 			"source": "PaBTSO",
 			"page": 115,
-			"_copy": {
-				"name": "Humanoid Mutate",
-				"source": "PaBTSO",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mutate",
-						"with": "Malinia",
-						"flags": "i"
-					}
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 13,
+			"cha": 15,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"telepathy 60 ft."
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, Malinia has disadvantage on attack rolls."
+					]
 				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Malinia makes two Unarmed Strike or Nightmare Blast attacks."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 10 ({@damage 3d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Nightmare Blast",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 60 ft., one creature. {@h}7 ({@damage 2d6}) psychic damage, and the target must succeed on a {@dc 12} Wisdom saving throw or have the {@condition frightened} condition until the start of Malinia's next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Defensive Flight",
+					"entries": [
+						"Immediately after taking damage, Malinia flies up to its speed. This movement doesn't provoke opportunity attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Malinia.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
@@ -2694,26 +4368,138 @@
 			"hasFluffImages": true
 		},
 		{
+			"tokenCustom": true,
 			"name": "Mind Flayer Nothic",
 			"source": "PaBTSO",
 			"page": 155,
-			"_copy": {
-				"name": "Nothic",
-				"source": "MM",
-				"_mod": {
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Rotting Gaze",
-						"items": {
-							"name": "Mind Blast {@recharge 5}",
-							"entries": [
-								"The nothic magically emits psychic energy in a 30-foot cone. Each creature in that area must succeed on a {@dc 12} Intelligence saving throw or take 10 ({@damage 2d8 + 1}) psychic damage and have the {@condition stunned} condition until the end of its next turn."
-							]
-						}
-					}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CoA",
+				"CoS",
+				"EGW",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"LMoP",
+				"MOT",
+				"NRH-AT",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"RMBRE",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d8 + 18"
 			},
-			"tokenCustom": true,
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 16,
+			"int": 13,
+			"wis": 10,
+			"cha": 8,
+			"skill": {
+				"arcana": "+3",
+				"insight": "+4",
+				"perception": "+2",
+				"stealth": "+5"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Undercommon"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The nothic has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The nothic makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Mind Blast {@recharge 5}",
+					"entries": [
+						"The nothic magically emits psychic energy in a 30-foot cone. Each creature in that area must succeed on a {@dc 12} Intelligence saving throw or take 10 ({@damage 2d8 + 1}) psychic damage and have the {@condition stunned} condition until the end of its next turn."
+					]
+				},
+				{
+					"name": "Weird Insight",
+					"entries": [
+						"The nothic targets one creature it can see within 30 feet of it. The target must contest its Charisma ({@skill Deception}) check against the nothic's Wisdom ({@skill Insight}) check. If the nothic wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being {@condition charmed}."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"U"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Mind%20Flayer%20Nothic.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -2990,35 +4776,214 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Nellik",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"tokenCustom": true,
+			"name": "Nellik",
 			"source": "PaBTSO",
 			"page": 193,
-			"_copy": {
-				"name": "Nycaloth",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the nycaloth",
-						"with": "Nellik",
-						"flags": "i"
-					},
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Greataxe",
-						"items": {
-							"name": "Greataxe",
+			"referenceSources": [
+				"BGDIA",
+				"KftGV",
+				"PaBTSO",
+				"PotA",
+				"RoT",
+				"SatO",
+				"TCE",
+				"ToA",
+				"ToFW",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"yugoloth"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 123,
+				"formula": "13d10 + 52"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 60
+			},
+			"str": 20,
+			"dex": 11,
+			"con": 19,
+			"int": 12,
+			"wis": 10,
+			"cha": 15,
+			"skill": {
+				"intimidation": "+6",
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Infernal",
+				"telepathy 60 ft."
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Nellik's innate spellcasting ability is Charisma. Nellik can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell darkness}",
+						"{@spell detect magic}",
+						"{@spell dispel magic}",
+						"{@spell invisibility} (self only)",
+						"{@spell mirror image}"
+					],
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Nellik has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Nellik's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Nellik makes two melee attacks, or it makes one melee attack and teleports before or after the attack."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or take 5 ({@damage 2d4}) slashing damage at the start of each of its turns due to a fiendish wound. Each time Nellik hits the wounded target with this attack, the damage dealt by the wound increases by 5 ({@damage 2d4}). Any creature can take an action to stanch the wound with a successful {@dc 13} Wisdom ({@skill Medicine}) check. The wound also closes if the target receives magical healing."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d12 + 6}) slashing damage; if the target is an Aberration, it takes an additional 6 ({@damage 1d12}) slashing damage, and if it is grappling a creature, it must succeed on a {@dc 15} Strength saving throw or its grapple ends."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"Nellik magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Yugoloth Summoning",
+					"entries": [
+						"Some yugoloths have an action option that allows them to summon other yugoloths.",
+						{
+							"type": "entries",
+							"name": "Summon Yugoloth (1/Day)",
 							"entries": [
-								"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d12 + 6}) slashing damage; if the target is an Aberration, it takes an additional 6 ({@damage 1d12}) slashing damage, and if it is grappling a creature, it must succeed on a {@dc 15} Strength saving throw or its grapple ends."
+								"The yugoloth chooses what to summon and attempts a magical summoning.",
+								"A nycaloth has a {@chance 50|50 percent|50% summoning chance} chance of summoning {@dice 1d4} {@creature mezzoloth||mezzoloths} or one nycaloth.",
+								"A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases, and can't summon other yugoloths. The summoned yugoloth remains for 1 minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it."
 							]
 						}
+					],
+					"_version": {
+						"name": "Nycaloth (Summoner)",
+						"addHeadersAs": "action"
 					}
 				}
+			],
+			"attachedItems": [
+				"greataxe|phb"
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"languageTags": [
+				"AB",
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Nellik.webp"
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Nezznar the Spider",
@@ -3179,45 +5144,340 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Nundro Rockseeker",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Nundro Rockseeker",
 			"source": "PaBTSO",
 			"page": 73,
-			"_copy": {
-				"name": "Commoner",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Mountain Dwarf",
-						"source": "PHB"
-					}
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DD",
+				"DIP",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"FS",
+				"GoS",
+				"GotSF",
+				"HFStCM",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"LLK",
+				"LMoP",
+				"LoX",
+				"MOT",
+				"NRH-CoI",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RMBRE",
+				"RoT",
+				"SatO",
+				"SCC-CK",
+				"SCC-TMM",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-THSoT",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"ToR",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
 				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "0",
+			"action": [
+				{
+					"name": "Club",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"desert",
+				"coastal",
+				"grassland",
+				"hill",
+				"urban",
+				"forest"
+			],
+			"attachedItems": [
+				"club|phb"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Nundro%20Rockseeker.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Nythalyn Henlifel",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "PaBTSO",
-			"page": 114,
-			"_copy": {
-				"name": "Drow Elite Warrior",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the drow",
-						"with": "Nythalyn",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"N"
 			],
+			"name": "Nythalyn Henlifel",
+			"source": "PaBTSO",
+			"page": 114,
+			"referenceSources": [
+				"CRCotN",
+				"DC",
+				"DIP",
+				"IDRotF",
+				"OotA",
+				"PaBTSO",
+				"SKT",
+				"SLW",
+				"TftYP",
+				"TftYP-AtG",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
+				]
+			},
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "11d8 + 22"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 13,
+			"cha": 12,
+			"save": {
+				"dex": "+7",
+				"con": "+5",
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Nythalyn's spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness}",
+							"{@spell faerie fire}",
+							"{@spell levitate} (self only)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Nythalyn has advantage on saving throws against being {@condition charmed}, and magic can't put Nythalyn to sleep."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, Nythalyn has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Nythalyn makes two shortsword attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Nythalyn adds 3 to its AC against one melee attack that would hit it. To do so, Nythalyn must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Drow Magic Armor and Weapons",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.",
+								"A {@creature drow elite warrior} wearing {@item +2 Studded Leather Armor||+2 studded leather} and carrying a {@item +2 shortsword} has AC 20 and a +2 bonus on attack and damage rolls with shortsword attacks."
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"attachedItems": [
+				"hand crossbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"E",
+				"U"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned",
+				"unconscious"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Nythalyn%20Henlifel.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -3378,24 +5638,125 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Ontharyx",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Ontharyx",
 			"source": "PaBTSO",
 			"page": 115,
-			"_copy": {
-				"name": "Humanoid Mutate",
-				"source": "PaBTSO",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mutate",
-						"with": "Ontharyx",
-						"flags": "i"
-					}
-				}
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
 			},
-			"hasToken": true
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 13,
+			"cha": 15,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"telepathy 60 ft."
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, Ontharyx has disadvantage on attack rolls."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Ontharyx makes two Unarmed Strike or Nightmare Blast attacks."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 10 ({@damage 3d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Nightmare Blast",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 60 ft., one creature. {@h}7 ({@damage 2d6}) psychic damage, and the target must succeed on a {@dc 12} Wisdom saving throw or have the {@condition frightened} condition until the start of Ontharyx's next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Defensive Flight",
+					"entries": [
+						"Immediately after taking damage, Ontharyx flies up to its speed. This movement doesn't provoke opportunity attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Ontharyx.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Oshundo the Alhoon",
@@ -3844,13 +6205,6 @@
 			"hasToken": true
 		},
 		{
-			"name": "Psionic Shambling Mound",
-			"source": "PaBTSO",
-			"page": 108,
-			"_copy": {
-				"name": "Shambling Mound",
-				"source": "MM"
-			},
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
@@ -3877,7 +6231,142 @@
 			"savingThrowForcedSpell": [
 				"wisdom"
 			],
-			"hasToken": true
+			"name": "Psionic Shambling Mound",
+			"source": "PaBTSO",
+			"page": 108,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"GoS",
+				"HFStCM",
+				"HotDQ",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"PSI",
+				"QftIS",
+				"SCC-TMM",
+				"TftYP",
+				"TftYP-DiT",
+				"ToA",
+				"VEoR",
+				"WBtW",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d10 + 48"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 20
+			},
+			"str": 18,
+			"dex": 8,
+			"con": 16,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"skill": {
+				"stealth": "+2"
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 10,
+			"resist": [
+				"cold",
+				"fire"
+			],
+			"immune": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"exhaustion"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Lightning Absorption",
+					"entries": [
+						"Whenever the shambling mound is subjected to lightning damage, it takes no damage and regains a number of hit points equal to the lightning damage dealt."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The shambling mound makes two slam attacks. If both attacks hit a Medium or smaller target, the target is {@condition grappled} (escape {@dc 14}), and the shambling mound uses its Engulf on it."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Engulf",
+					"entries": [
+						"The shambling mound engulfs a Medium or smaller creature {@condition grappled} by it. The engulfed target is {@condition blinded}, {@condition restrained}, and unable to breathe, and it must succeed on a {@dc 14} Constitution saving throw at the start of each of the mound's turns or take 13 ({@damage 2d8 + 4}) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			],
+			"traitTags": [
+				"Damage Absorption"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Psionic%20Shambling%20Mound.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Qunbraxel",
@@ -4353,25 +6842,162 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Rivibiddel",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "PaBTSO",
-			"page": 122,
-			"_copy": {
-				"name": "Deep Gnome (Svirfneblin)",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the gnome",
-						"with": "Rivibiddel",
-						"flags": "i"
-					}
-				}
-			},
 			"speed": {
 				"walk": 15
+			},
+			"name": "Rivibiddel",
+			"source": "PaBTSO",
+			"page": 122,
+			"referenceSources": [
+				"KftGV",
+				"OotA",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gnome"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d6 + 6"
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 14,
+			"int": 12,
+			"wis": 10,
+			"cha": 9,
+			"skill": {
+				"investigation": "+3",
+				"perception": "+2",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Gnomish",
+				"Terran",
+				"Undercommon"
+			],
+			"cr": "1/2",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Rivibiddel's innate spellcasting ability is Intelligence (spell save {@dc 11}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell nondetection} (self only)"
+					],
+					"daily": {
+						"1e": [
+							"{@spell blindness/deafness}",
+							"{@spell blur}",
+							"{@spell disguise self}"
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Stone Camouflage",
+					"entries": [
+						"Rivibiddel has advantage on Dexterity ({@skill Stealth}) checks made to hide in rocky terrain."
+					]
+				},
+				{
+					"name": "Gnome Cunning",
+					"entries": [
+						"Rivibiddel has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "War Pick",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Poisoned Dart",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the target must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success"
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"attachedItems": [
+				"war pick|phb"
+			],
+			"traitTags": [
+				"Camouflage"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"G",
+				"T",
+				"U"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Rivibiddel.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
@@ -4518,35 +7144,181 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Shalfi Lewin",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "PaBTSO",
-			"page": 174,
-			"_copy": {
-				"name": "Aberrant Zealot",
-				"source": "PaBTSO",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the zealot",
-						"with": "Shalfi",
-						"flags": "i"
-					},
-					"_": [
-						{
-							"mode": "addSkills",
-							"skills": {
-								"performance": 1
-							}
-						}
-					]
-				}
-			},
 			"alignment": [
 				"C",
 				"E"
 			],
+			"name": "Shalfi Lewin",
+			"source": "PaBTSO",
+			"page": 174,
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 93,
+				"formula": "17d8 + 17"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 18,
+			"con": 12,
+			"int": 13,
+			"wis": 8,
+			"cha": 19,
+			"save": {
+				"dex": "+7",
+				"cha": "+7"
+			},
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"truesight 10 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened",
+				"grappled",
+				"restrained"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Shalfi casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+					],
+					"will": [
+						"{@spell detect thoughts}",
+						"{@spell minor illusion}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell arcane gate}",
+							"{@spell hunger of Hadar}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Aberrant Form",
+					"entries": [
+						"Shalfi exudes the chaos of the Far Realm. Any non-Aberration creature that starts its turn within 5 feet of Shalfi must succeed on a {@dc 15} Wisdom saving throw or take 7 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Weirdly Pliable",
+					"entries": [
+						"Shalfi, along with any equipment it is wearing or carrying, is unnaturally flexible. Shalfi can move through any space as narrow as 1 inch without squeezing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Shalfi makes one Psychic Rend attack and two Shortsword attacks."
+					]
+				},
+				{
+					"name": "Psychic Rend",
+					"entries": [
+						"{@atk ms,rs} {@hit 7} to hit, reach 15 ft. or range 120 ft., one target. {@h}14 ({@damage 3d6 + 4}) psychic damage, and the target must succeed on a {@dc 15} Wisdom saving throw or have the {@condition stunned} condition until the start of Shalfi's next turn."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Void Warp {@recharge 5}",
+					"entries": [
+						"Shalfi teleports, along with any equipment it is wearing or carrying, to an unoccupied space it can see within 120 feet of itself, leaving a churning void in the space it left. Immediately after it teleports, each creature within 30 feet of the void other than Shalfi must make a {@dc 15} Strength saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) force damage and is pulled to the unoccupied space closest to the void. On a successful save, the creature takes half as much damage only. The void then disappears."
+					]
+				}
+			],
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DS"
+			],
+			"damageTags": [
+				"O",
+				"P",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C"
+			],
+			"spellcastingTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"blinded"
+			],
+			"savingThrowForced": [
+				"strength",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Shalfi%20Lewin.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -4655,44 +7427,136 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Varakkta",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Varakkta",
 			"source": "PaBTSO",
 			"page": 174,
-			"_copy": {
-				"name": "Githyanki Knight",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the githyanki",
-						"with": "Varakkta",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"AATM",
+				"BMT",
+				"CoA",
+				"LoX",
+				"PaBTSO",
+				"QftIS",
+				"SatO",
+				"VEoR",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gith"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
 				}
+			],
+			"hp": {
+				"average": 91,
+				"formula": "14d8 + 28"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 15,
+			"int": 14,
+			"wis": 14,
+			"cha": 15,
+			"save": {
+				"con": "+5",
+				"int": "+5",
+				"wis": "+5"
+			},
+			"passive": 12,
+			"languages": [
+				"Gith"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Varakkta's innate spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell mage hand} (the hand is invisible)"
+					],
+					"daily": {
+						"3e": [
+							"{@spell jump}",
+							"{@spell misty step}",
+							"{@spell nondetection} (self only)",
+							"{@spell tongues}"
+						],
+						"1e": [
+							"{@spell plane shift}",
+							"{@spell telekinesis}"
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Varakkta makes two silver greatsword attacks."
+					]
+				},
+				{
+					"name": "Silver Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage plus 10 ({@damage 3d6}) psychic damage. This is a magic weapon attack. On a critical hit against a target in an astral body (as with the {@spell astral projection} spell), Varakkta can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GTH"
+			],
+			"damageTags": [
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"charisma"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Varakkta.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Voalsh",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "PaBTSO",
-			"page": 194,
-			"_copy": {
-				"name": "Mind Flayer Clairvoyant",
-				"source": "PaBTSO",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mind flayer",
-						"with": "Voalsh",
-						"flags": "i"
-					}
-				}
-			},
 			"speed": {
 				"walk": 0,
 				"fly": {
@@ -4707,50 +7571,557 @@
 				"frightened",
 				"prone"
 			],
+			"name": "Voalsh",
+			"source": "PaBTSO",
+			"page": 194,
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item breastplate|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 156,
+				"formula": "24d8 + 48"
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 15,
+			"int": 21,
+			"wis": 17,
+			"cha": 18,
+			"save": {
+				"int": "+9",
+				"wis": "+7",
+				"cha": "+8"
+			},
+			"skill": {
+				"arcana": "+9",
+				"insight": "+7",
+				"perception": "+7",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 15 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"psychic"
+			],
+			"languages": [
+				"Deep Speech",
+				"telepathy 120 ft.",
+				"Undercommon"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Voalsh casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell mage hand} (the hand is invisible)"
+					],
+					"daily": {
+						"1": [
+							"{@spell plane shift} (self only)"
+						],
+						"3e": [
+							"{@spell clairvoyance} (as an action)",
+							"{@spell dispel magic}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Voalsh fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Voalsh has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Voalsh makes two Tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}21 ({@damage 3d10 + 5}) psychic damage. If the target is Medium or smaller, it has the {@condition grappled} condition (escape {@dc 17}) and must succeed on a {@dc 17} Intelligence saving throw or have the {@condition incapacitated} condition until the grapple ends."
+					]
+				},
+				{
+					"name": "Extract Brain",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one {@condition incapacitated} Humanoid {@condition grappled} by Voalsh. {@h}55 ({@damage 10d10}) piercing damage. If this damage reduces the target to 0 hit points, Voalsh kills it by extracting and devouring its brain."
+					]
+				},
+				{
+					"name": "Unleash Void {@recharge 5}",
+					"entries": [
+						"Voalsh opens a rift into the Far Realm, centered on a point Voalsh can see within 60 feet of itself, and a tentacle lashes across creatures near the rift. Each creature other than mind flayers within 30 feet of the rift must make a {@dc 17} Intelligence saving throw, after which the tentacle disappears and the rift closes. On a failed save, a creature takes 18 ({@damage 4d8}) cold damage from the rift plus 18 ({@damage 4d8}) psychic damage from the tentacle and has the {@condition stunned} condition for 1 minute. On a successful save, a creature takes half as much damage only. A {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Warp Reality",
+					"entries": [
+						"When hit by an attack roll, Voalsh gains a +4 bonus to its AC against that attack roll, potentially causing it to miss. Then Voalsh, along with any equipment it is wearing or carrying, magically teleports up to 60 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags": [
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"C",
+				"P",
+				"Y"
+			],
+			"spellcastingTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"incapacitated",
+				"stunned"
+			],
+			"savingThrowForced": [
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Voalsh.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Yanthdel Henlifel",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "PaBTSO",
-			"page": 114,
-			"_copy": {
-				"name": "Drow Elite Warrior",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the drow",
-						"with": "Yanthdel",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"N"
 			],
+			"name": "Yanthdel Henlifel",
+			"source": "PaBTSO",
+			"page": 114,
+			"referenceSources": [
+				"CRCotN",
+				"DC",
+				"DIP",
+				"IDRotF",
+				"OotA",
+				"PaBTSO",
+				"SKT",
+				"SLW",
+				"TftYP",
+				"TftYP-AtG",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
+				]
+			},
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "11d8 + 22"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 13,
+			"cha": 12,
+			"save": {
+				"dex": "+7",
+				"con": "+5",
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Yanthdel's spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness}",
+							"{@spell faerie fire}",
+							"{@spell levitate} (self only)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Yanthdel has advantage on saving throws against being {@condition charmed}, and magic can't put Yanthdel to sleep."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, Yanthdel has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Yanthdel makes two shortsword attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Yanthdel adds 3 to its AC against one melee attack that would hit it. To do so, Yanthdel must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Drow Magic Armor and Weapons",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.",
+								"A {@creature drow elite warrior} wearing {@item +2 Studded Leather Armor||+2 studded leather} and carrying a {@item +2 shortsword} has AC 20 and a +2 bonus on attack and damage rolls with shortsword attacks."
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"attachedItems": [
+				"hand crossbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"E",
+				"U"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned",
+				"unconscious"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Yanthdel%20Henlifel.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Zeond",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Zeond",
 			"source": "PaBTSO",
 			"page": 43,
-			"_copy": {
-				"name": "Quasit",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the quasit",
-						"with": "Zeond",
-						"flags": "i"
+			"referenceSources": [
+				"BGDIA",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"EGW",
+				"KftGV",
+				"LLK",
+				"OotA",
+				"PaBTSO",
+				"PSI",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TSC",
+				"VEoR",
+				"WBtW",
+				"WDMM"
+			],
+			"size": [
+				"T"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 7,
+				"formula": "3d4"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 5,
+			"dex": 17,
+			"con": 10,
+			"int": 7,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Zeond can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Zeond has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw (Bite in Beast Form)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or take 5 ({@damage 2d4}) poison damage and become {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Scare (1/Day)",
+					"entries": [
+						"One creature of Zeond's choice within 20 feet of it must succeed on a {@dc 10} Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if Zeond is within line of sight, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Invisibility",
+					"entries": [
+						"Zeond magically turns {@condition invisible} until it attacks or uses Scare, or until its {@status concentration} ends (as if {@status concentration||concentrating} on a spell). Any equipment Zeond wears or carries is {@condition invisible} with it."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Quasit Familiar",
+					"entries": [
+						"Mortal spellcasters interested in extraplanar familiars find quasits easy to summon and eager to serve. Zeond plays the part of the obsequious servant. It serves its master well, but it goads the mortal to greater and greater acts of chaos and evil. Such quasits have the following trait.",
+						{
+							"type": "entries",
+							"name": "Familiar",
+							"entries": [
+								"Zeond can serve another creature as a familiar, forming a telepathic bond with its willing master. While the two are bonded, the master can sense what Zeond senses as long as they are within 1 mile of each other. While Zeond is within 10 feet of its master, the master shares Zeond's Magic Resistance trait. At any time and for any reason, Zeond can end its service as a familiar, ending the telepathic bond."
+							]
+						}
+					],
+					"_version": {
+						"addHeadersAs": "trait"
 					}
 				}
+			],
+			"familiar": true,
+			"traitTags": [
+				"Magic Resistance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"AB",
+				"C"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"invisible",
+				"poisoned"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PaBTSO/Zeond.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true

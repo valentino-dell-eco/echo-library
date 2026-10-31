@@ -1,12 +1,6 @@
 {
 	"monster": [
 		{
-			"name": "Animated Object (Huge)",
-			"source": "PHB",
-			"page": 213,
-			"reprintedAs": [
-				"Animated Object|XPHB"
-			],
 			"size": [
 				"H"
 			],
@@ -65,15 +59,16 @@
 			"miscTags": [
 				"MW"
 			],
+			"name": "Animated Object (Huge)",
+			"source": "PHB",
+			"page": 213,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PHB/Animated%20Object%20(Huge).webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Animated Object (Large)",
-			"source": "PHB",
-			"page": 213,
-			"reprintedAs": [
-				"Animated Object|XPHB"
-			],
 			"size": [
 				"L"
 			],
@@ -132,15 +127,16 @@
 			"miscTags": [
 				"MW"
 			],
+			"name": "Animated Object (Large)",
+			"source": "PHB",
+			"page": 213,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PHB/Animated%20Object%20(Large).webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Animated Object (Medium)",
-			"source": "PHB",
-			"page": 213,
-			"reprintedAs": [
-				"Animated Object|XPHB"
-			],
 			"size": [
 				"M"
 			],
@@ -199,15 +195,16 @@
 			"miscTags": [
 				"MW"
 			],
+			"name": "Animated Object (Medium)",
+			"source": "PHB",
+			"page": 213,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PHB/Animated%20Object%20(Medium).webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Animated Object (Small)",
-			"source": "PHB",
-			"page": 213,
-			"reprintedAs": [
-				"Animated Object|XPHB"
-			],
 			"size": [
 				"S"
 			],
@@ -266,17 +263,18 @@
 			"miscTags": [
 				"MW"
 			],
+			"name": "Animated Object (Small)",
+			"source": "PHB",
+			"page": 213,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PHB/Animated%20Object%20(Small).webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Animated Object (Tiny)",
-			"source": "PHB",
-			"page": 213,
 			"referenceSources": [
 				"WDMM"
-			],
-			"reprintedAs": [
-				"Animated Object|XPHB"
 			],
 			"size": [
 				"T"
@@ -336,6 +334,13 @@
 			"miscTags": [
 				"MW"
 			],
+			"name": "Animated Object (Tiny)",
+			"source": "PHB",
+			"page": 213,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/PHB/Animated%20Object%20(Tiny).webp"
+			},
 			"hasToken": true
 		}
 	]

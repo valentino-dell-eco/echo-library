@@ -147,6 +147,13 @@
 					},
 					"width": 1700,
 					"height": 1072
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/TTP/Two-Headed%20Plesiosaurus.webp"
+					}
 				}
 			]
 		}

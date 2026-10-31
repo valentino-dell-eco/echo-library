@@ -994,13 +994,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Detached Shadow",
-			"source": "WBtW",
-			"page": 213,
-			"_copy": {
-				"name": "Shadow",
-				"source": "MM"
-			},
 			"type": "fey",
 			"action": [
 				{
@@ -1010,7 +1003,145 @@
 					]
 				}
 			],
-			"hasToken": true
+			"name": "Detached Shadow",
+			"source": "WBtW",
+			"page": 213,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"GoS",
+				"HoL",
+				"IDRotF",
+				"IMR",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"SatO",
+				"SjA",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TSC",
+				"TftYP-WPM",
+				"TTP",
+				"VEoR",
+				"VNotEE",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 13,
+			"int": 6,
+			"wis": 10,
+			"cha": 8,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The shadow can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the shadow can take the {@action Hide} action as a bonus action. Its stealth bonus is also improved to +6."
+					]
+				},
+				{
+					"name": "Sunlight Weakness",
+					"entries": [
+						"While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/WBtW/Detached%20Shadow.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Displacer Beast Kitten",
@@ -5182,32 +5313,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Thinnings",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "WBtW",
-			"page": 15,
-			"_copy": {
-				"name": "Spy",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the spy",
-						"with": "Thinnings",
-						"flags": "i"
-					},
-					"action": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Change Shape",
-							"entries": [
-								"Thinnings can make himself as flat as a piece of parchment or revert to his normal thickness. In his flattened form, he can slide under doors, roll himself up, or even fold himself into the pages of a book."
-							]
-						}
-					}
-				}
-			},
 			"type": "fey",
 			"alignment": [
 				"N"
@@ -5221,6 +5328,139 @@
 				"Multiattack",
 				"Shapechanger"
 			],
+			"name": "Thinnings",
+			"source": "WBtW",
+			"page": 15,
+			"referenceSources": [
+				"AitFR-ISF",
+				"AZfyT",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"SatO",
+				"SKT",
+				"SLW",
+				"TftYP-DiT",
+				"ToA",
+				"ToFW",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 10,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"investigation": "+5",
+				"perception": "+6",
+				"persuasion": "+5",
+				"sleight of hand": "+4",
+				"stealth": "+4"
+			},
+			"passive": 16,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, Thinnings can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Thinnings deals an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Thinnings that isn't {@condition incapacitated} and Thinnings doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Thinnings makes two melee attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"Thinnings can make himself as flat as a piece of parchment or revert to his normal thickness. In his flattened form, he can slide under doors, roll himself up, or even fold himself into the pages of a book."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"hand crossbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/WBtW/Thinnings.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -5550,34 +5790,182 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Will-o'-Wells",
-			"source": "WBtW",
-			"page": 61,
-			"_copy": {
-				"name": "Will-o'-Wisp",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "will-o'-wisp",
-						"with": "will-o'-wells"
-					},
-					"action": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Magic Boon (Recharges after a Long Rest)",
-							"entries": [
-								"The will-o'-wells grants a boon to one creature it can see within 5 feet of it that isn't an Undead. The boon's recipient gains a {@dice d4} and can, at any time within the next 24 hours, roll this die and add the number rolled to one ability check, attack roll, or saving throw made by it. No creature can have more than one of these magic boons at a time."
-							]
-						}
-					}
-				}
-			},
 			"alignment": [
 				"C",
 				"G"
 			],
-			"hasToken": true
+			"name": "Will-o'-Wells",
+			"source": "WBtW",
+			"page": 61,
+			"referenceSources": [
+				"AATM",
+				"AitFR-AVT",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"LoX",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"SatO",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-THSoT",
+				"ToA",
+				"VEoR",
+				"WBtW",
+				"WDMM"
+			],
+			"size": [
+				"T"
+			],
+			"type": "undead",
+			"ac": [
+				19
+			],
+			"hp": {
+				"average": 22,
+				"formula": "9d4"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 1,
+			"dex": 28,
+			"con": 10,
+			"int": 13,
+			"wis": 14,
+			"cha": 11,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"necrotic",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"lightning",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Consume Life",
+					"entries": [
+						"As a bonus action, the will-o'-wells can target one creature it can see within 5 feet of it that has 0 hit points and is still alive. The target must succeed on a {@dc 10} Constitution saving throw against this magic or die. If the target dies, the will-o'-wells regains 10 ({@dice 3d6}) hit points."
+					]
+				},
+				{
+					"name": "Ephemeral",
+					"entries": [
+						"The will-o'-wells can't wear or carry anything."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The will-o'-wells can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Variable Illumination",
+					"entries": [
+						"The will-o'-wells sheds bright light in a 5 to 20-foot radius and dim light for an additional number of ft. equal to the chosen radius. The will-o'-wells can alter the radius as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shock",
+					"entries": [
+						"{@atk ms} {@hit 4} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d8}) lightning damage."
+					]
+				},
+				{
+					"name": "Invisibility",
+					"entries": [
+						"The will-o'-wells and its light magically become {@condition invisible} until it attacks or uses its Consume Life, or until its {@status concentration} ends (as if {@status concentration||concentrating} on a spell)."
+					]
+				},
+				{
+					"name": "Magic Boon (Recharges after a Long Rest)",
+					"entries": [
+						"The will-o'-wells grants a boon to one creature it can see within 5 feet of it that isn't an Undead. The boon's recipient gains a {@dice d4} and can, at any time within the next 24 hours, roll this die and add the number rolled to one ability check, attack roll, or saving throw made by it. No creature can have more than one of these magic boons at a time."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp",
+				"urban"
+			],
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"L",
+				"O"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/WBtW/Will-o'-Wells.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Witchlight Hand (Medium)",
@@ -5676,17 +6064,6 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Witchlight Hand (Small)",
-			"source": "WBtW",
-			"_copy": {
-				"name": "Witchlight Hand (Medium)",
-				"source": "WBtW",
-				"_preserve": {
-					"page": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
 			"size": [
 				"S"
 			],
@@ -5695,7 +6072,95 @@
 				"formula": "2d6"
 			},
 			"tokenCustom": true,
-			"hasToken": true
+			"name": "Witchlight Hand (Small)",
+			"source": "WBtW",
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12
+			],
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 11,
+			"int": 12,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"sleight of hand": "+6"
+			},
+			"passive": 11,
+			"languages": [
+				"Common plus any one language"
+			],
+			"cr": "1/8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The hand casts one of the following spells, using Charisma as the spellcasting ability:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell message}",
+						"{@spell prestidigitation}"
+					],
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Secret Expertise",
+					"entries": [
+						"The hand has one of these additional skills: {@skill Acrobatics} {@skillCheck acrobatics 6}, {@skill Animal Handling} {@skillCheck animal_handling 5}, {@skill Arcana} {@skillCheck arcana 5}, {@skill Athletics} {@skillCheck athletics 4}, {@skill Medicine} {@skillCheck medicine 5}, or {@skill Performance} {@skillCheck performance 5}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Pixie Dust (1/Day)",
+					"entries": [
+						"The hand sprinkles a pinch of pixie dust on itself or another creature it can see within 5 feet of it. The recipient gains a flying speed of 30 feet for 1 minute. If the creature is airborne when this effect ends, it falls safely to the ground, taking no damage and landing on its feet."
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/WBtW/Witchlight%20Hand%20(Small).webp"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Zarak",

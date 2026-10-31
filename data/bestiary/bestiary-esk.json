@@ -1,9 +1,6 @@
 {
 	"monster": [
 		{
-			"name": "Expert",
-			"source": "ESK",
-			"page": 63,
 			"referenceSources": [
 				"DC",
 				"SDW"
@@ -105,12 +102,16 @@
 				"RW",
 				"THW"
 			],
+			"name": "Expert",
+			"source": "ESK",
+			"page": 63,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ESK/Expert.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Spellcaster",
-			"source": "ESK",
-			"page": 63,
 			"referenceSources": [
 				"DC",
 				"SDW"
@@ -250,12 +251,16 @@
 			"savingThrowForcedSpell": [
 				"dexterity"
 			],
+			"name": "Spellcaster",
+			"source": "ESK",
+			"page": 63,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ESK/Spellcaster.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Warrior",
-			"source": "ESK",
-			"page": 63,
 			"referenceSources": [
 				"DC",
 				"SDW"
@@ -373,6 +378,13 @@
 				"RNG",
 				"RW"
 			],
+			"name": "Warrior",
+			"source": "ESK",
+			"page": 63,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ESK/Warrior.webp"
+			},
 			"hasToken": true
 		}
 	]

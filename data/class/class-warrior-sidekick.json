@@ -231,11 +231,11 @@
 	],
 	"class": [
 		{
+			"edition": "classic",
+			"isSidekick": true,
 			"name": "Warrior Sidekick",
 			"source": "TCE",
 			"page": 146,
-			"edition": "classic",
-			"isSidekick": true,
 			"classFeatures": [
 				"Bonus Proficiencies|Warrior Sidekick|TCE|1|TCE",
 				"Martial Role|Warrior Sidekick|TCE|1|TCE",

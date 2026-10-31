@@ -98,7 +98,8 @@
 						"{@atk mw} +4 + PB to hit, reach ft., one target you can see. {@h}{@damage 1d10 + 4 + PB} bludgeoning damage."
 					]
 				}
-			]
+			],
+			"cr": "0"
 		},
 		{
 			"name": "Automaton",
@@ -158,11 +159,12 @@
 						"{@atk mw} + INT + PB to hit, reach ft., one target you can see. {@h}{@damage 1d6+3} bludgeoning damage."
 					]
 				}
-			]
+			],
+			"cr": "0"
 		},
 		{
-			"name": "Homunculus Servant",
-			"source": "LLAC",
+			"summonedBySpell": "Homunculus Servant|EFA",
+			"summonedBySpellLevel": 2,
 			"size": [
 				"T"
 			],
@@ -171,17 +173,16 @@
 				"N"
 			],
 			"ac": [
-				{
-					"special": "11 + PB (natural armor)"
-				}
+				13
 			],
 			"hp": {
-				"special": "1 + two times your artificer level"
+				"special": "5 + 5 per spell level (the homunculus has a number of Hit Dice [d4s] equal to the spell's level)"
 			},
 			"speed": {
 				"walk": 20,
 				"fly": 30
 			},
+			"initiative": 0,
 			"str": 4,
 			"dex": 15,
 			"con": 12,
@@ -189,46 +190,63 @@
 			"wis": 10,
 			"cha": 7,
 			"senses": [
-				"darkvision 60 ft."
+				"Darkvision 60 ft."
 			],
-			"passive": "10 + PB",
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
 			"languages": [
-				"understands the languages you speak"
+				"telepathy 1 mile (works only with you)"
 			],
+			"pbNote": "equals your Proficiency Bonus",
 			"trait": [
-				{
-					"name": "Arcane Conduit",
-					"entries": [
-						"When your Homunculus is within 120 feet of you, you can cast an Artificer spell with a range of touch through your Homunculus' touch."
-					]
-				},
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the Homunculus makes a Dexterity saving throw to take only half damage, it instead takes no damage on a success, and half damage on a failure."
+						"If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the homunculus instead takes no damage if it succeeds on the save and only half damage if it fails. It can't use this trait if it has the {@condition Incapacitated|XPHB} condition."
 					]
 				},
 				{
-					"name": "Hit Dice",
+					"name": "Magic Bond",
 					"entries": [
-						"The Homunculus has a total number of d4 Hit Dice equal to your Artificer level. It gains all the normal benefits of both short and long rests."
-					]
-				},
-				{
-					"name": "Might of the Master",
-					"entries": [
-						"You add your PB to any ability check or saving throw your Homunculus makes."
+						"Add the spell's level to any ability check or saving throw the homunculus makes."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Acidic Spittle",
+					"name": "Force Strike",
 					"entries": [
-						"{@atk mw} {@hitYourSpellAttack} to hit, range 30 ft., one target you can see. {@h}{@damage 2d4 + PB} acid damage."
+						"{@atkr m,r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. or range 30 ft. {@h}{@dice 1d6 + summonSpellLevel} Force damage."
 					]
 				}
-			]
+			],
+			"reaction": [
+				{
+					"name": "Channel Magic",
+					"entries": [
+						"{@actTrigger} You cast a spell that has a range of touch while the homunculus is within 120 feet of you. {@actResponse} The homunculus delivers the spell through its touch."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"miscTags": [
+				"MA",
+				"RA"
+			],
+			"name": "Homunculus Servant",
+			"source": "LLAC",
+			"cr": "0"
 		},
 		{
 			"name": "Rig",
@@ -296,7 +314,8 @@
 						"{@atk mw} +4 + PB to hit, reach ft., one target you can see. {@h}{@damage 2d6+4} bludgeoning damage."
 					]
 				}
-			]
+			],
+			"cr": "0"
 		},
 		{
 			"name": "Steel Defender (Humanoid)",
@@ -918,65 +937,10 @@
 			]
 		},
 		{
+			"tokenCustom": true,
 			"name": "Shade",
 			"source": "LLAC",
-			"page": 22,
-			"summonedByClass": "Alternate Fighter|LLAF",
-			"size": [
-				"V"
-			],
-			"type": "undead",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"special": "14 + your Charisma modifier"
-				}
-			],
-			"hp": {
-				"special": "1"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"grappled",
-				"incapacitated",
-				"invisible",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"restrained",
-				"stunned",
-				"unconscious"
-			],
-			"trait": [
-				{
-					"name": "Dark Bond",
-					"entries": [
-						"When your Shade is forced to make a saving throw, it uses your saving throw bonus for its roll."
-					]
-				},
-				{
-					"name": "Incorporeal Echo",
-					"entries": [
-						"The Shade has no physical presence, but its space counts as {@quickref difficult terrain||3}. It cannot use or interact with objects or magic items."
-					]
-				},
-				{
-					"name": "Umbral Guardian",
-					"entries": [
-						"If a creature provokes an {@action opportunity attack} from the Shade, you can use your reaction to make an opportunity attack from the Shade's space."
-					]
-				}
-			]
+			"page": 22
 		},
 		{
 			"name": "Beast of the Cave",
@@ -1056,15 +1020,13 @@
 			]
 		},
 		{
-			"name": "Beast of the Land",
-			"source": "LLAC",
-			"summonedByClass": "Alternate Ranger|LLAR",
+			"summonedByClass": "Ranger|PHB",
 			"size": [
 				"M"
 			],
 			"type": "beast",
 			"alignment": [
-				"N"
+				"U"
 			],
 			"ac": [
 				{
@@ -1072,7 +1034,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + five times your ranger level (The Beast has a total number of [d8] Hit Dice equal to your Ranger level)"
+				"special": "5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)"
 			},
 			"speed": {
 				"walk": 40,
@@ -1094,21 +1056,15 @@
 			"pbNote": "equals your bonus",
 			"trait": [
 				{
-					"name": "Hit Dice",
-					"entries": [
-						"The Beast has a total number of {@dice d8} Hit Dice equal to your Ranger level. It also gains all the normal benefits of both short and long rests."
-					]
-				},
-				{
 					"name": "Charge",
 					"entries": [
-						"If the Beast moves at least 20 ft. in a line toward a target and hits it with a Maul attack, the target takes bonus slashing damage equal to a roll of your Quarry Die. If it is Large or smaller it must succeed on a Strength saving throw or fall {@condition prone}."
+						"If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra {@damage 1d6} slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
 					]
 				},
 				{
 					"name": "Primal Bond",
 					"entries": [
-						"You can add your PB to any ability check or saving throw that the Beast makes."
+						"You can add your proficiency bonus to any ability check or saving throw that the beast makes."
 					]
 				}
 			],
@@ -1116,7 +1072,7 @@
 				{
 					"name": "Maul",
 					"entries": [
-						"{@atk mw} {@hit 2 +PB} to hit, reach 5 ft., one target. {@h}{@damage 1d8 +2 +PB} slashing damage."
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d8 + 2 + PB} slashing damage."
 					]
 				}
 			],
@@ -1130,19 +1086,23 @@
 				"S"
 			],
 			"miscTags": [
+				"MLW",
 				"MW"
-			]
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"name": "Beast of the Land",
+			"source": "LLAC"
 		},
 		{
-			"name": "Beast of the Sea",
-			"source": "LLAC",
-			"summonedByClass": "Alternate Ranger|LLAR",
+			"summonedByClass": "Ranger|PHB",
 			"size": [
 				"M"
 			],
 			"type": "beast",
 			"alignment": [
-				"N"
+				"U"
 			],
 			"ac": [
 				{
@@ -1150,10 +1110,10 @@
 				}
 			],
 			"hp": {
-				"special": "5 + five times your ranger level (The Beast has a total number of [d8] Hit Dice equal to your Ranger level)"
+				"special": "5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)"
 			},
 			"speed": {
-				"walk": 10,
+				"walk": 5,
 				"swim": 60
 			},
 			"str": 14,
@@ -1172,29 +1132,23 @@
 			"pbNote": "equals your bonus",
 			"trait": [
 				{
-					"name": "Hit Dice",
-					"entries": [
-						"The Beast has a total number of {@dice d8} Hit Dice equal to your Ranger level. It also gains all the normal benefits of both short and long rests."
-					]
-				},
-				{
 					"name": "Amphibious",
 					"entries": [
-						"The Beast can breathe in air and water."
+						"The beast can breathe both air and water."
 					]
 				},
 				{
 					"name": "Primal Bond",
 					"entries": [
-						"You can add your PB to any ability check or saving throw that the Beast makes."
+						"You can add your proficiency bonus to any ability check or saving throw that the beast makes."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Pseudopod",
+					"name": "Binding Strike",
 					"entries": [
-						"{@atk mw} {@hit 2 +PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6 +2 +PB} bludgeoning damage, and if the target is Large or smaller, it can choose to instantly {@action grapple} it (escape DC equal to your Spell save DC). While grappling a creature, it can only use its Pseudopod to attack that creature."
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 2 + PB} piercing damage or {@damage 1d6 + 2 + PB} bludgeoning damage (your choice), and the target is {@condition grappled} (escape DC equal to your spellcasting save DC). Until this grapple ends, the beast can't use this attack on another target."
 					]
 				}
 			],
@@ -1204,23 +1158,21 @@
 			"senseTags": [
 				"D"
 			],
-			"actionTags": [
-				"Tentacles"
-			],
 			"damageTags": [
-				"B"
+				"B",
+				"P"
 			],
 			"miscTags": [
 				"MW"
 			],
 			"conditionInflict": [
 				"grappled"
-			]
+			],
+			"name": "Beast of the Sea",
+			"source": "LLAC"
 		},
 		{
-			"name": "Beast of the Sky",
-			"source": "LLAC",
-			"summonedByClass": "Alternate Ranger|LLAR",
+			"summonedByClass": "Ranger|PHB",
 			"size": [
 				"S"
 			],
@@ -1234,7 +1186,7 @@
 				}
 			],
 			"hp": {
-				"special": "4 + five times your ranger level (The Beast has a total number of [d6] Hit Dice equal to your Ranger level)"
+				"special": "4 + four times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)"
 			},
 			"speed": {
 				"walk": 10,
@@ -1256,21 +1208,15 @@
 			"pbNote": "equals your bonus",
 			"trait": [
 				{
-					"name": "Hit Dice",
-					"entries": [
-						"The Beast has a total number of {@dice d6} Hit Dice equal to your Ranger level. It also gains all the normal benefits of both short and long rests."
-					]
-				},
-				{
 					"name": "Flyby",
 					"entries": [
-						"The Beast doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+						"The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach."
 					]
 				},
 				{
 					"name": "Primal Bond",
 					"entries": [
-						"You can add your PB to any ability check or saving throw that the Beast makes."
+						"You can add your proficiency bonus to any ability check or saving throw that the beast makes."
 					]
 				}
 			],
@@ -1278,7 +1224,7 @@
 				{
 					"name": "Shred",
 					"entries": [
-						"{@atk mw} {@hit 3 +PB} to hit, reach 5 ft., one target. {@h}{@damage 1d4 +3 +PB} slashing damage."
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d4 + 3 + PB} slashing damage."
 					]
 				}
 			],
@@ -1293,7 +1239,9 @@
 			],
 			"miscTags": [
 				"MW"
-			]
+			],
+			"name": "Beast of the Sky",
+			"source": "LLAC"
 		},
 		{
 			"name": "Draconic Companion",

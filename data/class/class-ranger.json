@@ -927,7 +927,7 @@
 			"name": "Primal Companion",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -943,7 +943,7 @@
 			"name": "Ranger's Companion",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -959,7 +959,7 @@
 			"name": "Beast Master",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -967,11 +967,11 @@
 				"The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Primal Companion|Ranger|XPHB|Beast Master|PHB|3|PHB"
+					"subclassFeature": "Primal Companion|Ranger|PHB|Beast Master|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ranger's Companion|Ranger|XPHB|Beast Master|PHB|3|PHB"
+					"subclassFeature": "Ranger's Companion|Ranger|PHB|Beast Master|PHB|3|PHB"
 				}
 			]
 		},
@@ -979,7 +979,7 @@
 			"name": "Exceptional Training",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -991,7 +991,7 @@
 			"name": "Bestial Fury",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1003,7 +1003,7 @@
 			"name": "Share Spells",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1015,7 +1015,7 @@
 			"name": "Horde Breaker",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1027,7 +1027,7 @@
 			"name": "Hunter's Prey",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1057,7 +1057,7 @@
 			"name": "Colossus Slayer",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1069,7 +1069,7 @@
 			"name": "Giant Killer",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1081,7 +1081,7 @@
 			"name": "Hunter",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1089,19 +1089,19 @@
 				"Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Horde Breaker|Ranger|XPHB|Hunter|PHB|3|PHB"
+					"subclassFeature": "Horde Breaker|Ranger|PHB|Hunter|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Prey|Ranger|XPHB|Hunter|PHB|3|PHB"
+					"subclassFeature": "Hunter's Prey|Ranger|PHB|Hunter|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Colossus Slayer|Ranger|XPHB|Hunter|PHB|3|PHB"
+					"subclassFeature": "Colossus Slayer|Ranger|PHB|Hunter|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Giant Killer|Ranger|XPHB|Hunter|PHB|3|PHB"
+					"subclassFeature": "Giant Killer|Ranger|PHB|Hunter|PHB|3|PHB"
 				}
 			]
 		},
@@ -1109,7 +1109,7 @@
 			"name": "Escape the Horde",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1121,7 +1121,7 @@
 			"name": "Multiattack Defense",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1133,7 +1133,7 @@
 			"name": "Steel Will",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1145,7 +1145,7 @@
 			"name": "Defensive Tactics",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1171,15 +1171,15 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Escape the Horde|Ranger|XPHB|Hunter|PHB|7|PHB"
+					"subclassFeature": "Escape the Horde|Ranger|PHB|Hunter|PHB|7|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Multiattack Defense|Ranger|XPHB|Hunter|PHB|7|PHB"
+					"subclassFeature": "Multiattack Defense|Ranger|PHB|Hunter|PHB|7|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Steel Will|Ranger|XPHB|Hunter|PHB|7|PHB"
+					"subclassFeature": "Steel Will|Ranger|PHB|Hunter|PHB|7|PHB"
 				}
 			]
 		},
@@ -1187,7 +1187,7 @@
 			"name": "Volley",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1199,7 +1199,7 @@
 			"name": "Whirlwind Attack",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1211,7 +1211,7 @@
 			"name": "Multiattack",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1233,11 +1233,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Volley|Ranger|XPHB|Hunter|PHB|11|PHB"
+					"subclassFeature": "Volley|Ranger|PHB|Hunter|PHB|11|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Whirlwind Attack|Ranger|XPHB|Hunter|PHB|11|PHB"
+					"subclassFeature": "Whirlwind Attack|Ranger|PHB|Hunter|PHB|11|PHB"
 				}
 			]
 		},
@@ -1245,7 +1245,7 @@
 			"name": "Stand Against the Tide",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1257,7 +1257,7 @@
 			"name": "Superior Hunter's Defense",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1287,7 +1287,7 @@
 			"name": "Uncanny Dodge",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1299,7 +1299,7 @@
 			"name": "Evasion",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1307,15 +1307,15 @@
 				"You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a {@spell lightning bolt} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Stand Against the Tide|Ranger|XPHB|Hunter|PHB|15|PHB"
+					"subclassFeature": "Stand Against the Tide|Ranger|PHB|Hunter|PHB|15|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Superior Hunter's Defense|Ranger|XPHB|Hunter|PHB|15|PHB"
+					"subclassFeature": "Superior Hunter's Defense|Ranger|PHB|Hunter|PHB|15|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Uncanny Dodge|Ranger|XPHB|Hunter|PHB|15|PHB"
+					"subclassFeature": "Uncanny Dodge|Ranger|PHB|Hunter|PHB|15|PHB"
 				}
 			]
 		},
@@ -1323,7 +1323,7 @@
 			"name": "Dread Ambusher",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Gloom Stalker",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1336,7 +1336,7 @@
 			"name": "Gloom Stalker Magic",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Gloom Stalker",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1382,7 +1382,7 @@
 			"name": "Umbral Sight",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Gloom Stalker",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1395,7 +1395,7 @@
 			"name": "Gloom Stalker",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Gloom Stalker",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1403,15 +1403,15 @@
 				"Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloom Stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dread Ambusher|Ranger|XPHB|Gloom Stalker|XGE|3|XGE"
+					"subclassFeature": "Dread Ambusher|Ranger|PHB|Gloom Stalker|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Gloom Stalker Magic|Ranger|XPHB|Gloom Stalker|XGE|3|XGE"
+					"subclassFeature": "Gloom Stalker Magic|Ranger|PHB|Gloom Stalker|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Umbral Sight|Ranger|XPHB|Gloom Stalker|XGE|3|XGE"
+					"subclassFeature": "Umbral Sight|Ranger|PHB|Gloom Stalker|XGE|3|XGE"
 				}
 			]
 		},
@@ -1419,7 +1419,7 @@
 			"name": "Iron Mind",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Gloom Stalker",
 			"subclassSource": "XGE",
 			"level": 7,
@@ -1431,7 +1431,7 @@
 			"name": "Stalker's Flurry",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Gloom Stalker",
 			"subclassSource": "XGE",
 			"level": 11,
@@ -1443,7 +1443,7 @@
 			"name": "Shadowy Dodge",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Gloom Stalker",
 			"subclassSource": "XGE",
 			"level": 15,
@@ -1455,7 +1455,7 @@
 			"name": "Detect Portal",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Horizon Walker",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1469,7 +1469,7 @@
 			"name": "Horizon Walker Magic",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Horizon Walker",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1515,7 +1515,7 @@
 			"name": "Planar Warrior",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Horizon Walker",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1528,7 +1528,7 @@
 			"name": "Horizon Walker",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Horizon Walker",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1536,15 +1536,15 @@
 				"Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These rangers are also friends to any forces in the multiverse—especially benevolent dragons, fey, and elementals—that work to preserve life and the order of the planes.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Detect Portal|Ranger|XPHB|Horizon Walker|XGE|3|XGE"
+					"subclassFeature": "Detect Portal|Ranger|PHB|Horizon Walker|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Horizon Walker Magic|Ranger|XPHB|Horizon Walker|XGE|3|XGE"
+					"subclassFeature": "Horizon Walker Magic|Ranger|PHB|Horizon Walker|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Planar Warrior|Ranger|XPHB|Horizon Walker|XGE|3|XGE"
+					"subclassFeature": "Planar Warrior|Ranger|PHB|Horizon Walker|XGE|3|XGE"
 				}
 			]
 		},
@@ -1552,7 +1552,7 @@
 			"name": "Ethereal Step",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Horizon Walker",
 			"subclassSource": "XGE",
 			"level": 7,
@@ -1565,7 +1565,7 @@
 			"name": "Distant Strike",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Horizon Walker",
 			"subclassSource": "XGE",
 			"level": 11,
@@ -1578,7 +1578,7 @@
 			"name": "Spectral Defense",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Horizon Walker",
 			"subclassSource": "XGE",
 			"level": 15,
@@ -1590,7 +1590,7 @@
 			"name": "Hunter's Sense",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Monster Slayer",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1603,7 +1603,7 @@
 			"name": "Monster Slayer Magic",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Monster Slayer",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1649,7 +1649,7 @@
 			"name": "Slayer's Prey",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Monster Slayer",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1662,7 +1662,7 @@
 			"name": "Monster Slayer",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Monster Slayer",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1670,15 +1670,15 @@
 				"You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Sense|Ranger|XPHB|Monster Slayer|XGE|3|XGE"
+					"subclassFeature": "Hunter's Sense|Ranger|PHB|Monster Slayer|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Monster Slayer Magic|Ranger|XPHB|Monster Slayer|XGE|3|XGE"
+					"subclassFeature": "Monster Slayer Magic|Ranger|PHB|Monster Slayer|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Slayer's Prey|Ranger|XPHB|Monster Slayer|XGE|3|XGE"
+					"subclassFeature": "Slayer's Prey|Ranger|PHB|Monster Slayer|XGE|3|XGE"
 				}
 			]
 		},
@@ -1686,7 +1686,7 @@
 			"name": "Supernatural Defense",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Monster Slayer",
 			"subclassSource": "XGE",
 			"level": 7,
@@ -1698,7 +1698,7 @@
 			"name": "Magic-User's Nemesis",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Monster Slayer",
 			"subclassSource": "XGE",
 			"level": 11,
@@ -1711,7 +1711,7 @@
 			"name": "Slayer's Counter",
 			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Monster Slayer",
 			"subclassSource": "XGE",
 			"level": 15,
@@ -1723,7 +1723,7 @@
 			"name": "Dreadful Strikes",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fey Wanderer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1737,7 +1737,7 @@
 			"name": "Fey Wanderer Magic",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fey Wanderer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1823,7 +1823,7 @@
 			"name": "Otherworldly Glamour",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fey Wanderer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1837,7 +1837,7 @@
 			"name": "Fey Wanderer",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fey Wanderer",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1845,15 +1845,15 @@
 				"A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Wanderer, a ranger who represents both the mortal and the fey realms. As you wander the multiverse, your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dreadful Strikes|Ranger|XPHB|Fey Wanderer|TCE|3|TCE"
+					"subclassFeature": "Dreadful Strikes|Ranger|PHB|Fey Wanderer|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fey Wanderer Magic|Ranger|XPHB|Fey Wanderer|TCE|3|TCE"
+					"subclassFeature": "Fey Wanderer Magic|Ranger|PHB|Fey Wanderer|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Otherworldly Glamour|Ranger|XPHB|Fey Wanderer|TCE|3|TCE"
+					"subclassFeature": "Otherworldly Glamour|Ranger|PHB|Fey Wanderer|TCE|3|TCE"
 				}
 			]
 		},
@@ -1861,7 +1861,7 @@
 			"name": "Beguiling Twist",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fey Wanderer",
 			"subclassSource": "TCE",
 			"level": 7,
@@ -1875,7 +1875,7 @@
 			"name": "Fey Reinforcements",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fey Wanderer",
 			"subclassSource": "TCE",
 			"level": 11,
@@ -1889,7 +1889,7 @@
 			"name": "Misty Wanderer",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Fey Wanderer",
 			"subclassSource": "TCE",
 			"level": 15,
@@ -1903,7 +1903,7 @@
 			"name": "Gathered Swarm",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swarmkeeper",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1963,7 +1963,7 @@
 			"name": "Swarmkeeper Magic",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swarmkeeper",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2011,7 +2011,7 @@
 			"name": "Swarmkeeper",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swarmkeeper",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2019,11 +2019,11 @@
 				"Feeling a deep connection to the environment around them, some rangers reach out through their magical connection to the world and bond with a swarm of nature spirits. The swarm becomes a potent force in battle, as well as helpful company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Gathered Swarm|Ranger|XPHB|Swarmkeeper|TCE|3|TCE"
+					"subclassFeature": "Gathered Swarm|Ranger|PHB|Swarmkeeper|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Swarmkeeper Magic|Ranger|XPHB|Swarmkeeper|TCE|3|TCE"
+					"subclassFeature": "Swarmkeeper Magic|Ranger|PHB|Swarmkeeper|TCE|3|TCE"
 				}
 			]
 		},
@@ -2031,7 +2031,7 @@
 			"name": "Writhing Tide",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swarmkeeper",
 			"subclassSource": "TCE",
 			"level": 7,
@@ -2045,7 +2045,7 @@
 			"name": "Mighty Swarm",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swarmkeeper",
 			"subclassSource": "TCE",
 			"level": 11,
@@ -2066,7 +2066,7 @@
 			"name": "Swarming Dispersal",
 			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swarmkeeper",
 			"subclassSource": "TCE",
 			"level": 15,
@@ -2080,7 +2080,7 @@
 			"name": "Draconic Gift",
 			"source": "FTD",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drakewarden",
 			"subclassSource": "FTD",
 			"level": 3,
@@ -2109,7 +2109,7 @@
 			"name": "Drake Companion",
 			"source": "FTD",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drakewarden",
 			"subclassSource": "FTD",
 			"level": 3,
@@ -2126,7 +2126,7 @@
 			"name": "Drakewarden",
 			"source": "FTD",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drakewarden",
 			"subclassSource": "FTD",
 			"level": 3,
@@ -2173,11 +2173,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Draconic Gift|Ranger|XPHB|Drakewarden|FTD|3|FTD"
+					"subclassFeature": "Draconic Gift|Ranger|PHB|Drakewarden|FTD|3|FTD"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Drake Companion|Ranger|XPHB|Drakewarden|FTD|3|FTD"
+					"subclassFeature": "Drake Companion|Ranger|PHB|Drakewarden|FTD|3|FTD"
 				}
 			]
 		},
@@ -2185,7 +2185,7 @@
 			"name": "Bond of Fang and Scale",
 			"source": "FTD",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drakewarden",
 			"subclassSource": "FTD",
 			"level": 7,
@@ -2226,7 +2226,7 @@
 			"name": "Drake's Breath",
 			"source": "FTD",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drakewarden",
 			"subclassSource": "FTD",
 			"level": 11,
@@ -2241,7 +2241,7 @@
 			"name": "Perfected Bond",
 			"source": "FTD",
 			"className": "Ranger",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Drakewarden",
 			"subclassSource": "FTD",
 			"level": 15,
@@ -2452,227 +2452,230 @@
 	],
 	"subclass": [
 		{
-			"name": "Beast Master",
 			"shortName": "Beast Master",
-			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Beast Master",
-				"source": "PHB",
-				"shortName": "Beast Master",
-				"className": "Ranger",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Beast Master",
+			"source": "PHB",
 			"subclassFeatures": [
-				"Beast Master|Ranger|XPHB|Beast Master|PHB|3|PHB",
-				"Exceptional Training|Ranger|XPHB|Beast Master|PHB|7|PHB",
-				"Bestial Fury|Ranger|XPHB|Beast Master|PHB|11|PHB",
-				"Share Spells|Ranger|XPHB|Beast Master|PHB|15|PHB"
+				"Beast Master|Ranger|PHB|Beast Master|PHB|3|PHB",
+				"Exceptional Training|Ranger|PHB|Beast Master|PHB|7|PHB",
+				"Bestial Fury|Ranger|PHB|Beast Master|PHB|11|PHB",
+				"Share Spells|Ranger|PHB|Beast Master|PHB|15|PHB"
 			]
 		},
 		{
-			"name": "Hunter",
 			"shortName": "Hunter",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Hunter",
 			"source": "PHB",
-			"className": "Ranger",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Hunter",
-				"source": "PHB",
-				"shortName": "Hunter",
-				"className": "Ranger",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Hunter|Ranger|XPHB|Hunter|PHB|3|PHB",
-				"Defensive Tactics|Ranger|XPHB|Hunter|PHB|7|PHB",
-				"Multiattack|Ranger|XPHB|Hunter|PHB|11|PHB",
-				"Evasion|Ranger|XPHB|Hunter|PHB|15|PHB"
+				"Hunter|Ranger|PHB|Hunter|PHB|3|PHB",
+				"Defensive Tactics|Ranger|PHB|Hunter|PHB|7|PHB",
+				"Multiattack|Ranger|PHB|Hunter|PHB|11|PHB",
+				"Evasion|Ranger|PHB|Hunter|PHB|15|PHB"
 			]
 		},
 		{
-			"name": "Gloom Stalker",
 			"shortName": "Gloom Stalker",
-			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Gloom Stalker",
-				"source": "XGE",
-				"shortName": "Gloom Stalker",
-				"className": "Ranger",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"disguise self"
+						],
+						"5": [
+							"rope trick"
+						],
+						"9": [
+							"fear"
+						],
+						"13": [
+							"greater invisibility"
+						],
+						"17": [
+							"seeming"
+						]
+					}
 				}
-			},
+			],
+			"name": "Gloom Stalker",
+			"source": "XGE",
 			"subclassFeatures": [
-				"Gloom Stalker|Ranger|XPHB|Gloom Stalker|XGE|3|XGE",
-				"Iron Mind|Ranger|XPHB|Gloom Stalker|XGE|7|XGE",
-				"Stalker's Flurry|Ranger|XPHB|Gloom Stalker|XGE|11|XGE",
-				"Shadowy Dodge|Ranger|XPHB|Gloom Stalker|XGE|15|XGE"
+				"Gloom Stalker|Ranger|PHB|Gloom Stalker|XGE|3|XGE",
+				"Iron Mind|Ranger|PHB|Gloom Stalker|XGE|7|XGE",
+				"Stalker's Flurry|Ranger|PHB|Gloom Stalker|XGE|11|XGE",
+				"Shadowy Dodge|Ranger|PHB|Gloom Stalker|XGE|15|XGE"
 			]
 		},
 		{
-			"name": "Horizon Walker",
 			"shortName": "Horizon Walker",
-			"source": "XGE",
 			"className": "Ranger",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Horizon Walker",
-				"source": "XGE",
-				"shortName": "Horizon Walker",
-				"className": "Ranger",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"protection from evil and good"
+						],
+						"5": [
+							"misty step"
+						],
+						"9": [
+							"haste"
+						],
+						"13": [
+							"banishment"
+						],
+						"17": [
+							"teleportation circle"
+						]
+					}
 				}
-			},
+			],
+			"name": "Horizon Walker",
+			"source": "XGE",
 			"subclassFeatures": [
-				"Horizon Walker|Ranger|XPHB|Horizon Walker|XGE|3|XGE",
-				"Ethereal Step|Ranger|XPHB|Horizon Walker|XGE|7|XGE",
-				"Distant Strike|Ranger|XPHB|Horizon Walker|XGE|11|XGE",
-				"Spectral Defense|Ranger|XPHB|Horizon Walker|XGE|15|XGE"
+				"Horizon Walker|Ranger|PHB|Horizon Walker|XGE|3|XGE",
+				"Ethereal Step|Ranger|PHB|Horizon Walker|XGE|7|XGE",
+				"Distant Strike|Ranger|PHB|Horizon Walker|XGE|11|XGE",
+				"Spectral Defense|Ranger|PHB|Horizon Walker|XGE|15|XGE"
 			]
 		},
 		{
-			"name": "Monster Slayer",
 			"shortName": "Monster Slayer",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"protection from evil and good"
+						],
+						"5": [
+							"zone of truth"
+						],
+						"9": [
+							"magic circle"
+						],
+						"13": [
+							"banishment"
+						],
+						"17": [
+							"hold monster"
+						]
+					}
+				}
+			],
+			"name": "Monster Slayer",
 			"source": "XGE",
-			"className": "Ranger",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Monster Slayer",
-				"source": "XGE",
-				"shortName": "Monster Slayer",
-				"className": "Ranger",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Monster Slayer|Ranger|XPHB|Monster Slayer|XGE|3|XGE",
-				"Supernatural Defense|Ranger|XPHB|Monster Slayer|XGE|7|XGE",
-				"Magic-User's Nemesis|Ranger|XPHB|Monster Slayer|XGE|11|XGE",
-				"Slayer's Counter|Ranger|XPHB|Monster Slayer|XGE|15|XGE"
+				"Monster Slayer|Ranger|PHB|Monster Slayer|XGE|3|XGE",
+				"Supernatural Defense|Ranger|PHB|Monster Slayer|XGE|7|XGE",
+				"Magic-User's Nemesis|Ranger|PHB|Monster Slayer|XGE|11|XGE",
+				"Slayer's Counter|Ranger|PHB|Monster Slayer|XGE|15|XGE"
 			]
 		},
 		{
-			"name": "Fey Wanderer",
 			"shortName": "Fey Wanderer",
-			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Fey Wanderer",
-				"source": "TCE",
-				"shortName": "Fey Wanderer",
-				"className": "Ranger",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"charm person"
+						],
+						"5": [
+							"misty step"
+						],
+						"9": [
+							"dispel magic"
+						],
+						"13": [
+							"dimension door"
+						],
+						"17": [
+							"mislead"
+						]
+					}
 				}
-			},
+			],
+			"name": "Fey Wanderer",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Fey Wanderer|Ranger|XPHB|Fey Wanderer|TCE|3|TCE",
-				"Beguiling Twist|Ranger|XPHB|Fey Wanderer|TCE|7|TCE",
-				"Fey Reinforcements|Ranger|XPHB|Fey Wanderer|TCE|11|TCE",
-				"Misty Wanderer|Ranger|XPHB|Fey Wanderer|TCE|15|TCE"
+				"Fey Wanderer|Ranger|PHB|Fey Wanderer|TCE|3|TCE",
+				"Beguiling Twist|Ranger|PHB|Fey Wanderer|TCE|7|TCE",
+				"Fey Reinforcements|Ranger|PHB|Fey Wanderer|TCE|11|TCE",
+				"Misty Wanderer|Ranger|PHB|Fey Wanderer|TCE|15|TCE"
 			]
 		},
 		{
-			"name": "Swarmkeeper",
 			"shortName": "Swarmkeeper",
-			"source": "TCE",
 			"className": "Ranger",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Swarmkeeper",
-				"source": "TCE",
-				"shortName": "Swarmkeeper",
-				"className": "Ranger",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"mage hand#c",
+							"faerie fire"
+						],
+						"5": [
+							"web"
+						],
+						"9": [
+							"gaseous form"
+						],
+						"13": [
+							"arcane eye"
+						],
+						"17": [
+							"insect plague"
+						]
+					}
 				}
-			},
+			],
+			"name": "Swarmkeeper",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Swarmkeeper|Ranger|XPHB|Swarmkeeper|TCE|3|TCE",
-				"Writhing Tide|Ranger|XPHB|Swarmkeeper|TCE|7|TCE",
-				"Mighty Swarm|Ranger|XPHB|Swarmkeeper|TCE|11|TCE",
-				"Swarming Dispersal|Ranger|XPHB|Swarmkeeper|TCE|15|TCE"
+				"Swarmkeeper|Ranger|PHB|Swarmkeeper|TCE|3|TCE",
+				"Writhing Tide|Ranger|PHB|Swarmkeeper|TCE|7|TCE",
+				"Mighty Swarm|Ranger|PHB|Swarmkeeper|TCE|11|TCE",
+				"Swarming Dispersal|Ranger|PHB|Swarmkeeper|TCE|15|TCE"
 			]
 		},
 		{
-			"name": "Drakewarden",
 			"shortName": "Drakewarden",
-			"source": "FTD",
 			"className": "Ranger",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Drakewarden",
-				"source": "FTD",
-				"shortName": "Drakewarden",
-				"className": "Ranger",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"thaumaturgy#c"
+						]
+					}
 				}
-			},
+			],
+			"name": "Drakewarden",
+			"source": "FTD",
 			"subclassFeatures": [
-				"Drakewarden|Ranger|XPHB|Drakewarden|FTD|3|FTD",
-				"Bond of Fang and Scale|Ranger|XPHB|Drakewarden|FTD|7|FTD",
-				"Drake's Breath|Ranger|XPHB|Drakewarden|FTD|11|FTD",
-				"Perfected Bond|Ranger|XPHB|Drakewarden|FTD|15|FTD"
+				"Drakewarden|Ranger|PHB|Drakewarden|FTD|3|FTD",
+				"Bond of Fang and Scale|Ranger|PHB|Drakewarden|FTD|7|FTD",
+				"Drake's Breath|Ranger|PHB|Drakewarden|FTD|11|FTD",
+				"Perfected Bond|Ranger|PHB|Drakewarden|FTD|15|FTD"
 			]
 		},
 		{

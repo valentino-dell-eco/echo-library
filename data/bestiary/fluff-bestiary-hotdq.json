@@ -120,6 +120,13 @@
 					},
 					"width": 850,
 					"height": 1054
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/HotDQ/Four-Armed%20Troll.webp"
+					}
 				}
 			]
 		},
@@ -180,6 +187,30 @@
 					},
 					"width": 841,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/HotDQ/Leosin%20Erlanthar.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Linan Swift",
+			"source": "HotDQ",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -200,6 +231,13 @@
 					},
 					"width": 819,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/HotDQ/Ontharr%20Frume.webp"
+					}
 				}
 			]
 		},
@@ -215,6 +253,23 @@
 					},
 					"width": 812,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Raggnar Redtooth",
+			"source": "HotDQ",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Veterans are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -260,6 +315,13 @@
 					},
 					"width": 636,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/HotDQ/Sandesyl%20Morgia.webp"
+					}
 				}
 			]
 		},

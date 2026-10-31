@@ -4030,51 +4030,210 @@
 			"hasFluff": true
 		},
 		{
-			"name": "The Bagman",
-			"source": "VRGR",
-			"page": 225,
-			"_copy": {
-				"name": "Troll",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "troll",
-						"with": "Bagman",
-						"flags": "i"
-					},
-					"trait": [
-						{
-							"mode": "appendArr",
-							"items": [
-								{
-									"name": "Grappler",
-									"entries": [
-										"The Bagman has advantage on attack rolls against any creature {@condition grappled} by it."
-									]
-								},
-								{
-									"name": "Amorphous",
-									"entries": [
-										"The Bagman can move through a space as narrow as 1 inch wide without squeezing."
-									]
-								},
-								{
-									"name": "Alien Mind",
-									"entries": [
-										"If a creature tries to read the Bagman's thoughts, that creature must succeed on a {@dc 8} Intelligence saving throw or be {@condition stunned} for 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-									]
-								}
-							]
-						}
-					]
-				}
-			},
 			"traitTags": [
 				"Amorphous",
 				"Keen Senses",
 				"Regeneration"
 			],
+			"name": "The Bagman",
+			"source": "VRGR",
+			"page": 225,
+			"referenceSources": [
+				"AitFR-AVT",
+				"DitLCoT",
+				"EGW",
+				"GoS",
+				"HotDQ",
+				"OotA",
+				"PotA",
+				"PSZ",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SCC-HfMT",
+				"SCC-TMM",
+				"SKT",
+				"SLW",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-DiT",
+				"TftYP-ToH",
+				"TftYP-TSC",
+				"ToA",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "giant",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "8d10 + 40"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 20,
+			"int": 7,
+			"wis": 9,
+			"cha": 7,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Giant"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The Bagman has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The Bagman regains 10 hit points at the start of its turn. If the Bagman takes acid or fire damage, this trait doesn't function at the start of the Bagman's next turn. The Bagman dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Grappler",
+					"entries": [
+						"The Bagman has advantage on attack rolls against any creature {@condition grappled} by it."
+					]
+				},
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The Bagman can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Alien Mind",
+					"entries": [
+						"If a creature tries to read the Bagman's thoughts, that creature must succeed on a {@dc 8} Intelligence saving throw or be {@condition stunned} for 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Bagman makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Loathsome Limbs",
+					"entries": [
+						"Some Bagmans have the following trait",
+						{
+							"type": "entries",
+							"name": "Loathsome Limbs",
+							"entries": [
+								"Whenever the Bagman takes at least 15 slashing damage at one time, roll a {@dice d20} to determine what else happens to it:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "1–10:",
+											"entry": "Nothing else happens."
+										},
+										{
+											"type": "item",
+											"name": "11–14:",
+											"entry": "One leg is severed from the Bagman if it has any legs left."
+										},
+										{
+											"type": "item",
+											"name": "15–18:",
+											"entry": "One arm is severed from the Bagman if it has any arms left."
+										},
+										{
+											"type": "item",
+											"name": "19–20:",
+											"entry": "The Bagman is decapitated, but the Bagman dies only if it can't regenerate. If it dies, so does the severed head."
+										}
+									]
+								},
+								"If the Bagman finishes a short or long rest without reattaching a severed limb or head, the part regrows. At that point, the severed part dies. Until then, a severed part acts on the Bagman's initiative and has its own action and movement. A severed part has AC 13, 10 hit points, and the Bagman's Regeneration trait.",
+								"A {@b severed leg} is unable to attack and has a speed of 5 feet.",
+								"A {@b severed arm} has a speed of 5 feet and can make one claw attack on its turn, with disadvantage on the attack roll unless the Bagman can see the arm and its target. Each time the Bagman loses an arm, it loses a claw attack.",
+								"If its head is severed, the Bagman loses its bite attack and its body is {@condition blinded} unless the head can see it. The {@b severed head} has a speed of 0 feet and the Bagman's Keen Smell trait. It can make a bite attack but only against a target in its space.",
+								"The Bagman's speed is halved if it's missing a leg. If it loses both legs, it falls {@condition prone}. If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed."
+							]
+						}
+					],
+					"_version": {
+						"name": "Bagman (Loathsome Limbs)",
+						"addHeadersAs": "trait"
+					}
+				}
+			],
+			"environment": [
+				"underdark",
+				"mountain",
+				"forest",
+				"swamp",
+				"hill",
+				"arctic"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/VRGR/The%20Bagman.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true

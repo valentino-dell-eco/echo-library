@@ -210,11 +210,11 @@
 	],
 	"class": [
 		{
+			"edition": "classic",
+			"isSidekick": true,
 			"name": "Expert Sidekick",
 			"source": "TCE",
 			"page": 142,
-			"edition": "classic",
-			"isSidekick": true,
 			"classFeatures": [
 				"Bonus Proficiencies|Expert Sidekick|TCE|1|TCE",
 				"Helpful|Expert Sidekick|TCE|1|TCE",

@@ -138,48 +138,144 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Agathe Silverspoon",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 21,
-			"_copy": {
-				"name": "Orc",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the orc",
-						"with": "Agathe",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"C",
 				"G"
 			],
+			"name": "Agathe Silverspoon",
+			"source": "CRCotN",
+			"page": 21,
+			"referenceSources": [
+				"CRCotN",
+				"DIP",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HftT",
+				"HotDQ",
+				"IDRotF",
+				"LMoP",
+				"OotA",
+				"PaBTSO",
+				"PotA",
+				"RMBRE",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"ToA",
+				"US"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"orc"
+				]
+			},
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 15,
+				"formula": "2d8 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 16,
+			"int": 7,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"intimidation": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Orc"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, Agathe can move up to its speed toward a hostile creature that it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"mountain",
+				"grassland",
+				"forest",
+				"swamp",
+				"hill",
+				"arctic"
+			],
+			"attachedItems": [
+				"greataxe|phb",
+				"javelin|phb"
+			],
+			"traitTags": [
+				"Aggressive"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"O"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Agathe%20Silverspoon.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Aloysia Telfan",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 61,
-			"_copy": {
-				"name": "Occult Initiate",
-				"source": "CRCotN",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the initiate",
-						"with": "Aloysia",
-						"flags": "i"
-					}
-				}
-			},
 			"size": [
 				"M"
 			],
@@ -194,6 +290,102 @@
 				"L",
 				"E"
 			],
+			"name": "Aloysia Telfan",
+			"source": "CRCotN",
+			"page": 61,
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 14,
+			"wis": 10,
+			"cha": 16,
+			"skill": {
+				"arcana": "+6",
+				"deception": "+5",
+				"history": "+4",
+				"perception": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"Common plus one other language"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Aloysia casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+					],
+					"will": [
+						"{@spell light}",
+						"{@spell mage hand}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell detect magic}",
+							"{@spell levitate}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Arcane Blast {@recharge 5}",
+					"entries": [
+						"Aloysia creates an explosion of magical force in a 20-foot-radius sphere centered on a point it can see within 120 feet of itself. Each creature in that area must make a {@dc 13} Dexterity saving throw. On a failed saving throw, the creature takes 10 ({@damage 3d6}) force damage and is pushed 10 feet away from the center of the area. On a successful save, it takes half as much damage and isn't pushed."
+					]
+				}
+			],
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"O",
+				"P",
+				"Y"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Aloysia%20Telfan.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -1330,29 +1522,8 @@
 			"hasToken": true
 		},
 		{
-			"name": "Aradrine the Owl",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 82,
-			"_copy": {
-				"name": "Occult Silvertongue",
-				"source": "CRCotN",
-				"_templates": [
-					{
-						"name": "Goliath",
-						"source": "VGM"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the silvertongue",
-						"with": "Aradrine",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1364,27 +1535,144 @@
 				"L",
 				"N"
 			],
+			"name": "Aradrine the Owl",
+			"source": "CRCotN",
+			"page": 82,
+			"size": [
+				"S",
+				"M"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 127,
+				"formula": "17d8 + 51"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 16,
+			"int": 15,
+			"wis": 17,
+			"cha": 20,
+			"save": {
+				"wis": "+6",
+				"cha": "+8"
+			},
+			"skill": {
+				"arcana": "+8",
+				"deception": "+11",
+				"history": "+5",
+				"perception": "+6"
+			},
+			"senses": [
+				"truesight 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"psychic"
+			],
+			"languages": [
+				"Common plus three other languages",
+				"telepathy 60 ft."
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Aradrine casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+					],
+					"daily": {
+						"1": [
+							"{@spell dimension door}"
+						],
+						"2e": [
+							"{@spell charm person}",
+							"{@spell mage armor}",
+							"{@spell sending}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Alien Mind",
+					"entries": [
+						"If a creature tries to read Aradrine's thoughts or deals psychic damage to Aradrine, that creature must succeed on a {@dc 16} Intelligence saving throw or be {@condition stunned} until the start of its next turn."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Aradrine has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Crimson Bolt",
+					"entries": [
+						"{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 60 ft., one creature. {@h}27 ({@damage 4d10 + 5}) psychic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Elemental Servitor (1/Day)",
+					"entries": [
+						"Aradrine magically summons an earth elemental, which appears in an unoccupied space Aradrine can see within 60 feet of itself. The earth elemental takes its turn immediately after Aradrine on the same initiative count and obeys Aradrine's commands. The earth elemental disappears after 1 minute or when it or Aradrine dies."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"C",
+				"TP"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"damageTagsSpell": [
+				"O"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"charmed"
+			],
+			"savingThrowForced": [
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Aradrine%20the%20Owl.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Ashann",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 115,
-			"_copy": {
-				"name": "Occult Initiate",
-				"source": "CRCotN",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the initiate",
-						"with": "Ashann",
-						"flags": "i"
-					}
-				}
-			},
 			"size": [
 				"S"
 			],
@@ -1399,6 +1687,102 @@
 				"C",
 				"N"
 			],
+			"name": "Ashann",
+			"source": "CRCotN",
+			"page": 115,
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 14,
+			"wis": 10,
+			"cha": 16,
+			"skill": {
+				"arcana": "+6",
+				"deception": "+5",
+				"history": "+4",
+				"perception": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"Common plus one other language"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Ashann casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+					],
+					"will": [
+						"{@spell light}",
+						"{@spell mage hand}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell detect magic}",
+							"{@spell levitate}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Arcane Blast {@recharge 5}",
+					"entries": [
+						"Ashann creates an explosion of magical force in a 20-foot-radius sphere centered on a point it can see within 120 feet of itself. Each creature in that area must make a {@dc 13} Dexterity saving throw. On a failed saving throw, the creature takes 10 ({@damage 3d6}) force damage and is pushed 10 feet away from the center of the area. On a successful save, it takes half as much damage and isn't pushed."
+					]
+				}
+			],
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"O",
+				"P",
+				"Y"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Ashann.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -1870,22 +2254,192 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Celeste",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Celeste",
 			"source": "CRCotN",
 			"page": 150,
-			"_copy": {
-				"name": "Ghost",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the ghost",
-						"with": "Celeste",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"LoX",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"RtG",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-ToH",
+				"TftYP-TSC",
+				"ToFW",
+				"TTP",
+				"VEoR",
+				"VNotEE",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 45,
+				"formula": "10d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 7,
+			"dex": 13,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 17,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"any languages it knew in life"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"Celeste can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"Celeste can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 4d6 + 3}) necrotic damage."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"Celeste enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+					]
+				},
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"Each non-undead creature within 60 feet of Celeste that can see it must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute. If the save fails by 5 or more, the target also ages {@dice 1d4 × 10} years. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the {@condition frightened} condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a {@spell greater restoration} spell, but only within 24 hours of it occurring."
+					]
+				},
+				{
+					"name": "Possession {@recharge}",
+					"entries": [
+						"One humanoid that Celeste can see within 5 feet of it must succeed on a {@dc 13} Charisma saving throw or be possessed by Celeste; Celeste then disappears, and the target is {@condition incapacitated} and loses control of its body. Celeste now controls the body but doesn't deprive the target of awareness. Celeste can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"The possession lasts until the body drops to 0 hit points, Celeste ends it as a bonus action, or Celeste is turned or forced out by an effect like the {@spell dispel evil and good} spell. When the possession ends, Celeste reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"traitTags": [
+				"Ethereal Sight",
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"N",
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"incapacitated"
+			],
+			"savingThrowForced": [
+				"charisma",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Celeste.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
@@ -2676,13 +3230,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Fiendish Orc",
-			"source": "CRCotN",
-			"page": 71,
-			"_copy": {
-				"name": "Orc War Chief",
-				"source": "MM"
-			},
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -2699,32 +3246,145 @@
 				"Orc"
 			],
 			"tokenCustom": true,
-			"hasToken": true
+			"name": "Fiendish Orc",
+			"source": "CRCotN",
+			"page": 71,
+			"referenceSources": [
+				"CRCotN",
+				"GoS",
+				"IDRotF",
+				"SKT",
+				"ToA",
+				"WBtW",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item chain mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 93,
+				"formula": "11d8 + 44"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 18,
+			"int": 11,
+			"wis": 11,
+			"cha": 16,
+			"save": {
+				"str": "+6",
+				"con": "+6",
+				"wis": "+2"
+			},
+			"skill": {
+				"intimidation": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Gruumsh's Fury",
+					"entries": [
+						"The orc deals an extra 4 ({@damage 1d8}) damage when it hits with a weapon attack (included in the attacks)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The orc makes two attacks with its greataxe or its spear."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 1d12 + 4} plus {@damage 1d8}) slashing damage."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}12 ({@damage 1d6 + 4} plus {@damage 1d8}) piercing damage, or 13 ({@damage 2d8 + 4}) piercing damage if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Battle Cry (1/Day)",
+					"entries": [
+						"Each creature of the war chief's choice that is within 30 feet of it, can hear it, and not already affected by Battle Cry gains advantage on attack rolls until the start of the war chief's next turn. The war chief can then make one attack as a bonus action."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"mountain",
+				"grassland",
+				"forest",
+				"swamp",
+				"hill",
+				"arctic"
+			],
+			"attachedItems": [
+				"greataxe|phb",
+				"spear|phb"
+			],
+			"traitTags": [
+				"Aggressive"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"O"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Fiendish%20Orc.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Foghome",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 58,
-			"_copy": {
-				"name": "Priest",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Firbolg",
-						"source": "VGM"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the priest",
-						"with": "Foghome",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"N",
 				"G"
@@ -2733,6 +3393,175 @@
 				"CC",
 				"I"
 			],
+			"name": "Foghome",
+			"source": "CRCotN",
+			"page": 58,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"US",
+				"VEoR",
+				"WDH",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 12,
+			"int": 13,
+			"wis": 16,
+			"cha": 13,
+			"skill": {
+				"medicine": "+7",
+				"persuasion": "+3",
+				"religion": "+5"
+			},
+			"passive": 13,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Foghome is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Foghome has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell guiding bolt}",
+								"{@spell sanctuary}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell spirit guardians}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Divine Eminence",
+					"entries": [
+						"As a bonus action, Foghome can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Foghome expends a spell slot of 2nd level or higher, the extra damage increases by {@damage 1d6} for each level above 1st."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"mace|phb"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Foghome.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -3357,29 +4186,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Gryz Alakritos",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 81,
-			"_copy": {
-				"name": "Scholarly Mastermind",
-				"source": "CRCotN",
-				"_templates": [
-					{
-						"name": "Goblin",
-						"source": "DMG"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mastermind",
-						"with": "Gryz",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3391,6 +4199,126 @@
 				"N",
 				"G"
 			],
+			"name": "Gryz Alakritos",
+			"source": "CRCotN",
+			"page": 81,
+			"size": [
+				"S",
+				"M"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 82,
+				"formula": "15d8 + 15"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 13,
+			"int": 18,
+			"wis": 16,
+			"cha": 14,
+			"save": {
+				"int": "+7",
+				"wis": "+6"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7",
+				"insight": "+6",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"Common plus three other languages"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Gryz casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell light}",
+						"{@spell mage hand}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell comprehend languages}",
+							"{@spell mage armor}",
+							"{@spell zone of truth}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Gryz makes two Arcane Shock or Dagger of the Poisoned Mind attacks."
+					]
+				},
+				{
+					"name": "Arcane Shock",
+					"entries": [
+						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 60 ft., one target. {@h}26 ({@damage 4d10 + 4}) lightning damage. If the target is a creature, it can't take reactions until the start of its next turn."
+					]
+				},
+				{
+					"name": "Dagger of the Poisoned Mind",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage plus 10 ({@damage 3d6}) psychic damage. If the target is a creature, it must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} until the end of its next turn."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"L",
+				"P",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"dexterity"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Gryz%20Alakritos.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -3874,23 +4802,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "James Cryon",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 81,
-			"_copy": {
-				"name": "Scholarly Mastermind",
-				"source": "CRCotN",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mastermind",
-						"with": "James",
-						"flags": "i"
-					}
-				}
-			},
 			"size": [
 				"M"
 			],
@@ -3905,27 +4818,128 @@
 				"L",
 				"N"
 			],
+			"name": "James Cryon",
+			"source": "CRCotN",
+			"page": 81,
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 82,
+				"formula": "15d8 + 15"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 13,
+			"int": 18,
+			"wis": 16,
+			"cha": 14,
+			"save": {
+				"int": "+7",
+				"wis": "+6"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7",
+				"insight": "+6",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"Common plus three other languages"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"James casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell light}",
+						"{@spell mage hand}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell comprehend languages}",
+							"{@spell mage armor}",
+							"{@spell zone of truth}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"James makes two Arcane Shock or Dagger of the Poisoned Mind attacks."
+					]
+				},
+				{
+					"name": "Arcane Shock",
+					"entries": [
+						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 60 ft., one target. {@h}26 ({@damage 4d10 + 4}) lightning damage. If the target is a creature, it can't take reactions until the start of its next turn."
+					]
+				},
+				{
+					"name": "Dagger of the Poisoned Mind",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage plus 10 ({@damage 3d6}) psychic damage. If the target is a creature, it must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} until the end of its next turn."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"L",
+				"P",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"dexterity"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/James%20Cryon.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Jamil A'alithiya",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 83,
-			"_copy": {
-				"name": "Monastic High Curator",
-				"source": "CRCotN",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the high curator",
-						"with": "Jamil",
-						"flags": "i"
-					}
-				}
-			},
 			"size": [
 				"M"
 			],
@@ -3941,33 +4955,135 @@
 				"C",
 				"G"
 			],
+			"name": "Jamil A'alithiya",
+			"source": "CRCotN",
+			"page": 83,
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"Unarmored Defense"
+					]
+				}
+			],
+			"hp": {
+				"average": 130,
+				"formula": "20d8 + 40"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 14,
+			"int": 18,
+			"wis": 22,
+			"cha": 17,
+			"save": {
+				"dex": "+7",
+				"wis": "+10"
+			},
+			"skill": {
+				"arcana": "+8",
+				"history": "+8",
+				"investigation": "+8",
+				"perception": "+10"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Common plus four other languages"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Jamil casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 18}):"
+					],
+					"will": [
+						"{@spell detect magic}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell detect thoughts}",
+							"{@spell identify} (as an action)",
+							"{@spell scrying} (as an action)"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While Jamil is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Jamil makes three Force Strike attacks and uses Brain Burn (if available)."
+					]
+				},
+				{
+					"name": "Force Strike",
+					"entries": [
+						"{@atk ms,rs} {@hit 10} to hit, reach 5 ft. or range 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) force damage."
+					]
+				},
+				{
+					"name": "Brain Burn {@recharge 4}",
+					"entries": [
+						"Jamil targets up to two creatures it can see within 30 feet of itself. Each target must make a {@dc 18} Constitution saving throw. On a failed saving throw, the target takes 28 ({@damage 8d6}) psychic damage and can't take reactions until the start of its next turn. On a successful save, the target takes half as much damage and suffers no other effect."
+					]
+				}
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"O",
+				"Y"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Jamil%20A'alithiya.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Koris",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 106,
-			"_copy": {
-				"name": "Assassin",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Tiefling",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the assassin",
-						"with": "Koris",
-						"flags": "i"
-					}
-				}
-			},
 			"size": [
 				"M"
 			],
@@ -3978,6 +5094,156 @@
 			"damageTagsSpell": [
 				"F"
 			],
+			"name": "Koris",
+			"source": "CRCotN",
+			"page": 106,
+			"referenceSources": [
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"RoT",
+				"SatO",
+				"SKT",
+				"TCE",
+				"TftYP",
+				"TftYP-AtG",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WDH",
+				"WDMM"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 13,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"dex": "+6",
+				"int": "+4"
+			},
+			"skill": {
+				"acrobatics": "+6",
+				"deception": "+3",
+				"perception": "+3",
+				"stealth": "+9"
+			},
+			"passive": 13,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Thieves' cant plus any two languages"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, Koris has advantage on attack rolls against any creature that hasn't taken a turn. Any hit Koris scores against a {@status surprised} creature is a critical hit."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Koris is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Koris instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Koris deals an extra 14 ({@damage 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Koris that isn't {@condition incapacitated} and Koris doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Koris makes two shortsword attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"light crossbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TC",
+				"X"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Koris.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -4643,43 +5909,383 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Marisa",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Marisa",
 			"source": "CRCotN",
 			"page": 150,
-			"_copy": {
-				"name": "Ghost",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the ghost",
-						"with": "Marisa",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"LoX",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"RtG",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-ToH",
+				"TftYP-TSC",
+				"ToFW",
+				"TTP",
+				"VEoR",
+				"VNotEE",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 45,
+				"formula": "10d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 7,
+			"dex": 13,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 17,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"any languages it knew in life"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"Marisa can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"Marisa can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 4d6 + 3}) necrotic damage."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"Marisa enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+					]
+				},
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"Each non-undead creature within 60 feet of Marisa that can see it must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute. If the save fails by 5 or more, the target also ages {@dice 1d4 × 10} years. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the {@condition frightened} condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a {@spell greater restoration} spell, but only within 24 hours of it occurring."
+					]
+				},
+				{
+					"name": "Possession {@recharge}",
+					"entries": [
+						"One humanoid that Marisa can see within 5 feet of it must succeed on a {@dc 13} Charisma saving throw or be possessed by Marisa; Marisa then disappears, and the target is {@condition incapacitated} and loses control of its body. Marisa now controls the body but doesn't deprive the target of awareness. Marisa can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"The possession lasts until the body drops to 0 hit points, Marisa ends it as a bonus action, or Marisa is turned or forced out by an effect like the {@spell dispel evil and good} spell. When the possession ends, Marisa reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"traitTags": [
+				"Ethereal Sight",
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"N",
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"incapacitated"
+			],
+			"savingThrowForced": [
+				"charisma",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Marisa.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Meri",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Meri",
 			"source": "CRCotN",
 			"page": 150,
-			"_copy": {
-				"name": "Ghost",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the ghost",
-						"with": "Meri",
-						"flags": "i"
-					}
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"LoX",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"RtG",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-ToH",
+				"TftYP-TSC",
+				"ToFW",
+				"TTP",
+				"VEoR",
+				"VNotEE",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 45,
+				"formula": "10d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 7,
+			"dex": 13,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 17,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"any languages it knew in life"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"Meri can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"Meri can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 4d6 + 3}) necrotic damage."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"Meri enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+					]
+				},
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"Each non-undead creature within 60 feet of Meri that can see it must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute. If the save fails by 5 or more, the target also ages {@dice 1d4 × 10} years. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the {@condition frightened} condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a {@spell greater restoration} spell, but only within 24 hours of it occurring."
+					]
+				},
+				{
+					"name": "Possession {@recharge}",
+					"entries": [
+						"One humanoid that Meri can see within 5 feet of it must succeed on a {@dc 13} Charisma saving throw or be possessed by Meri; Meri then disappears, and the target is {@condition incapacitated} and loses control of its body. Meri now controls the body but doesn't deprive the target of awareness. Meri can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"The possession lasts until the body drops to 0 hit points, Meri ends it as a bonus action, or Meri is turned or forced out by an effect like the {@spell dispel evil and good} spell. When the possession ends, Meri reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"traitTags": [
+				"Ethereal Sight",
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"N",
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"incapacitated"
+			],
+			"savingThrowForced": [
+				"charisma",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Meri.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
@@ -5088,24 +6694,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Moonshark",
-			"source": "CRCotN",
-			"page": 33,
-			"_copy": {
-				"name": "Giant Shark",
-				"source": "MM",
-				"_mod": {
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Silver Spear",
-							"entries": [
-								"A character within 5 feet of the shark can use an action to try to dislodge the spear, doing so with a successful {@dc 13} Strength (Athletics) check. While the spear is lodged in the shark, the shark glows with silvery illumination, shedding bright light in a 10-foot radius and dim light for an additional 10 feet."
-							]
-						}
-					}
-				}
-			},
 			"action": [
 				{
 					"name": "Bite",
@@ -5115,6 +6703,99 @@
 				}
 			],
 			"tokenCustom": true,
+			"name": "Moonshark",
+			"source": "CRCotN",
+			"page": 33,
+			"referenceSources": [
+				"CRCotN",
+				"DIP",
+				"DSotDQ",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"LR",
+				"PSX",
+				"SDW",
+				"SKT",
+				"ToA",
+				"VEoR",
+				"WDH"
+			],
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "11d12 + 55"
+			},
+			"speed": {
+				"swim": 50
+			},
+			"str": 23,
+			"dex": 11,
+			"con": 21,
+			"int": 1,
+			"wis": 10,
+			"cha": 5,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 13,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The shark can breathe only underwater."
+					]
+				},
+				{
+					"name": "Silver Spear",
+					"entries": [
+						"A character within 5 feet of the shark can use an action to try to dislodge the spear, doing so with a successful {@dc 13} Strength (Athletics) check. While the spear is lodged in the shark, the shark glows with silvery illumination, shedding bright light in a 10-foot radius and dim light for an additional 10 feet."
+					]
+				}
+			],
+			"environment": [
+				"underwater"
+			],
+			"traitTags": [
+				"Water Breathing"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Moonshark.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -5622,50 +7303,190 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Perigee",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Perigee",
 			"source": "CRCotN",
 			"page": 168,
-			"_copy": {
-				"name": "Deva",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the deva",
-						"with": "Perigee",
-						"flags": "i"
-					}
+			"group": [
+				"Angels"
+			],
+			"referenceSources": [
+				"BMT",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"JttRC",
+				"KftGV",
+				"QftIS",
+				"SatO",
+				"TftYP-DiT",
+				"ToFW",
+				"VEoR",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "celestial",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d8 + 64"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 90
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 18,
+			"int": 17,
+			"wis": 20,
+			"cha": 20,
+			"save": {
+				"wis": "+9",
+				"cha": "+9"
+			},
+			"skill": {
+				"insight": "+9",
+				"perception": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 19,
+			"resist": [
+				"radiant",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Perigee's spellcasting ability is Charisma (spell save {@dc 17}). Perigee can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell detect evil and good}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell commune}",
+							"{@spell raise dead}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Angelic Weapons",
+					"entries": [
+						"Perigee's weapon attacks are magical. When Perigee hits with any weapon, the weapon deals an extra {@damage 4d8} radiant damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Perigee has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Perigee makes two melee attacks."
+					]
+				},
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 18 ({@damage 4d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Healing Touch (3/Day)",
+					"entries": [
+						"Perigee touches another creature. The target magically regains 20 ({@dice 4d8 + 2}) hit points and is freed from any curse, disease, poison, blindness, or deafness."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"Perigee magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (Perigee's choice).",
+						"In a new form, Perigee retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks."
+					]
+				}
+			],
+			"attachedItems": [
+				"mace|phb"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Perigee.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Prolix Yusaf",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 54,
-			"_copy": {
-				"name": "Scholarly Agent",
-				"source": "CRCotN",
-				"_templates": [
-					{
-						"name": "Tiefling",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the agent",
-						"with": "Prolix",
-						"flags": "i"
-					}
-				}
-			},
 			"size": [
 				"M"
 			],
@@ -5686,6 +7507,87 @@
 			"spellcastingTags": [
 				"O"
 			],
+			"name": "Prolix Yusaf",
+			"source": "CRCotN",
+			"page": 54,
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 22,
+				"formula": "4d8 + 4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 12,
+			"int": 16,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"int": "+5"
+			},
+			"skill": {
+				"arcana": "+5",
+				"history": "+5",
+				"investigation": "+5"
+			},
+			"passive": 11,
+			"languages": [
+				"Common plus one other language"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Prolix casts one of the following spells, using Intelligence as the spellcasting ability:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell mage hand}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell comprehend languages}",
+							"{@spell identify} (as an action)",
+							"{@spell mage armor}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Arcane Shock",
+					"entries": [
+						"{@atk ms,rs} {@hit 5} to hit, reach 5 ft. or range 30 ft., one target. {@h}14 ({@damage 2d10 + 3}) lightning damage. If the target is a creature, it can't take reactions until the start of its next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Glyph of Shielding",
+					"entries": [
+						"Prolix adds 2 to its AC against one attack that would hit it. To do so, Prolix must be able to see the attacker and have a free hand."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"L"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Prolix%20Yusaf.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -6095,29 +7997,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Scribble",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 126,
-			"_copy": {
-				"name": "Scholarly Agent",
-				"source": "CRCotN",
-				"_templates": [
-					{
-						"name": "Kenku",
-						"source": "VGM"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the agent",
-						"with": "Scribble",
-						"flags": "i"
-					}
-				}
-			},
 			"size": [
 				"M"
 			],
@@ -6127,6 +8008,93 @@
 					"kenku",
 					"wizard"
 				]
+			},
+			"name": "Scribble",
+			"source": "CRCotN",
+			"page": 126,
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 22,
+				"formula": "4d8 + 4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 12,
+			"int": 16,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"int": "+5"
+			},
+			"skill": {
+				"arcana": "+5",
+				"history": "+5",
+				"investigation": "+5"
+			},
+			"passive": 11,
+			"languages": [
+				"Common plus one other language"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Scribble casts one of the following spells, using Intelligence as the spellcasting ability:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell mage hand}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell comprehend languages}",
+							"{@spell identify} (as an action)",
+							"{@spell mage armor}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Arcane Shock",
+					"entries": [
+						"{@atk ms,rs} {@hit 5} to hit, reach 5 ft. or range 30 ft., one target. {@h}14 ({@damage 2d10 + 3}) lightning damage. If the target is a creature, it can't take reactions until the start of its next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Glyph of Shielding",
+					"entries": [
+						"Scribble adds 2 to its AC against one attack that would hit it. To do so, Scribble must be able to see the attacker and have a free hand."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"L"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Scribble.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true
@@ -6328,25 +8296,6 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Skeletal Bloodfin",
-			"source": "CRCotN",
-			"page": 159,
-			"_copy": {
-				"name": "Slithering Bloodfin",
-				"source": "CRCotN",
-				"_mod": {
-					"trait": {
-						"mode": "replaceArr",
-						"replace": "Water Breathing",
-						"items": {
-							"name": "Unusual Nature",
-							"entries": [
-								"The skeletal bloodfin requires no food, drink, air, or sleep."
-							]
-						}
-					}
-				}
-			},
 			"type": "undead",
 			"resist": [
 				"piercing",
@@ -6367,6 +8316,116 @@
 				"Death Burst",
 				"Unusual Nature"
 			],
+			"name": "Skeletal Bloodfin",
+			"source": "CRCotN",
+			"page": 159,
+			"size": [
+				"L"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 93,
+				"formula": "11d10 + 33"
+			},
+			"speed": {
+				"walk": 5,
+				"swim": 50
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 16,
+			"int": 2,
+			"wis": 10,
+			"cha": 3,
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"blindsight 100 ft. (blind beyond this radius)"
+			],
+			"passive": 14,
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Death Burst",
+					"entries": [
+						"When the bloodfin dies, it explodes in a cloud of toxic blood. Each creature in a 10-foot-radius sphere centered on the exploding bloodfin, including any creature swallowed by the bloodfin, must succeed on a {@dc 15} Constitution saving throw or take 10 ({@damage 3d6}) poison damage. A creature inside the bloodfin when it explodes falls {@condition prone} in the space formerly occupied by the bloodfin and is no longer {@condition blinded} or {@condition restrained} by it."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The skeletal bloodfin requires no food, drink, air, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bloodfin makes one Bite attack and one Tail attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit (with advantage if the target is a creature missing any hit points), reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the bloodfin can't bite another target."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit (with advantage if the target is a creature missing any hit points), reach 10 ft., one target. {@h}19 ({@damage 4d6 + 5}) bludgeoning damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Swallow",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one Medium or smaller creature the bloodfin is grappling. {@h}The bloodfin swallows the target. The swallowed creature is no longer {@condition grappled} but is {@condition blinded} and {@condition restrained}. It has {@quickref Cover||3||total cover} against attacks and other effects outside the bloodfin, it takes 14 ({@damage 4d6}) necrotic damage at the start of each of its turns, and the bloodfin regains hit points equal to the necrotic damage dealt. A bloodfin can have only one creature swallowed at a time.",
+						"If the bloodfin takes 30 damage or more on a single turn from the swallowed creature, the bloodfin must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 5 feet of the bloodfin and is no longer {@condition blinded} or {@condition restrained} by it."
+					]
+				}
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Skeletal%20Bloodfin.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -6858,32 +8917,104 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Xot",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "CRCotN",
-			"page": 126,
-			"_copy": {
-				"name": "Scholarly Excavator",
-				"source": "CRCotN",
-				"_templates": [
-					{
-						"name": "Goliath",
-						"source": "VGM"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the excavator",
-						"with": "Xot",
-						"flags": "i"
-					}
-				}
-			},
 			"size": [
 				"M"
 			],
+			"name": "Xot",
+			"source": "CRCotN",
+			"page": 126,
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item breastplate|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 16,
+			"int": 14,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"con": "+5",
+				"int": "+4"
+			},
+			"skill": {
+				"arcana": "+4",
+				"athletics": "+4",
+				"history": "+4"
+			},
+			"passive": 12,
+			"languages": [
+				"Common plus two other languages"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Siege Expert",
+					"entries": [
+						"Xot deals double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Xot makes three Thunderous Warhammer attacks."
+					]
+				},
+				{
+					"name": "Thunderous Warhammer",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) thunder damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Telekinetic Toss {@recharge 5}",
+					"entries": [
+						"Xot targets one Medium or smaller creature or an object weighing 300 pounds or less that isn't being worn or carried. The target, which must be within 30 feet of Xot and visible to it, is magically pushed up to 20 feet horizontally in a direction of Xot's choice. If the target is a creature, it can make a {@dc 13} Strength saving throw to resist the effect and is not pushed on a successful save."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"T"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CRCotN/Xot.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},

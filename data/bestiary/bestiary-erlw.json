@@ -609,32 +609,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Corrin Delmaco",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ERLW",
-			"page": 271,
 			"referenceSources": [
 				"EFR"
 			],
-			"_copy": {
-				"name": "Spy",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Stout Halfling",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the spy",
-						"with": "Corrin",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"L",
 				"E"
@@ -648,7 +627,107 @@
 				"H",
 				"X"
 			],
-			"hasToken": true
+			"name": "Corrin Delmaco",
+			"source": "ERLW",
+			"page": 271,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				12
+			],
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 10,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"investigation": "+5",
+				"perception": "+6",
+				"persuasion": "+5",
+				"sleight of hand": "+4",
+				"stealth": "+4"
+			},
+			"passive": 16,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, Corrin can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Corrin deals an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Corrin that isn't {@condition incapacitated} and Corrin doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Corrin makes two melee attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"hand crossbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ERLW/Corrin%20Delmaco.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Dolgaunt",
@@ -1384,25 +1463,103 @@
 			"hasToken": true
 		},
 		{
-			"name": "Garra",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ERLW",
-			"page": 272,
 			"referenceSources": [
 				"EFR"
 			],
-			"_copy": {
-				"name": "Half-Ogre (Ogrillon)",
-				"source": "MM"
-			},
 			"alignment": [
 				"C",
 				"E"
 			],
 			"int": 14,
 			"tokenCustom": true,
-			"hasToken": true
+			"name": "Garra",
+			"source": "ERLW",
+			"page": 272,
+			"size": [
+				"L"
+			],
+			"type": "giant",
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d10 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 14,
+			"wis": 9,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage, or 14 ({@damage 2d10 + 3}) slashing damage if used with two hands."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"mountain",
+				"forest",
+				"hill",
+				"urban",
+				"desert",
+				"arctic"
+			],
+			"attachedItems": [
+				"battleaxe|phb",
+				"javelin|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ERLW/Garra.webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Hashalaq Quori",
@@ -3704,15 +3861,127 @@
 			"hasToken": true
 		},
 		{
+			"tokenCustom": true,
 			"name": "Sergeant",
 			"source": "ERLW",
 			"page": 197,
-			"_copy": {
-				"name": "Guard",
-				"source": "MM"
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DD",
+				"DIP",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"JttRC",
+				"KftGV",
+				"LoX",
+				"MOT",
+				"NRH-ASS",
+				"NRH-TCMC",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SKT",
+				"SLW",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"US",
+				"WDH",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item chain shirt|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"perception": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"urban",
+				"forest",
+				"desert"
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/ERLW/Sergeant.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Shifter",

@@ -75,6 +75,135 @@
 			]
 		},
 		{
+			"name": "Allowak Yeti",
+			"source": "EGW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A yeti's windborne howl sounds out across remote mountains, striking fear into the hearts of the scattered miners and herders that dwell there. These hulking creatures stalk alpine peaks in a ceaseless hunt for food. Their snow-white fur lets them move like ghosts against the frozen landscape. A yeti's icy simian eyes can freeze its prey in place.",
+								{
+									"type": "entries",
+									"name": "Keen Hunters",
+									"entries": [
+										"Folk of the high peaks travel in groups and go armed, knowing that yetis can smell living flesh from miles away. When it finds prey, a yeti moves quickly over ice and stone to claim its meal, howling to the thrill of the hunt. Even in a blizzard, the scent of its quarry draws the yeti through the cold and snow.",
+										"Yetis hunt in solitude or in small family groups. When creatures flee from a yeti or engage it in battle, other yetis might catch the scent of blood and close in. The territorial yetis fight one another for the spoils of such battles, and yetis slain in the fight are also eaten, amid euphoric howls."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Terrifying Howlers",
+									"entries": [
+										"Before an avalanche, a blizzard, or a deadly frost, the yetis' howls sweep down the mountain slopes on the icy wind. Some people of the alpine peaks believe that the voices of loved ones killed in avalanches and blizzards sound out in the wails of the yetis, crying warnings of ill omen. More pragmatic folk attest that the yeti's howl is a reminder that, despite the great accomplishments of civilization, the civilized become the hunted in nature's untamed domain."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Brutal Rampagers",
+									"entries": [
+										"When mountain herds are abundant, yetis stay clear of humanoid realms. Driven by hunger, they attack humanoid settlements in waves, breaking down gates and stockade walls that once might have daunted them, then devouring the creatures within.",
+										"Devious mountain folk sometimes use the yetis as unwitting weapons. A warlord might lay down slaughtered sheep or goats to draw yetis into an enemy's camp, sowing chaos and thinning the ranks before battle. Mountain clan chiefs, wanting to expand their territory, overhunt local game to diminish the yetis' food supplies, inspiring attacks on humanoid settlements that are swiftly annexed in the aftermath."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Abominable Yetis",
+									"entries": [
+										"An abominable yeti is larger than a normal yeti, standing three times as tall as a human. It typically lives and hunts alone, though a pair of abominable yetis might live together long enough to raise young. These towering yetis are highly territorial and savage, attacking and devouring any warm-blooded creatures they encounter, then scattering the bones across the ice and snow."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"On your guard! That's not the wind howling!"
+									],
+									"by": "Kelesta Hawke of the Emerald Enclave"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/EGW/Allowak%20Yeti.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Animated Knife",
+			"source": "EGW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/EGW/Animated%20Knife.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Animated Tree",
+			"source": "EGW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Treants are awakened trees that dwell in ancient forests. Although treants prefer to while away the days, months, and years in quiet contemplation, they fiercely protect their woodland demesnes from outside threats.",
+								{
+									"type": "entries",
+									"name": "The Sleeping Tree Awakens",
+									"entries": [
+										"A tree destined to become a treant meditates through a long cycle of seasons, living normally for decades or centuries before realizing its potential. Trees that awaken do so only under special circumstances and in places steeped with nature's magic. Treants and powerful druids can sense when a tree has the spark of potential, and they protect such trees in secret groves as they draw near the moment of their awakening. During the long process of awakening, a tree acquires face-like features in its bark, a division of the lower trunk into legs, and long branches bending downward to serve as its arms. When it is ready, the tree pulls its legs free from the clutching earth and joins its fellows in protecting its woodland home."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Legendary Guardians",
+									"entries": [
+										"After a treant awakens, it continues to grow exactly as it did when it was a tree. Treants created from the mightiest trees can reach great sizes while developing an innate magical power over plants and animals. Such treants can animate plants, using them to ensnare and trap intruders. They can call wild creatures to aid them or carry messages across great distances."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Protectors of the Wild",
+									"entries": [
+										"Even after awakening, a treant spends much of its time living as a tree. While rooted in place, a treant remains aware of its surroundings, and can perceive the effects of events taking place miles away based on subtle changes nearby.",
+										"Woodcutters who avoid culling healthy living trees and hunters who take only what they need of the forest's bounty are unlikely to arouse a treant's ire. Creatures careless with fire, those who poison the forest, and those who destroy great trees, especially a tree close to awakening, face the treant's wrath."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/EGW/Animated%20Tree.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Blood Hunter",
 			"source": "EGW",
 			"entries": [
@@ -160,6 +289,69 @@
 					"width": 1000,
 					"height": 739,
 					"credit": "Stephen Oakley"
+				}
+			]
+		},
+		{
+			"name": "Damaged Flesh Golem",
+			"source": "EGW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/EGW/Damaged%20Flesh%20Golem.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ferol Sal",
+			"source": "EGW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"The word \"wight\" meant \"person\" in days of yore, but the name now refers to evil undead who were once mortals driven by dark desire and great vanity. When death stills such a creature's heart and snuffs its living breath, its spirit cries out to the demon lord Orcus or some vile god of the underworld for a reprieve: undeath in return for eternal war on the living. If a dark power answers the call, the spirit is granted undeath so that it can pursue its own malevolent agenda.",
+								"Wights possess the memories and drives of their formerly living selves. They will heed the call of whatever dark entity transformed them into undead, swearing oaths to appease their new lord while retaining their autonomy. Never tiring, a wight can pursue its goals relentlessly and without distraction.",
+								{
+									"type": "entries",
+									"name": "Life Eaters",
+									"entries": [
+										"Neither dead nor alive, a wight exists in a transitional state between one world and the next. The bright spark it possessed in life is gone, and in its place is a yearning to consume that spark in all living things.",
+										"When a wight attacks, this life essence glows like white-hot embers to its dark eyes, and the wight's cold touch can drain the spark through flesh, clothing, and armor."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Shadow of the Grave",
+									"entries": [
+										"Wights flee from the world by day, away from the light of the sun, which they hate. They retreat to barrow mounds, crypts, and tombs where they dwell. Their lairs are silent, desolate places, surrounded by dead plants, noticeably blackened, and avoided by bird and beast.",
+										"Humanoids slain by a wight can rise as zombies under its control. Motivated by hunger for living souls and driven by the same desire for power that awakened them in undeath, some wights serve as shock troops for evil leaders, including wraiths. As soldiers, they are able to plan but seldom do so, relying on their hunger for destruction to overwhelm any creature that stands before them."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A wight doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/EGW/Ferol%20Sal.webp"
+					}
 				}
 			]
 		},
@@ -288,6 +480,32 @@
 			]
 		},
 		{
+			"name": "Hulil Lutan",
+			"source": "EGW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Fanatics are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all else"
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/EGW/Hulil%20Lutan.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Husk Zombie",
 			"source": "EGW",
 			"entries": [
@@ -319,6 +537,58 @@
 					"type": "entries",
 					"entries": [
 						"Ishel—a drow ambassador from the Kryn Dynasty."
+					]
+				}
+			]
+		},
+		{
+			"name": "Karkethzerethzerus, the Sable Despoiler",
+			"source": "EGW",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Dragons",
+					"entries": [
+						"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+						"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+						"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+						"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+						{
+							"type": "table",
+							"caption": "Dragon Age Categories",
+							"colLabels": [
+								"Category",
+								"Size",
+								"Age Range"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Wyrmling",
+									"Medium",
+									"5 years or less"
+								],
+								[
+									"Young",
+									"Large",
+									"6–100 years"
+								],
+								[
+									"Adult",
+									"Huge",
+									"101–800 years"
+								],
+								[
+									"Ancient",
+									"Gargantuan",
+									"801 years or more"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -398,6 +668,13 @@
 					"width": 1000,
 					"height": 779,
 					"credit": "Kent Davis"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/EGW/Mossback%20Steward.webp"
+					}
 				}
 			]
 		},
@@ -439,6 +716,58 @@
 			]
 		},
 		{
+			"name": "Oracs the Enduring",
+			"source": "EGW",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Dragons",
+					"entries": [
+						"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+						"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+						"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+						"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+						{
+							"type": "table",
+							"caption": "Dragon Age Categories",
+							"colLabels": [
+								"Category",
+								"Size",
+								"Age Range"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Wyrmling",
+									"Medium",
+									"5 years or less"
+								],
+								[
+									"Young",
+									"Large",
+									"6–100 years"
+								],
+								[
+									"Adult",
+									"Huge",
+									"101–800 years"
+								],
+								[
+									"Ancient",
+									"Gargantuan",
+									"801 years or more"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Parson Pellinost",
 			"source": "EGW",
 			"entries": [
@@ -448,6 +777,32 @@
 						"Commander Struther Felmont and the Dwendalian soldiers at the fort have grown callous and cruel under the leadership of Imperial Inquisitor Parson Pellinost, who conducts deranged experiments on the humanoids of the marsh with an unsavory and sadistic application of divine magic. The guards of Fort Venture engage in defense, training, and patrol work in eight-hour shifts. Few of those guards respect Pellinost, but all obey him for fear of strict retribution.",
 						"Pellinost has a prosthetic limb (right hand)."
 					]
+				}
+			]
+		},
+		{
+			"name": "Raegrin Mau",
+			"source": "EGW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Cultists swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/EGW/Raegrin%20Mau.webp"
+					}
 				}
 			]
 		},
@@ -552,6 +907,26 @@
 					"width": 663,
 					"height": 1000,
 					"credit": "Eric Belisle"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/EGW/Skr'a%20S'orsk.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Swarm of Undead Snakes",
+			"source": "EGW",
+			"entries": [
+				{
+					"type": "inset",
+					"name": "The Nature of Swarms",
+					"entries": [
+						"The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a {@creature yuan-ti abomination} might have {@creature swarm of poisonous snakes||swarms of poisonous snakes} slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural."
+					]
 				}
 			]
 		},

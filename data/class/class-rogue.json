@@ -694,7 +694,7 @@
 			"name": "Mage Hand Legerdemain",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -716,7 +716,7 @@
 			"name": "Spellcasting",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -794,7 +794,7 @@
 			"name": "Arcane Trickster",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -802,11 +802,11 @@
 				"Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mage Hand Legerdemain|Rogue|XPHB|Arcane Trickster|PHB|3|PHB"
+					"subclassFeature": "Mage Hand Legerdemain|Rogue|PHB|Arcane Trickster|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Rogue|XPHB|Arcane Trickster|PHB|3|PHB"
+					"subclassFeature": "Spellcasting|Rogue|PHB|Arcane Trickster|PHB|3|PHB"
 				}
 			]
 		},
@@ -814,7 +814,7 @@
 			"name": "Magical Ambush",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 9,
@@ -826,7 +826,7 @@
 			"name": "Versatile Trickster",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 13,
@@ -838,7 +838,7 @@
 			"name": "Spell Thief",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -852,7 +852,7 @@
 			"name": "Assassinate",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -864,7 +864,7 @@
 			"name": "Bonus Proficiencies",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -876,7 +876,7 @@
 			"name": "Assassin",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -885,11 +885,11 @@
 				"Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Assassinate|Rogue|XPHB|Assassin|PHB|3|PHB"
+					"subclassFeature": "Assassinate|Rogue|PHB|Assassin|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Rogue|XPHB|Assassin|PHB|3|PHB"
+					"subclassFeature": "Bonus Proficiencies|Rogue|PHB|Assassin|PHB|3|PHB"
 				}
 			]
 		},
@@ -897,7 +897,7 @@
 			"name": "Infiltration Expertise",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 9,
@@ -910,7 +910,7 @@
 			"name": "Impostor",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 13,
@@ -923,7 +923,7 @@
 			"name": "Death Strike",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -935,7 +935,7 @@
 			"name": "Fast Hands",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -947,7 +947,7 @@
 			"name": "Second-Story Work",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -960,7 +960,7 @@
 			"name": "Thief",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -968,11 +968,11 @@
 				"You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fast Hands|Rogue|XPHB|Thief|PHB|3|PHB"
+					"subclassFeature": "Fast Hands|Rogue|PHB|Thief|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Second-Story Work|Rogue|XPHB|Thief|PHB|3|PHB"
+					"subclassFeature": "Second-Story Work|Rogue|PHB|Thief|PHB|3|PHB"
 				}
 			]
 		},
@@ -980,7 +980,7 @@
 			"name": "Supreme Sneak",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 9,
@@ -992,7 +992,7 @@
 			"name": "Use Magic Device",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 13,
@@ -1004,7 +1004,7 @@
 			"name": "Thief's Reflexes",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -1016,7 +1016,7 @@
 			"name": "Ear for Deceit",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Inquisitive",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1028,7 +1028,7 @@
 			"name": "Eye for Detail",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Inquisitive",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1040,7 +1040,7 @@
 			"name": "Insightful Fighting",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Inquisitive",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1053,7 +1053,7 @@
 			"name": "Inquisitive",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Inquisitive",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1061,15 +1061,15 @@
 				"As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for detail, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. You excel at defeating creatures that hide among and prey upon ordinary folk, and your mastery of lore and your keen deductions make you well equipped to expose and end hidden evils.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ear for Deceit|Rogue|XPHB|Inquisitive|XGE|3|XGE"
+					"subclassFeature": "Ear for Deceit|Rogue|PHB|Inquisitive|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eye for Detail|Rogue|XPHB|Inquisitive|XGE|3|XGE"
+					"subclassFeature": "Eye for Detail|Rogue|PHB|Inquisitive|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Insightful Fighting|Rogue|XPHB|Inquisitive|XGE|3|XGE"
+					"subclassFeature": "Insightful Fighting|Rogue|PHB|Inquisitive|XGE|3|XGE"
 				}
 			]
 		},
@@ -1077,7 +1077,7 @@
 			"name": "Steady Eye",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Inquisitive",
 			"subclassSource": "XGE",
 			"level": 9,
@@ -1089,7 +1089,7 @@
 			"name": "Unerring Eye",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Inquisitive",
 			"subclassSource": "XGE",
 			"level": 13,
@@ -1102,7 +1102,7 @@
 			"name": "Eye for Weakness",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Inquisitive",
 			"subclassSource": "XGE",
 			"level": 17,
@@ -1114,7 +1114,7 @@
 			"name": "Master of Intrigue",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mastermind",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1127,7 +1127,7 @@
 			"name": "Master of Tactics",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mastermind",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1139,7 +1139,7 @@
 			"name": "Mastermind",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mastermind",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1147,11 +1147,11 @@
 				"Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Master of Intrigue|Rogue|XPHB|Mastermind|XGE|3|XGE"
+					"subclassFeature": "Master of Intrigue|Rogue|PHB|Mastermind|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Master of Tactics|Rogue|XPHB|Mastermind|XGE|3|XGE"
+					"subclassFeature": "Master of Tactics|Rogue|PHB|Mastermind|XGE|3|XGE"
 				}
 			]
 		},
@@ -1159,7 +1159,7 @@
 			"name": "Insightful Manipulator",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mastermind",
 			"subclassSource": "XGE",
 			"level": 9,
@@ -1181,7 +1181,7 @@
 			"name": "Misdirection",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mastermind",
 			"subclassSource": "XGE",
 			"level": 13,
@@ -1193,7 +1193,7 @@
 			"name": "Soul of Deceit",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Mastermind",
 			"subclassSource": "XGE",
 			"level": 17,
@@ -1206,7 +1206,7 @@
 			"name": "Skirmisher",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Scout",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1218,7 +1218,7 @@
 			"name": "Survivalist",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Scout",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1230,7 +1230,7 @@
 			"name": "Scout",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Scout",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1238,11 +1238,11 @@
 				"You are skilled in stealth and surviving far from the streets of a city, allowing you to scout ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and rangers, and many Scouts serve as the eyes and ears of war bands. Ambusher, spy, bounty hunter—these are just a few of the roles that Scouts assume as they range the world.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Skirmisher|Rogue|XPHB|Scout|XGE|3|XGE"
+					"subclassFeature": "Skirmisher|Rogue|PHB|Scout|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Survivalist|Rogue|XPHB|Scout|XGE|3|XGE"
+					"subclassFeature": "Survivalist|Rogue|PHB|Scout|XGE|3|XGE"
 				}
 			]
 		},
@@ -1250,7 +1250,7 @@
 			"name": "Superior Mobility",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Scout",
 			"subclassSource": "XGE",
 			"level": 9,
@@ -1262,7 +1262,7 @@
 			"name": "Ambush Master",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Scout",
 			"subclassSource": "XGE",
 			"level": 13,
@@ -1275,7 +1275,7 @@
 			"name": "Sudden Strike",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Scout",
 			"subclassSource": "XGE",
 			"level": 17,
@@ -1287,7 +1287,7 @@
 			"name": "Fancy Footwork",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swashbuckler",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1299,7 +1299,7 @@
 			"name": "Rakish Audacity",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swashbuckler",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1312,7 +1312,7 @@
 			"name": "Swashbuckler",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swashbuckler",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1321,11 +1321,11 @@
 				"A Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fancy Footwork|Rogue|XPHB|Swashbuckler|XGE|3|XGE"
+					"subclassFeature": "Fancy Footwork|Rogue|PHB|Swashbuckler|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Rakish Audacity|Rogue|XPHB|Swashbuckler|XGE|3|XGE"
+					"subclassFeature": "Rakish Audacity|Rogue|PHB|Swashbuckler|XGE|3|XGE"
 				}
 			]
 		},
@@ -1333,7 +1333,7 @@
 			"name": "Panache",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swashbuckler",
 			"subclassSource": "XGE",
 			"level": 9,
@@ -1347,7 +1347,7 @@
 			"name": "Elegant Maneuver",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swashbuckler",
 			"subclassSource": "XGE",
 			"level": 13,
@@ -1359,7 +1359,7 @@
 			"name": "Master Duelist",
 			"source": "XGE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Swashbuckler",
 			"subclassSource": "XGE",
 			"level": 17,
@@ -1371,7 +1371,7 @@
 			"name": "Wails from the Grave",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Phantom",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1385,7 +1385,7 @@
 			"name": "Whispers of the Dead",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Phantom",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1398,7 +1398,7 @@
 			"name": "Phantom",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Phantom",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1408,11 +1408,11 @@
 				"How did you discover this grim power? Did you sleep in a graveyard and awaken to your new abilities? Or did you cultivate them in a temple or thieves' guild dedicated to a deity of death?",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wails from the Grave|Rogue|XPHB|Phantom|TCE|3|TCE"
+					"subclassFeature": "Wails from the Grave|Rogue|PHB|Phantom|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Whispers of the Dead|Rogue|XPHB|Phantom|TCE|3|TCE"
+					"subclassFeature": "Whispers of the Dead|Rogue|PHB|Phantom|TCE|3|TCE"
 				}
 			]
 		},
@@ -1420,7 +1420,7 @@
 			"name": "Tokens of the Departed",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Phantom",
 			"subclassSource": "TCE",
 			"level": 9,
@@ -1442,7 +1442,7 @@
 			"name": "Ghost Walk",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Phantom",
 			"subclassSource": "TCE",
 			"level": 13,
@@ -1456,7 +1456,7 @@
 			"name": "Death's Friend",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Phantom",
 			"subclassSource": "TCE",
 			"level": 17,
@@ -1476,7 +1476,7 @@
 			"name": "Psychic Whispers",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Soulknife",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1489,7 +1489,7 @@
 			"name": "Soulknife",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Soulknife",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1503,7 +1503,7 @@
 			"name": "Psionic Power",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Soulknife",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1532,7 +1532,7 @@
 			"name": "Psychic Blades",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Soulknife",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1546,7 +1546,7 @@
 			"name": "Psi-Bolstered Knack",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Soulknife",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1554,19 +1554,19 @@
 				"When your non-psionic training fails you, your psionic power can help: if you fail an ability check using a skill or tool with which you have proficiency, you can roll one Psionic Energy die and add the number rolled to the check, potentially turning failure into success. You expend the die only if the roll succeeds.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psychic Whispers|Rogue|XPHB|Soulknife|TCE|3|TCE"
+					"subclassFeature": "Psychic Whispers|Rogue|PHB|Soulknife|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Soulknife|Rogue|XPHB|Soulknife|TCE|3|TCE"
+					"subclassFeature": "Soulknife|Rogue|PHB|Soulknife|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Power|Rogue|XPHB|Soulknife|TCE|3|TCE"
+					"subclassFeature": "Psionic Power|Rogue|PHB|Soulknife|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psychic Blades|Rogue|XPHB|Soulknife|TCE|3|TCE"
+					"subclassFeature": "Psychic Blades|Rogue|PHB|Soulknife|TCE|3|TCE"
 				}
 			]
 		},
@@ -1574,7 +1574,7 @@
 			"name": "Psychic Teleportation",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Soulknife",
 			"subclassSource": "TCE",
 			"level": 9,
@@ -1586,7 +1586,7 @@
 			"name": "Soul Blades",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Soulknife",
 			"subclassSource": "TCE",
 			"level": 9,
@@ -1612,7 +1612,7 @@
 			"name": "Homing Strikes",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Soulknife",
 			"subclassSource": "TCE",
 			"level": 9,
@@ -1620,11 +1620,11 @@
 				"If you make an attack roll with your Psychic Blades and miss the target, you can roll one Psionic Energy die and add the number rolled to the attack roll. If this causes the attack to hit, you expend the Psionic Energy die.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psychic Teleportation|Rogue|XPHB|Soulknife|TCE|9|TCE"
+					"subclassFeature": "Psychic Teleportation|Rogue|PHB|Soulknife|TCE|9|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Soul Blades|Rogue|XPHB|Soulknife|TCE|9|TCE"
+					"subclassFeature": "Soul Blades|Rogue|PHB|Soulknife|TCE|9|TCE"
 				}
 			]
 		},
@@ -1632,7 +1632,7 @@
 			"name": "Psychic Veil",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Soulknife",
 			"subclassSource": "TCE",
 			"level": 13,
@@ -1646,7 +1646,7 @@
 			"name": "Rend Mind",
 			"source": "TCE",
 			"className": "Rogue",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Soulknife",
 			"subclassSource": "TCE",
 			"level": 17,
@@ -1831,258 +1831,442 @@
 	],
 	"subclass": [
 		{
-			"name": "Arcane Trickster",
 			"shortName": "Arcane Trickster",
-			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Arcane Trickster",
-				"source": "PHB",
-				"shortName": "Arcane Trickster",
-				"className": "Rogue",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"Arcane Trickster|Rogue|XPHB|Arcane Trickster|PHB|3|PHB",
-				"Magical Ambush|Rogue|XPHB|Arcane Trickster|PHB|9|PHB",
-				"Versatile Trickster|Rogue|XPHB|Arcane Trickster|PHB|13|PHB",
-				"Spell Thief|Rogue|XPHB|Arcane Trickster|PHB|17|PHB"
-			]
-		},
-		{
-			"name": "Assassin",
-			"shortName": "Assassin",
-			"source": "PHB",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Assassin",
-				"source": "PHB",
-				"shortName": "Assassin",
-				"className": "Rogue",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"Assassin|Rogue|XPHB|Assassin|PHB|3|PHB",
-				"Infiltration Expertise|Rogue|XPHB|Assassin|PHB|9|PHB",
-				"Impostor|Rogue|XPHB|Assassin|PHB|13|PHB",
-				"Death Strike|Rogue|XPHB|Assassin|PHB|17|PHB"
-			]
-		},
-		{
-			"name": "Thief",
-			"shortName": "Thief",
-			"source": "PHB",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Thief",
-				"source": "PHB",
-				"shortName": "Thief",
-				"className": "Rogue",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"Thief|Rogue|XPHB|Thief|PHB|3|PHB",
-				"Supreme Sneak|Rogue|XPHB|Thief|PHB|9|PHB",
-				"Use Magic Device|Rogue|XPHB|Thief|PHB|13|PHB",
-				"Thief's Reflexes|Rogue|XPHB|Thief|PHB|17|PHB"
-			]
-		},
-		{
-			"name": "Inquisitive",
-			"shortName": "Inquisitive",
-			"source": "XGE",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Inquisitive",
-				"source": "XGE",
-				"shortName": "Inquisitive",
-				"className": "Rogue",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"Inquisitive|Rogue|XPHB|Inquisitive|XGE|3|XGE",
-				"Steady Eye|Rogue|XPHB|Inquisitive|XGE|9|XGE",
-				"Unerring Eye|Rogue|XPHB|Inquisitive|XGE|13|XGE",
-				"Eye for Weakness|Rogue|XPHB|Inquisitive|XGE|17|XGE"
-			]
-		},
-		{
-			"name": "Mastermind",
-			"shortName": "Mastermind",
-			"source": "XGE",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Mastermind",
-				"source": "XGE",
-				"shortName": "Mastermind",
-				"className": "Rogue",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"Mastermind|Rogue|XPHB|Mastermind|XGE|3|XGE",
-				"Insightful Manipulator|Rogue|XPHB|Mastermind|XGE|9|XGE",
-				"Misdirection|Rogue|XPHB|Mastermind|XGE|13|XGE",
-				"Soul of Deceit|Rogue|XPHB|Mastermind|XGE|17|XGE"
-			]
-		},
-		{
-			"name": "Scout",
-			"shortName": "Scout",
-			"source": "XGE",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Scout",
-				"source": "XGE",
-				"shortName": "Scout",
-				"className": "Rogue",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"Scout|Rogue|XPHB|Scout|XGE|3|XGE",
-				"Superior Mobility|Rogue|XPHB|Scout|XGE|9|XGE",
-				"Ambush Master|Rogue|XPHB|Scout|XGE|13|XGE",
-				"Sudden Strike|Rogue|XPHB|Scout|XGE|17|XGE"
-			]
-		},
-		{
-			"name": "Swashbuckler",
-			"shortName": "Swashbuckler",
-			"source": "XGE",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Swashbuckler",
-				"source": "XGE",
-				"shortName": "Swashbuckler",
-				"className": "Rogue",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
-			"subclassFeatures": [
-				"Swashbuckler|Rogue|XPHB|Swashbuckler|XGE|3|XGE",
-				"Panache|Rogue|XPHB|Swashbuckler|XGE|9|XGE",
-				"Elegant Maneuver|Rogue|XPHB|Swashbuckler|XGE|13|XGE",
-				"Master Duelist|Rogue|XPHB|Swashbuckler|XGE|17|XGE"
-			]
-		},
-		{
-			"name": "Phantom",
-			"shortName": "Phantom",
-			"source": "TCE",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"reprintedAs": [
-				"Phantom|Rogue|XPHB|RHW"
+			"classSource": "PHB",
+			"edition": "classic",
+			"spellcastingAbility": "int",
+			"casterProgression": "1/3",
+			"cantripProgression": [
+				0,
+				0,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
 			],
-			"_copy": {
-				"name": "Phantom",
-				"source": "TCE",
-				"shortName": "Phantom",
-				"className": "Rogue",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"spellsKnownProgression": [
+				0,
+				0,
+				3,
+				4,
+				4,
+				4,
+				5,
+				6,
+				6,
+				7,
+				8,
+				8,
+				9,
+				10,
+				10,
+				11,
+				11,
+				11,
+				12,
+				13
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"mage hand#c"
+						]
+					},
+					"expanded": {
+						"3": [
+							{
+								"all": "level=0|class=Wizard"
+							},
+							{
+								"all": "level=1|class=Wizard"
+							}
+						],
+						"7": [
+							{
+								"all": "level=2|class=Wizard"
+							}
+						],
+						"13": [
+							{
+								"all": "level=3|class=Wizard"
+							}
+						],
+						"19": [
+							{
+								"all": "level=4|class=Wizard"
+							}
+						]
+					}
 				}
-			},
+			],
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Arcane Trickster",
+							"source": "PHB"
+						}
+					],
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|subclass=Rogue: Arcane Trickster}",
+						"{@filter Spells Known|spells|subclass=Rogue: Arcane Trickster}"
+					],
+					"rows": [
+						[
+							0,
+							0
+						],
+						[
+							0,
+							0
+						],
+						[
+							3,
+							3
+						],
+						[
+							3,
+							4
+						],
+						[
+							3,
+							4
+						],
+						[
+							3,
+							4
+						],
+						[
+							3,
+							5
+						],
+						[
+							3,
+							6
+						],
+						[
+							3,
+							6
+						],
+						[
+							4,
+							7
+						],
+						[
+							4,
+							8
+						],
+						[
+							4,
+							8
+						],
+						[
+							4,
+							9
+						],
+						[
+							4,
+							10
+						],
+						[
+							4,
+							10
+						],
+						[
+							4,
+							11
+						],
+						[
+							4,
+							11
+						],
+						[
+							4,
+							11
+						],
+						[
+							4,
+							12
+						],
+						[
+							4,
+							13
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"subclasses": [
+						{
+							"name": "Arcane Trickster",
+							"source": "PHB"
+						}
+					],
+					"colLabels": [
+						"{@filter 1st|spells|level=1|subclass=Rogue: Arcane Trickster}",
+						"{@filter 2nd|spells|level=2|subclass=Rogue: Arcane Trickster}",
+						"{@filter 3rd|spells|level=3|subclass=Rogue: Arcane Trickster}",
+						"{@filter 4th|spells|level=4|subclass=Rogue: Arcane Trickster}"
+					],
+					"rowsSpellProgression": [
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						]
+					]
+				}
+			],
+			"name": "Arcane Trickster",
+			"source": "PHB",
 			"subclassFeatures": [
-				"Phantom|Rogue|XPHB|Phantom|TCE|3|TCE",
-				"Tokens of the Departed|Rogue|XPHB|Phantom|TCE|9|TCE",
-				"Ghost Walk|Rogue|XPHB|Phantom|TCE|13|TCE",
-				"Death's Friend|Rogue|XPHB|Phantom|TCE|17|TCE"
+				"Arcane Trickster|Rogue|PHB|Arcane Trickster|PHB|3|PHB",
+				"Magical Ambush|Rogue|PHB|Arcane Trickster|PHB|9|PHB",
+				"Versatile Trickster|Rogue|PHB|Arcane Trickster|PHB|13|PHB",
+				"Spell Thief|Rogue|PHB|Arcane Trickster|PHB|17|PHB"
 			]
 		},
 		{
-			"name": "Soulknife",
-			"shortName": "Soulknife",
-			"source": "TCE",
+			"shortName": "Assassin",
 			"className": "Rogue",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Soulknife",
-				"source": "TCE",
-				"shortName": "Soulknife",
-				"className": "Rogue",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Assassin",
+			"source": "PHB",
 			"subclassFeatures": [
-				"Psi-Bolstered Knack|Rogue|XPHB|Soulknife|TCE|3|TCE",
-				"Homing Strikes|Rogue|XPHB|Soulknife|TCE|9|TCE",
-				"Psychic Veil|Rogue|XPHB|Soulknife|TCE|13|TCE",
-				"Rend Mind|Rogue|XPHB|Soulknife|TCE|17|TCE"
+				"Assassin|Rogue|PHB|Assassin|PHB|3|PHB",
+				"Infiltration Expertise|Rogue|PHB|Assassin|PHB|9|PHB",
+				"Impostor|Rogue|PHB|Assassin|PHB|13|PHB",
+				"Death Strike|Rogue|PHB|Assassin|PHB|17|PHB"
+			]
+		},
+		{
+			"shortName": "Thief",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Thief",
+			"source": "PHB",
+			"subclassFeatures": [
+				"Thief|Rogue|PHB|Thief|PHB|3|PHB",
+				"Supreme Sneak|Rogue|PHB|Thief|PHB|9|PHB",
+				"Use Magic Device|Rogue|PHB|Thief|PHB|13|PHB",
+				"Thief's Reflexes|Rogue|PHB|Thief|PHB|17|PHB"
+			]
+		},
+		{
+			"shortName": "Inquisitive",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Inquisitive",
+			"source": "XGE",
+			"subclassFeatures": [
+				"Inquisitive|Rogue|PHB|Inquisitive|XGE|3|XGE",
+				"Steady Eye|Rogue|PHB|Inquisitive|XGE|9|XGE",
+				"Unerring Eye|Rogue|PHB|Inquisitive|XGE|13|XGE",
+				"Eye for Weakness|Rogue|PHB|Inquisitive|XGE|17|XGE"
+			]
+		},
+		{
+			"shortName": "Mastermind",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Mastermind",
+			"source": "XGE",
+			"subclassFeatures": [
+				"Mastermind|Rogue|PHB|Mastermind|XGE|3|XGE",
+				"Insightful Manipulator|Rogue|PHB|Mastermind|XGE|9|XGE",
+				"Misdirection|Rogue|PHB|Mastermind|XGE|13|XGE",
+				"Soul of Deceit|Rogue|PHB|Mastermind|XGE|17|XGE"
+			]
+		},
+		{
+			"shortName": "Scout",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Scout",
+			"source": "XGE",
+			"subclassFeatures": [
+				"Scout|Rogue|PHB|Scout|XGE|3|XGE",
+				"Superior Mobility|Rogue|PHB|Scout|XGE|9|XGE",
+				"Ambush Master|Rogue|PHB|Scout|XGE|13|XGE",
+				"Sudden Strike|Rogue|PHB|Scout|XGE|17|XGE"
+			]
+		},
+		{
+			"shortName": "Swashbuckler",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Swashbuckler",
+			"source": "XGE",
+			"subclassFeatures": [
+				"Swashbuckler|Rogue|PHB|Swashbuckler|XGE|3|XGE",
+				"Panache|Rogue|PHB|Swashbuckler|XGE|9|XGE",
+				"Elegant Maneuver|Rogue|PHB|Swashbuckler|XGE|13|XGE",
+				"Master Duelist|Rogue|PHB|Swashbuckler|XGE|17|XGE"
+			]
+		},
+		{
+			"shortName": "Phantom",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Phantom",
+			"source": "TCE",
+			"subclassFeatures": [
+				"Phantom|Rogue|PHB|Phantom|TCE|3|TCE",
+				"Tokens of the Departed|Rogue|PHB|Phantom|TCE|9|TCE",
+				"Ghost Walk|Rogue|PHB|Phantom|TCE|13|TCE",
+				"Death's Friend|Rogue|PHB|Phantom|TCE|17|TCE"
+			]
+		},
+		{
+			"shortName": "Soulknife",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Soulknife",
+			"source": "TCE",
+			"subclassFeatures": [
+				"Psi-Bolstered Knack|Rogue|PHB|Soulknife|TCE|3|TCE",
+				"Homing Strikes|Rogue|PHB|Soulknife|TCE|9|TCE",
+				"Psychic Veil|Rogue|PHB|Soulknife|TCE|13|TCE",
+				"Rend Mind|Rogue|PHB|Soulknife|TCE|17|TCE"
 			]
 		},
 		{

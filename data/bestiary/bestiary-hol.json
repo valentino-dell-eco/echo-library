@@ -1,9 +1,6 @@
 {
 	"monster": [
 		{
-			"name": "Apprentice",
-			"source": "HoL",
-			"page": 201,
 			"size": [
 				"M"
 			],
@@ -117,12 +114,16 @@
 			"savingThrowForcedSpell": [
 				"dexterity"
 			],
+			"name": "Apprentice",
+			"source": "HoL",
+			"page": 201,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/HoL/Apprentice.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Disciple",
-			"source": "HoL",
-			"page": 201,
 			"size": [
 				"M"
 			],
@@ -225,12 +226,16 @@
 			"savingThrowForcedSpell": [
 				"dexterity"
 			],
+			"name": "Disciple",
+			"source": "HoL",
+			"page": 201,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/HoL/Disciple.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Sneak",
-			"source": "HoL",
-			"page": 201,
 			"size": [
 				"S"
 			],
@@ -301,12 +306,16 @@
 				"RW",
 				"THW"
 			],
+			"name": "Sneak",
+			"source": "HoL",
+			"page": 201,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/HoL/Sneak.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Squire",
-			"source": "HoL",
-			"page": 201,
 			"size": [
 				"M"
 			],
@@ -374,6 +383,13 @@
 				"MLW",
 				"MW"
 			],
+			"name": "Squire",
+			"source": "HoL",
+			"page": 201,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/HoL/Squire.webp"
+			},
 			"hasToken": true
 		}
 	]

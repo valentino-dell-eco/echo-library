@@ -1033,32 +1033,191 @@
 			"hasFluffImages": true
 		},
 		{
+			"cr": "6",
 			"name": "Four-Armed Troll",
 			"source": "HotDQ",
 			"page": 65,
-			"otherSources": [
+			"referenceSources": [
+				"AitFR-AVT",
+				"DitLCoT",
+				"EGW",
+				"GoS",
+				"HotDQ",
+				"OotA",
+				"PotA",
+				"PSZ",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SCC-HfMT",
+				"SCC-TMM",
+				"SKT",
+				"SLW",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-DiT",
+				"TftYP-ToH",
+				"TftYP-TSC",
+				"ToA",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "giant",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
 				{
-					"source": "ToD",
-					"page": 81
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
 				}
 			],
-			"_copy": {
-				"name": "Troll",
-				"source": "MM",
-				"_mod": {
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Multiattack",
-						"items": {
-							"name": "Multiattack",
+			"hp": {
+				"average": 84,
+				"formula": "8d10 + 40"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 20,
+			"int": 7,
+			"wis": 9,
+			"cha": 7,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Giant"
+			],
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The troll has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The troll attacks five times, once with its bite and four times with its claws. If two or more claws hit the same target, the troll rends the target, dealing an extra {@damage 2d6} slashing damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Loathsome Limbs",
+					"entries": [
+						"Some trolls have the following trait",
+						{
+							"type": "entries",
+							"name": "Loathsome Limbs",
 							"entries": [
-								"The troll attacks five times, once with its bite and four times with its claws. If two or more claws hit the same target, the troll rends the target, dealing an extra {@damage 2d6} slashing damage."
+								"Whenever the troll takes at least 15 slashing damage at one time, roll a {@dice d20} to determine what else happens to it:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "1–10:",
+											"entry": "Nothing else happens."
+										},
+										{
+											"type": "item",
+											"name": "11–14:",
+											"entry": "One leg is severed from the troll if it has any legs left."
+										},
+										{
+											"type": "item",
+											"name": "15–18:",
+											"entry": "One arm is severed from the troll if it has any arms left."
+										},
+										{
+											"type": "item",
+											"name": "19–20:",
+											"entry": "The troll is decapitated, but the troll dies only if it can't regenerate. If it dies, so does the severed head."
+										}
+									]
+								},
+								"If the troll finishes a short or long rest without reattaching a severed limb or head, the part regrows. At that point, the severed part dies. Until then, a severed part acts on the troll's initiative and has its own action and movement. A severed part has AC 13, 10 hit points, and the troll's Regeneration trait.",
+								"A {@b severed leg} is unable to attack and has a speed of 5 feet.",
+								"A {@b severed arm} has a speed of 5 feet and can make one claw attack on its turn, with disadvantage on the attack roll unless the troll can see the arm and its target. Each time the troll loses an arm, it loses a claw attack.",
+								"If its head is severed, the troll loses its bite attack and its body is {@condition blinded} unless the head can see it. The {@b severed head} has a speed of 0 feet and the troll's Keen Smell trait. It can make a bite attack but only against a target in its space.",
+								"The troll's speed is halved if it's missing a leg. If it loses both legs, it falls {@condition prone}. If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed."
 							]
 						}
+					],
+					"_version": {
+						"name": "Troll (Loathsome Limbs)",
+						"addHeadersAs": "trait"
 					}
 				}
+			],
+			"environment": [
+				"underdark",
+				"mountain",
+				"forest",
+				"swamp",
+				"hill",
+				"arctic"
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/HotDQ/Four-Armed%20Troll.webp"
 			},
-			"cr": "6",
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -1221,15 +1380,85 @@
 			"name": "Golden Stag",
 			"source": "HotDQ",
 			"page": 35,
-			"otherSources": [
+			"referenceSources": [
+				"EGW",
+				"HotDQ",
+				"IDRotF",
+				"PotA",
+				"QftIS",
+				"SKT",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 13,
+				"formula": "2d10 + 2"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 12,
+			"int": 2,
+			"wis": 10,
+			"cha": 6,
+			"passive": 10,
+			"cr": "1/4",
+			"trait": [
 				{
-					"source": "ToD",
-					"page": 51
+					"name": "Charge",
+					"entries": [
+						"If the elk moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@damage 2d6}) damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
 				}
 			],
-			"_copy": {
-				"name": "Elk",
-				"source": "MM"
+			"action": [
+				{
+					"name": "Ram",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one {@condition prone} creature. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"forest",
+				"hill"
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/HotDQ/Golden%20Stag.webp"
 			},
 			"hasToken": true
 		},
@@ -1640,32 +1869,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Leosin Erlanthar",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "HotDQ",
-			"page": 87,
-			"otherSources": [
-				{
-					"source": "ToD",
-					"page": 34
-				}
-			],
-			"_copy": {
-				"name": "Martial Arts Adept",
-				"source": "VGM",
-				"_mod": {
-					"trait": {
-						"mode": "prependArr",
-						"items": {
-							"name": "5etools Note",
-							"entries": [
-								"Leosin Erlanthar is presented in {@adventure Hoard of the Dragon Queen|HotDQ} as a half-elf monk. The {@creature martial arts adept|vgm} stat block from {@book Volo's Guide to Monsters|VGM} has been provided here for ease of use."
-							]
-						}
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1675,25 +1880,141 @@
 			"languages": [
 				"Common"
 			],
+			"name": "Leosin Erlanthar",
+			"source": "HotDQ",
+			"page": 87,
+			"referenceSources": [
+				"LLK",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-THSoT",
+				"TftYP-ToH",
+				"TftYP-TSC",
+				"TftYP-WPM",
+				"WDH"
+			],
+			"size": [
+				"M"
+			],
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 60,
+				"formula": "11d8 + 11"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 11,
+			"dex": 17,
+			"con": 13,
+			"int": 11,
+			"wis": 16,
+			"cha": 10,
+			"skill": {
+				"acrobatics": "+5",
+				"insight": "+5",
+				"stealth": "+5"
+			},
+			"passive": 13,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "5etools Note",
+					"entries": [
+						"Leosin Erlanthar is presented in {@adventure Hoard of the Dragon Queen|HotDQ} as a half-elf monk. The {@creature martial arts adept|vgm} stat block from {@book Volo's Guide to Monsters|VGM} has been provided here for ease of use."
+					]
+				},
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While the adept is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The adept makes three unarmed strikes or three dart attacks."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. If the target is a creature, the adept can choose one of the following additional effects:",
+						{
+							"type": "list",
+							"items": [
+								"The target must succeed on a {@dc 13} Strength saving throw or drop one item it is holding (adept's choice).",
+								"The target must succeed on a {@dc 13} Dexterity saving throw or be knocked {@condition prone}.",
+								"The target must succeed on a {@dc 13} Constitution saving throw or be {@condition stunned} until the end of the adept's next turn."
+							]
+						}
+					]
+				},
+				{
+					"name": "Dart",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Missile",
+					"entries": [
+						"In response to being hit by a ranged weapon attack, the adept deflects the missile. The damage it takes from the attack is reduced by {@dice 1d10 + 3}. If the damage is reduced to 0, the adept catches the missile if it's small enough to hold in one hand and the adept has a hand free."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"dart|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/HotDQ/Leosin%20Erlanthar.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Linan Swift",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "HotDQ",
-			"page": 8,
-			"otherSources": [
-				{
-					"source": "ToD",
-					"page": 24
-				}
-			],
-			"_copy": {
-				"name": "Commoner",
-				"source": "MM"
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1725,35 +2046,110 @@
 				"RCH",
 				"THW"
 			],
-			"hasToken": true
+			"name": "Linan Swift",
+			"source": "HotDQ",
+			"page": 8,
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DD",
+				"DIP",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"FS",
+				"GoS",
+				"GotSF",
+				"HFStCM",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"LLK",
+				"LMoP",
+				"LoX",
+				"MOT",
+				"NRH-CoI",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RMBRE",
+				"RoT",
+				"SatO",
+				"SCC-CK",
+				"SCC-TMM",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-THSoT",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"ToR",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				10
+			],
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "0",
+			"environment": [
+				"arctic",
+				"desert",
+				"coastal",
+				"grassland",
+				"hill",
+				"urban",
+				"forest"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/HotDQ/Linan%20Swift.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
-			"name": "Ontharr Frume",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "HotDQ",
-			"page": 28,
-			"otherSources": [
-				{
-					"source": "ToD",
-					"page": 15
-				}
-			],
-			"_copy": {
-				"name": "War Priest",
-				"source": "VGM",
-				"_mod": {
-					"trait": {
-						"mode": "prependArr",
-						"items": {
-							"name": "5etools Note",
-							"entries": [
-								"Ontharr Frume is presented in {@adventure Hoard of the Dragon Queen|HotDQ} and The {@adventure Rise of Tiamat|RoT} as a lawful good, human paladin of Torm. The {@creature war priest|vgm} stat block from {@book Volo's Guide to Monsters|VGM} has been provided here for ease of use."
-							]
-						}
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1767,6 +2163,184 @@
 			"languages": [
 				"Common"
 			],
+			"name": "Ontharr Frume",
+			"source": "HotDQ",
+			"page": 28,
+			"referenceSources": [
+				"DC",
+				"DIP",
+				"MOT",
+				"SDW"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 117,
+				"formula": "18d8 + 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 14,
+			"int": 11,
+			"wis": 17,
+			"cha": 13,
+			"save": {
+				"con": "+6",
+				"wis": "+7"
+			},
+			"skill": {
+				"intimidation": "+5",
+				"religion": "+4"
+			},
+			"passive": 13,
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell mending}",
+								"{@spell sacred flame}",
+								"{@spell spare the dying}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell divine favor}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}",
+								"{@spell shield of faith}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell magic weapon}",
+								"{@spell prayer of healing}",
+								"{@spell silence}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell beacon of hope}",
+								"{@spell crusader's mantle}",
+								"{@spell dispel magic}",
+								"{@spell revivify}",
+								"{@spell spirit guardians}",
+								"{@spell water walk}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell freedom of movement}",
+								"{@spell guardian of faith}",
+								"{@spell stoneskin}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell flame strike}",
+								"{@spell mass cure wounds}",
+								"{@spell hold monster}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The priest makes two melee attacks."
+					]
+				},
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Guided Strike (Recharges after a Short or Long Rest)",
+					"entries": [
+						"The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"urban"
+			],
+			"attachedItems": [
+				"maul|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"dexterity",
+				"wisdom"
+			],
+			"trait": [
+				{
+					"name": "5etools Note",
+					"entries": [
+						"Ontharr Frume is presented in {@adventure Hoard of the Dragon Queen|HotDQ} and The {@adventure Rise of Tiamat|RoT} as a lawful good, human paladin of Torm. The {@creature war priest|vgm} stat block from {@book Volo's Guide to Monsters|VGM} has been provided here for ease of use."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/HotDQ/Ontharr%20Frume.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -1966,34 +2540,159 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Raggnar Redtooth",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "HotDQ",
-			"page": 74,
-			"otherSources": [
-				{
-					"source": "ToD",
-					"page": 90
-				}
-			],
-			"_copy": {
-				"name": "Veteran",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the veteran",
-						"with": "Raggnar",
-						"flags": "i"
-					}
-				}
-			},
 			"ac": [
 				11
 			],
 			"tokenCustom": true,
-			"hasToken": true
+			"name": "Raggnar Redtooth",
+			"source": "HotDQ",
+			"page": 74,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DD",
+				"DIP",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"FS",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"KKW",
+				"LoX",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RMBRE",
+				"SatO",
+				"SDW",
+				"SjA",
+				"SKT",
+				"SLW",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"TftYP-WPM",
+				"ToA",
+				"ToFW",
+				"ToR",
+				"US",
+				"VEoR",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"hp": {
+				"average": 58,
+				"formula": "9d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 13,
+			"con": 14,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"athletics": "+5",
+				"perception": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "3",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Raggnar makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"urban",
+				"forest",
+				"underdark"
+			],
+			"attachedItems": [
+				"heavy crossbow|phb",
+				"longsword|phb",
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/HotDQ/Raggnar%20Redtooth.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Rath Modar",
@@ -2393,28 +3092,258 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Sandesyl Morgia",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"name": "Sandesyl Morgia",
 			"source": "HotDQ",
 			"page": 81,
-			"otherSources": [
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"DSotDQ",
+				"EGW",
+				"GoS",
+				"HotDQ",
+				"LLK",
+				"RoT",
+				"SatO",
+				"SKT",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-THSoT",
+				"TftYP-WPM",
+				"ToFW",
+				"VEoR",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
 				{
-					"source": "ToD",
-					"page": 98
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
 				}
 			],
-			"_copy": {
-				"name": "Vampire",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the vampire",
-						"with": "Sandesyl",
-						"flags": "i"
-					}
+			"hp": {
+				"average": 144,
+				"formula": "17d8 + 68"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 18,
+			"int": 17,
+			"wis": 15,
+			"cha": 18,
+			"save": {
+				"dex": "+9",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill": {
+				"perception": "+7",
+				"stealth": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"If Sandesyl isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.",
+						"While in bat form, Sandesyl can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+						"While in mist form, Sandesyl can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Sandesyl fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Misty Escape",
+					"entries": [
+						"When it drops to 0 hit points outside its resting place, Sandesyl transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+						"While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Sandesyl regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If Sandesyl takes radiant damage or damage from {@item Holy Water (Flask)|PHB|holy water}, this trait doesn't function at the start of Sandesyl's next turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"Sandesyl can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Vampire Weaknesses",
+					"entries": [
+						"Sandesyl has the following flaws:",
+						{
+							"type": "list",
+							"style": "list-hang-subtrait",
+							"items": [
+								{
+									"type": "itemSub",
+									"name": "Forbiddance",
+									"entry": "Sandesyl can't enter a residence without an invitation from one of the occupants."
+								},
+								{
+									"type": "itemSub",
+									"name": "Harmed by Running Water",
+									"entry": "Sandesyl takes 20 acid damage if it ends its turn in running water."
+								},
+								{
+									"type": "itemSub",
+									"name": "Stake to the Heart",
+									"entry": "If a piercing weapon made of wood is driven into Sandesyl's heart while Sandesyl is {@condition incapacitated} in its resting place, Sandesyl is {@condition paralyzed} until the stake is removed."
+								},
+								{
+									"type": "itemSub",
+									"name": "Sunlight Hypersensitivity",
+									"entry": "Sandesyl takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Vampire Form Only)",
+					"entries": [
+						"Sandesyl makes two attacks, only one of which can be a bite attack."
+					]
+				},
+				{
+					"name": "Unarmed Strike (Vampire Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, Sandesyl can grapple the target (escape {@dc 18})."
+					]
+				},
+				{
+					"name": "Bite (Bat or Vampire Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by Sandesyl, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Sandesyl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under Sandesyl's control."
+					]
+				},
+				{
+					"name": "Charm",
+					"entries": [
+						"Sandesyl targets one humanoid it can see within 30 feet of it. If the target can see Sandesyl, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by Sandesyl. The {@condition charmed} target regards Sandesyl as a trusted friend to be heeded and protected. Although the target isn't under Sandesyl's control, it takes Sandesyl's requests or actions in the most favorable way it can, and it is a willing target for Sandesyl's bite attack.",
+						"Each time Sandesyl or Sandesyl's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Sandesyl is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+					]
+				},
+				{
+					"name": "Children of the Night (1/Day)",
+					"entries": [
+						"Sandesyl magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, Sandesyl can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of Sandesyl and obeying its spoken commands. The beasts remain for 1 hour, until Sandesyl dies, or until Sandesyl dismisses them as a bonus action."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"Sandesyl moves up to its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"Sandesyl makes one unarmed strike."
+					]
+				},
+				{
+					"name": "Bite (Costs 2 Actions)",
+					"entries": [
+						"Sandesyl makes one bite attack."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Vampire",
+				"source": "MM"
+			},
+			"environment": [
+				"urban"
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Regeneration",
+				"Shapechanger",
+				"Spider Climb",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"HPR",
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/HotDQ/Sandesyl%20Morgia.webp"
 			},
 			"hasToken": true,
 			"hasFluffImages": true

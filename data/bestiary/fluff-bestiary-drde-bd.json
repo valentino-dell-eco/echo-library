@@ -1,0 +1,44 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Bubba Wugga",
+			"source": "DrDe-BD",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Ogres",
+					"entries": [
+						"{@i Raging Hulks and Hoarders}",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Habitat:",
+									"entry": "{@filter Arctic|bestiary|environment=arctic}, {@filter Desert|bestiary|environment=desert}, {@filter Forest|bestiary|environment=forest}, {@filter Grassland|bestiary|environment=grassland}, {@filter Hill|bestiary|environment=hill}, {@filter Mountain|bestiary|environment=mountain}, {@filter Swamp|bestiary|environment=swamp}, {@filter Underdark|bestiary|environment=underdark}"
+								},
+								{
+									"type": "item",
+									"name": "Treasure:",
+									"entry": "{@table Random Magic Items - Armaments|XDMG|Armaments}"
+								}
+							]
+						},
+						"Ogres are selfish raiders and hulking gluttons spawned of hateful supernatural forces. From dismal ruins and bleak hinterlands, they raid vulnerable communities and ambush travelers. Ogres covet food and treasure, and they spitefully destroy art, books, clockwork devices, and other delicate or lovingly made things. Occasionally they kidnap victims to eat later or, more rarely, performers who catch their interest.",
+						"Ogres trace their origins to wrathful deities such as Erythnul, Takhisis, and Vaprak. They magically emerge from the earth of lands corrupted by evil gods, sinister magic, or ancient curses. Some bear evidence of the places that spawned them, sporting rocky calluses, mossy growths, or frozen scars."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/DrDe-BD/Bubba%20Wugga.webp"
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,54 +1,132 @@
 {
 	"monster": [
 		{
-			"name": "Aruk Thundercaller Thuunlakalaga",
 			"isNpc": true,
 			"isNamedCreature": true,
+			"tokenCustom": true,
+			"name": "Aruk Thundercaller Thuunlakalaga",
 			"source": "IDRotF",
 			"page": 169,
-			"_copy": {
-				"name": "Goliath Warrior",
-				"source": "IDRotF",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the goliath",
-						"with": "Aruk",
-						"flags": "i"
-					},
-					"_": [
-						{
-							"mode": "addSkills",
-							"skills": {
-								"insight": 1,
-								"medicine": 1
-							}
-						}
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goliath"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item hide armor|PHB}"
 					]
 				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
 			},
-			"tokenCustom": true,
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 11,
+			"con": 16,
+			"int": 10,
+			"wis": 15,
+			"cha": 10,
+			"skill": {
+				"athletics": "+6",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"passive": 14,
+			"resist": [
+				"cold"
+			],
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Mountain Born",
+					"entries": [
+						"Aruk is acclimated to high altitude, including elevations above 20,000 feet."
+					]
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"Aruk counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Aruk makes two attacks with its greataxe or hurls two javelins."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d12 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Stone's Endurance (Recharges after a Short or Long Rest)",
+					"entries": [
+						"When Aruk takes damage, it reduces the damage taken by 9 ({@dice 1d12 + 3})."
+					]
+				}
+			],
+			"attachedItems": [
+				"greataxe|phb",
+				"javelin|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Aruk%20Thundercaller%20Thuunlakalaga.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
 		{
-			"name": "Arveiaturace",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "IDRotF",
-			"page": 105,
-			"_copy": {
-				"name": "Ancient White Dragon",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the dragon",
-						"with": "Arveiaturace",
-						"flags": "i"
-					}
-				}
-			},
 			"senses": [
 				"blindsight 60 ft. (blind beyond this radius)",
 				"darkvision 60 ft."
@@ -57,6 +135,278 @@
 				"B",
 				"D"
 			],
+			"name": "Arveiaturace",
+			"source": "IDRotF",
+			"page": 105,
+			"group": [
+				"Chromatic Dragon"
+			],
+			"referenceSources": [
+				"EGW",
+				"IDRotF",
+				"SKT"
+			],
+			"size": [
+				"G"
+			],
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 333,
+				"formula": "18d20 + 144"
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40,
+				"fly": 80,
+				"swim": 40
+			},
+			"str": 26,
+			"dex": 10,
+			"con": 26,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"save": {
+				"dex": "+6",
+				"con": "+14",
+				"wis": "+7",
+				"cha": "+8"
+			},
+			"skill": {
+				"perception": "+13",
+				"stealth": "+6"
+			},
+			"passive": 23,
+			"immune": [
+				"cold"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "20",
+			"trait": [
+				{
+					"name": "Ice Walk",
+					"entries": [
+						"Arveiaturace can move across and climb icy surfaces without needing to make an ability check. Additionally, {@quickref difficult terrain||3} composed of ice or snow doesn't cost it extra movement."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Arveiaturace fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Arveiaturace can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 9 ({@damage 2d8}) cold damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of Arveiaturace's choice that is within 120 feet of Arveiaturace and aware of it must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Arveiaturace's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Cold Breath {@recharge 5}",
+					"entries": [
+						"Arveiaturace exhales an icy blast in a 90-foot cone. Each creature in that area must make a {@dc 22} Constitution saving throw, taking 72 ({@damage 16d8}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"Arveiaturace makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"Arveiaturace makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"Arveiaturace beats its wings. Each creature within 15 feet of Arveiaturace must succeed on a {@dc 22} Dexterity saving throw or take 15 ({@damage 2d6 + 8}) bludgeoning damage and be knocked {@condition prone}. Arveiaturace can then fly up to half its flying speed."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "White Dragon",
+				"source": "MM"
+			},
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Customizing Dragons",
+					"source": "FTD",
+					"page": 33,
+					"entries": [
+						"You can customize any dragon's stat block to reflect Arveiaturace's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Skills",
+							"entries": [
+								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if Arveiaturace spends time in Humanoid form."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spells",
+							"entries": [
+								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Traits and Actions",
+							"entries": [
+								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Flyby",
+											"entries": [
+												"Arveiaturace is an agile flier, quick to fly out of enemies' reach.",
+												"Arveiaturace doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Mimicry",
+											"entries": [
+												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
+												"Arveiaturace can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 10} Wisdom ({@skill Insight}) check."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Rejuvenation",
+											"entries": [
+												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
+												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Special Senses",
+											"entries": [
+												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Tunneler",
+											"entries": [
+												"Arveiaturace can burrow through solid rock at half its burrowing speed and leaves a tunnel in its wake."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"dragonCastingColor": "white",
+			"dragonAge": "ancient",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"P",
+				"S"
+			],
+			"damageTagsLegendary": [
+				"C",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			],
+			"conditionInflictLegendary": [
+				"blinded"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"savingThrowForcedLegendary": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Arveiaturace.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -943,48 +1293,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Battlehammer Dwarf",
-			"source": "IDRotF",
-			"page": 107,
-			"_copy": {
-				"name": "Scout",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Mountain Dwarf",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "scout",
-						"with": "dwarf"
-					},
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Longbow",
-							"items": {
-								"name": "Light Crossbow",
-								"entries": [
-									"{@atk rw} {@hit 4} to hit, ranged 80/320 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Shortsword",
-							"items": {
-								"name": "Handaxe",
-								"entries": [
-									"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d6 + 0}) slashing damage."
-								]
-							}
-						}
-					]
-				}
-			},
 			"alignment": [
 				"L",
 				"G"
@@ -1004,7 +1312,146 @@
 				"RW",
 				"THW"
 			],
-			"hasToken": true
+			"name": "Battlehammer Dwarf",
+			"source": "IDRotF",
+			"page": 107,
+			"referenceSources": [
+				"AZfyT",
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"FS",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TftYP",
+				"TftYP-THSoT",
+				"TftYP-TSC",
+				"ToA",
+				"ToR",
+				"VNotEE",
+				"WBtW",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"nature": "+4",
+				"perception": "+5",
+				"stealth": "+6",
+				"survival": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The dwarf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dwarf makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Handaxe",
+					"entries": [
+						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d6 + 0}) slashing damage."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, ranged 80/320 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Battlehammer%20Dwarf.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Bjornhild Solvigsdottir",
@@ -1385,36 +1832,83 @@
 			"hasFluffImages": true
 		},
 		{
+			"tokenCustom": true,
 			"name": "Chimeric Baboon",
 			"source": "IDRotF",
 			"page": 246,
-			"_copy": {
-				"name": "Baboon",
-				"source": "MM",
-				"_mod": {
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Bite",
-						"items": {
-							"name": "Bite",
-							"entries": [
-								"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage, plus an extra 3 ({@damage 1d6}) poison damage."
-							]
-						}
-					}
-				}
+			"referenceSources": [
+				"CM",
+				"CoS",
+				"KftGV",
+				"TftYP",
+				"TftYP-THSoT",
+				"ToA",
+				"TTP",
+				"WBtW"
+			],
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 3,
+				"formula": "1d6"
 			},
-			"tokenCustom": true,
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 11,
+			"int": 4,
+			"wis": 12,
+			"cha": 6,
+			"passive": 11,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage, plus an extra 3 ({@damage 1d6}) poison damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"hill"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Chimeric%20Baboon.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Chimeric Cat",
-			"source": "IDRotF",
-			"page": 246,
-			"_copy": {
-				"name": "Cat",
-				"source": "MM"
-			},
 			"senses": [
 				"blindsight 60 ft.",
 				"tremorsense 60 ft."
@@ -1424,6 +1918,89 @@
 				"B",
 				"T"
 			],
+			"name": "Chimeric Cat",
+			"source": "IDRotF",
+			"page": 246,
+			"referenceSources": [
+				"CM",
+				"CoS",
+				"HotDQ",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"OoW",
+				"SKT",
+				"TCE",
+				"ToA",
+				"WBtW",
+				"WDH"
+			],
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 2,
+				"formula": "1d4"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 3,
+			"dex": 15,
+			"con": 10,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"passive": 13,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The cat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"forest",
+				"urban",
+				"desert"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Chimeric%20Cat.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -1503,78 +2080,228 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Chimeric Hare",
-			"source": "IDRotF",
-			"page": 246,
-			"_copy": {
-				"name": "Hare",
-				"source": "IDRotF"
-			},
 			"speed": {
 				"walk": 20,
 				"burrow": 5,
 				"fly": 30
 			},
 			"tokenCustom": true,
+			"name": "Chimeric Hare",
+			"source": "IDRotF",
+			"page": 246,
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
+			},
+			"str": 1,
+			"dex": 17,
+			"con": 9,
+			"int": 2,
+			"wis": 11,
+			"cha": 4,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+5"
+			},
+			"passive": 12,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Escape",
+					"entries": [
+						"The hare can take the {@action Dash}, {@action Disengage}, or {@action Hide} action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"familiar": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Chimeric%20Hare.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
 		{
+			"tokenCustom": true,
 			"name": "Chimeric Rat",
 			"source": "IDRotF",
 			"page": 246,
-			"_copy": {
-				"name": "Rat",
-				"source": "MM",
-				"_mod": {
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Chimeric Creation",
-							"entries": [
-								"The rat has gills, iridescent scales, and the ability to breathe air and water."
-							]
-						}
-					}
-				}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"QftIS",
+				"SKT",
+				"TftYP",
+				"TftYP-TFoF",
+				"ToA",
+				"TTP",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"speed": {
+				"walk": 20
+			},
+			"str": 2,
+			"dex": 11,
+			"con": 9,
+			"int": 2,
+			"wis": 10,
+			"cha": 4,
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 10,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The rat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Chimeric Creation",
+					"entries": [
+						"The rat has gills, iridescent scales, and the ability to breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"urban"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Chimeric%20Rat.webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Chimeric Weasel",
-			"source": "IDRotF",
-			"page": 246,
-			"_copy": {
-				"name": "Weasel",
-				"source": "MM",
-				"_mod": {
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Chimeric Creation",
-							"entries": [
-								"The weasel has glowing eyes that emit bright light out in a 20-foot radius and dim light for an additional 20 feet."
-							]
-						}
-					},
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Bite",
-						"items": {
-							"name": "Bite",
-							"entries": [
-								"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}1 piercing damage."
-							]
-						}
-					}
-				}
-			},
 			"tokenCustom": true,
 			"miscTags": [
 				"AOE",
 				"MW"
 			],
+			"name": "Chimeric Weasel",
+			"source": "IDRotF",
+			"page": 246,
+			"referenceSources": [
+				"IDRotF",
+				"PaBTSO",
+				"QftIS",
+				"WBtW"
+			],
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 3,
+			"dex": 16,
+			"con": 8,
+			"int": 2,
+			"wis": 12,
+			"cha": 3,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"passive": 13,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The weasel has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Chimeric Creation",
+					"entries": [
+						"The weasel has glowing eyes that emit bright light out in a 20-foot radius and dim light for an additional 20 feet."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+					]
+				}
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"P"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Chimeric%20Weasel.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -1911,23 +2638,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Dzaan",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "IDRotF",
-			"page": 271,
-			"_copy": {
-				"name": "Dzaan's Simulacrum",
-				"source": "IDRotF",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the simulacrum",
-						"with": "Dzaan",
-						"flags": "i"
-					}
-				}
-			},
 			"hp": {
 				"average": 49,
 				"formula": "9d8 + 9"
@@ -2009,6 +2721,95 @@
 				"intelligence",
 				"wisdom"
 			],
+			"name": "Dzaan",
+			"source": "IDRotF",
+			"page": 271,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				10
+			],
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 11,
+			"con": 12,
+			"int": 16,
+			"wis": 13,
+			"cha": 15,
+			"save": {
+				"int": "+5",
+				"wis": "+3"
+			},
+			"skill": {
+				"arcana": "+5",
+				"deception": "+4",
+				"history": "+5"
+			},
+			"passive": 11,
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Giant",
+				"Infernal"
+			],
+			"action": [
+				{
+					"name": "Shocking Grasp (Cantrip)",
+					"entries": [
+						"{@atk ms} {@hit 5} to hit, reach 5 ft., one creature (the attack roll has advantage if the target is wearing armor made of metal). {@h}9 ({@damage 2d8}) lightning damage, and the target can't take reactions until the start of its next turn."
+					]
+				},
+				{
+					"name": "Acid Splash (Cantrip)",
+					"entries": [
+						"Dzaan hurls a bubble of acid at one creature it can see within 60 feet of it, or at two such creatures that are within 5 feet of each other. A target must succeed on a {@dc 13} Dexterity saving throw or take 7 ({@damage 2d6}) acid damage."
+					]
+				},
+				{
+					"name": "Magic Missile (1st-Level Spell; Requires a Spell Slot)",
+					"entries": [
+						"Dzaan creates three darts of magical force. Each dart unerringly strikes one creature Dzaan can see within 120 feet of it, dealing 3 ({@damage 1d4 + 1}) force damage. If Dzaan casts this spell using a 2nd-level spell slot, it creates one more dart."
+					]
+				}
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"GI",
+				"I"
+			],
+			"damageTags": [
+				"A",
+				"L",
+				"O"
+			],
+			"damageTagsSpell": [
+				"A",
+				"L",
+				"O",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"conditionInflictSpell": [
+				"invisible"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Dzaan.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -2154,23 +2955,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "F'yorl",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "IDRotF",
-			"page": 183,
-			"_copy": {
-				"name": "Mind Flayer",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mind flayer",
-						"with": "F'yorl",
-						"flags": "i"
-					}
-				}
-			},
 			"ac": [
 				11
 			],
@@ -2187,7 +2973,115 @@
 			"miscTags": [],
 			"conditionInflict": [],
 			"conditionInflictSpell": [],
-			"hasToken": true
+			"name": "F'yorl",
+			"source": "IDRotF",
+			"page": 183,
+			"alias": [
+				"Illithid"
+			],
+			"referenceSources": [
+				"BMT",
+				"CoA",
+				"ERLW",
+				"IDRotF",
+				"IMR",
+				"KftGV",
+				"LoX",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"QftIS",
+				"SatO",
+				"SjA",
+				"TCE",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-ToH",
+				"TftYP-TSC",
+				"ToFW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 12,
+			"int": 19,
+			"wis": 17,
+			"cha": 17,
+			"save": {
+				"int": "+7",
+				"wis": "+6",
+				"cha": "+6"
+			},
+			"skill": {
+				"arcana": "+7",
+				"deception": "+6",
+				"insight": "+6",
+				"perception": "+6",
+				"persuasion": "+6",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Deep Speech",
+				"Undercommon",
+				"telepathy 120 ft."
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"F'yorl has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"P",
+				"Y"
+			],
+			"savingThrowForced": [
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/F'yorl.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Fox",
@@ -3665,45 +4559,142 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Gromin'gorn",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "IDRotF",
-			"page": 140,
-			"_copy": {
-				"name": "Frost Giant",
-				"source": "MM",
-				"_mod": {
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Multiattack",
-							"items": {
-								"name": "Multiattack",
-								"entries": [
-									"Gromin'gorn makes two Anvil Chain attacks."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Greataxe",
-							"items": {
-								"name": "Anvil Chain",
-								"entries": [
-									"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d12 + 6}) bludgeoning damage."
-								]
-							}
-						}
-					]
-				}
-			},
 			"tokenCredit": "Adam Barker",
 			"tokenCustom": true,
 			"damageTags": [
 				"B"
 			],
-			"hasToken": true
+			"name": "Gromin'gorn",
+			"source": "IDRotF",
+			"page": 140,
+			"referenceSources": [
+				"CoA",
+				"EGW",
+				"IDRotF",
+				"SatO",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"ToA"
+			],
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"patchwork armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 138,
+				"formula": "12d12 + 60"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 21,
+			"int": 9,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"con": "+8",
+				"wis": "+3",
+				"cha": "+4"
+			},
+			"skill": {
+				"athletics": "+9",
+				"perception": "+3"
+			},
+			"passive": 13,
+			"immune": [
+				"cold"
+			],
+			"languages": [
+				"Giant"
+			],
+			"cr": "8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Gromin'gorn makes two Anvil Chain attacks."
+					]
+				},
+				{
+					"name": "Anvil Chain",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d12 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 60/240 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "New Giant Options",
+					"source": "SKT",
+					"page": 246,
+					"entries": [
+						"Some adult frost giants are skilled hunters who construct and hurl nets weighted down with fragments of metal or bone. This ability is represented by the following action option.",
+						{
+							"type": "entries",
+							"name": "Weighted Net",
+							"entries": [
+								"{@atk rw} {@hit 5} to hit, ranged 20/60 ft., one Small, Medium, or Large creature. {@h}The target is {@condition restrained} until it escapes the net. Any creature can use its action to make a {@dc 17} Strength check to free itself or another creature in the net, ending the effect on a success. Dealing 15 slashing damage to the net (AC 12) destroys the net and frees the target."
+							]
+						}
+					],
+					"_version": {
+						"name": "Frost Giant (Optional Actions)",
+						"addHeadersAs": "action"
+					}
+				}
+			],
+			"environment": [
+				"mountain",
+				"arctic"
+			],
+			"attachedItems": [
+				"greataxe|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Gromin'gorn.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Gunvald Halraggson",
@@ -3873,28 +4864,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Headless Iron Golem",
-			"source": "IDRotF",
-			"page": 244,
-			"_copy": {
-				"name": "Iron Golem",
-				"source": "MM",
-				"_mod": {
-					"trait": {
-						"mode": "prependArr",
-						"items": {
-							"name": "Headless",
-							"entries": [
-								"The golem is {@condition blinded} and {@condition deafened}, giving it disadvantage on all its attack rolls, and it can't use its Poison Breath."
-							]
-						}
-					},
-					"action": {
-						"mode": "removeArr",
-						"names": "Poison Breath {@recharge 5}"
-					}
-				}
-			},
 			"hp": {
 				"average": 150,
 				"formula": "10d10 + 50"
@@ -3903,29 +4872,163 @@
 			"actionTags": [
 				"Multiattack"
 			],
+			"name": "Headless Iron Golem",
+			"source": "IDRotF",
+			"page": 244,
+			"referenceSources": [
+				"BMT",
+				"CoA",
+				"CoS",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"MOT",
+				"OoW",
+				"SatO",
+				"SKT",
+				"VEoR",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"speed": {
+				"walk": 30
+			},
+			"str": 24,
+			"dex": 9,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 1,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"fire",
+				"poison",
+				"psychic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"trait": [
+				{
+					"name": "Headless",
+					"entries": [
+						"The golem is {@condition blinded} and {@condition deafened}, giving it disadvantage on all its attack rolls, and it can't use its Poison Breath."
+					]
+				},
+				{
+					"name": "Fire Absorption",
+					"entries": [
+						"Whenever the golem is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The golem is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The golem has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The golem's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The golem makes two melee attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Sword",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}23 ({@damage 3d10 + 7}) slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Absorption",
+				"Immutable Form",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Headless%20Iron%20Golem.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
 		{
-			"name": "Hengar Aesnvaard",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "IDRotF",
-			"page": 215,
-			"_copy": {
-				"name": "Gladiator",
-				"source": "MM",
-				"_mod": {
-					"*": [
-						{
-							"mode": "replaceTxt",
-							"replace": "the gladiator",
-							"with": "Hengar",
-							"flags": "i"
-						}
-					]
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3946,6 +5049,138 @@
 			"languageTags": [
 				"C"
 			],
+			"name": "Hengar Aesnvaard",
+			"source": "IDRotF",
+			"page": 215,
+			"referenceSources": [
+				"AitFR-FCD",
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"KftGV",
+				"MOT",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SCC-CK",
+				"SKT",
+				"SLW",
+				"ToA",
+				"ToFW"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 112,
+				"formula": "15d8 + 45"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"str": "+7",
+				"dex": "+5",
+				"con": "+6"
+			},
+			"passive": 11,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Hengar has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when Hengar hits with it (included in the attack)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Hengar makes three melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. and range 20/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, or 13 ({@damage 2d8 + 4}) piercing damage if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Hengar adds 3 to its AC against one melee attack that would hit it. To do so, Hengar must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"traitTags": [
+				"Brute"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Hengar%20Aesnvaard.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -4045,33 +5280,103 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Ice Piercer",
-			"source": "IDRotF",
-			"page": 226,
-			"_copy": {
-				"name": "Piercer",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "piercer",
-						"with": "ice piercer"
-					},
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Drop",
-						"items": {
-							"name": "Drop",
-							"entries": [
-								"{@atk mw} {@hit 3} to hit, one creature directly underneath the piercer. {@h}10 ({@damage 3d6}) piercing damage plus 10 ({@damage 3d6}) cold damage. Miss: The piercer takes half the normal falling damage for the distance fallen."
-							]
-						}
-					}
-				}
-			},
 			"immune": [
 				"cold"
 			],
+			"name": "Ice Piercer",
+			"source": "IDRotF",
+			"page": 226,
+			"referenceSources": [
+				"IDRotF",
+				"OotA",
+				"PotA",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"ToFW",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "3d8 + 9"
+			},
+			"speed": {
+				"walk": 5,
+				"climb": 5
+			},
+			"str": 10,
+			"dex": 13,
+			"con": 16,
+			"int": 1,
+			"wis": 7,
+			"cha": 3,
+			"skill": {
+				"stealth": "+5"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the ice piercer remains motionless on the ceiling, it is indistinguishable from a normal stalactite."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The ice piercer can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Drop",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, one creature directly underneath the piercer. {@h}10 ({@damage 3d6}) piercing damage plus 10 ({@damage 3d6}) cold damage. Miss: The piercer takes half the normal falling damage for the distance fallen."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"traitTags": [
+				"False Appearance",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Ice%20Piercer.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -4642,29 +5947,8 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Kadroth",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "IDRotF",
-			"page": 42,
-			"_copy": {
-				"name": "Cult Fanatic",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Tiefling",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the fanatic",
-						"with": "Kadroth",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"L",
 				"E"
@@ -4689,6 +5973,170 @@
 			"spellcastingTags": [
 				"CC"
 			],
+			"name": "Kadroth",
+			"source": "IDRotF",
+			"page": 42,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"EGW",
+				"FS",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"LLK",
+				"LoX",
+				"MOT",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"RoT",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-THSoT",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"VNotEE",
+				"WDH",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"skill": {
+				"deception": "+4",
+				"persuasion": "+4",
+				"religion": "+2"
+			},
+			"passive": 11,
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Kadroth is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). Kadroth has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell command}",
+								"{@spell inflict wounds}",
+								"{@spell shield of faith}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold person}",
+								"{@spell spiritual weapon}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dark Devotion",
+					"entries": [
+						"Kadroth has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kadroth makes two melee attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"paralyzed",
+				"prone"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Kadroth.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -4768,24 +6216,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Knight of the Black Sword",
-			"source": "IDRotF",
-			"page": 259,
-			"_copy": {
-				"name": "Cult Fanatic",
-				"source": "MM",
-				"_mod": {
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Icy Doom",
-							"entries": [
-								"When the cultist dies, its corpse freezes for 9 days, during which time it can't be thawed, harmed by fire, animated, or raised from the dead."
-							]
-						}
-					}
-				}
-			},
 			"alignment": [
 				"L",
 				"E"
@@ -4800,6 +6230,184 @@
 				"C",
 				"I"
 			],
+			"name": "Knight of the Black Sword",
+			"source": "IDRotF",
+			"page": 259,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"EGW",
+				"FS",
+				"GoS",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"LLK",
+				"LoX",
+				"MOT",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"RoT",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-THSoT",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"VNotEE",
+				"WDH",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"skill": {
+				"deception": "+4",
+				"persuasion": "+4",
+				"religion": "+2"
+			},
+			"passive": 11,
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The fanatic is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The fanatic has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell command}",
+								"{@spell inflict wounds}",
+								"{@spell shield of faith}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold person}",
+								"{@spell spiritual weapon}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dark Devotion",
+					"entries": [
+						"The fanatic has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"name": "Icy Doom",
+					"entries": [
+						"When the cultist dies, its corpse freezes for 9 days, during which time it can't be thawed, harmed by fire, animated, or raised from the dead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fanatic makes two melee attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"paralyzed",
+				"prone"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Knight%20of%20the%20Black%20Sword.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -5349,54 +6957,166 @@
 			"name": "Lonelywood Banshee",
 			"source": "IDRotF",
 			"page": 81,
-			"_copy": {
-				"name": "Banshee",
-				"source": "MM",
-				"_mod": {
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Corrupting Touch",
-						"items": {
-							"name": "Spectral Longbow",
-							"entries": [
-								"{@atk rs} {@hit 4} to hit, range 150/600 ft., one target. {@h}12 ({@damage 3d6 + 2}) necrotic damage."
-							]
-						}
-					}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CoS",
+				"DIP",
+				"EGW",
+				"GoS",
+				"HoL",
+				"JttRC",
+				"PaBTSO",
+				"QftIS",
+				"RtG",
+				"TCE",
+				"WBtW",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 58,
+				"formula": "13d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 1,
+			"dex": 14,
+			"con": 10,
+			"int": 12,
+			"wis": 11,
+			"cha": 17,
+			"save": {
+				"wis": "+2",
+				"cha": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Detect Life",
+					"entries": [
+						"The banshee can magically sense the presence of living creatures up to 5 miles away that aren't undead or constructs. She knows the general direction they're in but not their exact locations."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The banshee can move through other creatures and objects as if they were {@quickref difficult terrain||3}. She takes 5 ({@damage 1d10}) force damage if she ends her turn inside an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spectral Longbow",
+					"entries": [
+						"{@atk rs} {@hit 4} to hit, range 150/600 ft., one target. {@h}12 ({@damage 3d6 + 2}) necrotic damage."
+					]
+				},
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"Each non-undead creature within 60 feet of the banshee that can see her must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Horrifying Visage for the next 24 hours."
+					]
+				},
+				{
+					"name": "Wail (1/Day)",
+					"entries": [
+						"The banshee releases a mournful wail, provided that she isn't in sunlight. This wail has no effect on constructs and undead. All other creatures within 30 feet of her that can hear her must make a {@dc 13} Constitution saving throw. On a failure, a creature drops to 0 hit points. On a success, a creature takes 10 ({@damage 3d6}) psychic damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"coastal"
+			],
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"N",
+				"O",
+				"Y"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Lonelywood%20Banshee.webp"
 			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Mjenir",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "IDRotF",
-			"page": 215,
-			"_copy": {
-				"name": "Druid",
-				"source": "MM",
-				"_mod": {
-					"*": [
-						{
-							"mode": "replaceTxt",
-							"replace": "the druid",
-							"with": "Mjenir",
-							"flags": "i"
-						}
-					],
-					"_": [
-						{
-							"mode": "addSkills",
-							"skills": {
-								"survival": 1
-							}
-						}
-					]
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5407,6 +7127,158 @@
 				"N"
 			],
 			"tokenCustom": true,
+			"name": "Mjenir",
+			"source": "IDRotF",
+			"page": 215,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DD",
+				"DIP",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"LoX",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SDW",
+				"SKT",
+				"TftYP-DiT",
+				"TftYP-TSC",
+				"ToA",
+				"ToR",
+				"VEoR",
+				"WBtW",
+				"WDH"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				11,
+				{
+					"ac": 16,
+					"condition": "with {@spell barkskin}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 13,
+			"int": 12,
+			"wis": 15,
+			"cha": 11,
+			"skill": {
+				"medicine": "+4",
+				"nature": "+3",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"Druidic plus any two languages"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Mjenir is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell produce flame}",
+								"{@spell shillelagh}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell entangle}",
+								"{@spell longstrider}",
+								"{@spell speak with animals}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell barkskin}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit ({@hit 4} to hit with shillelagh), reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, 4 ({@damage 1d8}) bludgeoning damage if wielded with two hands, or 6 ({@damage 1d8 + 2}) bludgeoning damage with {@spell shillelagh}."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"attachedItems": [
+				"quarterstaff|phb"
+			],
+			"languageTags": [
+				"DU",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F",
+				"T"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Mjenir.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -5806,22 +7678,163 @@
 			"hasFluffImages": true
 		},
 		{
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item hide armor|PHB}",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"skill": {
+				"athletics": "+10",
+				"intimidation": "+5",
+				"survival": "+5"
+			},
+			"languages": [
+				"Common"
+			],
+			"tokenCustom": true,
+			"languageTags": [
+				"C"
+			],
 			"name": "Reghed Chieftain",
 			"source": "IDRotF",
 			"page": 152,
-			"_copy": {
-				"name": "Gladiator",
-				"source": "MM",
-				"_mod": {
-					"*": [
-						{
-							"mode": "replaceTxt",
-							"replace": "gladiator",
-							"with": "chieftain"
-						}
+			"referenceSources": [
+				"AitFR-FCD",
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"KftGV",
+				"MOT",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SCC-CK",
+				"SKT",
+				"SLW",
+				"ToA",
+				"ToFW"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"hp": {
+				"average": 112,
+				"formula": "15d8 + 45"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"str": "+7",
+				"dex": "+5",
+				"con": "+6"
+			},
+			"passive": 11,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The chieftain has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the chieftain hits with it (included in the attack)."
 					]
 				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The chieftain makes three melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. and range 20/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, or 13 ({@damage 2d8 + 4}) piercing damage if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The chieftain adds 3 to its AC against one melee attack that would hit it. To do so, the chieftain must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"traitTags": [
+				"Brute"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Reghed%20Chieftain.webp"
 			},
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
 			"ac": [
 				{
 					"ac": 16,
@@ -5843,75 +7856,142 @@
 			"languageTags": [
 				"C"
 			],
-			"hasToken": true,
-			"hasFluff": true
-		},
-		{
 			"name": "Reghed Great Warrior",
 			"source": "IDRotF",
 			"page": 152,
-			"_copy": {
-				"name": "Gladiator",
-				"source": "MM",
-				"_mod": {
-					"*": [
-						{
-							"mode": "replaceTxt",
-							"replace": "gladiator",
-							"with": "great warrior"
-						}
-					]
-				}
+			"referenceSources": [
+				"AitFR-FCD",
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"KftGV",
+				"MOT",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SCC-CK",
+				"SKT",
+				"SLW",
+				"ToA",
+				"ToFW"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
 			},
-			"ac": [
+			"alignment": [
+				"A"
+			],
+			"hp": {
+				"average": 112,
+				"formula": "15d8 + 45"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"str": "+7",
+				"dex": "+5",
+				"con": "+6"
+			},
+			"passive": 11,
+			"cr": "5",
+			"trait": [
 				{
-					"ac": 16,
-					"from": [
-						"{@item hide armor|PHB}",
-						"{@item shield|PHB}"
+					"name": "Brave",
+					"entries": [
+						"The great warrior has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the great warrior hits with it (included in the attack)."
 					]
 				}
 			],
-			"skill": {
-				"athletics": "+10",
-				"intimidation": "+5",
-				"survival": "+5"
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The great warrior makes three melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. and range 20/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, or 13 ({@damage 2d8 + 4}) piercing damage if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The great warrior adds 3 to its AC against one melee attack that would hit it. To do so, the great warrior must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"traitTags": [
+				"Brute"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Reghed%20Great%20Warrior.webp"
 			},
-			"languages": [
-				"Common"
-			],
-			"tokenCustom": true,
-			"languageTags": [
-				"C"
-			],
 			"hasToken": true,
 			"hasFluff": true
 		},
 		{
-			"name": "Reghed Shaman",
-			"source": "IDRotF",
-			"page": 152,
-			"_copy": {
-				"name": "Druid",
-				"source": "MM",
-				"_mod": {
-					"*": [
-						{
-							"mode": "replaceTxt",
-							"replace": "druid",
-							"with": "shaman"
-						}
-					],
-					"_": [
-						{
-							"mode": "addSkills",
-							"skills": {
-								"survival": 1
-							}
-						}
-					]
-				}
-			},
 			"languages": [
 				"Common",
 				"Druidic"
@@ -5924,34 +8004,161 @@
 			"spellcastingTags": [
 				"O"
 			],
+			"name": "Reghed Shaman",
+			"source": "IDRotF",
+			"page": 152,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DD",
+				"DIP",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"LoX",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SDW",
+				"SKT",
+				"TftYP-DiT",
+				"TftYP-TSC",
+				"ToA",
+				"ToR",
+				"VEoR",
+				"WBtW",
+				"WDH"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				11,
+				{
+					"ac": 16,
+					"condition": "with {@spell barkskin}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 13,
+			"int": 12,
+			"wis": 15,
+			"cha": 11,
+			"skill": {
+				"medicine": "+4",
+				"nature": "+3",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The shaman is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following shaman spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell shamancraft}",
+								"{@spell produce flame}",
+								"{@spell shillelagh}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell entangle}",
+								"{@spell longstrider}",
+								"{@spell speak with animals}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell barkskin}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit ({@hit 4} to hit with shillelagh), reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, 4 ({@damage 1d8}) bludgeoning damage if wielded with two hands, or 6 ({@damage 1d8 + 2}) bludgeoning damage with {@spell shillelagh}."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"attachedItems": [
+				"quarterstaff|phb"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F",
+				"T"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Reghed%20Shaman.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
 		{
-			"name": "Reghed Warrior",
-			"source": "IDRotF",
-			"page": 152,
-			"_copy": {
-				"name": "Tribal Warrior",
-				"source": "MM",
-				"_mod": {
-					"*": [
-						{
-							"mode": "replaceTxt",
-							"replace": "tribal warrior",
-							"with": "warrior"
-						}
-					],
-					"_": [
-						{
-							"mode": "addSkills",
-							"skills": {
-								"survival": 1
-							}
-						}
-					]
-				}
-			},
 			"skill": {
 				"survival": "+4"
 			},
@@ -5961,25 +8168,192 @@
 			"languageTags": [
 				"C"
 			],
+			"name": "Reghed Warrior",
+			"source": "IDRotF",
+			"page": 152,
+			"referenceSources": [
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"MOT",
+				"PotA",
+				"RoT",
+				"SKT",
+				"TftYP",
+				"TftYP-THSoT",
+				"ToA",
+				"ToR",
+				"TTP"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 11,
+			"con": 12,
+			"int": 8,
+			"wis": 11,
+			"cha": 8,
+			"passive": 10,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Reghed%20Warrior.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
 		{
+			"tokenCustom": true,
 			"name": "Reindeer",
 			"source": "IDRotF",
 			"page": 107,
-			"_copy": {
-				"name": "Elk",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "elk",
-						"with": "reindeer"
-					}
-				}
+			"referenceSources": [
+				"EGW",
+				"HotDQ",
+				"IDRotF",
+				"PotA",
+				"QftIS",
+				"SKT",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 13,
+				"formula": "2d10 + 2"
 			},
-			"tokenCustom": true,
+			"speed": {
+				"walk": 50
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 12,
+			"int": 2,
+			"wis": 10,
+			"cha": 6,
+			"passive": 10,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the reindeer moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@damage 2d6}) damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Ram",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one {@condition prone} creature. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"forest",
+				"hill"
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Reindeer.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -6299,16 +8673,123 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Snowy Owlbear",
-			"source": "IDRotF",
-			"page": 309,
-			"_copy": {
-				"name": "Owlbear",
-				"source": "MM"
-			},
 			"speed": {
 				"walk": 40,
 				"swim": 30
+			},
+			"name": "Snowy Owlbear",
+			"source": "IDRotF",
+			"page": 309,
+			"referenceSources": [
+				"BMT",
+				"CRCotN",
+				"DIP",
+				"DoSI",
+				"EGW",
+				"GoS",
+				"HftT",
+				"IDRotF",
+				"IMR",
+				"LMoP",
+				"LRDT",
+				"NRH-AT",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"RMBRE",
+				"RtG",
+				"SCC-CK",
+				"SDW",
+				"SKT",
+				"TftYP",
+				"TftYP-DiT",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 59,
+				"formula": "7d10 + 21"
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 17,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"The owlbear has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The owlbear makes two attacks: one with its beak and one with its claws."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}10 ({@damage 1d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Snowy%20Owlbear.webp"
 			},
 			"hasToken": true,
 			"hasFluff": true,
@@ -6700,26 +9181,132 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Telepathic Pentacle",
-			"source": "IDRotF",
-			"page": 244,
-			"_copy": {
-				"name": "Hydra",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "hydra",
-						"with": "Telepathic Pentacle"
-					}
-				}
-			},
 			"speed": {
 				"walk": 30,
 				"swim": 30,
 				"climb": 30
 			},
 			"tokenCustom": true,
+			"name": "Telepathic Pentacle",
+			"source": "IDRotF",
+			"page": 244,
+			"referenceSources": [
+				"DIP",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"LoX",
+				"MOT",
+				"PaBTSO",
+				"PotA",
+				"PSZ",
+				"SatO",
+				"SCC-ARiR",
+				"SLW",
+				"TftYP",
+				"TftYP-AtG",
+				"ToA",
+				"WDMM"
+			],
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 172,
+				"formula": "15d12 + 75"
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 20,
+			"int": 2,
+			"wis": 10,
+			"cha": 7,
+			"skill": {
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The Telepathic Pentacle can hold its breath for 1 hour."
+					]
+				},
+				{
+					"name": "Multiple Heads",
+					"entries": [
+						"The Telepathic Pentacle has five heads. While it has more than one head, the Telepathic Pentacle has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}.",
+						"Whenever the Telepathic Pentacle takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the Telepathic Pentacle dies.",
+						"At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The Telepathic Pentacle regains 10 hit points for each head regrown in this way."
+					]
+				},
+				{
+					"name": "Reactive Heads",
+					"entries": [
+						"For each head the Telepathic Pentacle has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+					]
+				},
+				{
+					"name": "Wakeful",
+					"entries": [
+						"While the Telepathic Pentacle sleeps, at least one of its heads is awake."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Telepathic Pentacle makes as many bite attacks as it has heads."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"swamp"
+			],
+			"traitTags": [
+				"Hold Breath"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Telepathic%20Pentacle.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -6862,23 +9449,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Tribal Warrior Spore Servant",
-			"source": "IDRotF",
-			"page": 52,
-			"_copy": {
-				"name": "Tribal Warrior",
-				"source": "MM",
-				"_mod": {
-					"*": [
-						{
-							"mode": "replaceTxt",
-							"replace": "tribal warrior",
-							"with": "spore servant",
-							"flags": "i"
-						}
-					]
-				}
-			},
 			"type": "plant",
 			"alignment": [
 				"U"
@@ -6909,7 +9479,72 @@
 				"B"
 			],
 			"languageTags": [],
-			"hasToken": true
+			"name": "Tribal Warrior Spore Servant",
+			"source": "IDRotF",
+			"page": 52,
+			"referenceSources": [
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"MOT",
+				"PotA",
+				"RoT",
+				"SKT",
+				"TftYP",
+				"TftYP-THSoT",
+				"ToA",
+				"ToR",
+				"TTP"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"passive": 10,
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Vellynne Harpell",
@@ -7634,37 +10269,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Young Griffon (Medium)",
-			"source": "IDRotF",
-			"page": 163,
-			"_copy": {
-				"name": "Griffon",
-				"source": "MM",
-				"_mod": {
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Beak",
-							"items": {
-								"name": "Beak",
-								"entries": [
-									"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Claws",
-							"items": {
-								"name": "Claws",
-								"entries": [
-									"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) slashing damage."
-								]
-							}
-						}
-					]
-				}
-			},
 			"size": [
 				"M"
 			],
@@ -7676,42 +10280,104 @@
 			"dex": 15,
 			"con": 16,
 			"cr": "1",
+			"name": "Young Griffon (Medium)",
+			"source": "IDRotF",
+			"page": 163,
+			"referenceSources": [
+				"BGDIA",
+				"EGW",
+				"ERLW",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"MOT",
+				"PotA",
+				"QftIS",
+				"SKT",
+				"WDH",
+				"XMtS"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"speed": {
+				"walk": 30,
+				"fly": 80
+			},
+			"int": 2,
+			"wis": 13,
+			"cha": 8,
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The griffon has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The griffon makes two attacks: one with its beak and one with its claws."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"grassland",
+				"hill",
+				"coastal",
+				"arctic"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Young%20Griffon%20(Medium).webp"
+			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Young Griffon (Small)",
-			"source": "IDRotF",
-			"page": 163,
-			"_copy": {
-				"name": "Griffon",
-				"source": "MM",
-				"_mod": {
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Beak",
-							"items": {
-								"name": "Beak",
-								"entries": [
-									"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Claws",
-							"items": {
-								"name": "Claws",
-								"entries": [
-									"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) slashing damage."
-								]
-							}
-						}
-					]
-				}
-			},
 			"size": [
 				"S"
 			],
@@ -7721,42 +10387,106 @@
 			},
 			"str": 8,
 			"cr": "1/4",
+			"name": "Young Griffon (Small)",
+			"source": "IDRotF",
+			"page": 163,
+			"referenceSources": [
+				"BGDIA",
+				"EGW",
+				"ERLW",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"MOT",
+				"PotA",
+				"QftIS",
+				"SKT",
+				"WDH",
+				"XMtS"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"speed": {
+				"walk": 30,
+				"fly": 80
+			},
+			"dex": 15,
+			"con": 16,
+			"int": 2,
+			"wis": 13,
+			"cha": 8,
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The griffon has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The griffon makes two attacks: one with its beak and one with its claws."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"grassland",
+				"hill",
+				"coastal",
+				"arctic"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Young%20Griffon%20(Small).webp"
+			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Young Griffon (Tiny)",
-			"source": "IDRotF",
-			"page": 163,
-			"_copy": {
-				"name": "Griffon",
-				"source": "MM",
-				"_mod": {
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Beak",
-							"items": {
-								"name": "Beak",
-								"entries": [
-									"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 piercing damage."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Claws",
-							"items": {
-								"name": "Claws",
-								"entries": [
-									"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 slashing damage."
-								]
-							}
-						}
-					]
-				}
-			},
 			"size": [
 				"T"
 			],
@@ -7772,6 +10502,95 @@
 			"dex": 15,
 			"con": 16,
 			"cr": "0",
+			"name": "Young Griffon (Tiny)",
+			"source": "IDRotF",
+			"page": 163,
+			"referenceSources": [
+				"BGDIA",
+				"EGW",
+				"ERLW",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"MOT",
+				"PotA",
+				"QftIS",
+				"SKT",
+				"WDH",
+				"XMtS"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"int": 2,
+			"wis": 13,
+			"cha": 8,
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The griffon has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The griffon makes two attacks: one with its beak and one with its claws."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"grassland",
+				"hill",
+				"coastal",
+				"arctic"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/IDRotF/Young%20Griffon%20(Tiny).webp"
+			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true

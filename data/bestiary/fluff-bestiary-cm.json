@@ -296,13 +296,9 @@
 				{
 					"type": "image",
 					"href": {
-						"type": "internal",
-						"path": "bestiary/CM/Hag of the Fetid Gaze.webp"
-					},
-					"width": 1700,
-					"height": 1135,
-					"title": "Azirssa, Greensong, and Morganna",
-					"credit": "Caroline Gariba"
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CM/Hag%20of%20the%20Fetid%20Gaze.webp"
+					}
 				}
 			]
 		},
@@ -796,12 +792,9 @@
 				{
 					"type": "image",
 					"href": {
-						"type": "internal",
-						"path": "bestiary/CM/Zikran.webp"
-					},
-					"width": 850,
-					"height": 1080,
-					"credit": "Andrew Mar"
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CM/Zikran.webp"
+					}
 				}
 			]
 		},

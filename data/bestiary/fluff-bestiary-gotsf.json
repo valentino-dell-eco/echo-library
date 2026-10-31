@@ -1,0 +1,55 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Acidic Mist Apparition",
+			"source": "GotSF",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Elementals",
+					"entries": [
+						"Elementals are incarnations of the elements that make up the universe: air, earth, fire, and water. Though little more than animated energy on their own planes of existence, they can be called on by spellcasters and powerful beings to take shape and perform tasks.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Living Elements",
+											"entries": [
+												"On its home plane, an elemental is a bodiless life force. Its dim consciousness manifests as a physical shape only when focused by the power of magic. A wild spirit of elemental force has no desire except to course through the element of its native plane. Like beasts of the Material Plane, these elemental spirits have no society or culture, and little sense of being."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Conjured by Magic",
+											"entries": [
+												"Certain spells and magic items can conjure an elemental, summoning it from the Inner Planes to the Material Plane. Elementals instinctively resent being pulled from their native planes and bound into service. A creature that summons an elemental must assert force of will to control it."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Bound and Shaped",
+											"entries": [
+												"Powerful magic can bind an elemental spirit into a material template that defines a specific use and function. Invisible stalkers are air elementals bound to a specific form, in the same way that water elementals can be shaped into water weirds."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Elemental Nature",
+											"entries": [
+												"An elemental doesn't require air, food, drink, or sleep."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

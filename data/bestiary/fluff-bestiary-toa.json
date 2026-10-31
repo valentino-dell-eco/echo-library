@@ -356,6 +356,13 @@
 					},
 					"width": 897,
 					"height": 510
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Azaka%20Stormfang.webp"
+					}
 				}
 			]
 		},
@@ -405,6 +412,39 @@
 					},
 					"width": 908,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Blind%20Artist.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Bosco Daggerhand",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Thugs are ruthless enforcers skilled at intimidation and violence. They work for money and have few scruples."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Bosco%20Daggerhand.webp"
+					}
 				}
 			]
 		},
@@ -556,6 +596,70 @@
 			]
 		},
 		{
+			"name": "Drufi",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Giants",
+					"entries": [
+						"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+						{
+							"type": "entries",
+							"name": "Old as Legend",
+							"entries": [
+								"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+								"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ordning",
+							"entries": [
+								"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+								"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+								"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+								"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Giant Gods",
+							"entries": [
+								"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+								"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+								"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Boulders assailed our walls and cast them down, leavin' gaps through which the giants strode, weapons in hand."
+									],
+									"by": "Captain Dwern Addlestone's partial account of the Siege of Sterngate"
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there."
+									],
+									"by": "Elder Zelane of Istivin, recounting the Giant Wars"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Eblis",
 			"source": "ToA",
 			"entries": [
@@ -601,6 +705,13 @@
 					},
 					"width": 860,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Ekene-Afa.webp"
+					}
 				}
 			]
 		},
@@ -616,6 +727,13 @@
 					},
 					"width": 897,
 					"height": 510
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Eku.webp"
+					}
 				}
 			]
 		},
@@ -631,6 +749,13 @@
 					},
 					"width": 311,
 					"height": 525
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Elok%20Jaharwon.webp"
+					}
 				}
 			]
 		},
@@ -646,6 +771,13 @@
 					},
 					"width": 897,
 					"height": 510
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Faroul.webp"
+					}
 				}
 			]
 		},
@@ -661,6 +793,13 @@
 					},
 					"width": 599,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Fenthaza.webp"
+					}
 				}
 			]
 		},
@@ -676,6 +815,13 @@
 					},
 					"width": 897,
 					"height": 510
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Flask%20of%20Wine.webp"
+					}
 				}
 			]
 		},
@@ -797,6 +943,13 @@
 					},
 					"width": 897,
 					"height": 510
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Gondolo.webp"
+					}
 				}
 			]
 		},
@@ -812,6 +965,30 @@
 					},
 					"width": 712,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Grabstab.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Grandfather Zitembe",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Priests bring the teachings of their gods to the common folk. They are the spiritual leaders of temples and shrines and often hold positions of influence in their communities. Evil priests might work openly under a tyrant, or they might be the leaders of religious sects hidden in the shadows of good society, overseeing depraved rites. A priest typically has one or more acolytes to help with religious ceremonies and other sacred duties."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -867,6 +1044,13 @@
 					},
 					"width": 840,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Ifan%20Talro'a.webp"
+					}
 				}
 			]
 		},
@@ -916,6 +1100,13 @@
 					},
 					"width": 700,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Jessamine.webp"
+					}
 				}
 			]
 		},
@@ -931,6 +1122,13 @@
 					},
 					"width": 772,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Jobal.webp"
+					}
 				}
 			]
 		},
@@ -1013,6 +1211,13 @@
 					},
 					"width": 897,
 					"height": 510
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Kupalu%C3%A9.webp"
+					}
 				}
 			]
 		},
@@ -1028,6 +1233,13 @@
 					},
 					"width": 730,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Kwayoth%C3%A9.webp"
+					}
 				}
 			]
 		},
@@ -1043,6 +1255,13 @@
 					},
 					"width": 301,
 					"height": 525
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Laskilar.webp"
+					}
 				}
 			]
 		},
@@ -1126,6 +1345,39 @@
 			]
 		},
 		{
+			"name": "Mister Threadneedle",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"At harvest time, when death revisits the twilit world and summer's blossoms bow their withered heads, eerie scarecrows loom in silent vigil over empty fields. With immortal patience, these stoic sentinels hold their posts through wind, storm, and flood, bound to their master's command, eager to terrify prey with its sackcloth visage and rend victims with its razor-sharp claws.",
+								{
+									"type": "entries",
+									"name": "Spirit-Powered Constructs",
+									"entries": [
+										"A scarecrow is animated by the bound spirit of a slain evil creature, granting it purpose and mobility. It is this uncanny presence from beyond death that allows a scarecrow to inspire fear in those it gazes upon. Hags and witches often bind scarecrows with the spirits of demons, but any evil spirit will do. Although aspects of the spirit's personality might surface, a scarecrow's spirit doesn't recall the memories it had as a creature, and its will is focused solely on serving its creator. If its creator dies, the spirit inhabiting a scarecrow either continues to follow its last commands, seeks revenge for its creator's death, or destroys itself."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Mister%20Threadneedle.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Musharib",
 			"source": "ToA",
 			"images": [
@@ -1137,6 +1389,13 @@
 					},
 					"width": 897,
 					"height": 510
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Musharib.webp"
+					}
 				}
 			]
 		},
@@ -1250,6 +1509,130 @@
 					},
 					"width": 445,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Nanny%20Pu'pu.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Nepartak",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Blazing green flames and mad, echoing laughter follow a disembodied skull as it patrols its demesne. When the undead flameskull discovers trespassers, it blasts the intruders with fiery rays from its eyes and dreadful spells called up from the dark recesses of its memory.",
+								"Dark spellcasters fashion flameskulls from the remains of dead wizards. When the ritual is complete, green flames erupt from the skull to complete its ghastly transformation.",
+								{
+									"type": "entries",
+									"name": "Legacy of Life",
+									"entries": [
+										"A flameskull only dimly recalls its former life. Though it might speak in its old voice and recount key events from its past, it is but an echo of its former self. However, its undead transformation grants it full access to the magic it wielded in life, letting it cast spells while ignoring the material and somatic components it can no longer employ."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Eternally Bound",
+									"entries": [
+										"Intelligent and vigilant, a flameskull serves its creator by protecting a hidden treasure hoard, a secret chamber, or a specific individual. A flameskull carries out the directives given to it when it was created, and it interprets those commands to the letter. A flameskull's master must craft its instructions with care to ensure that the creature carries out its tasks properly.",
+										{
+											"type": "entries",
+											"name": "Wreathed in Flame",
+											"entries": [
+												"The fire wreathing a flameskull burns continually, giving off bright light that the creature controls. It uses those flames as a weapon, focusing them to loose them as fiery rays from its eye sockets."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Eldritch Rejuvenation",
+									"entries": [
+										"A flameskull's shattered fragments reform unless they are splashed with holy water or subjected to a {@spell dispel magic} or {@spell remove curse} spell. If it can no longer fulfill its intended purpose, the re-formed flameskull is beholden to no one and becomes autonomous."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A flameskull doesn't require air, food, drink, or sleep"
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Nepartak.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Niles Breakbone",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.",
+								"The noble's statistics can also be used to represent courtiers who aren't of noble birth."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Niles%20Breakbone.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ortimay Swift and Dark",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades.",
+								"In addition to managing a crew of selfish malcontents, the pirate captain is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis.",
+								"More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Ortimay%20Swift%20and%20Dark.webp"
+					}
 				}
 			]
 		},
@@ -1265,6 +1648,13 @@
 					},
 					"width": 750,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Orvex%20Ocrammas.webp"
+					}
 				}
 			]
 		},
@@ -1314,6 +1704,13 @@
 					},
 					"width": 897,
 					"height": 510
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Qawasha.webp"
+					}
 				}
 			]
 		},
@@ -1405,6 +1802,13 @@
 					},
 					"width": 897,
 					"height": 510
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/River%20Mist.webp"
+					}
 				}
 			]
 		},
@@ -1420,6 +1824,34 @@
 					},
 					"width": 896,
 					"height": 509
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Salida.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sekelok",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Champions are mighty warriors who honed their fighting skills in wars or gladiatorial pits. To soldiers and other people who fight for a living, champions are as influential as nobles, and their presence is courted as a sign of status among rulers."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Sekelok.webp"
+					}
 				}
 			]
 		},
@@ -1435,6 +1867,13 @@
 					},
 					"width": 897,
 					"height": 510
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Shago.webp"
+					}
 				}
 			]
 		},
@@ -1450,6 +1889,13 @@
 					},
 					"width": 1000,
 					"height": 642
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Skeleton%20Key.webp"
+					}
 				}
 			]
 		},
@@ -1546,6 +1992,33 @@
 			]
 		},
 		{
+			"name": "Syndra Silvane",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Archmages are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.",
+								"An archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Syndra%20Silvane.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Tabaxi Minstrel",
 			"source": "ToA",
 			"images": [
@@ -1557,6 +2030,19 @@
 					},
 					"width": 636,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Terracotta Warrior",
+			"source": "ToA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Terracotta%20Warrior.webp"
+					}
 				}
 			]
 		},
@@ -1784,6 +2270,67 @@
 					},
 					"width": 778,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Wakanga%20O'tamu.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Wine Weird",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A water weird is an elemental guardian bound to a specific water-filled location, such as a pool or fountain.",
+								"Invisible while immersed in water, its serpentine shape becomes clear only when it emerges to attack, using its coils to crush any creature other than its summoner and those its summoner declares as off limits. When slain, a water weird becomes an inanimate pool of water.",
+								{
+									"type": "entries",
+									"name": "Good and Evil Weirds",
+									"entries": [
+										"Like most elementals, a water weird has no concept of good or evil. However, a water weird bound to a sacred or befouled source of water begins to take on the nature of that site, becoming neutral good or neutral evil.",
+										"A neutral good water weird tries to frighten away interlopers rather than kill them, while a neutral evil water weird kills its victims for pleasure and might turn against its summoner. A water weird loses its evil alignment if its waters are cleansed with a {@spell purify food and drink} spell."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Elemental Nature",
+									"entries": [
+										"A water weird doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Before you drink from a fountain or pool, toss a copper coin into it. It's a small price to pay for your life."
+									],
+									"by": "X the Mystic's 2nd rule of dungeon survival"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Wine%20Weird.webp"
+					}
 				}
 			]
 		},
@@ -1924,6 +2471,67 @@
 					},
 					"width": 878,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Yorb.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Yuan-ti Priest",
+			"source": "ToA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Yuan-ti%20Priest.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Zalkoré",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"As deadly as they are ravishing, the serpent-haired medusas suffer an immortal curse brought on by their vanity. They lurk in quiet exile among the tumbled ruins of their former lives, surrounded by the petrified remains of past admirers and would-be heroes.",
+								{
+									"type": "entries",
+									"name": "Immortal Splendor",
+									"entries": [
+										"Men and women who desire eternal youth, beauty, and adoration might pray to malicious gods, beg dragons for ancient magic, or seek out powerful archmages to fulfill their wishes. Others make sacrifices to demon lords or archdevils, offering all in exchange for this gift, oblivious to the curse that accompanies it. Those who strike such bargains gain physical beauty, restored youth, immortality, and the adoration of all who behold them, granting them the influence and power they so desire. However, after years of the living like a demigod among mortals, the price for their vanity and hubris is exacted, and they are forever transformed into medusas. A medusa's hair turns into a nest of venomous serpents, and all who gaze upon the medusa are {@condition petrified}, becoming stone monuments to its corruption."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Medusa Lairs",
+									"entries": [
+										"Medusas live forever in seclusion, alienated from the world around them by their monstrous form and caprice. Their homes gradually fall into disrepair until they are little more than shadowy ruins covered with thorns and creepers, riddled with obstructions and hiding places. Foolhardy looters and adventurers who enter are often unaware of the medusa's presence until the creature is among them.",
+										"A medusa is subject to its own curse. By looking vainly on its reflection, it turns to stone as surely as any living mortal. As a result, a medusa destroys or removes any mirrors or reflective surfaces in its lair."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Zalkor%C3%A9.webp"
+					}
 				}
 			]
 		},
@@ -1939,6 +2547,26 @@
 					},
 					"width": 498,
 					"height": 525
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Zaroum%20Al-Saryak.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Zebra",
+			"source": "ToA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Zebra.webp"
+					}
 				}
 			]
 		},
@@ -1954,6 +2582,13 @@
 					},
 					"width": 1157,
 					"height": 1599
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToA/Zhanthi.webp"
+					}
 				}
 			]
 		},

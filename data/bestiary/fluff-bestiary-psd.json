@@ -64,6 +64,23 @@
 			]
 		},
 		{
+			"name": "Lyra",
+			"source": "PSD",
+			"entries": [
+				"The most visible and recognized symbols of the Church of Serra are her angels—both those that were personally created by Serra and those that appeared spontaneously in the Cathedral at Sursi. Some angels live contemplative lives within the cathedrals, but most are active defenders of the faith, protecting Serra's people across the world. Powerful angels often take responsibility for large regions of the world. Lyra, for example, stands as the protector of Benalia, and Shalai plays a similar role in Llanowar. Serra's angels are believed to hear prayers addressed to Serra, and they have an uncanny tendency to arrive exactly when they are needed.",
+				"Any of the angels in the {@book Monster Manual|MM} can serve as {@creature serra angel|PSD|Serra angels}. The {@creature deva|MM} represents the most common angels, while the {@creature planetar|MM} and {@creature solar|MM} are appropriate for powerful angels such as {@creature Lyra|PSD} and {@creature Shalai|PSD}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSD/Lyra.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Serra Angel",
 			"source": "PSD",
 			"entries": [
@@ -81,6 +98,30 @@
 					"height": 495,
 					"title": "Angel",
 					"credit": "Winona Nelson"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSD/Serra%20Angel.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shalai",
+			"source": "PSD",
+			"entries": [
+				"The most visible and recognized symbols of the Church of Serra are her angels—both those that were personally created by Serra and those that appeared spontaneously in the Cathedral at Sursi. Some angels live contemplative lives within the cathedrals, but most are active defenders of the faith, protecting Serra's people across the world. Powerful angels often take responsibility for large regions of the world. Lyra, for example, stands as the protector of Benalia, and Shalai plays a similar role in Llanowar. Serra's angels are believed to hear prayers addressed to Serra, and they have an uncanny tendency to arrive exactly when they are needed.",
+				"Any of the angels in the {@book Monster Manual|MM} can serve as {@creature serra angel|PSD|Serra angels}. The {@creature deva|MM} represents the most common angels, while the {@creature planetar|MM} and {@creature solar|MM} are appropriate for powerful angels such as {@creature Lyra|PSD} and {@creature Shalai|PSD}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSD/Shalai.webp"
+					}
 				}
 			]
 		},
@@ -98,6 +139,76 @@
 					"height": 273,
 					"title": "Kavu Climber",
 					"credit": "Jonathan Kuo"
+				}
+			]
+		},
+		{
+			"name": "Zombie Horse",
+			"source": "PSD",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.",
+								{
+									"type": "entries",
+									"name": "Dark Servants",
+									"entries": [
+										"Sinister necromantic magic infuses the remains of the dead, causing them to rise as zombies that do their creator's bidding without fear or hesitation. They move with a jerky, uneven gait, clad in the moldering apparel they wore when put to rest, and carrying the stench of decay.",
+										"Most zombies are made from humanoid remains, though the flesh and bones of any formerly living creature can be imbued with a semblance of life. Necromantic magic, usually from spells, animates a zombie. Some zombies rise spontaneously when dark magic saturates an area. Once turned into a zombie, a creature can't be restored to life except by powerful magic, such as a {@spell resurrection} spell.",
+										"A zombie retains no vestiges of its former self, its mind devoid of thought and imagination. A zombie left without orders simply stands in place and rots unless something comes along that it can kill. The magic animating a zombie imbues it with evil, so left without purpose, it attacks any living creature it encounters."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hideous Forms",
+									"entries": [
+										"Zombies appear as they did in life, showing the wounds that killed them. However, the magic that creates these vile creatures often takes time to run its course. Dead warriors might rise from a battlefield, eviscerated and bloated after days in the sun. The muddy cadaver of a peasant could claw its way from the ground, riddled with maggots and worms. A zombie might wash ashore or rise from a marsh, swollen and reeking after weeks in the water."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Mindless Soldiers",
+									"entries": [
+										"Zombies take the most direct route to any foe, unable to comprehend obstacles, tactics, or dangerous terrain. A zombie might stumble into a fast-flowing river to reach foes on a far shore, clawing at the surface as it is battered against rocks and destroyed. To reach a foe below it, a zombie might step out of an open window. Zombies stumble through roaring infernos, into pools of acid, and across fields littered with caltrops without hesitation.",
+										"A zombie can follow simple orders and distinguish friends from foes, but its ability to reason is limited to shambling in whatever direction it is pointed, pummeling any enemy in its path. A zombie armed with a weapon uses it, but the zombie won't retrieve a dropped weapon or other tool until told to do so."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A zombie doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"After Beek died, we cast an {@spell animate dead} spell on his corpse. It was fun for a while, but the zombie started to smell real bad, so we doused it in oil and set it on fire. Beek would've found that hilarious."
+									],
+									"by": "Fonkin Hoodypeak",
+									"from": "on friendship"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSD/Zombie%20Horse.webp"
+					}
 				}
 			]
 		}

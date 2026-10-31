@@ -233,9 +233,6 @@
 	],
 	"class": [
 		{
-			"name": "Spellcaster Sidekick",
-			"source": "TCE",
-			"page": 144,
 			"edition": "classic",
 			"isSidekick": true,
 			"casterProgression": "artificer",
@@ -571,6 +568,9 @@
 					]
 				}
 			],
+			"name": "Spellcaster Sidekick",
+			"source": "TCE",
+			"page": 144,
 			"classFeatures": [
 				"Bonus Proficiencies|Spellcaster Sidekick|TCE|1|TCE",
 				"Sidekick Class|Spellcaster Sidekick|TCE|1|TCE",

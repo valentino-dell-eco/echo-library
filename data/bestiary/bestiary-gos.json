@@ -89,23 +89,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Barnacle Bess",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "GoS",
-			"page": 220,
-			"_copy": {
-				"name": "Giant Crab",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the crab",
-						"with": "Bess",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"L",
 				"N"
@@ -117,6 +102,99 @@
 			"languageTags": [
 				"C"
 			],
+			"name": "Barnacle Bess",
+			"source": "GoS",
+			"page": 220,
+			"referenceSources": [
+				"BGDIA",
+				"CM",
+				"DIP",
+				"EGW",
+				"FS",
+				"GoS",
+				"MOT",
+				"PotA",
+				"SKT",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-WPM",
+				"ToR",
+				"TTP",
+				"VEoR",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 11,
+			"wis": 9,
+			"cha": 3,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 9,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Bess can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 11}). Bess has two claws, each of which can grapple only one target."
+					]
+				}
+			],
+			"environment": [
+				"coastal"
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/GoS/Barnacle%20Bess.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -401,30 +479,9 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Captain Xendros",
 			"shortName": "Xendros",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "GoS",
-			"page": 14,
-			"_copy": {
-				"name": "Priest",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Tiefling",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the priest",
-						"with": "Xendros",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"C",
 				"E"
@@ -445,6 +502,167 @@
 			"spellcastingTags": [
 				"CC"
 			],
+			"name": "Captain Xendros",
+			"source": "GoS",
+			"page": 14,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"US",
+				"VEoR",
+				"WDH",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 12,
+			"int": 13,
+			"wis": 16,
+			"cha": 13,
+			"skill": {
+				"medicine": "+7",
+				"persuasion": "+3",
+				"religion": "+5"
+			},
+			"passive": 13,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Xendros is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Xendros has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell guiding bolt}",
+								"{@spell sanctuary}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell spirit guardians}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Divine Eminence",
+					"entries": [
+						"As a bonus action, Xendros can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Xendros expends a spell slot of 2nd level or higher, the extra damage increases by {@damage 1d6} for each level above 1st."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"mace|phb"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/GoS/Captain%20Xendros.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -958,29 +1176,76 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Fish",
-			"source": "GoS",
-			"page": 224,
-			"_copy": {
-				"name": "Quipper",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "quipper",
-						"with": "fish",
-						"flags": "i"
-					},
-					"trait": {
-						"mode": "removeArr",
-						"names": "Blood Frenzy"
-					}
-				}
-			},
 			"action": null,
 			"damageTags": [],
 			"miscTags": [],
-			"hasToken": true
+			"name": "Fish",
+			"source": "GoS",
+			"page": 224,
+			"referenceSources": [
+				"CRCotN",
+				"GoS",
+				"IDRotF",
+				"MOT",
+				"PotA",
+				"PSA",
+				"ToA",
+				"ToFW",
+				"WDH"
+			],
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
+			},
+			"speed": {
+				"swim": 40
+			},
+			"str": 2,
+			"dex": 16,
+			"con": 9,
+			"int": 1,
+			"wis": 7,
+			"cha": 2,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The fish can breathe only underwater."
+					]
+				}
+			],
+			"environment": [
+				"underwater"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Water Breathing"
+			],
+			"senseTags": [
+				"D"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/GoS/Fish.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Giant Coral Snake",
@@ -1121,34 +1386,6 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Giant White Moray Eel",
-			"source": "GoS",
-			"page": 216,
-			"_copy": {
-				"name": "Giant Constrictor Snake",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "snake",
-						"with": "eel",
-						"flags": "i"
-					},
-					"trait": {
-						"mode": "prependArr",
-						"items": {
-							"name": "Water Breathing",
-							"entries": [
-								"The eel can breathe only underwater."
-							]
-						}
-					},
-					"action": {
-						"mode": "removeArr",
-						"names": "Constrict"
-					}
-				}
-			},
 			"speed": {
 				"walk": 0,
 				"swim": 40
@@ -1163,6 +1400,85 @@
 			"damageTags": [
 				"P"
 			],
+			"name": "Giant White Moray Eel",
+			"source": "GoS",
+			"page": 216,
+			"referenceSources": [
+				"DIP",
+				"EGW",
+				"GoS",
+				"OoW",
+				"PaBTSO",
+				"QftIS",
+				"SLW",
+				"TftYP-THSoT",
+				"ToA",
+				"US",
+				"WBtW"
+			],
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d12 + 8"
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 12,
+			"int": 1,
+			"wis": 10,
+			"cha": 3,
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 12,
+			"cr": "2",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one creature. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underwater",
+				"underdark",
+				"forest",
+				"swamp",
+				"desert"
+			],
+			"senseTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"trait": [
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The eel can breathe only underwater."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/GoS/Giant%20White%20Moray%20Eel.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -1713,40 +2029,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Krell Grohlg",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "GoS",
-			"page": 92,
-			"_copy": {
-				"name": "Druid",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Half-Orc",
-						"source": "PHB"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the druid",
-						"with": "Krell",
-						"flags": "i"
-					},
-					"_": {
-						"mode": "replaceSpells",
-						"spells": {
-							"2": [
-								{
-									"replace": "{@spell animal messenger}",
-									"with": "{@spell flaming sphere}"
-								}
-							]
-						}
-					}
-				}
-			},
 			"alignment": [
 				"C",
 				"E"
@@ -1777,6 +2061,141 @@
 			"miscTags": [
 				"MLW"
 			],
+			"name": "Krell Grohlg",
+			"source": "GoS",
+			"page": 92,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DD",
+				"DIP",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"LoX",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SDW",
+				"SKT",
+				"TftYP-DiT",
+				"TftYP-TSC",
+				"ToA",
+				"ToR",
+				"VEoR",
+				"WBtW",
+				"WDH"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"ac": [
+				11,
+				{
+					"ac": 16,
+					"condition": "with {@spell barkskin}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"dex": 12,
+			"con": 13,
+			"int": 12,
+			"wis": 15,
+			"cha": 11,
+			"skill": {
+				"medicine": "+4",
+				"nature": "+3",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Krell is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell produce flame}",
+								"{@spell shillelagh}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell entangle}",
+								"{@spell longstrider}",
+								"{@spell speak with animals}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell barkskin}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F",
+				"T"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"strength"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/GoS/Krell%20Grohlg.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -2709,23 +3128,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Master Refrum",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "GoS",
-			"page": 165,
-			"_copy": {
-				"name": "Priest",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the priest",
-						"with": "Refrum",
-						"flags": "i"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2736,6 +3140,172 @@
 				"L",
 				"G"
 			],
+			"name": "Master Refrum",
+			"source": "GoS",
+			"page": 165,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"US",
+				"VEoR",
+				"WDH",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 12,
+			"int": 13,
+			"wis": 16,
+			"cha": 13,
+			"skill": {
+				"medicine": "+7",
+				"persuasion": "+3",
+				"religion": "+5"
+			},
+			"passive": 13,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Refrum is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Refrum has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell guiding bolt}",
+								"{@spell sanctuary}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell spirit guardians}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Divine Eminence",
+					"entries": [
+						"As a bonus action, Refrum can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Refrum expends a spell slot of 2nd level or higher, the extra damage increases by {@damage 1d6} for each level above 1st."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"mace|phb"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/GoS/Master%20Refrum.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -2975,25 +3545,6 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Merfolk Scout",
-			"source": "GoS",
-			"page": 216,
-			"_copy": {
-				"name": "Scout",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Merfolk",
-						"source": "DMG"
-					}
-				],
-				"_mod": {
-					"action": {
-						"mode": "removeArr",
-						"names": "Longbow"
-					}
-				}
-			},
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3016,7 +3567,131 @@
 			"miscTags": [
 				"MW"
 			],
-			"hasToken": true
+			"name": "Merfolk Scout",
+			"source": "GoS",
+			"page": 216,
+			"referenceSources": [
+				"AZfyT",
+				"BGDIA",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"FS",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TftYP",
+				"TftYP-THSoT",
+				"TftYP-TSC",
+				"ToA",
+				"ToR",
+				"VNotEE",
+				"WBtW",
+				"WDMM",
+				"XMtS"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"nature": "+4",
+				"perception": "+5",
+				"stealth": "+6",
+				"survival": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The scout has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The scout makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"grassland",
+				"hill",
+				"arctic",
+				"forest",
+				"swamp",
+				"underdark",
+				"desert"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/GoS/Merfolk%20Scout.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Minotaur Living Crystal Statue",
@@ -3563,23 +4238,8 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Othokent",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "GoS",
-			"page": 81,
-			"_copy": {
-				"name": "Lizard Queen",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the lizardfolk",
-						"with": "Othokent",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"L",
 				"N"
@@ -3595,7 +4255,130 @@
 				"C",
 				"DR"
 			],
-			"hasToken": true
+			"name": "Othokent",
+			"source": "GoS",
+			"page": 81,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"lizardfolk"
+				]
+			},
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 17,
+			"dex": 12,
+			"con": 15,
+			"int": 11,
+			"wis": 11,
+			"cha": 15,
+			"save": {
+				"con": "+4",
+				"wis": "+2"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+5",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"conditionImmune": [
+				"frightened"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"Othokent can hold its breath for 15 minutes."
+					]
+				},
+				{
+					"name": "Skewer",
+					"entries": [
+						"Once per turn, when Othokent makes a melee attack with its trident and hits, the target takes an extra 10 ({@damage 3d6}) damage, and Othokent gains temporary hit points equal to the extra damage dealt."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Othokent makes two attacks: one with its bite and one with its claws or trident or two melee attacks with its trident."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Trident",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) piercing damage if used with two hands to make a melee attack."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			],
+			"attachedItems": [
+				"trident|phb"
+			],
+			"traitTags": [
+				"Hold Breath"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/GoS/Othokent.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Pirate Bosun",
@@ -5239,29 +6022,8 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Sauriv",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "GoS",
-			"page": 79,
-			"_copy": {
-				"name": "Noble",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Lizardfolk",
-						"source": "DMG"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the noble",
-						"with": "Sauriv",
-						"flags": "i"
-					}
-				}
-			},
 			"alignment": [
 				"L",
 				"N"
@@ -5292,6 +6054,107 @@
 				"C",
 				"DR"
 			],
+			"name": "Sauriv",
+			"source": "GoS",
+			"page": 79,
+			"referenceSources": [
+				"AZfyT",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"KKW",
+				"MOT",
+				"NRH-CoI",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-TFoF",
+				"TftYP-TSC",
+				"ToA",
+				"ToFW",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 11,
+			"int": 12,
+			"cha": 16,
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Sauriv adds 2 to its AC against one melee attack that would hit it. To do so, Sauriv must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"rapier|phb"
+			],
+			"actionTags": [
+				"Parry"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/GoS/Sauriv.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -6088,31 +6951,8 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Yalaga Maladwyn",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "GoS",
-			"page": 226,
-			"_copy": {
-				"name": "Drow Priestess of Lolth",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the drow",
-						"with": "Yalaga",
-						"flags": "i"
-					},
-					"trait": {
-						"mode": "removeArr",
-						"names": "Fey Ancestry"
-					},
-					"action": {
-						"mode": "removeArr",
-						"names": "Summon Demon (1/Day)"
-					}
-				}
-			},
 			"type": "undead",
 			"tokenCustom": true,
 			"traitTags": [
@@ -6122,7 +6962,220 @@
 				"I",
 				"P"
 			],
-			"hasToken": true
+			"name": "Yalaga Maladwyn",
+			"source": "GoS",
+			"page": 226,
+			"referenceSources": [
+				"GoS",
+				"OotA",
+				"TftYP",
+				"TftYP-AtG",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item scale mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "13d8 + 13"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 13,
+			"wis": 17,
+			"cha": 18,
+			"save": {
+				"con": "+4",
+				"wis": "+6",
+				"cha": "+7"
+			},
+			"skill": {
+				"insight": "+6",
+				"perception": "+6",
+				"religion": "+4",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Yalaga's spellcasting ability is Charisma (spell save {@dc 15}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness}",
+							"{@spell faerie fire}",
+							"{@spell levitate} (self only)"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Yalaga is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save {@dc 14}, {@hit 6} to hit with spell attacks). Yalaga has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell poison spray}",
+								"{@spell resistance}",
+								"{@spell spare the dying}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell animal friendship}",
+								"{@spell cure wounds}",
+								"{@spell detect poison and disease}",
+								"{@spell ray of sickness}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell protection from poison}",
+								"{@spell web}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell conjure animals} (2 {@creature giant spider|mm|giant spiders})",
+								"{@spell dispel magic}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell divination}",
+								"{@spell freedom of movement}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell insect plague}",
+								"{@spell mass cure wounds}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, Yalaga has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Yalaga makes two scourge attacks."
+					]
+				},
+				{
+					"name": "Scourge",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 17 ({@damage 5d6}) poison damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Drow Magic Armor and Weapons",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.",
+								"A {@creature drow priestess of Lolth} wearing {@item +3 scale mail} has AC 19."
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"E",
+				"U"
+			],
+			"damageTagsSpell": [
+				"F",
+				"I",
+				"P"
+			],
+			"spellcastingTags": [
+				"CC",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"poisoned",
+				"restrained"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/GoS/Yalaga%20Maladwyn.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }

@@ -145,8 +145,6 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Expert",
-			"source": "DC",
 			"level": 11,
 			"size": [
 				"M"
@@ -262,11 +260,15 @@
 				"RW",
 				"THW"
 			],
+			"name": "Expert",
+			"source": "DC",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/DC/Expert.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Spellcaster (Healer)",
-			"source": "DC",
 			"level": 11,
 			"size": [
 				"M"
@@ -424,11 +426,15 @@
 				"charisma",
 				"dexterity"
 			],
+			"name": "Spellcaster (Healer)",
+			"source": "DC",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/DC/Spellcaster%20(Healer).webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Spellcaster (Mage)",
-			"source": "DC",
 			"level": 11,
 			"size": [
 				"M"
@@ -591,11 +597,15 @@
 				"dexterity",
 				"wisdom"
 			],
+			"name": "Spellcaster (Mage)",
+			"source": "DC",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/DC/Spellcaster%20(Mage).webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Warrior",
-			"source": "DC",
 			"level": 11,
 			"size": [
 				"M"
@@ -746,6 +756,12 @@
 				"RNG",
 				"RW"
 			],
+			"name": "Warrior",
+			"source": "DC",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/DC/Warrior.webp"
+			},
 			"hasToken": true
 		}
 	]

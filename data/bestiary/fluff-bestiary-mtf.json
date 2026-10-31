@@ -2833,6 +2833,13 @@
 					"width": 815,
 					"height": 1000,
 					"credit": "Christopher Burdett"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/MTF/Sacred%20Statue.webp"
+					}
 				}
 			]
 		},

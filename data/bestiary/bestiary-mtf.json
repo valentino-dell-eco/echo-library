@@ -17605,16 +17605,10 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Sacred Statue",
-			"source": "MTF",
-			"page": 194,
 			"referenceSources": [
 				"DC",
 				"DIP",
 				"IMR"
-			],
-			"reprintedAs": [
-				"Sacred Statue|MPMM"
 			],
 			"size": [
 				"L"
@@ -17723,10 +17717,6 @@
 					]
 				}
 			],
-			"soundClip": {
-				"type": "internal",
-				"path": "bestiary/sacred-statue.opus"
-			},
 			"traitTags": [
 				"False Appearance"
 			],
@@ -17747,6 +17737,13 @@
 				"RCH",
 				"RW"
 			],
+			"name": "Sacred Statue",
+			"source": "MTF",
+			"page": 194,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/MTF/Sacred%20Statue.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true

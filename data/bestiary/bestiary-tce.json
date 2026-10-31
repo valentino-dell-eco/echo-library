@@ -1,12 +1,6 @@
 {
 	"monster": [
 		{
-			"name": "Aberrant Spirit",
-			"source": "TCE",
-			"page": 109,
-			"reprintedAs": [
-				"Aberrant Spirit|XPHB"
-			],
 			"summonedBySpell": "Summon Aberration|TCE",
 			"summonedBySpellLevel": 4,
 			"size": [
@@ -110,171 +104,304 @@
 				"AOE",
 				"MW"
 			],
-			"hasToken": true,
-			"_versions": [
-				{
-					"name": "Aberrant Spirit (Beholderkin)",
-					"source": "TCE",
-					"_mod": {
-						"action": [
-							{
-								"mode": "removeArr",
-								"names": [
-									"Claws (Slaad Only)",
-									"Psychic Slam (Star Spawn Only)"
-								]
-							},
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Eye Ray (Beholderkin Only)",
-									"with": "Eye Ray"
-								}
-							}
-						]
-					},
-					"speed": {
-						"walk": 30,
-						"fly": {
-							"number": 30,
-							"condition": "(hover)"
-						},
-						"canHover": true
-					},
-					"trait": null,
-					"traitTags": null,
-					"damageTags": [
-						"Y"
-					],
-					"miscTags": null
-				},
-				{
-					"name": "Aberrant Spirit (Slaad)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "removeArr",
-								"names": [
-									"Whispering Aura (Star Spawn Only)"
-								]
-							},
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Regeneration (Slaad Only)",
-									"with": "Regeneration"
-								}
-							}
-						],
-						"action": [
-							{
-								"mode": "removeArr",
-								"names": [
-									"Eye Ray (Beholderkin Only)",
-									"Psychic Slam (Star Spawn Only)"
-								]
-							},
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Claws (Slaad Only)",
-									"with": "Claws"
-								}
-							}
-						]
-					},
-					"speed": {
-						"walk": 30
-					},
-					"traitTags": [
-						"Regeneration"
-					],
-					"damageTags": [
-						"S"
-					],
-					"miscTags": [
-						"MW"
-					]
-				},
-				{
-					"name": "Aberrant Spirit (Star Spawn)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "removeArr",
-								"names": [
-									"Regeneration (Slaad Only)"
-								]
-							},
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Whispering Aura (Star Spawn Only)",
-									"with": "Whispering Aura"
-								}
-							}
-						],
-						"action": [
-							{
-								"mode": "removeArr",
-								"names": [
-									"Eye Ray (Beholderkin Only)",
-									"Claws (Slaad Only)"
-								]
-							},
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Psychic Slam (Star Spawn Only)",
-									"with": "Psychic Slam"
-								}
-							}
-						]
-					},
-					"speed": {
-						"walk": 30
-					},
-					"traitTags": [
-						"Regeneration"
-					],
-					"damageTags": [
-						"Y"
-					],
-					"miscTags": null
-				}
-			]
+			"name": "Aberrant Spirit",
+			"source": "TCE",
+			"page": 109,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Aberrant%20Spirit.webp"
+			},
+			"hasToken": true
 		},
 		{
-			"name": "Adult Red Dracolich",
-			"source": "TCE",
-			"page": 137,
-			"_copy": {
-				"name": "Adult Red Dragon",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Dracolich",
-						"source": "MM"
-					}
-				]
-			},
 			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Magic Resistance"
 			],
 			"damageTagsLegendary": [],
-			"hasToken": true
+			"name": "Adult Red Dracolich",
+			"source": "TCE",
+			"page": 137,
+			"group": [
+				"Chromatic Dragon"
+			],
+			"referenceSources": [
+				"BMT",
+				"CoA",
+				"EGW",
+				"GoS",
+				"GotSF",
+				"LRDT",
+				"MOT",
+				"OotA",
+				"TftYP",
+				"TftYP-AtG",
+				"WDMM"
+			],
+			"size": [
+				"H"
+			],
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 256,
+				"formula": "19d12 + 133"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 80
+			},
+			"str": 27,
+			"dex": 10,
+			"con": 25,
+			"int": 16,
+			"wis": 13,
+			"cha": 21,
+			"save": {
+				"dex": "+6",
+				"con": "+13",
+				"wis": "+7",
+				"cha": "+11"
+			},
+			"skill": {
+				"perception": "+13",
+				"stealth": "+6"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 23,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "17",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 7 ({@damage 2d6}) fire damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales fire in a 60-foot cone. Each creature in that area must make a {@dc 21} Dexterity saving throw, taking 63 ({@damage 18d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 22} Dexterity saving throw or take 15 ({@damage 2d6 + 8}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Red Dragon",
+				"source": "MM"
+			},
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Customizing Dragons",
+					"source": "FTD",
+					"page": 33,
+					"entries": [
+						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Skills",
+							"entries": [
+								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spells",
+							"entries": [
+								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Traits and Actions",
+							"entries": [
+								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Damage Absorption",
+											"entries": [
+												"You might decide that this dragon is not only unharmed by fire damage, but actually healed by it.",
+												"Whenever the dragon is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Flyby",
+											"entries": [
+												"The dragon is an agile flier, quick to fly out of enemies' reach.",
+												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Mimicry",
+											"entries": [
+												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
+												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 13} Wisdom ({@skill Insight}) check."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Rejuvenation",
+											"entries": [
+												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
+												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Special Senses",
+											"entries": [
+												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"hill"
+			],
+			"dragonCastingColor": "red",
+			"dragonAge": "adult",
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			],
+			"conditionInflictLegendary": [
+				"incapacitated",
+				"poisoned",
+				"prone"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"wisdom"
+			],
+			"savingThrowForcedLegendary": [
+				"constitution",
+				"dexterity"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Adult%20Red%20Dracolich.webp"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Beast of the Land",
-			"source": "TCE",
-			"page": 61,
-			"reprintedAs": [
-				"Beast of the Land|XPHB"
-			],
 			"summonedByClass": "Ranger|PHB",
 			"size": [
 				"M"
@@ -347,15 +474,16 @@
 			"conditionInflict": [
 				"prone"
 			],
+			"name": "Beast of the Land",
+			"source": "TCE",
+			"page": 61,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Beast%20of%20the%20Land.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Beast of the Sea",
-			"source": "TCE",
-			"page": 61,
-			"reprintedAs": [
-				"Beast of the Sea|XPHB"
-			],
 			"summonedByClass": "Ranger|PHB",
 			"size": [
 				"M"
@@ -428,15 +556,16 @@
 			"conditionInflict": [
 				"grappled"
 			],
+			"name": "Beast of the Sea",
+			"source": "TCE",
+			"page": 61,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Beast%20of%20the%20Sea.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Beast of the Sky",
-			"source": "TCE",
-			"page": 61,
-			"reprintedAs": [
-				"Beast of the Sky|XPHB"
-			],
 			"summonedByClass": "Ranger|PHB",
 			"size": [
 				"S"
@@ -505,15 +634,16 @@
 			"miscTags": [
 				"MW"
 			],
+			"name": "Beast of the Sky",
+			"source": "TCE",
+			"page": 61,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Beast%20of%20the%20Sky.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Bestial Spirit",
-			"source": "TCE",
-			"page": 109,
-			"reprintedAs": [
-				"Bestial Spirit|XPHB"
-			],
 			"summonedBySpell": "Summon Beast|TCE",
 			"summonedBySpellLevel": 2,
 			"size": [
@@ -612,113 +742,16 @@
 				"MLW",
 				"MW"
 			],
-			"hasToken": true,
-			"_versions": [
-				{
-					"name": "Bestial Spirit (Air)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "removeArr",
-								"names": [
-									"Water Breathing (Water Only)",
-									"Pack Tactics (Land and Water Only)"
-								]
-							},
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Flyby (Air Only)",
-									"with": "Flyby"
-								}
-							}
-						]
-					},
-					"hp": {
-						"special": "20 + 5 for each spell level above 2nd"
-					},
-					"speed": {
-						"walk": 30,
-						"fly": 60
-					},
-					"traitTags": [
-						"Flyby"
-					]
-				},
-				{
-					"name": "Bestial Spirit (Land)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "removeArr",
-								"names": [
-									"Water Breathing (Water Only)",
-									"Flyby (Air Only)"
-								]
-							},
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Pack Tactics (Land and Water Only)",
-									"with": "Pack Tactics"
-								}
-							}
-						]
-					},
-					"hp": {
-						"special": "30 + 5 for each spell level above 2nd"
-					},
-					"speed": {
-						"walk": 30,
-						"climb": 30
-					},
-					"traitTags": [
-						"Pack Tactics"
-					]
-				},
-				{
-					"name": "Bestial Spirit (Water)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "removeArr",
-								"names": [
-									"Flyby (Air Only)"
-								]
-							},
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Pack Tactics (Land and Water Only)",
-									"with": "Pack Tactics"
-								}
-							}
-						]
-					},
-					"hp": {
-						"special": "30 + 5 for each spell level above 2nd"
-					},
-					"speed": {
-						"walk": 30,
-						"swim": 30
-					},
-					"traitTags": [
-						"Pack Tactics",
-						"Water Breathing"
-					]
-				}
-			]
+			"name": "Bestial Spirit",
+			"source": "TCE",
+			"page": 109,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Bestial%20Spirit.webp"
+			},
+			"hasToken": true
 		},
 		{
-			"name": "Celestial Spirit",
-			"source": "TCE",
-			"page": 110,
-			"reprintedAs": [
-				"Celestial Spirit|XPHB"
-			],
 			"summonedBySpell": "Summon Celestial|TCE",
 			"summonedBySpellLevel": 5,
 			"size": [
@@ -804,72 +837,16 @@
 				"MW",
 				"RW"
 			],
-			"hasToken": true,
-			"_versions": [
-				{
-					"name": "Celestial Spirit (Avenger)",
-					"source": "TCE",
-					"_mod": {
-						"action": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Radiant Bow (Avenger Only)",
-									"with": "Radiant Bow"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Radiant Mace (Defender Only)"
-							}
-						]
-					},
-					"ac": [
-						{
-							"special": "11 + the level of the spell (natural armor)"
-						}
-					],
-					"miscTags": [
-						"RW"
-					]
-				},
-				{
-					"name": "Celestial Spirit (Defender)",
-					"source": "TCE",
-					"_mod": {
-						"action": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Radiant Mace (Defender Only)",
-									"with": "Radiant Mace"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Radiant Bow (Avenger Only)"
-							}
-						]
-					},
-					"ac": [
-						{
-							"special": "13 + the level of the spell (natural armor)"
-						}
-					],
-					"miscTags": [
-						"MLW",
-						"MW"
-					]
-				}
-			]
+			"name": "Celestial Spirit",
+			"source": "TCE",
+			"page": 110,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Celestial%20Spirit.webp"
+			},
+			"hasToken": true
 		},
 		{
-			"name": "Construct Spirit",
-			"source": "TCE",
-			"page": 111,
-			"reprintedAs": [
-				"Construct Spirit|XPHB"
-			],
 			"summonedBySpell": "Summon Construct|TCE",
 			"summonedBySpellLevel": 4,
 			"size": [
@@ -965,76 +942,16 @@
 			"miscTags": [
 				"MW"
 			],
-			"hasToken": true,
-			"_versions": [
-				{
-					"name": "Construct Spirit (Clay)",
-					"source": "TCE",
-					"_mod": {
-						"reaction": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Berserk Lashing (Clay Only)",
-									"with": "Berserk Lashing"
-								}
-							}
-						]
-					},
-					"trait": null,
-					"damageTags": [
-						"B"
-					]
-				},
-				{
-					"name": "Construct Spirit (Metal)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Heated Body (Metal Only)",
-									"with": "Heated Body"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Stony Lethargy (Stone Only)"
-							}
-						]
-					},
-					"reaction": null
-				},
-				{
-					"name": "Construct Spirit (Stone)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Stony Lethargy (Stone Only)",
-									"with": "Stony Lethargy"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Heated Body (Metal Only)"
-							}
-						]
-					},
-					"reaction": null,
-					"damageTags": [
-						"B"
-					]
-				}
-			]
+			"name": "Construct Spirit",
+			"source": "TCE",
+			"page": 111,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Construct%20Spirit.webp"
+			},
+			"hasToken": true
 		},
 		{
-			"name": "Dancing Item",
-			"source": "TCE",
-			"page": 29,
 			"summonedByClass": "Bard|PHB",
 			"size": [
 				"L"
@@ -1120,15 +1037,16 @@
 			"miscTags": [
 				"MW"
 			],
+			"name": "Dancing Item",
+			"source": "TCE",
+			"page": 29,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Dancing%20Item.webp"
+			},
 			"hasToken": true
 		},
 		{
-			"name": "Elemental Spirit",
-			"source": "TCE",
-			"page": 111,
-			"reprintedAs": [
-				"Elemental Spirit|XPHB"
-			],
 			"summonedBySpell": "Summon Elemental|TCE",
 			"summonedBySpellLevel": 4,
 			"size": [
@@ -1260,164 +1178,16 @@
 			"miscTags": [
 				"MW"
 			],
-			"hasToken": true,
-			"_versions": [
-				{
-					"name": "Elemental Spirit (Air)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Amorphous Form (Air, Fire, and Water Only)",
-									"with": "Amorphous Form"
-								}
-							}
-						],
-						"action": {
-							"mode": "replaceArr",
-							"replace": "Slam",
-							"items": {
-								"name": "Slam",
-								"entries": [
-									"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 4 + summonSpellLevel} bludgeoning damage."
-								]
-							}
-						}
-					},
-					"speed": {
-						"walk": 40,
-						"fly": {
-							"number": 40,
-							"condition": "(hover)"
-						},
-						"canHover": true
-					},
-					"resist": [
-						"lightning",
-						"thunder"
-					],
-					"immune": [
-						"poison"
-					],
-					"damageTags": [
-						"B"
-					]
-				},
-				{
-					"name": "Elemental Spirit (Earth)",
-					"source": "TCE",
-					"_mod": {
-						"action": {
-							"mode": "replaceArr",
-							"replace": "Slam",
-							"items": {
-								"name": "Slam",
-								"entries": [
-									"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 4 + summonSpellLevel} bludgeoning damage."
-								]
-							}
-						}
-					},
-					"speed": {
-						"walk": 40,
-						"burrow": 40
-					},
-					"resist": [
-						"piercing",
-						"slashing"
-					],
-					"immune": [
-						"poison"
-					],
-					"trait": null,
-					"damageTags": [
-						"B"
-					]
-				},
-				{
-					"name": "Elemental Spirit (Fire)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Amorphous Form (Air, Fire, and Water Only)",
-									"with": "Amorphous Form"
-								}
-							}
-						],
-						"action": {
-							"mode": "replaceArr",
-							"replace": "Slam",
-							"items": {
-								"name": "Slam",
-								"entries": [
-									"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 4 + summonSpellLevel} fire damage."
-								]
-							}
-						}
-					},
-					"speed": {
-						"walk": 40
-					},
-					"immune": [
-						"poison",
-						"fire"
-					],
-					"damageTags": [
-						"F"
-					]
-				},
-				{
-					"name": "Elemental Spirit (Water)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Amorphous Form (Air, Fire, and Water Only)",
-									"with": "Amorphous Form"
-								}
-							}
-						],
-						"action": {
-							"mode": "replaceArr",
-							"replace": "Slam",
-							"items": {
-								"name": "Slam",
-								"entries": [
-									"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 4 + summonSpellLevel} bludgeoning damage."
-								]
-							}
-						}
-					},
-					"speed": {
-						"walk": 40,
-						"swim": 40
-					},
-					"resist": [
-						"acid"
-					],
-					"immune": [
-						"poison"
-					],
-					"damageTags": [
-						"B"
-					]
-				}
-			]
+			"name": "Elemental Spirit",
+			"source": "TCE",
+			"page": 111,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Elemental%20Spirit.webp"
+			},
+			"hasToken": true
 		},
 		{
-			"name": "Fey Spirit",
-			"source": "TCE",
-			"page": 112,
-			"reprintedAs": [
-				"Fey Spirit|XPHB"
-			],
 			"summonedBySpell": "Summon Fey|TCE",
 			"summonedBySpellLevel": 3,
 			"size": [
@@ -1523,53 +1293,16 @@
 			"conditionInflict": [
 				"charmed"
 			],
-			"hasToken": true,
-			"_versions": [
-				{
-					"name": "Fey Spirit (Fuming)",
-					"source": "TCE",
-					"bonus": [
-						{
-							"name": "Fey Step",
-							"entries": [
-								"The fey magically teleports up to 30 feet to an unoccupied space it can see. The fey has advantage on the next attack roll it makes before the end of this turn."
-							]
-						}
-					]
-				},
-				{
-					"name": "Fey Spirit (Mirthful)",
-					"source": "TCE",
-					"bonus": [
-						{
-							"name": "Fey Step",
-							"entries": [
-								"The fey magically teleports up to 30 feet to an unoccupied space it can see. The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is {@condition charmed} by you and the fey for 1 minute or until the target takes any damage."
-							]
-						}
-					]
-				},
-				{
-					"name": "Fey Spirit (Tricksy)",
-					"source": "TCE",
-					"bonus": [
-						{
-							"name": "Fey Step",
-							"entries": [
-								"The fey magically teleports up to 30 feet to an unoccupied space it can see. The fey can fill a 5-foot cube within 5 feet of it with magical darkness, which lasts until the end of its next turn."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Fiendish Spirit",
+			"name": "Fey Spirit",
 			"source": "TCE",
 			"page": 112,
-			"reprintedAs": [
-				"Fiendish Spirit|XPHB"
-			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Fey%20Spirit.webp"
+			},
+			"hasToken": true
+		},
+		{
 			"summonedBySpell": "Summon Fiend|TCE",
 			"summonedBySpellLevel": 6,
 			"size": [
@@ -1694,164 +1427,16 @@
 				"AOE",
 				"MW"
 			],
-			"hasToken": true,
-			"_versions": [
-				{
-					"name": "Fiendish Spirit (Demon)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Death Throes (Demon Only)",
-									"with": "Death Throes"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Devil's Sight (Devil Only)"
-							}
-						],
-						"action": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Bite (Demon Only)",
-									"with": "Bite"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": [
-									"Claws (Yugoloth Only)",
-									"Hurl Flame (Devil Only)"
-								]
-							}
-						]
-					},
-					"hp": {
-						"special": "50 + 15 for each spell level above 6th"
-					},
-					"speed": {
-						"walk": 40,
-						"climb": 40
-					},
-					"traitTags": [
-						"Death Burst",
-						"Magic Resistance"
-					],
-					"damageTags": [
-						"F"
-					]
-				},
-				{
-					"name": "Fiendish Spirit (Devil)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Devil's Sight (Devil Only)",
-									"with": "Devil's Sight"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Death Throes (Demon Only)"
-							}
-						],
-						"action": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Hurl Flame (Devil Only)",
-									"with": "Hurl Flame"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": [
-									"Bite (Demon Only)",
-									"Claws (Yugoloth Only)"
-								]
-							}
-						]
-					},
-					"hp": {
-						"special": "40 + 15 for each spell level above 6th"
-					},
-					"speed": {
-						"walk": 40,
-						"fly": 60
-					},
-					"traitTags": [
-						"Devil's Sight",
-						"Magic Resistance"
-					],
-					"damageTags": [
-						"N"
-					]
-				},
-				{
-					"name": "Fiendish Spirit (Yugoloth)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "removeArr",
-								"names": [
-									"Death Throes (Demon Only)",
-									"Devil's Sight (Devil Only)"
-								]
-							}
-						],
-						"action": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Claws (Yugoloth Only)",
-									"with": "Claws"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": [
-									"Bite (Demon Only)",
-									"Hurl Flame (Devil Only)"
-								]
-							}
-						]
-					},
-					"hp": {
-						"special": "60 + 15 for each spell level above 6th"
-					},
-					"speed": {
-						"walk": 40
-					},
-					"traitTags": [
-						"Magic Resistance"
-					],
-					"damageTags": [
-						"F"
-					]
-				}
-			]
+			"name": "Fiendish Spirit",
+			"source": "TCE",
+			"page": 112,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Fiendish%20Spirit.webp"
+			},
+			"hasToken": true
 		},
 		{
-			"name": "Homunculus Servant",
-			"source": "TCE",
-			"page": 22,
-			"otherSources": [
-				{
-					"source": "ERLW",
-					"page": 62
-				}
-			],
-			"reprintedAs": [
-				"Homunculus Servant|EFA"
-			],
 			"summonedByClass": "Artificer|TCE",
 			"size": [
 				"T"
@@ -1934,6 +1519,13 @@
 			"miscTags": [
 				"RW"
 			],
+			"name": "Homunculus Servant",
+			"source": "TCE",
+			"page": 22,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Homunculus%20Servant.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -2039,9 +1631,6 @@
 			"hasToken": true
 		},
 		{
-			"name": "Mighty Servant of Leuk-o",
-			"source": "TCE",
-			"page": 131,
 			"size": [
 				"H"
 			],
@@ -2185,24 +1774,17 @@
 			"savingThrowForced": [
 				"dexterity"
 			],
+			"name": "Mighty Servant of Leuk-o",
+			"source": "TCE",
+			"page": 131,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Mighty%20Servant%20of%20Leuk-o.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Reflection",
-			"source": "TCE",
-			"page": 158,
-			"_copy": {
-				"name": "Shadow",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "shadow",
-						"with": "reflection"
-					}
-				}
-			},
 			"type": "fey",
 			"resist": [
 				"acid",
@@ -2222,13 +1804,136 @@
 			"vulnerable": [
 				"bludgeoning"
 			],
+			"name": "Reflection",
+			"source": "TCE",
+			"page": 158,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoS",
+				"GoS",
+				"HoL",
+				"IDRotF",
+				"IMR",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"SatO",
+				"SjA",
+				"TCE",
+				"TftYP",
+				"TftYP-DiT",
+				"TftYP-TSC",
+				"TftYP-WPM",
+				"TTP",
+				"VEoR",
+				"VNotEE",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 13,
+			"int": 6,
+			"wis": 10,
+			"cha": 8,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The reflection can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the reflection can take the {@action Hide} action as a bonus action. Its stealth bonus is also improved to +6."
+					]
+				},
+				{
+					"name": "Sunlight Weakness",
+					"entries": [
+						"While in sunlight, the reflection has disadvantage on attack rolls, ability checks, and saving throws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Strength Drain",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d6 + 2}) necrotic damage, and the target's Strength score is reduced by {@dice 1d4}. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.",
+						"If a non-evil humanoid dies from this attack, a new {@creature reflection} rises from the corpse {@dice 1d4} hours later."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Reflection.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Shadow Spirit",
-			"source": "TCE",
-			"page": 114,
 			"summonedBySpell": "Summon Shadowspawn|TCE",
 			"summonedBySpellLevel": 3,
 			"size": [
@@ -2329,80 +2034,17 @@
 			"conditionInflict": [
 				"frightened"
 			],
+			"name": "Shadow Spirit",
+			"source": "TCE",
+			"page": 114,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Shadow%20Spirit.webp"
+			},
 			"hasToken": true,
-			"_versions": [
-				{
-					"name": "Shadow Spirit (Despair)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Weight of Sorrow (Despair Only)",
-									"with": "Weight of Sorrow"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Terror Frenzy (Fury Only)"
-							}
-						]
-					},
-					"bonus": null
-				},
-				{
-					"name": "Shadow Spirit (Fear)",
-					"source": "TCE",
-					"_mod": {
-						"bonus": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Shadow Stealth (Fear Only)",
-									"with": "Shadow Stealth"
-								}
-							}
-						]
-					},
-					"trait": null
-				},
-				{
-					"name": "Shadow Spirit (Fury)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Terror Frenzy (Fury Only)",
-									"with": "Terror Frenzy"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Weight of Sorrow (Despair Only)"
-							}
-						]
-					},
-					"bonus": null
-				}
-			],
 			"hasFluffImages": true
 		},
 		{
-			"name": "Steel Defender",
-			"source": "TCE",
-			"page": 19,
-			"otherSources": [
-				{
-					"source": "ERLW",
-					"page": 61
-				}
-			],
-			"reprintedAs": [
-				"Steel Defender|EFA"
-			],
 			"summonedByClass": "Artificer|TCE",
 			"size": [
 				"M"
@@ -2492,16 +2134,17 @@
 			"miscTags": [
 				"MW"
 			],
+			"name": "Steel Defender",
+			"source": "TCE",
+			"page": 19,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Steel%20Defender.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Undead Spirit",
-			"source": "TCE",
-			"page": 114,
-			"reprintedAs": [
-				"Undead Spirit|XPHB"
-			],
 			"summonedBySpell": "Summon Undead|TCE",
 			"summonedBySpellLevel": 3,
 			"size": [
@@ -2616,150 +2259,16 @@
 				"paralyzed",
 				"poisoned"
 			],
-			"hasToken": true,
-			"_versions": [
-				{
-					"name": "Undead Spirit (Ghostly)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Incorporeal Passage (Ghostly Only)",
-									"with": "Incorporeal Passage"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Festering Aura (Putrid Only)"
-							}
-						],
-						"action": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Deathly Touch (Ghostly Only)",
-									"with": "Deathly Touch"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": [
-									"Grave Bolt (Skeletal Only)",
-									"Rotting Claw (Putrid Only)"
-								]
-							}
-						]
-					},
-					"hp": {
-						"special": "30 + 10 for each spell level above 3rd"
-					},
-					"speed": {
-						"walk": 30,
-						"fly": {
-							"number": 40,
-							"condition": "(hover)"
-						},
-						"canHover": true
-					},
-					"damageTags": [
-						"N"
-					],
-					"conditionInflict": [
-						"frightened"
-					]
-				},
-				{
-					"name": "Undead Spirit (Putrid)",
-					"source": "TCE",
-					"_mod": {
-						"trait": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Festering Aura (Putrid Only)",
-									"with": "Festering Aura"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Incorporeal Passage (Ghostly Only)"
-							}
-						],
-						"action": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Rotting Claw (Putrid Only)",
-									"with": "Rotting Claw"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": [
-									"Deathly Touch (Ghostly Only)",
-									"Grave Bolt (Skeletal Only)"
-								]
-							}
-						]
-					},
-					"hp": {
-						"special": "30 + 10 for each spell level above 3rd"
-					},
-					"speed": {
-						"walk": 30
-					},
-					"traitTags": null,
-					"damageTags": [
-						"O",
-						"S"
-					],
-					"conditionInflict": [
-						"paralyzed",
-						"poisoned"
-					]
-				},
-				{
-					"name": "Undead Spirit (Skeletal)",
-					"source": "TCE",
-					"_mod": {
-						"action": [
-							{
-								"mode": "renameArr",
-								"renames": {
-									"rename": "Grave Bolt (Skeletal Only)",
-									"with": "Grave Bolt"
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": [
-									"Deathly Touch (Ghostly Only)",
-									"Rotting Claw (Putrid Only)"
-								]
-							}
-						]
-					},
-					"hp": {
-						"special": "20 + 10 for each spell level above 3rd"
-					},
-					"speed": {
-						"walk": 30
-					},
-					"trait": null,
-					"traitTags": null,
-					"damageTags": [
-						"N"
-					],
-					"conditionInflict": null
-				}
-			]
+			"name": "Undead Spirit",
+			"source": "TCE",
+			"page": 114,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Undead%20Spirit.webp"
+			},
+			"hasToken": true
 		},
 		{
-			"name": "Wildfire Spirit",
-			"source": "TCE",
-			"page": 40,
 			"summonedByClass": "Druid|PHB",
 			"size": [
 				"S"
@@ -2835,6 +2344,13 @@
 				"AOE",
 				"RW"
 			],
+			"name": "Wildfire Spirit",
+			"source": "TCE",
+			"page": 40,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/TCE/Wildfire%20Spirit.webp"
+			},
 			"hasToken": true
 		}
 	]

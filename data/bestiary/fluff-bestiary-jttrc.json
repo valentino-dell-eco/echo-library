@@ -14,6 +14,13 @@
 					"height": 850,
 					"title": "Afsoun Ghorbani, Imprisoned in Crystal",
 					"credit": "Thabiso Mhlaba"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Afsoun%20Ghorbani.webp"
+					}
 				}
 			]
 		},
@@ -30,6 +37,13 @@
 					"width": 548,
 					"height": 850,
 					"credit": "Nikki Dawes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Amanisha%20Manivarshi.webp"
+					}
 				}
 			]
 		},
@@ -47,6 +61,13 @@
 					"height": 1136,
 					"title": "Salamander raiders ambush Ameyali's caravan on the road near Etizalan",
 					"credit": "Tom Babbey"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Ameyali.webp"
+					}
 				}
 			]
 		},
@@ -64,6 +85,39 @@
 					"height": 1136,
 					"title": "The plans of Ashen Heir anarchists go awry when a purple worm erupts into Three Suns Square",
 					"credit": "Dmitry Burmak"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Ashen%20Heir%20Anarchist.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ashen Heir Assassin",
+			"source": "JttRC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Ashen%20Heir%20Assassin.webp"
+					}
 				}
 			]
 		},
@@ -80,6 +134,30 @@
 					"width": 1700,
 					"height": 466,
 					"credit": "Brian Valeza"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Ashen%20Heir%20Mage.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ashen Heir Veteran",
+			"source": "JttRC",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Veterans are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -97,6 +175,13 @@
 					"height": 850,
 					"title": "Atash, Ruler of Akharin Sangar",
 					"credit": "Claudio Pozas"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Atash.webp"
+					}
 				}
 			]
 		},
@@ -114,6 +199,13 @@
 					"height": 850,
 					"title": "Regent Atiba-Pa",
 					"credit": "Mia Araujo"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Atiba-Pa.webp"
+					}
 				}
 			]
 		},
@@ -131,6 +223,13 @@
 					"height": 1136,
 					"title": "Enchanted farmers attack Aunt Dellie on the streets of Promise",
 					"credit": "Mia Araujo"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Aunt%20Dellie.webp"
+					}
 				}
 			]
 		},
@@ -164,6 +263,13 @@
 					"height": 1136,
 					"title": "Awa is ambushed by an aurumvorax in the depths of the Goldwarren",
 					"credit": "Vicki Pangestu"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Awa.webp"
+					}
 				}
 			]
 		},
@@ -181,6 +287,13 @@
 					"height": 1136,
 					"title": "Prince of Vice, Azra Nir, leads Zinda's annual March of Vice festivities—unaware he's just one target of a killer",
 					"credit": "Ejiwa 'Edge' Ebenebe"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Azra%20Nir.webp"
+					}
 				}
 			]
 		},
@@ -221,6 +334,13 @@
 					"width": 638,
 					"height": 850,
 					"credit": "Andrew Mar"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Brother%20Broumane.webp"
+					}
 				}
 			]
 		},
@@ -250,6 +370,13 @@
 					"height": 1136,
 					"title": "Divas attack the crowd at the Thornapple during their March of Vice performance",
 					"credit": "Ejiwa 'Edge' Ebenebe"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Diva.webp"
+					}
 				}
 			]
 		},
@@ -267,6 +394,13 @@
 					"height": 1136,
 					"title": "Divas attack the crowd at the Thornapple during their March of Vice performance",
 					"credit": "Ejiwa 'Edge' Ebenebe"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Diva%20Luma.webp"
+					}
 				}
 			]
 		},
@@ -283,6 +417,13 @@
 					"width": 535,
 					"height": 850,
 					"credit": "Julio Reyna"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Djeneba.webp"
+					}
 				}
 			]
 		},
@@ -308,6 +449,13 @@
 					"height": 1000,
 					"title": "Paolo Maykapal",
 					"credit": "Hinchel Or"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Dragon%20Hunter.webp"
+					}
 				}
 			]
 		},
@@ -324,6 +472,13 @@
 					"width": 472,
 					"height": 850,
 					"credit": "Nikki Dawes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Dukha%20Bhatiyali.webp"
+					}
 				}
 			]
 		},
@@ -341,6 +496,13 @@
 					"height": 1136,
 					"title": "Enchanted farmers attack Aunt Dellie on the streets of Promise",
 					"credit": "Mia Araujo"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Farmer.webp"
+					}
 				}
 			]
 		},
@@ -358,6 +520,13 @@
 					"height": 1136,
 					"title": "The rivalry between the Xungoon and Tyenmo families disrupts the peace in the Dyn Singh Night Market",
 					"credit": "Vicki Pangestu"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Gammon%20Xungoon.webp"
+					}
 				}
 			]
 		},
@@ -399,6 +568,13 @@
 					"height": 1136,
 					"title": "Ancient jade statues animate to defend the secret ruins beneath Yongjing",
 					"credit": "Julian Kok"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Jade%20Statue.webp"
+					}
 				}
 			]
 		},
@@ -428,6 +604,13 @@
 					"width": 374,
 					"height": 850,
 					"credit": "Kniio"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Kala%20Mabarin.webp"
+					}
 				}
 			]
 		},
@@ -445,6 +628,13 @@
 					"height": 1700,
 					"title": "Kasem and Vi Aroon",
 					"credit": "Zuzanna Wužyk"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Kasem%20Aroon.webp"
+					}
 				}
 			]
 		},
@@ -462,6 +652,13 @@
 					"height": 850,
 					"title": "High Priest Kedjou",
 					"credit": "Kniio"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Kedjou%20Kamal.webp"
+					}
 				}
 			]
 		},
@@ -478,6 +675,13 @@
 					"width": 509,
 					"height": 850,
 					"credit": "Jabari Weathers"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Kianna.webp"
+					}
 				}
 			]
 		},
@@ -495,6 +699,13 @@
 					"height": 1136,
 					"title": "Jagged Koi Prawns are just one unexpected danger of the games at the Dyn Singh Night market",
 					"credit": "Vicki Pangestu"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Koi%20Prawn.webp"
+					}
 				}
 			]
 		},
@@ -512,6 +723,13 @@
 					"height": 850,
 					"title": "Magistrate Kun Ahn-Jun",
 					"credit": "Nikki Dawes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Kun%20Ahn-Jun.webp"
+					}
 				}
 			]
 		},
@@ -528,6 +746,13 @@
 					"width": 830,
 					"height": 850,
 					"credit": "April Prime"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Kusa%20Xungoon.webp"
+					}
 				}
 			]
 		},
@@ -544,6 +769,13 @@
 					"width": 553,
 					"height": 850,
 					"credit": "Jabari Weathers"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Lady%20Dre.webp"
+					}
 				}
 			]
 		},
@@ -560,6 +792,13 @@
 					"width": 556,
 					"height": 850,
 					"credit": "Ekaterina Burmak"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Laleh%20Ghorbani.webp"
+					}
 				}
 			]
 		},
@@ -577,6 +816,13 @@
 					"height": 1136,
 					"title": "The rivalry between the Xungoon and Tyenmo families disrupts the peace in the Dyn Singh Night Market",
 					"credit": "Vicki Pangestu"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Lamai%20Tyenmo.webp"
+					}
 				}
 			]
 		},
@@ -592,6 +838,13 @@
 					},
 					"width": 269,
 					"height": 850
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Lu%20Zhong%20Yin.webp"
+					}
 				}
 			]
 		},
@@ -609,6 +862,13 @@
 					"height": 850,
 					"title": "Lu Zhong Yin in Their Imperial Ghost Uniform",
 					"credit": "Ryan Alexander Lee"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Lungtian.webp"
+					}
 				}
 			]
 		},
@@ -625,6 +885,13 @@
 					"width": 432,
 					"height": 850,
 					"credit": "Zuzanna Wužyk"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Madam%20Kulp.webp"
+					}
 				}
 			]
 		},
@@ -641,6 +908,13 @@
 					"width": 444,
 					"height": 850,
 					"credit": "Kniio"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Myx%20Nargis%20Ruba.webp"
+					}
 				}
 			]
 		},
@@ -658,6 +932,13 @@
 					"height": 791,
 					"title": "Navid the efreeti in his human disguise",
 					"credit": "Thabiso Mhlaba"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Navid.webp"
+					}
 				}
 			]
 		},
@@ -675,6 +956,13 @@
 					"height": 850,
 					"title": "Yarana and Nene",
 					"credit": "Nikki Dawes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Nene.webp"
+					}
 				}
 			]
 		},
@@ -704,6 +992,13 @@
 					"height": 1136,
 					"title": "The Storyteller Nimuel reveals the chaos caused by a rampaging bakunawa",
 					"credit": "Claudio Pozas"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Nimuel.webp"
+					}
 				}
 			]
 		},
@@ -720,6 +1015,13 @@
 					"width": 370,
 					"height": 850,
 					"credit": "Merlin G. G."
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Ollin.webp"
+					}
 				}
 			]
 		},
@@ -736,6 +1038,13 @@
 					"width": 548,
 					"height": 850,
 					"credit": "Adrián Ibarra Lugo"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Paloma.webp"
+					}
 				}
 			]
 		},
@@ -752,6 +1061,13 @@
 					"width": 569,
 					"height": 850,
 					"credit": "Hinchel Or"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Paolo%20Maykapal.webp"
+					}
 				}
 			]
 		},
@@ -793,6 +1109,13 @@
 					"height": 1136,
 					"title": "Prince Kirina fends off an attack by twilight dune scorpions",
 					"credit": "Brian Valeza"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Prince%20Kirina.webp"
+					}
 				}
 			]
 		},
@@ -809,6 +1132,13 @@
 					"width": 543,
 					"height": 850,
 					"credit": "Kniio"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Prince%20Simbon.webp"
+					}
 				}
 			]
 		},
@@ -850,6 +1180,19 @@
 			]
 		},
 		{
+			"name": "Rooster",
+			"source": "JttRC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Rooster.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Samira Arah",
 			"source": "JttRC",
 			"images": [
@@ -863,6 +1206,13 @@
 					"height": 850,
 					"title": "Madame Samira Arah",
 					"credit": "Kniio"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Samira%20Arah.webp"
+					}
 				}
 			]
 		},
@@ -879,6 +1229,13 @@
 					"width": 570,
 					"height": 850,
 					"credit": "Adrián Ibarra Lugo"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Serapio.webp"
+					}
 				}
 			]
 		},
@@ -896,6 +1253,13 @@
 					"height": 850,
 					"title": "Speaker Sholeh",
 					"credit": "Claudio Pozas"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Sholeh.webp"
+					}
 				}
 			]
 		},
@@ -987,6 +1351,13 @@
 					"width": 710,
 					"height": 850,
 					"credit": "Olga Drebas"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Tonalli.webp"
+					}
 				}
 			]
 		},
@@ -1004,6 +1375,13 @@
 					"height": 850,
 					"title": "Proclaimer Tungsten Ward",
 					"credit": "Jabari Weathers"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Tungsten%20Ward.webp"
+					}
 				}
 			]
 		},
@@ -1021,6 +1399,13 @@
 					"height": 850,
 					"title": "Overseer Uzoma",
 					"credit": "Hinchel Or"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Uzoma%20Baten.webp"
+					}
 				}
 			]
 		},
@@ -1038,6 +1423,13 @@
 					"height": 1700,
 					"title": "Kasem and Vi Aroon",
 					"credit": "Zuzanna Wužyk"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Vi%20Aroon.webp"
+					}
 				}
 			]
 		},
@@ -1055,6 +1447,13 @@
 					"height": 850,
 					"title": "Grand Secretary Wei Feng Ying",
 					"credit": "Ryan Alexander Lee"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Wei%20Feng%20Ying.webp"
+					}
 				}
 			]
 		},
@@ -1096,6 +1495,13 @@
 					"height": 850,
 					"title": "The White Jade Emperor",
 					"credit": "Ryan Alexander Lee"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/White%20Jade%20Emperor.webp"
+					}
 				}
 			]
 		},
@@ -1137,6 +1543,13 @@
 					"width": 467,
 					"height": 850,
 					"credit": "Merlin G. G."
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Xocopol.webp"
+					}
 				}
 			]
 		},
@@ -1154,6 +1567,13 @@
 					"height": 850,
 					"title": "Yarana and Nene",
 					"credit": "Nikki Dawes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Yarana.webp"
+					}
 				}
 			]
 		},
@@ -1170,6 +1590,13 @@
 					"width": 543,
 					"height": 850,
 					"credit": "Nikki Dawes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Young-Gi.webp"
+					}
 				}
 			]
 		},
@@ -1186,6 +1613,13 @@
 					"width": 694,
 					"height": 850,
 					"credit": "Andrew Mar"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/JttRC/Zisatta.webp"
+					}
 				}
 			]
 		}

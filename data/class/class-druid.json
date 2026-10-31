@@ -807,7 +807,7 @@
 			"name": "Bonus Cantrip",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Land",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -819,7 +819,7 @@
 			"name": "Circle Spells",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Land",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1072,7 +1072,7 @@
 			"name": "Natural Recovery",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Land",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1085,7 +1085,7 @@
 			"name": "Circle of the Land",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Land",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1093,15 +1093,15 @@
 				"The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in {@language Druidic}. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Cantrip|Druid|XPHB|Land|PHB|2|PHB"
+					"subclassFeature": "Bonus Cantrip|Druid|PHB|Land|PHB|2|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid|XPHB|Land|PHB|2|PHB"
+					"subclassFeature": "Circle Spells|Druid|PHB|Land|PHB|2|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Natural Recovery|Druid|XPHB|Land|PHB|2|PHB"
+					"subclassFeature": "Natural Recovery|Druid|PHB|Land|PHB|2|PHB"
 				}
 			]
 		},
@@ -1109,7 +1109,7 @@
 			"name": "Circle of the Land",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Land",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1119,7 +1119,7 @@
 			"name": "Land's Stride",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Land",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1132,7 +1132,7 @@
 			"name": "Nature's Ward",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Land",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -1144,7 +1144,7 @@
 			"name": "Nature's Sanctuary",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Land",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1157,7 +1157,7 @@
 			"name": "Circle Forms",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Moon",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1226,7 +1226,7 @@
 			"name": "Combat Wild Shape",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Moon",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1239,7 +1239,7 @@
 			"name": "Circle of the Moon",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Moon",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1248,11 +1248,11 @@
 				"Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Forms|Druid|XPHB|Moon|PHB|2|PHB"
+					"subclassFeature": "Circle Forms|Druid|PHB|Moon|PHB|2|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Wild Shape|Druid|XPHB|Moon|PHB|2|PHB"
+					"subclassFeature": "Combat Wild Shape|Druid|PHB|Moon|PHB|2|PHB"
 				}
 			]
 		},
@@ -1260,7 +1260,7 @@
 			"name": "Circle of the Moon",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Moon",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1270,7 +1270,7 @@
 			"name": "Primal Strike",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Moon",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1282,7 +1282,7 @@
 			"name": "Elemental Wild Shape",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Moon",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -1294,7 +1294,7 @@
 			"name": "Thousand Forms",
 			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Moon",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1306,7 +1306,7 @@
 			"name": "Balm of the Summer Court",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Dreams",
 			"subclassSource": "XGE",
 			"level": 2,
@@ -1320,7 +1320,7 @@
 			"name": "Circle of Dreams",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Dreams",
 			"subclassSource": "XGE",
 			"level": 2,
@@ -1328,7 +1328,7 @@
 				"Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms. The druids' guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with dreamy wonder. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places, where dream and reality blur together and where the weary can find rest.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Balm of the Summer Court|Druid|XPHB|Dreams|XGE|2|XGE"
+					"subclassFeature": "Balm of the Summer Court|Druid|PHB|Dreams|XGE|2|XGE"
 				}
 			]
 		},
@@ -1336,7 +1336,7 @@
 			"name": "Circle of Dreams",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Dreams",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1346,7 +1346,7 @@
 			"name": "Hearth of Moonlight and Shadow",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Dreams",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1360,7 +1360,7 @@
 			"name": "Hidden Paths",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Dreams",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -1373,7 +1373,7 @@
 			"name": "Walker in Dreams",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Dreams",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1388,7 +1388,7 @@
 			"name": "Speech of the Woods",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shepherd",
 			"subclassSource": "XGE",
 			"level": 2,
@@ -1401,7 +1401,7 @@
 			"name": "Spirit Totem",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shepherd",
 			"subclassSource": "XGE",
 			"level": 2,
@@ -1437,7 +1437,7 @@
 			"name": "Circle of the Shepherd",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shepherd",
 			"subclassSource": "XGE",
 			"level": 2,
@@ -1446,11 +1446,11 @@
 				"Members of this circle become adventurers to oppose forces that threaten their charges or to seek knowledge and power that will help them safeguard their charges better. Wherever these druids go, the spirits of the wilderness are with them.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Speech of the Woods|Druid|XPHB|Shepherd|XGE|2|XGE"
+					"subclassFeature": "Speech of the Woods|Druid|PHB|Shepherd|XGE|2|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spirit Totem|Druid|XPHB|Shepherd|XGE|2|XGE"
+					"subclassFeature": "Spirit Totem|Druid|PHB|Shepherd|XGE|2|XGE"
 				}
 			]
 		},
@@ -1458,7 +1458,7 @@
 			"name": "Circle of the Shepherd",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shepherd",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1468,7 +1468,7 @@
 			"name": "Mighty Summoner",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shepherd",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1487,7 +1487,7 @@
 			"name": "Guardian Spirit",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shepherd",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -1499,7 +1499,7 @@
 			"name": "Faithful Summons",
 			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Shepherd",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1512,7 +1512,7 @@
 			"name": "Circle Spells",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spores",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1555,7 +1555,7 @@
 			"name": "Halo of Spores",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spores",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1567,7 +1567,7 @@
 			"name": "Symbiotic Entity",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spores",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1587,7 +1587,7 @@
 			"name": "Circle of Spores",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spores",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1597,15 +1597,15 @@
 				"Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. But these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or that try to avoid passing to a final rest, violate the cycle and must be thwarted.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid|XPHB|Spores|TCE|2|TCE"
+					"subclassFeature": "Circle Spells|Druid|PHB|Spores|TCE|2|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Halo of Spores|Druid|XPHB|Spores|TCE|2|TCE"
+					"subclassFeature": "Halo of Spores|Druid|PHB|Spores|TCE|2|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Symbiotic Entity|Druid|XPHB|Spores|TCE|2|TCE"
+					"subclassFeature": "Symbiotic Entity|Druid|PHB|Spores|TCE|2|TCE"
 				}
 			]
 		},
@@ -1613,7 +1613,7 @@
 			"name": "Circle of Spores",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spores",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1623,7 +1623,7 @@
 			"name": "Fungal Infestation",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spores",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1637,7 +1637,7 @@
 			"name": "Spreading Spores",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spores",
 			"subclassSource": "TCE",
 			"level": 10,
@@ -1651,7 +1651,7 @@
 			"name": "Fungal Body",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Spores",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -1663,7 +1663,7 @@
 			"name": "Star Map",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Stars",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1724,7 +1724,7 @@
 			"name": "Starry Form",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Stars",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1739,7 +1739,7 @@
 			"name": "Archer",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Stars",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1751,7 +1751,7 @@
 			"name": "Chalice",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Stars",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1763,7 +1763,7 @@
 			"name": "Dragon",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Stars",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1775,7 +1775,7 @@
 			"name": "Circle of Stars",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Stars",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1784,23 +1784,23 @@
 				"Many druids of this circle keep records of the constellations and the stars' effects on the world. Some groups document these observations at megalithic sites, which serve as enigmatic libraries of lore. These repositories might take the form of stone circles, pyramids, petroglyphs, and underground temples-any construction durable enough to protect the circle's sacred knowledge even against a great cataclysm.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Star Map|Druid|XPHB|Stars|TCE|2|TCE"
+					"subclassFeature": "Star Map|Druid|PHB|Stars|TCE|2|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Starry Form|Druid|XPHB|Stars|TCE|2|TCE"
+					"subclassFeature": "Starry Form|Druid|PHB|Stars|TCE|2|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Archer|Druid|XPHB|Stars|TCE|2|TCE"
+					"subclassFeature": "Archer|Druid|PHB|Stars|TCE|2|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Chalice|Druid|XPHB|Stars|TCE|2|TCE"
+					"subclassFeature": "Chalice|Druid|PHB|Stars|TCE|2|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dragon|Druid|XPHB|Stars|TCE|2|TCE"
+					"subclassFeature": "Dragon|Druid|PHB|Stars|TCE|2|TCE"
 				}
 			]
 		},
@@ -1808,7 +1808,7 @@
 			"name": "Circle of Stars",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Stars",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1818,7 +1818,7 @@
 			"name": "Cosmic Omen",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Stars",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1848,7 +1848,7 @@
 			"name": "Twinkling Constellations",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Stars",
 			"subclassSource": "TCE",
 			"level": 10,
@@ -1862,7 +1862,7 @@
 			"name": "Full of Stars",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Stars",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -1875,7 +1875,7 @@
 			"name": "Circle Spells",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wildfire",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1923,7 +1923,7 @@
 			"name": "Summon Wildfire Spirit",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wildfire",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1940,7 +1940,7 @@
 			"name": "Circle of Wildfire",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wildfire",
 			"subclassSource": "TCE",
 			"level": 2,
@@ -1948,11 +1948,11 @@
 				"Druids within the Circle of Wildfire understand that destruction is sometimes the precursor of creation, such as when a forest fire promotes later growth. These druids bond with a primal spirit that harbors both destructive and creative power, allowing the druids to create controlled flames that burn away one thing but give life to another.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid|XPHB|Wildfire|TCE|2|TCE"
+					"subclassFeature": "Circle Spells|Druid|PHB|Wildfire|TCE|2|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Summon Wildfire Spirit|Druid|XPHB|Wildfire|TCE|2|TCE"
+					"subclassFeature": "Summon Wildfire Spirit|Druid|PHB|Wildfire|TCE|2|TCE"
 				}
 			]
 		},
@@ -1960,7 +1960,7 @@
 			"name": "Circle of Wildfire",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wildfire",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1970,7 +1970,7 @@
 			"name": "Enhanced Bond",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wildfire",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1984,7 +1984,7 @@
 			"name": "Cauterizing Flames",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wildfire",
 			"subclassSource": "TCE",
 			"level": 10,
@@ -1998,7 +1998,7 @@
 			"name": "Blazing Revival",
 			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wildfire",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -2011,206 +2011,426 @@
 	],
 	"subclass": [
 		{
-			"name": "Circle of the Land",
 			"shortName": "Land",
-			"source": "PHB",
 			"className": "Druid",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Circle of the Land",
-				"source": "PHB",
-				"shortName": "Land",
-				"className": "Druid",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"name": "Arctic",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"hold person",
+							"spike growth"
+						],
+						"5": [
+							"sleet storm",
+							"slow"
+						],
+						"7": [
+							"freedom of movement",
+							"ice storm"
+						],
+						"9": [
+							"commune with nature",
+							"cone of cold"
+						]
+					}
+				},
+				{
+					"name": "Coast",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"mirror image",
+							"misty step"
+						],
+						"5": [
+							"water breathing",
+							"water walk"
+						],
+						"7": [
+							"control water",
+							"freedom of movement"
+						],
+						"9": [
+							"conjure elemental",
+							"scrying"
+						]
+					}
+				},
+				{
+					"name": "Desert",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"blur",
+							"silence"
+						],
+						"5": [
+							"create food and water",
+							"protection from energy"
+						],
+						"7": [
+							"blight",
+							"hallucinatory terrain"
+						],
+						"9": [
+							"insect plague",
+							"wall of stone"
+						]
+					}
+				},
+				{
+					"name": "Forest",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"barkskin",
+							"spider climb"
+						],
+						"5": [
+							"call lightning",
+							"plant growth"
+						],
+						"7": [
+							"divination",
+							"freedom of movement"
+						],
+						"9": [
+							"commune with nature",
+							"tree stride"
+						]
+					}
+				},
+				{
+					"name": "Grassland",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"invisibility",
+							"pass without trace"
+						],
+						"5": [
+							"daylight",
+							"haste"
+						],
+						"7": [
+							"divination",
+							"freedom of movement"
+						],
+						"9": [
+							"dream",
+							"insect plague"
+						]
+					}
+				},
+				{
+					"name": "Mountain",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"spider climb",
+							"spike growth"
+						],
+						"5": [
+							"lightning bolt",
+							"meld into stone"
+						],
+						"7": [
+							"stone shape",
+							"stoneskin"
+						],
+						"9": [
+							"passwall",
+							"wall of stone"
+						]
+					}
+				},
+				{
+					"name": "Swamp",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"darkness",
+							"Melf's acid arrow"
+						],
+						"5": [
+							"water walk",
+							"stinking cloud"
+						],
+						"7": [
+							"freedom of movement",
+							"locate creature"
+						],
+						"9": [
+							"insect plague",
+							"scrying"
+						]
+					}
+				},
+				{
+					"name": "Underdark",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"spider climb",
+							"web"
+						],
+						"5": [
+							"gaseous form",
+							"stinking cloud"
+						],
+						"7": [
+							"greater invisibility",
+							"stone shape"
+						],
+						"9": [
+							"cloudkill",
+							"insect plague"
+						]
+					}
 				}
-			},
+			],
+			"name": "Circle of the Land",
+			"source": "PHB",
 			"subclassFeatures": [
-				"Circle of the Land|Druid|XPHB|Land|PHB|2|PHB",
-				"Circle of the Land|Druid|XPHB|Land|PHB|3|PHB",
-				"Land's Stride|Druid|XPHB|Land|PHB|6|PHB",
-				"Nature's Ward|Druid|XPHB|Land|PHB|10|PHB",
-				"Nature's Sanctuary|Druid|XPHB|Land|PHB|14|PHB"
+				"Circle of the Land|Druid|PHB|Land|PHB|2|PHB",
+				"Circle of the Land|Druid|PHB|Land|PHB|3|PHB",
+				"Land's Stride|Druid|PHB|Land|PHB|6|PHB",
+				"Nature's Ward|Druid|PHB|Land|PHB|10|PHB",
+				"Nature's Sanctuary|Druid|PHB|Land|PHB|14|PHB"
 			]
 		},
 		{
-			"name": "Circle of the Moon",
 			"shortName": "Moon",
+			"className": "Druid",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"14": [
+							"alter self"
+						]
+					}
+				}
+			],
+			"name": "Circle of the Moon",
 			"source": "PHB",
-			"className": "Druid",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Circle of the Moon",
-				"source": "PHB",
-				"shortName": "Moon",
-				"className": "Druid",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Circle of the Moon|Druid|XPHB|Moon|PHB|2|PHB",
-				"Circle of the Moon|Druid|XPHB|Moon|PHB|3|PHB",
-				"Primal Strike|Druid|XPHB|Moon|PHB|6|PHB",
-				"Elemental Wild Shape|Druid|XPHB|Moon|PHB|10|PHB",
-				"Thousand Forms|Druid|XPHB|Moon|PHB|14|PHB"
+				"Circle of the Moon|Druid|PHB|Moon|PHB|2|PHB",
+				"Circle of the Moon|Druid|PHB|Moon|PHB|3|PHB",
+				"Primal Strike|Druid|PHB|Moon|PHB|6|PHB",
+				"Elemental Wild Shape|Druid|PHB|Moon|PHB|10|PHB",
+				"Thousand Forms|Druid|PHB|Moon|PHB|14|PHB"
 			]
 		},
 		{
-			"name": "Circle of Dreams",
 			"shortName": "Dreams",
-			"source": "XGE",
 			"className": "Druid",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Circle of Dreams",
-				"source": "XGE",
-				"shortName": "Dreams",
-				"className": "Druid",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Circle of Dreams",
+			"source": "XGE",
 			"subclassFeatures": [
-				"Circle of Dreams|Druid|XPHB|Dreams|XGE|2|XGE",
-				"Circle of Dreams|Druid|XPHB|Dreams|XGE|3|XGE",
-				"Hearth of Moonlight and Shadow|Druid|XPHB|Dreams|XGE|6|XGE",
-				"Hidden Paths|Druid|XPHB|Dreams|XGE|10|XGE",
-				"Walker in Dreams|Druid|XPHB|Dreams|XGE|14|XGE"
+				"Circle of Dreams|Druid|PHB|Dreams|XGE|2|XGE",
+				"Circle of Dreams|Druid|PHB|Dreams|XGE|3|XGE",
+				"Hearth of Moonlight and Shadow|Druid|PHB|Dreams|XGE|6|XGE",
+				"Hidden Paths|Druid|PHB|Dreams|XGE|10|XGE",
+				"Walker in Dreams|Druid|PHB|Dreams|XGE|14|XGE"
 			]
 		},
 		{
-			"name": "Circle of the Shepherd",
 			"shortName": "Shepherd",
+			"className": "Druid",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Circle of the Shepherd",
 			"source": "XGE",
-			"className": "Druid",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Circle of the Shepherd",
-				"source": "XGE",
-				"shortName": "Shepherd",
-				"className": "Druid",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Circle of the Shepherd|Druid|XPHB|Shepherd|XGE|2|XGE",
-				"Circle of the Shepherd|Druid|XPHB|Shepherd|XGE|3|XGE",
-				"Mighty Summoner|Druid|XPHB|Shepherd|XGE|6|XGE",
-				"Guardian Spirit|Druid|XPHB|Shepherd|XGE|10|XGE",
-				"Faithful Summons|Druid|XPHB|Shepherd|XGE|14|XGE"
+				"Circle of the Shepherd|Druid|PHB|Shepherd|XGE|2|XGE",
+				"Circle of the Shepherd|Druid|PHB|Shepherd|XGE|3|XGE",
+				"Mighty Summoner|Druid|PHB|Shepherd|XGE|6|XGE",
+				"Guardian Spirit|Druid|PHB|Shepherd|XGE|10|XGE",
+				"Faithful Summons|Druid|PHB|Shepherd|XGE|14|XGE"
 			]
 		},
 		{
-			"name": "Circle of Spores",
 			"shortName": "Spores",
-			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Circle of Spores",
-				"source": "TCE",
-				"shortName": "Spores",
-				"className": "Druid",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"chill touch#c"
+						]
+					},
+					"prepared": {
+						"3": [
+							"blindness/deafness",
+							"gentle repose"
+						],
+						"5": [
+							"animate dead",
+							"gaseous form"
+						],
+						"7": [
+							"blight",
+							"confusion"
+						],
+						"9": [
+							"cloudkill",
+							"contagion"
+						]
+					}
 				}
-			},
+			],
+			"name": "Circle of Spores",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Circle of Spores|Druid|XPHB|Spores|TCE|2|TCE",
-				"Circle of Spores|Druid|XPHB|Spores|TCE|3|TCE",
-				"Fungal Infestation|Druid|XPHB|Spores|TCE|6|TCE",
-				"Spreading Spores|Druid|XPHB|Spores|TCE|10|TCE",
-				"Fungal Body|Druid|XPHB|Spores|TCE|14|TCE"
+				"Circle of Spores|Druid|PHB|Spores|TCE|2|TCE",
+				"Circle of Spores|Druid|PHB|Spores|TCE|3|TCE",
+				"Fungal Infestation|Druid|PHB|Spores|TCE|6|TCE",
+				"Spreading Spores|Druid|PHB|Spores|TCE|10|TCE",
+				"Fungal Body|Druid|PHB|Spores|TCE|14|TCE"
 			]
 		},
 		{
-			"name": "Circle of Stars",
 			"shortName": "Stars",
-			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Circle of Stars",
-				"source": "TCE",
-				"shortName": "Stars",
-				"className": "Druid",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"guidance#c"
+						]
+					},
+					"prepared": {
+						"2": [
+							"guiding bolt"
+						]
+					}
 				}
-			},
+			],
+			"name": "Circle of Stars",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Circle of Stars|Druid|XPHB|Stars|TCE|2|TCE",
-				"Circle of Stars|Druid|XPHB|Stars|TCE|3|TCE",
-				"Cosmic Omen|Druid|XPHB|Stars|TCE|6|TCE",
-				"Twinkling Constellations|Druid|XPHB|Stars|TCE|10|TCE",
-				"Full of Stars|Druid|XPHB|Stars|TCE|14|TCE"
+				"Circle of Stars|Druid|PHB|Stars|TCE|2|TCE",
+				"Circle of Stars|Druid|PHB|Stars|TCE|3|TCE",
+				"Cosmic Omen|Druid|PHB|Stars|TCE|6|TCE",
+				"Twinkling Constellations|Druid|PHB|Stars|TCE|10|TCE",
+				"Full of Stars|Druid|PHB|Stars|TCE|14|TCE"
 			]
 		},
 		{
-			"name": "Circle of Wildfire",
 			"shortName": "Wildfire",
-			"source": "TCE",
 			"className": "Druid",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Circle of Wildfire",
-				"source": "TCE",
-				"shortName": "Wildfire",
-				"className": "Druid",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"2": [
+							"burning hands",
+							"cure wounds"
+						],
+						"3": [
+							"flaming sphere",
+							"scorching ray"
+						],
+						"5": [
+							"plant growth",
+							"revivify"
+						],
+						"7": [
+							"aura of life",
+							"fire shield"
+						],
+						"9": [
+							"flame strike",
+							"mass cure wounds"
+						]
+					}
 				}
-			},
+			],
+			"name": "Circle of Wildfire",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Circle of Wildfire|Druid|XPHB|Wildfire|TCE|2|TCE",
-				"Circle of Wildfire|Druid|XPHB|Wildfire|TCE|3|TCE",
-				"Enhanced Bond|Druid|XPHB|Wildfire|TCE|6|TCE",
-				"Cauterizing Flames|Druid|XPHB|Wildfire|TCE|10|TCE",
-				"Blazing Revival|Druid|XPHB|Wildfire|TCE|14|TCE"
+				"Circle of Wildfire|Druid|PHB|Wildfire|TCE|2|TCE",
+				"Circle of Wildfire|Druid|PHB|Wildfire|TCE|3|TCE",
+				"Enhanced Bond|Druid|PHB|Wildfire|TCE|6|TCE",
+				"Cauterizing Flames|Druid|PHB|Wildfire|TCE|10|TCE",
+				"Blazing Revival|Druid|PHB|Wildfire|TCE|14|TCE"
 			]
 		}
 	]

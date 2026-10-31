@@ -158,6 +158,13 @@
 					"width": 1592,
 					"height": 1280,
 					"credit": "Brynn Metheney"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/DIP/Skeletal%20Riding%20Horse.webp"
+					}
 				}
 			]
 		}

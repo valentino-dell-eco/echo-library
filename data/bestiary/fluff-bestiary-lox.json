@@ -1,6 +1,71 @@
 {
 	"monsterFluff": [
 		{
+			"name": "Aarakocra Spelljammer",
+			"source": "LoX",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Agony",
+			"source": "LoX",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A ghost is the soul of a once-living creature, bound to haunt a specific location, creature, or object that held significance to it in its life.",
+								{
+									"type": "entries",
+									"name": "Unfinished Business",
+									"entries": [
+										"A ghost yearns to complete some unresolved task from its life. It might seek to avenge its own death, fulfill an oath, or relay a message to a loved one. A ghost might not realize that it has died and continue the everyday routine of its life. Others are driven by wickedness or spite, as with a ghost that refuses to rest until every member of a certain family or organization is dead.",
+										"The surest way to rid an area of a ghost is to resolve its unfinished business. A ghost can be destroyed more easily by invoking a weakness tied to its former life. The ghost of a person tortured to death might be killed again by the implements of that torture. The ghost of a gardener might become more vulnerable when exposed to a potent floral fragrance."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ghostly Manifestations",
+									"entries": [
+										"Sensations of profound sadness, loneliness, and unfulfilled yearning emanate from places where ghostly hauntings occur. Strange sounds or unnatural silences create an unsettling atmosphere. Cold spots settle in rooms that have roaring fires. A choking stench might seep into the area, inanimate objects might move of their own accord, and corpses might rise from the grave. The ghost has no control over these manifestations; they simply occur."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A ghost doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Agony.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Astral Blight",
 			"source": "LoX",
 			"images": [
@@ -29,6 +94,13 @@
 					"width": 1700,
 					"height": 1079,
 					"credit": "Ralph Horsley"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Big%20Momma.webp"
+					}
 				}
 			]
 		},
@@ -45,6 +117,13 @@
 					"width": 850,
 					"height": 1096,
 					"credit": "Mark Behm"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Commodore%20Krux.webp"
+					}
 				}
 			]
 		},
@@ -61,6 +140,13 @@
 					"width": 850,
 					"height": 1095,
 					"credit": "Andrew Mar"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Elaina%20Sartell.webp"
+					}
 				}
 			]
 		},
@@ -77,6 +163,13 @@
 					"width": 850,
 					"height": 1561,
 					"credit": "Zuzanna Wužyk"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Fel%20Ardra.webp"
+					}
 				}
 			]
 		},
@@ -101,6 +194,13 @@
 					"width": 850,
 					"height": 999,
 					"credit": "Suzanne Helmigh"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Flapjack.webp"
+					}
 				}
 			]
 		},
@@ -117,6 +217,13 @@
 					"width": 720,
 					"height": 1603,
 					"credit": "Irina Nordsol"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Grimzod%20Gargenhale.webp"
+					}
 				}
 			]
 		},
@@ -133,6 +240,13 @@
 					"width": 850,
 					"height": 1346,
 					"credit": "Nikki Dawes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Hastain.webp"
+					}
 				}
 			]
 		},
@@ -159,6 +273,20 @@
 					"width": 1700,
 					"height": 1098,
 					"credit": "Merlin G.G."
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Prince%20Xeleth.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Prince%20Xeleth%20(2).webp"
+					}
 				}
 			]
 		},
@@ -185,6 +313,20 @@
 					"width": 801,
 					"height": 1822,
 					"credit": "Robson Michel"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Princess%20Xedalli.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Princess%20Xedalli%20(2).webp"
+					}
 				}
 			]
 		},
@@ -201,6 +343,13 @@
 					"width": 850,
 					"height": 1009,
 					"credit": "Shawn Wood"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Topolah.webp"
+					}
 				}
 			]
 		},
@@ -217,6 +366,13 @@
 					"width": 850,
 					"height": 961,
 					"credit": "Olivier Bernard"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Vocath.webp"
+					}
 				}
 			]
 		},
@@ -233,6 +389,13 @@
 					"width": 850,
 					"height": 1206,
 					"credit": "Zuzanna Wužyk"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LoX/Warwyck%20Blastimoff.webp"
+					}
 				}
 			]
 		}

@@ -587,14 +587,70 @@
 			"hasFluffImages": true
 		},
 		{
+			"type": "undead",
 			"name": "Skeletal Riding Horse",
 			"source": "DIP",
 			"page": 21,
-			"_copy": {
-				"name": "Riding Horse",
-				"source": "MM"
+			"referenceSources": [
+				"BGDIA",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"EGW",
+				"JttRC",
+				"KftGV",
+				"QftIS",
+				"SKT",
+				"ToA",
+				"WDH",
+				"XMtS"
+			],
+			"size": [
+				"L"
+			],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 13,
+				"formula": "2d10 + 2"
 			},
-			"type": "undead",
+			"speed": {
+				"walk": 60
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 12,
+			"int": 2,
+			"wis": 11,
+			"cha": 7,
+			"passive": 10,
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"urban"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/DIP/Skeletal%20Riding%20Horse.webp"
+			},
 			"hasToken": true,
 			"hasFluffImages": true
 		}

@@ -1,6 +1,54 @@
 {
 	"monsterFluff": [
 		{
+			"name": "Amun Sa",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A ghost is the soul of a once-living creature, bound to haunt a specific location, creature, or object that held significance to it in its life.",
+								{
+									"type": "entries",
+									"name": "Unfinished Business",
+									"entries": [
+										"A ghost yearns to complete some unresolved task from its life. It might seek to avenge its own death, fulfill an oath, or relay a message to a loved one. A ghost might not realize that it has died and continue the everyday routine of its life. Others are driven by wickedness or spite, as with a ghost that refuses to rest until every member of a certain family or organization is dead.",
+										"The surest way to rid an area of a ghost is to resolve its unfinished business. A ghost can be destroyed more easily by invoking a weakness tied to its former life. The ghost of a person tortured to death might be killed again by the implements of that torture. The ghost of a gardener might become more vulnerable when exposed to a potent floral fragrance."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ghostly Manifestations",
+									"entries": [
+										"Sensations of profound sadness, loneliness, and unfulfilled yearning emanate from places where ghostly hauntings occur. Strange sounds or unnatural silences create an unsettling atmosphere. Cold spots settle in rooms that have roaring fires. A choking stench might seep into the area, inanimate objects might move of their own accord, and corpses might rise from the grave. The ghost has no control over these manifestations; they simply occur."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A ghost doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Amun%20Sa.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Android",
 			"source": "QftIS",
 			"entries": [
@@ -120,6 +168,33 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"name": "Cipolla",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Tower Stewards",
+							"entries": [
+								"For centuries, the Tower of the Heavens has been stewarded by dutiful folk who practice two distinct traditions."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Cipolla.webp"
+					}
 				}
 			]
 		},
@@ -342,6 +417,58 @@
 			]
 		},
 		{
+			"name": "Grisdelfawr",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Dragons",
+					"entries": [
+						"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+						"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+						"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+						"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+						{
+							"type": "table",
+							"caption": "Dragon Age Categories",
+							"colLabels": [
+								"Category",
+								"Size",
+								"Age Range"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Wyrmling",
+									"Medium",
+									"5 years or less"
+								],
+								[
+									"Young",
+									"Large",
+									"6–100 years"
+								],
+								[
+									"Adult",
+									"Huge",
+									"101–800 years"
+								],
+								[
+									"Ancient",
+									"Gargantuan",
+									"801 years or more"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Guardian of Gorm",
 			"source": "QftIS",
 			"entries": [
@@ -429,6 +556,78 @@
 					},
 					"width": 653,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Iaseda",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Acolytes are junior members of a clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Isabela Folcarae",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades.",
+								"In addition to managing a crew of selfish malcontents, the pirate captain is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis.",
+								"More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Isabela%20Folcarae.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Juliana",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.",
+								"The noble's statistics can also be used to represent courtiers who aren't of noble birth."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Juliana.webp"
+					}
 				}
 			]
 		},
@@ -662,6 +861,33 @@
 			]
 		},
 		{
+			"name": "Orlando",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.",
+								"The noble's statistics can also be used to represent courtiers who aren't of noble birth."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Orlando.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Pech",
 			"source": "QftIS",
 			"entries": [
@@ -687,6 +913,206 @@
 			]
 		},
 		{
+			"name": "Piyarz",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Tower Stewards",
+							"entries": [
+								"For centuries, the Tower of the Heavens has been stewarded by dutiful folk who practice two distinct traditions."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Piyarz.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Porro",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Tower Stewards",
+							"entries": [
+								"For centuries, the Tower of the Heavens has been stewarded by dutiful folk who practice two distinct traditions."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Porro.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Queen Zanobis",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"The word \"wight\" meant \"person\" in days of yore, but the name now refers to evil undead who were once mortals driven by dark desire and great vanity. When death stills such a creature's heart and snuffs its living breath, its spirit cries out to the demon lord Orcus or some vile god of the underworld for a reprieve: undeath in return for eternal war on the living. If a dark power answers the call, the spirit is granted undeath so that it can pursue its own malevolent agenda.",
+								"Wights possess the memories and drives of their formerly living selves. They will heed the call of whatever dark entity transformed them into undead, swearing oaths to appease their new lord while retaining their autonomy. Never tiring, a wight can pursue its goals relentlessly and without distraction.",
+								{
+									"type": "entries",
+									"name": "Life Eaters",
+									"entries": [
+										"Neither dead nor alive, a wight exists in a transitional state between one world and the next. The bright spark it possessed in life is gone, and in its place is a yearning to consume that spark in all living things.",
+										"When a wight attacks, this life essence glows like white-hot embers to its dark eyes, and the wight's cold touch can drain the spark through flesh, clothing, and armor."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Shadow of the Grave",
+									"entries": [
+										"Wights flee from the world by day, away from the light of the sun, which they hate. They retreat to barrow mounds, crypts, and tombs where they dwell. Their lairs are silent, desolate places, surrounded by dead plants, noticeably blackened, and avoided by bird and beast.",
+										"Humanoids slain by a wight can rise as zombies under its control. Motivated by hunger for living souls and driven by the same desire for power that awakened them in undeath, some wights serve as shock troops for evil leaders, including wraiths. As soldiers, they are able to plan but seldom do so, relying on their hunger for destruction to overwhelm any creature that stands before them."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A wight doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Queen%20Zanobis.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shalfey",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Tower Stewards",
+							"entries": [
+								"For centuries, the Tower of the Heavens has been stewarded by dutiful folk who practice two distinct traditions."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Shalfey.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Silverlily",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Unicorns dwell in enchanted forests. Unrelated to the horses it resembles, a unicorn is a celestial creature that wanders sylvan realms, its white form glimmering like starlight.",
+								"A unicorn's brow sports a single spiraling horn of ivory whose magical touch can heal the sick and the injured. Its ears catch the words and whispers of the creatures that share its domain, and it knows the tongues of elves and sylvan folk. Unicorns allow good-hearted creatures to enter their woods to hunt or gather food, but they hold evil ever at bay. Foul-hearted creatures seldom leave a unicorn's domain alive.",
+								{
+									"type": "entries",
+									"name": "Divine Guardians",
+									"entries": [
+										"Good deities placed unicorns on the Material Plane to ward away evil and preserve and protect sacred places. Most unicorns protect a bounded realm such as an enchanted forest. However, the gods sometimes send a unicorn to guard sacred artifacts or protect specific creatures. When the forces of darkness strike against an individual the gods wish to protect, they might send that individual to a unicorn's forest, where evil creatures pursue at their peril.",
+										"Unicorns most often serve deities of the forest and woodlands, including the gods of benevolent fey.",
+										"Although all unicorns have natural healing power, some serve the gods in greater capacities, performing miracles normally reserved for high priests."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Forest Lords",
+									"entries": [
+										"A unicorn's forest is a celestial realm where nothing that occurs beneath the sun-dappled leaves escapes the creature's notice. A unicorn hears each breathy tune sung by the elves that reside amid the treetops. It senses where every caterpillar spins its cocoon, each leaf and branch upon which a bright butterfly rests its tired wings.",
+										"In a unicorn's forest, a sense of calm pervades. From wolves and foxes to birds, squirrels, and tiny insects, the creatures of a unicorn's domain seem quite tame.",
+										"Pixies, sprites, satyrs, dryads, and other normally mercurial fey loyally serve a unicorn when they dwell within its woods. Under a unicorn's protection, creatures feel safe from the threat of encroaching civilization and the insidious spread of evil.",
+										"A unicorn roams its domain constantly, moving ever so carefully so as not to disturb other denizens. A creature might catch a passing glimpse of the unicorn then suddenly see nothing but the wild woods."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Sacred Horns",
+									"entries": [
+										"A unicorn's horn is the focus of its power, a shard of divine magic wrought in spiraling ivory. Wands of unicorn horn channel powerful magic, while unicorn horn weapons strike with divine force.",
+										"Wizards can work powdered unicorn horn into potent potions and scroll ink, or use it as a component in eldritch rituals. However, any creature that takes a role, no matter how small, in slaying a unicorn is likely to become the target of divine retribution."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Blessed Mounts",
+									"entries": [
+										"When darkness and evil threaten to overwhelm the mortal world, the gods sometimes see fit to pair a unicorn mount with a champion. A paladin astride a unicorn is a sign of the gods' direct intervention in the affairs of the mortal realm. It is a holy alliance made to cleave the heads from demons and banish devils back to the Nine Hells.",
+										"As long as the troubled times of darkness persist, the unicorn stays by the champion, its horn shining brightly to drive back the night. However, if the gods' champion falls from grace or turns from the cause of righteousness and good, the unicorn departs, never to return."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A Unicorn's Lair",
+									"entries": [
+										"A unicorn's lair might be an ancient ruin overgrown with vines, a misty clearing surrounded by mighty oaks, a flower-covered hilltop alive with butterflies, or some other serene woodland location."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Silverlily.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Sion",
 			"source": "QftIS",
 			"entries": [
@@ -707,6 +1133,131 @@
 					},
 					"width": 630,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Spirit of Hunger",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A wraith is malice incarnate, concentrated into an incorporeal form that seeks to quench all life. The creature is suffused with negative energy, and its mere passage through the world leaves nearby plants blackened and withered. Animals flee from its presence. Even small fires can be extinguished by the sucking oblivion of the wraith's horrifying existence.",
+								{
+									"type": "entries",
+									"name": "Vile Oblivion",
+									"entries": [
+										"When a mortal humanoid lives a debased life or enters into a fiendish pact, it consigns its soul to eternal damnation in the Lower Planes. However, sometimes the soul becomes so suffused with negative energy that it collapses in on itself and ceases to exist the instant before it can shuffle off to some horrible afterlife. When this occurs, the spirit becomes a soulless wraith-a malevolent void trapped on the plane where it died. Almost nothing of the wraith's former existence is preserved; in this new form, it exists only to annihilate other life."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Bereft of Body",
+									"entries": [
+										"A wraith can move through solid creatures and objects as easily as a mortal creature moves through fog.",
+										"A wraith might retain a few memories of its mortal life as shadowy echoes. However, even the strongest events and emotions become little more than faint impressions, fleeting as half-remembered dreams. A wraith might pause to stare at something that fascinated it in life, or it might curb its wrath in acknowledgment of a past friendship. Such moments come rarely, however, because most wraiths despise what they were as a reminder of what they have become."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Commanders",
+									"entries": [
+										"A wraith can make an undead servant from the spirit of a humanoid creature that has recently suffered a violent death. Such a fragment of woe becomes a specter, spiteful of all that lives.",
+										"Wraiths sometimes rule the legions of the dead, plotting the doom of living creatures. When they emerge from their tombs to do battle, life and hope shrivel before them. Even if a wraith's armies are forced to retreat, the lands its forces occupied are so blasted and withered that those who live there often starve and die."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A wraith doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Spirit%20of%20Hunger.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Stargleam",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Unicorns dwell in enchanted forests. Unrelated to the horses it resembles, a unicorn is a celestial creature that wanders sylvan realms, its white form glimmering like starlight.",
+								"A unicorn's brow sports a single spiraling horn of ivory whose magical touch can heal the sick and the injured. Its ears catch the words and whispers of the creatures that share its domain, and it knows the tongues of elves and sylvan folk. Unicorns allow good-hearted creatures to enter their woods to hunt or gather food, but they hold evil ever at bay. Foul-hearted creatures seldom leave a unicorn's domain alive.",
+								{
+									"type": "entries",
+									"name": "Divine Guardians",
+									"entries": [
+										"Good deities placed unicorns on the Material Plane to ward away evil and preserve and protect sacred places. Most unicorns protect a bounded realm such as an enchanted forest. However, the gods sometimes send a unicorn to guard sacred artifacts or protect specific creatures. When the forces of darkness strike against an individual the gods wish to protect, they might send that individual to a unicorn's forest, where evil creatures pursue at their peril.",
+										"Unicorns most often serve deities of the forest and woodlands, including the gods of benevolent fey.",
+										"Although all unicorns have natural healing power, some serve the gods in greater capacities, performing miracles normally reserved for high priests."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Forest Lords",
+									"entries": [
+										"A unicorn's forest is a celestial realm where nothing that occurs beneath the sun-dappled leaves escapes the creature's notice. A unicorn hears each breathy tune sung by the elves that reside amid the treetops. It senses where every caterpillar spins its cocoon, each leaf and branch upon which a bright butterfly rests its tired wings.",
+										"In a unicorn's forest, a sense of calm pervades. From wolves and foxes to birds, squirrels, and tiny insects, the creatures of a unicorn's domain seem quite tame.",
+										"Pixies, sprites, satyrs, dryads, and other normally mercurial fey loyally serve a unicorn when they dwell within its woods. Under a unicorn's protection, creatures feel safe from the threat of encroaching civilization and the insidious spread of evil.",
+										"A unicorn roams its domain constantly, moving ever so carefully so as not to disturb other denizens. A creature might catch a passing glimpse of the unicorn then suddenly see nothing but the wild woods."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Sacred Horns",
+									"entries": [
+										"A unicorn's horn is the focus of its power, a shard of divine magic wrought in spiraling ivory. Wands of unicorn horn channel powerful magic, while unicorn horn weapons strike with divine force.",
+										"Wizards can work powdered unicorn horn into potent potions and scroll ink, or use it as a component in eldritch rituals. However, any creature that takes a role, no matter how small, in slaying a unicorn is likely to become the target of divine retribution."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Blessed Mounts",
+									"entries": [
+										"When darkness and evil threaten to overwhelm the mortal world, the gods sometimes see fit to pair a unicorn mount with a champion. A paladin astride a unicorn is a sign of the gods' direct intervention in the affairs of the mortal realm. It is a holy alliance made to cleave the heads from demons and banish devils back to the Nine Hells.",
+										"As long as the troubled times of darkness persist, the unicorn stays by the champion, its horn shining brightly to drive back the night. However, if the gods' champion falls from grace or turns from the cause of righteousness and good, the unicorn departs, never to return."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A Unicorn's Lair",
+									"entries": [
+										"A unicorn's lair might be an ancient ruin overgrown with vines, a misty clearing surrounded by mighty oaks, a flower-covered hilltop alive with butterflies, or some other serene woodland location."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/QftIS/Stargleam.webp"
+					}
 				}
 			]
 		},
@@ -769,6 +1320,75 @@
 					},
 					"width": 773,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Uma",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Vuuthramis",
+			"source": "QftIS",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Dragons",
+					"entries": [
+						"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+						"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+						"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+						"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+						{
+							"type": "table",
+							"caption": "Dragon Age Categories",
+							"colLabels": [
+								"Category",
+								"Size",
+								"Age Range"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Wyrmling",
+									"Medium",
+									"5 years or less"
+								],
+								[
+									"Young",
+									"Large",
+									"6–100 years"
+								],
+								[
+									"Adult",
+									"Huge",
+									"101–800 years"
+								],
+								[
+									"Ancient",
+									"Gargantuan",
+									"801 years or more"
+								]
+							]
+						}
+					]
 				}
 			]
 		},

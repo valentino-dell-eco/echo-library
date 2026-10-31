@@ -6898,9 +6898,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Reanimated Companion",
-			"source": "RHW",
-			"page": 15,
 			"summonedByClass": "Artificer|EFA",
 			"size": [
 				"M"
@@ -6984,6 +6981,13 @@
 			"savingThrowForced": [
 				"dexterity"
 			],
+			"name": "Reanimated Companion",
+			"source": "RHW",
+			"page": 15,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/RHW/Reanimated%20Companion.webp"
+			},
 			"hasToken": true
 		},
 		{

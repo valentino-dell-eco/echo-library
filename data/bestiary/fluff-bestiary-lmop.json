@@ -54,6 +54,23 @@
 			]
 		},
 		{
+			"name": "Gundren Rockseeker",
+			"source": "LMoP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Mormesk the Wraith",
 			"source": "LMoP",
 			"entries": [
@@ -116,6 +133,23 @@
 			]
 		},
 		{
+			"name": "Nundro Rockseeker",
+			"source": "LMoP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Redbrand Ruffian",
 			"source": "LMoP",
 			"entries": [
@@ -161,6 +195,13 @@
 					},
 					"width": 1300,
 					"height": 1330
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LMoP/Venomfang.webp"
+					}
 				}
 			]
 		}

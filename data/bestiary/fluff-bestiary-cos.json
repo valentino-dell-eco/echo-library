@@ -7,11 +7,9 @@
 				{
 					"type": "image",
 					"href": {
-						"type": "internal",
-						"path": "bestiary/CoS/Amber Golem.webp"
-					},
-					"width": 643,
-					"height": 1000
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Amber%20Golem.webp"
+					}
 				}
 			]
 		},
@@ -22,11 +20,39 @@
 				{
 					"type": "image",
 					"href": {
-						"type": "internal",
-						"path": "bestiary/CoS/Anastrasya Karelova.webp"
-					},
-					"width": 915,
-					"height": 1000
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Anastrasya%20Karelova.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Animated Halberd",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Animated%20Halberd.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Arabelle",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -42,6 +68,13 @@
 					},
 					"width": 813,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Arrigal.webp"
+					}
 				}
 			]
 		},
@@ -197,6 +230,56 @@
 					},
 					"width": 973,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Baron%20Vargas%20Vallakovich.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Barovian Commoner",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Barovian Scout",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Scouts are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Barovian%20Scout.webp"
+					}
 				}
 			]
 		},
@@ -260,6 +343,30 @@
 					},
 					"width": 753,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Beucephalus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Bluto Krogarov",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -275,6 +382,13 @@
 					},
 					"width": 1000,
 					"height": 705
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Bray%20Martikov.webp"
+					}
 				}
 			]
 		},
@@ -290,6 +404,13 @@
 					},
 					"width": 1000,
 					"height": 705
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Brom%20Martikov.webp"
+					}
 				}
 			]
 		},
@@ -329,6 +450,13 @@
 					},
 					"width": 871,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Clovin%20Belview.webp"
+					}
 				}
 			]
 		},
@@ -344,6 +472,13 @@
 					},
 					"width": 781,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Cyrus%20Belview.webp"
+					}
 				}
 			]
 		},
@@ -359,6 +494,13 @@
 					},
 					"width": 1000,
 					"height": 705
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Danika%20Dorakova.webp"
+					}
 				}
 			]
 		},
@@ -374,6 +516,30 @@
 					},
 					"width": 645,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Davian%20Martikov.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Distended Corpse",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -389,6 +555,13 @@
 					},
 					"width": 853,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Donavich.webp"
+					}
 				}
 			]
 		},
@@ -404,6 +577,13 @@
 					},
 					"width": 830,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Doru.webp"
+					}
 				}
 			]
 		},
@@ -419,6 +599,13 @@
 					},
 					"width": 802,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Emil%20Toranescu.webp"
+					}
 				}
 			]
 		},
@@ -434,6 +621,95 @@
 					},
 					"width": 915,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Escher.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Exethanter",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Liches are the remains of great wizards who embrace undeath as a means of preserving themselves. They further their own power at any cost, having no interest in the affairs of the living except where those affairs interfere with their own. Scheming and insane, they hunger for long-forgotten knowledge and the most terrible secrets. Because the shadow of death doesn't hang over them, they can conceive plans that take years, decades, or centuries to come to fruition.",
+								"A lich is a gaunt and skeletal humanoid with withered flesh stretched tight across its bones. Its eyes succumbed to decay long ago, but points of light burn in its empty sockets. It is often garbed in the moldering remains of fine clothing and jewelry worn and dulled by the passage of time.",
+								{
+									"type": "entries",
+									"name": "Secrets of Undeath",
+									"entries": [
+										"No wizard takes up the path to lichdom on a whim, and the process of becoming a lich is a well-guarded secret. Wizards that seek lichdom must make bargains with fiends, evil gods, or other foul entities. Many turn to Orcus, Demon Prince of Undeath, whose power has created countless liches. However, those that control the power of lichdom always demand fealty and service for their knowledge.",
+										"A lich is created by an arcane ritual that traps the wizard's soul within a phylactery. Doing so binds the soul to the mortal world, preventing it from traveling to the Outer Planes after death. A phylactery is traditionally an amulet in the shape of a small box, but it can take the form of any item possessing an interior space into which arcane sigils of naming, binding, immortality, and dark magic are scribed in silver.",
+										"With its phylactery prepared, the future lich drinks a potion of transformation-a vile concoction of poison mixed with the blood of a sentient creature whose soul is sacrificed to the phylactery. The wizard falls dead, then rises as a lich as its soul is drawn into the phylactery, where it forever remains."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Soul Sacrifices",
+									"entries": [
+										"A lich must periodically feed souls to its phylactery to sustain the magic preserving its body and consciousness. It does this using the {@spell imprisonment} spell. Instead of choosing one of the normal options of the spell, the lich uses the spell to magically trap the target's body and soul inside its phylactery. The phylactery must be on the same plane as the lich for the spell to work. A lich's phylactery can hold only one creature at a time, and a {@spell dispel magic} cast as a 9th-level spell upon the phylactery releases any creature imprisoned within it. A creature imprisoned in the phylactery for 24 hours is consumed and destroyed utterly, whereupon nothing short of divine intervention can restore it to life.",
+										"A lich that fails or forgets to maintain its body with sacrificed souls begins to physically fall apart, and might eventually become a demilich."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Death and Restoration",
+									"entries": [
+										"When a lich's body is broken by accident or assault, the will and mind of the lich drains from it, leaving only a lifeless corpse behind. Within days, a new body reforms next to the lich's phylactery, coalescing out of glowing smoke that issues from the device. Because the destruction of its phylactery means the possibility of eternal death, a lich usually keeps its phylactery in a hidden, well-guarded location.",
+										"Destroying a lich's phylactery is no easy task and often requires a special ritual, item, or weapon. Every phylactery is unique, and discovering the key to its destruction can be a quest in and of itself."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lonely Existence",
+									"entries": [
+										"From time to time, a lich might be stirred from its single-minded pursuit of power to take an interest in the world around it, most often when some great event reminds it of the life it once led. It otherwise lives in isolation, engaging only with those creatures whose service helps secure its lair.",
+										"Few liches call themselves by their former names, instead adopting monikers such as the Black Hand or the Forgotten King."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Magic Collectors",
+									"entries": [
+										"Liches collect spells and magic items. In addition to its spell repertoire, a lich has ready access to potions, scrolls, libraries of spellbooks, one or more wands, and perhaps a staff or two. It has no qualms about putting these treasures to use whenever its lair comes under attack."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A lich doesn't require air, food, drink, or sleep."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A Lich's Lair",
+									"entries": [
+										"A lich often haunts the abode it favored in life, such as a lonely tower, a haunted ruin, or an academy of black magic. Alternatively, some liches construct secret tombs filled with powerful guardians and traps. Everything about a lich's lair reflects its keen mind and wicked cunning, including the magic and mundane traps that secure it. Undead, constructs, and bound demons lurk in shadowy recesses, emerging to destroy those who dare to disturb the lich's work.",
+										"A lich encountered in its lair has a challenge rating of 22 (41,000 XP)."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Exethanter.webp"
+					}
 				}
 			]
 		},
@@ -553,6 +829,13 @@
 					},
 					"width": 921,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Gadof%20Blinsky.webp"
+					}
 				}
 			]
 		},
@@ -568,6 +851,13 @@
 					},
 					"width": 589,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Gertruda.webp"
+					}
 				}
 			]
 		},
@@ -619,6 +909,19 @@
 			]
 		},
 		{
+			"name": "Helga Ruvak",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Helga%20Ruvak.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Henrik van der Voort",
 			"source": "CoS",
 			"images": [
@@ -630,6 +933,26 @@
 					},
 					"width": 801,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Henrik%20van%20der%20Voort.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Hungry Ghast",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Hungry%20Ghast.webp"
+					}
 				}
 			]
 		},
@@ -645,6 +968,13 @@
 					},
 					"width": 1000,
 					"height": 969
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Ireena%20Kolyana.webp"
+					}
 				}
 			]
 		},
@@ -660,6 +990,13 @@
 					},
 					"width": 789,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Ismark%20Kolyanovich.webp"
+					}
 				}
 			]
 		},
@@ -766,6 +1103,13 @@
 					},
 					"width": 300,
 					"height": 369
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Kasimir%20Velikov.webp"
+					}
 				}
 			]
 		},
@@ -781,6 +1125,60 @@
 					},
 					"width": 708,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Kiril%20Stoyanovich.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Knight of the Order",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A revenant forms from the soul of a mortal who met a cruel and undeserving fate. It claws its way back into the world to seek revenge against the one who wronged it. The revenant reclaims its mortal body and superficially resembles a zombie. However, instead of lifeless eyes, a revenant's eyes burn with resolve and flare in the presence of its adversary. If the revenant's original body was destroyed or is otherwise unavailable, the spirit of the revenant enters another humanoid corpse. Regardless of the body the revenant uses as a vessel, its adversary always recognizes the revenant for what it truly is.",
+								{
+									"type": "entries",
+									"name": "Hunger for Revenge",
+									"entries": [
+										"A revenant has only one year to exact revenge. When its adversary dies, or if the revenant fails to kill its adversary before its time runs out, it crumbles to dust and its soul fades into the afterlife. If its foe is too powerful for the revenant to destroy on its own, it seeks worthy allies to help it fulfill its quest."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Divine Justice",
+									"entries": [
+										"No magic can hide a creature pursued by a revenant, which always knows the direction and distance between it and the target of its vengeance. In cases where the revenant seeks revenge against more than one adversary, it pursues them one at a time, starting with the creature that dealt it the killing blow. If the revenant's body is destroyed, its soul flies forth to seek out a new corpse in which to resume its hunt."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A revenant doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Knight%20of%20the%20Order.webp"
+					}
 				}
 			]
 		},
@@ -796,6 +1194,30 @@
 					},
 					"width": 1000,
 					"height": 819
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Lady%20Fiona%20Wachter.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Lady Lydia Petrovna",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -811,6 +1233,26 @@
 					},
 					"width": 751,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Lief%20Lipsiege.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ludmilla Vilisevic",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Ludmilla%20Vilisevic.webp"
+					}
 				}
 			]
 		},
@@ -826,6 +1268,13 @@
 					},
 					"width": 849,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Luvash.webp"
+					}
 				}
 			]
 		},
@@ -841,6 +1290,13 @@
 					},
 					"width": 823,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Mad%20Mary.webp"
+					}
 				}
 			]
 		},
@@ -928,6 +1384,73 @@
 					},
 					"width": 1000,
 					"height": 819
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Majesto.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Marzena Belview",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Mongrelfolk are humanoids that have undergone, or whose ancestors underwent, horrific magical transformations, to the extent that they retain only a fraction of their original being. Their humanoid bodies incorporate the features of various beasts. For example, one mongrelfolk might have the basic body shape of a dwarf with a head that combines the features of a cat and a lizard, one arm that ends in a crab's pincer, and one leg that ends in a cloven hoof. Another might have the skin and horns of a cow, the eyes of a spider, frog's legs, and a scaly lizard's tail. Each mongrelfolk's mad combination of humanoid and animal forms results in its having a slow, awkward gait.",
+										{
+											"type": "entries",
+											"name": "Sound Mimicry",
+											"entries": [
+												"Mongrelfolk have misshapen mouths and vocal cords. They speak fragmented Common mixed with various animal cries and nonsense. They can effectively imitate sounds made by beasts and humanoids that they've heard. Mongrelfolk aren't sophisticated enough to use these sounds as a covert form of communication, but they can use the sounds to lure enemies into a trap or otherwise distract them."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Outcasts",
+											"entries": [
+												"Mongrelfolk are seldom welcome in other humanoid societies, where they are abused, enslaved, or shunned. They typically live on the fringes of civilization in ruins, deserted buildings, or other places that other humanoid races once lived in or built. They tend to be timid and skittish outside their homes and fiercely territorial within their lairs."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Camouflage Experts",
+											"entries": [
+												"Mongrelfolk often hide their deformities under cloaks and cowls. In this way, they can sometimes pass as stout humans or thin dwarves. They are fond of camouflage, attaching leaves and twigs to their cloaks, making brown paint to cover their skin, and weaving grass nets under which they can hide. They use such camouflage while hunting in the wild or while standing guard outside their lairs. Until it is seen, a camouflaged mongrelfolk has advantage on {@skill Stealth} checks made to hide."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Horrific Offspring",
+											"entries": [
+												"It's possible to restore a mongrel-folk to its original form using a {@spell greater restoration} spell, but the same can't be said for a mongrelfolk's offspring. Only mongrelfolk that are made by magic can be restored to their original forms. Mongrelfolk that are born are true mongrelfolk and not the subjects of a spell or an effect that can be undone.",
+												"Mongrelfolk can breed with other humanoids, but nearly all children born to such parents are mongrelfolk. (About one child in every hundred is born looking like its non-mongrelfolk parent.)"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Marzena%20Belview.webp"
+					}
 				}
 			]
 		},
@@ -943,6 +1466,73 @@
 					},
 					"width": 746,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Milivoj.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mishka Belview",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Mongrelfolk are humanoids that have undergone, or whose ancestors underwent, horrific magical transformations, to the extent that they retain only a fraction of their original being. Their humanoid bodies incorporate the features of various beasts. For example, one mongrelfolk might have the basic body shape of a dwarf with a head that combines the features of a cat and a lizard, one arm that ends in a crab's pincer, and one leg that ends in a cloven hoof. Another might have the skin and horns of a cow, the eyes of a spider, frog's legs, and a scaly lizard's tail. Each mongrelfolk's mad combination of humanoid and animal forms results in its having a slow, awkward gait.",
+										{
+											"type": "entries",
+											"name": "Sound Mimicry",
+											"entries": [
+												"Mongrelfolk have misshapen mouths and vocal cords. They speak fragmented Common mixed with various animal cries and nonsense. They can effectively imitate sounds made by beasts and humanoids that they've heard. Mongrelfolk aren't sophisticated enough to use these sounds as a covert form of communication, but they can use the sounds to lure enemies into a trap or otherwise distract them."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Outcasts",
+											"entries": [
+												"Mongrelfolk are seldom welcome in other humanoid societies, where they are abused, enslaved, or shunned. They typically live on the fringes of civilization in ruins, deserted buildings, or other places that other humanoid races once lived in or built. They tend to be timid and skittish outside their homes and fiercely territorial within their lairs."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Camouflage Experts",
+											"entries": [
+												"Mongrelfolk often hide their deformities under cloaks and cowls. In this way, they can sometimes pass as stout humans or thin dwarves. They are fond of camouflage, attaching leaves and twigs to their cloaks, making brown paint to cover their skin, and weaving grass nets under which they can hide. They use such camouflage while hunting in the wild or while standing guard outside their lairs. Until it is seen, a camouflaged mongrelfolk has advantage on {@skill Stealth} checks made to hide."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Horrific Offspring",
+											"entries": [
+												"It's possible to restore a mongrel-folk to its original form using a {@spell greater restoration} spell, but the same can't be said for a mongrelfolk's offspring. Only mongrelfolk that are made by magic can be restored to their original forms. Mongrelfolk that are born are true mongrelfolk and not the subjects of a spell or an effect that can be undone.",
+												"Mongrelfolk can breed with other humanoids, but nearly all children born to such parents are mongrelfolk. (About one child in every hundred is born looking like its non-mongrelfolk parent.)"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Mishka%20Belview.webp"
+					}
 				}
 			]
 		},
@@ -1009,6 +1599,140 @@
 			]
 		},
 		{
+			"name": "Morgantha",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Hags",
+					"entries": [
+						"Hags represent all that is evil and cruel. Though they resemble withered crones, there is nothing mortal about these monstrous creatures, whose forms reflect only the wickedness in their hearts.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Faces of Evil",
+											"entries": [
+												"Ancient beings with origins in the Feywild, hags are cankers on the mortal world. Their withered faces are framed by long, frayed hair, horrid moles and warts dot their blotchy skin, and their long, skinny fingers are tipped by claws that can slice open flesh with a touch. Their simple clothes are always tattered and filthy.",
+												"All hags possess magical powers, and some have an affinity for spellcasting. They can alter their forms or curse their foes, and their arrogance inspires them to view their magic as a challenge to the magic of the gods, whom they blaspheme at every opportunity.",
+												"Hags name themselves in darkly whimsical ways, claiming monikers such as Black Morwen, Peggy Pigknuckle, Grandmother Titchwillow, Nanna Shug, Rotten Ethel, or Auntie Wormtooth."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Monstrous Motherhood",
+											"entries": [
+												"Hags propagate by snatching and devouring human infants. After stealing a baby from its cradle or its mother's womb, the hag consumes the poor child. A week later, the hag gives birth to a daughter who looks human until her thirteenth birthday, whereupon the child transforms into the spitting image of her hag mother.",
+												"Hags sometimes raise the daughters they spawn, creating covens. A hag might also return the child to its grieving parents, only to watch from the shadows as the child grows up to become a horror."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dark Bargains",
+											"entries": [
+												"Arrogant to a fault, hags believe themselves to be the most cunning of creatures, and they treat all others as inferior. Even so, a hag is open to dealing with mortals as long as those mortals show the proper respect and deference. Over their long lives, hags accumulate much knowledge of local lore, dark creatures, and magic, which they are pleased to sell.",
+												"Hags enjoy watching mortals bring about their own downfall, and a bargain with a hag is always dangerous. The terms of such bargains typically involve demands to compromise principles or give up something dear-especially if the thing lost diminishes or negates the knowledge gained through the bargain."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "A Foul Nature",
+											"entries": [
+												"Hags love the macabre and festoon their garb with dead things and accentuate their appearance with bones, bits of flesh, and filth. They nurture blemishes and pick at wounds to produce weeping, suppurating flesh. Attractive creatures evoke disgust in a hag, which might \"help\" such creatures by disfiguring or transforming them.",
+												"This embrace of the disturbing and unpleasant extends to all aspects of a hag's life. A hag might fly in a magical giant's skull, landing it on a tree shaped to resemble an enormous headless body. Another might travel with a menagerie of monsters and slaves kept in cages, and disguised by illusions to lure unwary creatures close. Hags sharpen their teeth on millstones and spin cloth from the intestines of their victims, reacting with glee to the horror their actions invoke."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dark Sorority",
+											"entries": [
+												"Hags maintain contact with each other and share knowledge. Through such contacts, it is likely that any given hag knows of every other hag in existence. Hags don't like each other, but they abide by an ageless code of conduct. Hags announce their presence before crossing into another hag's territory, bring gifts when entering another hag's dwelling, and break no oaths given to other hags-as long as the oath isn't given with the fingers crossed.",
+												"Some humanoids make the mistake of thinking that the hags' rules of conduct apply to all creatures. When confronted by such an individual, a hag might find it amusing to string the fool along for a while before teaching it a permanent lesson."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dark Lairs",
+											"entries": [
+												"Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and gloomy swamps. In time, the landscape around a hag's lair reflects the creature's noxiousness, such that the land itself can attack and kill trespassers. Trees twisted by darkness attack passersby, while vines snake through the undergrowth to snare and drag off creatures one at a time. Foul stinking fogs turn the air to poison, and conceal pools of quicksand and sinkholes that consume unwary wanderers."
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Hag Covens",
+											"entries": [
+												"When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.",
+												"A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.",
+												{
+													"type": "entries",
+													"name": "Shared Spellcasting",
+													"entries": [
+														"While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:",
+														{
+															"type": "list",
+															"style": "list-no-bullets",
+															"items": [
+																"1st level (4 slots): {@spell identify}, {@spell ray of sickness}",
+																"2nd level (3 slots): {@spell hold person}, {@spell locate object}",
+																"3rd level (3 slots): {@spell bestow curse}, {@spell counterspell}, {@spell lightning bolt}",
+																"4th level (3 slots): {@spell phantasmal killer}, {@spell polymorph}",
+																"5th level (2 slots): {@spell contact other plane}, {@spell scrying}",
+																"6th level (1 slot): {@spell eyebite}"
+															]
+														},
+														"For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Hag Eye",
+													"entries": [
+														"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and {@sense darkvision} with a radius of 60 feet. If it is destroyed, each coven member takes {@damage 3d10} psychic damage and is {@condition blinded} for 24 hours.",
+														"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Nikolai Wachter",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.",
+								"The noble's statistics can also be used to represent courtiers who aren't of noble birth."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Nikolai%20Wachter.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Otto Belview",
 			"source": "CoS",
 			"images": [
@@ -1020,6 +1744,30 @@
 					},
 					"width": 865,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Otto%20Belview.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Parriwimple",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Gladiators battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-or-death struggle, while others are professional duelists who command huge fees but rarely fight to the death."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1035,6 +1783,13 @@
 					},
 					"width": 300,
 					"height": 369
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Patrina%20Velikovna.webp"
+					}
 				}
 			]
 		},
@@ -1100,6 +1855,65 @@
 			]
 		},
 		{
+			"name": "Phantom Warrior (Archer)",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"A phantom warrior is the spectral remnant of a willful soldier or knight who perished on the battlefield or died performing its sworn duty. It appears like a translucent version of its living self.",
+										{
+											"type": "entries",
+											"name": "Task Driven",
+											"entries": [
+												"Although one is often mistaken for a ghost, a phantom warrior isn't bound by a yearning to complete some unresolved goal. It can choose to end its undead existence at any time. Its spirit lingers willingly, either out of loyalty to its former master or because it believes it must perform a task to satisfy its honor or sense of duty. For example, a guard who dies defending a wall might return as a phantom warrior and continue guarding the wall, then disappear forever once a new guard assumes its post or the wall is destroyed. The period between the time it died and the time it rises as a phantom warrior is usually 24 hours."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Faded Memories",
+											"entries": [
+												"A phantom warrior retains the alignment and personality it had before it died, and it remembers how it died. Memories of its life from shortly before it died are hazy, and older memories are forgotten. A phantom warrior can usually remember the last {@dice 1d10 + 10} days of its life; everything that happened before that is an impenetrable fog."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Forceful Presence",
+											"entries": [
+												"Although they are incorporeal, phantom warriors can harness the energy around them to deflect incoming attacks and strike with great force. An {@condition invisible} sheath of energy surrounds a phantom warrior's ghostly armor, shields, and weapons, which become as hard as steel yet don't impede the warrior's ability to move through walls and other solid objects."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Undead Nature",
+											"entries": [
+												"A phantom warrior doesn't require air, food, drink, or sleep."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Phantom%20Warrior%20(Archer).webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Piccolo",
 			"source": "CoS",
 			"images": [
@@ -1111,6 +1925,13 @@
 					},
 					"width": 921,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Piccolo.webp"
+					}
 				}
 			]
 		},
@@ -1382,6 +2203,39 @@
 					},
 					"width": 526,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Rosavalda%20Rose%20Durst.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Savid",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Scouts are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Savid.webp"
+					}
 				}
 			]
 		},
@@ -1397,6 +2251,102 @@
 					},
 					"width": 757,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Sir%20Godfrey%20Gwilym.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Snow Maiden",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A specter is the angry, unfettered spirit of a humanoid that has been prevented from passing to the afterlife. Specters no longer possess connections to who or what they were, yet are condemned to walk the world forever. Some are spawned when dark magic or the touch of a wraith rips a soul from a living body.",
+								{
+									"type": "entries",
+									"name": "Beyond Redemption",
+									"entries": [
+										"When a ghost's unfinished business is completed, it can rest at last. No such rest or redemption awaits a specter. It is doomed to the Material Plane, its only end the oblivion that comes with the destruction of its soul. Until then, it bears out its lonely life in forlorn places, carrying on forgotten through the ages of the world."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undying Hatred",
+									"entries": [
+										"Living creatures remind the specter that life is beyond its grasp. The mere sight of the living overwhelms a specter with sorrow and wrath, which can be abated only by destroying said life. A specter kills quickly and mercilessly, for only by depriving others of life can it gain the slightest satisfaction. However, no matter how many lives it extinguishes, a specter always succumbs to its hatred and sorrow.",
+										{
+											"type": "entries",
+											"name": "Dwellers in Darkness",
+											"entries": [
+												"Sunlight represents a source of life that no specter can ever hope to douse, and it pains them. When night falls, they leave their final resting places in search of living creatures to slay, knowing that few weapons can harm them in return.",
+												"At the first light of dawn, they retreat back into the darkness, where they remain until night falls again."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A specter doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Snow%20Maiden.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Stanimir",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stella Wachter",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1604,6 +2554,53 @@
 					},
 					"width": 697,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Szoldar%20Szoldarovich.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "The Abbot",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/The%20Abbot.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "The Mad Mage of Mount Baratok",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Archmages are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.",
+								"An archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/The%20Mad%20Mage%20of%20Mount%20Baratok.webp"
+					}
 				}
 			]
 		},
@@ -1619,6 +2616,13 @@
 					},
 					"width": 526,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Thornboldt%20Thorn%20Durst.webp"
+					}
 				}
 			]
 		},
@@ -1670,6 +2674,75 @@
 			]
 		},
 		{
+			"name": "Urwin Martikov",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Wereravens are secretive and extraordinarily cautious lycanthropes that trust one another but are wary of just about everyone else. Although skilled at blending into society, they keep mostly to themselves, respect local laws, and strive to do good whenever possible.",
+								"In their human and hybrid forms, wereravens favor light weapons. They are reluctant to make bite attacks in raven form for fear of spreading their curse to those who don't deserve it or who would abuse it.",
+								{
+									"type": "entries",
+									"name": "A Kindness of Wereravens",
+									"entries": [
+										"Wereravens refer to their tightly knit groups as kindnesses. A kindness of wereravens usually numbers between seven and twelve individuals. Not surprisingly, wereravens get along well with ravens and often hide in plain sight among them."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Charitable Collectors",
+									"entries": [
+										"Wereravens like to collect shiny trinkets and precious baubles. They are fond of sharing their wealth with those in need and, in their humanoid forms, modestly give money to charity. They take steps to keep magic items out of evil hands by stashing them in secret hiding places."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Characters as Wereravens",
+									"entries": [
+										"The Monster Manual has rules for characters afflicted with lycanthropy. The following text applies to wereraven characters specifically.",
+										"A character cursed with wereraven lycanthropy gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the wereraven's bite are based on whichever is higher of the character's Strength and Dexterity. The bite of a wereraven in raven form deals 1 piercing damage (no ability modifier applies to this damage) and carries the curse of lycanthropy; see the \"Player Characters as Lycanthropes\" sidebar in the lycanthropes entry in the Monster Manual for details."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Urwin%20Martikov.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Urwin%20Martikov%20(2).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Vasilka",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Vasilka.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Victor Vallakovich",
 			"source": "CoS",
 			"images": [
@@ -1681,6 +2754,13 @@
 					},
 					"width": 1000,
 					"height": 654
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Victor%20Vallakovich.webp"
+					}
 				}
 			]
 		},
@@ -1696,6 +2776,85 @@
 					},
 					"width": 845,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Vilnius.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Vistana Assassin",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Vistana%20Assassin.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Vistana Bandit",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.",
+								"Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Vistana Bandit Captain",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades.",
+								"In addition to managing a crew of selfish malcontents, the pirate captain is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis.",
+								"More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Vistana%20Bandit%20Captain.webp"
+					}
 				}
 			]
 		},
@@ -1711,6 +2870,82 @@
 					},
 					"width": 2018,
 					"height": 2235
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Vistana%20Commoner.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Vistana Guard",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Vistana Spy",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Vistana%20Spy.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Vistana Thug",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Thugs are ruthless enforcers skilled at intimidation and violence. They work for money and have few scruples."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Vistana%20Thug.webp"
+					}
 				}
 			]
 		},
@@ -1845,6 +3080,36 @@
 			]
 		},
 		{
+			"name": "Volenta Popofsky",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Volenta%20Popofsky.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Walking Corpse",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Yevgeni Krushkin",
 			"source": "CoS",
 			"images": [
@@ -1856,6 +3121,69 @@
 					},
 					"width": 774,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Yevgeni%20Krushkin.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Young Wereraven",
+			"source": "CoS",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Wereravens are secretive and extraordinarily cautious lycanthropes that trust one another but are wary of just about everyone else. Although skilled at blending into society, they keep mostly to themselves, respect local laws, and strive to do good whenever possible.",
+								"In their human and hybrid forms, wereravens favor light weapons. They are reluctant to make bite attacks in raven form for fear of spreading their curse to those who don't deserve it or who would abuse it.",
+								{
+									"type": "entries",
+									"name": "A Kindness of Wereravens",
+									"entries": [
+										"Wereravens refer to their tightly knit groups as kindnesses. A kindness of wereravens usually numbers between seven and twelve individuals. Not surprisingly, wereravens get along well with ravens and often hide in plain sight among them."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Charitable Collectors",
+									"entries": [
+										"Wereravens like to collect shiny trinkets and precious baubles. They are fond of sharing their wealth with those in need and, in their humanoid forms, modestly give money to charity. They take steps to keep magic items out of evil hands by stashing them in secret hiding places."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Characters as Wereravens",
+									"entries": [
+										"The Monster Manual has rules for characters afflicted with lycanthropy. The following text applies to wereraven characters specifically.",
+										"A character cursed with wereraven lycanthropy gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the wereraven's bite are based on whichever is higher of the character's Strength and Dexterity. The bite of a wereraven in raven form deals 1 piercing damage (no ability modifier applies to this damage) and carries the curse of lycanthropy; see the \"Player Characters as Lycanthropes\" sidebar in the lycanthropes entry in the Monster Manual for details."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Young%20Wereraven.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Young%20Wereraven%20(2).webp"
+					}
 				}
 			]
 		},
@@ -1871,6 +3199,13 @@
 					},
 					"width": 804,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Zuleika%20Toranescu.webp"
+					}
 				}
 			]
 		},
@@ -1886,6 +3221,13 @@
 					},
 					"width": 901,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/CoS/Zygfrek%20Belview.webp"
+					}
 				}
 			]
 		}

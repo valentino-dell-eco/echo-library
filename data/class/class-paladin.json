@@ -702,7 +702,7 @@
 			"name": "Channel Divinity",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -714,7 +714,7 @@
 			"name": "Oath Spells",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -760,7 +760,7 @@
 			"name": "Sacred Weapon",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -773,7 +773,7 @@
 			"name": "Tenets of Devotion",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -845,7 +845,7 @@
 			"name": "Turn the Unholy",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -858,7 +858,7 @@
 			"name": "Oath of Devotion",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -866,23 +866,23 @@
 				"The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels—the perfect servants of good—as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|XPHB|Devotion|PHB|3|PHB"
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Devotion|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|XPHB|Devotion|PHB|3|PHB"
+					"subclassFeature": "Oath Spells|Paladin|PHB|Devotion|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sacred Weapon|Paladin|XPHB|Devotion|PHB|3|PHB"
+					"subclassFeature": "Sacred Weapon|Paladin|PHB|Devotion|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Devotion|Paladin|XPHB|Devotion|PHB|3|PHB"
+					"subclassFeature": "Tenets of Devotion|Paladin|PHB|Devotion|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Turn the Unholy|Paladin|XPHB|Devotion|PHB|3|PHB"
+					"subclassFeature": "Turn the Unholy|Paladin|PHB|Devotion|PHB|3|PHB"
 				}
 			]
 		},
@@ -890,7 +890,7 @@
 			"name": "Aura of Devotion",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -903,7 +903,7 @@
 			"name": "Purity of Spirit",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -915,7 +915,7 @@
 			"name": "Holy Nimbus",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 20,
@@ -930,7 +930,7 @@
 			"name": "Channel Divinity",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -942,7 +942,7 @@
 			"name": "Nature's Wrath",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -954,7 +954,7 @@
 			"name": "Oath Spells",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1000,7 +1000,7 @@
 			"name": "Tenets of the Ancients",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1060,7 +1060,7 @@
 			"name": "Turn the Faithless",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1074,7 +1074,7 @@
 			"name": "Oath of the Ancients",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1082,23 +1082,23 @@
 				"The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light in the world.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|XPHB|Ancients|PHB|3|PHB"
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Ancients|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Nature's Wrath|Paladin|XPHB|Ancients|PHB|3|PHB"
+					"subclassFeature": "Nature's Wrath|Paladin|PHB|Ancients|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|XPHB|Ancients|PHB|3|PHB"
+					"subclassFeature": "Oath Spells|Paladin|PHB|Ancients|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Ancients|Paladin|XPHB|Ancients|PHB|3|PHB"
+					"subclassFeature": "Tenets of the Ancients|Paladin|PHB|Ancients|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Turn the Faithless|Paladin|XPHB|Ancients|PHB|3|PHB"
+					"subclassFeature": "Turn the Faithless|Paladin|PHB|Ancients|PHB|3|PHB"
 				}
 			]
 		},
@@ -1106,7 +1106,7 @@
 			"name": "Aura of Warding",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1119,7 +1119,7 @@
 			"name": "Undying Sentinel",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1132,7 +1132,7 @@
 			"name": "Elder Champion",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 20,
@@ -1154,7 +1154,7 @@
 			"name": "Abjure Enemy",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1168,7 +1168,7 @@
 			"name": "Channel Divinity",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1180,7 +1180,7 @@
 			"name": "Oath Spells",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1226,7 +1226,7 @@
 			"name": "Tenets of Vengeance",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1286,7 +1286,7 @@
 			"name": "Vow of Enmity",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1298,7 +1298,7 @@
 			"name": "Oath of Vengeance",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1306,23 +1306,23 @@
 				"The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins—sometimes called avengers or dark knights—their own purity is not as important as delivering justice.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Abjure Enemy|Paladin|XPHB|Vengeance|PHB|3|PHB"
+					"subclassFeature": "Abjure Enemy|Paladin|PHB|Vengeance|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|XPHB|Vengeance|PHB|3|PHB"
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Vengeance|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|XPHB|Vengeance|PHB|3|PHB"
+					"subclassFeature": "Oath Spells|Paladin|PHB|Vengeance|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Vengeance|Paladin|XPHB|Vengeance|PHB|3|PHB"
+					"subclassFeature": "Tenets of Vengeance|Paladin|PHB|Vengeance|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Vow of Enmity|Paladin|XPHB|Vengeance|PHB|3|PHB"
+					"subclassFeature": "Vow of Enmity|Paladin|PHB|Vengeance|PHB|3|PHB"
 				}
 			]
 		},
@@ -1330,7 +1330,7 @@
 			"name": "Relentless Avenger",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1342,7 +1342,7 @@
 			"name": "Soul of Vengeance",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1354,7 +1354,7 @@
 			"name": "Avenging Angel",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 20,
@@ -1374,7 +1374,7 @@
 			"name": "Channel Divinity",
 			"source": "DMG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Oathbreaker",
 			"subclassSource": "DMG",
 			"level": 3,
@@ -1386,7 +1386,7 @@
 			"name": "Control Undead",
 			"source": "DMG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Oathbreaker",
 			"subclassSource": "DMG",
 			"level": 3,
@@ -1398,7 +1398,7 @@
 			"name": "Dreadful Aspect",
 			"source": "DMG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Oathbreaker",
 			"subclassSource": "DMG",
 			"level": 3,
@@ -1410,7 +1410,7 @@
 			"name": "Oathbreaker Spells",
 			"source": "DMG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Oathbreaker",
 			"subclassSource": "DMG",
 			"level": 3,
@@ -1456,7 +1456,7 @@
 			"name": "Oathbreaker",
 			"source": "DMG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Oathbreaker",
 			"subclassSource": "DMG",
 			"level": 3,
@@ -1465,19 +1465,19 @@
 				"A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|XPHB|Oathbreaker|DMG|3|DMG"
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Oathbreaker|DMG|3|DMG"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Control Undead|Paladin|XPHB|Oathbreaker|DMG|3|DMG"
+					"subclassFeature": "Control Undead|Paladin|PHB|Oathbreaker|DMG|3|DMG"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dreadful Aspect|Paladin|XPHB|Oathbreaker|DMG|3|DMG"
+					"subclassFeature": "Dreadful Aspect|Paladin|PHB|Oathbreaker|DMG|3|DMG"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oathbreaker Spells|Paladin|XPHB|Oathbreaker|DMG|3|DMG"
+					"subclassFeature": "Oathbreaker Spells|Paladin|PHB|Oathbreaker|DMG|3|DMG"
 				}
 			]
 		},
@@ -1485,7 +1485,7 @@
 			"name": "Aura of Hate",
 			"source": "DMG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Oathbreaker",
 			"subclassSource": "DMG",
 			"level": 7,
@@ -1498,7 +1498,7 @@
 			"name": "Supernatural Resistance",
 			"source": "DMG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Oathbreaker",
 			"subclassSource": "DMG",
 			"level": 15,
@@ -1510,7 +1510,7 @@
 			"name": "Dread Lord",
 			"source": "DMG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Oathbreaker",
 			"subclassSource": "DMG",
 			"level": 20,
@@ -1524,7 +1524,7 @@
 			"name": "Champion Challenge",
 			"source": "SCAG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Crown",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1536,7 +1536,7 @@
 			"name": "Channel Divinity",
 			"source": "SCAG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Crown",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1548,7 +1548,7 @@
 			"name": "Oath Spells",
 			"source": "SCAG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Crown",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1594,7 +1594,7 @@
 			"name": "Tenets of the Crown",
 			"source": "SCAG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Crown",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1654,7 +1654,7 @@
 			"name": "Turn the Tide",
 			"source": "SCAG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Crown",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1666,7 +1666,7 @@
 			"name": "Oath of the Crown",
 			"source": "SCAG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Crown",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1674,23 +1674,23 @@
 				"The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Champion Challenge|Paladin|XPHB|Crown|SCAG|3|SCAG"
+					"subclassFeature": "Champion Challenge|Paladin|PHB|Crown|SCAG|3|SCAG"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|XPHB|Crown|SCAG|3|SCAG"
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Crown|SCAG|3|SCAG"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|XPHB|Crown|SCAG|3|SCAG"
+					"subclassFeature": "Oath Spells|Paladin|PHB|Crown|SCAG|3|SCAG"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Crown|Paladin|XPHB|Crown|SCAG|3|SCAG"
+					"subclassFeature": "Tenets of the Crown|Paladin|PHB|Crown|SCAG|3|SCAG"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Turn the Tide|Paladin|XPHB|Crown|SCAG|3|SCAG"
+					"subclassFeature": "Turn the Tide|Paladin|PHB|Crown|SCAG|3|SCAG"
 				}
 			]
 		},
@@ -1698,7 +1698,7 @@
 			"name": "Divine Allegiance",
 			"source": "SCAG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Crown",
 			"subclassSource": "SCAG",
 			"level": 7,
@@ -1710,7 +1710,7 @@
 			"name": "Unyielding Spirit",
 			"source": "SCAG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Crown",
 			"subclassSource": "SCAG",
 			"level": 15,
@@ -1722,7 +1722,7 @@
 			"name": "Exalted Champion",
 			"source": "SCAG",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Crown",
 			"subclassSource": "SCAG",
 			"level": 20,
@@ -1743,7 +1743,7 @@
 			"name": "Channel Divinity",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Conquest",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1755,7 +1755,7 @@
 			"name": "Conquering Presence",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Conquest",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1767,7 +1767,7 @@
 			"name": "Guided Strike",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Conquest",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1779,7 +1779,7 @@
 			"name": "Oath Spells",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Conquest",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1825,7 +1825,7 @@
 			"name": "Tenets of Conquest",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Conquest",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1863,7 +1863,7 @@
 			"name": "Oath of Conquest",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Conquest",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1872,23 +1872,23 @@
 				"Some of these paladins go so far as to consort with the powers of the Nine Hells, valuing the rule of law over the balm of mercy. The archdevil Bel, warlord of Avernus, counts many of these paladins—called hell knights—as his most ardent supporters. Hell knights cover their armor with trophies taken from fallen enemies, a grim warning to any who dare oppose them and the decrees of their lords. These knights are often most fiercely resisted by other paladins of this oath, who believe that the hell knights have wandered too far into darkness.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|XPHB|Conquest|XGE|3|XGE"
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Conquest|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Conquering Presence|Paladin|XPHB|Conquest|XGE|3|XGE"
+					"subclassFeature": "Conquering Presence|Paladin|PHB|Conquest|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Guided Strike|Paladin|XPHB|Conquest|XGE|3|XGE"
+					"subclassFeature": "Guided Strike|Paladin|PHB|Conquest|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|XPHB|Conquest|XGE|3|XGE"
+					"subclassFeature": "Oath Spells|Paladin|PHB|Conquest|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Conquest|Paladin|XPHB|Conquest|XGE|3|XGE"
+					"subclassFeature": "Tenets of Conquest|Paladin|PHB|Conquest|XGE|3|XGE"
 				}
 			]
 		},
@@ -1896,7 +1896,7 @@
 			"name": "Aura of Conquest",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Conquest",
 			"subclassSource": "XGE",
 			"level": 7,
@@ -1910,7 +1910,7 @@
 			"name": "Scornful Rebuke",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Conquest",
 			"subclassSource": "XGE",
 			"level": 15,
@@ -1922,7 +1922,7 @@
 			"name": "Invincible Conqueror",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Conquest",
 			"subclassSource": "XGE",
 			"level": 20,
@@ -1943,7 +1943,7 @@
 			"name": "Channel Divinity",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Redemption",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1955,7 +1955,7 @@
 			"name": "Emissary of Peace",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Redemption",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1967,7 +1967,7 @@
 			"name": "Oath Spells",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Redemption",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -2013,7 +2013,7 @@
 			"name": "Rebuke the Violent",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Redemption",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -2025,7 +2025,7 @@
 			"name": "Tenets of Redemption",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Redemption",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -2085,7 +2085,7 @@
 			"name": "Oath of Redemption",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Redemption",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -2094,23 +2094,23 @@
 				"While redeemers are idealists, they are no fools. Redeemers know that undead, demons, devils, and other supernatural threats can be inherently evil. Against such foes, paladins who swear this oath bring the full wrath of their weapons and spells to bear. Yet the redeemers still pray that, one day, even creatures of wickedness will invite their own redemption.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|XPHB|Redemption|XGE|3|XGE"
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Redemption|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Emissary of Peace|Paladin|XPHB|Redemption|XGE|3|XGE"
+					"subclassFeature": "Emissary of Peace|Paladin|PHB|Redemption|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|XPHB|Redemption|XGE|3|XGE"
+					"subclassFeature": "Oath Spells|Paladin|PHB|Redemption|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Rebuke the Violent|Paladin|XPHB|Redemption|XGE|3|XGE"
+					"subclassFeature": "Rebuke the Violent|Paladin|PHB|Redemption|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Redemption|Paladin|XPHB|Redemption|XGE|3|XGE"
+					"subclassFeature": "Tenets of Redemption|Paladin|PHB|Redemption|XGE|3|XGE"
 				}
 			]
 		},
@@ -2118,7 +2118,7 @@
 			"name": "Aura of the Guardian",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Redemption",
 			"subclassSource": "XGE",
 			"level": 7,
@@ -2131,7 +2131,7 @@
 			"name": "Protective Spirit",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Redemption",
 			"subclassSource": "XGE",
 			"level": 15,
@@ -2143,7 +2143,7 @@
 			"name": "Emissary of Redemption",
 			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Redemption",
 			"subclassSource": "XGE",
 			"level": 20,
@@ -2163,7 +2163,7 @@
 			"name": "Channel Divinity",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glory",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2176,7 +2176,7 @@
 			"name": "Oath Spells",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glory",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2223,7 +2223,7 @@
 			"name": "Tenets of Glory",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glory",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2263,7 +2263,7 @@
 			"name": "Inspiring Smite",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glory",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2275,7 +2275,7 @@
 			"name": "Peerless Athlete",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glory",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2287,7 +2287,7 @@
 			"name": "Oath of Glory",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glory",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2295,23 +2295,23 @@
 				"Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions so they're all ready when destiny calls.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|XPHB|Glory|TCE|3|TCE"
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Glory|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|XPHB|Glory|TCE|3|TCE"
+					"subclassFeature": "Oath Spells|Paladin|PHB|Glory|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Glory|Paladin|XPHB|Glory|TCE|3|TCE"
+					"subclassFeature": "Tenets of Glory|Paladin|PHB|Glory|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Inspiring Smite|Paladin|XPHB|Glory|TCE|3|TCE"
+					"subclassFeature": "Inspiring Smite|Paladin|PHB|Glory|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Peerless Athlete|Paladin|XPHB|Glory|TCE|3|TCE"
+					"subclassFeature": "Peerless Athlete|Paladin|PHB|Glory|TCE|3|TCE"
 				}
 			]
 		},
@@ -2319,7 +2319,7 @@
 			"name": "Aura of Alacrity",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glory",
 			"subclassSource": "TCE",
 			"level": 7,
@@ -2333,7 +2333,7 @@
 			"name": "Glorious Defense",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glory",
 			"subclassSource": "TCE",
 			"level": 15,
@@ -2347,7 +2347,7 @@
 			"name": "Living Legend",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Glory",
 			"subclassSource": "TCE",
 			"level": 20,
@@ -2369,7 +2369,7 @@
 			"name": "Channel Divinity",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Watchers",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2382,7 +2382,7 @@
 			"name": "Oath Spells",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Watchers",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2429,7 +2429,7 @@
 			"name": "Tenets of the Watchers",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Watchers",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2462,7 +2462,7 @@
 			"name": "Abjure the Extraplanar",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Watchers",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2475,7 +2475,7 @@
 			"name": "Watcher's Will",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Watchers",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2487,7 +2487,7 @@
 			"name": "Oath of the Watchers",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Watchers",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2496,23 +2496,23 @@
 				"Paladins who follow the Watchers' oath are ever vigilant in spotting the influence of extraplanar forces, often establishing a network of spies and informants to gather information on suspected cults. To a Watcher, keeping a healthy suspicion and awareness about one's surroundings is as natural as wearing armor in battle.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|XPHB|Watchers|TCE|3|TCE"
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Watchers|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|XPHB|Watchers|TCE|3|TCE"
+					"subclassFeature": "Oath Spells|Paladin|PHB|Watchers|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Watchers|Paladin|XPHB|Watchers|TCE|3|TCE"
+					"subclassFeature": "Tenets of the Watchers|Paladin|PHB|Watchers|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Abjure the Extraplanar|Paladin|XPHB|Watchers|TCE|3|TCE"
+					"subclassFeature": "Abjure the Extraplanar|Paladin|PHB|Watchers|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Watcher's Will|Paladin|XPHB|Watchers|TCE|3|TCE"
+					"subclassFeature": "Watcher's Will|Paladin|PHB|Watchers|TCE|3|TCE"
 				}
 			]
 		},
@@ -2520,7 +2520,7 @@
 			"name": "Aura of the Sentinel",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Watchers",
 			"subclassSource": "TCE",
 			"level": 7,
@@ -2534,7 +2534,7 @@
 			"name": "Vigilant Rebuke",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Watchers",
 			"subclassSource": "TCE",
 			"level": 15,
@@ -2547,7 +2547,7 @@
 			"name": "Mortal Bulwark",
 			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Watchers",
 			"subclassSource": "TCE",
 			"level": 20,
@@ -2568,255 +2568,363 @@
 	],
 	"subclass": [
 		{
-			"name": "Oath of Devotion",
 			"shortName": "Devotion",
-			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Oath of Devotion",
-				"source": "PHB",
-				"shortName": "Devotion",
-				"className": "Paladin",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"protection from evil and good",
+							"sanctuary"
+						],
+						"5": [
+							"lesser restoration",
+							"zone of truth"
+						],
+						"9": [
+							"beacon of hope",
+							"dispel magic"
+						],
+						"13": [
+							"freedom of movement",
+							"guardian of faith"
+						],
+						"17": [
+							"commune",
+							"flame strike"
+						]
+					}
 				}
-			},
+			],
+			"name": "Oath of Devotion",
+			"source": "PHB",
 			"subclassFeatures": [
-				"Oath of Devotion|Paladin|XPHB|Devotion|PHB|3|PHB",
-				"Aura of Devotion|Paladin|XPHB|Devotion|PHB|7|PHB",
-				"Purity of Spirit|Paladin|XPHB|Devotion|PHB|15|PHB",
-				"Holy Nimbus|Paladin|XPHB|Devotion|PHB|20|PHB"
+				"Oath of Devotion|Paladin|PHB|Devotion|PHB|3|PHB",
+				"Aura of Devotion|Paladin|PHB|Devotion|PHB|7|PHB",
+				"Purity of Spirit|Paladin|PHB|Devotion|PHB|15|PHB",
+				"Holy Nimbus|Paladin|PHB|Devotion|PHB|20|PHB"
 			]
 		},
 		{
-			"name": "Oath of the Ancients",
 			"shortName": "Ancients",
-			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Oath of the Ancients",
-				"source": "PHB",
-				"shortName": "Ancients",
-				"className": "Paladin",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"ensnaring strike",
+							"speak with animals"
+						],
+						"5": [
+							"moonbeam",
+							"misty step"
+						],
+						"9": [
+							"plant growth",
+							"protection from energy"
+						],
+						"13": [
+							"ice storm",
+							"stoneskin"
+						],
+						"17": [
+							"commune with nature",
+							"tree stride"
+						]
+					}
 				}
-			},
+			],
+			"name": "Oath of the Ancients",
+			"source": "PHB",
 			"subclassFeatures": [
-				"Oath of the Ancients|Paladin|XPHB|Ancients|PHB|3|PHB",
-				"Aura of Warding|Paladin|XPHB|Ancients|PHB|7|PHB",
-				"Undying Sentinel|Paladin|XPHB|Ancients|PHB|15|PHB",
-				"Elder Champion|Paladin|XPHB|Ancients|PHB|20|PHB"
+				"Oath of the Ancients|Paladin|PHB|Ancients|PHB|3|PHB",
+				"Aura of Warding|Paladin|PHB|Ancients|PHB|7|PHB",
+				"Undying Sentinel|Paladin|PHB|Ancients|PHB|15|PHB",
+				"Elder Champion|Paladin|PHB|Ancients|PHB|20|PHB"
 			]
 		},
 		{
-			"name": "Oath of Vengeance",
 			"shortName": "Vengeance",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"bane",
+							"hunter's mark"
+						],
+						"5": [
+							"hold person",
+							"misty step"
+						],
+						"9": [
+							"haste",
+							"protection from energy"
+						],
+						"13": [
+							"banishment",
+							"dimension door"
+						],
+						"17": [
+							"hold monster",
+							"scrying"
+						]
+					}
+				}
+			],
+			"name": "Oath of Vengeance",
 			"source": "PHB",
-			"className": "Paladin",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Oath of Vengeance",
-				"source": "PHB",
-				"shortName": "Vengeance",
-				"className": "Paladin",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Oath of Vengeance|Paladin|XPHB|Vengeance|PHB|3|PHB",
-				"Relentless Avenger|Paladin|XPHB|Vengeance|PHB|7|PHB",
-				"Soul of Vengeance|Paladin|XPHB|Vengeance|PHB|15|PHB",
-				"Avenging Angel|Paladin|XPHB|Vengeance|PHB|20|PHB"
+				"Oath of Vengeance|Paladin|PHB|Vengeance|PHB|3|PHB",
+				"Relentless Avenger|Paladin|PHB|Vengeance|PHB|7|PHB",
+				"Soul of Vengeance|Paladin|PHB|Vengeance|PHB|15|PHB",
+				"Avenging Angel|Paladin|PHB|Vengeance|PHB|20|PHB"
 			]
 		},
 		{
-			"name": "Oathbreaker",
 			"shortName": "Oathbreaker",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"hellish rebuke",
+							"inflict wounds"
+						],
+						"5": [
+							"crown of madness",
+							"darkness"
+						],
+						"9": [
+							"animate dead",
+							"bestow curse"
+						],
+						"13": [
+							"blight",
+							"confusion"
+						],
+						"17": [
+							"contagion",
+							"dominate person"
+						]
+					}
+				}
+			],
+			"name": "Oathbreaker",
 			"source": "DMG",
-			"className": "Paladin",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Oathbreaker",
-				"source": "DMG",
-				"shortName": "Oathbreaker",
-				"className": "Paladin",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Oathbreaker|Paladin|XPHB|Oathbreaker|DMG|3|DMG",
-				"Aura of Hate|Paladin|XPHB|Oathbreaker|DMG|7|DMG",
-				"Supernatural Resistance|Paladin|XPHB|Oathbreaker|DMG|15|DMG",
-				"Dread Lord|Paladin|XPHB|Oathbreaker|DMG|20|DMG"
+				"Oathbreaker|Paladin|PHB|Oathbreaker|DMG|3|DMG",
+				"Aura of Hate|Paladin|PHB|Oathbreaker|DMG|7|DMG",
+				"Supernatural Resistance|Paladin|PHB|Oathbreaker|DMG|15|DMG",
+				"Dread Lord|Paladin|PHB|Oathbreaker|DMG|20|DMG"
 			]
 		},
 		{
-			"name": "Oath of the Crown",
 			"shortName": "Crown",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"command",
+							"compelled duel"
+						],
+						"5": [
+							"warding bond",
+							"zone of truth"
+						],
+						"9": [
+							"aura of vitality",
+							"spirit guardians"
+						],
+						"13": [
+							"banishment",
+							"guardian of faith"
+						],
+						"17": [
+							"circle of power",
+							"geas"
+						]
+					}
+				}
+			],
+			"name": "Oath of the Crown",
 			"source": "SCAG",
-			"className": "Paladin",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Oath of the Crown",
-				"source": "SCAG",
-				"shortName": "Crown",
-				"className": "Paladin",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Oath of the Crown|Paladin|XPHB|Crown|SCAG|3|SCAG",
-				"Divine Allegiance|Paladin|XPHB|Crown|SCAG|7|SCAG",
-				"Unyielding Spirit|Paladin|XPHB|Crown|SCAG|15|SCAG",
-				"Exalted Champion|Paladin|XPHB|Crown|SCAG|20|SCAG"
+				"Oath of the Crown|Paladin|PHB|Crown|SCAG|3|SCAG",
+				"Divine Allegiance|Paladin|PHB|Crown|SCAG|7|SCAG",
+				"Unyielding Spirit|Paladin|PHB|Crown|SCAG|15|SCAG",
+				"Exalted Champion|Paladin|PHB|Crown|SCAG|20|SCAG"
 			]
 		},
 		{
-			"name": "Oath of Conquest",
 			"shortName": "Conquest",
-			"source": "XGE",
 			"className": "Paladin",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Oath of Conquest",
-				"source": "XGE",
-				"shortName": "Conquest",
-				"className": "Paladin",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"armor of Agathys",
+							"command"
+						],
+						"5": [
+							"hold person",
+							"spiritual weapon"
+						],
+						"9": [
+							"bestow curse",
+							"fear"
+						],
+						"13": [
+							"dominate beast",
+							"stoneskin"
+						],
+						"17": [
+							"cloudkill",
+							"dominate person"
+						]
+					}
 				}
-			},
+			],
+			"name": "Oath of Conquest",
+			"source": "XGE",
 			"subclassFeatures": [
-				"Oath of Conquest|Paladin|XPHB|Conquest|XGE|3|XGE",
-				"Aura of Conquest|Paladin|XPHB|Conquest|XGE|7|XGE",
-				"Scornful Rebuke|Paladin|XPHB|Conquest|XGE|15|XGE",
-				"Invincible Conqueror|Paladin|XPHB|Conquest|XGE|20|XGE"
+				"Oath of Conquest|Paladin|PHB|Conquest|XGE|3|XGE",
+				"Aura of Conquest|Paladin|PHB|Conquest|XGE|7|XGE",
+				"Scornful Rebuke|Paladin|PHB|Conquest|XGE|15|XGE",
+				"Invincible Conqueror|Paladin|PHB|Conquest|XGE|20|XGE"
 			]
 		},
 		{
-			"name": "Oath of Redemption",
 			"shortName": "Redemption",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"sanctuary",
+							"sleep"
+						],
+						"5": [
+							"calm emotions",
+							"hold person"
+						],
+						"9": [
+							"counterspell",
+							"hypnotic pattern"
+						],
+						"13": [
+							"Otiluke's Resilient Sphere",
+							"stoneskin"
+						],
+						"17": [
+							"hold monster",
+							"wall of force"
+						]
+					}
+				}
+			],
+			"name": "Oath of Redemption",
 			"source": "XGE",
-			"className": "Paladin",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Oath of Redemption",
-				"source": "XGE",
-				"shortName": "Redemption",
-				"className": "Paladin",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Oath of Redemption|Paladin|XPHB|Redemption|XGE|3|XGE",
-				"Aura of the Guardian|Paladin|XPHB|Redemption|XGE|7|XGE",
-				"Protective Spirit|Paladin|XPHB|Redemption|XGE|15|XGE",
-				"Emissary of Redemption|Paladin|XPHB|Redemption|XGE|20|XGE"
+				"Oath of Redemption|Paladin|PHB|Redemption|XGE|3|XGE",
+				"Aura of the Guardian|Paladin|PHB|Redemption|XGE|7|XGE",
+				"Protective Spirit|Paladin|PHB|Redemption|XGE|15|XGE",
+				"Emissary of Redemption|Paladin|PHB|Redemption|XGE|20|XGE"
 			]
 		},
 		{
-			"name": "Oath of Glory",
 			"shortName": "Glory",
-			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Oath of Glory",
-				"source": "TCE",
-				"shortName": "Glory",
-				"className": "Paladin",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"guiding bolt",
+							"heroism"
+						],
+						"5": [
+							"enhance ability",
+							"magic weapon"
+						],
+						"9": [
+							"haste",
+							"protection from energy"
+						],
+						"13": [
+							"compulsion",
+							"freedom of movement"
+						],
+						"17": [
+							"commune",
+							"flame strike"
+						]
+					}
 				}
-			},
+			],
+			"name": "Oath of Glory",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Oath of Glory|Paladin|XPHB|Glory|TCE|3|TCE",
-				"Aura of Alacrity|Paladin|XPHB|Glory|TCE|7|TCE",
-				"Glorious Defense|Paladin|XPHB|Glory|TCE|15|TCE",
-				"Living Legend|Paladin|XPHB|Glory|TCE|20|TCE"
+				"Oath of Glory|Paladin|PHB|Glory|TCE|3|TCE",
+				"Aura of Alacrity|Paladin|PHB|Glory|TCE|7|TCE",
+				"Glorious Defense|Paladin|PHB|Glory|TCE|15|TCE",
+				"Living Legend|Paladin|PHB|Glory|TCE|20|TCE"
 			]
 		},
 		{
-			"name": "Oath of the Watchers",
 			"shortName": "Watchers",
-			"source": "TCE",
 			"className": "Paladin",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Oath of the Watchers",
-				"source": "TCE",
-				"shortName": "Watchers",
-				"className": "Paladin",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"alarm",
+							"detect magic"
+						],
+						"5": [
+							"moonbeam",
+							"see invisibility"
+						],
+						"9": [
+							"counterspell",
+							"nondetection"
+						],
+						"13": [
+							"aura of purity",
+							"banishment"
+						],
+						"17": [
+							"hold monster",
+							"scrying"
+						]
+					}
 				}
-			},
+			],
+			"name": "Oath of the Watchers",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Oath of the Watchers|Paladin|XPHB|Watchers|TCE|3|TCE",
-				"Aura of the Sentinel|Paladin|XPHB|Watchers|TCE|7|TCE",
-				"Vigilant Rebuke|Paladin|XPHB|Watchers|TCE|15|TCE",
-				"Mortal Bulwark|Paladin|XPHB|Watchers|TCE|20|TCE"
+				"Oath of the Watchers|Paladin|PHB|Watchers|TCE|3|TCE",
+				"Aura of the Sentinel|Paladin|PHB|Watchers|TCE|7|TCE",
+				"Vigilant Rebuke|Paladin|PHB|Watchers|TCE|15|TCE",
+				"Mortal Bulwark|Paladin|PHB|Watchers|TCE|20|TCE"
 			]
 		}
 	]

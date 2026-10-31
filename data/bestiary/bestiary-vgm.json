@@ -3666,47 +3666,222 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Booyahg Booyahg Booyahg",
 			"shortName": "Goblin",
+			"tokenCustom": true,
+			"name": "Booyahg Booyahg Booyahg",
 			"source": "VGM",
 			"page": 43,
-			"_copy": {
-				"name": "Mage",
-				"source": "MM",
-				"_templates": [
-					{
-						"name": "Goblin",
-						"source": "DMG"
-					}
-				],
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "(^| )mage",
-						"with": "$1goblin"
-					},
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Wild Magic",
-							"entries": [
-								"Each time the goblin casts a spell (including cantrips), there is an accompanying surge of wild magic; roll on the {@table Wild Magic Surge|PHB} table in the {@book Player's Handbook|PHB} to determine the wild magic effect."
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DC",
+				"DIP",
+				"DSotDQ",
+				"EGW",
+				"ERLW",
+				"FS",
+				"GoS",
+				"HotDQ",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"LoX",
+				"MOT",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"PSI",
+				"QftIS",
+				"RoT",
+				"RtG",
+				"SatO",
+				"SCC-CK",
+				"SDW",
+				"SKT",
+				"SLW",
+				"TCE",
+				"ToA",
+				"ToFW",
+				"ToR",
+				"VEoR",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell$1goblin armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 11,
+			"int": 17,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+6",
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+6",
+				"history": "+6"
+			},
+			"passive": 11,
+			"languages": [
+				"any four languages"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The$1goblin is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The$1goblin has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell$1goblin hand}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell$1goblin armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell misty step}",
+								"{@spell suggestion}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fireball}",
+								"{@spell fly}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell greater invisibility}",
+								"{@spell ice storm}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell cone of cold}"
 							]
 						}
-					}
+					},
+					"ability": "int"
 				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or$1goblin) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"O"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"trait": [
+				{
+					"name": "Wild Magic",
+					"entries": [
+						"Each time the goblin casts a spell (including cantrips), there is an accompanying surge of wild magic; roll on the {@table Wild Magic Surge|PHB} table in the {@book Player's Handbook|PHB} to determine the wild magic effect."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/VGM/Booyahg%20Booyahg%20Booyahg.webp"
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
-			"name": "Booyahg Caster",
-			"source": "VGM",
-			"page": 42,
-			"_copy": {
-				"name": "Goblin",
-				"source": "MM"
-			},
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
@@ -3721,147 +3896,1005 @@
 			"spellcastingTags": [
 				"CW"
 			],
-			"hasToken": true
+			"name": "Booyahg Caster",
+			"source": "VGM",
+			"page": 42,
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CRCotN",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HftT",
+				"IDRotF",
+				"KKW",
+				"LMoP",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"RMBRE",
+				"SatO",
+				"SKT",
+				"TCE",
+				"TftYP",
+				"TftYP-TSC",
+				"ToA",
+				"US",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"grassland",
+				"forest",
+				"hill"
+			],
+			"attachedItems": [
+				"scimitar|phb",
+				"shortbow|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/VGM/Booyahg%20Caster.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
+			"shortName": "Goblin",
+			"tokenCustom": true,
 			"name": "Booyahg Slave of the Archfey",
-			"shortName": "Goblin",
 			"source": "VGM",
 			"page": 42,
-			"_copy": {
-				"name": "Warlock of the Archfey",
-				"source": "VGM",
-				"_templates": [
-					{
-						"name": "Goblin",
-						"source": "DMG"
-					}
-				],
-				"_mod": {
-					"*": [
-						{
-							"mode": "replaceTxt",
-							"replace": "The warlock",
-							"with": "The goblin"
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				11,
+				{
+					"ac": 14,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 49,
+				"formula": "11d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 13,
+			"con": 11,
+			"int": 11,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"wis": "+3",
+				"cha": "+6"
+			},
+			"skill": {
+				"arcana": "+2",
+				"deception": "+6",
+				"nature": "+2",
+				"persuasion": "+6"
+			},
+			"passive": 11,
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"any two languages (usually Sylvan)"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The goblin's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 15}), requiring no material components:"
+					],
+					"will": [
+						"{@spell disguise self}",
+						"{@spell mage armor} (self only)",
+						"{@spell silent image}",
+						"{@spell speak with animals}"
+					],
+					"daily": {
+						"1": [
+							"{@spell conjure fey}"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The goblin is an 11th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell dancing lights}",
+								"{@spell eldritch blast}",
+								"{@spell friends}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell vicious mockery}"
+							]
 						},
-						{
-							"mode": "replaceTxt",
-							"replace": "the warlock",
-							"with": "the goblin"
+						"5": {
+							"lower": 1,
+							"slots": 3,
+							"spells": [
+								"{@spell blink}",
+								"{@spell charm person}",
+								"{@spell dimension door}",
+								"{@spell dominate beast}",
+								"{@spell faerie fire}",
+								"{@spell fear}",
+								"{@spell hold monster}",
+								"{@spell misty step}",
+								"{@spell phantasmal force}",
+								"{@spell seeming}",
+								"{@spell sleep}"
+							]
 						}
+					},
+					"ability": "cha"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
 					]
 				}
+			],
+			"reaction": [
+				{
+					"name": "Misty Escape (Recharges after a Short or Long Rest)",
+					"entries": [
+						"In response to taking damage, the goblin turns {@condition invisible} and teleports up to 60 feet to an unoccupied space it can see. It remains {@condition invisible} until the start of its next turn or until it attacks, makes a damage roll, or casts a spell."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"forest",
+				"mountain",
+				"swamp",
+				"urban"
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"languageTags": [
+				"S",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"O",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"unconscious"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"dexterity",
+				"intelligence",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/VGM/Booyahg%20Slave%20of%20the%20Archfey.webp"
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
+			"shortName": "Goblin",
+			"tokenCustom": true,
 			"name": "Booyahg Slave of the Fiend",
-			"shortName": "Goblin",
 			"source": "VGM",
 			"page": 42,
-			"_copy": {
-				"name": "Warlock of the Fiend",
-				"source": "VGM",
-				"_templates": [
-					{
-						"name": "Goblin",
-						"source": "DMG"
-					}
-				],
-				"_mod": {
-					"*": [
-						{
-							"mode": "replaceTxt",
-							"replace": "The warlock",
-							"with": "The goblin"
+			"referenceSources": [
+				"IMR"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 12,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"wis": "+4",
+				"cha": "+7"
+			},
+			"skill": {
+				"arcana": "+4",
+				"deception": "+7",
+				"persuasion": "+7",
+				"religion": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				{
+					"resist": [
+						"slashing"
+					],
+					"note": "from nonmagical attacks not made with silvered weapons",
+					"cond": true
+				}
+			],
+			"languages": [
+				"any two languages (usually Abyssal or Infernal)"
+			],
+			"cr": "7",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The goblin's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 15}), requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell false life}",
+						"{@spell levitate} (self only)",
+						"{@spell mage armor} (self only)",
+						"{@spell silent image}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell feeblemind}",
+							"{@spell finger of death}",
+							"{@spell plane shift}"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The goblin is a 17th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell eldritch blast}",
+								"{@spell fire bolt}",
+								"{@spell friends}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
 						},
-						{
-							"mode": "replaceTxt",
-							"replace": "the warlock",
-							"with": "the goblin"
+						"5": {
+							"lower": 1,
+							"slots": 4,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell burning hands}",
+								"{@spell flame strike}",
+								"{@spell hellish rebuke}",
+								"{@spell magic circle}",
+								"{@spell scorching ray}",
+								"{@spell scrying}",
+								"{@spell stinking cloud}",
+								"{@spell suggestion}",
+								"{@spell wall of fire}"
+							]
 						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dark One's Own Luck (Recharges after a Short or Long Rest)",
+					"entries": [
+						"When the goblin makes an ability check or saving throw, it can add a {@dice d10} to the roll. It can do this after the roll is made but before any of the roll's effects occur."
 					]
 				}
+			],
+			"action": [
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage plus 10 ({@damage 3d6}) fire damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"desert",
+				"underdark",
+				"urban"
+			],
+			"attachedItems": [
+				"mace|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"I",
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"L",
+				"N",
+				"O",
+				"P",
+				"R",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/VGM/Booyahg%20Slave%20of%20the%20Fiend.webp"
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
+			"shortName": "Goblin",
+			"tokenCustom": true,
 			"name": "Booyahg Slave of the Great Old One",
-			"shortName": "Goblin",
 			"source": "VGM",
 			"page": 42,
-			"_copy": {
-				"name": "Warlock of the Great Old One",
-				"source": "VGM",
-				"_templates": [
-					{
-						"name": "Goblin",
-						"source": "DMG"
-					}
-				],
-				"_mod": {
-					"*": [
-						{
-							"mode": "replaceTxt",
-							"replace": "The warlock",
-							"with": "The goblin"
+			"referenceSources": [
+				"IMR"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 91,
+				"formula": "14d8 + 28"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 15,
+			"int": 12,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"wis": "+4",
+				"cha": "+7"
+			},
+			"skill": {
+				"arcana": "+4",
+				"history": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"psychic"
+			],
+			"languages": [
+				"any two languages",
+				"telepathy 30 ft."
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The goblin's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 15}), requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell jump}",
+						"{@spell levitate}",
+						"{@spell mage armor} (self only)",
+						"{@spell speak with dead}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell arcane gate}",
+							"{@spell true seeing}"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The goblin is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell eldritch blast}",
+								"{@spell guidance}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
 						},
-						{
-							"mode": "replaceTxt",
-							"replace": "the warlock",
-							"with": "the goblin"
+						"5": {
+							"lower": 1,
+							"slots": 3,
+							"spells": [
+								"{@spell armor of Agathys}",
+								"{@spell arms of Hadar}",
+								"{@spell crown of madness}",
+								"{@spell clairvoyance}",
+								"{@spell contact other plane}",
+								"{@spell detect thoughts}",
+								"{@spell dimension door}",
+								"{@spell dissonant whispers}",
+								"{@spell dominate beast}",
+								"{@spell telekinesis}",
+								"{@spell vampiric touch}"
+							]
 						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Whispering Aura",
+					"entries": [
+						"At the start of each of the goblin's turns, each creature of its choice within 5 feet of it must succeed on a {@dc 15} Wisdom saving throw or take 10 ({@damage 3d6}) psychic damage, provided that the goblin isn't {@condition incapacitated}."
 					]
 				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"hill",
+				"mountain",
+				"underdark",
+				"urban"
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"TP",
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"C",
+				"L",
+				"N",
+				"O",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"intelligence",
+				"strength",
+				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/VGM/Booyahg%20Slave%20of%20the%20Great%20Old%20One.webp"
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
+			"tokenCustom": true,
 			"name": "Booyahg Whip",
 			"source": "VGM",
 			"page": 42,
-			"_copy": {
-				"name": "Goblin",
-				"source": "MM",
-				"_mod": {
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Khurgorbaeyag's Gift",
-							"entries": [
-								"Khurgorbaeyag saw fit to gift this goblin with powers that enable it to dominate others. The goblin has {@dice 1d3} other {@creature goblin||goblins} that slavishly obey its orders."
-							]
-						}
-					}
-				}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CRCotN",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HftT",
+				"IDRotF",
+				"KKW",
+				"LMoP",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"RMBRE",
+				"SatO",
+				"SKT",
+				"TCE",
+				"TftYP",
+				"TftYP-TSC",
+				"ToA",
+				"US",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Khurgorbaeyag's Gift",
+					"entries": [
+						"Khurgorbaeyag saw fit to gift this goblin with powers that enable it to dominate others. The goblin has {@dice 1d3} other {@creature goblin||goblins} that slavishly obey its orders."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"grassland",
+				"forest",
+				"hill"
+			],
+			"attachedItems": [
+				"scimitar|phb",
+				"shortbow|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/VGM/Booyahg%20Whip.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
+			"tokenCustom": true,
 			"name": "Booyahg Wielder",
 			"source": "VGM",
 			"page": 42,
-			"_copy": {
-				"name": "Goblin",
-				"source": "MM",
-				"_mod": {
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Special Equipment",
-							"entries": [
-								"The goblin found a magic item (a {@item necklace of fireballs}, a {@item circlet of blasting}, or the like) and learned how to use it."
-							]
-						}
-					}
-				}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CRCotN",
+				"DSotDQ",
+				"EFR",
+				"EGW",
+				"ERLW",
+				"GoS",
+				"HftT",
+				"IDRotF",
+				"KKW",
+				"LMoP",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"RMBRE",
+				"SatO",
+				"SKT",
+				"TCE",
+				"TftYP",
+				"TftYP-TSC",
+				"ToA",
+				"US",
+				"WBtW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
 			},
-			"tokenCustom": true,
-			"hasToken": true
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"The goblin found a magic item (a {@item necklace of fireballs}, a {@item circlet of blasting}, or the like) and learned how to use it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"grassland",
+				"forest",
+				"hill"
+			],
+			"attachedItems": [
+				"scimitar|phb",
+				"shortbow|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/VGM/Booyahg%20Wielder.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Brontosaurus",

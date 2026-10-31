@@ -1386,7 +1386,7 @@
 			}
 		],
 		"dateAdded": 1793294907,
-		"dateLastModified": 1793389653,
+		"dateLastModified": 1793484613,
 		"edition": "classic"
 	},
 	"object": [
@@ -47239,13 +47239,9 @@
 			"hasFluffImages": true
 		},
 		{
+			"lineage": null,
 			"name": "Boggart",
 			"source": "LFL",
-			"_copy": {
-				"name": "Goblin",
-				"source": "MPMM"
-			},
-			"lineage": null,
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -50098,82 +50094,9 @@
 			"hasFluffImages": true
 		},
 		{
+			"lineage": null,
 			"name": "Faerie",
 			"source": "LFL",
-			"_copy": {
-				"name": "Fairy",
-				"source": "MPMM",
-				"_mod": {
-					"entries": {
-						"mode": "appendArr",
-						"items": {
-							"type": "entries",
-							"name": "Faerie Lineage",
-							"entries": [
-								"As a native of either Lorwyn and Shadowmoor, you may gain additional traits.",
-								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"name": "Lorwyn",
-											"entries": [
-												"You do not gain any additional traits."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Shadowmoor",
-											"entries": [
-												"You have {@sense Darkvision|XPHB} with a range of 120 feet."
-											]
-										}
-									]
-								}
-							]
-						}
-					}
-				}
-			},
-			"lineage": null,
-			"_versions": [
-				{
-					"name": "Faerie; Lorwyn",
-					"source": "LFL",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "removeArr",
-								"names": "Faerie Lineage"
-							}
-						]
-					}
-				},
-				{
-					"name": "Faerie; Shadowmoor",
-					"source": "LFL",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "prependArr",
-								"items": {
-									"type": "entries",
-									"name": "Darkvision",
-									"entries": [
-										"You have {@sense Darkvision|XPHB} with a range of 120 feet."
-									]
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Faerie Lineage"
-							}
-						]
-					},
-					"darkvision": 120
-				}
-			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -50516,34 +50439,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Flamekin",
-			"source": "LFL",
-			"_copy": {
-				"name": "Genasi",
-				"source": "MPMM",
-				"_mod": {
-					"entries": {
-						"mode": "appendArr",
-						"items": [
-							{
-								"type": "entries",
-								"name": "Fire Resistance",
-								"entries": [
-									"You have resistance to fire damage."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Reach to the Blaze",
-								"entries": [
-									"You know the {@spell produce flame|XPHB} cantrip. Starting at 3rd level, you can cast the {@spell burning hands|XPHB} spell with this trait. Starting at 5th level, you can also cast the {@spell flame blade|XPHB} spell with this trait, without a material component. Once you cast {@spell burning hands|XPHB} or {@spell flame blade|XPHB} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
-									"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
-								]
-							}
-						]
-					}
-				}
-			},
 			"lineage": null,
 			"resist": [
 				"fire"
@@ -50580,6 +50475,8 @@
 					}
 				}
 			],
+			"name": "Flamekin",
+			"source": "LFL",
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -51573,47 +51470,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Goblin (Dankwood)",
-			"source": "AWM",
-			"page": 35,
-			"_copy": {
-				"name": "Goblin",
-				"source": "VGM",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "replaceTxt",
-							"replace": "Goblins",
-							"with": "Dankwood goblins",
-							"flags": "i"
-						},
-						{
-							"mode": "appendArr",
-							"items": {
-								"name": "Alignment",
-								"type": "entries",
-								"entries": [
-									"Dankwood goblins are typically neutral or neutral good, though some mischievous Dankwood goblins are chaotic neutral."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Fury of the Small",
-							"items": {
-								"name": "Speak with Small Beasts",
-								"type": "entries",
-								"entries": [
-									"Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Dankwood goblins love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
-								]
-							}
-						}
-					]
-				},
-				"_preserve": {
-					"reprintedAs": true
-				}
-			},
 			"ability": [
 				{
 					"dex": 2,
@@ -51621,10 +51477,9 @@
 				}
 			],
 			"heightAndWeight": null,
-			"soundClip": {
-				"type": "internal",
-				"path": "races/goblin.opus"
-			},
+			"name": "Goblin (Dankwood)",
+			"source": "AWM",
+			"page": 35,
 			"hasFluff": true
 		},
 		{
@@ -53011,48 +52866,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Human (Ixalan)",
-			"source": "PSX",
-			"page": 11,
-			"_copy": {
-				"name": "Human",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "appendArr",
-							"items": {
-								"name": "Alignment",
-								"type": "entries",
-								"entries": [
-									"Humans tend toward no particular alignment. The best and the worst are found among them."
-								]
-							}
-						},
-						{
-							"mode": "appendArr",
-							"items": {
-								"name": "Speed",
-								"type": "entries",
-								"entries": [
-									"Your base walking speed is 30 feet."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Languages",
-							"items": {
-								"name": "Languages",
-								"type": "entries",
-								"entries": [
-									"You can speak, read, and write {@language Common} and one extra language of your choice. Or, if your campaign uses the optional rules for languages found in the previous section, your national origin determines your native language: {@language Itzocan|PSX} for the Sun Empire, {@language Coalition pidgin|PSX} for the Brazen Coalition, or {@language Vampire|PSX} for the Legion of Dusk. You still speak one additional language of your choice, and {@language Common Trade Pidgin|PSX|Common} if it exists in your campaign."
-								]
-							}
-						}
-					]
-				}
-			},
 			"ability": [
 				{
 					"str": 1,
@@ -53074,94 +52887,30 @@
 					"anyStandard": 1
 				}
 			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/human.opus"
-			},
+			"name": "Human (Ixalan)",
+			"source": "PSX",
+			"page": 11,
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
+			"ability": [
+				{
+					"str": 1,
+					"dex": 1,
+					"con": 1,
+					"int": 1,
+					"wis": 1,
+					"cha": 1
+				}
+			],
 			"name": "Human (Kaladesh)",
 			"source": "PSK",
 			"page": 22,
-			"_copy": {
-				"name": "Human",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "appendArr",
-							"items": {
-								"name": "Alignment",
-								"type": "entries",
-								"entries": [
-									"Humans tend toward no particular alignment."
-								]
-							}
-						},
-						{
-							"mode": "appendArr",
-							"items": {
-								"name": "Speed",
-								"type": "entries",
-								"entries": [
-									"Your base walking speed is 30 feet."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Languages",
-							"items": {
-								"name": "Languages",
-								"type": "entries",
-								"entries": [
-									"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Dwarvish curses, Elvish musical expressions, {@race Vedalken|PSK} scholarly jargon, and so on."
-								]
-							}
-						}
-					]
-				}
-			},
-			"ability": [
-				{
-					"str": 1,
-					"dex": 1,
-					"con": 1,
-					"int": 1,
-					"wis": 1,
-					"cha": 1
-				}
-			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/human.opus"
-			},
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
-			"name": "Human (Zendikar)",
-			"source": "PSZ",
-			"page": 9,
-			"_copy": {
-				"name": "Human",
-				"source": "PHB",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Languages",
-						"items": {
-							"name": "Languages",
-							"entries": [
-								"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: vampire curses, Elvish musical expressions, merfolk scholarly jargon, and so on."
-							],
-							"type": "entries"
-						}
-					}
-				}
-			},
 			"ability": [
 				{
 					"str": 1,
@@ -53172,10 +52921,9 @@
 					"cha": 1
 				}
 			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/human.opus"
-			},
+			"name": "Human (Zendikar)",
+			"source": "PSZ",
+			"page": 9,
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -53759,82 +53507,9 @@
 			"hasFluffImages": true
 		},
 		{
+			"darkvision": 120,
 			"name": "Kithkin",
 			"source": "LFL",
-			"_copy": {
-				"name": "Halfling",
-				"source": "XPHB",
-				"_mod": {
-					"entries": {
-						"mode": "appendArr",
-						"items": {
-							"type": "entries",
-							"name": "Kithkin Lineage",
-							"entries": [
-								"As a native of either Lorwyn and Shadowmoor, you may gain additional traits.",
-								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"name": "Lorwyn",
-											"entries": [
-												"You do not gain any additional traits."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Shadowmoor",
-											"entries": [
-												"You have {@sense Darkvision|XPHB} with a range of 120 feet."
-											]
-										}
-									]
-								}
-							]
-						}
-					}
-				}
-			},
-			"darkvision": 120,
-			"_versions": [
-				{
-					"name": "Kithkin; Lorwyn",
-					"source": "LFL",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "removeArr",
-								"names": "Kithkin Lineage"
-							}
-						]
-					}
-				},
-				{
-					"name": "Kithkin; Shadowmoor",
-					"source": "LFL",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "prependArr",
-								"items": {
-									"type": "entries",
-									"name": "Darkvision",
-									"entries": [
-										"You have {@sense Darkvision|XPHB} with a range of 120 feet."
-									]
-								}
-							},
-							{
-								"mode": "removeArr",
-								"names": "Kithkin Lineage"
-							}
-						]
-					},
-					"darkvision": 120
-				}
-			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -65543,48 +65218,76 @@
 			"name": "Amonkhet",
 			"source": "PSA",
 			"page": 14,
-			"_copy": {
-				"name": "Variant",
-				"source": "PHB",
-				"raceName": "Human",
-				"raceSource": "PHB",
-				"_mod": {
+			"raceName": "Human",
+			"raceSource": "PHB",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"feats": [
+				{
+					"any": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Skills",
 					"entries": [
-						{
-							"mode": "appendArr",
-							"items": [
-								{
-									"name": "Age",
-									"type": "entries",
-									"entries": [
-										"Humans reach adulthood in their late teens. Most human initiates have completed the trials and found a glorious or inglorious death before they turn 30. Viziers can enjoy longer service to their gods, in theory living up to a century."
-									],
-									"data": {
-										"overwrite": "Age"
-									}
-								},
-								{
-									"name": "Languages",
-									"entries": [
-										"You can speak, read, and write Common and one extra language of your choice."
-									],
-									"type": "entries",
-									"data": {
-										"overwrite": "Languages"
-									}
-								},
-								{
-									"name": "Alignment",
-									"type": "entries",
-									"entries": [
-										"Humans tend toward no particular alignment. The best and the worst are found among them."
-									]
-								}
-							]
-						}
+						"You gain proficiency in one skill of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feat",
+					"entries": [
+						"You gain one {@5etools feat|feats.html} of your choice."
+					]
+				},
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Humans reach adulthood in their late teens. Most human initiates have completed the trials and found a glorious or inglorious death before they turn 30. Viziers can enjoy longer service to their gods, in theory living up to a century."
+					],
+					"data": {
+						"overwrite": "Age"
+					}
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one extra language of your choice."
+					],
+					"type": "entries",
+					"data": {
+						"overwrite": "Languages"
+					}
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Humans tend toward no particular alignment. The best and the worst are found among them."
 					]
 				}
-			}
+			]
 		},
 		{
 			"name": "Fallen",
@@ -75352,10 +75055,6 @@
 			"name": "Augen Trust (Spy)",
 			"source": "EGW",
 			"page": 203,
-			"_copy": {
-				"name": "Variant Criminal (Spy)",
-				"source": "PHB"
-			},
 			"hasFluff": true
 		},
 		{
@@ -76804,10 +76503,6 @@
 			"name": "Cobalt Scholar (Sage)",
 			"source": "EGW",
 			"page": 203,
-			"_copy": {
-				"name": "Sage",
-				"source": "PHB"
-			},
 			"hasFluff": true
 		},
 		{
@@ -84296,27 +83991,7 @@
 		{
 			"name": "Initiate (Dissenter)",
 			"source": "PSA",
-			"page": 11,
-			"_copy": {
-				"name": "Initiate",
-				"source": "PSA",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Feature: Trials of the Five Gods",
-						"items": {
-							"name": "Feature: Shelter of Dissenters",
-							"type": "entries",
-							"entries": [
-								"If they wish to have any hope of survival, whether hiding within the city or cast out into the desert, dissenters must help each other. You can find a place to hide, rest, or recuperate among other dissenters. They will help shield you from those who hunt you, possibly even risking their lives for you."
-							],
-							"data": {
-								"isFeature": true
-							}
-						}
-					}
-				}
-			}
+			"page": 11
 		},
 		{
 			"name": "Inquisitive",
@@ -86002,10 +85677,6 @@
 			"name": "Luxonborn (Acolyte)",
 			"source": "EGW",
 			"page": 203,
-			"_copy": {
-				"name": "Acolyte",
-				"source": "PHB"
-			},
 			"hasFluff": true
 		},
 		{
@@ -86624,10 +86295,6 @@
 			"name": "Myriad Operative (Criminal)",
 			"source": "EGW",
 			"page": 203,
-			"_copy": {
-				"name": "Criminal",
-				"source": "PHB"
-			},
 			"hasFluff": true
 		},
 		{
@@ -88877,10 +88544,6 @@
 			"name": "Revelry Pirate (Sailor)",
 			"source": "EGW",
 			"page": 203,
-			"_copy": {
-				"name": "Sailor",
-				"source": "PHB"
-			},
 			"hasFluff": true
 		},
 		{
@@ -92349,128 +92012,15 @@
 			"name": "Variant Criminal (Spy)",
 			"source": "PHB",
 			"page": 130,
-			"basicRules": true,
-			"_copy": {
-				"name": "Criminal",
-				"source": "PHB",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Feature: Criminal Contact",
-						"items": {
-							"name": "Feature: Spy Contact",
-							"type": "entries",
-							"entries": [
-								"You have a reliable and trustworthy contact who acts as your liaison to a network of other spies. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you."
-							],
-							"data": {
-								"isFeature": true
-							}
-						}
-					}
-				}
-			},
 			"hasFluff": true
 		},
 		{
 			"name": "Variant Entertainer (Gladiator)",
 			"source": "PHB",
 			"page": 131,
-			"_copy": {
-				"name": "Entertainer",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "replaceArr",
-							"replace": {
-								"index": 0
-							},
-							"items": {
-								"type": "list",
-								"style": "list-hang-notitle",
-								"items": [
-									{
-										"type": "item",
-										"name": "Skill Proficiencies:",
-										"entry": "{@skill Acrobatics}, {@skill Performance}"
-									},
-									{
-										"type": "item",
-										"name": "Tool Proficiencies:",
-										"entry": "{@item Disguise kit|phb}, one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
-									},
-									{
-										"type": "item",
-										"name": "Equipment:",
-										"entry": "An inexpensive but unusual weapon, such as a {@item trident|phb} or {@item net|phb} (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), {@item costume clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
-									}
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": {
-								"index": 1
-							},
-							"items": {
-								"name": "Feature: By Popular Demand",
-								"type": "entries",
-								"entries": [
-									"You can always find a place to perform in any place that features combat for entertainment—perhaps a gladiatorial arena or secret pit fighting club. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
-								],
-								"data": {
-									"isFeature": true
-								}
-							}
-						}
-					]
-				}
-			},
 			"hasFluff": true
 		},
 		{
-			"name": "Variant Guild Artisan (Guild Merchant)",
-			"source": "PHB",
-			"page": 133,
-			"_copy": {
-				"name": "Guild Artisan",
-				"source": "PHB",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": {
-							"index": 0
-						},
-						"items": {
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Skill Proficiencies:",
-									"entry": "{@skill Insight}, {@skill Persuasion}"
-								},
-								{
-									"type": "item",
-									"name": "Tool Proficiencies:",
-									"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, or {@item navigator's tools|phb}, or an additional language"
-								},
-								{
-									"type": "item",
-									"name": "Languages:",
-									"entry": "One of your choice"
-								},
-								{
-									"type": "item",
-									"name": "Equipment:",
-									"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} (one of your choice) or a {@item mule|phb} and {@item cart|phb}, a letter of introduction from your guild, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
-								}
-							]
-						}
-					}
-				}
-			},
 			"skillProficiencies": [
 				{
 					"insight": true,
@@ -92487,100 +92037,26 @@
 					}
 				}
 			],
+			"name": "Variant Guild Artisan (Guild Merchant)",
+			"source": "PHB",
+			"page": 133,
 			"hasFluff": true
 		},
 		{
 			"name": "Variant Noble (Knight)",
 			"source": "PHB",
 			"page": 136,
-			"_copy": {
-				"name": "Noble",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "replaceArr",
-							"replace": "Feature: Position of Privilege",
-							"items": {
-								"name": "Feature: Retainers",
-								"type": "entries",
-								"entries": [
-									"You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. {@b One of your retainers is a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood} (This person could be your bond.). Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on).",
-									"Your retainers can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
-								],
-								"data": {
-									"isFeature": true
-								}
-							}
-						},
-						{
-							"mode": "insertArr",
-							"index": 1,
-							"items": {
-								"name": "Variant Noble (Knight)",
-								"type": "entries",
-								"entries": [
-									"A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature instead of the Position of Privilege feature.",
-									"As an emblem of chivalry and the ideals of courtly love, you might include among your equipment a banner or other token from a noble lord or lady to whom you have given your heart-in a chaste sort of devotion."
-								]
-							}
-						}
-					]
-				}
-			},
 			"hasFluff": true
 		},
 		{
 			"name": "Variant Noble (Retainers)",
 			"source": "PHB",
-			"page": 136,
-			"_copy": {
-				"name": "Noble",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "replaceArr",
-							"replace": "Feature: Position of Privilege",
-							"items": {
-								"name": "Feature: Retainers",
-								"type": "entries",
-								"entries": [
-									"You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are {@creature commoner||commoners} who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
-								],
-								"data": {
-									"isFeature": true
-								}
-							}
-						}
-					]
-				}
-			}
+			"page": 136
 		},
 		{
 			"name": "Variant Sailor (Pirate)",
 			"source": "PHB",
 			"page": 139,
-			"_copy": {
-				"name": "Sailor",
-				"source": "PHB",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Feature: Ship's Passage",
-						"items": {
-							"name": "Feature: Bad Reputation",
-							"type": "entries",
-							"entries": [
-								"No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
-							],
-							"data": {
-								"isFeature": true
-							}
-						}
-					}
-				}
-			},
 			"hasFluff": true
 		},
 		{
@@ -92838,27 +92314,7 @@
 		{
 			"name": "Vizier (Dissenter)",
 			"source": "PSA",
-			"page": 11,
-			"_copy": {
-				"name": "Vizier",
-				"source": "PSA",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Feature: Voice of Authority",
-						"items": {
-							"name": "Feature: Shelter of Dissenters",
-							"type": "entries",
-							"entries": [
-								"If they wish to have any hope of survival, whether hiding within the city or cast out into the desert, dissenters must help each other. You can find a place to hide, rest, or recuperate among other dissenters. They will help shield you from those who hunt you, possibly even risking their lives for you."
-							],
-							"data": {
-								"isFeature": true
-							}
-						}
-					}
-				}
-			}
+			"page": 11
 		},
 		{
 			"name": "Volstrucker Agent",
@@ -161735,170 +161191,6 @@
 			"hasCardArt": true
 		},
 		{
-			"name": "Deck of Many Things (13 Cards)",
-			"source": "DMG",
-			"reprintedAs": [
-				"Deck of Many Things (13 Cards)|XDMG"
-			],
-			"_copy": {
-				"name": "Deck of Many Things",
-				"source": "DMG",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": {
-							"index": 4
-						},
-						"items": {
-							"type": "table",
-							"colLabels": [
-								"{@dice 1d13|Playing Card}",
-								"Card"
-							],
-							"colStyles": [
-								"col-6 text-center",
-								"col-6 text-center"
-							],
-							"rows": [
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 1
-										},
-										"entry": "King of diamonds"
-									},
-									"{@card Sun|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 2
-										},
-										"entry": "Queen of diamonds"
-									},
-									"{@card Moon|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 3
-										},
-										"entry": "Jack of diamonds"
-									},
-									"{@card Star|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 4
-										},
-										"entry": "King of hearts"
-									},
-									"{@card Throne|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 5
-										},
-										"entry": "Queen of hearts"
-									},
-									"{@card Key|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 6
-										},
-										"entry": "Jack of hearts"
-									},
-									"{@card Knight|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 7
-										},
-										"entry": "King of clubs"
-									},
-									"{@card The Void|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 8
-										},
-										"entry": "Queen of clubs"
-									},
-									"{@card Flames|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 9
-										},
-										"entry": "Jack of clubs"
-									},
-									"{@card Skull|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 10
-										},
-										"entry": "King of spades"
-									},
-									"{@card Ruin|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 11
-										},
-										"entry": "Queen of spades"
-									},
-									"{@card Euryale|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 12
-										},
-										"entry": "Jack of spades"
-									},
-									"{@card Rogue|Deck of Many Things}"
-								],
-								[
-									{
-										"type": "cell",
-										"roll": {
-											"exact": 13
-										},
-										"entry": "Joker (without TM)"
-									},
-									"{@card Jester|Deck of Many Things}"
-								]
-							]
-						}
-					}
-				},
-				"_preserve": {
-					"page": true,
-					"srd": true
-				}
-			},
 			"cards": [
 				{
 					"uid": "Sun|Deck of Many Things",
@@ -161949,7 +161241,9 @@
 					"replacement": true
 				},
 				"Jester|Deck of Many Things"
-			]
+			],
+			"name": "Deck of Many Things (13 Cards)",
+			"source": "DMG"
 		},
 		{
 			"name": "Deck of Several Things",

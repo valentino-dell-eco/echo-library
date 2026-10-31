@@ -13,6 +13,68 @@
 			]
 		},
 		{
+			"name": "Arlo Kettletoe (Levels 1-4)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades.",
+								"In addition to managing a crew of selfish malcontents, the pirate captain is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis.",
+								"More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Arlo%20Kettletoe%20(Levels%201-4).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Arlo Kettletoe (Levels 5-8)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Arlo Kettletoe (Levels 9-11)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Ashen Animated Armor",
 			"source": "KftGV",
 			"entries": [
@@ -45,6 +107,76 @@
 					"entries": [
 						"Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners."
 					]
+				}
+			]
+		},
+		{
+			"name": "Ashen Shambling Mound",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A shambling mound, sometimes called a shambler, trudges ponderously through bleak swamps, dismal marshes, and rain forests, consuming any organic matter in its path. This rotting heap of animated vegetation looms up half again as tall as a human, tapering into a faceless \"head\" at its top.",
+								{
+									"type": "entries",
+									"name": "All-Consuming Devourers",
+									"entries": [
+										"A shambling mound feeds on any organic material, tirelessly consuming plants as it moves and devouring animals that can't escape it. Only the shambling mounds' rarity and plodding speed prevent them from overwhelming entire ecosystems. Even so, their presence leeches natural environments of plant and animal life, and an unsettling quiet pervades the swamps and woods haunted by these ever-hungry horrors."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Unseen Hunters",
+									"entries": [
+										"Composed of decaying leaves, vines, roots, and other natural swamp and forest compost, shamblers can blend into their environs. Because they move slowly, they rarely attempt to pursue and catch creatures. Rather, they remain in place, sustaining themselves by absorbing nutrients from their surroundings as they wait for prey to come to them. When a creature passes near or alights upon a shambling mound, the monster comes to life, seizing and absorbing the unwary prey.",
+										{
+											"type": "entries",
+											"name": "Spawned by Lightning",
+											"entries": [
+												"A shambling mound results from a phenomenon in which lightning or fey magic invigorates an otherwise ordinary swamp plant. As the plant is reborn into its second life, it chokes the life from plants and animals around it, mulching their corpses in a heap around its roots. Those roots eventually give up their reliance on the soil, directing the shambling mound to seek out new sources of food."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Weed that Walks",
+									"entries": [
+										"The instinct that drives a shambling mound is its central root-stem, buried somewhere inside its ponderous form. The rest of a shambler consists of the rotting heap that it simultaneously accumulates and feeds on, which protects the root-stem and animates to smash and smother the life from any creature.",
+										"The dense mass of a shambling mound's body shrugs off the effects of cold and fire. Lightning reinvigorates the root-stem, strengthening the shambling mound and bolstering its consumptive drive.",
+										"Despite its monstrous form, the shambling mound is a living plant that requires air and nourishment. Although it doesn't sleep the way an animal does, it can lie dormant for days on end before rising to hunt for food.",
+										{
+											"type": "entries",
+											"name": "A Resurgent Menace",
+											"entries": [
+												"If a shambling mound faces defeat before an overwhelming foe, the root-stem can feign death, collapsing the remains of its mound. If not subsequently killed, the root-stem beds down in the shambler's remains to slowly regrow its full body, then once again sets out to consume all it can. In this way, shambling mound infestations long thought destroyed can recur time and again."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Ashen%20Shambling%20Mound.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Ashen%20Shambling%20Mound%20(2).webp"
+					}
 				}
 			]
 		},
@@ -98,6 +230,80 @@
 			]
 		},
 		{
+			"name": "Conservatory Student",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.",
+								"The noble's statistics can also be used to represent courtiers who aren't of noble birth."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Conservatory%20Student.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Crimson Helmed Horror",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"This construct possesses intelligence, the ability to reason and adjust its tactics, and an unswerving devotion to its maker that persists even after its maker's demise. Resembling an animated suit of empty plate armor, a helmed horror serves without ambition or emotion.",
+								{
+									"type": "entries",
+									"name": "Magical Purpose",
+									"entries": [
+										"Though it takes more magical resources to create a helmed horror than a lesser suit of animated armor, the helmed horror requires less direction and maintenance as it carries out its appointed tasks. A helmed horror follows its orders with complete loyalty, and is intelligent enough to understand the difference between an order's intent and its exact wording. Unlike many constructs, it seeks to fulfill the former rather than slavishly follow the latter."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Tactical Cunning",
+									"entries": [
+										"A helmed horror fights with the cunning of a skilled warrior, taking to the air as it attacks weaker characters and spellcasters first. However, a helmed horror lacks the insight to change its environment, fortify it, or otherwise take active measures to improve its defensive position."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Constructed Nature",
+									"entries": [
+										"A helmed horror doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Crimson%20Helmed%20Horror.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Dr. Cassee Dannell",
 			"source": "KftGV",
 			"images": [
@@ -110,6 +316,60 @@
 					"width": 850,
 					"height": 1612,
 					"credit": "Nikki Dawes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Dr.%20Cassee%20Dannell.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Eldritch Horror Hatchling",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"An ankheg resembles an enormous many-legged insect, its long antennae twitching in response to any movement around it. Its legs end in sharp hooks adapted for burrowing and grasping its prey, and its powerful mandibles can snap a small tree in half.",
+								{
+									"type": "entries",
+									"name": "Lurkers in the Earth",
+									"entries": [
+										"The ankheg uses its powerful mandibles to dig winding tunnels deep beneath the ground. When it hunts, an ankheg burrows upward, waiting below the surface until its antennae detect movement from above. Then it bursts from the earth and seizes prey in its mandibles, crushing and grinding while it secretes acidic digestive enzymes. These enzymes help dissolve a victim for easy swallowing, but the ankheg can also squirt acid to take down foes."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Bane of Field and Forest",
+									"entries": [
+										"Although ankhegs receive a certain portion of their nutrients from the soil through which they burrow, they must supplement their diet with fresh meat. Pastures teeming with grazing livestock and forests rife with game are an ankheg's prime hunting grounds. Ankhegs are thus the bane of farmers and rangers everywhere."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Earthen Tunnels",
+									"entries": [
+										"As it burrows through earth, the ankheg leaves a narrow, partially collapsed tunnel in its wake. In these tunnels, one might find the remnants of molted ankheg chitin, hatched ankheg eggs, or the grisly remains of ankheg victims, including coins or other treasures scattered during the creature's attack."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Eldritch%20Horror%20Hatchling.webp"
+					}
 				}
 			]
 		},
@@ -123,6 +383,76 @@
 						"Eliphas is a gentleman and a tinkerer. For years, he offered his services to the Golden Vault, an organization dedicated to preserving historical relics and keeping powerful items out of evil hands. Eliphas designed the magical music boxes that the Golden Vault uses to communicate with its field operatives.",
 						"Eliphas is a neutral good, human werebear who can adopt the form of a polar bear."
 					]
+				}
+			]
+		},
+		{
+			"name": "Enna Galakiir (Levels 1-4)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.",
+								"Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Enna Galakiir (Levels 5-8)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Enna%20Galakiir%20(Levels%205-8).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Enna Galakiir (Levels 9-11)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Enna%20Galakiir%20(Levels%209-11).webp"
+					}
 				}
 			]
 		},
@@ -143,6 +473,154 @@
 			]
 		},
 		{
+			"name": "Frody Dartwild",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.",
+								{
+									"type": "entries",
+									"name": "Dark Servants",
+									"entries": [
+										"Sinister necromantic magic infuses the remains of the dead, causing them to rise as zombies that do their creator's bidding without fear or hesitation. They move with a jerky, uneven gait, clad in the moldering apparel they wore when put to rest, and carrying the stench of decay.",
+										"Most zombies are made from humanoid remains, though the flesh and bones of any formerly living creature can be imbued with a semblance of life. Necromantic magic, usually from spells, animates a zombie. Some zombies rise spontaneously when dark magic saturates an area. Once turned into a zombie, a creature can't be restored to life except by powerful magic, such as a {@spell resurrection} spell.",
+										"A zombie retains no vestiges of its former self, its mind devoid of thought and imagination. A zombie left without orders simply stands in place and rots unless something comes along that it can kill. The magic animating a zombie imbues it with evil, so left without purpose, it attacks any living creature it encounters."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hideous Forms",
+									"entries": [
+										"Zombies appear as they did in life, showing the wounds that killed them. However, the magic that creates these vile creatures often takes time to run its course. Dead warriors might rise from a battlefield, eviscerated and bloated after days in the sun. The muddy cadaver of a peasant could claw its way from the ground, riddled with maggots and worms. A zombie might wash ashore or rise from a marsh, swollen and reeking after weeks in the water."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Mindless Soldiers",
+									"entries": [
+										"Zombies take the most direct route to any foe, unable to comprehend obstacles, tactics, or dangerous terrain. A zombie might stumble into a fast-flowing river to reach foes on a far shore, clawing at the surface as it is battered against rocks and destroyed. To reach a foe below it, a zombie might step out of an open window. Zombies stumble through roaring infernos, into pools of acid, and across fields littered with caltrops without hesitation.",
+										"A zombie can follow simple orders and distinguish friends from foes, but its ability to reason is limited to shambling in whatever direction it is pointed, pummeling any enemy in its path. A zombie armed with a weapon uses it, but the zombie won't retrieve a dropped weapon or other tool until told to do so."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"A zombie doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"After Beek died, we cast an {@spell animate dead} spell on his corpse. It was fun for a while, but the zombie started to smell real bad, so we doused it in oil and set it on fire. Beek would've found that hilarious."
+									],
+									"by": "Fonkin Hoodypeak",
+									"from": "on friendship"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Frody%20Dartwild.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Gregir Fendelsohn (Levels 1-4)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.",
+								"Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gregir Fendelsohn (Levels 5-8)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Thugs are ruthless enforcers skilled at intimidation and violence. They work for money and have few scruples."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Gregir%20Fendelsohn%20(Levels%205-8).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Gregir Fendelsohn (Levels 9-11)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Veterans are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Headless Body",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Ignatius Inkblot",
 			"source": "KftGV",
 			"images": [
@@ -155,6 +633,44 @@
 					"width": 1700,
 					"height": 1090,
 					"credit": "Andrew Mar"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Ignatius%20Inkblot.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Jalynvyr Nir'Thinn",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Mephits",
+					"entries": [
+						"Mephits are capricious, imp-like creatures native to the elemental planes. They come in six varieties, each one representing the mixture of two elements.",
+						"Ageless tricksters, mephits gather in large numbers on the Elemental Planes and in the Elemental Chaos. They also find their way to the Material Plane, where they prefer to dwell in places where their base elements are abundant. For example, a magma mephit is composed of earth and fire, and it favors volcanic lairs, while an ice mephit, which is composed of air and water, favors frigid locales.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Elemental Nature",
+											"entries": [
+												"A mephit doesn't require food, drink, or sleep."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -171,6 +687,13 @@
 					"width": 850,
 					"height": 950,
 					"credit": "Olivier Bernard"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Jarazoun.webp"
+					}
 				}
 			]
 		},
@@ -187,6 +710,116 @@
 					"width": 1700,
 					"height": 1079,
 					"credit": "Kai Carpenter"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Joster%20Mareet.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Juvenile Eldritch Horror",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"The serpentine behir crawls along floors and clambers up walls to reach its prey. Its lightning breath can incinerate most creatures, even as more powerful foes are constricted in its coils and eaten alive.",
+								"A behir's monstrous form resembles a combination of centipede and crocodile. Its scaled hide ranges from ultramarine to deep blue in color, fading to pale blue on its underside.",
+								{
+									"type": "entries",
+									"name": "Cavern Predators",
+									"entries": [
+										"Behirs lair in places inaccessible to other creatures, favoring locations where would-be intruders must make a harrowing climb to reach them. Deep pits, high caves in cliff walls, and caverns reached only by narrow, twisting tunnels are prime sites for a behir ambush. A behir's dozen legs allow it to scramble through its lair site with ease. When not climbing, it moves even faster by folding its legs beside its body and slithering like a snake.",
+										"Behirs swallow their prey whole, after which they enter a period of dormancy while they digest. While dormant, a behir chooses a hiding place where intruders in its lair might overlook it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Foes of the Dragons",
+									"entries": [
+										"In times long forgotten, giants and dragons engaged in seemingly endless war. Storm giants created the first behirs as weapons against the dragons, and behirs retain a natural hatred for dragonkind.",
+										"A behir never makes its lair in an area it knows to be inhabited by a dragon. If a dragon attempts to establish a lair within a few dozen miles of a behir's lair, the behir is compelled to kill the dragon or drive it off. Only if the dragon proves too powerful to fight does a behir back down, seeking out a new lair site a great distance away."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"I've already eaten three giant bats, six troglodytes, and a mind flayer today, but that's okay. Plenty of room in my belly for you and your friends."
+									],
+									"by": "Lludd the behir, confronting adventurers in the Lost Caverns of Tsojcanth"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Juvenile%20Eldritch%20Horror.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Kavoda",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Deep gnomes, or svirfneblin, live far below the world's surface in twisting warrens and sculpted caverns. They survive by virtue of their stealth, cleverness, and tenacity. Their gray skin allows them to blend in with surrounding stonework. They are also surprisingly heavy and strong for their size. An average adult weighs 100 to 120 pounds and stands 3 feet tall.",
+								"A typical svirfneblin enclave contains several hundred deep gnomes and is strongly fortified. Secret tunnels lead to and from the settlement, and the deep gnomes use these as evacuation routes when the enclave comes under attack.",
+								{
+									"type": "entries",
+									"name": "Established Gender Roles",
+									"entries": [
+										"Male svirfneblin are bald, while females have stringy gray hair. Traditionally, females run the enclaves while males scour the outskirts in search of enemies and deposits of precious gemstones."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Gemstone Harvesters",
+									"entries": [
+										"Svirfneblin cherish fine gemstones, especially rubies, which they harvest from mines deep in the Underdark. The hunt for gems often brings them into conflict with beholders, drow, kuo-toa, duergar, and mind flayers. Of all their natural enemies, deep gnomes fear and despise the murderous, demon worshiping drow the most."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Earth Friends",
+									"entries": [
+										"Deep gnomes are often encountered in the company of creatures from the Elemental Plane of Earth. Some svirfneblin can summon such creatures. Earth creatures guard svirfneblin settlements, especially xorn enticed to service with the promise of gems to feed on."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Kavoda.webp"
+					}
 				}
 			]
 		},
@@ -212,6 +845,13 @@
 					"width": 788,
 					"height": 1000,
 					"credit": "David Auden Nash"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/King%20Jhaeros.webp"
+					}
 				}
 			]
 		},
@@ -253,6 +893,30 @@
 					"width": 850,
 					"height": 1185,
 					"credit": "Katerina Ladon"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Meera%20Raheer.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Naevys Tharesso",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -269,6 +933,13 @@
 					"width": 850,
 					"height": 1678,
 					"credit": "Evyn Fong"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Nixylanna%20Vidorant.webp"
+					}
 				}
 			]
 		},
@@ -376,6 +1047,74 @@
 					"width": 698,
 					"height": 1590,
 					"credit": "Nikki Dawes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Rilago.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sabrina Kilgore (Levels 1-4)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.",
+								"Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sabrina Kilgore (Levels 5-8)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Thugs are ruthless enforcers skilled at intimidation and violence. They work for money and have few scruples."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Sabrina%20Kilgore%20(Levels%205-8).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sabrina Kilgore (Levels 9-11)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Veterans are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -420,6 +1159,30 @@
 					"width": 850,
 					"height": 1025,
 					"credit": "Olivier Bernard"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/The%20Stranger.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Tiefling Acrobat",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -449,6 +1212,185 @@
 			]
 		},
 		{
+			"name": "Tixie's Shield Guardian",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Wizards and other spellcasters create shield guardians for protection. A shield guardian treads beside its master, absorbing damage to keep its master alive as long as possible.",
+								{
+									"type": "entries",
+									"name": "Master's Amulet",
+									"entries": [
+										"Every shield guardian has an amulet magically linked to it. A shield guardian can have only one corresponding amulet, and if that amulet is destroyed, the shield guardian is {@condition incapacitated} until a replacement amulet is created. A shield guardian's amulet is subject to direct attack if it isn't being worn or carried. It has AC 10, 10 hit points, and immunity to poison and psychic damage. Crafting an amulet requires 1 week and costs 1,000 gp in components.",
+										"A shield guardian's solitary focus is to protect the amulet's wearer. The amulet's wearer can command the guardian to attack its enemies or to guard the wielder against attack. If an attack threatens to injure the wearer, the construct can magically absorb the blow into its own body, even at a distance.",
+										"A spellcaster can store a single spell within a shield guardian, which can then cast the spell on command or under specific conditions. Many a wizard has been rendered helpless by enemies, only to surprise those foes when its shield guardian unleashes potent magical power."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Magnificent Treasure",
+									"entries": [
+										"Because a shield guardian's ownership can be transferred by giving its matching amulet to another creature, some wizards collect exorbitant sums from princes, nobles, and crime lords to create shield guardians for them. At the same time, a shield guardian makes a mighty prize for anyone who slays its master and claims its amulet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Construct Nature",
+									"entries": [
+										"A shield guardian doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Tixie's%20Shield%20Guardian.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Torgja Stonecrusher (Levels 1-4)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.",
+								"Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Torgja Stonecrusher (Levels 5-8)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Thugs are ruthless enforcers skilled at intimidation and violence. They work for money and have few scruples."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Torgja%20Stonecrusher%20(Levels%205-8).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Torgja Stonecrusher (Levels 9-11)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Veterans are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tosh Starling (Levels 1-4)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Scouts are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Tosh%20Starling%20(Levels%201-4).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Tosh Starling (Levels 5-8)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Tosh%20Starling%20(Levels%205-8).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Tosh Starling (Levels 9-11)",
+			"source": "KftGV",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Veterans are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Zala Morphus",
 			"source": "KftGV",
 			"images": [
@@ -461,6 +1403,13 @@
 					"width": 1700,
 					"height": 1696,
 					"credit": "Irina Nordsol"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Zala%20Morphus.webp"
+					}
 				}
 			]
 		},
@@ -477,6 +1426,13 @@
 					"width": 1700,
 					"height": 1119,
 					"credit": "Nikki Dawes"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KftGV/Zorhanna%20Adulare.webp"
+					}
 				}
 			]
 		},

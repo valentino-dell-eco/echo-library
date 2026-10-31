@@ -1,6 +1,19 @@
 {
 	"monsterFluff": [
 		{
+			"name": "Adult Red Dracolich",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/TCE/Adult%20Red%20Dracolich.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Homunculus Servant",
 			"source": "TCE",
 			"images": [
@@ -12,6 +25,13 @@
 					},
 					"width": 1200,
 					"height": 835
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/TCE/Homunculus%20Servant.webp"
+					}
 				}
 			]
 		},
@@ -27,6 +47,13 @@
 					},
 					"width": 915,
 					"height": 1000
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/TCE/Mighty%20Servant%20of%20Leuk-o.webp"
+					}
 				}
 			]
 		},
@@ -42,6 +69,13 @@
 					},
 					"width": 1200,
 					"height": 800
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/TCE/Reflection.webp"
+					}
 				}
 			]
 		},
@@ -57,6 +91,13 @@
 					},
 					"width": 1200,
 					"height": 807
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/TCE/Shadow%20Spirit.webp"
+					}
 				}
 			]
 		},
@@ -72,6 +113,13 @@
 					},
 					"width": 400,
 					"height": 593
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/TCE/Steel%20Defender.webp"
+					}
 				}
 			]
 		}

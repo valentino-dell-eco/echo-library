@@ -584,7 +584,7 @@
 			"name": "Frenzy",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -596,7 +596,7 @@
 			"name": "Path of the Berserker",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -604,7 +604,7 @@
 				"For some barbarians, rage is a means to an end—that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Frenzy|Barbarian|XPHB|Berserker|PHB|3|PHB"
+					"subclassFeature": "Frenzy|Barbarian|PHB|Berserker|PHB|3|PHB"
 				}
 			]
 		},
@@ -612,7 +612,7 @@
 			"name": "Mindless Rage",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -624,7 +624,7 @@
 			"name": "Intimidating Presence",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -637,7 +637,7 @@
 			"name": "Retaliation",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -649,7 +649,7 @@
 			"name": "Eagle",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -661,7 +661,7 @@
 			"name": "Elk",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -673,7 +673,7 @@
 			"name": "Path of the Totem Warrior",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -686,7 +686,7 @@
 			"name": "Tiger",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -698,7 +698,7 @@
 			"name": "Wolf",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -710,7 +710,7 @@
 			"name": "Spirit Seeker",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -722,7 +722,7 @@
 			"name": "Totem Spirit",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -761,7 +761,7 @@
 			"name": "Bear",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -769,31 +769,31 @@
 				"While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eagle|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Eagle|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elk|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Elk|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Path of the Totem Warrior|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Path of the Totem Warrior|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tiger|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Tiger|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wolf|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Wolf|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spirit Seeker|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Spirit Seeker|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Totem Spirit|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Totem Spirit|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
 				}
 			]
 		},
@@ -801,7 +801,7 @@
 			"name": "Eagle",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -813,7 +813,7 @@
 			"name": "Elk",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -825,7 +825,7 @@
 			"name": "Tiger",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -837,7 +837,7 @@
 			"name": "Wolf",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -849,7 +849,7 @@
 			"name": "Aspect of the Beast",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -887,7 +887,7 @@
 			"name": "Bear",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -895,23 +895,23 @@
 				"You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eagle|Barbarian|XPHB|Totem Warrior|PHB|6|PHB"
+					"subclassFeature": "Eagle|Barbarian|PHB|Totem Warrior|PHB|6|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elk|Barbarian|XPHB|Totem Warrior|PHB|6|PHB"
+					"subclassFeature": "Elk|Barbarian|PHB|Totem Warrior|PHB|6|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tiger|Barbarian|XPHB|Totem Warrior|PHB|6|PHB"
+					"subclassFeature": "Tiger|Barbarian|PHB|Totem Warrior|PHB|6|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wolf|Barbarian|XPHB|Totem Warrior|PHB|6|PHB"
+					"subclassFeature": "Wolf|Barbarian|PHB|Totem Warrior|PHB|6|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Aspect of the Beast|Barbarian|XPHB|Totem Warrior|PHB|6|PHB"
+					"subclassFeature": "Aspect of the Beast|Barbarian|PHB|Totem Warrior|PHB|6|PHB"
 				}
 			]
 		},
@@ -919,7 +919,7 @@
 			"name": "Spirit Walker",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -931,7 +931,7 @@
 			"name": "Eagle",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -943,7 +943,7 @@
 			"name": "Elk",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -955,7 +955,7 @@
 			"name": "Tiger",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -967,7 +967,7 @@
 			"name": "Wolf",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -979,7 +979,7 @@
 			"name": "Totemic Attunement",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1017,7 +1017,7 @@
 			"name": "Bear",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1025,23 +1025,23 @@
 				"While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be {@condition frightened}.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eagle|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
+					"subclassFeature": "Eagle|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elk|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
+					"subclassFeature": "Elk|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tiger|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
+					"subclassFeature": "Tiger|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wolf|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
+					"subclassFeature": "Wolf|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Totemic Attunement|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
+					"subclassFeature": "Totemic Attunement|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
 				}
 			]
 		},
@@ -1049,7 +1049,7 @@
 			"name": "Battlerager Armor",
 			"source": "SCAG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1063,7 +1063,7 @@
 			"name": "Restriction—Dwarves Only",
 			"source": "SCAG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1076,7 +1076,7 @@
 			"name": "Path of the Battlerager",
 			"source": "SCAG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1084,11 +1084,11 @@
 				"Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, {@item spiked armor|scag} and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Battlerager Armor|Barbarian|XPHB|Battlerager|SCAG|3|SCAG"
+					"subclassFeature": "Battlerager Armor|Barbarian|PHB|Battlerager|SCAG|3|SCAG"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Restriction—Dwarves Only|Barbarian|XPHB|Battlerager|SCAG|3|SCAG"
+					"subclassFeature": "Restriction—Dwarves Only|Barbarian|PHB|Battlerager|SCAG|3|SCAG"
 				}
 			]
 		},
@@ -1096,7 +1096,7 @@
 			"name": "Reckless Abandon",
 			"source": "SCAG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 6,
@@ -1108,7 +1108,7 @@
 			"name": "Battlerager Charge",
 			"source": "SCAG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 10,
@@ -1120,7 +1120,7 @@
 			"name": "Spiked Retribution",
 			"source": "SCAG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 14,
@@ -1132,7 +1132,7 @@
 			"name": "Ancestral Protectors",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancestral Guardian",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1144,7 +1144,7 @@
 			"name": "Path of the Ancestral Guardian",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancestral Guardian",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1153,7 +1153,7 @@
 				"Barbarians who draw on their ancestral guardians can better fight to protect their tribes and their allies. In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell sagas of victories against terrible monsters and other fearsome rivals.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ancestral Protectors|Barbarian|XPHB|Ancestral Guardian|XGE|3|XGE"
+					"subclassFeature": "Ancestral Protectors|Barbarian|PHB|Ancestral Guardian|XGE|3|XGE"
 				}
 			]
 		},
@@ -1161,7 +1161,7 @@
 			"name": "Spirit Shield",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancestral Guardian",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1174,7 +1174,7 @@
 			"name": "Consult the Spirits",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancestral Guardian",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -1187,7 +1187,7 @@
 			"name": "Vengeful Ancestors",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Ancestral Guardian",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1199,7 +1199,7 @@
 			"name": "Path of the Storm Herald",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1212,7 +1212,7 @@
 			"name": "Sea",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1224,7 +1224,7 @@
 			"name": "Tundra",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1236,7 +1236,7 @@
 			"name": "Storm Aura",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1268,7 +1268,7 @@
 			"name": "Desert",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1276,19 +1276,19 @@
 				"When this effect is activated, all other creatures in your aura take 2 fire damage each. The damage increases when you reach certain levels in this class, increasing to 3 at 5th level, 4 at 10th level, 5 at 15th level, and 6 at 20th level.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Path of the Storm Herald|Barbarian|XPHB|Storm Herald|XGE|3|XGE"
+					"subclassFeature": "Path of the Storm Herald|Barbarian|PHB|Storm Herald|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sea|Barbarian|XPHB|Storm Herald|XGE|3|XGE"
+					"subclassFeature": "Sea|Barbarian|PHB|Storm Herald|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tundra|Barbarian|XPHB|Storm Herald|XGE|3|XGE"
+					"subclassFeature": "Tundra|Barbarian|PHB|Storm Herald|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Storm Aura|Barbarian|XPHB|Storm Herald|XGE|3|XGE"
+					"subclassFeature": "Storm Aura|Barbarian|PHB|Storm Herald|XGE|3|XGE"
 				}
 			]
 		},
@@ -1296,7 +1296,7 @@
 			"name": "Sea",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1308,7 +1308,7 @@
 			"name": "Tundra",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1320,7 +1320,7 @@
 			"name": "Storm Soul",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1350,7 +1350,7 @@
 			"name": "Desert",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1358,15 +1358,15 @@
 				"You gain resistance to fire damage, and you don't suffer the effects of extreme heat, as described in the Dungeon Master's Guide. Moreover, as an action, you can touch a flammable object that isn't being worn or carried by anyone else and set it on fire.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sea|Barbarian|XPHB|Storm Herald|XGE|6|XGE"
+					"subclassFeature": "Sea|Barbarian|PHB|Storm Herald|XGE|6|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tundra|Barbarian|XPHB|Storm Herald|XGE|6|XGE"
+					"subclassFeature": "Tundra|Barbarian|PHB|Storm Herald|XGE|6|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Storm Soul|Barbarian|XPHB|Storm Herald|XGE|6|XGE"
+					"subclassFeature": "Storm Soul|Barbarian|PHB|Storm Herald|XGE|6|XGE"
 				}
 			]
 		},
@@ -1374,7 +1374,7 @@
 			"name": "Shielding Storm",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -1386,7 +1386,7 @@
 			"name": "Sea",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1398,7 +1398,7 @@
 			"name": "Tundra",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1410,7 +1410,7 @@
 			"name": "Raging Storm",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1440,7 +1440,7 @@
 			"name": "Desert",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1448,15 +1448,15 @@
 				"Immediately after a creature in your aura hits you with an attack, you can use your reaction to force that creature to make a Dexterity saving throw. On a failed save, the creature takes fire damage equal to half your barbarian level.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sea|Barbarian|XPHB|Storm Herald|XGE|14|XGE"
+					"subclassFeature": "Sea|Barbarian|PHB|Storm Herald|XGE|14|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tundra|Barbarian|XPHB|Storm Herald|XGE|14|XGE"
+					"subclassFeature": "Tundra|Barbarian|PHB|Storm Herald|XGE|14|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Raging Storm|Barbarian|XPHB|Storm Herald|XGE|14|XGE"
+					"subclassFeature": "Raging Storm|Barbarian|PHB|Storm Herald|XGE|14|XGE"
 				}
 			]
 		},
@@ -1464,7 +1464,7 @@
 			"name": "Divine Fury",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1476,7 +1476,7 @@
 			"name": "Warrior of the Gods",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1488,7 +1488,7 @@
 			"name": "Path of the Zealot",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -1497,11 +1497,11 @@
 				"A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Fury|Barbarian|XPHB|Zealot|XGE|3|XGE"
+					"subclassFeature": "Divine Fury|Barbarian|PHB|Zealot|XGE|3|XGE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warrior of the Gods|Barbarian|XPHB|Zealot|XGE|3|XGE"
+					"subclassFeature": "Warrior of the Gods|Barbarian|PHB|Zealot|XGE|3|XGE"
 				}
 			]
 		},
@@ -1509,7 +1509,7 @@
 			"name": "Fanatical Focus",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -1521,7 +1521,7 @@
 			"name": "Zealous Presence",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -1534,7 +1534,7 @@
 			"name": "Rage beyond Death",
 			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -1547,7 +1547,7 @@
 			"name": "Form of the Beast",
 			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Beast",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1582,7 +1582,7 @@
 			"name": "Path of the Beast",
 			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Beast",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1621,7 +1621,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Form of the Beast|Barbarian|XPHB|Beast|TCE|3|TCE"
+					"subclassFeature": "Form of the Beast|Barbarian|PHB|Beast|TCE|3|TCE"
 				}
 			]
 		},
@@ -1629,7 +1629,7 @@
 			"name": "Bestial Soul",
 			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Beast",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1651,7 +1651,7 @@
 			"name": "Infectious Fury",
 			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Beast",
 			"subclassSource": "TCE",
 			"level": 10,
@@ -1672,7 +1672,7 @@
 			"name": "Call the Hunt",
 			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Beast",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -1687,7 +1687,7 @@
 			"name": "Magic Awareness",
 			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1701,7 +1701,7 @@
 			"name": "Wild Surge",
 			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1766,7 +1766,7 @@
 			"name": "Path of Wild Magic",
 			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1774,11 +1774,11 @@
 				"Many places in the multiverse abound with beauty, intense emotion, and rampant magic; the Feywild, the Upper Planes, and other realms of supernatural power radiate with such forces and can profoundly influence people. As folk of deep feeling, barbarians are especially susceptible to these wild influences, with some barbarians being transformed by the magic. These magic-suffused barbarians walk the Path of Wild Magic. Elf, tiefling, aasimar, and genasi barbarians often seek this path, eager to manifest the otherworldly magic of their ancestors.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Magic Awareness|Barbarian|XPHB|Wild Magic|TCE|3|TCE"
+					"subclassFeature": "Magic Awareness|Barbarian|PHB|Wild Magic|TCE|3|TCE"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wild Surge|Barbarian|XPHB|Wild Magic|TCE|3|TCE"
+					"subclassFeature": "Wild Surge|Barbarian|PHB|Wild Magic|TCE|3|TCE"
 				}
 			]
 		},
@@ -1786,7 +1786,7 @@
 			"name": "Bolstering Magic",
 			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1807,7 +1807,7 @@
 			"name": "Unstable Backlash",
 			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 10,
@@ -1820,7 +1820,7 @@
 			"name": "Controlled Surge",
 			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -1833,7 +1833,7 @@
 			"name": "Giant's Havoc",
 			"source": "BGG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Giant",
 			"subclassSource": "BGG",
 			"level": 3,
@@ -1862,7 +1862,7 @@
 			"name": "Path of the Giant",
 			"source": "BGG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Giant",
 			"subclassSource": "BGG",
 			"level": 3,
@@ -1874,7 +1874,7 @@
 			"name": "Giant Power",
 			"source": "BGG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Giant",
 			"subclassSource": "BGG",
 			"level": 3,
@@ -1883,11 +1883,11 @@
 				"When you choose this path, you learn to speak, read, and write Giant or one other language of your choice if you already know Giant. Additionally, you learn a cantrip of your choice: either {@spell druidcraft} or {@spell thaumaturgy}. Wisdom is your spellcasting ability for this spell.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Giant's Havoc|Barbarian|XPHB|Giant|BGG|3|BGG"
+					"subclassFeature": "Giant's Havoc|Barbarian|PHB|Giant|BGG|3|BGG"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Path of the Giant|Barbarian|XPHB|Giant|BGG|3|BGG"
+					"subclassFeature": "Path of the Giant|Barbarian|PHB|Giant|BGG|3|BGG"
 				}
 			]
 		},
@@ -1895,7 +1895,7 @@
 			"name": "Elemental Cleaver",
 			"source": "BGG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Giant",
 			"subclassSource": "BGG",
 			"level": 6,
@@ -1910,7 +1910,7 @@
 			"name": "Mighty Impel",
 			"source": "BGG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Giant",
 			"subclassSource": "BGG",
 			"level": 10,
@@ -1924,7 +1924,7 @@
 			"name": "Demiurgic Colossus",
 			"source": "BGG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
+			"classSource": "PHB",
 			"subclassShortName": "Giant",
 			"subclassSource": "BGG",
 			"level": 14,
@@ -1937,255 +1937,174 @@
 	],
 	"subclass": [
 		{
-			"name": "Path of the Berserker",
 			"shortName": "Berserker",
-			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Path of the Berserker",
-				"source": "PHB",
-				"shortName": "Berserker",
-				"className": "Barbarian",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Path of the Berserker",
+			"source": "PHB",
 			"subclassFeatures": [
-				"Path of the Berserker|Barbarian|XPHB|Berserker|PHB|3|PHB",
-				"Mindless Rage|Barbarian|XPHB|Berserker|PHB|6|PHB",
-				"Intimidating Presence|Barbarian|XPHB|Berserker|PHB|10|PHB",
-				"Retaliation|Barbarian|XPHB|Berserker|PHB|14|PHB"
+				"Path of the Berserker|Barbarian|PHB|Berserker|PHB|3|PHB",
+				"Mindless Rage|Barbarian|PHB|Berserker|PHB|6|PHB",
+				"Intimidating Presence|Barbarian|PHB|Berserker|PHB|10|PHB",
+				"Retaliation|Barbarian|PHB|Berserker|PHB|14|PHB"
 			]
 		},
 		{
-			"name": "Path of the Totem Warrior",
 			"shortName": "Totem Warrior",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"ritual": [
+								"beast sense",
+								"speak with animals"
+							]
+						},
+						"10": {
+							"ritual": [
+								"commune with nature"
+							]
+						}
+					}
+				}
+			],
+			"name": "Path of the Totem Warrior",
 			"source": "PHB",
-			"className": "Barbarian",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Path of the Totem Warrior",
-				"source": "PHB",
-				"shortName": "Totem Warrior",
-				"className": "Barbarian",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Bear|Barbarian|XPHB|Totem Warrior|PHB|3|PHB",
-				"Bear|Barbarian|XPHB|Totem Warrior|PHB|6|PHB",
-				"Spirit Walker|Barbarian|XPHB|Totem Warrior|PHB|10|PHB",
-				"Bear|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
+				"Bear|Barbarian|PHB|Totem Warrior|PHB|3|PHB",
+				"Bear|Barbarian|PHB|Totem Warrior|PHB|6|PHB",
+				"Spirit Walker|Barbarian|PHB|Totem Warrior|PHB|10|PHB",
+				"Bear|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
 			]
 		},
 		{
-			"name": "Path of the Battlerager",
 			"shortName": "Battlerager",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Path of the Battlerager",
 			"source": "SCAG",
-			"className": "Barbarian",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Path of the Battlerager",
-				"source": "SCAG",
-				"shortName": "Battlerager",
-				"className": "Barbarian",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Path of the Battlerager|Barbarian|XPHB|Battlerager|SCAG|3|SCAG",
-				"Reckless Abandon|Barbarian|XPHB|Battlerager|SCAG|6|SCAG",
-				"Battlerager Charge|Barbarian|XPHB|Battlerager|SCAG|10|SCAG",
-				"Spiked Retribution|Barbarian|XPHB|Battlerager|SCAG|14|SCAG"
+				"Path of the Battlerager|Barbarian|PHB|Battlerager|SCAG|3|SCAG",
+				"Reckless Abandon|Barbarian|PHB|Battlerager|SCAG|6|SCAG",
+				"Battlerager Charge|Barbarian|PHB|Battlerager|SCAG|10|SCAG",
+				"Spiked Retribution|Barbarian|PHB|Battlerager|SCAG|14|SCAG"
 			]
 		},
 		{
-			"name": "Path of the Ancestral Guardian",
 			"shortName": "Ancestral Guardian",
-			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Path of the Ancestral Guardian",
-				"source": "XGE",
-				"shortName": "Ancestral Guardian",
-				"className": "Barbarian",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"spellcastingAbility": "wis",
+			"additionalSpells": [
+				{
+					"innate": {
+						"10": [
+							"augury",
+							"clairvoyance"
+						]
+					}
 				}
-			},
+			],
+			"name": "Path of the Ancestral Guardian",
+			"source": "XGE",
 			"subclassFeatures": [
-				"Path of the Ancestral Guardian|Barbarian|XPHB|Ancestral Guardian|XGE|3|XGE",
-				"Spirit Shield|Barbarian|XPHB|Ancestral Guardian|XGE|6|XGE",
-				"Consult the Spirits|Barbarian|XPHB|Ancestral Guardian|XGE|10|XGE",
-				"Vengeful Ancestors|Barbarian|XPHB|Ancestral Guardian|XGE|14|XGE"
+				"Path of the Ancestral Guardian|Barbarian|PHB|Ancestral Guardian|XGE|3|XGE",
+				"Spirit Shield|Barbarian|PHB|Ancestral Guardian|XGE|6|XGE",
+				"Consult the Spirits|Barbarian|PHB|Ancestral Guardian|XGE|10|XGE",
+				"Vengeful Ancestors|Barbarian|PHB|Ancestral Guardian|XGE|14|XGE"
 			]
 		},
 		{
-			"name": "Path of the Storm Herald",
 			"shortName": "Storm Herald",
-			"source": "XGE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Path of the Storm Herald",
-				"source": "XGE",
-				"shortName": "Storm Herald",
-				"className": "Barbarian",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Path of the Storm Herald",
+			"source": "XGE",
 			"subclassFeatures": [
-				"Desert|Barbarian|XPHB|Storm Herald|XGE|3|XGE",
-				"Desert|Barbarian|XPHB|Storm Herald|XGE|6|XGE",
-				"Shielding Storm|Barbarian|XPHB|Storm Herald|XGE|10|XGE",
-				"Desert|Barbarian|XPHB|Storm Herald|XGE|14|XGE"
+				"Desert|Barbarian|PHB|Storm Herald|XGE|3|XGE",
+				"Desert|Barbarian|PHB|Storm Herald|XGE|6|XGE",
+				"Shielding Storm|Barbarian|PHB|Storm Herald|XGE|10|XGE",
+				"Desert|Barbarian|PHB|Storm Herald|XGE|14|XGE"
 			]
 		},
 		{
-			"name": "Path of the Zealot",
 			"shortName": "Zealot",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Path of the Zealot",
 			"source": "XGE",
-			"className": "Barbarian",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Path of the Zealot",
-				"source": "XGE",
-				"shortName": "Zealot",
-				"className": "Barbarian",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
 			"subclassFeatures": [
-				"Path of the Zealot|Barbarian|XPHB|Zealot|XGE|3|XGE",
-				"Fanatical Focus|Barbarian|XPHB|Zealot|XGE|6|XGE",
-				"Zealous Presence|Barbarian|XPHB|Zealot|XGE|10|XGE",
-				"Rage beyond Death|Barbarian|XPHB|Zealot|XGE|14|XGE"
+				"Path of the Zealot|Barbarian|PHB|Zealot|XGE|3|XGE",
+				"Fanatical Focus|Barbarian|PHB|Zealot|XGE|6|XGE",
+				"Zealous Presence|Barbarian|PHB|Zealot|XGE|10|XGE",
+				"Rage beyond Death|Barbarian|PHB|Zealot|XGE|14|XGE"
 			]
 		},
 		{
-			"name": "Path of the Beast",
 			"shortName": "Beast",
-			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Path of the Beast",
-				"source": "TCE",
-				"shortName": "Beast",
-				"className": "Barbarian",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Path of the Beast",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Path of the Beast|Barbarian|XPHB|Beast|TCE|3|TCE",
-				"Bestial Soul|Barbarian|XPHB|Beast|TCE|6|TCE",
-				"Infectious Fury|Barbarian|XPHB|Beast|TCE|10|TCE",
-				"Call the Hunt|Barbarian|XPHB|Beast|TCE|14|TCE"
+				"Path of the Beast|Barbarian|PHB|Beast|TCE|3|TCE",
+				"Bestial Soul|Barbarian|PHB|Beast|TCE|6|TCE",
+				"Infectious Fury|Barbarian|PHB|Beast|TCE|10|TCE",
+				"Call the Hunt|Barbarian|PHB|Beast|TCE|14|TCE"
 			]
 		},
 		{
-			"name": "Path of Wild Magic",
 			"shortName": "Wild Magic",
-			"source": "TCE",
 			"className": "Barbarian",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Path of Wild Magic",
-				"source": "TCE",
-				"shortName": "Wild Magic",
-				"className": "Barbarian",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
-				}
-			},
+			"classSource": "PHB",
+			"edition": "classic",
+			"name": "Path of Wild Magic",
+			"source": "TCE",
 			"subclassFeatures": [
-				"Path of Wild Magic|Barbarian|XPHB|Wild Magic|TCE|3|TCE",
-				"Bolstering Magic|Barbarian|XPHB|Wild Magic|TCE|6|TCE",
-				"Unstable Backlash|Barbarian|XPHB|Wild Magic|TCE|10|TCE",
-				"Controlled Surge|Barbarian|XPHB|Wild Magic|TCE|14|TCE"
+				"Path of Wild Magic|Barbarian|PHB|Wild Magic|TCE|3|TCE",
+				"Bolstering Magic|Barbarian|PHB|Wild Magic|TCE|6|TCE",
+				"Unstable Backlash|Barbarian|PHB|Wild Magic|TCE|10|TCE",
+				"Controlled Surge|Barbarian|PHB|Wild Magic|TCE|14|TCE"
 			]
 		},
 		{
-			"name": "Path of the Giant",
 			"shortName": "Giant",
-			"source": "BGG",
 			"className": "Barbarian",
-			"classSource": "XPHB",
-			"_copy": {
-				"name": "Path of the Giant",
-				"source": "BGG",
-				"shortName": "Giant",
-				"className": "Barbarian",
-				"classSource": "PHB",
-				"_preserve": {
-					"page": true,
-					"otherSources": true,
-					"referenceSources": true,
-					"srd": true,
-					"basicRules": true,
-					"reprintedAs": true
+			"classSource": "PHB",
+			"edition": "classic",
+			"spellcastingAbility": "wis",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": [
+							"druidcraft#c"
+						]
+					}
+				},
+				{
+					"innate": {
+						"3": [
+							"thaumaturgy#c"
+						]
+					}
 				}
-			},
+			],
+			"name": "Path of the Giant",
+			"source": "BGG",
 			"subclassFeatures": [
-				"Giant Power|Barbarian|XPHB|Giant|BGG|3|BGG",
-				"Elemental Cleaver|Barbarian|XPHB|Giant|BGG|6|BGG",
-				"Mighty Impel|Barbarian|XPHB|Giant|BGG|10|BGG",
-				"Demiurgic Colossus|Barbarian|XPHB|Giant|BGG|14|BGG"
+				"Giant Power|Barbarian|PHB|Giant|BGG|3|BGG",
+				"Elemental Cleaver|Barbarian|PHB|Giant|BGG|6|BGG",
+				"Mighty Impel|Barbarian|PHB|Giant|BGG|10|BGG",
+				"Demiurgic Colossus|Barbarian|PHB|Giant|BGG|14|BGG"
 			]
 		}
 	]

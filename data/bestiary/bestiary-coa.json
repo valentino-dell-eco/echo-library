@@ -717,19 +717,67 @@
 		},
 		{
 			"name": "Animated Furniture",
-			"source": "CoA",
-			"page": 170,
-			"_copy": {
-				"name": "Stone Golem",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "golem",
-						"with": "animated furniture"
-					}
+			"referenceSources": [
+				"AATM",
+				"BGDIA",
+				"BMT",
+				"CM",
+				"CoA",
+				"CoS",
+				"CRCotN",
+				"DIP",
+				"DSotDQ",
+				"GoS",
+				"HotDQ",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"LLK",
+				"OotA",
+				"OoW",
+				"PotA",
+				"QftIS",
+				"RoT",
+				"SatO",
+				"SKT",
+				"SLW",
+				"TftYP-THSoT",
+				"ToA",
+				"VEoR",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
 				}
+			],
+			"hp": {
+				"average": 178,
+				"formula": "17d10 + 85"
 			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 22,
+			"dex": 9,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 1,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
 			"immune": [
 				"cold",
 				"fire",
@@ -745,8 +793,88 @@
 					"cond": true
 				}
 			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The animated furniture is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The animated furniture has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The animated furniture's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The animated furniture makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Slow {@recharge 5}",
+					"entries": [
+						"The animated furniture targets one or more creatures it can see within 10 feet of it. Each target must make a {@dc 17} Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"traitTags": [
+				"Immutable Form",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
 			"tokenCredit": "Jeferson Cordeiro",
 			"tokenCustom": true,
+			"source": "CoA",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CoA/Animated%20Furniture.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -3127,23 +3255,60 @@
 		},
 		{
 			"name": "Demon Ichor",
-			"source": "CoA",
-			"page": 78,
-			"_copy": {
-				"name": "Black Pudding",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "pudding",
-						"with": "ichor"
-					}
-				}
-			},
+			"referenceSources": [
+				"CM",
+				"CoA",
+				"CoS",
+				"DSotDQ",
+				"GoS",
+				"IDRotF",
+				"JttRC",
+				"KftGV",
+				"LRDT",
+				"OotA",
+				"PotA",
+				"QftIS",
+				"RtG",
+				"SatO",
+				"SCC-ARiR",
+				"SCC-HfMT",
+				"SKT",
+				"TftYP",
+				"TftYP-AtG",
+				"TftYP-DiT",
+				"TftYP-WPM",
+				"ToFW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				7
+			],
 			"hp": {
 				"average": 120,
 				"formula": "10d10 + 30"
 			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 16,
+			"dex": 5,
+			"con": 16,
+			"int": 1,
+			"wis": 6,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
 			"immune": [
 				"acid",
 				"cold",
@@ -3151,8 +3316,75 @@
 				"lightning",
 				"slashing"
 			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The ichor can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Corrosive Form",
+					"entries": [
+						"A creature that touches the ichor or hits it with a melee attack while within 5 feet of it takes 4 ({@damage 1d8}) acid damage. Any nonmagical weapon made of metal or wood that hits the ichor corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the ichor is destroyed after dealing damage. The ichor can eat through 2-inch-thick, nonmagical wood or metal in 1 round."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The ichor can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 18 ({@damage 4d8}) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Split",
+					"entries": [
+						"When a ichor that is Medium or larger is subjected to lightning or slashing damage, it splits into two new ichors if it has at least 10 hit points. Each new ichor has hit points equal to half the original ichor's, rounded down. New ichors are one size smaller than the original ichor."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"traitTags": [
+				"Amorphous",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"A",
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
 			"tokenCredit": "Unknown",
 			"tokenCustom": true,
+			"source": "CoA",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CoA/Demon%20Ichor.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -4505,12 +4737,52 @@
 		},
 		{
 			"name": "Frozen Golem",
-			"source": "CoA",
-			"page": 132,
-			"_copy": {
-				"name": "Iron Golem",
-				"source": "MM"
+			"referenceSources": [
+				"BMT",
+				"CoA",
+				"CoS",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"MOT",
+				"OoW",
+				"SatO",
+				"SKT",
+				"VEoR",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 210,
+				"formula": "20d10 + 100"
 			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 24,
+			"dex": 9,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 1,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
 			"immune": [
 				"cold",
 				"fire",
@@ -4526,8 +4798,106 @@
 					"cond": true
 				}
 			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Fire Absorption",
+					"entries": [
+						"Whenever the golem is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The golem is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The golem has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The golem's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The golem makes two melee attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Sword",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}23 ({@damage 3d10 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Poison Breath {@recharge 5}",
+					"entries": [
+						"The golem exhales poisonous gas in a 15-foot cone. Each creature in that area must make a {@dc 19} Constitution saving throw, taking 45 ({@damage 10d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Absorption",
+				"Immutable Form",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
 			"tokenCredit": "Artguyonthefly",
 			"tokenCustom": true,
+			"source": "CoA",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CoA/Frozen%20Golem.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -4928,29 +5298,137 @@
 		},
 		{
 			"name": "Grotesque Tentacle",
-			"source": "CoA",
-			"page": 78,
-			"_copy": {
-				"name": "Guardian Naga",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "naga",
-						"with": "tentacle"
-					}
-				}
-			},
+			"referenceSources": [
+				"AATM",
+				"BMT",
+				"CoA",
+				"GoS",
+				"ToA",
+				"TTP",
+				"VEoR"
+			],
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
 			"alignment": [
 				"L",
 				"E"
 			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "15d10 + 45"
+			},
 			"speed": {
 				"walk": 0
 			},
+			"str": 19,
+			"dex": 18,
+			"con": 16,
+			"int": 16,
+			"wis": 19,
+			"cha": 18,
+			"save": {
+				"dex": "+8",
+				"con": "+7",
+				"int": "+7",
+				"wis": "+8",
+				"cha": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Celestial",
+				"Common"
+			],
+			"cr": "10",
 			"spellcasting": null,
+			"trait": [
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"If it dies, the tentacle returns to life in {@dice 1d6} days and regains all its hit points. Only a {@spell wish} spell can prevent this trait from functioning."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}8 ({@damage 1d8 + 4}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 45 ({@damage 10d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Spit Poison",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 15/30 ft., one creature. {@h}The target must make a {@dc 15} Constitution saving throw, taking 45 ({@damage 10d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"desert"
+			],
+			"traitTags": [
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"CE"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"R",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"dexterity",
+				"wisdom"
+			],
 			"tokenCredit": "Irene Meniconi",
 			"tokenCustom": true,
+			"source": "CoA",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CoA/Grotesque%20Tentacle.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -5199,24 +5677,148 @@
 		},
 		{
 			"name": "Icy Simulacrum",
-			"source": "CoA",
-			"page": 176,
-			"_copy": {
-				"name": "Doppelganger",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "doppelganger",
-						"with": "simulacrum"
-					}
-				}
+			"referenceSources": [
+				"BGDIA",
+				"BMT",
+				"CoA",
+				"EGW",
+				"HftT",
+				"HotDQ",
+				"IDRotF",
+				"IMR",
+				"JttRC",
+				"KftGV",
+				"LMoP",
+				"OotA",
+				"OoW",
+				"PaBTSO",
+				"PotA",
+				"QftIS",
+				"SatO",
+				"SKT",
+				"TftYP",
+				"TftYP-THSoT",
+				"ToA",
+				"ToFW",
+				"WDH",
+				"WDMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger"
+				]
 			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"deception": "+6",
+				"insight": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The simulacrum can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Ambusher",
+					"entries": [
+						"In the first round of a combat, the simulacrum has advantage on attack rolls against any creature it {@status surprised}."
+					]
+				},
+				{
+					"name": "Surprise Attack",
+					"entries": [
+						"If the simulacrum surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 ({@damage 3d6}) damage from the attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The simulacrum makes two melee attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Read Thoughts",
+					"entries": [
+						"The simulacrum magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the simulacrum can continue reading its thoughts, as long as the simulacrum's {@status concentration} isn't broken (as if {@status concentration||concentrating} on a spell). While reading the target's mind, the simulacrum has advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Deception}, {@skill Intimidation}, and {@skill Persuasion}) checks against the target."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"traitTags": [
+				"Ambusher",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
 			"immune": [
 				"cold"
 			],
 			"tokenCredit": "Caverns of the Snow Witch",
 			"tokenCustom": true,
+			"source": "CoA",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CoA/Icy%20Simulacrum.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -5513,44 +6115,144 @@
 		},
 		{
 			"name": "Kuo-toa Heretic",
-			"source": "CoA",
-			"page": 129,
-			"_copy": {
-				"name": "Kuo-toa Monitor",
-				"source": "MM",
-				"_mod": {
-					"action": [
-						{
-							"mode": "replaceArr",
-							"replace": "Bite",
-							"items": {
-								"name": "Bite",
-								"entries": [
-									"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing or radiant damage."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Unarmed Strike",
-							"items": {
-								"name": "Unarmed Strike",
-								"entries": [
-									"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning or radiant damage plus 3 ({@damage 1d6}) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn."
-								]
-							}
-						}
+			"referenceSources": [
+				"CoA",
+				"GoS",
+				"OotA",
+				"PotA"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kuo-toa"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor",
+						"Unarmored Defense"
 					]
 				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
 			},
-			"tokenCredit": "CrazyMind351",
-			"tokenCustom": true,
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 14,
+			"int": 12,
+			"wis": 14,
+			"cha": 11,
+			"skill": {
+				"perception": "+6",
+				"religion": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Undercommon"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The kuo-toa can breathe air and water."
+					]
+				},
+				{
+					"name": "Otherworldly Perception",
+					"entries": [
+						"The kuo-toa can sense the presence of any creature within 30 feet of it that is {@condition invisible} or on the Ethereal Plane. It can pinpoint such a creature that is moving."
+					]
+				},
+				{
+					"name": "Slippery",
+					"entries": [
+						"The kuo-toa has advantage on ability checks and saving throws made to escape a grapple."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"The kuo-toa adds its Wisdom modifier to its armor class."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kuo-toa makes one bite attack and two unarmed strikes."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing or radiant damage."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning or radiant damage plus 3 ({@damage 1d6}) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"traitTags": [
+				"Amphibious",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"U"
+			],
 			"damageTags": [
 				"B",
 				"L",
 				"P",
 				"R"
 			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenCredit": "CrazyMind351",
+			"tokenCustom": true,
+			"source": "CoA",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CoA/Kuo-toa%20Heretic.webp"
+			},
 			"hasToken": true
 		},
 		{
@@ -7174,30 +7876,169 @@
 		},
 		{
 			"name": "Regular Orthoclath",
-			"isNpc": true,
-			"isNamedCreature": true,
-			"source": "CoA",
-			"page": 171,
-			"_copy": {
-				"name": "Iron Golem",
-				"source": "MM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "golem",
-						"with": "orthoclath"
-					}
-				}
-			},
+			"referenceSources": [
+				"BMT",
+				"CoA",
+				"CoS",
+				"EGW",
+				"GoS",
+				"IDRotF",
+				"MOT",
+				"OoW",
+				"SatO",
+				"SKT",
+				"VEoR",
+				"WDMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": "construct",
 			"alignment": [
 				"L",
 				"N"
 			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 210,
+				"formula": "20d10 + 100"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 24,
+			"dex": 9,
+			"con": 20,
 			"int": 16,
 			"wis": 16,
 			"cha": 16,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"fire",
+				"poison",
+				"psychic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Fire Absorption",
+					"entries": [
+						"Whenever the orthoclath is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The orthoclath is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The orthoclath has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The orthoclath's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The orthoclath makes two melee attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Sword",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}23 ({@damage 3d10 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Poison Breath {@recharge 5}",
+					"entries": [
+						"The orthoclath exhales poisonous gas in a 15-foot cone. Each creature in that area must make a {@dc 19} Constitution saving throw, taking 45 ({@damage 10d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Absorption",
+				"Immutable Form",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
 			"tokenCredit": "Konstantin Vavilov",
 			"tokenCustom": true,
+			"source": "CoA",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/CoA/Regular%20Orthoclath.webp"
+			},
 			"hasToken": true
 		},
 		{

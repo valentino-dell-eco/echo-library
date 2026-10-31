@@ -1,15 +1,8 @@
 {
 	"monster": [
 		{
-			"name": "Bubba Wugga",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "DrDe-BD",
-			"page": 38,
-			"_copy": {
-				"name": "Ogre",
-				"source": "XMM"
-			},
 			"type": "construct",
 			"languages": [
 				"Common",
@@ -19,7 +12,99 @@
 				"C",
 				"E"
 			],
-			"hasToken": true
+			"name": "Bubba Wugga",
+			"source": "DrDe-BD",
+			"page": 38,
+			"referenceSources": [
+				"DrDe",
+				"DrDe-BD",
+				"EFA",
+				"FRAiF",
+				"HotB",
+				"ScoEE"
+			],
+			"size": [
+				"L"
+			],
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 68,
+				"formula": "8d10 + 24"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 8,
+			"con": 16,
+			"int": 5,
+			"wis": 7,
+			"cha": 7,
+			"senses": [
+				"Darkvision 60 ft."
+			],
+			"passive": 8,
+			"cr": "2",
+			"gear": [
+				"greatclub|xphb",
+				{
+					"item": "javelin|xphb",
+					"quantity": 3
+				}
+			],
+			"action": [
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atkr m} {@hit 6}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Bludgeoning damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atkr m,r} {@hit 6}, reach 5 ft. or range 30/120 ft. {@h}11 ({@damage 2d6 + 4}) Piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"underdark"
+			],
+			"treasure": [
+				"armaments"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MA",
+				"MLW",
+				"RA",
+				"THW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/DrDe-BD/Bubba%20Wugga.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }

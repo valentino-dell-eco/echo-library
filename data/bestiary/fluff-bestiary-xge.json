@@ -1,0 +1,17 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Hound of Ill Omen",
+			"source": "XGE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/XGE/Hound%20of%20Ill%20Omen.webp"
+					}
+				}
+			]
+		}
+	]
+}

@@ -19,6 +19,13 @@
 					"height": 515,
 					"title": "Exquisite Archangel",
 					"credit": "Brad Rigney"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Angel.webp"
+					}
 				}
 			]
 		},
@@ -36,6 +43,52 @@
 					"height": 613,
 					"title": "Prizefighter Construct",
 					"credit": "Daniel Ljunggren"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Construct%20(Animated%20Armor).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Construct (Helmed Horror)",
+			"source": "PSK",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Construct%20(Helmed%20Horror).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Construct (Modron)",
+			"source": "PSK",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Construct%20(Modron).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Construct (Shield Guardian)",
+			"source": "PSK",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Construct%20(Shield%20Guardian).webp"
+					}
 				}
 			]
 		},
@@ -59,6 +112,13 @@
 					"height": 543,
 					"title": "Demon of Dark Schemes",
 					"credit": "Daarken"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Demon.webp"
+					}
 				}
 			]
 		},
@@ -82,6 +142,31 @@
 					"height": 915,
 					"title": "Skyship Stalker",
 					"credit": "Tyler Jacobson"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Dragon.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Drake (Large)",
+			"source": "PSK",
+			"entries": [
+				"Drakes are skittish, opportunistic predators that hunt the skies of Kaladesh in units called rushes, made up of as many as a dozen drakes. Though they prey mostly on birds, they can also be seen clinging to the hides of leviathans and whales, picking off winged leeches and other parasites and scavengers that attach themselves to the huge sky beasts. Occasionally, a rush of drakes will descend on a herd of mountain goats or other game found at high elevations.",
+				"Drakes have reptilian bodies and large, leathery wings. They use the sharp claws on their two legs to cling to rocky crags, whales, or leviathans, as well as to grasp and tear at larger prey. Drakes are highly territorial, and have been known to attack airships from time to time. A drake is intelligent enough to recognize specific airships that have killed other members of its rush, and drake harassment often forces such ships to find new routes to avoid a rush's territory.",
+				"A {@creature pteranodon|MM} can represent a smaller drake, while a larger one is more like a {@creature giant eagle|MM}."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Drake%20(Large).webp"
+					}
 				}
 			]
 		},
@@ -104,6 +189,13 @@
 					"height": 723,
 					"title": "Take Down",
 					"credit": "Izzy"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Drake%20(Small).webp"
+					}
 				}
 			]
 		},
@@ -127,6 +219,13 @@
 					"height": 848,
 					"title": "Enraged Giant",
 					"credit": "Anthony Palumbo"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Giant.webp"
+					}
 				}
 			]
 		},
@@ -152,6 +251,23 @@
 			]
 		},
 		{
+			"name": "Hellion (Huge)",
+			"source": "PSK",
+			"entries": [
+				"Hellions appear similar to wurms, though the two creatures are unrelated. A hellion has a long, segmented body like that of a centipede, with innumerable short legs that propel it above or below ground. Its huge, toothy maw is surrounded by anywhere from six to twelve long appendages resembling clawed fingers, which it uses to grasp and pull prey to its mouth. Hellions are found in mountainous areas, where they burst up from the rocky ground to ambush their prey.",
+				"The {@creature remorhaz} statistics in the {@book Monster Manual|MM} work well for hellions of different sizes."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Hellion%20(Huge).webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Hellion (Large)",
 			"source": "PSK",
 			"entries": [
@@ -169,6 +285,13 @@
 					"height": 798,
 					"title": "Lathnu Hellion",
 					"credit": "Lars Grant-West"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Hellion%20(Large).webp"
+					}
 				}
 			]
 		},
@@ -212,6 +335,13 @@
 					"width": 1275,
 					"height": 1227,
 					"credit": "Adam Paquette"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Lifecraft%20Elephant.webp"
+					}
 				}
 			]
 		},
@@ -255,6 +385,24 @@
 			]
 		},
 		{
+			"name": "Sky Whale",
+			"source": "PSK",
+			"entries": [
+				"The aethersphere is home to its own ecosystem. Tiny organisms float in the aether currents, deriving all their energy from it and serving as food for larger creatures. Leviathans (similar in form to enormous eels) and flying whales filter these organisms out of the air as they swim through the aethersphere. The whales, as a rule, are not hostile by nature, though they can cause devastating sparks or destructive storms as they move through the aether flows. But leviathans are perpetually hungry, and feed on drakes and airships just as readily as they do on smaller creatures. Along with dragons, leviathans are the primary reason that aether-mining airships carry enormous harpoons.",
+				"A sky leviathan is similar to a {@creature purple worm|MM} in its propensity to swallow prey whole, but it lacks the worm's poison stinger and is therefore significantly less dangerous. Use the statistics presented here.",
+				"Sky whales are generally docile filter-feeders that avoid confrontations with airships and flying predators whenever possible. Use the statistics for a {@creature giant crocodile|MM}, but replace its bite attack with a flipper attack that is identical to its tail attack. A sky whale has a flying speed of 50 feet and can hover."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Sky%20Whale.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Thopter (Bat)",
 			"source": "PSK",
 			"images": [
@@ -279,6 +427,160 @@
 					"height": 528,
 					"title": "Thopter",
 					"credit": "Svetlin Velinov"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Bat).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Bat)%20(2).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Thopter (Blood Hawk)",
+			"source": "PSK",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Blood%20Hawk).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Blood%20Hawk)%20(2).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Thopter (Eagle)",
+			"source": "PSK",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Eagle).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Eagle)%20(2).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Thopter (Hawk)",
+			"source": "PSK",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Hawk).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Hawk)%20(2).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Thopter (Owl)",
+			"source": "PSK",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Owl).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Owl)%20(2).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Thopter (Pseudodragon)",
+			"source": "PSK",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Pseudodragon).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Pseudodragon)%20(2).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Thopter (Raven)",
+			"source": "PSK",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Raven).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Raven)%20(2).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Thopter (Vulture)",
+			"source": "PSK",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Vulture).webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/PSK/Thopter%20(Vulture)%20(2).webp"
+					}
 				}
 			]
 		},

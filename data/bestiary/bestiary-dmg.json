@@ -1,16 +1,9 @@
 {
 	"monster": [
 		{
-			"name": "Avatar of Death",
-			"source": "DMG",
-			"page": 164,
-			"srd": true,
 			"referenceSources": [
 				"BMT",
 				"TCE"
-			],
-			"reprintedAs": [
-				"Avatar of Death|XDMG"
 			],
 			"size": [
 				"M"
@@ -98,6 +91,13 @@
 				"O",
 				"S"
 			],
+			"name": "Avatar of Death",
+			"source": "DMG",
+			"page": 164,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/DMG/Avatar%20of%20Death.webp"
+			},
 			"hasToken": true,
 			"hasFluff": true
 		},

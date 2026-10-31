@@ -1,0 +1,181 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Ri'all",
+			"source": "RWG",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Cultists",
+					"entries": [
+						"{@i Doomsayers and Fanatics}",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Habitat:",
+									"entry": "{@filter Any|bestiary|environment=any}"
+								},
+								{
+									"type": "item",
+									"name": "Treasure:",
+									"entry": "Individual, {@table Random Magic Items - Relics|XDMG|Relics}"
+								}
+							]
+						},
+						"Cultists use magic and extreme measures to spread radical beliefs. Some privately pursue esoteric secrets, while others form shadowy cabals seeking to bring about terrifying ends. Cultists often follow obscure mystical traditions or obsess over interpretations of ancient prophecies. They might worship supernatural patrons—deities, otherworldly creatures, manipulative alien minds, or stranger forces. Roll on or choose a result from the Cultist Agendas table to inspire what a cultist seeks to achieve.",
+						{
+							"type": "table",
+							"caption": "Cultist Agendas",
+							"colLabels": [
+								"1d6",
+								"The Cultist Strives To..."
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"Bring about the end of a dominant order, an age, or the world."
+								],
+								[
+									"2",
+									"Burn away the comfortable lies of reality, revealing forgotten or terrible truths."
+								],
+								[
+									"3",
+									"Expand their faith though mind control or supernatural coercion."
+								],
+								[
+									"4",
+									"Make global changes, like sinking the land or awakening volcanoes."
+								],
+								[
+									"5",
+									"Remake life on a mass scale, altering other creatures' bodies or spiritual beings."
+								],
+								[
+									"6",
+									"Summon their deity or its herald, weapon, or realm into their world."
+								]
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Occult Symbols",
+							"entries": [
+								"Cults often identify with symbols that exemplify their beliefs. Such symbols might mark objects important to the cult, as well as the dress and bodies of cultists themselves. These symbols might be broadly understandable, or they might have meaning only to cultists. Roll twice on or choose results from the Cult Symbols table to inspire a cult's icons.",
+								{
+									"type": "table",
+									"caption": "Cult Symbols",
+									"isNameGenerator": true,
+									"colLabels": [
+										"1d10",
+										"The Symbol Is...",
+										"Depicted As..."
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-5",
+										"col-5"
+									],
+									"rows": [
+										[
+											"1",
+											"An alchemical sign",
+											"A calendar or map"
+										],
+										[
+											"2",
+											"An animal",
+											"A crest or as heraldry"
+										],
+										[
+											"3",
+											"A celestial body",
+											"An elaborate diagram"
+										],
+										[
+											"4",
+											"A deity's icon",
+											"A metaphorical image"
+										],
+										[
+											"5",
+											"An element",
+											"A mystical being"
+										],
+										[
+											"6",
+											"An eye",
+											"Part of an equation"
+										],
+										[
+											"7",
+											"A geometric shape",
+											"A repeating pattern"
+										],
+										[
+											"8",
+											"A letter or number",
+											"A series of scratches"
+										],
+										[
+											"9",
+											"Part of a monster",
+											"A simple pictogram"
+										],
+										[
+											"10",
+											"A skull",
+											"A weapon or tool"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Cult Members",
+							"entries": [
+								"Cults often form hierarchies around a charismatic or domineering leader. While cult members might work independently, they take their orders from superiors with greater supernatural powers. "
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Types of Cultists",
+							"entries": [
+								"Cults can organize around any mystical tradition, but many serve supernatural beings. Cult members often have abilities tied to the forces they worship."
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Dread Tharizdun, power of the Elder Elemental Eye and master of all destructive forces, I am the Champion of Elemental Evil and am ready to carry out your wishes."
+									],
+									"by": "Rites of the Cult of Elemental Evil"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/RWG/Ri'all.webp"
+					}
+				}
+			]
+		}
+	]
+}

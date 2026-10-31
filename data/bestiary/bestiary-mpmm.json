@@ -29772,15 +29772,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Sacred Statue",
-			"source": "MPMM",
-			"page": 114,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 194
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -29894,10 +29885,6 @@
 					]
 				}
 			],
-			"soundClip": {
-				"type": "internal",
-				"path": "bestiary/sacred-statue.opus"
-			},
 			"traitTags": [
 				"False Appearance",
 				"Unusual Nature"
@@ -29919,7 +29906,16 @@
 				"RCH",
 				"RW"
 			],
-			"hasToken": true
+			"name": "Sacred Statue",
+			"source": "MPMM",
+			"page": 114,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/MPMM/Sacred%20Statue.webp"
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Sea Spawn",

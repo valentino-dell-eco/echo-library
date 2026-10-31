@@ -1,6 +1,27 @@
 {
 	"monsterFluff": [
 		{
+			"name": "Aza Dowling",
+			"source": "ToFW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"The muses of the Society of Sensation are performers who enthrall crowds with spectacle and minor sensory experiences. When threatened, they beguile their foes, placating their enemies with magical displays."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Aza%20Dowling.webp"
+					}
+				}
+			]
+		},
+		{
 			"name": "Ebonclaw",
 			"source": "ToFW",
 			"images": [
@@ -12,6 +33,13 @@
 					},
 					"width": 1700,
 					"height": 1136
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Ebonclaw.webp"
+					}
 				}
 			]
 		},
@@ -40,6 +68,13 @@
 					},
 					"width": 850,
 					"height": 2267
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Farrow.webp"
+					}
 				}
 			]
 		},
@@ -55,6 +90,68 @@
 					},
 					"width": 850,
 					"height": 2266
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Gertrube.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Giant Whirlwyrm",
+			"source": "ToFW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"The serpentine behir crawls along floors and clambers up walls to reach its prey. Its lightning breath can incinerate most creatures, even as more powerful foes are constricted in its coils and eaten alive.",
+								"A behir's monstrous form resembles a combination of centipede and crocodile. Its scaled hide ranges from ultramarine to deep blue in color, fading to pale blue on its underside.",
+								{
+									"type": "entries",
+									"name": "Cavern Predators",
+									"entries": [
+										"Behirs lair in places inaccessible to other creatures, favoring locations where would-be intruders must make a harrowing climb to reach them. Deep pits, high caves in cliff walls, and caverns reached only by narrow, twisting tunnels are prime sites for a behir ambush. A behir's dozen legs allow it to scramble through its lair site with ease. When not climbing, it moves even faster by folding its legs beside its body and slithering like a snake.",
+										"Behirs swallow their prey whole, after which they enter a period of dormancy while they digest. While dormant, a behir chooses a hiding place where intruders in its lair might overlook it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Foes of the Dragons",
+									"entries": [
+										"In times long forgotten, giants and dragons engaged in seemingly endless war. Storm giants created the first behirs as weapons against the dragons, and behirs retain a natural hatred for dragonkind.",
+										"A behir never makes its lair in an area it knows to be inhabited by a dragon. If a dragon attempts to establish a lair within a few dozen miles of a behir's lair, the behir is compelled to kill the dragon or drive it off. Only if the dragon proves too powerful to fight does a behir back down, seeking out a new lair site a great distance away."
+									]
+								}
+							]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"I've already eaten three giant bats, six troglodytes, and a mind flayer today, but that's okay. Plenty of room in my belly for you and your friends."
+									],
+									"by": "Lludd the behir, confronting adventurers in the Lost Caverns of Tsojcanth"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Giant%20Whirlwyrm.webp"
+					}
 				}
 			]
 		},
@@ -70,6 +167,34 @@
 					},
 					"width": 850,
 					"height": 2267
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Josbert%20Plum.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Kal the Crisp",
+			"source": "ToFW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"The pyromaniacal agents known as fire starters burn away oppressive systems through chaos and flame. They wield hammers that emit magical flames—perfect for smashing and burning."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Kal%20the%20Crisp.webp"
+					}
 				}
 			]
 		},
@@ -85,6 +210,13 @@
 					},
 					"width": 1700,
 					"height": 1136
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Kopoha.webp"
+					}
 				}
 			]
 		},
@@ -100,6 +232,13 @@
 					},
 					"width": 1700,
 					"height": 2200
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Modron%20Planar%20Incarnate.webp"
+					}
 				}
 			]
 		},
@@ -138,6 +277,13 @@
 					},
 					"width": 1700,
 					"height": 1136
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Ophelia.webp"
+					}
 				}
 			]
 		},
@@ -153,6 +299,13 @@
 					},
 					"width": 1700,
 					"height": 1136
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Parvaz.webp"
+					}
 				}
 			]
 		},
@@ -168,6 +321,13 @@
 					},
 					"width": 850,
 					"height": 1147
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/R04M.webp"
+					}
 				}
 			]
 		},
@@ -183,6 +343,13 @@
 					},
 					"width": 850,
 					"height": 1532
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Shariel.webp"
+					}
 				}
 			]
 		},
@@ -198,6 +365,13 @@
 					},
 					"width": 850,
 					"height": 1942
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Vecna%20Impersonator.webp"
+					}
 				}
 			]
 		},
@@ -213,6 +387,13 @@
 					},
 					"width": 1700,
 					"height": 1136
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Whirlwyrm.webp"
+					}
 				}
 			]
 		},
@@ -228,6 +409,13 @@
 					},
 					"width": 1700,
 					"height": 2200
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/X01.webp"
+					}
 				}
 			]
 		},
@@ -243,6 +431,13 @@
 					},
 					"width": 1700,
 					"height": 1136
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/ToFW/Zaythir.webp"
+					}
 				}
 			]
 		}
