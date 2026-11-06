@@ -70779,8 +70779,7 @@
 		{
 			"id": 9868,
 			"c": 40,
-			"n": "Battle Master (Fighter)",
-			"b": "Battle Master",
+			"n": "Battle Master",
 			"s": "PHB",
 			"u": "fighter_phb,state:sub_battle%20master_phb=b1"
 		},
@@ -70841,8 +70840,7 @@
 		{
 			"id": 9875,
 			"c": 40,
-			"n": "Champion (Fighter)",
-			"b": "Champion",
+			"n": "Champion",
 			"s": "PHB",
 			"u": "fighter_phb,state:sub_champion_phb=b1"
 		},
@@ -70912,8 +70910,7 @@
 		{
 			"id": 9883,
 			"c": 40,
-			"n": "Eldritch Knight (Fighter)",
-			"b": "Eldritch Knight",
+			"n": "Eldritch Knight",
 			"s": "PHB",
 			"u": "fighter_phb,state:sub_eldritch%20knight_phb=b1"
 		},
@@ -70983,8 +70980,7 @@
 		{
 			"id": 9891,
 			"c": 40,
-			"n": "Purple Dragon Knight (Banneret) (Fighter)",
-			"b": "Purple Dragon Knight (Banneret)",
+			"n": "Purple Dragon Knight (Banneret)",
 			"s": "SCAG",
 			"u": "fighter_phb,state:sub_purple%20dragon%20knight%20(banneret)_scag=b1"
 		},
@@ -71090,8 +71086,7 @@
 		{
 			"id": 9903,
 			"c": 40,
-			"n": "Arcane Archer (Fighter)",
-			"b": "Arcane Archer",
+			"n": "Arcane Archer",
 			"s": "XGE",
 			"u": "fighter_phb,state:sub_arcane%20archer_xge=b1"
 		},
@@ -71170,8 +71165,7 @@
 		{
 			"id": 9912,
 			"c": 40,
-			"n": "Cavalier (Fighter)",
-			"b": "Cavalier",
+			"n": "Cavalier",
 			"s": "XGE",
 			"u": "fighter_phb,state:sub_cavalier_xge=b1"
 		},
@@ -71241,8 +71235,7 @@
 		{
 			"id": 9920,
 			"c": 40,
-			"n": "Samurai (Fighter)",
-			"b": "Samurai",
+			"n": "Samurai",
 			"s": "XGE",
 			"u": "fighter_phb,state:sub_samurai_xge=b1"
 		},
@@ -71312,8 +71305,7 @@
 		{
 			"id": 9928,
 			"c": 40,
-			"n": "Echo Knight (Fighter)",
-			"b": "Echo Knight",
+			"n": "Echo Knight",
 			"s": "EGW",
 			"u": "fighter_phb,state:sub_echo%20knight_egw=b1"
 		},
@@ -71419,8 +71411,7 @@
 		{
 			"id": 9940,
 			"c": 40,
-			"n": "Psi Warrior (Fighter)",
-			"b": "Psi Warrior",
+			"n": "Psi Warrior",
 			"s": "TCE",
 			"u": "fighter_phb,state:sub_psi%20warrior_tce=b1"
 		},
@@ -71526,8 +71517,7 @@
 		{
 			"id": 9952,
 			"c": 40,
-			"n": "Rune Knight (Fighter)",
-			"b": "Rune Knight",
+			"n": "Rune Knight",
 			"s": "TCE",
 			"u": "fighter_phb,state:sub_rune%20knight_tce=b1"
 		},
@@ -71579,8 +71569,7 @@
 		{
 			"id": 9958,
 			"c": 40,
-			"n": "Path of the Berserker (Barbarian)",
-			"b": "Path of the Berserker",
+			"n": "Path of the Berserker",
 			"s": "PHB",
 			"u": "barbarian_phb,state:sub_berserker_phb=b1"
 		},
@@ -71776,8 +71765,7 @@
 		{
 			"id": 9980,
 			"c": 40,
-			"n": "Path of the Totem Warrior (Barbarian)",
-			"b": "Path of the Totem Warrior",
+			"n": "Path of the Totem Warrior",
 			"s": "PHB",
 			"u": "barbarian_phb,state:sub_totem%20warrior_phb=b1"
 		},
@@ -71838,8 +71826,7 @@
 		{
 			"id": 9987,
 			"c": 40,
-			"n": "Path of the Battlerager (Barbarian)",
-			"b": "Path of the Battlerager",
+			"n": "Path of the Battlerager",
 			"s": "SCAG",
 			"u": "barbarian_phb,state:sub_battlerager_scag=b1"
 		},
@@ -71891,8 +71878,7 @@
 		{
 			"id": 9993,
 			"c": 40,
-			"n": "Path of the Ancestral Guardian (Barbarian)",
-			"b": "Path of the Ancestral Guardian",
+			"n": "Path of the Ancestral Guardian",
 			"s": "XGE",
 			"u": "barbarian_phb,state:sub_ancestral%20guardian_xge=b1"
 		},
@@ -72025,8 +72011,7 @@
 		{
 			"id": 10008,
 			"c": 40,
-			"n": "Path of the Storm Herald (Barbarian)",
-			"b": "Path of the Storm Herald",
+			"n": "Path of the Storm Herald",
 			"s": "XGE",
 			"u": "barbarian_phb,state:sub_storm%20herald_xge=b1"
 		},
@@ -72087,8 +72072,7 @@
 		{
 			"id": 10015,
 			"c": 40,
-			"n": "Path of the Zealot (Barbarian)",
-			"b": "Path of the Zealot",
+			"n": "Path of the Zealot",
 			"s": "XGE",
 			"u": "barbarian_phb,state:sub_zealot_xge=b1"
 		},
@@ -72140,8 +72124,7 @@
 		{
 			"id": 10021,
 			"c": 40,
-			"n": "Path of the Beast (Barbarian)",
-			"b": "Path of the Beast",
+			"n": "Path of the Beast",
 			"s": "TCE",
 			"u": "barbarian_phb,state:sub_beast_tce=b1"
 		},
@@ -72202,8 +72185,7 @@
 		{
 			"id": 10028,
 			"c": 40,
-			"n": "Path of Wild Magic (Barbarian)",
-			"b": "Path of Wild Magic",
+			"n": "Path of Wild Magic",
 			"s": "TCE",
 			"u": "barbarian_phb,state:sub_wild%20magic_tce=b1"
 		},
@@ -72264,8 +72246,7 @@
 		{
 			"id": 10035,
 			"c": 40,
-			"n": "Path of the Giant (Barbarian)",
-			"b": "Path of the Giant",
+			"n": "Path of the Giant",
 			"s": "BGG",
 			"u": "barbarian_phb,state:sub_giant_bgg=b1"
 		},
@@ -72317,8 +72298,7 @@
 		{
 			"id": 10041,
 			"c": 40,
-			"n": "College of Lore (Bard)",
-			"b": "College of Lore",
+			"n": "College of Lore",
 			"s": "PHB",
 			"u": "bard_phb,state:sub_lore_phb=b1"
 		},
@@ -72370,8 +72350,7 @@
 		{
 			"id": 10047,
 			"c": 40,
-			"n": "College of Valor (Bard)",
-			"b": "College of Valor",
+			"n": "College of Valor",
 			"s": "PHB",
 			"u": "bard_phb,state:sub_valor_phb=b1"
 		},
@@ -72423,8 +72402,7 @@
 		{
 			"id": 10053,
 			"c": 40,
-			"n": "College of Glamour (Bard)",
-			"b": "College of Glamour",
+			"n": "College of Glamour",
 			"s": "XGE",
 			"u": "bard_phb,state:sub_glamour_xge=b1"
 		},
@@ -72512,8 +72490,7 @@
 		{
 			"id": 10063,
 			"c": 40,
-			"n": "College of Swords (Bard)",
-			"b": "College of Swords",
+			"n": "College of Swords",
 			"s": "XGE",
 			"u": "bard_phb,state:sub_swords_xge=b1"
 		},
@@ -72565,8 +72542,7 @@
 		{
 			"id": 10069,
 			"c": 40,
-			"n": "College of Whispers (Bard)",
-			"b": "College of Whispers",
+			"n": "College of Whispers",
 			"s": "XGE",
 			"u": "bard_phb,state:sub_whispers_xge=b1"
 		},
@@ -72618,8 +72594,7 @@
 		{
 			"id": 10075,
 			"c": 40,
-			"n": "College of Creation (Bard)",
-			"b": "College of Creation",
+			"n": "College of Creation",
 			"s": "TCE",
 			"u": "bard_phb,state:sub_creation_tce=b1"
 		},
@@ -72680,8 +72655,7 @@
 		{
 			"id": 10082,
 			"c": 40,
-			"n": "College of Eloquence (Bard)",
-			"b": "College of Eloquence",
+			"n": "College of Eloquence",
 			"s": "TCE",
 			"u": "bard_phb,state:sub_eloquence_tce=b1"
 		},
@@ -72742,8 +72716,7 @@
 		{
 			"id": 10089,
 			"c": 40,
-			"n": "College of Spirits (Bard)",
-			"b": "College of Spirits",
+			"n": "College of Spirits",
 			"s": "VRGR",
 			"u": "bard_phb,state:sub_spirits_vrgr=b1"
 		},
@@ -72795,8 +72768,7 @@
 		{
 			"id": 10095,
 			"c": 40,
-			"n": "College of Spirits (Bard)",
-			"b": "College of Spirits",
+			"n": "College of Spirits",
 			"s": "RHW",
 			"u": "bard_xphb,state:sub_spirits_rhw=b1"
 		},
@@ -72866,8 +72838,7 @@
 		{
 			"id": 10103,
 			"c": 40,
-			"n": "Alchemist (Artificer)",
-			"b": "Alchemist",
+			"n": "Alchemist",
 			"s": "TCE",
 			"u": "artificer_tce,state:sub_alchemist_tce=b1"
 		},
@@ -73009,8 +72980,7 @@
 		{
 			"id": 10119,
 			"c": 40,
-			"n": "Armorer (Artificer)",
-			"b": "Armorer",
+			"n": "Armorer",
 			"s": "TCE",
 			"u": "artificer_tce,state:sub_armorer_tce=b1"
 		},
@@ -73080,8 +73050,7 @@
 		{
 			"id": 10127,
 			"c": 40,
-			"n": "Artillerist (Artificer)",
-			"b": "Artillerist",
+			"n": "Artillerist",
 			"s": "TCE",
 			"u": "artificer_tce,state:sub_artillerist_tce=b1"
 		},
@@ -73160,8 +73129,7 @@
 		{
 			"id": 10136,
 			"c": 40,
-			"n": "Battle Smith (Artificer)",
-			"b": "Battle Smith",
+			"n": "Battle Smith",
 			"s": "TCE",
 			"u": "artificer_tce,state:sub_battle%20smith_tce=b1"
 		},
@@ -73231,8 +73199,7 @@
 		{
 			"id": 10144,
 			"c": 40,
-			"n": "Alchemist (Artificer)",
-			"b": "Alchemist",
+			"n": "Alchemist",
 			"s": "EFA",
 			"u": "artificer_efa,state:sub_alchemist_efa=b1"
 		},
@@ -73338,8 +73305,7 @@
 		{
 			"id": 10156,
 			"c": 40,
-			"n": "Armorer (Artificer)",
-			"b": "Armorer",
+			"n": "Armorer",
 			"s": "EFA",
 			"u": "artificer_efa,state:sub_armorer_efa=b1"
 		},
@@ -73409,8 +73375,7 @@
 		{
 			"id": 10164,
 			"c": 40,
-			"n": "Artillerist (Artificer)",
-			"b": "Artillerist",
+			"n": "Artillerist",
 			"s": "EFA",
 			"u": "artificer_efa,state:sub_artillerist_efa=b1"
 		},
@@ -73489,8 +73454,7 @@
 		{
 			"id": 10173,
 			"c": 40,
-			"n": "Battle Smith (Artificer)",
-			"b": "Battle Smith",
+			"n": "Battle Smith",
 			"s": "EFA",
 			"u": "artificer_efa,state:sub_battle%20smith_efa=b1"
 		},
@@ -73569,8 +73533,7 @@
 		{
 			"id": 10182,
 			"c": 40,
-			"n": "Cartographer (Artificer)",
-			"b": "Cartographer",
+			"n": "Cartographer",
 			"s": "EFA",
 			"u": "artificer_efa,state:sub_cartographer_efa=b1"
 		},
@@ -73649,8 +73612,7 @@
 		{
 			"id": 10191,
 			"c": 40,
-			"n": "Reanimator (Artificer)",
-			"b": "Reanimator",
+			"n": "Reanimator",
 			"s": "RHW",
 			"u": "artificer_efa,state:sub_reanimator_rhw=b1"
 		},
@@ -73729,8 +73691,7 @@
 		{
 			"id": 10200,
 			"c": 40,
-			"n": "Circle of the Land (Druid)",
-			"b": "Circle of the Land",
+			"n": "Circle of the Land",
 			"s": "PHB",
 			"u": "druid_phb,state:sub_land_phb=b1"
 		},
@@ -73800,8 +73761,7 @@
 		{
 			"id": 10208,
 			"c": 40,
-			"n": "Circle of the Moon (Druid)",
-			"b": "Circle of the Moon",
+			"n": "Circle of the Moon",
 			"s": "PHB",
 			"u": "druid_phb,state:sub_moon_phb=b1"
 		},
@@ -73862,8 +73822,7 @@
 		{
 			"id": 10215,
 			"c": 40,
-			"n": "Circle of Dreams (Druid)",
-			"b": "Circle of Dreams",
+			"n": "Circle of Dreams",
 			"s": "XGE",
 			"u": "druid_phb,state:sub_dreams_xge=b1"
 		},
@@ -73933,8 +73892,7 @@
 		{
 			"id": 10223,
 			"c": 40,
-			"n": "Circle of the Shepherd (Druid)",
-			"b": "Circle of the Shepherd",
+			"n": "Circle of the Shepherd",
 			"s": "XGE",
 			"u": "druid_phb,state:sub_shepherd_xge=b1"
 		},
@@ -74013,8 +73971,7 @@
 		{
 			"id": 10232,
 			"c": 40,
-			"n": "Circle of Spores (Druid)",
-			"b": "Circle of Spores",
+			"n": "Circle of Spores",
 			"s": "TCE",
 			"u": "druid_phb,state:sub_spores_tce=b1"
 		},
@@ -74111,8 +74068,7 @@
 		{
 			"id": 10243,
 			"c": 40,
-			"n": "Circle of Stars (Druid)",
-			"b": "Circle of Stars",
+			"n": "Circle of Stars",
 			"s": "TCE",
 			"u": "druid_phb,state:sub_stars_tce=b1"
 		},
@@ -74182,8 +74138,7 @@
 		{
 			"id": 10251,
 			"c": 40,
-			"n": "Circle of Wildfire (Druid)",
-			"b": "Circle of Wildfire",
+			"n": "Circle of Wildfire",
 			"s": "TCE",
 			"u": "druid_phb,state:sub_wildfire_tce=b1"
 		},
@@ -74271,8 +74226,7 @@
 		{
 			"id": 10261,
 			"c": 40,
-			"n": "Knowledge Domain (Cleric)",
-			"b": "Knowledge Domain",
+			"n": "Knowledge Domain",
 			"s": "PHB",
 			"u": "cleric_phb,state:sub_knowledge_phb=b1"
 		},
@@ -74369,8 +74323,7 @@
 		{
 			"id": 10272,
 			"c": 40,
-			"n": "Life Domain (Cleric)",
-			"b": "Life Domain",
+			"n": "Life Domain",
 			"s": "PHB",
 			"u": "cleric_phb,state:sub_life_phb=b1"
 		},
@@ -74467,8 +74420,7 @@
 		{
 			"id": 10283,
 			"c": 40,
-			"n": "Light Domain (Cleric)",
-			"b": "Light Domain",
+			"n": "Light Domain",
 			"s": "PHB",
 			"u": "cleric_phb,state:sub_light_phb=b1"
 		},
@@ -74565,8 +74517,7 @@
 		{
 			"id": 10294,
 			"c": 40,
-			"n": "Nature Domain (Cleric)",
-			"b": "Nature Domain",
+			"n": "Nature Domain",
 			"s": "PHB",
 			"u": "cleric_phb,state:sub_nature_phb=b1"
 		},
@@ -74663,8 +74614,7 @@
 		{
 			"id": 10305,
 			"c": 40,
-			"n": "Tempest Domain (Cleric)",
-			"b": "Tempest Domain",
+			"n": "Tempest Domain",
 			"s": "PHB",
 			"u": "cleric_phb,state:sub_tempest_phb=b1"
 		},
@@ -74752,8 +74702,7 @@
 		{
 			"id": 10315,
 			"c": 40,
-			"n": "Trickery Domain (Cleric)",
-			"b": "Trickery Domain",
+			"n": "Trickery Domain",
 			"s": "PHB",
 			"u": "cleric_phb,state:sub_trickery_phb=b1"
 		},
@@ -74850,8 +74799,7 @@
 		{
 			"id": 10326,
 			"c": 40,
-			"n": "War Domain (Cleric)",
-			"b": "War Domain",
+			"n": "War Domain",
 			"s": "PHB",
 			"u": "cleric_phb,state:sub_war_phb=b1"
 		},
@@ -74948,8 +74896,7 @@
 		{
 			"id": 10337,
 			"c": 40,
-			"n": "Death Domain (Cleric)",
-			"b": "Death Domain",
+			"n": "Death Domain",
 			"s": "DMG",
 			"u": "cleric_phb,state:sub_death_dmg=b1"
 		},
@@ -75037,8 +74984,7 @@
 		{
 			"id": 10347,
 			"c": 40,
-			"n": "Arcana Domain (Cleric)",
-			"b": "Arcana Domain",
+			"n": "Arcana Domain",
 			"s": "SCAG",
 			"u": "cleric_phb,state:sub_arcana_scag=b1"
 		},
@@ -75126,8 +75072,7 @@
 		{
 			"id": 10357,
 			"c": 40,
-			"n": "Ambition Domain (PSA) (Cleric)",
-			"b": "Ambition Domain (PSA)",
+			"n": "Ambition Domain (PSA)",
 			"s": "PSA",
 			"u": "cleric_phb,state:sub_ambition%20(psa)_psa=b1"
 		},
@@ -75152,8 +75097,7 @@
 		{
 			"id": 10360,
 			"c": 40,
-			"n": "Knowledge Domain (PSA) (Cleric)",
-			"b": "Knowledge Domain (PSA)",
+			"n": "Knowledge Domain (PSA)",
 			"s": "PSA",
 			"u": "cleric_phb,state:sub_knowledge%20(psa)_psa=b1"
 		},
@@ -75250,8 +75194,7 @@
 		{
 			"id": 10371,
 			"c": 40,
-			"n": "Solidarity Domain (PSA) (Cleric)",
-			"b": "Solidarity Domain (PSA)",
+			"n": "Solidarity Domain (PSA)",
 			"s": "PSA",
 			"u": "cleric_phb,state:sub_solidarity%20(psa)_psa=b1"
 		},
@@ -75348,8 +75291,7 @@
 		{
 			"id": 10382,
 			"c": 40,
-			"n": "Strength Domain (PSA) (Cleric)",
-			"b": "Strength Domain (PSA)",
+			"n": "Strength Domain (PSA)",
 			"s": "PSA",
 			"u": "cleric_phb,state:sub_strength%20(psa)_psa=b1"
 		},
@@ -75446,8 +75388,7 @@
 		{
 			"id": 10393,
 			"c": 40,
-			"n": "Zeal Domain (PSA) (Cleric)",
-			"b": "Zeal Domain (PSA)",
+			"n": "Zeal Domain (PSA)",
 			"s": "PSA",
 			"u": "cleric_phb,state:sub_zeal%20(psa)_psa=b1"
 		},
@@ -75544,8 +75485,7 @@
 		{
 			"id": 10404,
 			"c": 40,
-			"n": "Forge Domain (Cleric)",
-			"b": "Forge Domain",
+			"n": "Forge Domain",
 			"s": "XGE",
 			"u": "cleric_phb,state:sub_forge_xge=b1"
 		},
@@ -75642,8 +75582,7 @@
 		{
 			"id": 10415,
 			"c": 40,
-			"n": "Grave Domain (Cleric)",
-			"b": "Grave Domain",
+			"n": "Grave Domain",
 			"s": "XGE",
 			"u": "cleric_phb,state:sub_grave_xge=b1"
 		},
@@ -75740,8 +75679,7 @@
 		{
 			"id": 10426,
 			"c": 40,
-			"n": "Order Domain (Cleric)",
-			"b": "Order Domain",
+			"n": "Order Domain",
 			"s": "TCE",
 			"u": "cleric_phb,state:sub_order_tce=b1"
 		},
@@ -75838,8 +75776,7 @@
 		{
 			"id": 10437,
 			"c": 40,
-			"n": "Peace Domain (Cleric)",
-			"b": "Peace Domain",
+			"n": "Peace Domain",
 			"s": "TCE",
 			"u": "cleric_phb,state:sub_peace_tce=b1"
 		},
@@ -75945,8 +75882,7 @@
 		{
 			"id": 10449,
 			"c": 40,
-			"n": "Twilight Domain (Cleric)",
-			"b": "Twilight Domain",
+			"n": "Twilight Domain",
 			"s": "TCE",
 			"u": "cleric_phb,state:sub_twilight_tce=b1"
 		},
@@ -76007,8 +75943,7 @@
 		{
 			"id": 10456,
 			"c": 40,
-			"n": "Grave Domain (Cleric)",
-			"b": "Grave Domain",
+			"n": "Grave Domain",
 			"s": "RHW",
 			"u": "cleric_xphb,state:sub_grave_rhw=b1"
 		},
@@ -76060,8 +75995,7 @@
 		{
 			"id": 10462,
 			"c": 40,
-			"n": "Way of Shadow (Monk)",
-			"b": "Way of Shadow",
+			"n": "Way of Shadow",
 			"s": "PHB",
 			"u": "monk_phb,state:sub_shadow_phb=b1"
 		},
@@ -76122,8 +76056,7 @@
 		{
 			"id": 10469,
 			"c": 40,
-			"n": "Way of the Four Elements (Monk)",
-			"b": "Way of the Four Elements",
+			"n": "Way of the Four Elements",
 			"s": "PHB",
 			"u": "monk_phb,state:sub_four%20elements_phb=b1"
 		},
@@ -76175,8 +76108,7 @@
 		{
 			"id": 10475,
 			"c": 40,
-			"n": "Way of the Open Hand (Monk)",
-			"b": "Way of the Open Hand",
+			"n": "Way of the Open Hand",
 			"s": "PHB",
 			"u": "monk_phb,state:sub_open%20hand_phb=b1"
 		},
@@ -76228,8 +76160,7 @@
 		{
 			"id": 10481,
 			"c": 40,
-			"n": "Way of the Long Death (Monk)",
-			"b": "Way of the Long Death",
+			"n": "Way of the Long Death",
 			"s": "SCAG",
 			"u": "monk_phb,state:sub_long%20death_scag=b1"
 		},
@@ -76308,8 +76239,7 @@
 		{
 			"id": 10490,
 			"c": 40,
-			"n": "Way of the Drunken Master (Monk)",
-			"b": "Way of the Drunken Master",
+			"n": "Way of the Drunken Master",
 			"s": "XGE",
 			"u": "monk_phb,state:sub_drunken%20master_xge=b1"
 		},
@@ -76379,8 +76309,7 @@
 		{
 			"id": 10498,
 			"c": 40,
-			"n": "Way of the Kensei (Monk)",
-			"b": "Way of the Kensei",
+			"n": "Way of the Kensei",
 			"s": "XGE",
 			"u": "monk_phb,state:sub_kensei_xge=b1"
 		},
@@ -76432,8 +76361,7 @@
 		{
 			"id": 10504,
 			"c": 40,
-			"n": "Way of the Sun Soul (Monk)",
-			"b": "Way of the Sun Soul",
+			"n": "Way of the Sun Soul",
 			"s": "XGE",
 			"u": "monk_phb,state:sub_sun%20soul_xge=b1"
 		},
@@ -76503,8 +76431,7 @@
 		{
 			"id": 10512,
 			"c": 40,
-			"n": "Way of Mercy (Monk)",
-			"b": "Way of Mercy",
+			"n": "Way of Mercy",
 			"s": "TCE",
 			"u": "monk_phb,state:sub_mercy_tce=b1"
 		},
@@ -76565,8 +76492,7 @@
 		{
 			"id": 10519,
 			"c": 40,
-			"n": "Way of the Astral Self (Monk)",
-			"b": "Way of the Astral Self",
+			"n": "Way of the Astral Self",
 			"s": "TCE",
 			"u": "monk_phb,state:sub_astral%20self_tce=b1"
 		},
@@ -76627,8 +76553,7 @@
 		{
 			"id": 10526,
 			"c": 40,
-			"n": "Way of the Ascendant Dragon (Monk)",
-			"b": "Way of the Ascendant Dragon",
+			"n": "Way of the Ascendant Dragon",
 			"s": "FTD",
 			"u": "monk_phb,state:sub_ascendant%20dragon_ftd=b1"
 		},
@@ -76716,8 +76641,7 @@
 		{
 			"id": 10536,
 			"c": 40,
-			"n": "Oath of Devotion (Paladin)",
-			"b": "Oath of Devotion",
+			"n": "Oath of Devotion",
 			"s": "PHB",
 			"u": "paladin_phb,state:sub_devotion_phb=b1"
 		},
@@ -76805,8 +76729,7 @@
 		{
 			"id": 10546,
 			"c": 40,
-			"n": "Oath of the Ancients (Paladin)",
-			"b": "Oath of the Ancients",
+			"n": "Oath of the Ancients",
 			"s": "PHB",
 			"u": "paladin_phb,state:sub_ancients_phb=b1"
 		},
@@ -76894,8 +76817,7 @@
 		{
 			"id": 10556,
 			"c": 40,
-			"n": "Oath of Vengeance (Paladin)",
-			"b": "Oath of Vengeance",
+			"n": "Oath of Vengeance",
 			"s": "PHB",
 			"u": "paladin_phb,state:sub_vengeance_phb=b1"
 		},
@@ -76974,8 +76896,7 @@
 		{
 			"id": 10565,
 			"c": 40,
-			"n": "Oathbreaker (Paladin)",
-			"b": "Oathbreaker",
+			"n": "Oathbreaker",
 			"s": "DMG",
 			"u": "paladin_phb,state:sub_oathbreaker_dmg=b1"
 		},
@@ -77063,8 +76984,7 @@
 		{
 			"id": 10575,
 			"c": 40,
-			"n": "Oath of the Crown (Paladin)",
-			"b": "Oath of the Crown",
+			"n": "Oath of the Crown",
 			"s": "SCAG",
 			"u": "paladin_phb,state:sub_crown_scag=b1"
 		},
@@ -77152,8 +77072,7 @@
 		{
 			"id": 10585,
 			"c": 40,
-			"n": "Oath of Conquest (Paladin)",
-			"b": "Oath of Conquest",
+			"n": "Oath of Conquest",
 			"s": "XGE",
 			"u": "paladin_phb,state:sub_conquest_xge=b1"
 		},
@@ -77241,8 +77160,7 @@
 		{
 			"id": 10595,
 			"c": 40,
-			"n": "Oath of Redemption (Paladin)",
-			"b": "Oath of Redemption",
+			"n": "Oath of Redemption",
 			"s": "XGE",
 			"u": "paladin_phb,state:sub_redemption_xge=b1"
 		},
@@ -77330,8 +77248,7 @@
 		{
 			"id": 10605,
 			"c": 40,
-			"n": "Oath of Glory (Paladin)",
-			"b": "Oath of Glory",
+			"n": "Oath of Glory",
 			"s": "TCE",
 			"u": "paladin_phb,state:sub_glory_tce=b1"
 		},
@@ -77419,8 +77336,7 @@
 		{
 			"id": 10615,
 			"c": 40,
-			"n": "Oath of the Watchers (Paladin)",
-			"b": "Oath of the Watchers",
+			"n": "Oath of the Watchers",
 			"s": "TCE",
 			"u": "paladin_phb,state:sub_watchers_tce=b1"
 		},
@@ -77481,8 +77397,7 @@
 		{
 			"id": 10622,
 			"c": 40,
-			"n": "Beast Master (Ranger)",
-			"b": "Beast Master",
+			"n": "Beast Master",
 			"s": "PHB",
 			"u": "ranger_phb,state:sub_beast%20master_phb=b1"
 		},
@@ -77633,8 +77548,7 @@
 		{
 			"id": 10639,
 			"c": 40,
-			"n": "Hunter (Ranger)",
-			"b": "Hunter",
+			"n": "Hunter",
 			"s": "PHB",
 			"u": "ranger_phb,state:sub_hunter_phb=b1"
 		},
@@ -77704,8 +77618,7 @@
 		{
 			"id": 10647,
 			"c": 40,
-			"n": "Gloom Stalker (Ranger)",
-			"b": "Gloom Stalker",
+			"n": "Gloom Stalker",
 			"s": "XGE",
 			"u": "ranger_phb,state:sub_gloom%20stalker_xge=b1"
 		},
@@ -77775,8 +77688,7 @@
 		{
 			"id": 10655,
 			"c": 40,
-			"n": "Horizon Walker (Ranger)",
-			"b": "Horizon Walker",
+			"n": "Horizon Walker",
 			"s": "XGE",
 			"u": "ranger_phb,state:sub_horizon%20walker_xge=b1"
 		},
@@ -77846,8 +77758,7 @@
 		{
 			"id": 10663,
 			"c": 40,
-			"n": "Monster Slayer (Ranger)",
-			"b": "Monster Slayer",
+			"n": "Monster Slayer",
 			"s": "XGE",
 			"u": "ranger_phb,state:sub_monster%20slayer_xge=b1"
 		},
@@ -77917,8 +77828,7 @@
 		{
 			"id": 10671,
 			"c": 40,
-			"n": "Fey Wanderer (Ranger)",
-			"b": "Fey Wanderer",
+			"n": "Fey Wanderer",
 			"s": "TCE",
 			"u": "ranger_phb,state:sub_fey%20wanderer_tce=b1"
 		},
@@ -77979,8 +77889,7 @@
 		{
 			"id": 10678,
 			"c": 40,
-			"n": "Swarmkeeper (Ranger)",
-			"b": "Swarmkeeper",
+			"n": "Swarmkeeper",
 			"s": "TCE",
 			"u": "ranger_phb,state:sub_swarmkeeper_tce=b1"
 		},
@@ -78041,8 +77950,7 @@
 		{
 			"id": 10685,
 			"c": 40,
-			"n": "Drakewarden (Ranger)",
-			"b": "Drakewarden",
+			"n": "Drakewarden",
 			"s": "FTD",
 			"u": "ranger_phb,state:sub_drakewarden_ftd=b1"
 		},
@@ -78103,8 +78011,7 @@
 		{
 			"id": 10692,
 			"c": 40,
-			"n": "Hollow Warden (Ranger)",
-			"b": "Hollow Warden",
+			"n": "Hollow Warden",
 			"s": "RHW",
 			"u": "ranger_xphb,state:sub_hollow%20warden_rhw=b1"
 		},
@@ -78165,8 +78072,7 @@
 		{
 			"id": 10699,
 			"c": 40,
-			"n": "Arcane Trickster (Rogue)",
-			"b": "Arcane Trickster",
+			"n": "Arcane Trickster",
 			"s": "PHB",
 			"u": "rogue_phb,state:sub_arcane%20trickster_phb=b1"
 		},
@@ -78227,8 +78133,7 @@
 		{
 			"id": 10706,
 			"c": 40,
-			"n": "Assassin (Rogue)",
-			"b": "Assassin",
+			"n": "Assassin",
 			"s": "PHB",
 			"u": "rogue_phb,state:sub_assassin_phb=b1"
 		},
@@ -78289,8 +78194,7 @@
 		{
 			"id": 10713,
 			"c": 40,
-			"n": "Thief (Rogue)",
-			"b": "Thief",
+			"n": "Thief",
 			"s": "PHB",
 			"u": "rogue_phb,state:sub_thief_phb=b1"
 		},
@@ -78360,8 +78264,7 @@
 		{
 			"id": 10721,
 			"c": 40,
-			"n": "Inquisitive (Rogue)",
-			"b": "Inquisitive",
+			"n": "Inquisitive",
 			"s": "XGE",
 			"u": "rogue_phb,state:sub_inquisitive_xge=b1"
 		},
@@ -78422,8 +78325,7 @@
 		{
 			"id": 10728,
 			"c": 40,
-			"n": "Mastermind (Rogue)",
-			"b": "Mastermind",
+			"n": "Mastermind",
 			"s": "XGE",
 			"u": "rogue_phb,state:sub_mastermind_xge=b1"
 		},
@@ -78484,8 +78386,7 @@
 		{
 			"id": 10735,
 			"c": 40,
-			"n": "Scout (Rogue)",
-			"b": "Scout",
+			"n": "Scout",
 			"s": "XGE",
 			"u": "rogue_phb,state:sub_scout_xge=b1"
 		},
@@ -78546,8 +78447,7 @@
 		{
 			"id": 10742,
 			"c": 40,
-			"n": "Swashbuckler (Rogue)",
-			"b": "Swashbuckler",
+			"n": "Swashbuckler",
 			"s": "XGE",
 			"u": "rogue_phb,state:sub_swashbuckler_xge=b1"
 		},
@@ -78608,8 +78508,7 @@
 		{
 			"id": 10749,
 			"c": 40,
-			"n": "Phantom (Rogue)",
-			"b": "Phantom",
+			"n": "Phantom",
 			"s": "TCE",
 			"u": "rogue_phb,state:sub_phantom_tce=b1"
 		},
@@ -78706,8 +78605,7 @@
 		{
 			"id": 10760,
 			"c": 40,
-			"n": "Soulknife (Rogue)",
-			"b": "Soulknife",
+			"n": "Soulknife",
 			"s": "TCE",
 			"u": "rogue_phb,state:sub_soulknife_tce=b1"
 		},
@@ -78777,8 +78675,7 @@
 		{
 			"id": 10768,
 			"c": 40,
-			"n": "Phantom (Rogue)",
-			"b": "Phantom",
+			"n": "Phantom",
 			"s": "RHW",
 			"u": "rogue_xphb,state:sub_phantom_rhw=b1"
 		},
@@ -78848,8 +78745,7 @@
 		{
 			"id": 10776,
 			"c": 40,
-			"n": "School of Abjuration (Wizard)",
-			"b": "School of Abjuration",
+			"n": "School of Abjuration",
 			"s": "PHB",
 			"u": "wizard_phb,state:sub_abjuration_phb=b1"
 		},
@@ -78919,8 +78815,7 @@
 		{
 			"id": 10784,
 			"c": 40,
-			"n": "School of Conjuration (Wizard)",
-			"b": "School of Conjuration",
+			"n": "School of Conjuration",
 			"s": "PHB",
 			"u": "wizard_phb,state:sub_conjuration_phb=b1"
 		},
@@ -78990,8 +78885,7 @@
 		{
 			"id": 10792,
 			"c": 40,
-			"n": "School of Divination (Wizard)",
-			"b": "School of Divination",
+			"n": "School of Divination",
 			"s": "PHB",
 			"u": "wizard_phb,state:sub_divination_phb=b1"
 		},
@@ -79061,8 +78955,7 @@
 		{
 			"id": 10800,
 			"c": 40,
-			"n": "School of Enchantment (Wizard)",
-			"b": "School of Enchantment",
+			"n": "School of Enchantment",
 			"s": "PHB",
 			"u": "wizard_phb,state:sub_enchantment_phb=b1"
 		},
@@ -79132,8 +79025,7 @@
 		{
 			"id": 10808,
 			"c": 40,
-			"n": "School of Evocation (Wizard)",
-			"b": "School of Evocation",
+			"n": "School of Evocation",
 			"s": "PHB",
 			"u": "wizard_phb,state:sub_evocation_phb=b1"
 		},
@@ -79203,8 +79095,7 @@
 		{
 			"id": 10816,
 			"c": 40,
-			"n": "School of Illusion (Wizard)",
-			"b": "School of Illusion",
+			"n": "School of Illusion",
 			"s": "PHB",
 			"u": "wizard_phb,state:sub_illusion_phb=b1"
 		},
@@ -79274,8 +79165,7 @@
 		{
 			"id": 10824,
 			"c": 40,
-			"n": "School of Necromancy (Wizard)",
-			"b": "School of Necromancy",
+			"n": "School of Necromancy",
 			"s": "PHB",
 			"u": "wizard_phb,state:sub_necromancy_phb=b1"
 		},
@@ -79345,8 +79235,7 @@
 		{
 			"id": 10832,
 			"c": 40,
-			"n": "School of Transmutation (Wizard)",
-			"b": "School of Transmutation",
+			"n": "School of Transmutation",
 			"s": "PHB",
 			"u": "wizard_phb,state:sub_transmutation_phb=b1"
 		},
@@ -79416,8 +79305,7 @@
 		{
 			"id": 10840,
 			"c": 40,
-			"n": "War Magic (Wizard)",
-			"b": "War Magic",
+			"n": "War Magic",
 			"s": "XGE",
 			"u": "wizard_phb,state:sub_war_xge=b1"
 		},
@@ -79487,8 +79375,7 @@
 		{
 			"id": 10848,
 			"c": 40,
-			"n": "Chronurgy Magic (Wizard)",
-			"b": "Chronurgy Magic",
+			"n": "Chronurgy Magic",
 			"s": "EGW",
 			"u": "wizard_phb,state:sub_chronurgy_egw=b1"
 		},
@@ -79549,8 +79436,7 @@
 		{
 			"id": 10855,
 			"c": 40,
-			"n": "Graviturgy Magic (Wizard)",
-			"b": "Graviturgy Magic",
+			"n": "Graviturgy Magic",
 			"s": "EGW",
 			"u": "wizard_phb,state:sub_graviturgy_egw=b1"
 		},
@@ -79629,8 +79515,7 @@
 		{
 			"id": 10864,
 			"c": 40,
-			"n": "Bladesinging (Wizard)",
-			"b": "Bladesinging",
+			"n": "Bladesinging",
 			"s": "TCE",
 			"u": "wizard_phb,state:sub_bladesinging_tce=b1"
 		},
@@ -79700,8 +79585,7 @@
 		{
 			"id": 10872,
 			"c": 40,
-			"n": "Order of Scribes (Wizard)",
-			"b": "Order of Scribes",
+			"n": "Order of Scribes",
 			"s": "TCE",
 			"u": "wizard_phb,state:sub_scribes_tce=b1"
 		},
@@ -79762,8 +79646,7 @@
 		{
 			"id": 10879,
 			"c": 40,
-			"n": "The Archfey (Warlock)",
-			"b": "The Archfey",
+			"n": "The Archfey",
 			"s": "PHB",
 			"u": "warlock_phb,state:sub_archfey_phb=b1"
 		},
@@ -79824,8 +79707,7 @@
 		{
 			"id": 10886,
 			"c": 40,
-			"n": "The Fiend (Warlock)",
-			"b": "The Fiend",
+			"n": "The Fiend",
 			"s": "PHB",
 			"u": "warlock_phb,state:sub_fiend_phb=b1"
 		},
@@ -79886,8 +79768,7 @@
 		{
 			"id": 10893,
 			"c": 40,
-			"n": "The Great Old One (Warlock)",
-			"b": "The Great Old One",
+			"n": "The Great Old One",
 			"s": "PHB",
 			"u": "warlock_phb,state:sub_great%20old%20one_phb=b1"
 		},
@@ -79948,8 +79829,7 @@
 		{
 			"id": 10900,
 			"c": 40,
-			"n": "The Undying (Warlock)",
-			"b": "The Undying",
+			"n": "The Undying",
 			"s": "SCAG",
 			"u": "warlock_phb,state:sub_undying_scag=b1"
 		},
@@ -80019,8 +79899,7 @@
 		{
 			"id": 10908,
 			"c": 40,
-			"n": "The Celestial (Warlock)",
-			"b": "The Celestial",
+			"n": "The Celestial",
 			"s": "XGE",
 			"u": "warlock_phb,state:sub_celestial_xge=b1"
 		},
@@ -80090,8 +79969,7 @@
 		{
 			"id": 10916,
 			"c": 40,
-			"n": "The Hexblade (Warlock)",
-			"b": "The Hexblade",
+			"n": "The Hexblade",
 			"s": "XGE",
 			"u": "warlock_phb,state:sub_hexblade_xge=b1"
 		},
@@ -80170,8 +80048,7 @@
 		{
 			"id": 10925,
 			"c": 40,
-			"n": "The Fathomless (Warlock)",
-			"b": "The Fathomless",
+			"n": "The Fathomless",
 			"s": "TCE",
 			"u": "warlock_phb,state:sub_fathomless_tce=b1"
 		},
@@ -80250,8 +80127,7 @@
 		{
 			"id": 10934,
 			"c": 40,
-			"n": "The Genie (Warlock)",
-			"b": "The Genie",
+			"n": "The Genie",
 			"s": "TCE",
 			"u": "warlock_phb,state:sub_genie_tce=b1"
 		},
@@ -80312,8 +80188,7 @@
 		{
 			"id": 10941,
 			"c": 40,
-			"n": "The Undead (Warlock)",
-			"b": "The Undead",
+			"n": "The Undead",
 			"s": "VRGR",
 			"u": "warlock_phb,state:sub_undead_vrgr=b1"
 		},
@@ -80374,8 +80249,7 @@
 		{
 			"id": 10948,
 			"c": 40,
-			"n": "Undead Patron (Warlock)",
-			"b": "Undead Patron",
+			"n": "Undead Patron",
 			"s": "RHW",
 			"u": "warlock_xphb,state:sub_undead_rhw=b1"
 		},
@@ -80445,8 +80319,7 @@
 		{
 			"id": 10956,
 			"c": 40,
-			"n": "Draconic Bloodline (Sorcerer)",
-			"b": "Draconic Bloodline",
+			"n": "Draconic Bloodline",
 			"s": "PHB",
 			"u": "sorcerer_phb,state:sub_draconic_phb=b1"
 		},
@@ -80516,8 +80389,7 @@
 		{
 			"id": 10964,
 			"c": 40,
-			"n": "Wild Magic (Sorcerer)",
-			"b": "Wild Magic",
+			"n": "Wild Magic",
 			"s": "PHB",
 			"u": "sorcerer_phb,state:sub_wild_phb=b1"
 		},
@@ -80578,8 +80450,7 @@
 		{
 			"id": 10971,
 			"c": 40,
-			"n": "Pyromancer (PSK) (Sorcerer)",
-			"b": "Pyromancer (PSK)",
+			"n": "Pyromancer (PSK)",
 			"s": "PSK",
 			"u": "sorcerer_phb,state:sub_pyromancer%20(psk)_psk=b1"
 		},
@@ -80649,8 +80520,7 @@
 		{
 			"id": 10979,
 			"c": 40,
-			"n": "Divine Soul (Sorcerer)",
-			"b": "Divine Soul",
+			"n": "Divine Soul",
 			"s": "XGE",
 			"u": "sorcerer_phb,state:sub_divine%20soul_xge=b1"
 		},
@@ -80720,8 +80590,7 @@
 		{
 			"id": 10987,
 			"c": 40,
-			"n": "Shadow Magic (Sorcerer)",
-			"b": "Shadow Magic",
+			"n": "Shadow Magic",
 			"s": "XGE",
 			"u": "sorcerer_phb,state:sub_shadow_xge=b1"
 		},
@@ -80800,8 +80669,7 @@
 		{
 			"id": 10996,
 			"c": 40,
-			"n": "Storm Sorcery (Sorcerer)",
-			"b": "Storm Sorcery",
+			"n": "Storm Sorcery",
 			"s": "XGE",
 			"u": "sorcerer_phb,state:sub_storm_xge=b1"
 		},
@@ -80880,8 +80748,7 @@
 		{
 			"id": 11005,
 			"c": 40,
-			"n": "Aberrant Mind (Sorcerer)",
-			"b": "Aberrant Mind",
+			"n": "Aberrant Mind",
 			"s": "TCE",
 			"u": "sorcerer_phb,state:sub_aberrant%20mind_tce=b1"
 		},
@@ -80951,8 +80818,7 @@
 		{
 			"id": 11013,
 			"c": 40,
-			"n": "Clockwork Soul (Sorcerer)",
-			"b": "Clockwork Soul",
+			"n": "Clockwork Soul",
 			"s": "TCE",
 			"u": "sorcerer_phb,state:sub_clockwork%20soul_tce=b1"
 		},
@@ -81031,8 +80897,7 @@
 		{
 			"id": 11022,
 			"c": 40,
-			"n": "Lunar Sorcery (Sorcerer)",
-			"b": "Lunar Sorcery",
+			"n": "Lunar Sorcery",
 			"s": "DSOTDQ",
 			"u": "sorcerer_phb,state:sub_lunar_dsotdq=b1"
 		},
@@ -81093,8 +80958,7 @@
 		{
 			"id": 11029,
 			"c": 40,
-			"n": "Shadow Sorcery (Sorcerer)",
-			"b": "Shadow Sorcery",
+			"n": "Shadow Sorcery",
 			"s": "RHW",
 			"u": "sorcerer_xphb,state:sub_shadow_rhw=b1"
 		},
@@ -81173,8 +81037,7 @@
 		{
 			"id": 11038,
 			"c": 40,
-			"n": "Aeronaut (Alternate Artificer)",
-			"b": "Aeronaut",
+			"n": "Aeronaut",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_aeronaut_llac=b1"
 		},
@@ -81244,8 +81107,7 @@
 		{
 			"id": 11046,
 			"c": 40,
-			"n": "Alchemist (Alternate Artificer)",
-			"b": "Alchemist",
+			"n": "Alchemist",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_alchemist_llac=b1"
 		},
@@ -81324,8 +81186,7 @@
 		{
 			"id": 11055,
 			"c": 40,
-			"n": "Archivist (Alternate Artificer)",
-			"b": "Archivist",
+			"n": "Archivist",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_archivist_llac=b1"
 		},
@@ -81404,8 +81265,7 @@
 		{
 			"id": 11064,
 			"c": 40,
-			"n": "Armorer (Alternate Artificer)",
-			"b": "Armorer",
+			"n": "Armorer",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_armorer_llac=b1"
 		},
@@ -81484,8 +81344,7 @@
 		{
 			"id": 11073,
 			"c": 40,
-			"n": "Battle Smith (Alternate Artificer)",
-			"b": "Battle Smith",
+			"n": "Battle Smith",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_battle%20smith_llac=b1"
 		},
@@ -81573,8 +81432,7 @@
 		{
 			"id": 11083,
 			"c": 40,
-			"n": "Biomancer (Alternate Artificer)",
-			"b": "Biomancer",
+			"n": "Biomancer",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_biomancer_llac=b1"
 		},
@@ -81644,8 +81502,7 @@
 		{
 			"id": 11091,
 			"c": 40,
-			"n": "Chronothief (Alternate Artificer)",
-			"b": "Chronothief",
+			"n": "Chronothief",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_chronothief_llac=b1"
 		},
@@ -81724,8 +81581,7 @@
 		{
 			"id": 11100,
 			"c": 40,
-			"n": "Composer (Alternate Artificer)",
-			"b": "Composer",
+			"n": "Composer",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_composer_llac=b1"
 		},
@@ -81795,8 +81651,7 @@
 		{
 			"id": 11108,
 			"c": 40,
-			"n": "Dungeoneer (Alternate Artificer)",
-			"b": "Dungeoneer",
+			"n": "Dungeoneer",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_dungeoneer_llac=b1"
 		},
@@ -81884,8 +81739,7 @@
 		{
 			"id": 11118,
 			"c": 40,
-			"n": "Enhanced (Alternate Artificer)",
-			"b": "Enhanced",
+			"n": "Enhanced",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_enhanced_llac=b1"
 		},
@@ -81964,8 +81818,7 @@
 		{
 			"id": 11127,
 			"c": 40,
-			"n": "Forgewright (Alternate Artificer)",
-			"b": "Forgewright",
+			"n": "Forgewright",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_forgewright_llac=b1"
 		},
@@ -82053,8 +81906,7 @@
 		{
 			"id": 11137,
 			"c": 40,
-			"n": "Gunslinger (Alternate Artificer)",
-			"b": "Gunslinger",
+			"n": "Gunslinger",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_gunslinger_llac=b1"
 		},
@@ -82133,8 +81985,7 @@
 		{
 			"id": 11146,
 			"c": 40,
-			"n": "Junker (Alternate Artificer)",
-			"b": "Junker",
+			"n": "Junker",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_junker_llac=b1"
 		},
@@ -82213,8 +82064,7 @@
 		{
 			"id": 11155,
 			"c": 40,
-			"n": "Machinist (Alternate Artificer)",
-			"b": "Machinist",
+			"n": "Machinist",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_machinist_llac=b1"
 		},
@@ -82293,8 +82143,7 @@
 		{
 			"id": 11164,
 			"c": 40,
-			"n": "Mechanic (Alternate Artificer)",
-			"b": "Mechanic",
+			"n": "Mechanic",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_mechanic_llac=b1"
 		},
@@ -82364,8 +82213,7 @@
 		{
 			"id": 11172,
 			"c": 40,
-			"n": "Puppeteer (Alternate Artificer)",
-			"b": "Puppeteer",
+			"n": "Puppeteer",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_puppeteer_llac=b1"
 		},
@@ -82444,8 +82292,7 @@
 		{
 			"id": 11181,
 			"c": 40,
-			"n": "Reanimator (Alternate Artificer)",
-			"b": "Reanimator",
+			"n": "Reanimator",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_reanimator_llac=b1"
 		},
@@ -82524,8 +82371,7 @@
 		{
 			"id": 11190,
 			"c": 40,
-			"n": "Wandslinger (Alternate Artificer)",
-			"b": "Wandslinger",
+			"n": "Wandslinger",
 			"s": "LLAC",
 			"u": "alternate%20artificer_llac,state:sub_wandslinger_llac=b1"
 		},
@@ -82622,8 +82468,7 @@
 		{
 			"id": 11201,
 			"c": 40,
-			"n": "Path of Blood & Iron (Alternate Barbarian)",
-			"b": "Path of Blood & Iron",
+			"n": "Path of Blood & Iron",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_blood%20%26%20iron_llac=b1"
 		},
@@ -82711,8 +82556,7 @@
 		{
 			"id": 11211,
 			"c": 40,
-			"n": "Path of Sorcery (Alternate Barbarian)",
-			"b": "Path of Sorcery",
+			"n": "Path of Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_sorcery_llac=b1"
 		},
@@ -82800,8 +82644,7 @@
 		{
 			"id": 11221,
 			"c": 40,
-			"n": "Path of the Ancestors (Alternate Barbarian)",
-			"b": "Path of the Ancestors",
+			"n": "Path of the Ancestors",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_ancestors_llac=b1"
 		},
@@ -82997,8 +82840,7 @@
 		{
 			"id": 11243,
 			"c": 40,
-			"n": "Path of the Beast Heart (Alternate Barbarian)",
-			"b": "Path of the Beast Heart",
+			"n": "Path of the Beast Heart",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_beast%20heart_llac=b1"
 		},
@@ -83077,8 +82919,7 @@
 		{
 			"id": 11252,
 			"c": 40,
-			"n": "Path of the Berserker (Alternate Barbarian)",
-			"b": "Path of the Berserker",
+			"n": "Path of the Berserker",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_berserker_llac=b1"
 		},
@@ -83166,8 +83007,7 @@
 		{
 			"id": 11262,
 			"c": 40,
-			"n": "Path of the Brute (Alternate Barbarian)",
-			"b": "Path of the Brute",
+			"n": "Path of the Brute",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_brute_llac=b1"
 		},
@@ -83264,8 +83104,7 @@
 		{
 			"id": 11273,
 			"c": 40,
-			"n": "Path of the Champion (Alternate Barbarian)",
-			"b": "Path of the Champion",
+			"n": "Path of the Champion",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_champion_llac=b1"
 		},
@@ -83353,8 +83192,7 @@
 		{
 			"id": 11283,
 			"c": 40,
-			"n": "Path of the Deep (Alternate Barbarian)",
-			"b": "Path of the Deep",
+			"n": "Path of the Deep",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_deep_llac=b1"
 		},
@@ -83442,8 +83280,7 @@
 		{
 			"id": 11293,
 			"c": 40,
-			"n": "Path of the Elemental Chaos (Alternate Barbarian)",
-			"b": "Path of the Elemental Chaos",
+			"n": "Path of the Elemental Chaos",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_elemental%20chaos_llac=b1"
 		},
@@ -83540,8 +83377,7 @@
 		{
 			"id": 11304,
 			"c": 40,
-			"n": "Path of the Favored (Alternate Barbarian)",
-			"b": "Path of the Favored",
+			"n": "Path of the Favored",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_favored_llac=b1"
 		},
@@ -83629,8 +83465,7 @@
 		{
 			"id": 11314,
 			"c": 40,
-			"n": "Path of the Inferno (Alternate Barbarian)",
-			"b": "Path of the Inferno",
+			"n": "Path of the Inferno",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_inferno_llac=b1"
 		},
@@ -83727,8 +83562,7 @@
 		{
 			"id": 11325,
 			"c": 40,
-			"n": "Path of the Lycan (Alternate Barbarian)",
-			"b": "Path of the Lycan",
+			"n": "Path of the Lycan",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_lycan_llac=b1"
 		},
@@ -83816,8 +83650,7 @@
 		{
 			"id": 11335,
 			"c": 40,
-			"n": "Path of the Mutant (Alternate Barbarian)",
-			"b": "Path of the Mutant",
+			"n": "Path of the Mutant",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_mutant_llac=b1"
 		},
@@ -83905,8 +83738,7 @@
 		{
 			"id": 11345,
 			"c": 40,
-			"n": "Path of the Packleader (Alternate Barbarian)",
-			"b": "Path of the Packleader",
+			"n": "Path of the Packleader",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_packleader_llac=b1"
 		},
@@ -83994,8 +83826,7 @@
 		{
 			"id": 11355,
 			"c": 40,
-			"n": "Path of the Reaver (Alternate Barbarian)",
-			"b": "Path of the Reaver",
+			"n": "Path of the Reaver",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_reaver_llac=b1"
 		},
@@ -84083,8 +83914,7 @@
 		{
 			"id": 11365,
 			"c": 40,
-			"n": "Path of the Titan (Alternate Barbarian)",
-			"b": "Path of the Titan",
+			"n": "Path of the Titan",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_titan_llac=b1"
 		},
@@ -84154,8 +83984,7 @@
 		{
 			"id": 11373,
 			"c": 40,
-			"n": "Path of the Warden (Alternate Barbarian)",
-			"b": "Path of the Warden",
+			"n": "Path of the Warden",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_warden_llac=b1"
 		},
@@ -84243,8 +84072,7 @@
 		{
 			"id": 11383,
 			"c": 40,
-			"n": "Path of the Wyrmblood (Alternate Barbarian)",
-			"b": "Path of the Wyrmblood",
+			"n": "Path of the Wyrmblood",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_wyrmblood_llac=b1"
 		},
@@ -84332,8 +84160,7 @@
 		{
 			"id": 11393,
 			"c": 40,
-			"n": "Path of the Zealot (Alternate Barbarian)",
-			"b": "Path of the Zealot",
+			"n": "Path of the Zealot",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_zealot_llac=b1"
 		},
@@ -84403,8 +84230,7 @@
 		{
 			"id": 11401,
 			"c": 40,
-			"n": "Order of Alchemists (Alternate Blood Hunter)",
-			"b": "Order of Alchemists",
+			"n": "Order of Alchemists",
 			"s": "LLAC",
 			"u": "alternate%20blood%20hunter_llac,state:sub_alchemist_llac=b1"
 		},
@@ -84474,8 +84300,7 @@
 		{
 			"id": 11409,
 			"c": 40,
-			"n": "Order of Heretics (Alternate Blood Hunter)",
-			"b": "Order of Heretics",
+			"n": "Order of Heretics",
 			"s": "LLAC",
 			"u": "alternate%20blood%20hunter_llac,state:sub_heretic_llac=b1"
 		},
@@ -84545,8 +84370,7 @@
 		{
 			"id": 11417,
 			"c": 40,
-			"n": "Order of Salt & Iron (Alternate Blood Hunter)",
-			"b": "Order of Salt & Iron",
+			"n": "Order of Salt & Iron",
 			"s": "LLAC",
 			"u": "alternate%20blood%20hunter_llac,state:sub_salt%20%26%20iron_llac=b1"
 		},
@@ -84625,8 +84449,7 @@
 		{
 			"id": 11426,
 			"c": 40,
-			"n": "Order of the Pale Moon (Alternate Blood Hunter)",
-			"b": "Order of the Pale Moon",
+			"n": "Order of the Pale Moon",
 			"s": "LLAC",
 			"u": "alternate%20blood%20hunter_llac,state:sub_pale%20moon_llac=b1"
 		},
@@ -84696,8 +84519,7 @@
 		{
 			"id": 11434,
 			"c": 40,
-			"n": "Order of Undying Thirst (Alternate Blood Hunter)",
-			"b": "Order of Undying Thirst",
+			"n": "Order of Undying Thirst",
 			"s": "LLAC",
 			"u": "alternate%20blood%20hunter_llac,state:sub_undying%20thirst_llac=b1"
 		},
@@ -84758,8 +84580,7 @@
 		{
 			"id": 11441,
 			"c": 40,
-			"n": "Order of Witch Knights (Alternate Blood Hunter)",
-			"b": "Order of Witch Knights",
+			"n": "Order of Witch Knights",
 			"s": "LLAC",
 			"u": "alternate%20blood%20hunter_llac,state:sub_witch%20knight_llac=b1"
 		},
@@ -84829,8 +84650,7 @@
 		{
 			"id": 11449,
 			"c": 40,
-			"n": "Blade (Alternate Bard)",
-			"b": "Blade",
+			"n": "Blade",
 			"s": "LLAC",
 			"u": "alternate%20bard_llac,state:sub_blade_llac=b1"
 		},
@@ -84909,8 +84729,7 @@
 		{
 			"id": 11458,
 			"c": 40,
-			"n": "Conspirator (Alternate Bard)",
-			"b": "Conspirator",
+			"n": "Conspirator",
 			"s": "LLAC",
 			"u": "alternate%20bard_llac,state:sub_conspirator_llac=b1"
 		},
@@ -84989,8 +84808,7 @@
 		{
 			"id": 11467,
 			"c": 40,
-			"n": "Counselor (Alternate Bard)",
-			"b": "Counselor",
+			"n": "Counselor",
 			"s": "LLAC",
 			"u": "alternate%20bard_llac,state:sub_counselor_llac=b1"
 		},
@@ -85060,8 +84878,7 @@
 		{
 			"id": 11475,
 			"c": 40,
-			"n": "Fool (Alternate Bard)",
-			"b": "Fool",
+			"n": "Fool",
 			"s": "LLAC",
 			"u": "alternate%20bard_llac,state:sub_fool_llac=b1"
 		},
@@ -85122,8 +84939,7 @@
 		{
 			"id": 11482,
 			"c": 40,
-			"n": "Loremaster (Alternate Bard)",
-			"b": "Loremaster",
+			"n": "Loremaster",
 			"s": "LLAC",
 			"u": "alternate%20bard_llac,state:sub_loremaster_llac=b1"
 		},
@@ -85193,8 +85009,7 @@
 		{
 			"id": 11490,
 			"c": 40,
-			"n": "Mesmer (Alternate Bard)",
-			"b": "Mesmer",
+			"n": "Mesmer",
 			"s": "LLAC",
 			"u": "alternate%20bard_llac,state:sub_mesmer_llac=b1"
 		},
@@ -85264,8 +85079,7 @@
 		{
 			"id": 11498,
 			"c": 40,
-			"n": "Skald (Alternate Bard)",
-			"b": "Skald",
+			"n": "Skald",
 			"s": "LLAC",
 			"u": "alternate%20bard_llac,state:sub_skald_llac=b1"
 		},
@@ -85335,8 +85149,7 @@
 		{
 			"id": 11506,
 			"c": 40,
-			"n": "True Singer (Alternate Bard)",
-			"b": "True Singer",
+			"n": "True Singer",
 			"s": "LLAC",
 			"u": "alternate%20bard_llac,state:sub_true%20singer_llac=b1"
 		},
@@ -85406,8 +85219,7 @@
 		{
 			"id": 11514,
 			"c": 40,
-			"n": "Decay (Alternate Druid)",
-			"b": "Decay",
+			"n": "Decay",
 			"s": "LLAC",
 			"u": "alternate%20druid_llac,state:sub_decay_llac=b1"
 		},
@@ -85486,8 +85298,7 @@
 		{
 			"id": 11523,
 			"c": 40,
-			"n": "Land (Alternate Druid)",
-			"b": "Land",
+			"n": "Land",
 			"s": "LLAC",
 			"u": "alternate%20druid_llac,state:sub_land_llac=b1"
 		},
@@ -85548,8 +85359,7 @@
 		{
 			"id": 11530,
 			"c": 40,
-			"n": "Moon (Alternate Druid)",
-			"b": "Moon",
+			"n": "Moon",
 			"s": "LLAC",
 			"u": "alternate%20druid_llac,state:sub_moon_llac=b1"
 		},
@@ -85619,8 +85429,7 @@
 		{
 			"id": 11538,
 			"c": 40,
-			"n": "Tides (Alternate Druid)",
-			"b": "Tides",
+			"n": "Tides",
 			"s": "LLAC",
 			"u": "alternate%20druid_llac,state:sub_tides_llac=b1"
 		},
@@ -85690,8 +85499,7 @@
 		{
 			"id": 11546,
 			"c": 40,
-			"n": "Arcane Knight (Alternate Fighter)",
-			"b": "Arcane Knight",
+			"n": "Arcane Knight",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_arcane%20knight_llac=b1"
 		},
@@ -85761,8 +85569,7 @@
 		{
 			"id": 11554,
 			"c": 40,
-			"n": "Champion (Alternate Fighter)",
-			"b": "Champion",
+			"n": "Champion",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_champion_llac=b1"
 		},
@@ -85832,8 +85639,7 @@
 		{
 			"id": 11562,
 			"c": 40,
-			"n": "Captain (Alternate Fighter)",
-			"b": "Captain",
+			"n": "Captain",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_captain_llac=b1"
 		},
@@ -85921,8 +85727,7 @@
 		{
 			"id": 11572,
 			"c": 40,
-			"n": "Knight Errant (Alternate Fighter)",
-			"b": "Knight Errant",
+			"n": "Knight Errant",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_knight%20errant_llac=b1"
 		},
@@ -86001,8 +85806,7 @@
 		{
 			"id": 11581,
 			"c": 40,
-			"n": "Marksman (Alternate Fighter)",
-			"b": "Marksman",
+			"n": "Marksman",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_marksman_llac=b1"
 		},
@@ -86081,8 +85885,7 @@
 		{
 			"id": 11590,
 			"c": 40,
-			"n": "Master at Arms (Alternate Fighter)",
-			"b": "Master at Arms",
+			"n": "Master at Arms",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_master%20at%20arms_llac=b1"
 		},
@@ -86161,8 +85964,7 @@
 		{
 			"id": 11599,
 			"c": 40,
-			"n": "Ronin (Alternate Fighter)",
-			"b": "Ronin",
+			"n": "Ronin",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_ronin_llac=b1"
 		},
@@ -86232,8 +86034,7 @@
 		{
 			"id": 11607,
 			"c": 40,
-			"n": "Runecarver (Alternate Fighter)",
-			"b": "Runecarver",
+			"n": "Runecarver",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_runecarver_llac=b1"
 		},
@@ -86312,8 +86113,7 @@
 		{
 			"id": 11616,
 			"c": 40,
-			"n": "Shadowdancer (Alternate Fighter)",
-			"b": "Shadowdancer",
+			"n": "Shadowdancer",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_shadowdancer_llac=b1"
 		},
@@ -86392,8 +86192,7 @@
 		{
 			"id": 11625,
 			"c": 40,
-			"n": "Crusader (Alternate Fighter)",
-			"b": "Crusader",
+			"n": "Crusader",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_crusader_llac=b1"
 		},
@@ -86472,8 +86271,7 @@
 		{
 			"id": 11634,
 			"c": 40,
-			"n": "Guardian (Alternate Fighter)",
-			"b": "Guardian",
+			"n": "Guardian",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_guardian_llac=b1"
 		},
@@ -86552,8 +86350,7 @@
 		{
 			"id": 11643,
 			"c": 40,
-			"n": "Guerrilla (Alternate Fighter)",
-			"b": "Guerrilla",
+			"n": "Guerrilla",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_guerrilla_llac=b1"
 		},
@@ -86632,8 +86429,7 @@
 		{
 			"id": 11652,
 			"c": 40,
-			"n": "Hound Master (Alternate Fighter)",
-			"b": "Hound Master",
+			"n": "Hound Master",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_hound%20master_llac=b1"
 		},
@@ -86721,8 +86517,7 @@
 		{
 			"id": 11662,
 			"c": 40,
-			"n": "Pugilist (Alternate Fighter)",
-			"b": "Pugilist",
+			"n": "Pugilist",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_pugilist_llac=b1"
 		},
@@ -86801,8 +86596,7 @@
 		{
 			"id": 11671,
 			"c": 40,
-			"n": "Mystic (Alternate Fighter)",
-			"b": "Mystic",
+			"n": "Mystic",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_mystic_llac=b1"
 		},
@@ -86881,8 +86675,7 @@
 		{
 			"id": 11680,
 			"c": 40,
-			"n": "Quartermaster (Alternate Fighter)",
-			"b": "Quartermaster",
+			"n": "Quartermaster",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_quartermaster_llac=b1"
 		},
@@ -86961,8 +86754,7 @@
 		{
 			"id": 11689,
 			"c": 40,
-			"n": "Swordsage (Alternate Fighter)",
-			"b": "Swordsage",
+			"n": "Swordsage",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_swordsage_llac=b1"
 		},
@@ -87032,8 +86824,7 @@
 		{
 			"id": 11697,
 			"c": 40,
-			"n": "Sylvan Archer (Alternate Fighter)",
-			"b": "Sylvan Archer",
+			"n": "Sylvan Archer",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_sylvan%20archer_llac=b1"
 		},
@@ -87103,8 +86894,7 @@
 		{
 			"id": 11705,
 			"c": 40,
-			"n": "Tinker (Alternate Fighter)",
-			"b": "Tinker",
+			"n": "Tinker",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_tinker_llac=b1"
 		},
@@ -87174,8 +86964,7 @@
 		{
 			"id": 11713,
 			"c": 40,
-			"n": "Witchblade (Alternate Fighter)",
-			"b": "Witchblade",
+			"n": "Witchblade",
 			"s": "LLAC",
 			"u": "alternate%20fighter_llac,state:sub_witchblade_llac=b1"
 		},
@@ -87263,8 +87052,7 @@
 		{
 			"id": 11723,
 			"c": 40,
-			"n": "Way of Ferocity (Alternate Monk)",
-			"b": "Way of Ferocity",
+			"n": "Way of Ferocity",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_ferocity_llac=b1"
 		},
@@ -87361,8 +87149,7 @@
 		{
 			"id": 11734,
 			"c": 40,
-			"n": "Way of Harmony (Alternate Monk)",
-			"b": "Way of Harmony",
+			"n": "Way of Harmony",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_harmony_llac=b1"
 		},
@@ -87450,8 +87237,7 @@
 		{
 			"id": 11744,
 			"c": 40,
-			"n": "Way of Radiance (Alternate Monk)",
-			"b": "Way of Radiance",
+			"n": "Way of Radiance",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_radiance_llac=b1"
 		},
@@ -87530,8 +87316,7 @@
 		{
 			"id": 11753,
 			"c": 40,
-			"n": "Way of the Astral Warrior (Alternate Monk)",
-			"b": "Way of the Astral Warrior",
+			"n": "Way of the Astral Warrior",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_astral%20warrior_llac=b1"
 		},
@@ -87619,8 +87404,7 @@
 		{
 			"id": 11763,
 			"c": 40,
-			"n": "Way of the Boulder (Alternate Monk)",
-			"b": "Way of the Boulder",
+			"n": "Way of the Boulder",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_boulder_llac=b1"
 		},
@@ -87690,8 +87474,7 @@
 		{
 			"id": 11771,
 			"c": 40,
-			"n": "Way of the Brawler (Alternate Monk)",
-			"b": "Way of the Brawler",
+			"n": "Way of the Brawler",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_brawler_llac=b1"
 		},
@@ -87779,8 +87562,7 @@
 		{
 			"id": 11781,
 			"c": 40,
-			"n": "Way of the Drunken Fist (Alternate Monk)",
-			"b": "Way of the Drunken Fist",
+			"n": "Way of the Drunken Fist",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_drunken%20fist_llac=b1"
 		},
@@ -87868,8 +87650,7 @@
 		{
 			"id": 11791,
 			"c": 40,
-			"n": "Way of the Flowing River (Alternate Monk)",
-			"b": "Way of the Flowing River",
+			"n": "Way of the Flowing River",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_flowing%20river_llac=b1"
 		},
@@ -87957,8 +87738,7 @@
 		{
 			"id": 11801,
 			"c": 40,
-			"n": "Way of the Hurricane (Alternate Monk)",
-			"b": "Way of the Hurricane",
+			"n": "Way of the Hurricane",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_hurricane_llac=b1"
 		},
@@ -88046,8 +87826,7 @@
 		{
 			"id": 11811,
 			"c": 40,
-			"n": "Way of the Mystic (Alternate Monk)",
-			"b": "Way of the Mystic",
+			"n": "Way of the Mystic",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_mystic_llac=b1"
 		},
@@ -88135,8 +87914,7 @@
 		{
 			"id": 11821,
 			"c": 40,
-			"n": "Way of the Open Hand (Alternate Monk)",
-			"b": "Way of the Open Hand",
+			"n": "Way of the Open Hand",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_open%20hand_llac=b1"
 		},
@@ -88233,8 +88011,7 @@
 		{
 			"id": 11832,
 			"c": 40,
-			"n": "Way of the Reaper (Alternate Monk)",
-			"b": "Way of the Reaper",
+			"n": "Way of the Reaper",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_reaper_llac=b1"
 		},
@@ -88322,8 +88099,7 @@
 		{
 			"id": 11842,
 			"c": 40,
-			"n": "Way of the Rising Dragon (Alternate Monk)",
-			"b": "Way of the Rising Dragon",
+			"n": "Way of the Rising Dragon",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_rising%20dragon_llac=b1"
 		},
@@ -88411,8 +88187,7 @@
 		{
 			"id": 11852,
 			"c": 40,
-			"n": "Way of the Sacred Inks (Alternate Monk)",
-			"b": "Way of the Sacred Inks",
+			"n": "Way of the Sacred Inks",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_sacred%20inks_llac=b1"
 		},
@@ -88500,8 +88275,7 @@
 		{
 			"id": 11862,
 			"c": 40,
-			"n": "Way of the Shadow Arts (Alternate Monk)",
-			"b": "Way of the Shadow Arts",
+			"n": "Way of the Shadow Arts",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_shadow%20arts_llac=b1"
 		},
@@ -88589,8 +88363,7 @@
 		{
 			"id": 11872,
 			"c": 40,
-			"n": "Way of the Shining Steel (Alternate Monk)",
-			"b": "Way of the Shining Steel",
+			"n": "Way of the Shining Steel",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_shining%20steel_llac=b1"
 		},
@@ -88678,8 +88451,7 @@
 		{
 			"id": 11882,
 			"c": 40,
-			"n": "Way of the Vigilante (Alternate Monk)",
-			"b": "Way of the Vigilante",
+			"n": "Way of the Vigilante",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_vigilante_llac=b1"
 		},
@@ -88767,8 +88539,7 @@
 		{
 			"id": 11892,
 			"c": 40,
-			"n": "Way of the Void (Alternate Monk)",
-			"b": "Way of the Void",
+			"n": "Way of the Void",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_void_llac=b1"
 		},
@@ -88829,8 +88600,7 @@
 		{
 			"id": 11899,
 			"c": 40,
-			"n": "Way of the Wu Jen (Alternate Monk)",
-			"b": "Way of the Wu Jen",
+			"n": "Way of the Wu Jen",
 			"s": "LLAC",
 			"u": "alternate%20monk_llac,state:sub_wu%20jen_llac=b1"
 		},
@@ -88900,8 +88670,7 @@
 		{
 			"id": 11907,
 			"c": 40,
-			"n": "Blackguard (Alternate Paladin)",
-			"b": "Blackguard",
+			"n": "Blackguard",
 			"s": "LLAC",
 			"u": "alternate%20paladin_llac,state:sub_blackguard_llac=b1"
 		},
@@ -88980,8 +88749,7 @@
 		{
 			"id": 11916,
 			"c": 40,
-			"n": "Conquest (Alternate Paladin)",
-			"b": "Conquest",
+			"n": "Conquest",
 			"s": "LLAC",
 			"u": "alternate%20paladin_llac,state:sub_conquest_llac=b1"
 		},
@@ -89060,8 +88828,7 @@
 		{
 			"id": 11925,
 			"c": 40,
-			"n": "Oath of Devotion (Alternate Paladin)",
-			"b": "Oath of Devotion",
+			"n": "Oath of Devotion",
 			"s": "LLAC",
 			"u": "alternate%20paladin_llac,state:sub_devotion_llac=b1"
 		},
@@ -89140,8 +88907,7 @@
 		{
 			"id": 11934,
 			"c": 40,
-			"n": "Oath of Glory (Alternate Paladin)",
-			"b": "Oath of Glory",
+			"n": "Oath of Glory",
 			"s": "LLAC",
 			"u": "alternate%20paladin_llac,state:sub_glory_llac=b1"
 		},
@@ -89220,8 +88986,7 @@
 		{
 			"id": 11943,
 			"c": 40,
-			"n": "Oath of the Ancients (Alternate Paladin)",
-			"b": "Oath of the Ancients",
+			"n": "Oath of the Ancients",
 			"s": "LLAC",
 			"u": "alternate%20paladin_llac,state:sub_ancients_llac=b1"
 		},
@@ -89300,8 +89065,7 @@
 		{
 			"id": 11952,
 			"c": 40,
-			"n": "Oath of Vengeance (Alternate Paladin)",
-			"b": "Oath of Vengeance",
+			"n": "Oath of Vengeance",
 			"s": "LLAC",
 			"u": "alternate%20paladin_llac,state:sub_vengeance_llac=b1"
 		},
@@ -89380,8 +89144,7 @@
 		{
 			"id": 11961,
 			"c": 40,
-			"n": "Repentance (Alternate Paladin)",
-			"b": "Repentance",
+			"n": "Repentance",
 			"s": "LLAC",
 			"u": "alternate%20paladin_llac,state:sub_repentance_llac=b1"
 		},
@@ -89460,8 +89223,7 @@
 		{
 			"id": 11970,
 			"c": 40,
-			"n": "Splendor (Alternate Paladin)",
-			"b": "Splendor",
+			"n": "Splendor",
 			"s": "LLAC",
 			"u": "alternate%20paladin_llac,state:sub_splendor_llac=b1"
 		},
@@ -89540,8 +89302,7 @@
 		{
 			"id": 11979,
 			"c": 40,
-			"n": "The Oathless (Alternate Paladin)",
-			"b": "The Oathless",
+			"n": "The Oathless",
 			"s": "LLAC",
 			"u": "alternate%20paladin_llac,state:sub_oathless_llac=b1"
 		},
@@ -89620,8 +89381,7 @@
 		{
 			"id": 11988,
 			"c": 40,
-			"n": "Throne (Alternate Paladin)",
-			"b": "Throne",
+			"n": "Throne",
 			"s": "LLAC",
 			"u": "alternate%20paladin_llac,state:sub_throne_llac=b1"
 		},
@@ -89700,8 +89460,7 @@
 		{
 			"id": 11997,
 			"c": 40,
-			"n": "Vigilance (Alternate Paladin)",
-			"b": "Vigilance",
+			"n": "Vigilance",
 			"s": "LLAC",
 			"u": "alternate%20paladin_llac,state:sub_vigilance_llac=b1"
 		},
@@ -89771,8 +89530,7 @@
 		{
 			"id": 12005,
 			"c": 40,
-			"n": "Beast Master (Alternate Ranger)",
-			"b": "Beast Master",
+			"n": "Beast Master",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_beast%20master_llac=b1"
 		},
@@ -89851,8 +89609,7 @@
 		{
 			"id": 12014,
 			"c": 40,
-			"n": "Bounty Hunter (Alternate Ranger)",
-			"b": "Bounty Hunter",
+			"n": "Bounty Hunter",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_bounty%20hunter_llac=b1"
 		},
@@ -89913,8 +89670,7 @@
 		{
 			"id": 12021,
 			"c": 40,
-			"n": "Buccaneer (Alternate Ranger)",
-			"b": "Buccaneer",
+			"n": "Buccaneer",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_buccaneer_llac=b1"
 		},
@@ -89993,8 +89749,7 @@
 		{
 			"id": 12030,
 			"c": 40,
-			"n": "Deep Stalker (Alternate Ranger)",
-			"b": "Deep Stalker",
+			"n": "Deep Stalker",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_deep%20stalker_llac=b1"
 		},
@@ -90064,8 +89819,7 @@
 		{
 			"id": 12038,
 			"c": 40,
-			"n": "Drake Guard (Alternate Ranger)",
-			"b": "Drake Guard",
+			"n": "Drake Guard",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_drake%20guard_llac=b1"
 		},
@@ -90135,8 +89889,7 @@
 		{
 			"id": 12046,
 			"c": 40,
-			"n": "Fey Wanderer (Alternate Ranger)",
-			"b": "Fey Wanderer",
+			"n": "Fey Wanderer",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_fey%20wanderer_llac=b1"
 		},
@@ -90215,8 +89968,7 @@
 		{
 			"id": 12055,
 			"c": 40,
-			"n": "Grim Warden (Alternate Ranger)",
-			"b": "Grim Warden",
+			"n": "Grim Warden",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_grim%20warden_llac=b1"
 		},
@@ -90313,8 +90065,7 @@
 		{
 			"id": 12066,
 			"c": 40,
-			"n": "Hunter (Alternate Ranger)",
-			"b": "Hunter",
+			"n": "Hunter",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_hunter_llac=b1"
 		},
@@ -90384,8 +90135,7 @@
 		{
 			"id": 12074,
 			"c": 40,
-			"n": "Monster Slayer (Alternate Ranger)",
-			"b": "Monster Slayer",
+			"n": "Monster Slayer",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_monster%20slayer_llac=b1"
 		},
@@ -90473,8 +90223,7 @@
 		{
 			"id": 12084,
 			"c": 40,
-			"n": "Nomad (Alternate Ranger)",
-			"b": "Nomad",
+			"n": "Nomad",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_nomad_llac=b1"
 		},
@@ -90544,8 +90293,7 @@
 		{
 			"id": 12092,
 			"c": 40,
-			"n": "Planar Warden (Alternate Ranger)",
-			"b": "Planar Warden",
+			"n": "Planar Warden",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_planar%20warden_llac=b1"
 		},
@@ -90615,8 +90363,7 @@
 		{
 			"id": 12100,
 			"c": 40,
-			"n": "Shifter (Alternate Ranger)",
-			"b": "Shifter",
+			"n": "Shifter",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_shifter_llac=b1"
 		},
@@ -90695,8 +90442,7 @@
 		{
 			"id": 12109,
 			"c": 40,
-			"n": "Spellbreaker (Alternate Ranger)",
-			"b": "Spellbreaker",
+			"n": "Spellbreaker",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_spellbreaker_llac=b1"
 		},
@@ -90766,8 +90512,7 @@
 		{
 			"id": 12117,
 			"c": 40,
-			"n": "Stargazer (Alternate Ranger)",
-			"b": "Stargazer",
+			"n": "Stargazer",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_stargazer_llac=b1"
 		},
@@ -90864,8 +90609,7 @@
 		{
 			"id": 12128,
 			"c": 40,
-			"n": "Swarm Keeper (Alternate Ranger)",
-			"b": "Swarm Keeper",
+			"n": "Swarm Keeper",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_swarm%20keeper_llac=b1"
 		},
@@ -90944,8 +90688,7 @@
 		{
 			"id": 12137,
 			"c": 40,
-			"n": "Trapper (Alternate Ranger)",
-			"b": "Trapper",
+			"n": "Trapper",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_trapper_llac=b1"
 		},
@@ -91015,8 +90758,7 @@
 		{
 			"id": 12145,
 			"c": 40,
-			"n": "Wastelander (Alternate Ranger)",
-			"b": "Wastelander",
+			"n": "Wastelander",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_wastelander_llac=b1"
 		},
@@ -91077,8 +90819,7 @@
 		{
 			"id": 12152,
 			"c": 40,
-			"n": "Wrangler (Alternate Ranger)",
-			"b": "Wrangler",
+			"n": "Wrangler",
 			"s": "LLAC",
 			"u": "alternate%20ranger_llac,state:sub_wrangler_llac=b1"
 		},
@@ -91184,8 +90925,7 @@
 		{
 			"id": 12164,
 			"c": 40,
-			"n": "Acrobat (Alternate Rogue)",
-			"b": "Acrobat",
+			"n": "Acrobat",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_acrobat_llac=b1"
 		},
@@ -91255,8 +90995,7 @@
 		{
 			"id": 12172,
 			"c": 40,
-			"n": "Arcane Trickster (Alternate Rogue)",
-			"b": "Arcane Trickster",
+			"n": "Arcane Trickster",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_arcane%20trickster_llac=b1"
 		},
@@ -91353,8 +91092,7 @@
 		{
 			"id": 12183,
 			"c": 40,
-			"n": "Assassin (Alternate Rogue)",
-			"b": "Assassin",
+			"n": "Assassin",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_assassin_llac=b1"
 		},
@@ -91442,8 +91180,7 @@
 		{
 			"id": 12193,
 			"c": 40,
-			"n": "Avenger (Alternate Rogue)",
-			"b": "Avenger",
+			"n": "Avenger",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_avenger_llac=b1"
 		},
@@ -91540,8 +91277,7 @@
 		{
 			"id": 12204,
 			"c": 40,
-			"n": "Bloodknife (Alternate Rogue)",
-			"b": "Bloodknife",
+			"n": "Bloodknife",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_bloodknife_llac=b1"
 		},
@@ -91638,8 +91374,7 @@
 		{
 			"id": 12215,
 			"c": 40,
-			"n": "Burglar (Alternate Rogue)",
-			"b": "Burglar",
+			"n": "Burglar",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_burglar_llac=b1"
 		},
@@ -91727,8 +91462,7 @@
 		{
 			"id": 12225,
 			"c": 40,
-			"n": "Gambler (Alternate Rogue)",
-			"b": "Gambler",
+			"n": "Gambler",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_gambler_llac=b1"
 		},
@@ -91825,8 +91559,7 @@
 		{
 			"id": 12236,
 			"c": 40,
-			"n": "Investigator (Alternate Rogue)",
-			"b": "Investigator",
+			"n": "Investigator",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_investigator_llac=b1"
 		},
@@ -91923,8 +91656,7 @@
 		{
 			"id": 12247,
 			"c": 40,
-			"n": "Mastermind (Alternate Rogue)",
-			"b": "Mastermind",
+			"n": "Mastermind",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_mastermind_llac=b1"
 		},
@@ -92021,8 +91753,7 @@
 		{
 			"id": 12258,
 			"c": 40,
-			"n": "Phantom (Alternate Rogue)",
-			"b": "Phantom",
+			"n": "Phantom",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_phantom_llac=b1"
 		},
@@ -92092,8 +91823,7 @@
 		{
 			"id": 12266,
 			"c": 40,
-			"n": "Psiknife (Alternate Rogue)",
-			"b": "Psiknife",
+			"n": "Psiknife",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_psiknife_llac=b1"
 		},
@@ -92199,8 +91929,7 @@
 		{
 			"id": 12278,
 			"c": 40,
-			"n": "Ruffian (Alternate Rogue)",
-			"b": "Ruffian",
+			"n": "Ruffian",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_ruffian_llac=b1"
 		},
@@ -92288,8 +92017,7 @@
 		{
 			"id": 12288,
 			"c": 40,
-			"n": "Saboteur (Alternate Rogue)",
-			"b": "Saboteur",
+			"n": "Saboteur",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_saboteur_llac=b1"
 		},
@@ -92377,8 +92105,7 @@
 		{
 			"id": 12298,
 			"c": 40,
-			"n": "Scout (Alternate Rogue)",
-			"b": "Scout",
+			"n": "Scout",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_scout_llac=b1"
 		},
@@ -92439,8 +92166,7 @@
 		{
 			"id": 12305,
 			"c": 40,
-			"n": "Seeker (Alternate Rogue)",
-			"b": "Seeker",
+			"n": "Seeker",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_seeker_llac=b1"
 		},
@@ -92510,8 +92236,7 @@
 		{
 			"id": 12313,
 			"c": 40,
-			"n": "Skinchanger (Alternate Rogue)",
-			"b": "Skinchanger",
+			"n": "Skinchanger",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_skinchanger_llac=b1"
 		},
@@ -92635,8 +92360,7 @@
 		{
 			"id": 12327,
 			"c": 40,
-			"n": "Surgeon (Alternate Rogue)",
-			"b": "Surgeon",
+			"n": "Surgeon",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_surgeon_llac=b1"
 		},
@@ -92724,8 +92448,7 @@
 		{
 			"id": 12337,
 			"c": 40,
-			"n": "Swashbuckler (Alternate Rogue)",
-			"b": "Swashbuckler",
+			"n": "Swashbuckler",
 			"s": "LLAC",
 			"u": "alternate%20rogue_llac,state:sub_swashbuckler_llac=b1"
 		},
@@ -92795,8 +92518,7 @@
 		{
 			"id": 12345,
 			"c": 40,
-			"n": "Aberrant Sorcery (Alternate Sorcerer)",
-			"b": "Aberrant Sorcery",
+			"n": "Aberrant Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_aberrant_llac=b1"
 		},
@@ -92866,8 +92588,7 @@
 		{
 			"id": 12353,
 			"c": 40,
-			"n": "Cosmic Sorcery (Alternate Sorcerer)",
-			"b": "Cosmic Sorcery",
+			"n": "Cosmic Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_cosmic_llac=b1"
 		},
@@ -92937,8 +92658,7 @@
 		{
 			"id": 12361,
 			"c": 40,
-			"n": "Divine Sorcery (Alternate Sorcerer)",
-			"b": "Divine Sorcery",
+			"n": "Divine Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_divine_llac=b1"
 		},
@@ -93008,8 +92728,7 @@
 		{
 			"id": 12369,
 			"c": 40,
-			"n": "Draconic Sorcery (Alternate Sorcerer)",
-			"b": "Draconic Sorcery",
+			"n": "Draconic Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_draconic_llac=b1"
 		},
@@ -93079,8 +92798,7 @@
 		{
 			"id": 12377,
 			"c": 40,
-			"n": "Elder Sorcery (Alternate Sorcerer)",
-			"b": "Elder Sorcery",
+			"n": "Elder Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_elder_llac=b1"
 		},
@@ -93150,8 +92868,7 @@
 		{
 			"id": 12385,
 			"c": 40,
-			"n": "Entropic Sorcery (Alternate Sorcerer)",
-			"b": "Entropic Sorcery",
+			"n": "Entropic Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_entropic_llac=b1"
 		},
@@ -93221,8 +92938,7 @@
 		{
 			"id": 12393,
 			"c": 40,
-			"n": "Fey Sorcery (Alternate Sorcerer)",
-			"b": "Fey Sorcery",
+			"n": "Fey Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_fey_llac=b1"
 		},
@@ -93283,8 +92999,7 @@
 		{
 			"id": 12400,
 			"c": 40,
-			"n": "Flame Sorcery (Alternate Sorcerer)",
-			"b": "Flame Sorcery",
+			"n": "Flame Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_flame_llac=b1"
 		},
@@ -93354,8 +93069,7 @@
 		{
 			"id": 12408,
 			"c": 40,
-			"n": "Infernal (Alternate Sorcerer)",
-			"b": "Infernal",
+			"n": "Infernal",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_infernal_llac=b1"
 		},
@@ -93434,8 +93148,7 @@
 		{
 			"id": 12417,
 			"c": 40,
-			"n": "Iron Sorcery (Alternate Sorcerer)",
-			"b": "Iron Sorcery",
+			"n": "Iron Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_iron_llac=b1"
 		},
@@ -93514,8 +93227,7 @@
 		{
 			"id": 12426,
 			"c": 40,
-			"n": "Oceanic Sorcery (Alternate Sorcerer)",
-			"b": "Oceanic Sorcery",
+			"n": "Oceanic Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_oceanic_llac=b1"
 		},
@@ -93585,8 +93297,7 @@
 		{
 			"id": 12434,
 			"c": 40,
-			"n": "Prime Sorcery (Alternate Sorcerer)",
-			"b": "Prime Sorcery",
+			"n": "Prime Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_prime_llac=b1"
 		},
@@ -93656,8 +93367,7 @@
 		{
 			"id": 12442,
 			"c": 40,
-			"n": "Royal Sorcery (Alternate Sorcerer)",
-			"b": "Royal Sorcery",
+			"n": "Royal Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_royal_llac=b1"
 		},
@@ -93727,8 +93437,7 @@
 		{
 			"id": 12450,
 			"c": 40,
-			"n": "Shadow Sorcery (Alternate Sorcerer)",
-			"b": "Shadow Sorcery",
+			"n": "Shadow Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_shadow_llac=b1"
 		},
@@ -93807,8 +93516,7 @@
 		{
 			"id": 12459,
 			"c": 40,
-			"n": "Stone Sorcery (Alternate Sorcerer)",
-			"b": "Stone Sorcery",
+			"n": "Stone Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_stone_llac=b1"
 		},
@@ -93878,8 +93586,7 @@
 		{
 			"id": 12467,
 			"c": 40,
-			"n": "Storm Sorcery (Alternate Sorcerer)",
-			"b": "Storm Sorcery",
+			"n": "Storm Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_storm_llac=b1"
 		},
@@ -93940,8 +93647,7 @@
 		{
 			"id": 12474,
 			"c": 40,
-			"n": "Vampiric Sorcery (Alternate Sorcerer)",
-			"b": "Vampiric Sorcery",
+			"n": "Vampiric Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_vampiric_llac=b1"
 		},
@@ -94011,8 +93717,7 @@
 		{
 			"id": 12482,
 			"c": 40,
-			"n": "Verdant Sorcery (Alternate Sorcerer)",
-			"b": "Verdant Sorcery",
+			"n": "Verdant Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_verdant_llac=b1"
 		},
@@ -94091,8 +93796,7 @@
 		{
 			"id": 12491,
 			"c": 40,
-			"n": "Wild Sorcery (Alternate Sorcerer)",
-			"b": "Wild Sorcery",
+			"n": "Wild Sorcery",
 			"s": "LLAC",
 			"u": "alternate%20sorcerer_llac,state:sub_wild_llac=b1"
 		},
@@ -94162,8 +93866,7 @@
 		{
 			"id": 12499,
 			"c": 40,
-			"n": "The Archfey (Alternate Warlock)",
-			"b": "The Archfey",
+			"n": "The Archfey",
 			"s": "LLAC",
 			"u": "alternate%20warlock_llac,state:sub_archfey_llac=b1"
 		},
@@ -94233,8 +93936,7 @@
 		{
 			"id": 12507,
 			"c": 40,
-			"n": "The Darklord (Alternate Warlock)",
-			"b": "The Darklord",
+			"n": "The Darklord",
 			"s": "LLAC",
 			"u": "alternate%20warlock_llac,state:sub_darklord_llac=b1"
 		},
@@ -94313,8 +94015,7 @@
 		{
 			"id": 12516,
 			"c": 40,
-			"n": "The Deep One (Alternate Warlock)",
-			"b": "The Deep One",
+			"n": "The Deep One",
 			"s": "LLAC",
 			"u": "alternate%20warlock_llac,state:sub_deep%20one_llac=b1"
 		},
@@ -94375,8 +94076,7 @@
 		{
 			"id": 12523,
 			"c": 40,
-			"n": "The Exalted (Alternate Warlock)",
-			"b": "The Exalted",
+			"n": "The Exalted",
 			"s": "LLAC",
 			"u": "alternate%20warlock_llac,state:sub_exalted_llac=b1"
 		},
@@ -94446,8 +94146,7 @@
 		{
 			"id": 12531,
 			"c": 40,
-			"n": "The Fiend (Alternate Warlock)",
-			"b": "The Fiend",
+			"n": "The Fiend",
 			"s": "LLAC",
 			"u": "alternate%20warlock_llac,state:sub_fiend_llac=b1"
 		},
@@ -94517,8 +94216,7 @@
 		{
 			"id": 12539,
 			"c": 40,
-			"n": "The Great Old One (Alternate Warlock)",
-			"b": "The Great Old One",
+			"n": "The Great Old One",
 			"s": "LLAC",
 			"u": "alternate%20warlock_llac,state:sub_great%20old%20one_llac=b1"
 		},
@@ -94579,8 +94277,7 @@
 		{
 			"id": 12546,
 			"c": 40,
-			"n": "The Noble Genie (Alternate Warlock)",
-			"b": "The Noble Genie",
+			"n": "The Noble Genie",
 			"s": "LLAC",
 			"u": "alternate%20warlock_llac,state:sub_noble%20genie_llac=b1"
 		},
@@ -94659,8 +94356,7 @@
 		{
 			"id": 12555,
 			"c": 40,
-			"n": "The Undying (Alternate Warlock)",
-			"b": "The Undying",
+			"n": "The Undying",
 			"s": "LLAC",
 			"u": "alternate%20warlock_llac,state:sub_undying_llac=b1"
 		},
@@ -94730,8 +94426,7 @@
 		{
 			"id": 12563,
 			"c": 40,
-			"n": "The Wyrm (Alternate Warlock)",
-			"b": "The Wyrm",
+			"n": "The Wyrm",
 			"s": "LLAC",
 			"u": "alternate%20warlock_llac,state:sub_wyrm_llac=b1"
 		},
@@ -94792,8 +94487,7 @@
 		{
 			"id": 12570,
 			"c": 40,
-			"n": "Abjurer (Alternate Wizard)",
-			"b": "Abjurer",
+			"n": "Abjurer",
 			"s": "LLAC",
 			"u": "alternate%20wizard_llac,state:sub_abjurer_llac=b1"
 		},
@@ -94863,8 +94557,7 @@
 		{
 			"id": 12578,
 			"c": 40,
-			"n": "Bladesinger (Alternate Wizard)",
-			"b": "Bladesinger",
+			"n": "Bladesinger",
 			"s": "LLAC",
 			"u": "alternate%20wizard_llac,state:sub_bladesinger_llac=b1"
 		},
@@ -94925,8 +94618,7 @@
 		{
 			"id": 12585,
 			"c": 40,
-			"n": "Conjurer (Alternate Wizard)",
-			"b": "Conjurer",
+			"n": "Conjurer",
 			"s": "LLAC",
 			"u": "alternate%20wizard_llac,state:sub_conjurer_llac=b1"
 		},
@@ -94987,8 +94679,7 @@
 		{
 			"id": 12592,
 			"c": 40,
-			"n": "Diviner (Alternate Wizard)",
-			"b": "Diviner",
+			"n": "Diviner",
 			"s": "LLAC",
 			"u": "alternate%20wizard_llac,state:sub_diviner_llac=b1"
 		},
@@ -95049,8 +94740,7 @@
 		{
 			"id": 12599,
 			"c": 40,
-			"n": "Enchanter (Alternate Wizard)",
-			"b": "Enchanter",
+			"n": "Enchanter",
 			"s": "LLAC",
 			"u": "alternate%20wizard_llac,state:sub_enchanter_llac=b1"
 		},
@@ -95111,8 +94801,7 @@
 		{
 			"id": 12606,
 			"c": 40,
-			"n": "Evoker (Alternate Wizard)",
-			"b": "Evoker",
+			"n": "Evoker",
 			"s": "LLAC",
 			"u": "alternate%20wizard_llac,state:sub_evoker_llac=b1"
 		},
@@ -95173,8 +94862,7 @@
 		{
 			"id": 12613,
 			"c": 40,
-			"n": "Illusionist (Alternate Wizard)",
-			"b": "Illusionist",
+			"n": "Illusionist",
 			"s": "LLAC",
 			"u": "alternate%20wizard_llac,state:sub_illusionist_llac=b1"
 		},
@@ -95244,8 +94932,7 @@
 		{
 			"id": 12621,
 			"c": 40,
-			"n": "Necromancer (Alternate Wizard)",
-			"b": "Necromancer",
+			"n": "Necromancer",
 			"s": "LLAC",
 			"u": "alternate%20wizard_llac,state:sub_necromancer_llac=b1"
 		},
@@ -95315,8 +95002,7 @@
 		{
 			"id": 12629,
 			"c": 40,
-			"n": "Scribe (Alternate Wizard)",
-			"b": "Scribe",
+			"n": "Scribe",
 			"s": "LLAC",
 			"u": "alternate%20wizard_llac,state:sub_scribe_llac=b1"
 		},
@@ -95377,8 +95063,7 @@
 		{
 			"id": 12636,
 			"c": 40,
-			"n": "Transmuter (Alternate Wizard)",
-			"b": "Transmuter",
+			"n": "Transmuter",
 			"s": "LLAC",
 			"u": "alternate%20wizard_llac,state:sub_transmuter_llac=b1"
 		},
@@ -95448,8 +95133,7 @@
 		{
 			"id": 12644,
 			"c": 40,
-			"n": "War Mage (Alternate Wizard)",
-			"b": "War Mage",
+			"n": "War Mage",
 			"s": "LLAC",
 			"u": "alternate%20wizard_llac,state:sub_war%20mage_llac=b1"
 		},
@@ -95501,8 +95185,7 @@
 		{
 			"id": 12650,
 			"c": 40,
-			"n": "Farmer (Commoner)",
-			"b": "Farmer",
+			"n": "Farmer",
 			"s": "LLOC",
 			"u": "commoner_lloc,state:sub_farmer_lloc=b1"
 		},
@@ -95554,8 +95237,7 @@
 		{
 			"id": 12656,
 			"c": 40,
-			"n": "Innkeeper (Commoner)",
-			"b": "Innkeeper",
+			"n": "Innkeeper",
 			"s": "LLOC",
 			"u": "commoner_lloc,state:sub_innkeeper_lloc=b1"
 		},
@@ -95607,8 +95289,7 @@
 		{
 			"id": 12662,
 			"c": 40,
-			"n": "Laborer (Commoner)",
-			"b": "Laborer",
+			"n": "Laborer",
 			"s": "LLOC",
 			"u": "commoner_lloc,state:sub_laborer_lloc=b1"
 		},
@@ -95651,8 +95332,7 @@
 		{
 			"id": 12667,
 			"c": 40,
-			"n": "Old Timer (Commoner)",
-			"b": "Old Timer",
+			"n": "Old Timer",
 			"s": "LLOC",
 			"u": "commoner_lloc,state:sub_old%20timer_lloc=b1"
 		},
@@ -95722,8 +95402,7 @@
 		{
 			"id": 12675,
 			"c": 40,
-			"n": "Order of Arcane Archers (Magus)",
-			"b": "Order of Arcane Archers",
+			"n": "Order of Arcane Archers",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_arcane%20archer_lloc=b1"
 		},
@@ -95784,8 +95463,7 @@
 		{
 			"id": 12682,
 			"c": 40,
-			"n": "Order of Arcanists (Magus)",
-			"b": "Order of Arcanists",
+			"n": "Order of Arcanists",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_arcanist_lloc=b1"
 		},
@@ -95855,8 +95533,7 @@
 		{
 			"id": 12690,
 			"c": 40,
-			"n": "Order of Armorers (Magus)",
-			"b": "Order of Armorers",
+			"n": "Order of Armorers",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_armorer_lloc=b1"
 		},
@@ -95926,8 +95603,7 @@
 		{
 			"id": 12698,
 			"c": 40,
-			"n": "Order of Blades (Magus)",
-			"b": "Order of Blades",
+			"n": "Order of Blades",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_blades_lloc=b1"
 		},
@@ -95997,8 +95673,7 @@
 		{
 			"id": 12706,
 			"c": 40,
-			"n": "Order of Conduits (Magus)",
-			"b": "Order of Conduits",
+			"n": "Order of Conduits",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_conduit_lloc=b1"
 		},
@@ -96077,8 +95752,7 @@
 		{
 			"id": 12715,
 			"c": 40,
-			"n": "Order of Dragon Knights (Magus)",
-			"b": "Order of Dragon Knights",
+			"n": "Order of Dragon Knights",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_dragon%20knight_lloc=b1"
 		},
@@ -96139,8 +95813,7 @@
 		{
 			"id": 12722,
 			"c": 40,
-			"n": "Order of Hexblades (Magus)",
-			"b": "Order of Hexblades",
+			"n": "Order of Hexblades",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_hexblade_lloc=b1"
 		},
@@ -96219,8 +95892,7 @@
 		{
 			"id": 12731,
 			"c": 40,
-			"n": "Order of Shades (Magus)",
-			"b": "Order of Shades",
+			"n": "Order of Shades",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_shade_lloc=b1"
 		},
@@ -96290,8 +95962,7 @@
 		{
 			"id": 12739,
 			"c": 40,
-			"n": "Order of Spellbreakers (Magus)",
-			"b": "Order of Spellbreakers",
+			"n": "Order of Spellbreakers",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_spellbreaker_lloc=b1"
 		},
@@ -96361,8 +96032,7 @@
 		{
 			"id": 12747,
 			"c": 40,
-			"n": "Order of Spellswords (Magus)",
-			"b": "Order of Spellswords",
+			"n": "Order of Spellswords",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_spellsword_lloc=b1"
 		},
@@ -96441,8 +96111,7 @@
 		{
 			"id": 12756,
 			"c": 40,
-			"n": "Order of Travelers (Magus)",
-			"b": "Order of Travelers",
+			"n": "Order of Travelers",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_traveler_lloc=b1"
 		},
@@ -96503,8 +96172,7 @@
 		{
 			"id": 12763,
 			"c": 40,
-			"n": "Order of Warders (Magus)",
-			"b": "Order of Warders",
+			"n": "Order of Warders",
 			"s": "LLOC",
 			"u": "magus_lloc,state:sub_warder_lloc=b1"
 		},
@@ -96574,8 +96242,7 @@
 		{
 			"id": 12771,
 			"c": 40,
-			"n": "Empath (Psion)",
-			"b": "Empath",
+			"n": "Empath",
 			"s": "LLOC",
 			"u": "psion_lloc,state:sub_empath_lloc=b1"
 		},
@@ -96645,8 +96312,7 @@
 		{
 			"id": 12779,
 			"c": 40,
-			"n": "Enlightened (Psion)",
-			"b": "Enlightened",
+			"n": "Enlightened",
 			"s": "LLOC",
 			"u": "psion_lloc,state:sub_enlightened_lloc=b1"
 		},
@@ -96725,8 +96391,7 @@
 		{
 			"id": 12788,
 			"c": 40,
-			"n": "Immortal (Psion)",
-			"b": "Immortal",
+			"n": "Immortal",
 			"s": "LLOC",
 			"u": "psion_lloc,state:sub_immortal_lloc=b1"
 		},
@@ -96805,8 +96470,7 @@
 		{
 			"id": 12797,
 			"c": 40,
-			"n": "Outsider (Psion)",
-			"b": "Outsider",
+			"n": "Outsider",
 			"s": "LLOC",
 			"u": "psion_lloc,state:sub_outsider_lloc=b1"
 		},
@@ -96894,8 +96558,7 @@
 		{
 			"id": 12807,
 			"c": 40,
-			"n": "Wilder (Psion)",
-			"b": "Wilder",
+			"n": "Wilder",
 			"s": "LLOC",
 			"u": "psion_lloc,state:sub_wilder_lloc=b1"
 		},
@@ -96956,8 +96619,7 @@
 		{
 			"id": 12814,
 			"c": 40,
-			"n": "Archaeologist (Savant)",
-			"b": "Archaeologist",
+			"n": "Archaeologist",
 			"s": "LLOC",
 			"u": "savant_lloc,state:sub_archaeologist_lloc=b1"
 		},
@@ -97018,8 +96680,7 @@
 		{
 			"id": 12821,
 			"c": 40,
-			"n": "Culinarian (Savant)",
-			"b": "Culinarian",
+			"n": "Culinarian",
 			"s": "LLOC",
 			"u": "savant_lloc,state:sub_culinarian_lloc=b1"
 		},
@@ -97089,8 +96750,7 @@
 		{
 			"id": 12829,
 			"c": 40,
-			"n": "Investigator (Savant)",
-			"b": "Investigator",
+			"n": "Investigator",
 			"s": "LLOC",
 			"u": "savant_lloc,state:sub_investigator_lloc=b1"
 		},
@@ -97160,8 +96820,7 @@
 		{
 			"id": 12837,
 			"c": 40,
-			"n": "Mentor (Savant)",
-			"b": "Mentor",
+			"n": "Mentor",
 			"s": "LLOC",
 			"u": "savant_lloc,state:sub_mentor_lloc=b1"
 		},
@@ -97240,8 +96899,7 @@
 		{
 			"id": 12846,
 			"c": 40,
-			"n": "Naturalist (Savant)",
-			"b": "Naturalist",
+			"n": "Naturalist",
 			"s": "LLOC",
 			"u": "savant_lloc,state:sub_naturalist_lloc=b1"
 		},
@@ -97356,8 +97014,7 @@
 		{
 			"id": 12859,
 			"c": 40,
-			"n": "Orator (Savant)",
-			"b": "Orator",
+			"n": "Orator",
 			"s": "LLOC",
 			"u": "savant_lloc,state:sub_orator_lloc=b1"
 		},
@@ -97472,8 +97129,7 @@
 		{
 			"id": 12872,
 			"c": 40,
-			"n": "Philosopher (Savant)",
-			"b": "Philosopher",
+			"n": "Philosopher",
 			"s": "LLOC",
 			"u": "savant_lloc,state:sub_philosopher_lloc=b1"
 		},
@@ -97588,8 +97244,7 @@
 		{
 			"id": 12885,
 			"c": 40,
-			"n": "Physician (Savant)",
-			"b": "Physician",
+			"n": "Physician",
 			"s": "LLOC",
 			"u": "savant_lloc,state:sub_physician_lloc=b1"
 		},
@@ -97650,8 +97305,7 @@
 		{
 			"id": 12892,
 			"c": 40,
-			"n": "Rune Scribe (Savant)",
-			"b": "Rune Scribe",
+			"n": "Rune Scribe",
 			"s": "LLOC",
 			"u": "savant_lloc,state:sub_rune%20scribe_lloc=b1"
 		},
@@ -97748,8 +97402,7 @@
 		{
 			"id": 12903,
 			"c": 40,
-			"n": "Tactician (Savant)",
-			"b": "Tactician",
+			"n": "Tactician",
 			"s": "LLOC",
 			"u": "savant_lloc,state:sub_tactician_lloc=b1"
 		},
@@ -97837,8 +97490,7 @@
 		{
 			"id": 12913,
 			"c": 40,
-			"n": "Virtuoso (Savant)",
-			"b": "Virtuoso",
+			"n": "Virtuoso",
 			"s": "LLOC",
 			"u": "savant_lloc,state:sub_virtuoso_lloc=b1"
 		},
@@ -97899,8 +97551,7 @@
 		{
 			"id": 12920,
 			"c": 40,
-			"n": "Astrologer (Shaman)",
-			"b": "Astrologer",
+			"n": "Astrologer",
 			"s": "LLOC",
 			"u": "shaman_lloc,state:sub_astrologer_lloc=b1"
 		},
@@ -97970,8 +97621,7 @@
 		{
 			"id": 12928,
 			"c": 40,
-			"n": "Blood Priest (Shaman)",
-			"b": "Blood Priest",
+			"n": "Blood Priest",
 			"s": "LLOC",
 			"u": "shaman_lloc,state:sub_blood%20priest_lloc=b1"
 		},
@@ -98032,8 +97682,7 @@
 		{
 			"id": 12935,
 			"c": 40,
-			"n": "Curse Binder (Shaman)",
-			"b": "Curse Binder",
+			"n": "Curse Binder",
 			"s": "LLOC",
 			"u": "shaman_lloc,state:sub_curse%20binder_lloc=b1"
 		},
@@ -98112,8 +97761,7 @@
 		{
 			"id": 12944,
 			"c": 40,
-			"n": "Elementalist (Shaman)",
-			"b": "Elementalist",
+			"n": "Elementalist",
 			"s": "LLOC",
 			"u": "shaman_lloc,state:sub_elementalist_lloc=b1"
 		},
@@ -98174,8 +97822,7 @@
 		{
 			"id": 12951,
 			"c": 40,
-			"n": "Far Seer (Shaman)",
-			"b": "Far Seer",
+			"n": "Far Seer",
 			"s": "LLOC",
 			"u": "shaman_lloc,state:sub_far%20seer_lloc=b1"
 		},
@@ -98227,8 +97874,7 @@
 		{
 			"id": 12957,
 			"c": 40,
-			"n": "Idolater (Shaman)",
-			"b": "Idolater",
+			"n": "Idolater",
 			"s": "LLOC",
 			"u": "shaman_lloc,state:sub_idolater_lloc=b1"
 		},
@@ -98280,8 +97926,7 @@
 		{
 			"id": 12963,
 			"c": 40,
-			"n": "Spirit Guide (Shaman)",
-			"b": "Spirit Guide",
+			"n": "Spirit Guide",
 			"s": "LLOC",
 			"u": "shaman_lloc,state:sub_spirit%20guide_lloc=b1"
 		},
@@ -98342,8 +97987,7 @@
 		{
 			"id": 12970,
 			"c": 40,
-			"n": "Spirit Warrior (Shaman)",
-			"b": "Spirit Warrior",
+			"n": "Spirit Warrior",
 			"s": "LLOC",
 			"u": "shaman_lloc,state:sub_spirit%20warrior_lloc=b1"
 		},
@@ -98413,8 +98057,7 @@
 		{
 			"id": 12978,
 			"c": 40,
-			"n": "Wild Heart (Shaman)",
-			"b": "Wild Heart",
+			"n": "Wild Heart",
 			"s": "LLOC",
 			"u": "shaman_lloc,state:sub_wild%20heart_lloc=b1"
 		},
@@ -98475,8 +98118,7 @@
 		{
 			"id": 12985,
 			"c": 40,
-			"n": "Witch Doctor (Shaman)",
-			"b": "Witch Doctor",
+			"n": "Witch Doctor",
 			"s": "LLOC",
 			"u": "shaman_lloc,state:sub_witch%20doctor_lloc=b1"
 		},
@@ -98546,8 +98188,7 @@
 		{
 			"id": 12993,
 			"c": 40,
-			"n": "Wyrmbound (Shaman)",
-			"b": "Wyrmbound",
+			"n": "Wyrmbound",
 			"s": "LLOC",
 			"u": "shaman_lloc,state:sub_wyrmbound_lloc=b1"
 		},
@@ -98608,8 +98249,7 @@
 		{
 			"id": 13000,
 			"c": 40,
-			"n": "Avian Bloodline (Shifter)",
-			"b": "Avian Bloodline",
+			"n": "Avian Bloodline",
 			"s": "LLOC",
 			"u": "shifter_lloc,state:sub_avian_lloc=b1"
 		},
@@ -98670,8 +98310,7 @@
 		{
 			"id": 13007,
 			"c": 40,
-			"n": "Brute Bloodline (Shifter)",
-			"b": "Brute Bloodline",
+			"n": "Brute Bloodline",
 			"s": "LLOC",
 			"u": "shifter_lloc,state:sub_brute_lloc=b1"
 		},
@@ -98741,8 +98380,7 @@
 		{
 			"id": 13015,
 			"c": 40,
-			"n": "Carnivore Bloodline (Shifter)",
-			"b": "Carnivore Bloodline",
+			"n": "Carnivore Bloodline",
 			"s": "LLOC",
 			"u": "shifter_lloc,state:sub_carnivore_lloc=b1"
 		},
@@ -98812,8 +98450,7 @@
 		{
 			"id": 13023,
 			"c": 40,
-			"n": "Reptilian Bloodline (Shifter)",
-			"b": "Reptilian Bloodline",
+			"n": "Reptilian Bloodline",
 			"s": "LLOC",
 			"u": "shifter_lloc,state:sub_reptilian_lloc=b1"
 		},
@@ -98892,8 +98529,7 @@
 		{
 			"id": 13032,
 			"c": 40,
-			"n": "The Ascended (Vessel)",
-			"b": "The Ascended",
+			"n": "The Ascended",
 			"s": "LLOC",
 			"u": "vessel_lloc,state:sub_ascended_lloc=b1"
 		},
@@ -98972,8 +98608,7 @@
 		{
 			"id": 13041,
 			"c": 40,
-			"n": "The Cataclysm (Vessel)",
-			"b": "The Cataclysm",
+			"n": "The Cataclysm",
 			"s": "LLOC",
 			"u": "vessel_lloc,state:sub_cataclysm_lloc=b1"
 		},
@@ -99052,8 +98687,7 @@
 		{
 			"id": 13050,
 			"c": 40,
-			"n": "The Cursed (Vessel)",
-			"b": "The Cursed",
+			"n": "The Cursed",
 			"s": "LLOC",
 			"u": "vessel_lloc,state:sub_cursed_lloc=b1"
 		},
@@ -99132,8 +98766,7 @@
 		{
 			"id": 13059,
 			"c": 40,
-			"n": "The Fallen (Vessel)",
-			"b": "The Fallen",
+			"n": "The Fallen",
 			"s": "LLOC",
 			"u": "vessel_lloc,state:sub_fallen_lloc=b1"
 		},
@@ -99212,8 +98845,7 @@
 		{
 			"id": 13068,
 			"c": 40,
-			"n": "The Formless (Vessel)",
-			"b": "The Formless",
+			"n": "The Formless",
 			"s": "LLOC",
 			"u": "vessel_lloc,state:sub_formless_lloc=b1"
 		},
@@ -99301,8 +98933,7 @@
 		{
 			"id": 13078,
 			"c": 40,
-			"n": "The Trickster (Vessel)",
-			"b": "The Trickster",
+			"n": "The Trickster",
 			"s": "LLOC",
 			"u": "vessel_lloc,state:sub_trickster_lloc=b1"
 		},
@@ -99390,8 +99021,7 @@
 		{
 			"id": 13088,
 			"c": 40,
-			"n": "Academy of Chivalry (Warlord)",
-			"b": "Academy of Chivalry",
+			"n": "Academy of Chivalry",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_chivalry_lloc=b1"
 		},
@@ -99470,8 +99100,7 @@
 		{
 			"id": 13097,
 			"c": 40,
-			"n": "Academy of Claws (Warlord)",
-			"b": "Academy of Claws",
+			"n": "Academy of Claws",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_claws_lloc=b1"
 		},
@@ -99550,8 +99179,7 @@
 		{
 			"id": 13106,
 			"c": 40,
-			"n": "Academy of Counsel (Warlord)",
-			"b": "Academy of Counsel",
+			"n": "Academy of Counsel",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_counsel_lloc=b1"
 		},
@@ -99648,8 +99276,7 @@
 		{
 			"id": 13117,
 			"c": 40,
-			"n": "Academy of Dread (Warlord)",
-			"b": "Academy of Dread",
+			"n": "Academy of Dread",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_dread_lloc=b1"
 		},
@@ -99737,8 +99364,7 @@
 		{
 			"id": 13127,
 			"c": 40,
-			"n": "Academy of Ferocity (Warlord)",
-			"b": "Academy of Ferocity",
+			"n": "Academy of Ferocity",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_ferocity_lloc=b1"
 		},
@@ -99835,8 +99461,7 @@
 		{
 			"id": 13138,
 			"c": 40,
-			"n": "Academy of Gallantry (Warlord)",
-			"b": "Academy of Gallantry",
+			"n": "Academy of Gallantry",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_gallantry_lloc=b1"
 		},
@@ -99924,8 +99549,7 @@
 		{
 			"id": 13148,
 			"c": 40,
-			"n": "Academy of Liberty (Warlord)",
-			"b": "Academy of Liberty",
+			"n": "Academy of Liberty",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_liberty_lloc=b1"
 		},
@@ -100022,8 +99646,7 @@
 		{
 			"id": 13159,
 			"c": 40,
-			"n": "Academy of Navigators (Warlord)",
-			"b": "Academy of Navigators",
+			"n": "Academy of Navigators",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_navigator_lloc=b1"
 		},
@@ -100129,8 +99752,7 @@
 		{
 			"id": 13171,
 			"c": 40,
-			"n": "Academy of Order (Warlord)",
-			"b": "Academy of Order",
+			"n": "Academy of Order",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_order_lloc=b1"
 		},
@@ -100227,8 +99849,7 @@
 		{
 			"id": 13182,
 			"c": 40,
-			"n": "Academy of Schemes (Warlord)",
-			"b": "Academy of Schemes",
+			"n": "Academy of Schemes",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_schemes_lloc=b1"
 		},
@@ -100307,8 +99928,7 @@
 		{
 			"id": 13191,
 			"c": 40,
-			"n": "Academy of Tactics (Warlord)",
-			"b": "Academy of Tactics",
+			"n": "Academy of Tactics",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_tactics_lloc=b1"
 		},
@@ -100387,8 +100007,7 @@
 		{
 			"id": 13200,
 			"c": 40,
-			"n": "Academy of Zeal (Warlord)",
-			"b": "Academy of Zeal",
+			"n": "Academy of Zeal",
 			"s": "LLOC",
 			"u": "warlord_lloc,state:sub_zeal_lloc=b1"
 		},
@@ -100458,8 +100077,7 @@
 		{
 			"id": 13208,
 			"c": 40,
-			"n": "Path of the Blood Knight (Alternate Barbarian)",
-			"b": "Path of the Blood Knight",
+			"n": "Path of the Blood Knight",
 			"s": "LLAC",
 			"u": "alternate%20barbarian_llac,state:sub_blood%20knight_llac=b1"
 		}
