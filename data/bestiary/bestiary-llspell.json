@@ -63,7 +63,13 @@
 						"{@atk mw} {@hitYourSpellAttack your Spell Attack Modifier} to hit, reach 5 ft., one target. Hit: ({@damage 2d4 +PB}) bludgeoning, piercing, or slashing damage (appropriate to its shape)."
 					]
 				}
-			]
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/llspell/Animated%20Object%20(Alternate)%20(TinySmall).png"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Animated Object (Alternate) (Medium)",

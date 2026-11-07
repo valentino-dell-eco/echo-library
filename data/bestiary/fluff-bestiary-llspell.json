@@ -1,0 +1,17 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Animated Object (Alternate) (Tiny/Small)",
+			"source": "llspell",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/llspell/Animated%20Object%20(Alternate)%20(TinySmall).jpg"
+					}
+				}
+			]
+		}
+	]
+}

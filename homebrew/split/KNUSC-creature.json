@@ -1386,7 +1386,7 @@
 			}
 		],
 		"dateAdded": 1793294907,
-		"dateLastModified": 1794003970,
+		"dateLastModified": 1794011950,
 		"edition": "classic"
 	},
 	"monster": [
@@ -553054,7 +553054,13 @@
 						"{@atk mw} {@hitYourSpellAttack your Spell Attack Modifier} to hit, reach 5 ft., one target. Hit: ({@damage 2d4 +PB}) bludgeoning, piercing, or slashing damage (appropriate to its shape)."
 					]
 				}
-			]
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/llspell/Animated%20Object%20(Alternate)%20(TinySmall).png"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Animated Object (Alternate) (Medium)",
@@ -650041,6 +650047,19 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLCB/Vulture.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Animated Object (Alternate) (Tiny/Small)",
+			"source": "llspell",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/llspell/Animated%20Object%20(Alternate)%20(TinySmall).jpg"
 					}
 				}
 			]

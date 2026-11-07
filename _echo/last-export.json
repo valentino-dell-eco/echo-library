@@ -1,6 +1,6 @@
 {
-  "exportedAt": "2026-11-06T23:26:16.791401",
-  "libVersion": 7,
+  "exportedAt": "2026-11-07T01:39:17.409208",
+  "libVersion": 8,
   "files": [
     "data/bestiary/bestiary-knusc.json",
     "data/bestiary/fluff-bestiary-awm.json",
@@ -173,6 +173,7 @@
     "data/bestiary/bestiary-llcb.json",
     "data/bestiary/fluff-bestiary-llcb.json",
     "data/bestiary/bestiary-llex.json",
+    "data/bestiary/fluff-bestiary-llspell.json",
     "data/bestiary/bestiary-llspell.json",
     "data/objects.json",
     "data/fluff-objects.json",
@@ -2262,6 +2263,8 @@
     "img/bestiary/LLCB/Viper.webp",
     "img/bestiary/tokens/LLCB/Vulture.webp",
     "img/bestiary/LLCB/Vulture.webp",
-    "img/bestiary/tokens/LLCB/Wild Dog.webp"
+    "img/bestiary/tokens/LLCB/Wild Dog.webp",
+    "img/bestiary/tokens/llspell/Animated Object (Alternate) (TinySmall).png",
+    "img/bestiary/llspell/Animated Object (Alternate) (TinySmall).jpg"
   ]
 }

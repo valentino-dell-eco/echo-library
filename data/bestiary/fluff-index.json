@@ -79,5 +79,6 @@
 	"WDH": "fluff-bestiary-wdh.json",
 	"KOENOUMIBESTIARY": "fluff-bestiary-koenoumibestiary.json",
 	"LLCBD": "fluff-bestiary-llcbd.json",
-	"LLCB": "fluff-bestiary-llcb.json"
+	"LLCB": "fluff-bestiary-llcb.json",
+	"LLSPELL": "fluff-bestiary-llspell.json"
 }

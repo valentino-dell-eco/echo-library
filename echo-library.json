@@ -1038,9 +1038,9 @@
     "cloudflareProject": "",
     "customBaseUrl": ""
   },
-  "libVersion": 7,
+  "libVersion": 8,
   "dateAdded": 1793294907,
-  "dateLastModified": 1794003976,
+  "dateLastModified": 1794011957,
   "content": {
     "monster": [
       {
@@ -627077,7 +627077,11 @@
             ]
           }
         ],
-        "_echoId": "b22903c1ffd9"
+        "_echoId": "b22903c1ffd9",
+        "_echoToken": "34938f9dc5db.png",
+        "_echoImages": [
+          "b28a40d39ff6.jpg"
+        ]
       },
       {
         "name": "Animated Object (Alternate) (Medium)",
