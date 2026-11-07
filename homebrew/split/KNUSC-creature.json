@@ -1386,7 +1386,7 @@
 			}
 		],
 		"dateAdded": 1793294907,
-		"dateLastModified": 1794011950,
+		"dateLastModified": 1794015203,
 		"edition": "classic"
 	},
 	"monster": [
@@ -537357,7 +537357,9 @@
 			],
 			"miscTags": [
 				"MW"
-			]
+			],
+			"cr": "0",
+			"hasFluffImages": true
 		},
 		{
 			"name": "Aberrant Familiar",
@@ -649299,6 +649301,26 @@
 					},
 					"width": 830,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Draconic Companion",
+			"source": "LLAC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLAC/Draconic%20Companion.jpg"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLAC/Draconic%20Companion%20(2).webp"
+					}
 				}
 			]
 		},

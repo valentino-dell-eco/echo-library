@@ -1,0 +1,24 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Draconic Companion",
+			"source": "LLAC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLAC/Draconic%20Companion.jpg"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/LLAC/Draconic%20Companion%20(2).webp"
+					}
+				}
+			]
+		}
+	]
+}

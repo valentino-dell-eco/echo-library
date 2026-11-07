@@ -1038,9 +1038,9 @@
     "cloudflareProject": "",
     "customBaseUrl": ""
   },
-  "libVersion": 8,
+  "libVersion": 9,
   "dateAdded": 1793294907,
-  "dateLastModified": 1794011957,
+  "dateLastModified": 1794015210,
   "content": {
     "monster": [
       {
@@ -611517,7 +611517,12 @@
         "miscTags": [
           "MW"
         ],
-        "_echoId": "b43294909f99"
+        "_echoId": "b43294909f99",
+        "cr": "0",
+        "_echoImages": [
+          "a0813ac6c651.jpg",
+          "8d59d9c2f5a3.webp"
+        ]
       },
       {
         "name": "Aberrant Familiar",

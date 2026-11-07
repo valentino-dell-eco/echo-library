@@ -1,6 +1,6 @@
 {
-  "exportedAt": "2026-11-07T01:39:17.409208",
-  "libVersion": 8,
+  "exportedAt": "2026-11-07T02:33:30.225960",
+  "libVersion": 9,
   "files": [
     "data/bestiary/bestiary-knusc.json",
     "data/bestiary/fluff-bestiary-awm.json",
@@ -165,6 +165,7 @@
     "data/bestiary/fluff-bestiary-wdh.json",
     "data/bestiary/bestiary-wdh.json",
     "data/bestiary/bestiary-llac.json",
+    "data/bestiary/fluff-bestiary-llac.json",
     "data/bestiary/bestiary-lloc.json",
     "data/bestiary/bestiary-koenoumibestiary.json",
     "data/bestiary/fluff-bestiary-koenoumibestiary.json",
@@ -2100,6 +2101,8 @@
     "img/bestiary/tokens/WDH/Yalah Gralhund.webp",
     "img/bestiary/WDH/Yalah Gralhund.webp",
     "img/bestiary/tokens/WDH/Zhent Martial Arts Adept.webp",
+    "img/bestiary/LLAC/Draconic Companion.jpg",
+    "img/bestiary/LLAC/Draconic Companion (2).webp",
     "img/bestiary/tokens/LLOC/Draconic Companion.webp",
     "img/bestiary/tokens/LLOC/Exalted Companion.webp",
     "img/bestiary/tokens/KoeNoUmiBestiary/Opera Magna.png",
