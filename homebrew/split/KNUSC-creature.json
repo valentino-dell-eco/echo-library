@@ -1386,7 +1386,7 @@
 			}
 		],
 		"dateAdded": 1793294907,
-		"dateLastModified": 1794015203,
+		"dateLastModified": 1794106474,
 		"edition": "classic"
 	},
 	"monster": [
@@ -553668,6 +553668,347 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Charioteer's Steed",
+			"source": "KNUSC",
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "12 + your proficiency bonus"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your Arcan level"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 25
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 13,
+			"int": 6,
+			"wis": 12,
+			"cha": 6,
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the languages you speak but can't speak"
+			],
+			"cr": "—",
+			"trait": [
+				{
+					"name": "Hit Dice",
+					"entries": [
+						"Your Charioteer's Steed has a number of d8 Hit Dice equal to your Arcan level. It benefits from short and long rests normally."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The Steed has advantage on saving throws made against being knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Oniric Creature",
+					"entries": [
+						"The Steed's oniric nature means it doesn't require food, water, or sleep, and magic can't put it to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Hoof",
+					"entries": [
+						"{@atk mw} your Arcan Aspect attack bonus (your proficiency bonus + your Major Ability modifier) to hit, reach 5 ft., one target. {@h}{@damage 1d6} + your Major Ability modifier piercing damage."
+					]
+				},
+				{
+					"name": "Steed Gun",
+					"entries": [
+						"{@atk rw} your Arcan Aspect attack bonus (your proficiency bonus + your Major Ability modifier) to hit, range 30 ft., one target. {@h}{@damage 1d4} + your Major Ability modifier force damage."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/KNUSC/Charioteer's%20Steed.png"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Arcane Skull",
+			"source": "KNUSC",
+			"size": [
+				"S",
+				"M"
+			],
+			"sizeNote": "Small (3rd level) or Medium (7th level)",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "12 + your proficiency bonus"
+				}
+			],
+			"hp": {
+				"special": "Small: 5 + twice your Arcan level; Medium: 5 + three times your Arcan level"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 12,
+			"int": 6,
+			"wis": 12,
+			"cha": 8,
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned",
+				"prone"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"understands the languages you speak but can't speak"
+			],
+			"cr": "—",
+			"trait": [
+				{
+					"name": "Oniric Creature",
+					"entries": [
+						"The Skull's oniric nature means it doesn't require food, water, or sleep."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The Skull doesn't provoke opportunity attacks when it flies out of a creature's reach."
+					]
+				},
+				{
+					"name": "Ephemeral",
+					"entries": [
+						"If the Skull is reduced to 0 hit points, it is destroyed, crumbling into ash."
+					]
+				},
+				{
+					"name": "Cranial Charge (Medium Only)",
+					"entries": [
+						"If the Skull moves at least 20 feet in a straight line toward a target and then hits it with a Headbutt attack on the same turn, the attack deals an extra {@damage 1d6} bludgeoning damage, and the target must succeed on a Strength saving throw against your Arcan Aspect save DC or be pushed 10 feet in a straight line away from the Skull."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Headbutt",
+					"entries": [
+						"{@atk mw} your Arcan Aspect attack bonus to hit, reach 5 ft., one target. {@h}{@damage 1d6} + your Wisdom modifier bludgeoning damage."
+					]
+				},
+				{
+					"name": "Bite (Medium Only)",
+					"entries": [
+						"{@atk mw} your Arcan Aspect attack bonus to hit, reach 5 ft., one target. {@h}{@damage 1d6} + your Wisdom modifier piercing damage."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/KNUSC/Arcane%20Skull.png"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Oniric Hecatomb",
+			"source": "KNUSC",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "undead",
+				"swarmSize": "M"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "10 + your proficiency bonus"
+				}
+			],
+			"hp": {
+				"special": "10 + five times your Arcan level"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 14,
+			"int": 5,
+			"wis": 12,
+			"cha": 6,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned",
+				"prone"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"understands the languages you speak but can't speak"
+			],
+			"cr": "—",
+			"trait": [
+				{
+					"name": "Oniric Creature",
+					"entries": [
+						"The swarm's oniric nature means it doesn't require food, water, or sleep."
+					]
+				},
+				{
+					"name": "Multitude",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa, and it can move through any opening large enough for its individual components."
+					]
+				},
+				{
+					"name": "Crumbling Mass",
+					"entries": [
+						"While the swarm has half its hit point maximum or fewer, its attacks deal {@dice 1d6} less damage."
+					]
+				},
+				{
+					"name": "Ephemeral",
+					"entries": [
+						"If the swarm is reduced to 0 hit points, it is destroyed, crumbling into ash."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Legion's Assault",
+					"entries": [
+						"{@atk mw} your Arcan Aspect attack bonus to hit, reach 5 ft., one target. {@h}{@damage 2d6} + your Wisdom modifier slashing damage."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/KNUSC/Oniric%20Hecatomb.png"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Bone Titan",
+			"source": "KNUSC",
+			"size": [
+				"H"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "14 + your proficiency bonus"
+				}
+			],
+			"hp": {
+				"special": "15 + eight times your Arcan level"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 18,
+			"int": 6,
+			"wis": 12,
+			"cha": 8,
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"understands the languages you speak but can't speak"
+			],
+			"cr": "—",
+			"trait": [
+				{
+					"name": "Oniric Creature",
+					"entries": [
+						"The Titan's oniric nature means it doesn't require food, water, or sleep."
+					]
+				},
+				{
+					"name": "Ephemeral",
+					"entries": [
+						"If the Titan is reduced to 0 hit points, it is destroyed, crumbling into ash."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sepulchral Slam",
+					"entries": [
+						"{@atk mw} your Arcan Aspect attack bonus to hit, reach 10 ft., one target. {@h}{@damage 2d10} + your Wisdom modifier bludgeoning damage. The target must succeed on a Strength saving throw against your Arcan Aspect save DC or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Hurl Boulder",
+					"entries": [
+						"{@atk rw} your Arcan Aspect attack bonus to hit, range 30/120 ft., one target. {@h}{@damage 2d10} + your Wisdom modifier bludgeoning damage. The target must succeed on a Strength saving throw against your Arcan Aspect save DC or be knocked {@condition prone}."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/tokens/KNUSC/Bone%20Titan.png"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
 		}
 	],
 	"monsterFluff": [
@@ -650082,6 +650423,58 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/llspell/Animated%20Object%20(Alternate)%20(TinySmall).jpg"
+					}
+				}
+			]
+		},
+		{
+			"name": "Charioteer's Steed",
+			"source": "KNUSC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KNUSC/Charioteer's%20Steed.jpg"
+					}
+				}
+			]
+		},
+		{
+			"name": "Arcane Skull",
+			"source": "KNUSC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KNUSC/Arcane%20Skull.jpg"
+					}
+				}
+			]
+		},
+		{
+			"name": "Oniric Hecatomb",
+			"source": "KNUSC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KNUSC/Oniric%20Hecatomb.jpg"
+					}
+				}
+			]
+		},
+		{
+			"name": "Bone Titan",
+			"source": "KNUSC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KNUSC/Bone%20Titan.webp"
 					}
 				}
 			]

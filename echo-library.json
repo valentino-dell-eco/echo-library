@@ -1038,9 +1038,9 @@
     "cloudflareProject": "",
     "customBaseUrl": ""
   },
-  "libVersion": 9,
+  "libVersion": 10,
   "dateAdded": 1793294907,
-  "dateLastModified": 1794015210,
+  "dateLastModified": 1794106484,
   "content": {
     "monster": [
       {
@@ -627701,6 +627701,343 @@
           }
         ],
         "_echoId": "03b141b76edf"
+      },
+      {
+        "name": "Charioteer's Steed",
+        "source": "KNUSC",
+        "size": [
+          "L"
+        ],
+        "type": "construct",
+        "alignment": [
+          "U"
+        ],
+        "ac": [
+          {
+            "special": "12 + your proficiency bonus"
+          }
+        ],
+        "hp": {
+          "special": "5 + five times your Arcan level"
+        },
+        "speed": {
+          "walk": 40,
+          "swim": 25
+        },
+        "str": 14,
+        "dex": 12,
+        "con": 13,
+        "int": 6,
+        "wis": 12,
+        "cha": 6,
+        "conditionImmune": [
+          "exhaustion",
+          "poisoned"
+        ],
+        "senses": [
+          "darkvision 60 ft."
+        ],
+        "passive": 12,
+        "languages": [
+          "understands the languages you speak but can't speak"
+        ],
+        "cr": "—",
+        "trait": [
+          {
+            "name": "Hit Dice",
+            "entries": [
+              "Your Charioteer's Steed has a number of d8 Hit Dice equal to your Arcan level. It benefits from short and long rests normally."
+            ]
+          },
+          {
+            "name": "Sure-Footed",
+            "entries": [
+              "The Steed has advantage on saving throws made against being knocked {@condition prone}."
+            ]
+          },
+          {
+            "name": "Oniric Creature",
+            "entries": [
+              "The Steed's oniric nature means it doesn't require food, water, or sleep, and magic can't put it to sleep."
+            ]
+          }
+        ],
+        "action": [
+          {
+            "name": "Hoof",
+            "entries": [
+              "{@atk mw} your Arcan Aspect attack bonus (your proficiency bonus + your Major Ability modifier) to hit, reach 5 ft., one target. {@h}{@damage 1d6} + your Major Ability modifier piercing damage."
+            ]
+          },
+          {
+            "name": "Steed Gun",
+            "entries": [
+              "{@atk rw} your Arcan Aspect attack bonus (your proficiency bonus + your Major Ability modifier) to hit, range 30 ft., one target. {@h}{@damage 1d4} + your Major Ability modifier force damage."
+            ]
+          }
+        ],
+        "_echoId": "7ea50fcda00a",
+        "_echoToken": "24c46198e6c6.png",
+        "_echoImages": [
+          "731df9a08996.jpg"
+        ]
+      },
+      {
+        "name": "Arcane Skull",
+        "source": "KNUSC",
+        "size": [
+          "S",
+          "M"
+        ],
+        "sizeNote": "Small (3rd level) or Medium (7th level)",
+        "type": "undead",
+        "alignment": [
+          "U"
+        ],
+        "ac": [
+          {
+            "special": "12 + your proficiency bonus"
+          }
+        ],
+        "hp": {
+          "special": "Small: 5 + twice your Arcan level; Medium: 5 + three times your Arcan level"
+        },
+        "speed": {
+          "walk": 0,
+          "fly": {
+            "number": 40,
+            "condition": "(hover)"
+          },
+          "canHover": true
+        },
+        "str": 6,
+        "dex": 16,
+        "con": 12,
+        "int": 6,
+        "wis": 12,
+        "cha": 8,
+        "conditionImmune": [
+          "exhaustion",
+          "poisoned",
+          "prone"
+        ],
+        "senses": [
+          "darkvision 60 ft."
+        ],
+        "passive": 11,
+        "languages": [
+          "understands the languages you speak but can't speak"
+        ],
+        "cr": "—",
+        "trait": [
+          {
+            "name": "Oniric Creature",
+            "entries": [
+              "The Skull's oniric nature means it doesn't require food, water, or sleep."
+            ]
+          },
+          {
+            "name": "Flyby",
+            "entries": [
+              "The Skull doesn't provoke opportunity attacks when it flies out of a creature's reach."
+            ]
+          },
+          {
+            "name": "Ephemeral",
+            "entries": [
+              "If the Skull is reduced to 0 hit points, it is destroyed, crumbling into ash."
+            ]
+          },
+          {
+            "name": "Cranial Charge (Medium Only)",
+            "entries": [
+              "If the Skull moves at least 20 feet in a straight line toward a target and then hits it with a Headbutt attack on the same turn, the attack deals an extra {@damage 1d6} bludgeoning damage, and the target must succeed on a Strength saving throw against your Arcan Aspect save DC or be pushed 10 feet in a straight line away from the Skull."
+            ]
+          }
+        ],
+        "action": [
+          {
+            "name": "Headbutt",
+            "entries": [
+              "{@atk mw} your Arcan Aspect attack bonus to hit, reach 5 ft., one target. {@h}{@damage 1d6} + your Wisdom modifier bludgeoning damage."
+            ]
+          },
+          {
+            "name": "Bite (Medium Only)",
+            "entries": [
+              "{@atk mw} your Arcan Aspect attack bonus to hit, reach 5 ft., one target. {@h}{@damage 1d6} + your Wisdom modifier piercing damage."
+            ]
+          }
+        ],
+        "_echoId": "813d0fc031ea",
+        "_echoToken": "8da1419d8f4b.png",
+        "_echoImages": [
+          "312339c65b07.jpg"
+        ]
+      },
+      {
+        "name": "Oniric Hecatomb",
+        "source": "KNUSC",
+        "size": [
+          "H"
+        ],
+        "type": {
+          "type": "undead",
+          "swarmSize": "M"
+        },
+        "alignment": [
+          "U"
+        ],
+        "ac": [
+          {
+            "special": "10 + your proficiency bonus"
+          }
+        ],
+        "hp": {
+          "special": "10 + five times your Arcan level"
+        },
+        "speed": {
+          "walk": 30
+        },
+        "str": 14,
+        "dex": 12,
+        "con": 14,
+        "int": 5,
+        "wis": 12,
+        "cha": 6,
+        "resist": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "conditionImmune": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "poisoned",
+          "prone"
+        ],
+        "senses": [
+          "darkvision 60 ft."
+        ],
+        "passive": 11,
+        "languages": [
+          "understands the languages you speak but can't speak"
+        ],
+        "cr": "—",
+        "trait": [
+          {
+            "name": "Oniric Creature",
+            "entries": [
+              "The swarm's oniric nature means it doesn't require food, water, or sleep."
+            ]
+          },
+          {
+            "name": "Multitude",
+            "entries": [
+              "The swarm can occupy another creature's space and vice versa, and it can move through any opening large enough for its individual components."
+            ]
+          },
+          {
+            "name": "Crumbling Mass",
+            "entries": [
+              "While the swarm has half its hit point maximum or fewer, its attacks deal {@dice 1d6} less damage."
+            ]
+          },
+          {
+            "name": "Ephemeral",
+            "entries": [
+              "If the swarm is reduced to 0 hit points, it is destroyed, crumbling into ash."
+            ]
+          }
+        ],
+        "action": [
+          {
+            "name": "Legion's Assault",
+            "entries": [
+              "{@atk mw} your Arcan Aspect attack bonus to hit, reach 5 ft., one target. {@h}{@damage 2d6} + your Wisdom modifier slashing damage."
+            ]
+          }
+        ],
+        "_echoId": "230bb68612ea",
+        "_echoToken": "55edd732e00a.png",
+        "_echoImages": [
+          "1116d1e541f4.jpg"
+        ]
+      },
+      {
+        "name": "Bone Titan",
+        "source": "KNUSC",
+        "size": [
+          "H"
+        ],
+        "type": "undead",
+        "alignment": [
+          "U"
+        ],
+        "ac": [
+          {
+            "special": "14 + your proficiency bonus"
+          }
+        ],
+        "hp": {
+          "special": "15 + eight times your Arcan level"
+        },
+        "speed": {
+          "walk": 30
+        },
+        "str": 20,
+        "dex": 10,
+        "con": 18,
+        "int": 6,
+        "wis": 12,
+        "cha": 8,
+        "conditionImmune": [
+          "exhaustion",
+          "frightened",
+          "poisoned"
+        ],
+        "senses": [
+          "darkvision 60 ft."
+        ],
+        "passive": 11,
+        "languages": [
+          "understands the languages you speak but can't speak"
+        ],
+        "cr": "—",
+        "trait": [
+          {
+            "name": "Oniric Creature",
+            "entries": [
+              "The Titan's oniric nature means it doesn't require food, water, or sleep."
+            ]
+          },
+          {
+            "name": "Ephemeral",
+            "entries": [
+              "If the Titan is reduced to 0 hit points, it is destroyed, crumbling into ash."
+            ]
+          }
+        ],
+        "action": [
+          {
+            "name": "Sepulchral Slam",
+            "entries": [
+              "{@atk mw} your Arcan Aspect attack bonus to hit, reach 10 ft., one target. {@h}{@damage 2d10} + your Wisdom modifier bludgeoning damage. The target must succeed on a Strength saving throw against your Arcan Aspect save DC or be knocked {@condition prone}."
+            ]
+          },
+          {
+            "name": "Hurl Boulder",
+            "entries": [
+              "{@atk rw} your Arcan Aspect attack bonus to hit, range 30/120 ft., one target. {@h}{@damage 2d10} + your Wisdom modifier bludgeoning damage. The target must succeed on a Strength saving throw against your Arcan Aspect save DC or be knocked {@condition prone}."
+            ]
+          }
+        ],
+        "_echoId": "e9d8c63a95e4",
+        "_echoToken": "24371eec939c.png",
+        "_echoImages": [
+          "634bfe43949c.webp"
+        ]
       }
     ],
     "spell": [
@@ -703963,6 +704300,526 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Arcan",
+        "optionalfeatureProgression": [
+          {
+            "name": "Arcan Aspects",
+            "featureType": [
+              "AA"
+            ],
+            "progression": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4,
+              5,
+              5,
+              5,
+              6,
+              6,
+              6,
+              7,
+              7,
+              7,
+              8,
+              8,
+              8
+            ]
+          }
+        ],
+        "hd": {
+          "number": 1,
+          "faces": 8
+        },
+        "proficiency": [
+          "dex"
+        ],
+        "startingProficiencies": {
+          "armor": [
+            "light",
+            "{@item shield|phb|shields}"
+          ],
+          "weapons": [
+            "simple",
+            "martial"
+          ],
+          "tools": [
+            "{@item herbalism kit|phb}, {@item navigator's tools|phb}, or one type of {@item artisan's tools|phb} of your choice"
+          ],
+          "skills": [
+            {
+              "choose": {
+                "from": [
+                  "athletics",
+                  "acrobatics",
+                  "insight",
+                  "perception",
+                  "history",
+                  "stealth"
+                ],
+                "count": 2
+              }
+            }
+          ]
+        },
+        "subclassTitle": "Alter Major",
+        "_echoFeatures": [
+          {
+            "name": "Oniric Gaze",
+            "level": 1,
+            "entries": [
+              "Your bond with the Oniric World lets you perceive traces of power that are normally invisible.",
+              "As an action, you can activate your Oniric Gaze for up to 1 minute, gaining a special sight with a range of 30 feet. While it is active, you can do the following within its range:",
+              {
+                "type": "list",
+                "items": [
+                  "You sense the presence of magic.\r",
+                  "You can use an action to study the aura of a creature or object you can see that you perceive as magical, learning the school of magic associated with it, if any."
+                ]
+              },
+              "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. If you have no uses left, you can spend 2 Oniric Charges to use this feature."
+            ]
+          },
+          {
+            "name": "Alter Major",
+            "level": 1,
+            "entries": [
+              "Choose an Alter Major, which represents the dominant expression of your Alter Ego: the Alter of the Star, the Alter of the Chariot, the Alter of Death, the Alter of Strength, the Alter of the Devil, or the Alter of the Moon.",
+              "Your Alter Major determines your Major Ability, grants you proficiency in one additional saving throw, and grants you features at 1st, 3rd, 7th, 10th, 15th, and 18th level.",
+              {
+                "type": "inset",
+                "name": "Multiclassing",
+                "entries": [
+                  "You gain the saving throw proficiency granted by your Alter Major only if Arcan is your starting class."
+                ]
+              }
+            ],
+            "gainSubclassFeature": true
+          },
+          {
+            "name": "Arcan Aspects",
+            "level": 1,
+            "entries": [
+              "You forge a symbiotic bond with the Oniric energy of your Alter Ego. You learn to manifest two Arcan Aspects of your choice whose prerequisites you meet. When you gain a new Aspect, as shown in the Aspects Known column of the Arcan table, you can choose another one.",
+              "Whenever you gain an Arcan level, you can replace one Aspect you know with another Aspect whose prerequisites you meet. You can't replace the Aspect granted by your Alter Major.",
+              {
+                "type": "entries",
+                "name": "Manifestations",
+                "entries": [
+                  "  Each Aspect is divided into up to three manifestations, unlocked as your Arcan level increases. Manifestations are cumulative: when you unlock a new one, you keep the benefits of the previous ones.",
+                  {
+                    "type": "table",
+                    "caption": "",
+                    "colLabels": [
+                      "Arcan Level ",
+                      "Manifestation "
+                    ],
+                    "colStyles": [
+                      "col-2 text-center",
+                      "col-10"
+                    ],
+                    "rows": [
+                      [
+                        "1st level",
+                        "{@i Revealed}"
+                      ],
+                      [
+                        "9th level ({@i Arcan Inversion}) ",
+                        "{@i Inverted}"
+                      ],
+                      [
+                        "17th level ({@i True Flame})",
+                        "{@i True Form}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Aspect Spells",
+                "entries": [
+                  "  Some Aspects have a spell table. When you reach the Arcan level shown in the table of an Aspect you know, you gain the listed spells. You always know them, and they don't count against the number of spells you know or prepare from other classes.",
+                  {
+                    "type": "list",
+                    "items": [
+                      "  {@b Cost.} To cast an Aspect spell, you must spend 2 Oniric Charges per spell level. Cantrips don't cost Oniric Charges. Some Aspects let you cast certain spells differently, for example without spending Oniric Charges or with a different cost or limit: in that case, the Aspect's text applies.\r",
+                      "  {@b Rituals.} You can cast the spells marked (R) that have the ritual tag as rituals, without spending Oniric Charges.\r",
+                      "  {@b Level.} You always cast Aspect spells at their lowest level, and you can't cast one of a level higher than the one shown in the Spell Limit column of the Arcan table.\r",
+                      "  {@b Ability.} When a spell requires a spellcasting ability, you use your Major Ability. Otherwise, the spells follow the normal rules for range, components, duration, concentration, and targets, unless the Aspect says otherwise."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Strike Modifiers",
+                    "entries": [
+                      "  When you use {@i Oniric Strike}, you can apply a Strike Modifier you know by spending the additional Oniric Charges it lists. You can apply only one Modifier to each {@i Oniric Strike}; starting at 17th level, you can apply two different ones.",
+                      "  Features that trigger when you use {@i Oniric Strike} without requiring additional Oniric Charges aren't Strike Modifiers and don't count against this limit."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oniric Gauge",
+            "level": 2,
+            "entries": [
+              "Starting at 2nd level, you learn to gather Oniric Charges, energy born from your Alter Ego's desire to aid you in your battles.",
+              {
+                "type": "entries",
+                "name": "Oniric Charges",
+                "entries": [
+                  "The maximum number of Oniric Charges you can have equals your proficiency bonus plus your Major Ability modifier (minimum of 2). When combat begins, if you have fewer than 2 Oniric Charges, you rise to 2."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Gathering",
+                "entries": [
+                  "  You gather Oniric Charges through combat, in the following ways:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "  {@b Impact.} Once per turn, when you hit a hostile creature with a weapon attack, you gain 1 Oniric Charge.\r",
+                      "  {@b Retribution.} Once per turn, when you take damage from a hostile creature or succeed on a saving throw against a hostile effect, you gain 1 Oniric Charge."
+                    ]
+                  },
+                  "  If both conditions occur during the same interval, you can gain one Charge for each condition, up to your maximum. You can't exceed your maximum number of Oniric Charges or go below 0."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Dissipation",
+                "entries": [
+                  "  Your Oniric Charges dissipate when you fall {@condition unconscious}. They also dissipate after 1 minute without taking part in combat or another conflict situation."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Major Form",
+            "level": 2,
+            "entries": [
+              "Starting at 2nd level, you can temporarily manifest your Alter Ego in the material world.",
+              "As a bonus action, you activate your Major Form for up to 1 minute. While your Major Form is active:",
+              {
+                "type": "list",
+                "items": [
+                  "Your speed increases by 20 feet.\r",
+                  "You gain a bonus to saving throws equal to your Major Ability modifier (minimum of +1).\r",
+                  "At the start of each of your turns, you gain temporary hit points equal to the number of Oniric Charges you have."
+                ]
+              },
+              "Your Major Form ends early if you fall {@condition unconscious} or if you choose to end it as a bonus action.",
+              "You can activate your Major Form once per short or long rest. If you have no uses left, you can activate it by spending 3 Oniric Charges."
+            ]
+          },
+          {
+            "name": "Oniric Flame",
+            "level": 3,
+            "entries": [
+              "Starting at 3rd level, your Alter Ego's gaze takes root in the material world. You can use your {@i Oniric Gaze} as a bonus action. Additionally, when you activate your {@i Oniric Gaze}, you can spend 2 Oniric Charges to kindle the {@i Oniric Flame}: a supernatural flame that manifests in your eye (or one of them, if you have more than one), granting you greater access to your Alter Ego's perceptive powers. While the Oniric Flame is active:",
+              {
+                "type": "list",
+                "items": [
+                  "You have advantage on Wisdom ({@skill Perception}) checks.\r",
+                  "You can tell a creature hidden by an illusion apart from its apparent image, without necessarily discovering every feature of the illusion.\r",
+                  "Creatures you can see within 60 feet of you can't benefit from half cover or three-quarters cover against your attacks and against your effects that require you to see the target. Total cover still grants its normal benefits.\r",
+                  "The range of your Oniric Gaze increases to 60 feet."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Alter Major Feature",
+            "level": 3,
+            "entries": [
+              ""
+            ],
+            "gainSubclassFeature": true
+          },
+          {
+            "name": "Ability Score Improvement",
+            "level": 4,
+            "entries": [
+              "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              {
+                "type": "inset",
+                "name": "2024 Rules",
+                "entries": [
+                  "If you use the 2024 rules: at 4th level and at the other levels listed, the Ability Score Improvement feature is replaced by a feat of your choice (the Ability Score Improvement feat remains available). At 19th level, you instead gain an Epic Boon."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Extra Attack",
+            "level": 5,
+            "entries": [
+              "Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
+              "Additionally, if you use your action to take the {@action Dash} or {@action Disengage} action, you can make a single weapon attack as a bonus action."
+            ]
+          },
+          {
+            "name": "Oniric Resonance",
+            "level": 6,
+            "entries": [
+              "At 6th level, your bond with your Alter Ego grows steadier in combat.",
+              "Once per combat, when you meet the {@i Impact} or {@i Retribution} condition of your {@i Oniric Gauge}, you can gather 2 extra Oniric Charges. This extra gathering can't take you above your maximum number of Oniric Charges.",
+              "Additionally, you gain a new {@i Gathering} condition:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Urgency.} Once per turn, and only on your turn, when a hostile creature succeeds on a saving throw you forced it to make, you gain 1 Oniric Charge."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Alter Major Feature",
+            "level": 7,
+            "entries": [
+              ""
+            ],
+            "gainSubclassFeature": true
+          },
+          {
+            "name": "Arcan Inversion",
+            "level": 9,
+            "entries": [
+              "At 9th level, you learn to manifest your Arcan Aspects by inverting their principles. You can use the {@i Inverted} manifestation of the Arcan Aspects you know, if they have one."
+            ]
+          },
+          {
+            "name": "Oniric Strike",
+            "level": 9,
+            "entries": [
+              "When you take the {@action Attack} action on your turn, once per turn, you can spend 2 Oniric Charges to replace one of your attacks with an Oniric Strike, choosing one of the following manifestations depending on the weapon you're wielding:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Oniric Slash (Melee).} If you're wielding a melee weapon, you unleash a slash of energy. Each creature of your choice within your weapon's reach must make a Dexterity saving throw against your Arcan Aspect save DC.\r",
+                  "{@b Oniric Projection (Ranged).} If you're wielding a weapon with the range property, you hurl a projectile of pure energy. Each creature of your choice in a line 5 feet wide and as long as the weapon's normal range must make a Dexterity saving throw against your Arcan Aspect save DC."
+                ]
+              },
+              "A creature takes {@damage 2d8} force damage on a failed save, or half as much damage on a successful one."
+            ]
+          },
+          {
+            "name": "Alter Major Feature",
+            "level": 10,
+            "entries": [
+              ""
+            ],
+            "gainSubclassFeature": true
+          },
+          {
+            "name": "Dreamwalker",
+            "level": 12,
+            "entries": [
+              "At 12th level, your bond with the Oniric World lets you cross the threshold between the plane of dreams and material reality.",
+              "You can cast the {@spell dream} spell once without expending a spell slot and without material components, using your Major Ability as your spellcasting ability for it. When you cast the spell this way, the following changes apply:",
+              {
+                "type": "list",
+                "items": [
+                  "You are always the messenger.\r",
+                  "While you are in the target's dream, you take the form and appearance of your Alter Ego.\r",
+                  "If the target is willing, when the spell ends (or when you choose to end it), you can teleport yourself and a number of willing allies within 30 feet of you, up to your proficiency bonus, to an unoccupied, safe space within 300 feet of the target that it has access to. If there is no such space within range, the teleportation fails and the spell ends normally."
+                ]
+              },
+              "Once you use this feature, you can't use it again until you finish a long rest."
+            ]
+          },
+          {
+            "name": "Overclock",
+            "level": 14,
+            "entries": [
+              "At 14th level, by pushing your Oniric capacity to its limit, you can momentarily bend reality to the power of your dreams.",
+              "Once per short or long rest, as a bonus action while your Oniric Charges are at their maximum, you can enter a state of {@b {@i Oniric Hubris}} until the end of your next turn. While in this state, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Nullified Cost.} You can activate the features and cast the spells granted by the Arcan Aspects you know without spending Oniric Charges.\r",
+                  "{@b Inviolable Form.} You have resistance to all damage except psychic damage.\r",
+                  "{@b Oniric Overload.} Your weapon attacks and class features deal an extra {@damage 1d8} psychic damage."
+                ]
+              },
+              "At the end of your next turn, the {@i Oniric Hubris} ends and the energy backlash ravages your body: you take {@damage 4d8} necrotic damage. This damage can't be reduced, prevented, or mitigated in any way (it ignores resistance and immunity)."
+            ]
+          },
+          {
+            "name": "Aspect Mastery",
+            "level": 14,
+            "entries": [
+              "At 14th level, you learn to use your Alter Ego's manifestations more efficiently.",
+              "Once on each of your turns, when you activate an Arcan Aspect feature that costs at least 1 Oniric Charge, you reduce its cost by 1 Charge, to a minimum of 1.",
+              "This benefit also applies to spells granted by Aspects, as long as you cast them on your turn. It doesn't apply to the costs of {@i Major Form}, {@i Oniric Flame}, or other class features that don't come from an Aspect."
+            ]
+          },
+          {
+            "name": "Alter Major Feature",
+            "level": 15,
+            "entries": [
+              ""
+            ],
+            "gainSubclassFeature": true
+          },
+          {
+            "name": "True Flame",
+            "level": 17,
+            "entries": [
+              "At 17th level, your Oniric Flame reveals what lies beyond ordinary perception. While your Oniric Flame is active, the range of your {@i Oniric Gaze} becomes 120 feet, and you gain {@sense truesight} within its range.",
+              "Additionally, you can use the {@i True Form} manifestation of the Arcan Aspects you know, if they have one."
+            ]
+          },
+          {
+            "name": "Alter Major Feature",
+            "level": 18,
+            "entries": [
+              ""
+            ],
+            "gainSubclassFeature": true
+          },
+          {
+            "name": "Oniric Convergence",
+            "level": 20,
+            "entries": [
+              "At 20th level, to you reality is a dream, and the Oniric World is reality. Your {@i Major Form} no longer has a duration, and your Oniric Charges don't dissipate unless you fall {@condition unconscious}."
+            ]
+          }
+        ],
+        "source": "KNUSC",
+        "startingEquipment": {
+          "additionalFromBackground": true,
+          "default": [
+            "(a) a {@filter martial weapon|items|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapons|items|type=martial weapon}",
+            "(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) two {@item handaxe|phb|handaxes}",
+            "(a) an {@item explorer's pack|phb} or (b) a {@item dungeoneer's pack|phb}"
+          ],
+          "goldAlternative": "{@dice 6d4 × 8|6d4 × 8|Starting Gold}"
+        },
+        "multiclassing": {
+          "requirements": {
+            "dex": 13
+          },
+          "proficienciesGained": {
+            "armor": [
+              "light"
+            ],
+            "weapons": [
+              "martial"
+            ]
+          }
+        },
+        "classTableGroups": [
+          {
+            "colLabels": [
+              "Aspects Known",
+              "Spell Limit"
+            ],
+            "rows": [
+              [
+                "2",
+                "--"
+              ],
+              [
+                "2",
+                "1st"
+              ],
+              [
+                "2",
+                "1st"
+              ],
+              [
+                "2",
+                "1st"
+              ],
+              [
+                "3",
+                "2nd"
+              ],
+              [
+                "3",
+                "2nd"
+              ],
+              [
+                "4",
+                "2nd"
+              ],
+              [
+                "4",
+                "2nd"
+              ],
+              [
+                "5",
+                "3rd"
+              ],
+              [
+                "5",
+                "3rd"
+              ],
+              [
+                "5",
+                "3rd"
+              ],
+              [
+                "6",
+                "3rd"
+              ],
+              [
+                "6",
+                "4th"
+              ],
+              [
+                "6",
+                "4th"
+              ],
+              [
+                "7",
+                "4th"
+              ],
+              [
+                "7",
+                "4th"
+              ],
+              [
+                "7",
+                "5th"
+              ],
+              [
+                "8",
+                "5th"
+              ],
+              [
+                "8",
+                "5th"
+              ],
+              [
+                "8",
+                "5th"
+              ]
+            ]
+          }
+        ],
+        "_echoFluff": [
+          {
+            "type": "entries",
+            "name": "Introduction",
+            "entries": [
+              "Every person carries an {@i Alter Ego}: a reflection that lives in the Oniric World, fights in their place, and bears their pain. An {@b Arcan} is someone who has forged a bond with their own Alter, and draws on its power in the material world.",
+              "In battle, the Arcan gathers {@b Oniric Charges} by striking and being struck, and spends them to manifest {@b Arcan Aspects}: powers inspired by the many faces of the Major Arcana of the oniric world, which are revealed, inverted, and finally show their {@i True Form}. Their {@b Alter Major} defines their dominant expression and which Major Arcanum is bound to their soul: from the Alter of the Star, who wields a cannon of light, to the Alter of the Devil, who brandishes a golden blade and subjugates everyone with dark forces.",
+              "The Arcan is a versatile combatant whose intensity grows as the fight goes on, until they temporarily transform into their own Alter Ego."
+            ]
+          }
+        ],
+        "_echoId": "694284d52694"
       }
     ],
     "subclass": [
@@ -764917,6 +765774,930 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Alter of the Star",
+        "shortName": "Star",
+        "source": "KNUSC",
+        "className": "Arcan",
+        "classSource": "KNUSC",
+        "_echoFeatures": [
+          {
+            "name": "Arcane Star",
+            "level": 1,
+            "entries": [
+              "When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of the Star, the symbol of the protection and love the oniric stars hold for you. You gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Sole Effigy.} If Arcan is your only class when you gain this feature, you gain proficiency in Wisdom saving throws.",
+                  "{@b Major Ability.} Your Arcan Major Ability is Dexterity."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Primary Aspect",
+            "level": 1,
+            "entries": [
+              "When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature XVII – The Star|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+            ]
+          },
+          {
+            "name": "Star Cannon",
+            "level": 3,
+            "entries": [
+              "At 3rd level, your Star Alter Ego offers you its weapon to grant you further combat strength. As a bonus action, you can spend 3 Oniric Charges to transform a melee weapon you are wielding into the {@i Star Cannon}. You are proficient with this weapon, and you use your Major Ability for its attack and damage rolls. The Star Cannon has the following statistics:",
+              {
+                "type": "inset",
+                "name": "Star Cannon",
+                "entries": [
+                  "{@i Martial ranged weapon}",
+                  {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                      {
+                        "type": "item",
+                        "name": "Damage:",
+                        "entry": "{@damage 1d10} radiant"
+                      },
+                      {
+                        "type": "item",
+                        "name": "Range:",
+                        "entry": "120/360 ft."
+                      },
+                      {
+                        "type": "item",
+                        "name": "Properties:",
+                        "entry": "heavy, two-handed, special"
+                      }
+                    ]
+                  },
+                  "{@b Special.} While you are in your {@i Major Form}, you ignore this weapon's heavy and two-handed properties. While you are wielding this weapon, you benefit from half cover."
+                ]
+              },
+              "When your {@i Major Form} ends, or if you summon the Star Cannon outside of that transformation, it persists for 1 minute, or until you transform another weapon into it, or until you return the Star Cannon to its original form as a bonus action."
+            ]
+          },
+          {
+            "name": "Too Far Away",
+            "level": 3,
+            "entries": [
+              "At 3rd level, you become as unreachable as the stars in the sky. When you hit a creature with a weapon attack roll, that creature can't make opportunity attacks against you until the start of your next turn."
+            ]
+          },
+          {
+            "name": "Binary Star",
+            "level": 7,
+            "entries": [
+              "Starting at 7th level, you are an unstoppable force in combat. While you are wielding the {@i Star Cannon}, you ignore its heavy and two-handed properties, even when you aren't in your {@i Major Form}.",
+              "Additionally, while you are wielding the Star Cannon and another weapon with the versatile or finesse property, you can make the attack with the other weapon as a bonus action, even if neither weapon is light; you gain a +1 bonus to AC; and you use your Major Ability modifier for the damage rolls of both weapons."
+            ]
+          },
+          {
+            "name": "Arcane Hound",
+            "level": 7,
+            "entries": [
+              "Starting at 7th level, no one marked by you can escape you. When you cast {@spell hunter's mark}, you can spend 1 additional Oniric Charge. If you do, the spell doesn't require concentration. This benefit applies to a single casting of the spell.",
+              "Additionally, when you enter your {@i Major Form}, you can transform one of your weapons into the {@i Star Cannon} at no cost."
+            ]
+          },
+          {
+            "name": "Star Gatling",
+            "level": 10,
+            "entries": [
+              "At 10th level, you manifest the most powerful version of your arcane cannon. Once on your turn, you can choose one of the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Meteor.} In place of one of your attacks, you can spend any number of Oniric Charges (minimum 1) to make a ranged attack roll with your {@i Star Cannon}. On a hit, the creature takes an extra {@damage 1d6} radiant damage for each Charge spent. This can't be combined with {@i Oniric Strike}.",
+                  "{@b Star Shower.} In place of your {@action Attack} action, you can spend 6 Oniric Charges. If you do, each creature in a 30-foot cone in front of your {@i Star Cannon} must make a Dexterity saving throw against your Arcan Aspect save DC, taking {@damage 4d12} radiant damage on a failed save, or half as much damage on a successful one. This can't be combined with {@i Oniric Strike}."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Stellar Cluster",
+            "level": 10,
+            "entries": [
+              "At 10th level, you and any number of allied creatures of your choice within 60 feet of you benefit from {@i Hidden Star} ({@optfeature XVII – The Star|KNUSC}). If a creature tries, without your consent, to use a divination spell to reveal your face or location, or those of a creature protected by this feature, it must succeed on a Constitution saving throw against your Arcan Aspect save DC. On a failed save, it is {@condition blinded} until the end of its next turn and the attempt fails."
+            ]
+          },
+          {
+            "name": "Aegis of Will",
+            "level": 15,
+            "entries": [
+              "Starting at 15th level, your will is one with your Alter. When you take damage from a hostile creature, or from a magical effect it controls, you can use your reaction to gain one of the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Polaris.} You automatically succeed on the saving throw to maintain concentration on a spell.",
+                  "{@b Invigorating Light.} After taking the damage, you gain temporary hit points equal to the damage taken."
+                ]
+              },
+              "You can use this feature a number of times equal to your Dexterity modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+            ]
+          },
+          {
+            "name": "Major Arcanum: The Star",
+            "level": 18,
+            "entries": [
+              "At 18th level, you and your Alter are a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+              "While the transformation is active, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "The transformation counts as your {@i Major Form} for the benefits of your features and Aspects.",
+                  "Any creatures of your choice within 30 feet of you have advantage on Wisdom saving throws and death saving throws, and regain the maximum number of hit points possible from any healing.",
+                  "You can manifest two Star Cannons at the same time, and you can switch your weapons between this form and their original form at will (no action required)."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "890d7f73dd75"
+      },
+      {
+        "name": "Alter of the Chariot",
+        "shortName": "Chariot",
+        "source": "KNUSC",
+        "className": "Arcan",
+        "classSource": "KNUSC",
+        "_echoFeatures": [
+          {
+            "name": "Perpetual Motion",
+            "level": 1,
+            "entries": [
+              "{@i The Alter Major of the Chariot represents determination, ceaseless motion, and the will to overcome any obstacle. Its power manifests through an oniric steed, a construct that fights at the Arcan's side and gradually becomes an extension of their will.}",
+              "When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of the Chariot, the symbol of the tenacity to find new goals. You gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Major Ability.} Your Arcan Major Ability is Constitution.",
+                  "{@b Saving Throw Proficiency.} If Arcan is your only class when you gain this feature, you gain proficiency in Strength saving throws."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Primary Aspect",
+            "level": 1,
+            "entries": [
+              "When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature VII – The Chariot|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+            ]
+          },
+          {
+            "name": "Charioteer's Steed",
+            "level": 3,
+            "entries": [
+              "At 3rd level, your Alter Ego offers you its faithful steed to grant you further combat strength. You gain an oniric steed, which uses the {@creature Charioteer's Steed|KNUSC} stat block.",
+              "Your Charioteer's Steed uses your proficiency bonus (PB) and your Major Ability to determine its saving throw DCs and its attack bonus.",
+              {
+                "type": "entries",
+                "name": "Combat",
+                "entries": [
+                  "In combat, your Steed acts during your turn. It can move and use its reaction on its own, but the only action it takes is the {@action Dodge} action, unless you take a bonus action to command it to take an action in its stat block or some other action.",
+                  "Additionally, whenever you take the {@action Attack} action on your turn, you can forgo one of your attacks to command your Steed to make one attack from its stat block.",
+                  "If you are {@condition incapacitated}, your Steed can act on its own and defends you and itself to the best of its ability."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Near Death",
+                "entries": [
+                  "If your Steed is reduced to 0 hit points, it makes death saving throws, just like a player character. While the Steed is at 0 hit points, you can use an action to touch it and spend 3 Oniric Charges to stabilize it automatically."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Summoning a New Steed",
+                "entries": [
+                  "If your Steed dies, its body turns to ash and then vanishes. You can spend 1 hour performing a ritual, which you can do during a short or long rest, to bring the Steed back to life; it appears in an unoccupied space within 5 feet of you."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oniric Rider",
+            "level": 3,
+            "entries": [
+              "At 3rd level, your Alter Ego grants you the knowledge needed to fight in the saddle. You gain the {@optfeature Mounted Combatant|KNUSC} fighting style. If you already have this fighting style when you gain this feature, you can instead gain a second fighting style from the Fighter class, as long as you meet its prerequisites; you are considered a Fighter for the purpose of its class prerequisites."
+            ]
+          },
+          {
+            "name": "Iron Wheels",
+            "level": 7,
+            "entries": [
+              "Starting at 7th level, your mount gains the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Multiattack.} When it takes the {@action Attack} action, the mount can make two attacks instead of one, choosing between {@i Hoof} and {@i Steed Gun}. When you forgo one of your attacks to command the mount to attack, it still makes a single attack.",
+                  "{@b Oniric Climb.} It can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additionally, you can't fall from it while it climbs this way."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rank Breaker",
+            "level": 7,
+            "entries": [
+              "At 7th level, when you use the {@i Charge} or {@i Run Down} feature of the {@optfeature VII – The Chariot|KNUSC} Aspect, you can spend 2 additional Oniric Charges. If you do, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "Creatures that fail the saving throw can't take reactions until the start of your next turn.",
+                  "Allied creatures whose space you move through aren't affected by the feature."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "War Chariot",
+            "level": 10,
+            "entries": [
+              "At 10th level, once on your turn while you are mounted, you can empower one use of the {@i Strike Modifier — Rush} in one of the following ways:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Breakthrough.} You can spend 2 additional Oniric Charges. The {@i Oniric Strike} deals extra damage equal to your Arcan level. Additionally, your mount has advantage on its next attack roll.",
+                  "{@b Nitro.} You can spend 2 additional Oniric Charges. Before the feature resolves, you can move up to 30 feet instead of 15 feet. After the feature, you or your mount can make one weapon attack against a creature within your reach."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Conqueror's Shield",
+            "level": 10,
+            "entries": [
+              "At 10th level, while you are riding your {@i Charioteer's Steed}, you and your mount have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+              "Additionally, your mount gains the benefits of your {@i Major Form} while it is active, and it gains the following reaction:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Kick.} When a creature within 5 feet of the Steed hits the Steed or one of its allies with a melee attack, the Steed can make a {@i Hoof} attack against that creature."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Will of the Chariot",
+            "level": 15,
+            "entries": [
+              "Starting at 15th level, your will and your mount's become inseparable. When your mount takes damage from a hostile creature or from a magical effect it controls, you can use your reaction to grant one of the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Stainless Tenacity.} The mount gains resistance to the damage type it took until the end of your next turn. This resistance also applies to the damage that triggered the reaction, halving it.",
+                  "{@b Countercharge.} The mount can move up to half its speed without provoking opportunity attacks. If it ends this movement within 5 feet of a hostile creature, it can make a {@i Hoof} attack and use the {@i Charge} feature of the {@optfeature VII – The Chariot|KNUSC} Aspect without spending Oniric Charges, as long as it meets the movement requirement."
+                ]
+              },
+              "You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+            ]
+          },
+          {
+            "name": "Oniric Strike — Shared Charge",
+            "level": 15,
+            "entries": [
+              "Starting at 15th level, the bond between you and your mount lets you channel your power through its attacks. When you take the {@action Attack} action and forgo one of your attacks to command your mount to attack, you can spend 2 Oniric Charges to replace the mount's attack with an {@i Oniric Strike}.",
+              "When you use this ability:",
+              {
+                "type": "list",
+                "items": [
+                  "The {@i Oniric Strike} originates from the space occupied by the mount.",
+                  "For {@i Oniric Slash}, the mount is the origin of the effect.",
+                  "For {@i Oniric Projection}, the mount is the origin of the line.",
+                  "You use your Arcan Aspect save DC.",
+                  "You can apply a {@i Strike Modifier} normally, following its costs and limitations."
+                ]
+              },
+              "The {@i Oniric Strike} replaces one of the mount's attacks and doesn't require an attack roll from it."
+            ]
+          },
+          {
+            "name": "Major Arcanum: The Chariot",
+            "level": 18,
+            "entries": [
+              "At 18th level, you and your Alter become a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+              "While the transformation is active, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Major Form.} The transformation counts as your {@i Major Form} for the benefits of your features and Aspects.",
+                  "{@b True Form.} The True Form of the {@optfeature VII – The Chariot|KNUSC} Aspect is always active.",
+                  "{@b Unstoppable Stun.} Once per turn, when you use {@i Charge} or {@i Run Down}, you can cause one creature that fails the saving throw to also be {@condition stunned} until the start of your next turn.",
+                  "{@b Unstoppable Charge.} You and your mount can move through the spaces of hostile creatures without spending extra movement. Each creature whose space you move through must succeed on a Strength saving throw against your Arcan Aspect save DC or be knocked {@condition prone}. A creature can be targeted by this effect only once per turn."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "c1706cb1d81a"
+      },
+      {
+        "name": "Alter of Death",
+        "shortName": "Death",
+        "source": "KNUSC",
+        "className": "Arcan",
+        "classSource": "KNUSC",
+        "_echoFeatures": [
+          {
+            "name": "Circle of Life",
+            "level": 1,
+            "entries": [
+              "When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of Death, the symbol of the reaping darkness that, in dreams, gives new life to what has already passed away. You gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Major Ability.} Your Arcan Major Ability is Wisdom.",
+                  "{@b Saving Throw Proficiency.} If Arcan is your only class when you gain this feature, you gain proficiency in Charisma saving throws."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Primary Aspect",
+            "level": 1,
+            "entries": [
+              "When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature XIII – Death|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+            ]
+          },
+          {
+            "name": "Arcane Skull",
+            "level": 3,
+            "entries": [
+              "At 3rd level, your Alter Ego grants you the power to give life to death. You gain a servant, which uses the {@creature Arcane Skull|KNUSC} stat block.",
+              "Your Arcane Skull uses your proficiency bonus (PB) and your Major Ability to determine its saving throw DCs and its attack bonus.",
+              {
+                "type": "entries",
+                "name": "Combat",
+                "entries": [
+                  "In combat, your Skull acts during your turn. It can move and use its reaction on its own, but the only action it takes is the {@action Dodge} action, unless you take a bonus action to command it to take an action in its stat block or some other action.",
+                  "If you are {@condition incapacitated}, your Skull can act on its own and defends you and itself to the best of its ability."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Ephemeral",
+                "entries": [
+                  "If your Skull is reduced to 0 hit points, it is destroyed, crumbling into ash."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Summoning a New Skull",
+                "entries": [
+                  "If your Skull is destroyed, you can summon a new one by casting the {@spell find familiar} spell."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oniric Familiar",
+            "level": 3,
+            "entries": [
+              "At 3rd level, you learn the {@spell find familiar} spell. When you cast this spell, the summoned creature is always your {@creature Arcane Skull|KNUSC}."
+            ]
+          },
+          {
+            "name": "Grim Watcher",
+            "level": 7,
+            "entries": [
+              "Starting at 7th level, just as Death watches over everything, you gain more eyes with which to watch your enemies. When you cast {@spell find familiar}, you can choose to summon one Medium Arcane Skull or two Small Arcane Skulls (each using the statistics for its size).",
+              "While you control two Arcane Skulls, they count as a single familiar for the spell's effects, and you can command both with the same bonus action. You can see through the senses of only one Skull at a time, and when you recall or dismiss them, you can recall or dismiss them one at a time or both together."
+            ]
+          },
+          {
+            "name": "Militia Horribilis",
+            "level": 7,
+            "entries": [
+              "Starting at 7th level, your connection to the oniric underworld lets you rouse its restless spirits. As an action, you can spend 5 Oniric Charges and sacrifice all your Arcane Skulls to summon a swarm of skeletons centered on you, which uses the {@creature Oniric Hecatomb|KNUSC} stat block.",
+              "Your Oniric Hecatomb uses your proficiency bonus (PB) and your Major Ability to determine its saving throw DCs and its attack bonus.",
+              {
+                "type": "entries",
+                "name": "Combat",
+                "entries": [
+                  "In combat, the swarm acts during your turn. It can move and use its reaction on its own, but the only action it takes is the {@action Dodge} action, unless you take a bonus action to command it to take an action in its stat block or some other action.",
+                  "If you are {@condition incapacitated}, your swarm can act on its own and defends you and itself to the best of its ability."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Ephemeral",
+                "entries": [
+                  "The swarm is destroyed, crumbling into ash, 10 minutes after it is summoned, when it drops to 0 hit points, when you dismiss it as a bonus action, or when you summon a new swarm."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Undying Swarm",
+            "level": 10,
+            "entries": [
+              "At 10th level, you gain the ability to sever your oniric army from death itself. As a bonus action, you can spend 2 Oniric Charges to have an {@creature Arcane Skull|KNUSC} or {@creature Oniric Hecatomb|KNUSC} you control regain {@dice 1d8} + your Major Ability modifier hit points.",
+              "Additionally, while you are in your swarm's space, you have total cover against ranged attack rolls."
+            ]
+          },
+          {
+            "name": "Bone Titan",
+            "level": 15,
+            "entries": [
+              "At 15th level, you gain access to the most powerful form of oniric necromancy, gaining the ability to summon a {@creature Bone Titan|KNUSC}. As part of the same bonus action you use for your {@i Overclock} feature, you can transform your Arcane Skulls or your Oniric Hecatomb into a Bone Titan, which occupies the space of the sacrificed minion (if you controlled two Arcane Skulls, the space of one of them of your choice, or an unoccupied space within 5 feet of it).",
+              "Your Bone Titan uses your proficiency bonus (PB) and your Major Ability to determine its saving throw DCs and its attack bonus.",
+              {
+                "type": "entries",
+                "name": "Combat",
+                "entries": [
+                  "In combat, the titan acts during your turn. It can move and use its reaction on its own, but the only action it takes is the {@action Dodge} action, unless you take a bonus action to command it to take an action in its stat block or some other action. The titan is also a valid target for your {@i Undying Swarm} feature.",
+                  "If you are {@condition incapacitated}, your titan can act on its own and defends you and itself to the best of its ability."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Ephemeral",
+                "entries": [
+                  "The titan is destroyed, crumbling into ash, 1 minute after it is summoned, when it drops to 0 hit points, when you dismiss it as a bonus action, or when you summon a new titan."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "One with Death",
+            "level": 15,
+            "entries": [
+              "At 15th level, you become almost one with your oniric servants. You gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Shared Reaping.} When you use {@i Oniric Strike}, if you control an Arcane Skull, an Oniric Hecatomb, or a Bone Titan within 30 feet of you, you can have the feature originate from that creature's space instead of yours. For {@i Oniric Slash}, the creature is the origin of the effect; for {@i Oniric Projection}, the creature is the origin of the line. You still use your Arcan Aspect save DC, and you can apply a {@i Strike Modifier} normally.",
+                  "{@b Skeletal Legacy.} When an Arcane Skull, an Oniric Hecatomb, or a Bone Titan within 30 feet of you drops to 0 hit points because of damage from an attack, spell, or effect of a hostile creature, you gain 3 Oniric Charges.",
+                  "{@b Bound by Form.} The Arcane Skulls, Oniric Hecatombs, and Bone Titans you control persist for their normal duration or for as long as you are in your {@i Major Form}, whichever is longer."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Major Arcanum: Death",
+            "level": 18,
+            "entries": [
+              "Starting at 18th level, you and your Alter become a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+              "While the transformation is active, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Major Form.} The transformation counts as your {@i Major Form} for the purposes of your features and Aspects.",
+                  "{@b True Form.} The True Form of the {@optfeature XIII – Death|KNUSC} Aspect is always active.",
+                  "{@b Perpetual Reaping.} Once per turn, when you or an Arcane Skull, Oniric Hecatomb, or Bone Titan you control reduces a creature to 0 hit points, you regain 1 Oniric Charge, and the creature you control regains hit points equal to your Wisdom modifier + your proficiency bonus.",
+                  "{@b Risen Titan.} If your Bone Titan drops to 0 hit points during the transformation, you can spend 6 Oniric Charges to restore it to half its hit point maximum (only once per transformation)."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "41dc41d4c1a7"
+      },
+      {
+        "name": "Alter of Strength",
+        "shortName": "Strength",
+        "source": "KNUSC",
+        "className": "Arcan",
+        "classSource": "KNUSC",
+        "_echoFeatures": [
+          {
+            "name": "Will Made Flesh",
+            "level": 1,
+            "entries": [
+              "When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of Strength, the symbol of will made matter. You gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Major Ability.} Your Arcan Major Ability is Strength.",
+                  "{@b Saving Throw Proficiency.} If Arcan is your only class when you gain this feature, you gain proficiency in Strength saving throws."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Primary Aspect",
+            "level": 1,
+            "entries": [
+              "When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature VIII – Strength|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+            ]
+          },
+          {
+            "name": "Ogre Arms",
+            "level": 3,
+            "entries": [
+              "At 3rd level, your Alter literally lends you its hands. As a bonus action, you can spend 3 Oniric Charges to transform your arms into gigantic mechanical limbs. While your arms are in this form, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "Your unarmed strikes with your hands deal {@damage 2d6} bludgeoning damage. They count as melee weapon attacks for the purposes of the {@i Impact} condition and the {@i Oniric Strike} feature.",
+                  "You gain a +2 bonus to AC.",
+                  "You count as two sizes larger when grappling or restraining a creature, when resisting being grappled or restrained, and when escaping these conditions.",
+                  "You can't wield weapons or shields of Medium size or smaller. When you take the {@action Use an Object} action, you must succeed on a Dexterity ({@skill Sleight of Hand}) check with a DC based on the object's size, as shown in the table below."
+                ]
+              },
+              {
+                "type": "table",
+                "colLabels": [
+                  "Object Size",
+                  "DC"
+                ],
+                "colStyles": [
+                  "col-6 text-center",
+                  "col-6 text-center"
+                ],
+                "rows": [
+                  [
+                    "Tiny",
+                    "Impossible"
+                  ],
+                  [
+                    "Small",
+                    "19"
+                  ],
+                  [
+                    "Medium",
+                    "15"
+                  ],
+                  [
+                    "Large",
+                    "10"
+                  ],
+                  [
+                    "Huge",
+                    "5"
+                  ],
+                  [
+                    "Gargantuan",
+                    "No check"
+                  ]
+                ]
+              },
+              "When your {@i Major Form} ends, or if you transform your arms into Ogre Arms outside of that transformation, they persist for 1 minute or until you return them to their original form as a bonus action."
+            ]
+          },
+          {
+            "name": "Ogre Shotgun",
+            "level": 3,
+            "entries": [
+              "At 3rd level, your Ogre Arms are fearsome even at close range. While your arms are transformed into {@i Ogre Arms}, when you take the {@action Attack} action, you can spend 2 Oniric Charges to replace one of your attacks with a blast in a 10-foot cone originating from you. Each creature in the cone must make a Dexterity saving throw against your Arcan Aspect save DC. On a failed save, a creature takes {@damage 2d6} force damage and is pushed 10 feet away from you; on a successful save, it takes half as much damage and isn't pushed."
+            ]
+          },
+          {
+            "name": "Mechanical Fury",
+            "level": 7,
+            "entries": [
+              "At 7th level, while your Ogre Arms persist, no one wants to be the target of your wrath. As a bonus action, you can spend 3 Oniric Charges to make two unarmed strikes with your Ogre Arms. Additionally, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+            ]
+          },
+          {
+            "name": "Combat Might",
+            "level": 7,
+            "entries": [
+              "At 7th level, your body is a banner of power. You have advantage on Strength checks and Strength saving throws."
+            ]
+          },
+          {
+            "name": "Ogre Pounce",
+            "level": 10,
+            "entries": [
+              "At 10th level, your fighting instincts make you a fearsome war machine. When combat begins, you can forgo the 2 starting Oniric Charges of your {@i Oniric Gauge} feature to transform your arms into {@i Ogre Arms} (no action required). Additionally, you can take the {@action Dash} action as a bonus action if you move toward a hostile creature."
+            ]
+          },
+          {
+            "name": "Strength Pile Driver",
+            "level": 10,
+            "entries": [
+              "At 10th level, being grappled by you is a death sentence. Your Ogre Arms become four arms, and your reach with them becomes 10 feet. You can grapple up to four creatures of your size or smaller, using one arm for each; a creature you grapple with two arms is also {@condition restrained}.",
+              "Additionally, when you take the {@action Attack} action against a creature you are grappling, you can spend 2 Oniric Charges to make one additional unarmed strike with your Ogre Arms against that creature, up to a maximum of two additional strikes per turn."
+            ]
+          },
+          {
+            "name": "Will of Steel",
+            "level": 15,
+            "entries": [
+              "Starting at 15th level, your will and your Alter's are one. When you or an allied creature within 10 feet of you is hit by an attack, you can use your reaction to gain one of the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Fist Shield.} You interpose your arms: the damage of that attack is reduced by {@dice 2d12} + your Major Ability modifier.",
+                  "{@b Retaliatory Grab.} If the attacker is within your reach, you automatically grapple it, with no saving throw or check allowed, as long as you have a free arm and the creature is your size or smaller."
+                ]
+              },
+              "You can use this feature a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses when you finish a long rest. If you have no uses left, you can use this feature by spending 3 Oniric Charges."
+            ]
+          },
+          {
+            "name": "Oniric Strike — Colossus Throw",
+            "level": 15,
+            "entries": [
+              "Starting at 15th level, you can turn your prisoners, or your allies, into projectiles. When you use {@i Oniric Strike} while you are grappling or restraining a creature smaller than you with your {@i Ogre Arms}, you can hurl it toward a point you can see within 30 feet of you. The creature lands in the unoccupied space nearest to that point and stops being grappled and restrained.",
+              "When you use this ability:",
+              {
+                "type": "list",
+                "items": [
+                  "The {@i Oniric Strike} originates from the landing point, as an {@i Oniric Slash} that affects creatures of your choice within 10 feet of that point.",
+                  "If the hurled creature is hostile, it automatically fails the saving throw, takes the feature's damage, and falls {@condition prone}.",
+                  "If the hurled creature is a willing ally, it takes no damage, lands on its feet, and can use its reaction to make one weapon attack against a creature within its reach.",
+                  "You use your Arcan Aspect save DC, and you can apply a {@i Strike Modifier} normally, following its costs and limitations."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Major Arcanum: Strength",
+            "level": 18,
+            "entries": [
+              "At 18th level, you and your Alter become a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+              "While the transformation is active, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Major Form.} The transformation counts as your {@i Major Form} for the purposes of your features and Aspects.",
+                  "{@b True Form.} The True Form of the {@optfeature VIII – Strength|KNUSC} Aspect is always active.",
+                  "{@b Arms of the Colossus.} Your arms become {@i Ogre Arms} without spending Oniric Charges. Your unarmed strikes with your Ogre Arms deal {@damage 3d6} magical bludgeoning damage.",
+                  "{@b Strength in Sacrifice.} Once during the transformation, when an allied creature you can see within 60 feet of you would drop to 0 hit points or fewer because of damage from an attack, a spell with an attack roll, or an effect of a hostile creature, you can appear in an unoccupied space next to it (no action required). If you do, you take the damage instead of that creature, as if you were the target."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "a18e02231026"
+      },
+      {
+        "name": "Alter of the Devil",
+        "shortName": "Devil",
+        "source": "KNUSC",
+        "className": "Arcan",
+        "classSource": "KNUSC",
+        "_echoFeatures": [
+          {
+            "name": "Golden Pact",
+            "level": 1,
+            "entries": [
+              "When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of the Devil, a golden sovereign who reigns over the Other World and demands a price for every favor granted. You gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Major Ability.} Your Arcan Major Ability is Charisma.",
+                  "{@b Saving Throw Proficiency.} If Arcan is your only class when you gain this feature, you gain proficiency in Constitution saving throws."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Primary Aspect",
+            "level": 1,
+            "entries": [
+              "When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature XV – The Devil|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+            ]
+          },
+          {
+            "name": "King Saw",
+            "level": 3,
+            "entries": [
+              "At 3rd level, your Alter entrusts you with its royal blade. As a bonus action, you can spend 3 Oniric Charges to transform a melee weapon you are wielding into the {@i King Saw}. You are proficient with this weapon, and you use your Major Ability for its attack and damage rolls. The King Saw has the following statistics:",
+              {
+                "type": "inset",
+                "name": "King Saw",
+                "entries": [
+                  "{@i Martial melee weapon}",
+                  {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                      {
+                        "type": "item",
+                        "name": "Damage:",
+                        "entry": "{@damage 1d12} slashing"
+                      },
+                      {
+                        "type": "item",
+                        "name": "Reach:",
+                        "entry": "10 ft."
+                      },
+                      {
+                        "type": "item",
+                        "name": "Properties:",
+                        "entry": "heavy, two-handed, reach, special"
+                      }
+                    ]
+                  },
+                  "{@b Special.} Once per turn, when you hit a creature with the King Saw, you can make the blade blaze with golden flames: that attack's damage becomes fire damage."
+                ]
+              },
+              "When your {@i Major Form} ends, or if you summon the King Saw outside of that transformation, it persists for 1 minute, or until you transform another weapon into it, or until you return the King Saw to the weapon's original form as a bonus action."
+            ]
+          },
+          {
+            "name": "Hell on Earth",
+            "level": 3,
+            "entries": [
+              "At 3rd level, your King Saw is a glimpse into the underworld. When you deal fire damage to a creature with your {@i King Saw}, you can spend 2 Oniric Charges to apply one of the following effects:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Hampering Burn.} The creature must succeed on a Constitution saving throw against your Arcan Aspect save DC or have its speed halved until the end of its next turn.",
+                  "{@b Hellfire.} Until the start of your next turn, whenever the creature takes fire damage, it takes an extra {@damage 1d4} fire damage."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bloodlust",
+            "level": 7,
+            "entries": [
+              "At 7th level, your blade always returns to its sovereign. When you take the {@action Attack} action while wielding the {@i King Saw}, you can spend 2 Oniric Charges to replace one of your attacks with a throw of the blade, with a range of 30/60 feet. If you hit, you can make a second attack roll against a different creature within 10 feet of the first target. After the attacks, the King Saw returns to your hand."
+            ]
+          },
+          {
+            "name": "Golden Skin",
+            "level": 7,
+            "entries": [
+              "At 7th level, your Alter's fire flows beneath your skin. You have resistance to fire damage. Additionally, during your {@i Major Form}, when a creature within 5 feet of you hits you with a melee attack, it takes fire damage equal to your Major Ability modifier."
+            ]
+          },
+          {
+            "name": "Sovereign Terror",
+            "level": 10,
+            "entries": [
+              "At 10th level, your mere presence bends the will of others. As a bonus action, you can spend 2 Oniric Charges and choose one creature within 30 feet of you that can see you. The creature must succeed on a Wisdom saving throw against your Arcan Aspect save DC or be {@condition frightened} of you for 1 minute. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success.",
+              "Additionally, when you hit a creature that is frightened of you with the {@i King Saw}, you deal an extra {@damage 2d6} psychic damage."
+            ]
+          },
+          {
+            "name": "Broken Seal",
+            "level": 10,
+            "entries": [
+              "At 10th level, the flames of the Other World know no obstacle. Fire damage you deal with your features, your Arcan Aspects, and the {@i King Saw} ignores resistance to fire damage, and treats immunity to fire damage as resistance."
+            ]
+          },
+          {
+            "name": "Infernal Clause",
+            "level": 15,
+            "entries": [
+              "Starting at 15th level, no being escapes your wrath without your consent. When a hostile creature within 60 feet of you succeeds on a saving throw against one of your features, one of your Arcan Aspects, or a spell granted by them, you can use your reaction to force it to reroll the saving throw. It must use the new roll, and if it succeeds again, you take {@damage 2d8} psychic damage.",
+              "You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+            ]
+          },
+          {
+            "name": "Major Arcanum: The Devil",
+            "level": 18,
+            "entries": [
+              "At 18th level, you and your Alter become a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+              "While the transformation is active, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Major Form.} The transformation counts as your {@i Major Form} for the purposes of your features and Aspects.",
+                  "{@b True Form.} The True Form of the {@optfeature XV – The Devil|KNUSC} Aspect is always active.",
+                  "{@b Black and Gold King.} You wield the {@i King Saw} without spending Oniric Charges. Its reach becomes 15 feet, and its damage becomes {@damage 2d12}.",
+                  "{@b Infernal Dominion.} While this transformation is active, creatures that fail their saving throw against becoming {@condition frightened} of you are also under the effects of {@spell dominate monster} for as long as they remain frightened. You can have up to three creatures under this effect; after that, you can't use this benefit again until you next take this form."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "9fc7483b06bc"
+      },
+      {
+        "name": "Alter of the Moon",
+        "shortName": "Moon",
+        "source": "KNUSC",
+        "className": "Arcan",
+        "classSource": "KNUSC",
+        "_echoFeatures": [
+          {
+            "name": "Selenic Essence",
+            "level": 1,
+            "entries": [
+              "When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of the Moon. You are the moon's reflection, and the moon is yours. You gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Major Ability.} Your Arcan Major Ability is Intelligence.",
+                  "{@b Saving Throw Proficiency.} If Arcan is your only class when you gain this feature, you gain proficiency in Intelligence saving throws."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Primary Aspect",
+            "level": 1,
+            "entries": [
+              "When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature XVIII – The Moon|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+            ]
+          },
+          {
+            "name": "Reflection in the Water",
+            "level": 3,
+            "entries": [
+              "At 3rd level, your Alter manifests as a perfect copy of you, but white. When you use your {@i Lunar Echo} feature, you can spend 1 additional Oniric Charge to empower your illusory duplicate as follows:",
+              {
+                "type": "entries",
+                "name": "Statistics",
+                "entries": [
+                  "The duplicate has your AC and creature type, has 1 hit point, and is immune to all conditions. It isn't destroyed when it takes damage unless that damage reduces it to 0 hit points."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Combat",
+                "entries": [
+                  "As a bonus action, you can move the duplicate up to 30 feet to a space where you can see it. Additionally, when you take the {@action Attack} action, you can forgo one of your attacks to have the duplicate make an attack with a copy of your weapon from its space, using your attack bonus and your damage; the damage is the weapon's damage, but it is psychic."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Duration",
+                "entries": [
+                  "When your {@i Major Form} ends, or if you summon the duplicate outside of that transformation, it persists for 1 minute, until it drops to 0 hit points, or until you dismiss it as a bonus action."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mirror Analysis",
+            "level": 3,
+            "entries": [
+              "At 3rd level, you look at every creature as if in a mirror, uncovering its flaws. When you activate your {@i Oniric Gaze}, you can choose one creature you can see within its range: you learn its lowest saving throw, as well as its damage vulnerabilities, resistances, and immunities."
+            ]
+          },
+          {
+            "name": "Shattered Mirror",
+            "level": 7,
+            "entries": [
+              "At 7th level, even your shattered copy is a weapon. When your {@i Lunar Echo} drops to 0 hit points, it shatters: each creature of your choice within 10 feet of it must make a Dexterity saving throw against your Arcan Aspect save DC, taking {@damage 2d6} slashing damage on a failed save, or half as much damage on a successful one.",
+              "Additionally, when you activate your {@i Major Form}, you can summon your {@i Lunar Echo} without spending Oniric Charges."
+            ]
+          },
+          {
+            "name": "Eyes of the Moon",
+            "level": 7,
+            "entries": [
+              "At 7th level, the moon aids you by lending you its eyes. As an action, you can see through your {@i Lunar Echo}'s eyes and hear through its ears; if you don't have a duplicate, you can summon one as part of this action without spending Oniric Charges. During this time, you are {@condition deafened} and {@condition blinded}, and the duplicate doesn't disappear when its normal duration ends.",
+              "You can maintain this effect for up to 10 minutes, and you can end it at any time (no action required). When it ends, your duplicate reappears in an unoccupied space within 15 feet of you, and its remaining duration is 1 minute.",
+              "Once you use this feature, you can use it again when you finish a short or long rest. If you have no uses left, you can spend 8 Oniric Charges to regain its use."
+            ]
+          },
+          {
+            "name": "Lunar Phases",
+            "level": 10,
+            "entries": [
+              "At 10th level, your copy reflects the phases of the moon. When you summon your {@i Lunar Echo}, you can spend 2 additional Oniric Charges. If you do, choose one of the following phases, which lasts as long as the duplicate persists:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Full Moon.} The duplicate sheds bright light in a 20-foot radius. Allied creatures within the light have resistance to psychic damage and advantage on saving throws against being {@condition frightened}.",
+                  "{@b New Moon.} The duplicate is shrouded in darkness: attack rolls against it have disadvantage, and attacks made through it deal an extra {@damage 1d8} psychic damage."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin Nightmare",
+            "level": 10,
+            "entries": [
+              "At 10th level, your nightmares are reflected as in a mirror. When you use the {@i Nightmare} feature of the {@optfeature XVIII – The Moon|KNUSC} Aspect, you can have it originate from your {@i Lunar Echo}'s space and choose a second creature within 30 feet of the duplicate as a target, without spending additional Oniric Charges. Additionally, while the frightened creatures can see you or your duplicate, they have disadvantage on subsequent saving throws against your {@i Nightmare}."
+            ]
+          },
+          {
+            "name": "The True Moon Is the Reflection",
+            "level": 15,
+            "entries": [
+              "Starting at 15th level, not even you know which of the two is the copy. You gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Reality in Fiction.} Creatures without {@sense truesight} can't tell you apart from your {@i Lunar Echo} duplicate.",
+                  "{@b Lunar Eclipse.} When you drop to 0 hit points but aren't killed outright, if your {@i Lunar Echo} is within 30 feet of you, you can decide that you were the copy: the duplicate shatters without triggering {@i Shattered Mirror}, and you appear in its space with a number of hit points equal to your Intelligence modifier + twice your Arcan level."
+                ]
+              },
+              "Once you use Lunar Eclipse, you can't do so again until you finish a long rest, unless you spend 8 Oniric Charges to regain its use."
+            ]
+          },
+          {
+            "name": "Major Arcanum: The Moon",
+            "level": 18,
+            "entries": [
+              "At 18th level, you and your Alter become a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+              "While the transformation is active, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Major Form.} The transformation counts as your {@i Major Form} for the purposes of your features and Aspects.",
+                  "{@b Persistent Nightmare.} The duplicates you summon with {@i Lunar Echo} have hit points equal to twice your Arcan level, but they can't benefit from effects that restore hit points.",
+                  "{@b Two Moons.} You can summon and control up to two duplicates at the same time with {@i Lunar Echo}, and when you use {@i Lunar Phases}, each duplicate has a different phase. You can command both duplicates with the same bonus action.",
+                  "{@b Faceless Night.} When a hostile creature targets you with an attack while at least one {@i Lunar Echo} is within 30 feet of you, roll a {@dice d20}: on an 11 or lower, the attack targets a duplicate of your choice instead."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "28308435a945"
       }
     ],
     "baseitem": [
@@ -890155,6 +891936,2319 @@
         ],
         "foundryImg": "icons/skills/melee/weapons-crossed-swords-black.webp",
         "_echoId": "0355e5e2c29c"
+      },
+      {
+        "name": "0 – The Fool",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "other": "Proficiency in Acrobatics"
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Low Gravity",
+                "entries": [
+                  "Your jump distance is doubled, and you take no falling damage from falls of 20 feet or less."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Dematerialize",
+                "entries": [
+                  "When an attack misses you, you can use your reaction to spend 1 Oniric Charge. If you do, you move up to half your speed without provoking opportunity attacks."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spells of the Fool",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell prestidigitation}, {@spell disguise self}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell levitate}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell fly}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell freedom of movement}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell passwall}"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Shrink",
+                "entries": [
+                  "As a bonus action, you can spend 2 Oniric Charges. If you do, for 1 minute you become Small, you can move through the space of hostile creatures, and you gain a +2 bonus to AC against opportunity attacks."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Veiled",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 1 additional Oniric Charge. If you do, you can teleport up to 15 feet to an unoccupied space you can see, before or after the feature."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Spectral Form",
+                "entries": [
+                  "During your {@i Major Form}, your speed is doubled instead of increasing by 20 feet, and your movement doesn't provoke opportunity attacks."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "2819ea8234fb"
+      },
+      {
+        "name": "I – The Magician",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "other": "Proficiency with calligrapher's supplies"
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Interface",
+                "entries": [
+                  "You have advantage on ability checks you make with tools on mechanisms and locks, and you can communicate simple concepts to constructs."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spells of the Magician",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell mending}, {@spell identify} (R)"
+                      ],
+                      [
+                        "5th",
+                        "{@spell arcane lock}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell protection from energy}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell arcane eye}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell creation}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Synthesis",
+                "entries": [
+                  "As a bonus action, you can spend 1 Oniric Charge. If you do, the next weapon attack you hit with this turn deals an extra {@damage 1d8} acid, cold, fire, or lightning damage (your choice)."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Virus Immunity",
+                "entries": [
+                  "You have advantage on saving throws against disease and against the {@condition poisoned} condition. Additionally, you can cast {@spell absorb elements|XGE} as a reaction by spending 2 Oniric Charges."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Synthetic",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 1 additional Oniric Charge. If you do, the feature's damage becomes acid, cold, fire, or lightning damage (your choice)."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Daring Heart",
+                "entries": [
+                  "You can cast {@spell counterspell} as a reaction by spending 6 Oniric Charges."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "7281f48233da"
+      },
+      {
+        "name": "II – The High Priestess",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 3,
+              "class": {
+                "name": "Arcan",
+                "source": "ARCAN"
+              }
+            },
+            "other": "Proficiency in History"
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Serpent Companion",
+                "entries": [
+                  "You can cast {@spell find familiar} as a ritual, without material components; the familiar always takes the form of a snake. The familiar can deliver the touch spells granted by your Aspects, and you can share the effects of your {@i Oniric Gaze} with it."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spells of the High Priestess",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell thaumaturgy}, {@spell detect evil and good}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell silence} (R)"
+                      ],
+                      [
+                        "9th",
+                        "{@spell speak with dead}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell divination} (R)"
+                      ],
+                      [
+                        "17th",
+                        "{@spell legend lore}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Light of the Hazama",
+                "entries": [
+                  "When you hit an undead or a fiend with a weapon attack, you can spend 1 Oniric Charge to deal an extra {@damage 1d8} radiant damage."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Medium Familiar",
+                "entries": [
+                  "You can cast {@spell speak with dead} as a ritual. When you do so, if your familiar is within 5 feet of you and you perform the ritual in a place the living recognize as one where the deceased's remains have rested for at least a year, your familiar is treated as the corpse, and the deceased can hear and answer questions through it. Additionally, while your {@i Oniric Gaze} is active, you sense the presence of undead and fiends within its range."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Purifying",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 2 additional Oniric Charges. If you do, the feature's damage becomes radiant, and undead and fiends that fail the saving throw are {@condition frightened} of you until the end of your next turn."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Purification",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 5 additional Oniric Charges. If you do, undead and fiends that fail the saving throw are banished for 1 minute, as by the {@spell banishment} spell, without requiring concentration. Undead and fiends of challenge rating 2 or lower are instead destroyed outright."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "5f83e070d316"
+      },
+      {
+        "name": "III – The Empress",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 5,
+              "class": {
+                "name": "Arcan",
+                "source": "ARCAN"
+              }
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Awakening",
+                "entries": [
+                  "You can finish a long rest in 4 hours, and you have advantage on saving throws against effects that would put you to sleep."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Sovereign Aegis",
+                "entries": [
+                  "When a creature you can see attacks an ally within 5 feet of you, you can use your reaction and spend 2 Oniric Charges to grant that ally a bonus to AC equal to your Major Ability modifier until the start of its next turn."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Stifling Crown",
+                "entries": [
+                  "As a bonus action, you can spend 3 Oniric Charges. For 1 minute, the ground within 10 feet of you is difficult terrain for hostile creatures; the area moves with you."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Imperial",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 2 additional Oniric Charges. If you do, creatures that fail the saving throw can't take reactions until the start of their next turn."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Final Awakening",
+                "entries": [
+                  "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead and raise your Oniric Charges to their maximum. You can't use this feature again until you finish a long rest."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "1f9fdbc083b1"
+      },
+      {
+        "name": "IV – The Emperor",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 9,
+              "class": {
+                "name": "Arcan",
+                "source": "ARCAN"
+              }
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Spells of the Emperor",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell friends}, {@spell heroism}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell magic weapon}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell haste}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell banishment}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell dominate person}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Protocol",
+                "entries": [
+                  "You have advantage on saving throws against being {@condition charmed}."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Command",
+                "entries": [
+                  "As a bonus action, you can spend 2 Oniric Charges and choose an ally within 60 feet of you who can hear you. That ally can use its reaction to move up to half its speed or to make one weapon attack."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "General Order",
+                "entries": [
+                  "As a bonus action, you can spend 4 Oniric Charges and choose up to three allies within 20 feet of you who can hear you. Each of them can use its reaction to move up to half its speed or to make one weapon attack."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Coordinated",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 2 additional Oniric Charges. If you do, one ally within 30 feet of you who can see or hear you can use its reaction to make one weapon attack."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Imperial Network",
+                "entries": [
+                  "During your {@i Major Form}, allies within 30 feet of you gain the saving throw bonus granted by your {@i Major Form}."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "c39a68e89c82"
+      },
+      {
+        "name": "V – The Hierophant",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 3,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            },
+            "other": "Proficiency with an herbalism kit"
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Spells of the Hierophant",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell guidance}, {@spell protection from evil and good}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell prayer of healing}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell remove curse}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell guardian of faith}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell dispel evil and good}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Bless",
+                "entries": [
+                  "As an action, you can cast {@spell bless} by spending 2 Oniric Charges."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Warm Drink",
+                "entries": [
+                  "During a short rest, you and allied creatures regain extra hit points equal to your Major Ability modifier each time you spend a Hit Die."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Poisoned Counsel",
+                "entries": [
+                  "As an action, you can cast {@spell command} by spending 2 Oniric Charges."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Comfort",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 1 additional Oniric Charge. If you do, allies in the feature's area gain temporary hit points equal to your Major Ability modifier + your proficiency bonus."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Private Session",
+                "entries": [
+                  "You can cast {@spell suggestion} without spending Oniric Charges; once you do so, you can't do so again until you finish a long rest. You can still cast this spell by spending 4 Oniric Charges."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "047c83b01ca5"
+      },
+      {
+        "name": "VI – The Lovers",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Bond",
+                "entries": [
+                  "When you finish a short or long rest, you can choose one willing creature as your {@i Bonded Creature}. You always know the direction of your Bonded Creature and its approximate state of health while it is within 1 mile of you."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Shared Pain",
+                "entries": [
+                  "When your Bonded Creature takes damage while within 30 feet of you, you can use your reaction to take half of that damage in its place. If you do, you gain 1 Oniric Charge (this counts as meeting the {@i Retribution} condition)."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spells of the Lovers",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell spare the dying}, {@spell cure wounds}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell warding bond}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell sending}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell locate creature}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell Rary's telepathic bond} (R)"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Sacrifice",
+                "entries": [
+                  "When your Bonded Creature within 60 feet of you is targeted by an attack, you can use your reaction and spend 4 Oniric Charges to swap places with it before the attack is resolved. You become the target of that attack."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Protection",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 1 additional Oniric Charge. If you do, your Bonded Creature regains hit points equal to your Major Ability modifier + your proficiency bonus."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "My Other Self",
+                "entries": [
+                  "When your Bonded Creature drops to 0 hit points because of an attack, spell, or effect caused by a hostile creature, your Oniric Charges rise to their maximum and you have advantage on attack rolls until the end of your next turn. Until then, if you are able to, you must attack the creature that felled it."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "0f2424d4b408"
+      },
+      {
+        "name": "VII – The Chariot",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 3,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Wheels",
+                "entries": [
+                  "Your speed and the speed of your mount increase by 5 feet, and you and allied creatures can travel at a fast pace without taking any penalty."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Charge",
+                "entries": [
+                  "When you hit a creature with a melee attack after moving at least 20 feet in a straight line toward it this turn, on foot or on your mount, you can spend 1 Oniric Charge. If you do, the creature must succeed on a Strength saving throw against your Arcan Aspect save DC or be pushed 10 feet away from you or knocked {@condition prone} (your choice)."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Run Down",
+                "entries": [
+                  "As a bonus action, you can spend 3 Oniric Charges to move up to your speed in a straight line; if you are mounted, your mount moves up to its speed instead, without using its movement. Each creature whose space you move through must make a Dexterity saving throw against your Arcan Aspect save DC, taking {@damage 2d8} bludgeoning damage on a failed save. During this movement, you can move through the spaces of hostile creatures."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Rush",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 1 additional Oniric Charge. If you do, before the feature, you (or your mount, if you are mounted) can move up to 15 feet without provoking opportunity attacks."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Unstoppable Chariot",
+                "entries": [
+                  "During your {@i Major Form}, the damage of Run Down is doubled, and when you use Charge, a creature that fails the saving throw also takes {@damage 2d8} bludgeoning damage."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "34655198cf0c"
+      },
+      {
+        "name": "VIII – Strength",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 5,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            },
+            "other": "Proficiency with smith's tools"
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Iron Grip",
+                "entries": [
+                  "When you hit a creature with a melee attack, you can spend 1 Oniric Charge to also attempt to grapple or shove it, as part of the same attack."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Steel Arms",
+                "entries": [
+                  "You count as one size larger when determining your carrying capacity and for this Aspect's {@i Flesh Doll} feature. Additionally, your unarmed strikes deal {@damage 1d8} bludgeoning damage (or their normal damage die, if higher), and your attacks against objects and structures always deal maximum damage."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Flesh Doll",
+                "entries": [
+                  "While you are grappling a creature of your size or smaller, you can wield it as a melee weapon you are proficient with, using Strength for the attack and damage rolls. If the creature is your size, you must have both hands free. The bludgeoning damage dealt depends on its size, as shown in the table below, and the creature used as a weapon takes half of that damage.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Size",
+                      "Damage"
+                    ],
+                    "colStyles": [
+                      "col-6 text-center",
+                      "col-6 text-center"
+                    ],
+                    "rows": [
+                      [
+                        "Tiny",
+                        "{@damage 1d4}"
+                      ],
+                      [
+                        "Small",
+                        "{@damage 1d6}"
+                      ],
+                      [
+                        "Medium",
+                        "{@damage 1d10}"
+                      ],
+                      [
+                        "Large",
+                        "{@damage 2d6}"
+                      ],
+                      [
+                        "Huge",
+                        "{@damage 2d8}"
+                      ],
+                      [
+                        "Gargantuan",
+                        "{@damage 2d10}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Slam",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 1 additional Oniric Charge. If you do, each creature that fails the saving throw is pushed 10 feet away from you, or grappled by you if it is within your reach; you can grapple at most one creature this way for each free hand you have."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Steel Giant",
+                "entries": [
+                  "During your {@i Major Form}, you become Large and you have advantage on Strength checks. Creatures grappled by you are also {@condition restrained}."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "345cb52e79c7"
+      },
+      {
+        "name": "IX – The Hermit",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 5,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            },
+            "other": "Proficiency in Stealth"
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Hideaway",
+                "entries": [
+                  "As a bonus action, you can spend 2 Oniric Charges to become {@condition invisible} until the end of your turn, or until you make an attack or cast a spell."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Solitude",
+                "entries": [
+                  "You can cast {@spell alarm} as a ritual, and you have advantage on Dexterity ({@skill Stealth}) checks while you have no allies within 30 feet of you."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spells of the Hermit",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell mage hand}, {@spell unseen servant} (R)"
+                      ],
+                      [
+                        "5th",
+                        "{@spell pass without trace}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell Leomund's tiny hut} (R)"
+                      ],
+                      [
+                        "13th",
+                        "{@spell Mordenkainen's private sanctum}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell scrying}"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Possessive Gaze",
+                "entries": [
+                  "When a creature within 30 feet of you moves away from you, you can use your reaction and spend 2 Oniric Charges. The creature must succeed on a Wisdom saving throw against your Arcan Aspect save DC or its speed becomes 0 until the end of the turn."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Chain",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 2 additional Oniric Charges. If you do, creatures that fail the saving throw can't willingly move away from you until the end of your next turn."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Carceri",
+                "entries": [
+                  "As an action, you can spend 6 Oniric Charges and choose one creature within 30 feet of you. The creature must succeed on a Charisma saving throw against your Arcan Aspect save DC or be transported with you to an oniric space for 1 minute, or until one of you drops to 0 hit points. The space is an enclosed, magically lit 100-foot cube. No other creature can enter or affect this space. When the effect ends, you both return to the spaces you left, or to the nearest unoccupied space."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "781c682589ed"
+      },
+      {
+        "name": "X – Wheel of Fortune",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 7,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Turn of the Wheel",
+                "entries": [
+                  "Once per turn, when you take damage, you can spend 2 Oniric Charges and your reaction to roll a {@dice d20} on the {@i Oniric Oscillations} table."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Try Again",
+                "entries": [
+                  "You can reroll a failed ability check, attack roll, or saving throw; you must use the new roll, and you can't do so again until you finish a short or long rest."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Oniric Gamble",
+                "entries": [
+                  "As a bonus action, roll a {@dice d6}. On a 4 or higher, you gain 2 Oniric Charges. On a 3 or lower, roll a {@dice d20} on the {@i Oniric Oscillations} table. Additionally, whenever you activate your {@i Major Form} or cast a spell, roll a {@dice d20} on the {@i Oniric Oscillations} table."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Lucky",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 1 additional Oniric Charge. If you do, roll the feature's damage twice and choose which result to use. This Strike Modifier doesn't count against the maximum number of modifiers you can apply to an Oniric Strike."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Mistress of the Wheel",
+                "entries": [
+                  "When you roll on the {@i Oniric Oscillations} table, roll twice and choose which result to apply."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Oniric Oscillations",
+            "entries": [
+              {
+                "type": "table",
+                "colLabels": [
+                  "{@dice d20}",
+                  "Effect"
+                ],
+                "colStyles": [
+                  "col-1 text-center",
+                  "col-11"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "{@b Other World.} You vanish into the Oniric World until the start of your next turn. While there, you can't act or be targeted; then you reappear in the space you left, or in the nearest unoccupied space."
+                  ],
+                  [
+                    "2",
+                    "{@b Backlash.} You take {@damage 1d8} psychic damage and lose 1 Oniric Charge."
+                  ],
+                  [
+                    "3",
+                    "{@b Virus.} You are {@condition poisoned} until the end of your next turn. This condition ignores resistance and immunity."
+                  ],
+                  [
+                    "4",
+                    "{@b Interference.} Your {@i Oniric Gaze} and {@i Oniric Flame} end, and you can't activate them until the end of your next turn."
+                  ],
+                  [
+                    "5",
+                    "{@b Stagnant Souls.} Voices of regret haunt you: you have disadvantage on the next saving throw you make within 1 minute."
+                  ],
+                  [
+                    "6",
+                    "{@b Chains.} You and a random creature within 30 feet of you are bound by oniric chains: until the end of your next turn, neither of you can move more than 10 feet away from the other."
+                  ],
+                  [
+                    "7",
+                    "{@b Madness.} Until the start of your next turn, you have advantage on attack rolls, but attack rolls against you also have advantage."
+                  ],
+                  [
+                    "8",
+                    "{@b Shrunk.} You become Small until the end of your next turn. You can move through the spaces of hostile creatures, but you have disadvantage on attack rolls with heavy weapons."
+                  ],
+                  [
+                    "9",
+                    "{@b Uncontrolled Flame.} Your {@i Oniric Flame} kindles at no cost (if you don't have it, your {@i Oniric Gaze} activates instead) for 1 minute, but you shed bright light in a 20-foot radius and can't hide."
+                  ],
+                  [
+                    "10",
+                    "{@b Starfall.} Each creature within 10 feet of you, allies included, must succeed on a Dexterity saving throw against your Arcan Aspect save DC or take {@damage 2d6} radiant damage."
+                  ],
+                  [
+                    "11",
+                    "{@b Swap.} You swap places with a random creature within 30 feet of you."
+                  ],
+                  [
+                    "12",
+                    "{@b Overheat.} You take {@damage 1d6} fire damage. The next weapon attack you hit with before the end of your next turn deals an extra {@damage 2d6} fire damage."
+                  ],
+                  [
+                    "13",
+                    "{@b Colorful Little Bird.} A spectral little bird follows you for 1 minute. The first critical hit you take during this time becomes a normal hit, then the bird vanishes."
+                  ],
+                  [
+                    "14",
+                    "{@b Respite.} You and each ally within 10 feet of you regain {@dice 1d6} + your proficiency bonus hit points."
+                  ],
+                  [
+                    "15",
+                    "{@b Oniric Wheels.} Your speed increases by 10 feet until the end of your next turn, and your movement doesn't provoke opportunity attacks."
+                  ],
+                  [
+                    "16",
+                    "{@b Spectral Claws.} The next weapon attack you hit with before the end of your next turn deals an extra {@damage 1d8} necrotic damage."
+                  ],
+                  [
+                    "17",
+                    "{@b Star of the Group.} You have advantage on the next attack roll you make before the end of your next turn."
+                  ],
+                  [
+                    "18",
+                    "{@b White Image.} A white reflection of you overlaps your form: attack rolls against you have disadvantage until the start of your next turn."
+                  ],
+                  [
+                    "19",
+                    "{@b Overcharge.} You gain 2 Oniric Charges."
+                  ],
+                  [
+                    "20",
+                    "{@b Awakening.} Your Oniric Charges rise to their maximum."
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "10334965ac02"
+      },
+      {
+        "name": "XI – Justice",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Vigilant",
+                "entries": [
+                  "You have advantage on Wisdom ({@skill Insight}) checks to determine whether a creature is lying, and creatures have disadvantage on Dexterity ({@skill Stealth}) checks made to hide from you."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Restitution",
+                "entries": [
+                  "When you hit a creature that has dealt damage to you since the start of your last turn, you can spend 1 Oniric Charge to deal an extra {@damage 1d8} damage."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Black Blade",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 2 additional Oniric Charges. If you do, creatures that have dealt damage to you since the start of your last turn take an extra {@damage 2d8} damage."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Sentence",
+                "entries": [
+                  "When a creature scores a critical hit against you, you can use your reaction to force it to make a Charisma saving throw against your Arcan Aspect save DC. On a failed save, it takes damage equal to the damage you took, or half as much on a successful one."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "bdfabcb8c35e"
+      },
+      {
+        "name": "XII – The Hanged Man",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 15,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Pain Made Dream",
+                "entries": [
+                  "Outside of combat, as an action, you can spend one Hit Die to gain a number of Oniric Charges equal to the roll (up to your maximum). Charges gained this way dissipate after 10 minutes or when combat begins."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Offering",
+                "entries": [
+                  "Once per turn, as a bonus action, you can take {@damage 1d12} necrotic damage to gain 3 Oniric Charges. This damage can't be reduced or absorbed by temporary hit points."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Suspended",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 3 additional Oniric Charges. If you do, creatures that fail the saving throw are {@condition restrained} until the end of their next turn."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Suspension",
+                "entries": [
+                  "While you are in {@i Oniric Hubris}, dropping to 0 hit points doesn't make you fall {@condition unconscious}, and your Oniric Charges don't dissipate. At 0 hit points, you still make death saving throws and suffer the effects of damage normally; if you fail your third death saving throw, you don't die until your {@i Oniric Hubris} ends."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "ba5f799cb651"
+      },
+      {
+        "name": "XIII – Death",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 5,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Last Breath",
+                "entries": [
+                  "By touching a corpse, you learn how long ago the creature died and what caused its death. Additionally, you can cast {@spell gentle repose} on it without spending Oniric Charges and without material components."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spells of Death",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell chill touch}, {@spell false life}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell ray of enfeeblement}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell vampiric touch}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell aura of life}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell contagion}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Emerald Flame",
+                "entries": [
+                  "As a bonus action, you can spend 2 Oniric Charges to wreathe your weapon in green flame for 1 minute. While the flame lasts, your attacks with that weapon deal an extra {@damage 1d4} necrotic damage."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Rigor",
+                "entries": [
+                  "When you hit a creature with a weapon attack, you can spend 2 Oniric Charges. The creature must succeed on a Strength saving throw against your Arcan Aspect save DC or its speed becomes 0 until the end of its next turn."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Harvest",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 1 additional Oniric Charge. If you do, the feature's damage becomes necrotic, and you gain 1 Oniric Charge for each creature that drops to 0 hit points because of it."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Black Star",
+                "entries": [
+                  "While you are in your {@i Major Form}, once per turn, when a hostile creature dies within 30 feet of you, you gain 1 Oniric Charge."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "839f5aa4e558"
+      },
+      {
+        "name": "XIV – Temperance",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 12,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            },
+            "other": "Proficiency with alchemist's supplies"
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Reserve",
+                "entries": [
+                  "When combat ends, your Oniric Charges don't dissipate for 10 minutes."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spells of Temperance",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell shape water|XGE} {@i XGE}, {@spell purify food and drink} (R)"
+                      ],
+                      [
+                        "5th",
+                        "{@spell lesser restoration}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell mass healing word}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell death ward}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell mass cure wounds}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Transfusion",
+                "entries": [
+                  "As a bonus action, you can spend any number of Oniric Charges to have an ally within 30 feet of you regain hit points equal to {@dice 1d8} per Charge spent + your Major Ability modifier."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Balance",
+                "entries": [
+                  "When combat begins, if you have fewer than 3 Oniric Charges, you rise to 3 instead of 2."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Equilibrium",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 1 additional Oniric Charge. If you do, one ally within 30 feet of you gains temporary hit points equal to your Major Ability modifier + your proficiency bonus."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Perpetual Flow",
+                "entries": [
+                  "Once per turn, while you are in your {@i Major Form}, when you spend 4 or more Oniric Charges at once, you regain 1."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "5bbb4dae569a"
+      },
+      {
+        "name": "XV – The Devil",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 7,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Demonic Weapon",
+                "entries": [
+                  "As a bonus action, you can spend 2 Oniric Charges. Until the end of the turn, your attacks with two-handed weapons that hit deal an extra {@damage 1d8} fire damage. Additionally, you can reroll any 1 on the damage dice."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Infernal Charm",
+                "entries": [
+                  "You gain proficiency in one of the following skills of your choice: {@skill Intimidation}, {@skill Deception}, or {@skill Persuasion}."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Tartarus",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 2 additional Oniric Charges. If you do, the reach of {@i Oniric Slash} increases by 5 feet, you can choose to deal fire damage instead of force, and creatures that fail the saving throw have disadvantage on their next saving throw within the next minute."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spells of the Devil",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "9th",
+                        "{@spell crown of madness}, {@spell charm person}, {@spell fear}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell phantasmal killer}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell hold monster}"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Horns of Dread",
+                "entries": [
+                  "While you are in your {@i Major Form}, creatures that fail their saving throw against your {@i Oniric Strike} are {@condition frightened} of you until the end of their next turn. Additionally, as a bonus action, you can cast {@spell hold monster} on a creature that is frightened of you. If the creature fails its saving throw, it stops being frightened."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "62732bd5da3a"
+      },
+      {
+        "name": "XVI – The Tower",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 7,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            },
+            "other": "Proficiency with mason's tools"
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Wrecker",
+                "entries": [
+                  "You can wield melee weapons with the heavy and two-handed properties in one hand."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Crack",
+                "entries": [
+                  "When you hit a creature with a weapon attack, you can spend 1 Oniric Charge. If you do, the creature takes a −2 penalty to AC until the start of your next turn. This effect doesn't stack."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Black Madness",
+                "entries": [
+                  "As a bonus action, you can spend 3 Oniric Charges to lose control for 1 minute. While it lasts, you gain 1 additional Oniric Charge whenever you meet the {@i Impact} condition, but when you use {@i Oniric Strike} you can't exclude any creature from the feature's area, allies included. You can end this effect early as a bonus action."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Collapse",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 2 additional Oniric Charges. If you do, creatures that fail the saving throw fall {@condition prone}, and the feature's area becomes difficult terrain for 1 minute."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Fallen Tower",
+                "entries": [
+                  "While you are in {@i Oniric Hubris}, the damage dice of your {@i Oniric Strike} are doubled, and the reach of {@i Oniric Slash} and the width of the line of {@i Oniric Projection} increase by 10 feet."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "7c6f4cdbcd35"
+      },
+      {
+        "name": "XVII – The Star",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 3,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            },
+            "other": "Proficiency with navigator's tools"
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Pole Star",
+                "entries": [
+                  "You can't become lost except by magical means, and you know the direction of the last creature you cast {@spell hunter's mark} on, as long as it is on the same plane of existence as you."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Guiding Firmament",
+                "entries": [
+                  "As an action, you can cast {@spell guiding bolt} by spending 2 Oniric Charges."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spells of the Star",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell dancing lights}, {@spell hunter's mark}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell aid}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell dispel magic}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell aura of purity}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell circle of power}"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Hidden Star",
+                "entries": [
+                  "Divination spells can't reveal your face or your location unless you are willing. Additionally, you know whether the creature that cast such a spell is hostile, indifferent, or friendly toward you."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Tracer",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 1 additional Oniric Charge. If you do, the next attack roll against each creature that fails the saving throw has advantage, if it is made before the end of your next turn."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Constellation",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 4 additional Oniric Charges. If you do, any creatures of your choice in the feature's area are affected as if by the {@spell faerie fire} spell for 1 minute, without requiring concentration."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Burning Eye",
+                "entries": [
+                  "You are immune to the {@condition blinded} condition."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "21df21e68b9f"
+      },
+      {
+        "name": "XVIII – The Moon",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 5,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Lunar Reflection",
+                "entries": [
+                  "You know the {@spell minor illusion} cantrip, and you have advantage on saving throws against illusions."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Lunar Echo",
+                "entries": [
+                  "As a bonus action, you can spend 2 Oniric Charges to create an illusory duplicate of yourself in an unoccupied space you can see within 30 feet of you, for 1 minute. On your turn, you can spend 5 feet of movement to swap places with the duplicate, wherever it is within 60 feet of you. The duplicate has AC 10 and disappears if it is hit by an attack or if you create another one."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spells of the Moon",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell message}, {@spell silent image}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell moonbeam}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell major image}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell hallucinatory terrain}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell seeming}"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Nightmare",
+                "entries": [
+                  "As an action, you can spend 4 Oniric Charges and choose one creature you can see within 60 feet of you. The creature must succeed on a Wisdom saving throw against your Arcan Aspect save DC or be {@condition frightened} of you for 1 minute. While frightened this way, it takes {@damage 1d6} psychic damage at the start of each of its turns. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on itself on a success."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Eclipse",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 2 additional Oniric Charges. If you do, creatures that fail the saving throw are wrapped in oniric darkness and are {@condition blinded} until the end of their next turn. Additionally, you can unleash your {@i Oniric Strike} as if you were in the space of your {@i Lunar Echo}."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Invading Nightmare",
+                "entries": [
+                  "When you use {@i Dreamwalker}, you can expend one use of {@i Overclock}. If you do, the spell is modified as follows:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "You can target any creature you wish, whether it is awake or asleep, as long as you have an object that belonged to it for at least 3 days or you have seen it within the last 48 hours. While awake, the creature it is aware that it's having allucinations caused by a neutral, friendly, or hostile entity.",
+                      "A hostile or neutral creature must make a second Wisdom saving throw against your Arcan Aspect save DC. On a failed save, it becomes eligible for the teleportation of your {@i Dreamwalker} feature. On a successful save, it is immune to this feature for 7 days."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "6566ee29af27"
+      },
+      {
+        "name": "XIX – The Sun",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 12,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            },
+            "other": "Proficiency in Athletics"
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Radiant Warmth",
+                "entries": [
+                  "You know the {@spell light} cantrip. Additionally, when an ally illuminated by the light of that cantrip makes a saving throw, you can use your reaction to give it advantage on the save."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Sanctuary of the Sun",
+                "entries": [
+                  "Creatures that want to target a creature protected by your {@spell sanctuary} spell make the Wisdom saving throw with disadvantage. Additionally, if the protected creature makes an attack or casts a spell that affects an enemy creature, the spell ends unless you use your reaction to spend 5 Oniric Charges."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spells of the Sun",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell sacred flame}, {@spell healing word}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell continual flame}, {@spell sanctuary}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell beacon of hope}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell fire shield}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell flame strike}"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "High Noon",
+                "entries": [
+                  "As an action, you can spend 3 Oniric Charges to shed bright light in a 20-foot radius and dim light for an additional 20 feet for 1 minute, as long as you maintain concentration (as if concentrating on a spell). A hostile creature that starts its turn within 10 feet of you, or enters that area for the first time on a turn, takes {@damage 2d6} radiant damage, and undead in that area have disadvantage on attack rolls."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Dazzling",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 1 additional Oniric Charge. If you do, the feature's damage becomes radiant, and creatures that fail the saving throw have disadvantage on their next attack roll made before the end of their next turn."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Supernova",
+                "entries": [
+                  "When you enter {@i Oniric Hubris}, each hostile creature within 20 feet of you must make a Constitution saving throw against your Arcan Aspect save DC. On a failed save, a creature takes {@damage 6d6} radiant damage and is {@condition blinded} until the end of its next turn; on a successful save, it takes half as much damage and isn't blinded. Additionally, each ally within 20 feet of you regains {@dice 2d8} hit points."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "dd2b1dc5bb42"
+      },
+      {
+        "name": "XX – Judgement",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "prerequisite": [
+          {
+            "level": {
+              "level": 15,
+              "class": {
+                "name": "Arcan",
+                "source": "KNUSC"
+              }
+            },
+            "other": "Proficiency in Insight"
+          }
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Spells of Judgement",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell resistance}, {@spell comprehend languages} (R)"
+                      ],
+                      [
+                        "5th",
+                        "{@spell detect thoughts}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell tongues}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell compulsion}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell geas}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Judge",
+                "entries": [
+                  "You can cast {@spell zone of truth} as a ritual, ignoring your Spell Limit."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Verdict",
+                "entries": [
+                  "When you hit with a weapon attack a creature that has dealt damage to one of your allies since the start of your last turn, you can spend 1 Oniric Charge to deal an extra {@damage 1d8} radiant damage to it. Starting at 9th level, you can spend additional Oniric Charges to deal an extra {@damage 1d8} radiant damage for each additional Charge spent this way."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Recall",
+                "entries": [
+                  "As an action, you can spend 3 Oniric Charges. Each ally within 30 feet of you who can hear you stops being {@condition charmed} and {@condition frightened}, and gains temporary hit points equal to your proficiency bonus. An ally in that area who has 0 hit points instead regains {@dice 1d8} + your Major Ability modifier hit points."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Summary Judgement",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 2 additional Oniric Charges. If you do, creatures that fail the saving throw take an extra {@damage 2d8} radiant damage."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Final Absolution",
+                "entries": [
+                  "You can cast {@spell revivify} without material components and without spending Oniric Charges; once you do so, you can't do so again until you finish a long rest. If you have no uses left, you can spend 8 Oniric Charges to regain the use."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "4cfde061cdec"
+      },
+      {
+        "name": "XXI – The World",
+        "source": "KNUSC",
+        "featureType": [
+          "AA"
+        ],
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Revealed",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Spells of the World",
+                "entries": [
+                  "You gain spells at certain Arcan levels, as shown in the table below.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Arcan Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "2nd",
+                        "{@spell druidcraft}, {@spell feather fall}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell knock}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell water breathing} (R)"
+                      ],
+                      [
+                        "13th",
+                        "{@spell control water}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell teleportation circle}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Threshold",
+                "entries": [
+                  "You sense the presence of portals and planar passages within 1 mile of you."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Oniric Navigator",
+                "entries": [
+                  "You gain proficiency with {@item navigator's tools|phb}."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Inverted",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Echo of the Step",
+                "entries": [
+                  "As a bonus action, you can cast {@spell misty step} by spending 4 Oniric Charges. You leave an echo in the space you left: the next attack roll an ally makes against a creature within 5 feet of the echo has advantage, if it is made before the start of your next turn. Then the echo disappears."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Strike Modifier — Dimensional",
+                "entries": [
+                  "When you use {@i Oniric Strike}, you can spend 2 additional Oniric Charges. If you do, after the feature you can teleport to an unoccupied space adjacent to a creature that failed the saving throw."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "True Form",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Thousand-Colored Little Bird",
+                "entries": [
+                  "As an action, you can cast {@spell dimension door} by spending 6 Oniric Charges. You can bring along a number of willing creatures within 5 feet of you equal to your proficiency bonus."
+                ]
+              }
+            ]
+          }
+        ],
+        "_echoId": "9a8790bed85a"
       }
     ],
     "item": [

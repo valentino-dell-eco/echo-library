@@ -35,5 +35,6 @@
 	"shaman": "class-shaman.json",
 	"shifter": "class-shifter.json",
 	"vessel": "class-vessel.json",
-	"warlord": "class-warlord.json"
+	"warlord": "class-warlord.json",
+	"arcan": "class-arcan.json"
 }

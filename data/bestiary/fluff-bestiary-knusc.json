@@ -1,0 +1,56 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Charioteer's Steed",
+			"source": "KNUSC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KNUSC/Charioteer's%20Steed.jpg"
+					}
+				}
+			]
+		},
+		{
+			"name": "Arcane Skull",
+			"source": "KNUSC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KNUSC/Arcane%20Skull.jpg"
+					}
+				}
+			]
+		},
+		{
+			"name": "Oniric Hecatomb",
+			"source": "KNUSC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KNUSC/Oniric%20Hecatomb.jpg"
+					}
+				}
+			]
+		},
+		{
+			"name": "Bone Titan",
+			"source": "KNUSC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KNUSC/Bone%20Titan.webp"
+					}
+				}
+			]
+		}
+	]
+}

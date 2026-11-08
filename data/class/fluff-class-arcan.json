@@ -1,0 +1,19 @@
+{
+	"classFluff": [
+		{
+			"name": "Arcan",
+			"source": "KNUSC",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Introduction",
+					"entries": [
+						"Every person carries an {@i Alter Ego}: a reflection that lives in the Oniric World, fights in their place, and bears their pain. An {@b Arcan} is someone who has forged a bond with their own Alter, and draws on its power in the material world.",
+						"In battle, the Arcan gathers {@b Oniric Charges} by striking and being struck, and spends them to manifest {@b Arcan Aspects}: powers inspired by the many faces of the Major Arcana of the oniric world, which are revealed, inverted, and finally show their {@i True Form}. Their {@b Alter Major} defines their dominant expression and which Major Arcanum is bound to their soul: from the Alter of the Star, who wields a cannon of light, to the Alter of the Devil, who brandishes a golden blade and subjugates everyone with dark forces.",
+						"The Arcan is a versatile combatant whose intensity grows as the fight goes on, until they temporarily transform into their own Alter Ego."
+					]
+				}
+			]
+		}
+	]
+}

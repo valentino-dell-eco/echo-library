@@ -81,5 +81,6 @@
 	"KOENOUMIBESTIARY": "fluff-bestiary-koenoumibestiary.json",
 	"LLCBD": "fluff-bestiary-llcbd.json",
 	"LLCB": "fluff-bestiary-llcb.json",
-	"LLSPELL": "fluff-bestiary-llspell.json"
+	"LLSPELL": "fluff-bestiary-llspell.json",
+	"KNUSC": "fluff-bestiary-knusc.json"
 }

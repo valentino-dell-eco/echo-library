@@ -1,0 +1,1982 @@
+{
+	"classFeature": [
+		{
+			"name": "Oniric Gaze",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"Your bond with the Oniric World lets you perceive traces of power that are normally invisible.",
+				"As an action, you can activate your Oniric Gaze for up to 1 minute, gaining a special sight with a range of 30 feet. While it is active, you can do the following within its range:",
+				{
+					"type": "list",
+					"items": [
+						"You sense the presence of magic.\r",
+						"You can use an action to study the aura of a creature or object you can see that you perceive as magical, learning the school of magic associated with it, if any."
+					]
+				},
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. If you have no uses left, you can spend 2 Oniric Charges to use this feature."
+			]
+		},
+		{
+			"name": "Alter Major",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"Choose an Alter Major, which represents the dominant expression of your Alter Ego: the Alter of the Star, the Alter of the Chariot, the Alter of Death, the Alter of Strength, the Alter of the Devil, or the Alter of the Moon.",
+				"Your Alter Major determines your Major Ability, grants you proficiency in one additional saving throw, and grants you features at 1st, 3rd, 7th, 10th, 15th, and 18th level.",
+				{
+					"type": "inset",
+					"name": "Multiclassing",
+					"entries": [
+						"You gain the saving throw proficiency granted by your Alter Major only if Arcan is your starting class."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcan Aspects",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"You forge a symbiotic bond with the Oniric energy of your Alter Ego. You learn to manifest two Arcan Aspects of your choice whose prerequisites you meet. When you gain a new Aspect, as shown in the Aspects Known column of the Arcan table, you can choose another one.",
+				"Whenever you gain an Arcan level, you can replace one Aspect you know with another Aspect whose prerequisites you meet. You can't replace the Aspect granted by your Alter Major.",
+				{
+					"type": "entries",
+					"name": "Manifestations",
+					"entries": [
+						"  Each Aspect is divided into up to three manifestations, unlocked as your Arcan level increases. Manifestations are cumulative: when you unlock a new one, you keep the benefits of the previous ones.",
+						{
+							"type": "table",
+							"caption": "",
+							"colLabels": [
+								"Arcan Level ",
+								"Manifestation "
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1st level",
+									"{@i Revealed}"
+								],
+								[
+									"9th level ({@i Arcan Inversion}) ",
+									"{@i Inverted}"
+								],
+								[
+									"17th level ({@i True Flame})",
+									"{@i True Form}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aspect Spells",
+					"entries": [
+						"  Some Aspects have a spell table. When you reach the Arcan level shown in the table of an Aspect you know, you gain the listed spells. You always know them, and they don't count against the number of spells you know or prepare from other classes.",
+						{
+							"type": "list",
+							"items": [
+								"  {@b Cost.} To cast an Aspect spell, you must spend 2 Oniric Charges per spell level. Cantrips don't cost Oniric Charges. Some Aspects let you cast certain spells differently, for example without spending Oniric Charges or with a different cost or limit: in that case, the Aspect's text applies.\r",
+								"  {@b Rituals.} You can cast the spells marked (R) that have the ritual tag as rituals, without spending Oniric Charges.\r",
+								"  {@b Level.} You always cast Aspect spells at their lowest level, and you can't cast one of a level higher than the one shown in the Spell Limit column of the Arcan table.\r",
+								"  {@b Ability.} When a spell requires a spellcasting ability, you use your Major Ability. Otherwise, the spells follow the normal rules for range, components, duration, concentration, and targets, unless the Aspect says otherwise."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Strike Modifiers",
+							"entries": [
+								"  When you use {@i Oniric Strike}, you can apply a Strike Modifier you know by spending the additional Oniric Charges it lists. You can apply only one Modifier to each {@i Oniric Strike}; starting at 17th level, you can apply two different ones.",
+								"  Features that trigger when you use {@i Oniric Strike} without requiring additional Oniric Charges aren't Strike Modifiers and don't count against this limit."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Oniric Gauge",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, you learn to gather Oniric Charges, energy born from your Alter Ego's desire to aid you in your battles.",
+				{
+					"type": "entries",
+					"name": "Oniric Charges",
+					"entries": [
+						"The maximum number of Oniric Charges you can have equals your proficiency bonus plus your Major Ability modifier (minimum of 2). When combat begins, if you have fewer than 2 Oniric Charges, you rise to 2."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gathering",
+					"entries": [
+						"  You gather Oniric Charges through combat, in the following ways:",
+						{
+							"type": "list",
+							"items": [
+								"  {@b Impact.} Once per turn, when you hit a hostile creature with a weapon attack, you gain 1 Oniric Charge.\r",
+								"  {@b Retribution.} Once per turn, when you take damage from a hostile creature or succeed on a saving throw against a hostile effect, you gain 1 Oniric Charge."
+							]
+						},
+						"  If both conditions occur during the same interval, you can gain one Charge for each condition, up to your maximum. You can't exceed your maximum number of Oniric Charges or go below 0."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dissipation",
+					"entries": [
+						"  Your Oniric Charges dissipate when you fall {@condition unconscious}. They also dissipate after 1 minute without taking part in combat or another conflict situation."
+					]
+				}
+			]
+		},
+		{
+			"name": "Major Form",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, you can temporarily manifest your Alter Ego in the material world.",
+				"As a bonus action, you activate your Major Form for up to 1 minute. While your Major Form is active:",
+				{
+					"type": "list",
+					"items": [
+						"Your speed increases by 20 feet.\r",
+						"You gain a bonus to saving throws equal to your Major Ability modifier (minimum of +1).\r",
+						"At the start of each of your turns, you gain temporary hit points equal to the number of Oniric Charges you have."
+					]
+				},
+				"Your Major Form ends early if you fall {@condition unconscious} or if you choose to end it as a bonus action.",
+				"You can activate your Major Form once per short or long rest. If you have no uses left, you can activate it by spending 3 Oniric Charges."
+			]
+		},
+		{
+			"name": "Oniric Flame",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, your Alter Ego's gaze takes root in the material world. You can use your {@i Oniric Gaze} as a bonus action. Additionally, when you activate your {@i Oniric Gaze}, you can spend 2 Oniric Charges to kindle the {@i Oniric Flame}: a supernatural flame that manifests in your eye (or one of them, if you have more than one), granting you greater access to your Alter Ego's perceptive powers. While the Oniric Flame is active:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Wisdom ({@skill Perception}) checks.\r",
+						"You can tell a creature hidden by an illusion apart from its apparent image, without necessarily discovering every feature of the illusion.\r",
+						"Creatures you can see within 60 feet of you can't benefit from half cover or three-quarters cover against your attacks and against your effects that require you to see the target. Total cover still grants its normal benefits.\r",
+						"The range of your Oniric Gaze increases to 60 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Alter Major Feature",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				{
+					"type": "inset",
+					"name": "2024 Rules",
+					"entries": [
+						"If you use the 2024 rules: at 4th level and at the other levels listed, the Ability Score Improvement feature is replaced by a feat of your choice (the Ability Score Improvement feat remains available). At 19th level, you instead gain an Epic Boon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
+				"Additionally, if you use your action to take the {@action Dash} or {@action Disengage} action, you can make a single weapon attack as a bonus action."
+			]
+		},
+		{
+			"name": "Oniric Resonance",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 6,
+			"entries": [
+				"At 6th level, your bond with your Alter Ego grows steadier in combat.",
+				"Once per combat, when you meet the {@i Impact} or {@i Retribution} condition of your {@i Oniric Gauge}, you can gather 2 extra Oniric Charges. This extra gathering can't take you above your maximum number of Oniric Charges.",
+				"Additionally, you gain a new {@i Gathering} condition:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Urgency.} Once per turn, and only on your turn, when a hostile creature succeeds on a saving throw you forced it to make, you gain 1 Oniric Charge."
+					]
+				}
+			]
+		},
+		{
+			"name": "Alter Major Feature",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Arcan Inversion",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 9,
+			"entries": [
+				"At 9th level, you learn to manifest your Arcan Aspects by inverting their principles. You can use the {@i Inverted} manifestation of the Arcan Aspects you know, if they have one."
+			]
+		},
+		{
+			"name": "Oniric Strike",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 9,
+			"entries": [
+				"When you take the {@action Attack} action on your turn, once per turn, you can spend 2 Oniric Charges to replace one of your attacks with an Oniric Strike, choosing one of the following manifestations depending on the weapon you're wielding:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Oniric Slash (Melee).} If you're wielding a melee weapon, you unleash a slash of energy. Each creature of your choice within your weapon's reach must make a Dexterity saving throw against your Arcan Aspect save DC.\r",
+						"{@b Oniric Projection (Ranged).} If you're wielding a weapon with the range property, you hurl a projectile of pure energy. Each creature of your choice in a line 5 feet wide and as long as the weapon's normal range must make a Dexterity saving throw against your Arcan Aspect save DC."
+					]
+				},
+				"A creature takes {@damage 2d8} force damage on a failed save, or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "Alter Major Feature",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Dreamwalker",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 12,
+			"entries": [
+				"At 12th level, your bond with the Oniric World lets you cross the threshold between the plane of dreams and material reality.",
+				"You can cast the {@spell dream} spell once without expending a spell slot and without material components, using your Major Ability as your spellcasting ability for it. When you cast the spell this way, the following changes apply:",
+				{
+					"type": "list",
+					"items": [
+						"You are always the messenger.\r",
+						"While you are in the target's dream, you take the form and appearance of your Alter Ego.\r",
+						"If the target is willing, when the spell ends (or when you choose to end it), you can teleport yourself and a number of willing allies within 30 feet of you, up to your proficiency bonus, to an unoccupied, safe space within 300 feet of the target that it has access to. If there is no such space within range, the teleportation fails and the spell ends normally."
+					]
+				},
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Overclock",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 14,
+			"entries": [
+				"At 14th level, by pushing your Oniric capacity to its limit, you can momentarily bend reality to the power of your dreams.",
+				"Once per short or long rest, as a bonus action while your Oniric Charges are at their maximum, you can enter a state of {@b {@i Oniric Hubris}} until the end of your next turn. While in this state, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Nullified Cost.} You can activate the features and cast the spells granted by the Arcan Aspects you know without spending Oniric Charges.\r",
+						"{@b Inviolable Form.} You have resistance to all damage except psychic damage.\r",
+						"{@b Oniric Overload.} Your weapon attacks and class features deal an extra {@damage 1d8} psychic damage."
+					]
+				},
+				"At the end of your next turn, the {@i Oniric Hubris} ends and the energy backlash ravages your body: you take {@damage 4d8} necrotic damage. This damage can't be reduced, prevented, or mitigated in any way (it ignores resistance and immunity)."
+			]
+		},
+		{
+			"name": "Aspect Mastery",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 14,
+			"entries": [
+				"At 14th level, you learn to use your Alter Ego's manifestations more efficiently.",
+				"Once on each of your turns, when you activate an Arcan Aspect feature that costs at least 1 Oniric Charge, you reduce its cost by 1 Charge, to a minimum of 1.",
+				"This benefit also applies to spells granted by Aspects, as long as you cast them on your turn. It doesn't apply to the costs of {@i Major Form}, {@i Oniric Flame}, or other class features that don't come from an Aspect."
+			]
+		},
+		{
+			"name": "Alter Major Feature",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 15,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "True Flame",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 17,
+			"entries": [
+				"At 17th level, your Oniric Flame reveals what lies beyond ordinary perception. While your Oniric Flame is active, the range of your {@i Oniric Gaze} becomes 120 feet, and you gain {@sense truesight} within its range.",
+				"Additionally, you can use the {@i True Form} manifestation of the Arcan Aspects you know, if they have one."
+			]
+		},
+		{
+			"name": "Alter Major Feature",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 18,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Oniric Convergence",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"level": 20,
+			"entries": [
+				"At 20th level, to you reality is a dream, and the Oniric World is reality. Your {@i Major Form} no longer has a duration, and your Oniric Charges don't dissipate unless you fall {@condition unconscious}."
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Arcan",
+			"optionalfeatureProgression": [
+				{
+					"name": "Arcan Aspects",
+					"featureType": [
+						"AA"
+					],
+					"progression": [
+						2,
+						2,
+						2,
+						2,
+						3,
+						3,
+						4,
+						4,
+						5,
+						5,
+						5,
+						6,
+						6,
+						6,
+						7,
+						7,
+						7,
+						8,
+						8,
+						8
+					]
+				}
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"dex"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"tools": [
+					"{@item herbalism kit|phb}, {@item navigator's tools|phb}, or one type of {@item artisan's tools|phb} of your choice"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"athletics",
+								"acrobatics",
+								"insight",
+								"perception",
+								"history",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"subclassTitle": "Alter Major",
+			"source": "KNUSC",
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@filter martial weapon|items|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapons|items|type=martial weapon}",
+					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) two {@item handaxe|phb|handaxes}",
+					"(a) an {@item explorer's pack|phb} or (b) a {@item dungeoneer's pack|phb}"
+				],
+				"goldAlternative": "{@dice 6d4 × 8|6d4 × 8|Starting Gold}"
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"weapons": [
+						"martial"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Aspects Known",
+						"Spell Limit"
+					],
+					"rows": [
+						[
+							"2",
+							"--"
+						],
+						[
+							"2",
+							"1st"
+						],
+						[
+							"2",
+							"1st"
+						],
+						[
+							"2",
+							"1st"
+						],
+						[
+							"3",
+							"2nd"
+						],
+						[
+							"3",
+							"2nd"
+						],
+						[
+							"4",
+							"2nd"
+						],
+						[
+							"4",
+							"2nd"
+						],
+						[
+							"5",
+							"3rd"
+						],
+						[
+							"5",
+							"3rd"
+						],
+						[
+							"5",
+							"3rd"
+						],
+						[
+							"6",
+							"3rd"
+						],
+						[
+							"6",
+							"4th"
+						],
+						[
+							"6",
+							"4th"
+						],
+						[
+							"7",
+							"4th"
+						],
+						[
+							"7",
+							"4th"
+						],
+						[
+							"7",
+							"5th"
+						],
+						[
+							"8",
+							"5th"
+						],
+						[
+							"8",
+							"5th"
+						],
+						[
+							"8",
+							"5th"
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Oniric Gaze|Arcan|KNUSC|1|KNUSC",
+				{
+					"classFeature": "Alter Major|Arcan|KNUSC|1|KNUSC",
+					"gainSubclassFeature": true
+				},
+				"Arcan Aspects|Arcan|KNUSC|1|KNUSC",
+				"Oniric Gauge|Arcan|KNUSC|2|KNUSC",
+				"Major Form|Arcan|KNUSC|2|KNUSC",
+				"Oniric Flame|Arcan|KNUSC|3|KNUSC",
+				{
+					"classFeature": "Alter Major Feature|Arcan|KNUSC|3|KNUSC",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Arcan|KNUSC|4|KNUSC",
+				"Extra Attack|Arcan|KNUSC|5|KNUSC",
+				"Oniric Resonance|Arcan|KNUSC|6|KNUSC",
+				{
+					"classFeature": "Alter Major Feature|Arcan|KNUSC|7|KNUSC",
+					"gainSubclassFeature": true
+				},
+				"Arcan Inversion|Arcan|KNUSC|9|KNUSC",
+				"Oniric Strike|Arcan|KNUSC|9|KNUSC",
+				{
+					"classFeature": "Alter Major Feature|Arcan|KNUSC|10|KNUSC",
+					"gainSubclassFeature": true
+				},
+				"Dreamwalker|Arcan|KNUSC|12|KNUSC",
+				"Overclock|Arcan|KNUSC|14|KNUSC",
+				"Aspect Mastery|Arcan|KNUSC|14|KNUSC",
+				{
+					"classFeature": "Alter Major Feature|Arcan|KNUSC|15|KNUSC",
+					"gainSubclassFeature": true
+				},
+				"True Flame|Arcan|KNUSC|17|KNUSC",
+				{
+					"classFeature": "Alter Major Feature|Arcan|KNUSC|18|KNUSC",
+					"gainSubclassFeature": true
+				},
+				"Oniric Convergence|Arcan|KNUSC|20|KNUSC"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Primary Aspect",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Star",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature XVII – The Star|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+			]
+		},
+		{
+			"name": "Arcane Star",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Star",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of the Star, the symbol of the protection and love the oniric stars hold for you. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Sole Effigy.} If Arcan is your only class when you gain this feature, you gain proficiency in Wisdom saving throws.",
+						"{@b Major Ability.} Your Arcan Major Ability is Dexterity."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Primary Aspect|Arcan|KNUSC|Star|KNUSC|1|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Too Far Away",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Star",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you become as unreachable as the stars in the sky. When you hit a creature with a weapon attack roll, that creature can't make opportunity attacks against you until the start of your next turn."
+			]
+		},
+		{
+			"name": "Star Cannon",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Star",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your Star Alter Ego offers you its weapon to grant you further combat strength. As a bonus action, you can spend 3 Oniric Charges to transform a melee weapon you are wielding into the {@i Star Cannon}. You are proficient with this weapon, and you use your Major Ability for its attack and damage rolls. The Star Cannon has the following statistics:",
+				{
+					"type": "inset",
+					"name": "Star Cannon",
+					"entries": [
+						"{@i Martial ranged weapon}",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Damage:",
+									"entry": "{@damage 1d10} radiant"
+								},
+								{
+									"type": "item",
+									"name": "Range:",
+									"entry": "120/360 ft."
+								},
+								{
+									"type": "item",
+									"name": "Properties:",
+									"entry": "heavy, two-handed, special"
+								}
+							]
+						},
+						"{@b Special.} While you are in your {@i Major Form}, you ignore this weapon's heavy and two-handed properties. While you are wielding this weapon, you benefit from half cover."
+					]
+				},
+				"When your {@i Major Form} ends, or if you summon the Star Cannon outside of that transformation, it persists for 1 minute, or until you transform another weapon into it, or until you return the Star Cannon to its original form as a bonus action.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Too Far Away|Arcan|KNUSC|Star|KNUSC|3|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Arcane Hound",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Star",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, no one marked by you can escape you. When you cast {@spell hunter's mark}, you can spend 1 additional Oniric Charge. If you do, the spell doesn't require concentration. This benefit applies to a single casting of the spell.",
+				"Additionally, when you enter your {@i Major Form}, you can transform one of your weapons into the {@i Star Cannon} at no cost."
+			]
+		},
+		{
+			"name": "Binary Star",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Star",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, you are an unstoppable force in combat. While you are wielding the {@i Star Cannon}, you ignore its heavy and two-handed properties, even when you aren't in your {@i Major Form}.",
+				"Additionally, while you are wielding the Star Cannon and another weapon with the versatile or finesse property, you can make the attack with the other weapon as a bonus action, even if neither weapon is light; you gain a +1 bonus to AC; and you use your Major Ability modifier for the damage rolls of both weapons.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Hound|Arcan|KNUSC|Star|KNUSC|7|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Stellar Cluster",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Star",
+			"subclassSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you and any number of allied creatures of your choice within 60 feet of you benefit from {@i Hidden Star} ({@optfeature XVII – The Star|KNUSC}). If a creature tries, without your consent, to use a divination spell to reveal your face or location, or those of a creature protected by this feature, it must succeed on a Constitution saving throw against your Arcan Aspect save DC. On a failed save, it is {@condition blinded} until the end of its next turn and the attempt fails."
+			]
+		},
+		{
+			"name": "Star Gatling",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Star",
+			"subclassSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you manifest the most powerful version of your arcane cannon. Once on your turn, you can choose one of the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Meteor.} In place of one of your attacks, you can spend any number of Oniric Charges (minimum 1) to make a ranged attack roll with your {@i Star Cannon}. On a hit, the creature takes an extra {@damage 1d6} radiant damage for each Charge spent. This can't be combined with {@i Oniric Strike}.",
+						"{@b Star Shower.} In place of your {@action Attack} action, you can spend 6 Oniric Charges. If you do, each creature in a 30-foot cone in front of your {@i Star Cannon} must make a Dexterity saving throw against your Arcan Aspect save DC, taking {@damage 4d12} radiant damage on a failed save, or half as much damage on a successful one. This can't be combined with {@i Oniric Strike}."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Stellar Cluster|Arcan|KNUSC|Star|KNUSC|10|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Aegis of Will",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Star",
+			"subclassSource": "KNUSC",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, your will is one with your Alter. When you take damage from a hostile creature, or from a magical effect it controls, you can use your reaction to gain one of the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Polaris.} You automatically succeed on the saving throw to maintain concentration on a spell.",
+						"{@b Invigorating Light.} After taking the damage, you gain temporary hit points equal to the damage taken."
+					]
+				},
+				"You can use this feature a number of times equal to your Dexterity modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Major Arcanum: The Star",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Star",
+			"subclassSource": "KNUSC",
+			"level": 18,
+			"entries": [
+				"At 18th level, you and your Alter are a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+				"While the transformation is active, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"The transformation counts as your {@i Major Form} for the benefits of your features and Aspects.",
+						"Any creatures of your choice within 30 feet of you have advantage on Wisdom saving throws and death saving throws, and regain the maximum number of hit points possible from any healing.",
+						"You can manifest two Star Cannons at the same time, and you can switch your weapons between this form and their original form at will (no action required)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Primary Aspect",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Chariot",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature VII – The Chariot|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+			]
+		},
+		{
+			"name": "Perpetual Motion",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Chariot",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"{@i The Alter Major of the Chariot represents determination, ceaseless motion, and the will to overcome any obstacle. Its power manifests through an oniric steed, a construct that fights at the Arcan's side and gradually becomes an extension of their will.}",
+				"When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of the Chariot, the symbol of the tenacity to find new goals. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Major Ability.} Your Arcan Major Ability is Constitution.",
+						"{@b Saving Throw Proficiency.} If Arcan is your only class when you gain this feature, you gain proficiency in Strength saving throws."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Primary Aspect|Arcan|KNUSC|Chariot|KNUSC|1|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Oniric Rider",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Chariot",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your Alter Ego grants you the knowledge needed to fight in the saddle. You gain the {@optfeature Mounted Combatant|KNUSC} fighting style. If you already have this fighting style when you gain this feature, you can instead gain a second fighting style from the Fighter class, as long as you meet its prerequisites; you are considered a Fighter for the purpose of its class prerequisites."
+			]
+		},
+		{
+			"name": "Charioteer's Steed",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Chariot",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your Alter Ego offers you its faithful steed to grant you further combat strength. You gain an oniric steed, which uses the {@creature Charioteer's Steed|KNUSC} stat block.",
+				"Your Charioteer's Steed uses your proficiency bonus (PB) and your Major Ability to determine its saving throw DCs and its attack bonus.",
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"In combat, your Steed acts during your turn. It can move and use its reaction on its own, but the only action it takes is the {@action Dodge} action, unless you take a bonus action to command it to take an action in its stat block or some other action.",
+						"Additionally, whenever you take the {@action Attack} action on your turn, you can forgo one of your attacks to command your Steed to make one attack from its stat block.",
+						"If you are {@condition incapacitated}, your Steed can act on its own and defends you and itself to the best of its ability."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Near Death",
+					"entries": [
+						"If your Steed is reduced to 0 hit points, it makes death saving throws, just like a player character. While the Steed is at 0 hit points, you can use an action to touch it and spend 3 Oniric Charges to stabilize it automatically."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Summoning a New Steed",
+					"entries": [
+						"If your Steed dies, its body turns to ash and then vanishes. You can spend 1 hour performing a ritual, which you can do during a short or long rest, to bring the Steed back to life; it appears in an unoccupied space within 5 feet of you."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oniric Rider|Arcan|KNUSC|Chariot|KNUSC|3|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Rank Breaker",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Chariot",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"At 7th level, when you use the {@i Charge} or {@i Run Down} feature of the {@optfeature VII – The Chariot|KNUSC} Aspect, you can spend 2 additional Oniric Charges. If you do, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Creatures that fail the saving throw can't take reactions until the start of your next turn.",
+						"Allied creatures whose space you move through aren't affected by the feature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Iron Wheels",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Chariot",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, your mount gains the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Multiattack.} When it takes the {@action Attack} action, the mount can make two attacks instead of one, choosing between {@i Hoof} and {@i Steed Gun}. When you forgo one of your attacks to command the mount to attack, it still makes a single attack.",
+						"{@b Oniric Climb.} It can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additionally, you can't fall from it while it climbs this way."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rank Breaker|Arcan|KNUSC|Chariot|KNUSC|7|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Conqueror's Shield",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Chariot",
+			"subclassSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				"At 10th level, while you are riding your {@i Charioteer's Steed}, you and your mount have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+				"Additionally, your mount gains the benefits of your {@i Major Form} while it is active, and it gains the following reaction:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Kick.} When a creature within 5 feet of the Steed hits the Steed or one of its allies with a melee attack, the Steed can make a {@i Hoof} attack against that creature."
+					]
+				}
+			]
+		},
+		{
+			"name": "War Chariot",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Chariot",
+			"subclassSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				"At 10th level, once on your turn while you are mounted, you can empower one use of the {@i Strike Modifier — Rush} in one of the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Breakthrough.} You can spend 2 additional Oniric Charges. The {@i Oniric Strike} deals extra damage equal to your Arcan level. Additionally, your mount has advantage on its next attack roll.",
+						"{@b Nitro.} You can spend 2 additional Oniric Charges. Before the feature resolves, you can move up to 30 feet instead of 15 feet. After the feature, you or your mount can make one weapon attack against a creature within your reach."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Conqueror's Shield|Arcan|KNUSC|Chariot|KNUSC|10|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Oniric Strike — Shared Charge",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Chariot",
+			"subclassSource": "KNUSC",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, the bond between you and your mount lets you channel your power through its attacks. When you take the {@action Attack} action and forgo one of your attacks to command your mount to attack, you can spend 2 Oniric Charges to replace the mount's attack with an {@i Oniric Strike}.",
+				"When you use this ability:",
+				{
+					"type": "list",
+					"items": [
+						"The {@i Oniric Strike} originates from the space occupied by the mount.",
+						"For {@i Oniric Slash}, the mount is the origin of the effect.",
+						"For {@i Oniric Projection}, the mount is the origin of the line.",
+						"You use your Arcan Aspect save DC.",
+						"You can apply a {@i Strike Modifier} normally, following its costs and limitations."
+					]
+				},
+				"The {@i Oniric Strike} replaces one of the mount's attacks and doesn't require an attack roll from it."
+			]
+		},
+		{
+			"name": "Will of the Chariot",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Chariot",
+			"subclassSource": "KNUSC",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, your will and your mount's become inseparable. When your mount takes damage from a hostile creature or from a magical effect it controls, you can use your reaction to grant one of the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Stainless Tenacity.} The mount gains resistance to the damage type it took until the end of your next turn. This resistance also applies to the damage that triggered the reaction, halving it.",
+						"{@b Countercharge.} The mount can move up to half its speed without provoking opportunity attacks. If it ends this movement within 5 feet of a hostile creature, it can make a {@i Hoof} attack and use the {@i Charge} feature of the {@optfeature VII – The Chariot|KNUSC} Aspect without spending Oniric Charges, as long as it meets the movement requirement."
+					]
+				},
+				"You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oniric Strike — Shared Charge|Arcan|KNUSC|Chariot|KNUSC|15|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Major Arcanum: The Chariot",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Chariot",
+			"subclassSource": "KNUSC",
+			"level": 18,
+			"entries": [
+				"At 18th level, you and your Alter become a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+				"While the transformation is active, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Major Form.} The transformation counts as your {@i Major Form} for the benefits of your features and Aspects.",
+						"{@b True Form.} The True Form of the {@optfeature VII – The Chariot|KNUSC} Aspect is always active.",
+						"{@b Unstoppable Stun.} Once per turn, when you use {@i Charge} or {@i Run Down}, you can cause one creature that fails the saving throw to also be {@condition stunned} until the start of your next turn.",
+						"{@b Unstoppable Charge.} You and your mount can move through the spaces of hostile creatures without spending extra movement. Each creature whose space you move through must succeed on a Strength saving throw against your Arcan Aspect save DC or be knocked {@condition prone}. A creature can be targeted by this effect only once per turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Primary Aspect",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Death",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature XIII – Death|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+			]
+		},
+		{
+			"name": "Circle of Life",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Death",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of Death, the symbol of the reaping darkness that, in dreams, gives new life to what has already passed away. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Major Ability.} Your Arcan Major Ability is Wisdom.",
+						"{@b Saving Throw Proficiency.} If Arcan is your only class when you gain this feature, you gain proficiency in Charisma saving throws."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Primary Aspect|Arcan|KNUSC|Death|KNUSC|1|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Oniric Familiar",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Death",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you learn the {@spell find familiar} spell. When you cast this spell, the summoned creature is always your {@creature Arcane Skull|KNUSC}."
+			]
+		},
+		{
+			"name": "Arcane Skull",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Death",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your Alter Ego grants you the power to give life to death. You gain a servant, which uses the {@creature Arcane Skull|KNUSC} stat block.",
+				"Your Arcane Skull uses your proficiency bonus (PB) and your Major Ability to determine its saving throw DCs and its attack bonus.",
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"In combat, your Skull acts during your turn. It can move and use its reaction on its own, but the only action it takes is the {@action Dodge} action, unless you take a bonus action to command it to take an action in its stat block or some other action.",
+						"If you are {@condition incapacitated}, your Skull can act on its own and defends you and itself to the best of its ability."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ephemeral",
+					"entries": [
+						"If your Skull is reduced to 0 hit points, it is destroyed, crumbling into ash."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Summoning a New Skull",
+					"entries": [
+						"If your Skull is destroyed, you can summon a new one by casting the {@spell find familiar} spell."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oniric Familiar|Arcan|KNUSC|Death|KNUSC|3|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Militia Horribilis",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Death",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, your connection to the oniric underworld lets you rouse its restless spirits. As an action, you can spend 5 Oniric Charges and sacrifice all your Arcane Skulls to summon a swarm of skeletons centered on you, which uses the {@creature Oniric Hecatomb|KNUSC} stat block.",
+				"Your Oniric Hecatomb uses your proficiency bonus (PB) and your Major Ability to determine its saving throw DCs and its attack bonus.",
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"In combat, the swarm acts during your turn. It can move and use its reaction on its own, but the only action it takes is the {@action Dodge} action, unless you take a bonus action to command it to take an action in its stat block or some other action.",
+						"If you are {@condition incapacitated}, your swarm can act on its own and defends you and itself to the best of its ability."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ephemeral",
+					"entries": [
+						"The swarm is destroyed, crumbling into ash, 10 minutes after it is summoned, when it drops to 0 hit points, when you dismiss it as a bonus action, or when you summon a new swarm."
+					]
+				}
+			]
+		},
+		{
+			"name": "Grim Watcher",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Death",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, just as Death watches over everything, you gain more eyes with which to watch your enemies. When you cast {@spell find familiar}, you can choose to summon one Medium Arcane Skull or two Small Arcane Skulls (each using the statistics for its size).",
+				"While you control two Arcane Skulls, they count as a single familiar for the spell's effects, and you can command both with the same bonus action. You can see through the senses of only one Skull at a time, and when you recall or dismiss them, you can recall or dismiss them one at a time or both together.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Militia Horribilis|Arcan|KNUSC|Death|KNUSC|7|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Undying Swarm",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Death",
+			"subclassSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain the ability to sever your oniric army from death itself. As a bonus action, you can spend 2 Oniric Charges to have an {@creature Arcane Skull|KNUSC} or {@creature Oniric Hecatomb|KNUSC} you control regain {@dice 1d8} + your Major Ability modifier hit points.",
+				"Additionally, while you are in your swarm's space, you have total cover against ranged attack rolls."
+			]
+		},
+		{
+			"name": "One with Death",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Death",
+			"subclassSource": "KNUSC",
+			"level": 15,
+			"entries": [
+				"At 15th level, you become almost one with your oniric servants. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Shared Reaping.} When you use {@i Oniric Strike}, if you control an Arcane Skull, an Oniric Hecatomb, or a Bone Titan within 30 feet of you, you can have the feature originate from that creature's space instead of yours. For {@i Oniric Slash}, the creature is the origin of the effect; for {@i Oniric Projection}, the creature is the origin of the line. You still use your Arcan Aspect save DC, and you can apply a {@i Strike Modifier} normally.",
+						"{@b Skeletal Legacy.} When an Arcane Skull, an Oniric Hecatomb, or a Bone Titan within 30 feet of you drops to 0 hit points because of damage from an attack, spell, or effect of a hostile creature, you gain 3 Oniric Charges.",
+						"{@b Bound by Form.} The Arcane Skulls, Oniric Hecatombs, and Bone Titans you control persist for their normal duration or for as long as you are in your {@i Major Form}, whichever is longer."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bone Titan",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Death",
+			"subclassSource": "KNUSC",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain access to the most powerful form of oniric necromancy, gaining the ability to summon a {@creature Bone Titan|KNUSC}. As part of the same bonus action you use for your {@i Overclock} feature, you can transform your Arcane Skulls or your Oniric Hecatomb into a Bone Titan, which occupies the space of the sacrificed minion (if you controlled two Arcane Skulls, the space of one of them of your choice, or an unoccupied space within 5 feet of it).",
+				"Your Bone Titan uses your proficiency bonus (PB) and your Major Ability to determine its saving throw DCs and its attack bonus.",
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"In combat, the titan acts during your turn. It can move and use its reaction on its own, but the only action it takes is the {@action Dodge} action, unless you take a bonus action to command it to take an action in its stat block or some other action. The titan is also a valid target for your {@i Undying Swarm} feature.",
+						"If you are {@condition incapacitated}, your titan can act on its own and defends you and itself to the best of its ability."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ephemeral",
+					"entries": [
+						"The titan is destroyed, crumbling into ash, 1 minute after it is summoned, when it drops to 0 hit points, when you dismiss it as a bonus action, or when you summon a new titan."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "One with Death|Arcan|KNUSC|Death|KNUSC|15|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Major Arcanum: Death",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Death",
+			"subclassSource": "KNUSC",
+			"level": 18,
+			"entries": [
+				"Starting at 18th level, you and your Alter become a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+				"While the transformation is active, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Major Form.} The transformation counts as your {@i Major Form} for the purposes of your features and Aspects.",
+						"{@b True Form.} The True Form of the {@optfeature XIII – Death|KNUSC} Aspect is always active.",
+						"{@b Perpetual Reaping.} Once per turn, when you or an Arcane Skull, Oniric Hecatomb, or Bone Titan you control reduces a creature to 0 hit points, you regain 1 Oniric Charge, and the creature you control regains hit points equal to your Wisdom modifier + your proficiency bonus.",
+						"{@b Risen Titan.} If your Bone Titan drops to 0 hit points during the transformation, you can spend 6 Oniric Charges to restore it to half its hit point maximum (only once per transformation)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Primary Aspect",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Strength",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature VIII – Strength|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+			]
+		},
+		{
+			"name": "Will Made Flesh",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Strength",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of Strength, the symbol of will made matter. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Major Ability.} Your Arcan Major Ability is Strength.",
+						"{@b Saving Throw Proficiency.} If Arcan is your only class when you gain this feature, you gain proficiency in Strength saving throws."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Primary Aspect|Arcan|KNUSC|Strength|KNUSC|1|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Ogre Shotgun",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Strength",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your Ogre Arms are fearsome even at close range. While your arms are transformed into {@i Ogre Arms}, when you take the {@action Attack} action, you can spend 2 Oniric Charges to replace one of your attacks with a blast in a 10-foot cone originating from you. Each creature in the cone must make a Dexterity saving throw against your Arcan Aspect save DC. On a failed save, a creature takes {@damage 2d6} force damage and is pushed 10 feet away from you; on a successful save, it takes half as much damage and isn't pushed."
+			]
+		},
+		{
+			"name": "Ogre Arms",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Strength",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your Alter literally lends you its hands. As a bonus action, you can spend 3 Oniric Charges to transform your arms into gigantic mechanical limbs. While your arms are in this form, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your unarmed strikes with your hands deal {@damage 2d6} bludgeoning damage. They count as melee weapon attacks for the purposes of the {@i Impact} condition and the {@i Oniric Strike} feature.",
+						"You gain a +2 bonus to AC.",
+						"You count as two sizes larger when grappling or restraining a creature, when resisting being grappled or restrained, and when escaping these conditions.",
+						"You can't wield weapons or shields of Medium size or smaller. When you take the {@action Use an Object} action, you must succeed on a Dexterity ({@skill Sleight of Hand}) check with a DC based on the object's size, as shown in the table below."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Object Size",
+						"DC"
+					],
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"Tiny",
+							"Impossible"
+						],
+						[
+							"Small",
+							"19"
+						],
+						[
+							"Medium",
+							"15"
+						],
+						[
+							"Large",
+							"10"
+						],
+						[
+							"Huge",
+							"5"
+						],
+						[
+							"Gargantuan",
+							"No check"
+						]
+					]
+				},
+				"When your {@i Major Form} ends, or if you transform your arms into Ogre Arms outside of that transformation, they persist for 1 minute or until you return them to their original form as a bonus action.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ogre Shotgun|Arcan|KNUSC|Strength|KNUSC|3|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Combat Might",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Strength",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"At 7th level, your body is a banner of power. You have advantage on Strength checks and Strength saving throws."
+			]
+		},
+		{
+			"name": "Mechanical Fury",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Strength",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"At 7th level, while your Ogre Arms persist, no one wants to be the target of your wrath. As a bonus action, you can spend 3 Oniric Charges to make two unarmed strikes with your Ogre Arms. Additionally, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Combat Might|Arcan|KNUSC|Strength|KNUSC|7|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Strength Pile Driver",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Strength",
+			"subclassSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				"At 10th level, being grappled by you is a death sentence. Your Ogre Arms become four arms, and your reach with them becomes 10 feet. You can grapple up to four creatures of your size or smaller, using one arm for each; a creature you grapple with two arms is also {@condition restrained}.",
+				"Additionally, when you take the {@action Attack} action against a creature you are grappling, you can spend 2 Oniric Charges to make one additional unarmed strike with your Ogre Arms against that creature, up to a maximum of two additional strikes per turn."
+			]
+		},
+		{
+			"name": "Ogre Pounce",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Strength",
+			"subclassSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				"At 10th level, your fighting instincts make you a fearsome war machine. When combat begins, you can forgo the 2 starting Oniric Charges of your {@i Oniric Gauge} feature to transform your arms into {@i Ogre Arms} (no action required). Additionally, you can take the {@action Dash} action as a bonus action if you move toward a hostile creature.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Strength Pile Driver|Arcan|KNUSC|Strength|KNUSC|10|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Oniric Strike — Colossus Throw",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Strength",
+			"subclassSource": "KNUSC",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, you can turn your prisoners, or your allies, into projectiles. When you use {@i Oniric Strike} while you are grappling or restraining a creature smaller than you with your {@i Ogre Arms}, you can hurl it toward a point you can see within 30 feet of you. The creature lands in the unoccupied space nearest to that point and stops being grappled and restrained.",
+				"When you use this ability:",
+				{
+					"type": "list",
+					"items": [
+						"The {@i Oniric Strike} originates from the landing point, as an {@i Oniric Slash} that affects creatures of your choice within 10 feet of that point.",
+						"If the hurled creature is hostile, it automatically fails the saving throw, takes the feature's damage, and falls {@condition prone}.",
+						"If the hurled creature is a willing ally, it takes no damage, lands on its feet, and can use its reaction to make one weapon attack against a creature within its reach.",
+						"You use your Arcan Aspect save DC, and you can apply a {@i Strike Modifier} normally, following its costs and limitations."
+					]
+				}
+			]
+		},
+		{
+			"name": "Will of Steel",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Strength",
+			"subclassSource": "KNUSC",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, your will and your Alter's are one. When you or an allied creature within 10 feet of you is hit by an attack, you can use your reaction to gain one of the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Fist Shield.} You interpose your arms: the damage of that attack is reduced by {@dice 2d12} + your Major Ability modifier.",
+						"{@b Retaliatory Grab.} If the attacker is within your reach, you automatically grapple it, with no saving throw or check allowed, as long as you have a free arm and the creature is your size or smaller."
+					]
+				},
+				"You can use this feature a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses when you finish a long rest. If you have no uses left, you can use this feature by spending 3 Oniric Charges.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oniric Strike — Colossus Throw|Arcan|KNUSC|Strength|KNUSC|15|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Major Arcanum: Strength",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Strength",
+			"subclassSource": "KNUSC",
+			"level": 18,
+			"entries": [
+				"At 18th level, you and your Alter become a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+				"While the transformation is active, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Major Form.} The transformation counts as your {@i Major Form} for the purposes of your features and Aspects.",
+						"{@b True Form.} The True Form of the {@optfeature VIII – Strength|KNUSC} Aspect is always active.",
+						"{@b Arms of the Colossus.} Your arms become {@i Ogre Arms} without spending Oniric Charges. Your unarmed strikes with your Ogre Arms deal {@damage 3d6} magical bludgeoning damage.",
+						"{@b Strength in Sacrifice.} Once during the transformation, when an allied creature you can see within 60 feet of you would drop to 0 hit points or fewer because of damage from an attack, a spell with an attack roll, or an effect of a hostile creature, you can appear in an unoccupied space next to it (no action required). If you do, you take the damage instead of that creature, as if you were the target."
+					]
+				}
+			]
+		},
+		{
+			"name": "Primary Aspect",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Devil",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature XV – The Devil|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+			]
+		},
+		{
+			"name": "Golden Pact",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Devil",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of the Devil, a golden sovereign who reigns over the Other World and demands a price for every favor granted. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Major Ability.} Your Arcan Major Ability is Charisma.",
+						"{@b Saving Throw Proficiency.} If Arcan is your only class when you gain this feature, you gain proficiency in Constitution saving throws."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Primary Aspect|Arcan|KNUSC|Devil|KNUSC|1|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Hell on Earth",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Devil",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your King Saw is a glimpse into the underworld. When you deal fire damage to a creature with your {@i King Saw}, you can spend 2 Oniric Charges to apply one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Hampering Burn.} The creature must succeed on a Constitution saving throw against your Arcan Aspect save DC or have its speed halved until the end of its next turn.",
+						"{@b Hellfire.} Until the start of your next turn, whenever the creature takes fire damage, it takes an extra {@damage 1d4} fire damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "King Saw",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Devil",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your Alter entrusts you with its royal blade. As a bonus action, you can spend 3 Oniric Charges to transform a melee weapon you are wielding into the {@i King Saw}. You are proficient with this weapon, and you use your Major Ability for its attack and damage rolls. The King Saw has the following statistics:",
+				{
+					"type": "inset",
+					"name": "King Saw",
+					"entries": [
+						"{@i Martial melee weapon}",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Damage:",
+									"entry": "{@damage 1d12} slashing"
+								},
+								{
+									"type": "item",
+									"name": "Reach:",
+									"entry": "10 ft."
+								},
+								{
+									"type": "item",
+									"name": "Properties:",
+									"entry": "heavy, two-handed, reach, special"
+								}
+							]
+						},
+						"{@b Special.} Once per turn, when you hit a creature with the King Saw, you can make the blade blaze with golden flames: that attack's damage becomes fire damage."
+					]
+				},
+				"When your {@i Major Form} ends, or if you summon the King Saw outside of that transformation, it persists for 1 minute, or until you transform another weapon into it, or until you return the King Saw to the weapon's original form as a bonus action.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hell on Earth|Arcan|KNUSC|Devil|KNUSC|3|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Golden Skin",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Devil",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"At 7th level, your Alter's fire flows beneath your skin. You have resistance to fire damage. Additionally, during your {@i Major Form}, when a creature within 5 feet of you hits you with a melee attack, it takes fire damage equal to your Major Ability modifier."
+			]
+		},
+		{
+			"name": "Bloodlust",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Devil",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"At 7th level, your blade always returns to its sovereign. When you take the {@action Attack} action while wielding the {@i King Saw}, you can spend 2 Oniric Charges to replace one of your attacks with a throw of the blade, with a range of 30/60 feet. If you hit, you can make a second attack roll against a different creature within 10 feet of the first target. After the attacks, the King Saw returns to your hand.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Golden Skin|Arcan|KNUSC|Devil|KNUSC|7|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Broken Seal",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Devil",
+			"subclassSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				"At 10th level, the flames of the Other World know no obstacle. Fire damage you deal with your features, your Arcan Aspects, and the {@i King Saw} ignores resistance to fire damage, and treats immunity to fire damage as resistance."
+			]
+		},
+		{
+			"name": "Sovereign Terror",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Devil",
+			"subclassSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				"At 10th level, your mere presence bends the will of others. As a bonus action, you can spend 2 Oniric Charges and choose one creature within 30 feet of you that can see you. The creature must succeed on a Wisdom saving throw against your Arcan Aspect save DC or be {@condition frightened} of you for 1 minute. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success.",
+				"Additionally, when you hit a creature that is frightened of you with the {@i King Saw}, you deal an extra {@damage 2d6} psychic damage.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Broken Seal|Arcan|KNUSC|Devil|KNUSC|10|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Infernal Clause",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Devil",
+			"subclassSource": "KNUSC",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, no being escapes your wrath without your consent. When a hostile creature within 60 feet of you succeeds on a saving throw against one of your features, one of your Arcan Aspects, or a spell granted by them, you can use your reaction to force it to reroll the saving throw. It must use the new roll, and if it succeeds again, you take {@damage 2d8} psychic damage.",
+				"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Major Arcanum: The Devil",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Devil",
+			"subclassSource": "KNUSC",
+			"level": 18,
+			"entries": [
+				"At 18th level, you and your Alter become a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+				"While the transformation is active, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Major Form.} The transformation counts as your {@i Major Form} for the purposes of your features and Aspects.",
+						"{@b True Form.} The True Form of the {@optfeature XV – The Devil|KNUSC} Aspect is always active.",
+						"{@b Black and Gold King.} You wield the {@i King Saw} without spending Oniric Charges. Its reach becomes 15 feet, and its damage becomes {@damage 2d12}.",
+						"{@b Infernal Dominion.} While this transformation is active, creatures that fail their saving throw against becoming {@condition frightened} of you are also under the effects of {@spell dominate monster} for as long as they remain frightened. You can have up to three creatures under this effect; after that, you can't use this benefit again until you next take this form."
+					]
+				}
+			]
+		},
+		{
+			"name": "Primary Aspect",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Moon",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"When you choose this archetype at 1st level, your Alter lends you its power to aid you in the material world. You gain the {@optfeature XVIII – The Moon|KNUSC} Arcan Aspect. This Aspect doesn't count against your number of Aspects Known, and you ignore any prerequisite for it."
+			]
+		},
+		{
+			"name": "Selenic Essence",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Moon",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"When you choose this archetype at 1st level, a new entity is born from your soul in the Oniric World: an Alter of the Moon. You are the moon's reflection, and the moon is yours. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Major Ability.} Your Arcan Major Ability is Intelligence.",
+						"{@b Saving Throw Proficiency.} If Arcan is your only class when you gain this feature, you gain proficiency in Intelligence saving throws."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Primary Aspect|Arcan|KNUSC|Moon|KNUSC|1|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Mirror Analysis",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Moon",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you look at every creature as if in a mirror, uncovering its flaws. When you activate your {@i Oniric Gaze}, you can choose one creature you can see within its range: you learn its lowest saving throw, as well as its damage vulnerabilities, resistances, and immunities."
+			]
+		},
+		{
+			"name": "Reflection in the Water",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Moon",
+			"subclassSource": "KNUSC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your Alter manifests as a perfect copy of you, but white. When you use your {@i Lunar Echo} feature, you can spend 1 additional Oniric Charge to empower your illusory duplicate as follows:",
+				{
+					"type": "entries",
+					"name": "Statistics",
+					"entries": [
+						"The duplicate has your AC and creature type, has 1 hit point, and is immune to all conditions. It isn't destroyed when it takes damage unless that damage reduces it to 0 hit points."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"As a bonus action, you can move the duplicate up to 30 feet to a space where you can see it. Additionally, when you take the {@action Attack} action, you can forgo one of your attacks to have the duplicate make an attack with a copy of your weapon from its space, using your attack bonus and your damage; the damage is the weapon's damage, but it is psychic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Duration",
+					"entries": [
+						"When your {@i Major Form} ends, or if you summon the duplicate outside of that transformation, it persists for 1 minute, until it drops to 0 hit points, or until you dismiss it as a bonus action."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mirror Analysis|Arcan|KNUSC|Moon|KNUSC|3|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Eyes of the Moon",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Moon",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"At 7th level, the moon aids you by lending you its eyes. As an action, you can see through your {@i Lunar Echo}'s eyes and hear through its ears; if you don't have a duplicate, you can summon one as part of this action without spending Oniric Charges. During this time, you are {@condition deafened} and {@condition blinded}, and the duplicate doesn't disappear when its normal duration ends.",
+				"You can maintain this effect for up to 10 minutes, and you can end it at any time (no action required). When it ends, your duplicate reappears in an unoccupied space within 15 feet of you, and its remaining duration is 1 minute.",
+				"Once you use this feature, you can use it again when you finish a short or long rest. If you have no uses left, you can spend 8 Oniric Charges to regain its use."
+			]
+		},
+		{
+			"name": "Shattered Mirror",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Moon",
+			"subclassSource": "KNUSC",
+			"level": 7,
+			"entries": [
+				"At 7th level, even your shattered copy is a weapon. When your {@i Lunar Echo} drops to 0 hit points, it shatters: each creature of your choice within 10 feet of it must make a Dexterity saving throw against your Arcan Aspect save DC, taking {@damage 2d6} slashing damage on a failed save, or half as much damage on a successful one.",
+				"Additionally, when you activate your {@i Major Form}, you can summon your {@i Lunar Echo} without spending Oniric Charges.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eyes of the Moon|Arcan|KNUSC|Moon|KNUSC|7|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "Twin Nightmare",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Moon",
+			"subclassSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				"At 10th level, your nightmares are reflected as in a mirror. When you use the {@i Nightmare} feature of the {@optfeature XVIII – The Moon|KNUSC} Aspect, you can have it originate from your {@i Lunar Echo}'s space and choose a second creature within 30 feet of the duplicate as a target, without spending additional Oniric Charges. Additionally, while the frightened creatures can see you or your duplicate, they have disadvantage on subsequent saving throws against your {@i Nightmare}."
+			]
+		},
+		{
+			"name": "Lunar Phases",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Moon",
+			"subclassSource": "KNUSC",
+			"level": 10,
+			"entries": [
+				"At 10th level, your copy reflects the phases of the moon. When you summon your {@i Lunar Echo}, you can spend 2 additional Oniric Charges. If you do, choose one of the following phases, which lasts as long as the duplicate persists:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Full Moon.} The duplicate sheds bright light in a 20-foot radius. Allied creatures within the light have resistance to psychic damage and advantage on saving throws against being {@condition frightened}.",
+						"{@b New Moon.} The duplicate is shrouded in darkness: attack rolls against it have disadvantage, and attacks made through it deal an extra {@damage 1d8} psychic damage."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Twin Nightmare|Arcan|KNUSC|Moon|KNUSC|10|KNUSC"
+				}
+			]
+		},
+		{
+			"name": "The True Moon Is the Reflection",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Moon",
+			"subclassSource": "KNUSC",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, not even you know which of the two is the copy. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Reality in Fiction.} Creatures without {@sense truesight} can't tell you apart from your {@i Lunar Echo} duplicate.",
+						"{@b Lunar Eclipse.} When you drop to 0 hit points but aren't killed outright, if your {@i Lunar Echo} is within 30 feet of you, you can decide that you were the copy: the duplicate shatters without triggering {@i Shattered Mirror}, and you appear in its space with a number of hit points equal to your Intelligence modifier + twice your Arcan level."
+					]
+				},
+				"Once you use Lunar Eclipse, you can't do so again until you finish a long rest, unless you spend 8 Oniric Charges to regain its use."
+			]
+		},
+		{
+			"name": "Major Arcanum: The Moon",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassShortName": "Moon",
+			"subclassSource": "KNUSC",
+			"level": 18,
+			"entries": [
+				"At 18th level, you and your Alter become a single entity. As a bonus action, you can transform into your Major Arcanum form for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.",
+				"While the transformation is active, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Major Form.} The transformation counts as your {@i Major Form} for the purposes of your features and Aspects.",
+						"{@b Persistent Nightmare.} The duplicates you summon with {@i Lunar Echo} have hit points equal to twice your Arcan level, but they can't benefit from effects that restore hit points.",
+						"{@b Two Moons.} You can summon and control up to two duplicates at the same time with {@i Lunar Echo}, and when you use {@i Lunar Phases}, each duplicate has a different phase. You can command both duplicates with the same bonus action.",
+						"{@b Faceless Night.} When a hostile creature targets you with an attack while at least one {@i Lunar Echo} is within 30 feet of you, roll a {@dice d20}: on an 11 or lower, the attack targets a duplicate of your choice instead."
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Alter of the Star",
+			"shortName": "Star",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassFeatures": [
+				"Arcane Star|Arcan|KNUSC|Star|KNUSC|1|KNUSC",
+				"Star Cannon|Arcan|KNUSC|Star|KNUSC|3|KNUSC",
+				"Binary Star|Arcan|KNUSC|Star|KNUSC|7|KNUSC",
+				"Star Gatling|Arcan|KNUSC|Star|KNUSC|10|KNUSC",
+				"Aegis of Will|Arcan|KNUSC|Star|KNUSC|15|KNUSC",
+				"Major Arcanum: The Star|Arcan|KNUSC|Star|KNUSC|18|KNUSC"
+			]
+		},
+		{
+			"name": "Alter of the Chariot",
+			"shortName": "Chariot",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassFeatures": [
+				"Perpetual Motion|Arcan|KNUSC|Chariot|KNUSC|1|KNUSC",
+				"Charioteer's Steed|Arcan|KNUSC|Chariot|KNUSC|3|KNUSC",
+				"Iron Wheels|Arcan|KNUSC|Chariot|KNUSC|7|KNUSC",
+				"War Chariot|Arcan|KNUSC|Chariot|KNUSC|10|KNUSC",
+				"Will of the Chariot|Arcan|KNUSC|Chariot|KNUSC|15|KNUSC",
+				"Major Arcanum: The Chariot|Arcan|KNUSC|Chariot|KNUSC|18|KNUSC"
+			]
+		},
+		{
+			"name": "Alter of Death",
+			"shortName": "Death",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassFeatures": [
+				"Circle of Life|Arcan|KNUSC|Death|KNUSC|1|KNUSC",
+				"Arcane Skull|Arcan|KNUSC|Death|KNUSC|3|KNUSC",
+				"Grim Watcher|Arcan|KNUSC|Death|KNUSC|7|KNUSC",
+				"Undying Swarm|Arcan|KNUSC|Death|KNUSC|10|KNUSC",
+				"Bone Titan|Arcan|KNUSC|Death|KNUSC|15|KNUSC",
+				"Major Arcanum: Death|Arcan|KNUSC|Death|KNUSC|18|KNUSC"
+			]
+		},
+		{
+			"name": "Alter of Strength",
+			"shortName": "Strength",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassFeatures": [
+				"Will Made Flesh|Arcan|KNUSC|Strength|KNUSC|1|KNUSC",
+				"Ogre Arms|Arcan|KNUSC|Strength|KNUSC|3|KNUSC",
+				"Mechanical Fury|Arcan|KNUSC|Strength|KNUSC|7|KNUSC",
+				"Ogre Pounce|Arcan|KNUSC|Strength|KNUSC|10|KNUSC",
+				"Will of Steel|Arcan|KNUSC|Strength|KNUSC|15|KNUSC",
+				"Major Arcanum: Strength|Arcan|KNUSC|Strength|KNUSC|18|KNUSC"
+			]
+		},
+		{
+			"name": "Alter of the Devil",
+			"shortName": "Devil",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassFeatures": [
+				"Golden Pact|Arcan|KNUSC|Devil|KNUSC|1|KNUSC",
+				"King Saw|Arcan|KNUSC|Devil|KNUSC|3|KNUSC",
+				"Bloodlust|Arcan|KNUSC|Devil|KNUSC|7|KNUSC",
+				"Sovereign Terror|Arcan|KNUSC|Devil|KNUSC|10|KNUSC",
+				"Infernal Clause|Arcan|KNUSC|Devil|KNUSC|15|KNUSC",
+				"Major Arcanum: The Devil|Arcan|KNUSC|Devil|KNUSC|18|KNUSC"
+			]
+		},
+		{
+			"name": "Alter of the Moon",
+			"shortName": "Moon",
+			"source": "KNUSC",
+			"className": "Arcan",
+			"classSource": "KNUSC",
+			"subclassFeatures": [
+				"Selenic Essence|Arcan|KNUSC|Moon|KNUSC|1|KNUSC",
+				"Reflection in the Water|Arcan|KNUSC|Moon|KNUSC|3|KNUSC",
+				"Shattered Mirror|Arcan|KNUSC|Moon|KNUSC|7|KNUSC",
+				"Lunar Phases|Arcan|KNUSC|Moon|KNUSC|10|KNUSC",
+				"The True Moon Is the Reflection|Arcan|KNUSC|Moon|KNUSC|15|KNUSC",
+				"Major Arcanum: The Moon|Arcan|KNUSC|Moon|KNUSC|18|KNUSC"
+			]
+		}
+	]
+}

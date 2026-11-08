@@ -119,11 +119,11 @@ Libreria homebrew in formato 5eTools, generata con Echo Library Builder per la F
 - **LLOC** — Laserllama's Original Classes (v1.0.0)
 
 ## Contenuti
-- Creature: 3776
+- Creature: 3780
 - Oggetti di scena: 20
 - Veicoli: 32
 - Incantesimi: 664
-- Opzioni di classe: 928
+- Opzioni di classe: 950
 - Specie / razze: 149
 - Sottorazze: 91
 - Background: 103
@@ -154,8 +154,8 @@ Libreria homebrew in formato 5eTools, generata con Echo Library Builder per la F
 - Strutture del bastione: 18
 - Migliorie dei veicoli: 22
 - Altro (JSON libero): 402
-- Classi: 38
-- Sottoclassi: 382
+- Classi: 39
+- Sottoclassi: 388
 
 ## Usarla nella suite
 
