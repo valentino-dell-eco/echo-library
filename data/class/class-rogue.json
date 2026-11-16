@@ -694,7 +694,7 @@
 			"name": "Mage Hand Legerdemain",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -716,7 +716,7 @@
 			"name": "Spellcasting",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -794,7 +794,7 @@
 			"name": "Arcane Trickster",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -802,11 +802,11 @@
 				"Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mage Hand Legerdemain|Rogue|PHB|Arcane Trickster|PHB|3|PHB"
+					"subclassFeature": "Mage Hand Legerdemain|Rogue|XPHB|Arcane Trickster|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Rogue|PHB|Arcane Trickster|PHB|3|PHB"
+					"subclassFeature": "Spellcasting|Rogue|XPHB|Arcane Trickster|PHB|3|PHB"
 				}
 			]
 		},
@@ -814,7 +814,7 @@
 			"name": "Magical Ambush",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 9,
@@ -826,7 +826,7 @@
 			"name": "Versatile Trickster",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 13,
@@ -838,7 +838,7 @@
 			"name": "Spell Thief",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Arcane Trickster",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -852,7 +852,7 @@
 			"name": "Assassinate",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -864,7 +864,7 @@
 			"name": "Bonus Proficiencies",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -876,7 +876,7 @@
 			"name": "Assassin",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -885,11 +885,11 @@
 				"Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Assassinate|Rogue|PHB|Assassin|PHB|3|PHB"
+					"subclassFeature": "Assassinate|Rogue|XPHB|Assassin|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Rogue|PHB|Assassin|PHB|3|PHB"
+					"subclassFeature": "Bonus Proficiencies|Rogue|XPHB|Assassin|PHB|3|PHB"
 				}
 			]
 		},
@@ -897,7 +897,7 @@
 			"name": "Infiltration Expertise",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 9,
@@ -910,7 +910,7 @@
 			"name": "Impostor",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 13,
@@ -923,7 +923,7 @@
 			"name": "Death Strike",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Assassin",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -935,7 +935,7 @@
 			"name": "Fast Hands",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -947,7 +947,7 @@
 			"name": "Second-Story Work",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -960,7 +960,7 @@
 			"name": "Thief",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -968,11 +968,11 @@
 				"You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fast Hands|Rogue|PHB|Thief|PHB|3|PHB"
+					"subclassFeature": "Fast Hands|Rogue|XPHB|Thief|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Second-Story Work|Rogue|PHB|Thief|PHB|3|PHB"
+					"subclassFeature": "Second-Story Work|Rogue|XPHB|Thief|PHB|3|PHB"
 				}
 			]
 		},
@@ -980,7 +980,7 @@
 			"name": "Supreme Sneak",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 9,
@@ -992,7 +992,7 @@
 			"name": "Use Magic Device",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 13,
@@ -1004,7 +1004,7 @@
 			"name": "Thief's Reflexes",
 			"source": "PHB",
 			"className": "Rogue",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Thief",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -1831,358 +1831,87 @@
 	],
 	"subclass": [
 		{
-			"shortName": "Arcane Trickster",
-			"className": "Rogue",
-			"classSource": "PHB",
-			"edition": "classic",
-			"spellcastingAbility": "int",
-			"casterProgression": "1/3",
-			"cantripProgression": [
-				0,
-				0,
-				2,
-				2,
-				2,
-				2,
-				2,
-				2,
-				2,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3
-			],
-			"spellsKnownProgression": [
-				0,
-				0,
-				3,
-				4,
-				4,
-				4,
-				5,
-				6,
-				6,
-				7,
-				8,
-				8,
-				9,
-				10,
-				10,
-				11,
-				11,
-				11,
-				12,
-				13
-			],
-			"additionalSpells": [
-				{
-					"known": {
-						"3": [
-							"mage hand#c"
-						]
-					},
-					"expanded": {
-						"3": [
-							{
-								"all": "level=0|class=Wizard"
-							},
-							{
-								"all": "level=1|class=Wizard"
-							}
-						],
-						"7": [
-							{
-								"all": "level=2|class=Wizard"
-							}
-						],
-						"13": [
-							{
-								"all": "level=3|class=Wizard"
-							}
-						],
-						"19": [
-							{
-								"all": "level=4|class=Wizard"
-							}
-						]
-					}
-				}
-			],
-			"subclassTableGroups": [
-				{
-					"subclasses": [
-						{
-							"name": "Arcane Trickster",
-							"source": "PHB"
-						}
-					],
-					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|subclass=Rogue: Arcane Trickster}",
-						"{@filter Spells Known|spells|subclass=Rogue: Arcane Trickster}"
-					],
-					"rows": [
-						[
-							0,
-							0
-						],
-						[
-							0,
-							0
-						],
-						[
-							3,
-							3
-						],
-						[
-							3,
-							4
-						],
-						[
-							3,
-							4
-						],
-						[
-							3,
-							4
-						],
-						[
-							3,
-							5
-						],
-						[
-							3,
-							6
-						],
-						[
-							3,
-							6
-						],
-						[
-							4,
-							7
-						],
-						[
-							4,
-							8
-						],
-						[
-							4,
-							8
-						],
-						[
-							4,
-							9
-						],
-						[
-							4,
-							10
-						],
-						[
-							4,
-							10
-						],
-						[
-							4,
-							11
-						],
-						[
-							4,
-							11
-						],
-						[
-							4,
-							11
-						],
-						[
-							4,
-							12
-						],
-						[
-							4,
-							13
-						]
-					]
-				},
-				{
-					"title": "Spell Slots per Spell Level",
-					"subclasses": [
-						{
-							"name": "Arcane Trickster",
-							"source": "PHB"
-						}
-					],
-					"colLabels": [
-						"{@filter 1st|spells|level=1|subclass=Rogue: Arcane Trickster}",
-						"{@filter 2nd|spells|level=2|subclass=Rogue: Arcane Trickster}",
-						"{@filter 3rd|spells|level=3|subclass=Rogue: Arcane Trickster}",
-						"{@filter 4th|spells|level=4|subclass=Rogue: Arcane Trickster}"
-					],
-					"rowsSpellProgression": [
-						[
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							2,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							1
-						]
-					]
-				}
-			],
 			"name": "Arcane Trickster",
+			"shortName": "Arcane Trickster",
 			"source": "PHB",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Arcane Trickster",
+				"source": "PHB",
+				"shortName": "Arcane Trickster",
+				"className": "Rogue",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Arcane Trickster|Rogue|PHB|Arcane Trickster|PHB|3|PHB",
-				"Magical Ambush|Rogue|PHB|Arcane Trickster|PHB|9|PHB",
-				"Versatile Trickster|Rogue|PHB|Arcane Trickster|PHB|13|PHB",
-				"Spell Thief|Rogue|PHB|Arcane Trickster|PHB|17|PHB"
+				"Arcane Trickster|Rogue|XPHB|Arcane Trickster|PHB|3|PHB",
+				"Magical Ambush|Rogue|XPHB|Arcane Trickster|PHB|9|PHB",
+				"Versatile Trickster|Rogue|XPHB|Arcane Trickster|PHB|13|PHB",
+				"Spell Thief|Rogue|XPHB|Arcane Trickster|PHB|17|PHB"
 			]
 		},
 		{
-			"shortName": "Assassin",
-			"className": "Rogue",
-			"classSource": "PHB",
-			"edition": "classic",
 			"name": "Assassin",
+			"shortName": "Assassin",
 			"source": "PHB",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Assassin",
+				"source": "PHB",
+				"shortName": "Assassin",
+				"className": "Rogue",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Assassin|Rogue|PHB|Assassin|PHB|3|PHB",
-				"Infiltration Expertise|Rogue|PHB|Assassin|PHB|9|PHB",
-				"Impostor|Rogue|PHB|Assassin|PHB|13|PHB",
-				"Death Strike|Rogue|PHB|Assassin|PHB|17|PHB"
+				"Assassin|Rogue|XPHB|Assassin|PHB|3|PHB",
+				"Infiltration Expertise|Rogue|XPHB|Assassin|PHB|9|PHB",
+				"Impostor|Rogue|XPHB|Assassin|PHB|13|PHB",
+				"Death Strike|Rogue|XPHB|Assassin|PHB|17|PHB"
 			]
 		},
 		{
-			"shortName": "Thief",
-			"className": "Rogue",
-			"classSource": "PHB",
-			"edition": "classic",
 			"name": "Thief",
+			"shortName": "Thief",
 			"source": "PHB",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Thief",
+				"source": "PHB",
+				"shortName": "Thief",
+				"className": "Rogue",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Thief|Rogue|PHB|Thief|PHB|3|PHB",
-				"Supreme Sneak|Rogue|PHB|Thief|PHB|9|PHB",
-				"Use Magic Device|Rogue|PHB|Thief|PHB|13|PHB",
-				"Thief's Reflexes|Rogue|PHB|Thief|PHB|17|PHB"
+				"Thief|Rogue|XPHB|Thief|PHB|3|PHB",
+				"Supreme Sneak|Rogue|XPHB|Thief|PHB|9|PHB",
+				"Use Magic Device|Rogue|XPHB|Thief|PHB|13|PHB",
+				"Thief's Reflexes|Rogue|XPHB|Thief|PHB|17|PHB"
 			]
 		},
 		{

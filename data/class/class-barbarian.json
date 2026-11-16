@@ -584,7 +584,7 @@
 			"name": "Frenzy",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -596,7 +596,7 @@
 			"name": "Path of the Berserker",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -604,7 +604,7 @@
 				"For some barbarians, rage is a means to an end—that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Frenzy|Barbarian|PHB|Berserker|PHB|3|PHB"
+					"subclassFeature": "Frenzy|Barbarian|XPHB|Berserker|PHB|3|PHB"
 				}
 			]
 		},
@@ -612,7 +612,7 @@
 			"name": "Mindless Rage",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -624,7 +624,7 @@
 			"name": "Intimidating Presence",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -637,7 +637,7 @@
 			"name": "Retaliation",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -649,7 +649,7 @@
 			"name": "Eagle",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -661,7 +661,7 @@
 			"name": "Elk",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -673,7 +673,7 @@
 			"name": "Path of the Totem Warrior",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -686,7 +686,7 @@
 			"name": "Tiger",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -698,7 +698,7 @@
 			"name": "Wolf",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -710,7 +710,7 @@
 			"name": "Spirit Seeker",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -722,7 +722,7 @@
 			"name": "Totem Spirit",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -761,7 +761,7 @@
 			"name": "Bear",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -769,31 +769,31 @@
 				"While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eagle|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Eagle|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elk|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Elk|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Path of the Totem Warrior|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Path of the Totem Warrior|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tiger|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Tiger|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wolf|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Wolf|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spirit Seeker|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Spirit Seeker|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Totem Spirit|Barbarian|PHB|Totem Warrior|PHB|3|PHB"
+					"subclassFeature": "Totem Spirit|Barbarian|XPHB|Totem Warrior|PHB|3|PHB"
 				}
 			]
 		},
@@ -801,7 +801,7 @@
 			"name": "Eagle",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -813,7 +813,7 @@
 			"name": "Elk",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -825,7 +825,7 @@
 			"name": "Tiger",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -837,7 +837,7 @@
 			"name": "Wolf",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -849,7 +849,7 @@
 			"name": "Aspect of the Beast",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -887,7 +887,7 @@
 			"name": "Bear",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -895,23 +895,23 @@
 				"You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eagle|Barbarian|PHB|Totem Warrior|PHB|6|PHB"
+					"subclassFeature": "Eagle|Barbarian|XPHB|Totem Warrior|PHB|6|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elk|Barbarian|PHB|Totem Warrior|PHB|6|PHB"
+					"subclassFeature": "Elk|Barbarian|XPHB|Totem Warrior|PHB|6|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tiger|Barbarian|PHB|Totem Warrior|PHB|6|PHB"
+					"subclassFeature": "Tiger|Barbarian|XPHB|Totem Warrior|PHB|6|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wolf|Barbarian|PHB|Totem Warrior|PHB|6|PHB"
+					"subclassFeature": "Wolf|Barbarian|XPHB|Totem Warrior|PHB|6|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Aspect of the Beast|Barbarian|PHB|Totem Warrior|PHB|6|PHB"
+					"subclassFeature": "Aspect of the Beast|Barbarian|XPHB|Totem Warrior|PHB|6|PHB"
 				}
 			]
 		},
@@ -919,7 +919,7 @@
 			"name": "Spirit Walker",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -931,7 +931,7 @@
 			"name": "Eagle",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -943,7 +943,7 @@
 			"name": "Elk",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -955,7 +955,7 @@
 			"name": "Tiger",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -967,7 +967,7 @@
 			"name": "Wolf",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -979,7 +979,7 @@
 			"name": "Totemic Attunement",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1017,7 +1017,7 @@
 			"name": "Bear",
 			"source": "PHB",
 			"className": "Barbarian",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Totem Warrior",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1025,23 +1025,23 @@
 				"While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be {@condition frightened}.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eagle|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
+					"subclassFeature": "Eagle|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elk|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
+					"subclassFeature": "Elk|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tiger|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
+					"subclassFeature": "Tiger|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wolf|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
+					"subclassFeature": "Wolf|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Totemic Attunement|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
+					"subclassFeature": "Totemic Attunement|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
 				}
 			]
 		},
@@ -1937,48 +1937,59 @@
 	],
 	"subclass": [
 		{
-			"shortName": "Berserker",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"edition": "classic",
 			"name": "Path of the Berserker",
+			"shortName": "Berserker",
 			"source": "PHB",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Path of the Berserker",
+				"source": "PHB",
+				"shortName": "Berserker",
+				"className": "Barbarian",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Path of the Berserker|Barbarian|PHB|Berserker|PHB|3|PHB",
-				"Mindless Rage|Barbarian|PHB|Berserker|PHB|6|PHB",
-				"Intimidating Presence|Barbarian|PHB|Berserker|PHB|10|PHB",
-				"Retaliation|Barbarian|PHB|Berserker|PHB|14|PHB"
+				"Path of the Berserker|Barbarian|XPHB|Berserker|PHB|3|PHB",
+				"Mindless Rage|Barbarian|XPHB|Berserker|PHB|6|PHB",
+				"Intimidating Presence|Barbarian|XPHB|Berserker|PHB|10|PHB",
+				"Retaliation|Barbarian|XPHB|Berserker|PHB|14|PHB"
 			]
 		},
 		{
-			"shortName": "Totem Warrior",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"ritual": [
-								"beast sense",
-								"speak with animals"
-							]
-						},
-						"10": {
-							"ritual": [
-								"commune with nature"
-							]
-						}
-					}
-				}
-			],
 			"name": "Path of the Totem Warrior",
+			"shortName": "Totem Warrior",
 			"source": "PHB",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Path of the Totem Warrior",
+				"source": "PHB",
+				"shortName": "Totem Warrior",
+				"className": "Barbarian",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Bear|Barbarian|PHB|Totem Warrior|PHB|3|PHB",
-				"Bear|Barbarian|PHB|Totem Warrior|PHB|6|PHB",
-				"Spirit Walker|Barbarian|PHB|Totem Warrior|PHB|10|PHB",
-				"Bear|Barbarian|PHB|Totem Warrior|PHB|14|PHB"
+				"Bear|Barbarian|XPHB|Totem Warrior|PHB|3|PHB",
+				"Bear|Barbarian|XPHB|Totem Warrior|PHB|6|PHB",
+				"Spirit Walker|Barbarian|XPHB|Totem Warrior|PHB|10|PHB",
+				"Bear|Barbarian|XPHB|Totem Warrior|PHB|14|PHB"
 			]
 		},
 		{

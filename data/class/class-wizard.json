@@ -752,7 +752,7 @@
 			"name": "Abjuration Savant",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Abjuration",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -764,7 +764,7 @@
 			"name": "Arcane Ward",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Abjuration",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -778,7 +778,7 @@
 			"name": "School of Abjuration",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Abjuration",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -787,11 +787,11 @@
 				"Called abjurers, members of this school are sought when baleful spirits require exorcism, when important locations must be guarded against magical spying, and when portals to other planes of existence must be closed.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Abjuration Savant|Wizard|PHB|Abjuration|PHB|2|PHB"
+					"subclassFeature": "Abjuration Savant|Wizard|XPHB|Abjuration|PHB|2|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Ward|Wizard|PHB|Abjuration|PHB|2|PHB"
+					"subclassFeature": "Arcane Ward|Wizard|XPHB|Abjuration|PHB|2|PHB"
 				}
 			]
 		},
@@ -799,7 +799,7 @@
 			"name": "School of Abjuration",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Abjuration",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -809,7 +809,7 @@
 			"name": "Projected Ward",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Abjuration",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -821,7 +821,7 @@
 			"name": "Improved Abjuration",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Abjuration",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -833,7 +833,7 @@
 			"name": "Spell Resistance",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Abjuration",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -846,7 +846,7 @@
 			"name": "Conjuration Savant",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Conjuration",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -858,7 +858,7 @@
 			"name": "Minor Conjuration",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Conjuration",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -871,7 +871,7 @@
 			"name": "School of Conjuration",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Conjuration",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -879,11 +879,11 @@
 				"As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Conjuration Savant|Wizard|PHB|Conjuration|PHB|2|PHB"
+					"subclassFeature": "Conjuration Savant|Wizard|XPHB|Conjuration|PHB|2|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Minor Conjuration|Wizard|PHB|Conjuration|PHB|2|PHB"
+					"subclassFeature": "Minor Conjuration|Wizard|XPHB|Conjuration|PHB|2|PHB"
 				}
 			]
 		},
@@ -891,7 +891,7 @@
 			"name": "School of Conjuration",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Conjuration",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -901,7 +901,7 @@
 			"name": "Benign Transposition",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Conjuration",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -914,7 +914,7 @@
 			"name": "Focused Conjuration",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Conjuration",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -926,7 +926,7 @@
 			"name": "Durable Summons",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Conjuration",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -938,7 +938,7 @@
 			"name": "Divination Savant",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Divination",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -950,7 +950,7 @@
 			"name": "Portent",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Divination",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -963,7 +963,7 @@
 			"name": "School of Divination",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Divination",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -971,11 +971,11 @@
 				"The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divination Savant|Wizard|PHB|Divination|PHB|2|PHB"
+					"subclassFeature": "Divination Savant|Wizard|XPHB|Divination|PHB|2|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Portent|Wizard|PHB|Divination|PHB|2|PHB"
+					"subclassFeature": "Portent|Wizard|XPHB|Divination|PHB|2|PHB"
 				}
 			]
 		},
@@ -983,7 +983,7 @@
 			"name": "School of Divination",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Divination",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -993,7 +993,7 @@
 			"name": "Expert Divination",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Divination",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1005,7 +1005,7 @@
 			"name": "The Third Eye",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Divination",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -1050,7 +1050,7 @@
 			"name": "Greater Portent",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Divination",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1062,7 +1062,7 @@
 			"name": "Enchantment Savant",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Enchantment",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1074,7 +1074,7 @@
 			"name": "Hypnotic Gaze",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Enchantment",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1088,7 +1088,7 @@
 			"name": "School of Enchantment",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Enchantment",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1096,11 +1096,11 @@
 				"As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall somewhere in between.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Enchantment Savant|Wizard|PHB|Enchantment|PHB|2|PHB"
+					"subclassFeature": "Enchantment Savant|Wizard|XPHB|Enchantment|PHB|2|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hypnotic Gaze|Wizard|PHB|Enchantment|PHB|2|PHB"
+					"subclassFeature": "Hypnotic Gaze|Wizard|XPHB|Enchantment|PHB|2|PHB"
 				}
 			]
 		},
@@ -1108,7 +1108,7 @@
 			"name": "School of Enchantment",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Enchantment",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1118,7 +1118,7 @@
 			"name": "Instinctive Charm",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Enchantment",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1131,7 +1131,7 @@
 			"name": "Split Enchantment",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Enchantment",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -1143,7 +1143,7 @@
 			"name": "Alter Memories",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Enchantment",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1156,7 +1156,7 @@
 			"name": "Evocation Savant",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Evocation",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1168,7 +1168,7 @@
 			"name": "Sculpt Spells",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Evocation",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1180,7 +1180,7 @@
 			"name": "School of Evocation",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Evocation",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1188,11 +1188,11 @@
 				"You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Evocation Savant|Wizard|PHB|Evocation|PHB|2|PHB"
+					"subclassFeature": "Evocation Savant|Wizard|XPHB|Evocation|PHB|2|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sculpt Spells|Wizard|PHB|Evocation|PHB|2|PHB"
+					"subclassFeature": "Sculpt Spells|Wizard|XPHB|Evocation|PHB|2|PHB"
 				}
 			]
 		},
@@ -1200,7 +1200,7 @@
 			"name": "School of Evocation",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Evocation",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1210,7 +1210,7 @@
 			"name": "Potent Cantrip",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Evocation",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1222,7 +1222,7 @@
 			"name": "Empowered Evocation",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Evocation",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -1234,7 +1234,7 @@
 			"name": "Overchannel",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Evocation",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1247,7 +1247,7 @@
 			"name": "Illusion Savant",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Illusion",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1259,7 +1259,7 @@
 			"name": "Improved Minor Illusion",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Illusion",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1272,7 +1272,7 @@
 			"name": "School of Illusion",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Illusion",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1280,11 +1280,11 @@
 				"You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. Your magic is subtle, but the illusions crafted by your keen mind make the impossible seem real. Some illusionists—including many gnome wizards—are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Illusion Savant|Wizard|PHB|Illusion|PHB|2|PHB"
+					"subclassFeature": "Illusion Savant|Wizard|XPHB|Illusion|PHB|2|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Improved Minor Illusion|Wizard|PHB|Illusion|PHB|2|PHB"
+					"subclassFeature": "Improved Minor Illusion|Wizard|XPHB|Illusion|PHB|2|PHB"
 				}
 			]
 		},
@@ -1292,7 +1292,7 @@
 			"name": "School of Illusion",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Illusion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1302,7 +1302,7 @@
 			"name": "Malleable Illusions",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Illusion",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1314,7 +1314,7 @@
 			"name": "Illusory Self",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Illusion",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -1327,7 +1327,7 @@
 			"name": "Illusory Reality",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Illusion",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1340,7 +1340,7 @@
 			"name": "Grim Harvest",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Necromancy",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1352,7 +1352,7 @@
 			"name": "Necromancy Savant",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Necromancy",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1364,7 +1364,7 @@
 			"name": "School of Necromancy",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Necromancy",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1373,11 +1373,11 @@
 				"Most people see necromancers as menacing, or even villainous, due to the close association with death. Not all necromancers are evil, but the forces they manipulate are considered taboo by many societies.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Grim Harvest|Wizard|PHB|Necromancy|PHB|2|PHB"
+					"subclassFeature": "Grim Harvest|Wizard|XPHB|Necromancy|PHB|2|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Necromancy Savant|Wizard|PHB|Necromancy|PHB|2|PHB"
+					"subclassFeature": "Necromancy Savant|Wizard|XPHB|Necromancy|PHB|2|PHB"
 				}
 			]
 		},
@@ -1385,7 +1385,7 @@
 			"name": "School of Necromancy",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Necromancy",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1395,7 +1395,7 @@
 			"name": "Undead Thralls",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Necromancy",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1415,7 +1415,7 @@
 			"name": "Inured to Undeath",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Necromancy",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -1427,7 +1427,7 @@
 			"name": "Command Undead",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Necromancy",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1440,7 +1440,7 @@
 			"name": "Minor Alchemy",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Transmutation",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1452,7 +1452,7 @@
 			"name": "Transmutation Savant",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Transmutation",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1464,7 +1464,7 @@
 			"name": "School of Transmutation",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Transmutation",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1473,11 +1473,11 @@
 				"Some transmuters are tinkerers and pranksters, turning people into toads and transforming copper into silver for fun and occasional profit. Others pursue their magical studies with deadly seriousness, seeking the power of the gods to make and destroy worlds.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Minor Alchemy|Wizard|PHB|Transmutation|PHB|2|PHB"
+					"subclassFeature": "Minor Alchemy|Wizard|XPHB|Transmutation|PHB|2|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Transmutation Savant|Wizard|PHB|Transmutation|PHB|2|PHB"
+					"subclassFeature": "Transmutation Savant|Wizard|XPHB|Transmutation|PHB|2|PHB"
 				}
 			]
 		},
@@ -1485,7 +1485,7 @@
 			"name": "School of Transmutation",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Transmutation",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1495,7 +1495,7 @@
 			"name": "Transmuter's Stone",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Transmutation",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1518,7 +1518,7 @@
 			"name": "Shapechanger",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Transmutation",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -1531,7 +1531,7 @@
 			"name": "Master Transmuter",
 			"source": "PHB",
 			"className": "Wizard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Transmutation",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -2122,132 +2122,247 @@
 	],
 	"subclass": [
 		{
-			"shortName": "Abjuration",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"edition": "classic",
 			"name": "School of Abjuration",
+			"shortName": "Abjuration",
 			"source": "PHB",
-			"subclassFeatures": [
-				"School of Abjuration|Wizard|PHB|Abjuration|PHB|2|PHB",
-				"School of Abjuration|Wizard|PHB|Abjuration|PHB|3|PHB",
-				"Projected Ward|Wizard|PHB|Abjuration|PHB|6|PHB",
-				"Improved Abjuration|Wizard|PHB|Abjuration|PHB|10|PHB",
-				"Spell Resistance|Wizard|PHB|Abjuration|PHB|14|PHB"
-			]
-		},
-		{
-			"shortName": "Conjuration",
 			"className": "Wizard",
-			"classSource": "PHB",
-			"edition": "classic",
-			"name": "School of Conjuration",
-			"source": "PHB",
-			"subclassFeatures": [
-				"School of Conjuration|Wizard|PHB|Conjuration|PHB|2|PHB",
-				"School of Conjuration|Wizard|PHB|Conjuration|PHB|3|PHB",
-				"Benign Transposition|Wizard|PHB|Conjuration|PHB|6|PHB",
-				"Focused Conjuration|Wizard|PHB|Conjuration|PHB|10|PHB",
-				"Durable Summons|Wizard|PHB|Conjuration|PHB|14|PHB"
-			]
-		},
-		{
-			"shortName": "Divination",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"edition": "classic",
-			"name": "School of Divination",
-			"source": "PHB",
-			"subclassFeatures": [
-				"School of Divination|Wizard|PHB|Divination|PHB|2|PHB",
-				"School of Divination|Wizard|PHB|Divination|PHB|3|PHB",
-				"Expert Divination|Wizard|PHB|Divination|PHB|6|PHB",
-				"The Third Eye|Wizard|PHB|Divination|PHB|10|PHB",
-				"Greater Portent|Wizard|PHB|Divination|PHB|14|PHB"
-			]
-		},
-		{
-			"shortName": "Enchantment",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"edition": "classic",
-			"name": "School of Enchantment",
-			"source": "PHB",
-			"subclassFeatures": [
-				"School of Enchantment|Wizard|PHB|Enchantment|PHB|2|PHB",
-				"School of Enchantment|Wizard|PHB|Enchantment|PHB|3|PHB",
-				"Instinctive Charm|Wizard|PHB|Enchantment|PHB|6|PHB",
-				"Split Enchantment|Wizard|PHB|Enchantment|PHB|10|PHB",
-				"Alter Memories|Wizard|PHB|Enchantment|PHB|14|PHB"
-			]
-		},
-		{
-			"shortName": "Evocation",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"edition": "classic",
-			"name": "School of Evocation",
-			"source": "PHB",
-			"subclassFeatures": [
-				"School of Evocation|Wizard|PHB|Evocation|PHB|2|PHB",
-				"School of Evocation|Wizard|PHB|Evocation|PHB|3|PHB",
-				"Potent Cantrip|Wizard|PHB|Evocation|PHB|6|PHB",
-				"Empowered Evocation|Wizard|PHB|Evocation|PHB|10|PHB",
-				"Overchannel|Wizard|PHB|Evocation|PHB|14|PHB"
-			]
-		},
-		{
-			"shortName": "Illusion",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"known": {
-						"1": [
-							"minor illusion#c"
-						]
-					}
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "School of Abjuration",
+				"source": "PHB",
+				"shortName": "Abjuration",
+				"className": "Wizard",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
 				}
+			},
+			"subclassFeatures": [
+				"School of Abjuration|Wizard|XPHB|Abjuration|PHB|2|PHB",
+				"School of Abjuration|Wizard|XPHB|Abjuration|PHB|3|PHB",
+				"Projected Ward|Wizard|XPHB|Abjuration|PHB|6|PHB",
+				"Improved Abjuration|Wizard|XPHB|Abjuration|PHB|10|PHB",
+				"Spell Resistance|Wizard|XPHB|Abjuration|PHB|14|PHB"
+			]
+		},
+		{
+			"name": "School of Conjuration",
+			"shortName": "Conjuration",
+			"source": "PHB",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"reprintedAs": [
+				"Conjurer|Wizard|XPHB|AU"
 			],
+			"_copy": {
+				"name": "School of Conjuration",
+				"source": "PHB",
+				"shortName": "Conjuration",
+				"className": "Wizard",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"subclassFeatures": [
+				"School of Conjuration|Wizard|XPHB|Conjuration|PHB|2|PHB",
+				"School of Conjuration|Wizard|XPHB|Conjuration|PHB|3|PHB",
+				"Benign Transposition|Wizard|XPHB|Conjuration|PHB|6|PHB",
+				"Focused Conjuration|Wizard|XPHB|Conjuration|PHB|10|PHB",
+				"Durable Summons|Wizard|XPHB|Conjuration|PHB|14|PHB"
+			]
+		},
+		{
+			"name": "School of Divination",
+			"shortName": "Divination",
+			"source": "PHB",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "School of Divination",
+				"source": "PHB",
+				"shortName": "Divination",
+				"className": "Wizard",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"subclassFeatures": [
+				"School of Divination|Wizard|XPHB|Divination|PHB|2|PHB",
+				"School of Divination|Wizard|XPHB|Divination|PHB|3|PHB",
+				"Expert Divination|Wizard|XPHB|Divination|PHB|6|PHB",
+				"The Third Eye|Wizard|XPHB|Divination|PHB|10|PHB",
+				"Greater Portent|Wizard|XPHB|Divination|PHB|14|PHB"
+			]
+		},
+		{
+			"name": "School of Enchantment",
+			"shortName": "Enchantment",
+			"source": "PHB",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"reprintedAs": [
+				"Enchanter|Wizard|XPHB|AU"
+			],
+			"_copy": {
+				"name": "School of Enchantment",
+				"source": "PHB",
+				"shortName": "Enchantment",
+				"className": "Wizard",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"subclassFeatures": [
+				"School of Enchantment|Wizard|XPHB|Enchantment|PHB|2|PHB",
+				"School of Enchantment|Wizard|XPHB|Enchantment|PHB|3|PHB",
+				"Instinctive Charm|Wizard|XPHB|Enchantment|PHB|6|PHB",
+				"Split Enchantment|Wizard|XPHB|Enchantment|PHB|10|PHB",
+				"Alter Memories|Wizard|XPHB|Enchantment|PHB|14|PHB"
+			]
+		},
+		{
+			"name": "School of Evocation",
+			"shortName": "Evocation",
+			"source": "PHB",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "School of Evocation",
+				"source": "PHB",
+				"shortName": "Evocation",
+				"className": "Wizard",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"subclassFeatures": [
+				"School of Evocation|Wizard|XPHB|Evocation|PHB|2|PHB",
+				"School of Evocation|Wizard|XPHB|Evocation|PHB|3|PHB",
+				"Potent Cantrip|Wizard|XPHB|Evocation|PHB|6|PHB",
+				"Empowered Evocation|Wizard|XPHB|Evocation|PHB|10|PHB",
+				"Overchannel|Wizard|XPHB|Evocation|PHB|14|PHB"
+			]
+		},
+		{
 			"name": "School of Illusion",
+			"shortName": "Illusion",
 			"source": "PHB",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "School of Illusion",
+				"source": "PHB",
+				"shortName": "Illusion",
+				"className": "Wizard",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"School of Illusion|Wizard|PHB|Illusion|PHB|2|PHB",
-				"School of Illusion|Wizard|PHB|Illusion|PHB|3|PHB",
-				"Malleable Illusions|Wizard|PHB|Illusion|PHB|6|PHB",
-				"Illusory Self|Wizard|PHB|Illusion|PHB|10|PHB",
-				"Illusory Reality|Wizard|PHB|Illusion|PHB|14|PHB"
+				"School of Illusion|Wizard|XPHB|Illusion|PHB|2|PHB",
+				"School of Illusion|Wizard|XPHB|Illusion|PHB|3|PHB",
+				"Malleable Illusions|Wizard|XPHB|Illusion|PHB|6|PHB",
+				"Illusory Self|Wizard|XPHB|Illusion|PHB|10|PHB",
+				"Illusory Reality|Wizard|XPHB|Illusion|PHB|14|PHB"
 			]
 		},
 		{
-			"shortName": "Necromancy",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"edition": "classic",
 			"name": "School of Necromancy",
+			"shortName": "Necromancy",
 			"source": "PHB",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"reprintedAs": [
+				"Necromancer|Wizard|XPHB|AU"
+			],
+			"_copy": {
+				"name": "School of Necromancy",
+				"source": "PHB",
+				"shortName": "Necromancy",
+				"className": "Wizard",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"School of Necromancy|Wizard|PHB|Necromancy|PHB|2|PHB",
-				"School of Necromancy|Wizard|PHB|Necromancy|PHB|3|PHB",
-				"Undead Thralls|Wizard|PHB|Necromancy|PHB|6|PHB",
-				"Inured to Undeath|Wizard|PHB|Necromancy|PHB|10|PHB",
-				"Command Undead|Wizard|PHB|Necromancy|PHB|14|PHB"
+				"School of Necromancy|Wizard|XPHB|Necromancy|PHB|2|PHB",
+				"School of Necromancy|Wizard|XPHB|Necromancy|PHB|3|PHB",
+				"Undead Thralls|Wizard|XPHB|Necromancy|PHB|6|PHB",
+				"Inured to Undeath|Wizard|XPHB|Necromancy|PHB|10|PHB",
+				"Command Undead|Wizard|XPHB|Necromancy|PHB|14|PHB"
 			]
 		},
 		{
-			"shortName": "Transmutation",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"edition": "classic",
 			"name": "School of Transmutation",
+			"shortName": "Transmutation",
 			"source": "PHB",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"reprintedAs": [
+				"Transmuter|Wizard|XPHB|AU"
+			],
+			"_copy": {
+				"name": "School of Transmutation",
+				"source": "PHB",
+				"shortName": "Transmutation",
+				"className": "Wizard",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"School of Transmutation|Wizard|PHB|Transmutation|PHB|2|PHB",
-				"School of Transmutation|Wizard|PHB|Transmutation|PHB|3|PHB",
-				"Transmuter's Stone|Wizard|PHB|Transmutation|PHB|6|PHB",
-				"Shapechanger|Wizard|PHB|Transmutation|PHB|10|PHB",
-				"Master Transmuter|Wizard|PHB|Transmutation|PHB|14|PHB"
+				"School of Transmutation|Wizard|XPHB|Transmutation|PHB|2|PHB",
+				"School of Transmutation|Wizard|XPHB|Transmutation|PHB|3|PHB",
+				"Transmuter's Stone|Wizard|XPHB|Transmutation|PHB|6|PHB",
+				"Shapechanger|Wizard|XPHB|Transmutation|PHB|10|PHB",
+				"Master Transmuter|Wizard|XPHB|Transmutation|PHB|14|PHB"
 			]
 		},
 		{

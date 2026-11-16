@@ -997,7 +997,7 @@
 			"name": "Draconic Resilience",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1010,7 +1010,7 @@
 			"name": "Dragon Ancestor",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1077,7 +1077,7 @@
 			"name": "Draconic Bloodline",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1085,11 +1085,11 @@
 				"Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Draconic Resilience|Sorcerer|PHB|Draconic|PHB|1|PHB"
+					"subclassFeature": "Draconic Resilience|Sorcerer|XPHB|Draconic|PHB|1|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dragon Ancestor|Sorcerer|PHB|Draconic|PHB|1|PHB"
+					"subclassFeature": "Dragon Ancestor|Sorcerer|XPHB|Draconic|PHB|1|PHB"
 				}
 			]
 		},
@@ -1097,7 +1097,7 @@
 			"name": "Draconic Bloodline",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1107,7 +1107,7 @@
 			"name": "Elemental Affinity",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1119,7 +1119,7 @@
 			"name": "Dragon Wings",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1132,7 +1132,7 @@
 			"name": "Draconic Presence",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Draconic",
 			"subclassSource": "PHB",
 			"level": 18,
@@ -1144,7 +1144,7 @@
 			"name": "Tides of Chaos",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1157,7 +1157,7 @@
 			"name": "Wild Magic Surge",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1392,7 +1392,7 @@
 			"name": "Wild Magic",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1400,11 +1400,11 @@
 				"Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tides of Chaos|Sorcerer|PHB|Wild|PHB|1|PHB"
+					"subclassFeature": "Tides of Chaos|Sorcerer|XPHB|Wild|PHB|1|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wild Magic Surge|Sorcerer|PHB|Wild|PHB|1|PHB"
+					"subclassFeature": "Wild Magic Surge|Sorcerer|XPHB|Wild|PHB|1|PHB"
 				}
 			]
 		},
@@ -1412,7 +1412,7 @@
 			"name": "Wild Magic",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1422,7 +1422,7 @@
 			"name": "Bend Luck",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1434,7 +1434,7 @@
 			"name": "Controlled Chaos",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1446,7 +1446,7 @@
 			"name": "Spell Bombardment",
 			"source": "PHB",
 			"className": "Sorcerer",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "PHB",
 			"level": 18,
@@ -2677,33 +2677,61 @@
 	],
 	"subclass": [
 		{
-			"shortName": "Draconic",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"edition": "classic",
 			"name": "Draconic Bloodline",
+			"shortName": "Draconic",
 			"source": "PHB",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Draconic Bloodline",
+				"source": "PHB",
+				"shortName": "Draconic",
+				"className": "Sorcerer",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Draconic Bloodline|Sorcerer|PHB|Draconic|PHB|1|PHB",
-				"Draconic Bloodline|Sorcerer|PHB|Draconic|PHB|3|PHB",
-				"Elemental Affinity|Sorcerer|PHB|Draconic|PHB|6|PHB",
-				"Dragon Wings|Sorcerer|PHB|Draconic|PHB|14|PHB",
-				"Draconic Presence|Sorcerer|PHB|Draconic|PHB|18|PHB"
+				"Draconic Bloodline|Sorcerer|XPHB|Draconic|PHB|1|PHB",
+				"Draconic Bloodline|Sorcerer|XPHB|Draconic|PHB|3|PHB",
+				"Elemental Affinity|Sorcerer|XPHB|Draconic|PHB|6|PHB",
+				"Dragon Wings|Sorcerer|XPHB|Draconic|PHB|14|PHB",
+				"Draconic Presence|Sorcerer|XPHB|Draconic|PHB|18|PHB"
 			]
 		},
 		{
-			"shortName": "Wild",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"edition": "classic",
 			"name": "Wild Magic",
+			"shortName": "Wild",
 			"source": "PHB",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Wild Magic",
+				"source": "PHB",
+				"shortName": "Wild",
+				"className": "Sorcerer",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Wild Magic|Sorcerer|PHB|Wild|PHB|1|PHB",
-				"Wild Magic|Sorcerer|PHB|Wild|PHB|3|PHB",
-				"Bend Luck|Sorcerer|PHB|Wild|PHB|6|PHB",
-				"Controlled Chaos|Sorcerer|PHB|Wild|PHB|14|PHB",
-				"Spell Bombardment|Sorcerer|PHB|Wild|PHB|18|PHB"
+				"Wild Magic|Sorcerer|XPHB|Wild|PHB|1|PHB",
+				"Wild Magic|Sorcerer|XPHB|Wild|PHB|3|PHB",
+				"Bend Luck|Sorcerer|XPHB|Wild|PHB|6|PHB",
+				"Controlled Chaos|Sorcerer|XPHB|Wild|PHB|14|PHB",
+				"Spell Bombardment|Sorcerer|XPHB|Wild|PHB|18|PHB"
 			]
 		},
 		{

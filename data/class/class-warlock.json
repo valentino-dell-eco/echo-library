@@ -688,7 +688,7 @@
 			"name": "Fey Presence",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -701,7 +701,7 @@
 			"name": "The Archfey",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -750,7 +750,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fey Presence|Warlock|PHB|Archfey|PHB|1|PHB"
+					"subclassFeature": "Fey Presence|Warlock|XPHB|Archfey|PHB|1|PHB"
 				}
 			]
 		},
@@ -758,7 +758,7 @@
 			"name": "The Archfey",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -768,7 +768,7 @@
 			"name": "Misty Escape",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -781,7 +781,7 @@
 			"name": "Beguiling Defenses",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -793,7 +793,7 @@
 			"name": "Dark Delirium",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -807,7 +807,7 @@
 			"name": "Dark One's Blessing",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -819,7 +819,7 @@
 			"name": "The Fiend",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -868,7 +868,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dark One's Blessing|Warlock|PHB|Fiend|PHB|1|PHB"
+					"subclassFeature": "Dark One's Blessing|Warlock|XPHB|Fiend|PHB|1|PHB"
 				}
 			]
 		},
@@ -876,7 +876,7 @@
 			"name": "The Fiend",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -886,7 +886,7 @@
 			"name": "Dark One's Own Luck",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -899,7 +899,7 @@
 			"name": "Fiendish Resilience",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -911,7 +911,7 @@
 			"name": "Hurl Through Hell",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -925,7 +925,7 @@
 			"name": "Awakened Mind",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -937,7 +937,7 @@
 			"name": "The Great Old One",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -986,7 +986,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Awakened Mind|Warlock|PHB|Great Old One|PHB|1|PHB"
+					"subclassFeature": "Awakened Mind|Warlock|XPHB|Great Old One|PHB|1|PHB"
 				}
 			]
 		},
@@ -994,7 +994,7 @@
 			"name": "The Great Old One",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1004,7 +1004,7 @@
 			"name": "Entropic Ward",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1017,7 +1017,7 @@
 			"name": "Thought Shield",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -1029,7 +1029,7 @@
 			"name": "Create Thrall",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -2219,126 +2219,90 @@
 	],
 	"subclass": [
 		{
-			"shortName": "Archfey",
-			"className": "Warlock",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"expanded": {
-						"s1": [
-							"faerie fire",
-							"sleep"
-						],
-						"s2": [
-							"calm emotions",
-							"phantasmal force"
-						],
-						"s3": [
-							"blink",
-							"plant growth"
-						],
-						"s4": [
-							"dominate beast",
-							"greater invisibility"
-						],
-						"s5": [
-							"dominate person",
-							"seeming"
-						]
-					}
-				}
-			],
 			"name": "The Archfey",
+			"shortName": "Archfey",
 			"source": "PHB",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "The Archfey",
+				"source": "PHB",
+				"shortName": "Archfey",
+				"className": "Warlock",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"The Archfey|Warlock|PHB|Archfey|PHB|1|PHB",
-				"The Archfey|Warlock|PHB|Archfey|PHB|3|PHB",
-				"Misty Escape|Warlock|PHB|Archfey|PHB|6|PHB",
-				"Beguiling Defenses|Warlock|PHB|Archfey|PHB|10|PHB",
-				"Dark Delirium|Warlock|PHB|Archfey|PHB|14|PHB"
+				"The Archfey|Warlock|XPHB|Archfey|PHB|1|PHB",
+				"The Archfey|Warlock|XPHB|Archfey|PHB|3|PHB",
+				"Misty Escape|Warlock|XPHB|Archfey|PHB|6|PHB",
+				"Beguiling Defenses|Warlock|XPHB|Archfey|PHB|10|PHB",
+				"Dark Delirium|Warlock|XPHB|Archfey|PHB|14|PHB"
 			]
 		},
 		{
-			"shortName": "Fiend",
-			"className": "Warlock",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"expanded": {
-						"s1": [
-							"burning hands",
-							"command"
-						],
-						"s2": [
-							"blindness/deafness",
-							"scorching ray"
-						],
-						"s3": [
-							"fireball",
-							"stinking cloud"
-						],
-						"s4": [
-							"fire shield",
-							"wall of fire"
-						],
-						"s5": [
-							"flame strike",
-							"hallow"
-						]
-					}
-				}
-			],
 			"name": "The Fiend",
+			"shortName": "Fiend",
 			"source": "PHB",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "The Fiend",
+				"source": "PHB",
+				"shortName": "Fiend",
+				"className": "Warlock",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"The Fiend|Warlock|PHB|Fiend|PHB|1|PHB",
-				"The Fiend|Warlock|PHB|Fiend|PHB|3|PHB",
-				"Dark One's Own Luck|Warlock|PHB|Fiend|PHB|6|PHB",
-				"Fiendish Resilience|Warlock|PHB|Fiend|PHB|10|PHB",
-				"Hurl Through Hell|Warlock|PHB|Fiend|PHB|14|PHB"
+				"The Fiend|Warlock|XPHB|Fiend|PHB|1|PHB",
+				"The Fiend|Warlock|XPHB|Fiend|PHB|3|PHB",
+				"Dark One's Own Luck|Warlock|XPHB|Fiend|PHB|6|PHB",
+				"Fiendish Resilience|Warlock|XPHB|Fiend|PHB|10|PHB",
+				"Hurl Through Hell|Warlock|XPHB|Fiend|PHB|14|PHB"
 			]
 		},
 		{
-			"shortName": "Great Old One",
-			"className": "Warlock",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"expanded": {
-						"s1": [
-							"dissonant whispers",
-							"Tasha's hideous laughter"
-						],
-						"s2": [
-							"detect thoughts",
-							"phantasmal force"
-						],
-						"s3": [
-							"clairvoyance",
-							"sending"
-						],
-						"s4": [
-							"dominate beast",
-							"Evard's black tentacles"
-						],
-						"s5": [
-							"dominate person",
-							"telekinesis"
-						]
-					}
-				}
-			],
 			"name": "The Great Old One",
+			"shortName": "Great Old One",
 			"source": "PHB",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "The Great Old One",
+				"source": "PHB",
+				"shortName": "Great Old One",
+				"className": "Warlock",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"The Great Old One|Warlock|PHB|Great Old One|PHB|1|PHB",
-				"The Great Old One|Warlock|PHB|Great Old One|PHB|3|PHB",
-				"Entropic Ward|Warlock|PHB|Great Old One|PHB|6|PHB",
-				"Thought Shield|Warlock|PHB|Great Old One|PHB|10|PHB",
-				"Create Thrall|Warlock|PHB|Great Old One|PHB|14|PHB"
+				"The Great Old One|Warlock|XPHB|Great Old One|PHB|1|PHB",
+				"The Great Old One|Warlock|XPHB|Great Old One|PHB|3|PHB",
+				"Entropic Ward|Warlock|XPHB|Great Old One|PHB|6|PHB",
+				"Thought Shield|Warlock|XPHB|Great Old One|PHB|10|PHB",
+				"Create Thrall|Warlock|XPHB|Great Old One|PHB|14|PHB"
 			]
 		},
 		{

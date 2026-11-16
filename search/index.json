@@ -71034,8 +71034,8 @@
 			"n": "Battle Master Fighter 3; Combat Superiority",
 			"cn": "Fighter 3; Combat Superiority",
 			"s": "PHB",
-			"u": "combat%20superiority_fighter_phb_battle%20master_phb_3_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s2-0"
+			"u": "combat%20superiority_fighter_xphb_battle%20master_phb_3_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 9903,
@@ -71043,8 +71043,8 @@
 			"n": "Battle Master Fighter 3; Maneuver Options",
 			"cn": "Fighter 3; Maneuver Options",
 			"s": "PHB",
-			"u": "maneuver%20options_fighter_phb_battle%20master_phb_3_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s2-0"
+			"u": "maneuver%20options_fighter_xphb_battle%20master_phb_3_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 9904,
@@ -71052,8 +71052,8 @@
 			"n": "Battle Master Fighter 3; Maneuvers",
 			"cn": "Fighter 3; Maneuvers",
 			"s": "PHB",
-			"u": "maneuvers_fighter_phb_battle%20master_phb_3_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s2-0"
+			"u": "maneuvers_fighter_xphb_battle%20master_phb_3_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 9905,
@@ -71061,8 +71061,8 @@
 			"n": "Battle Master Fighter 3; Student of War",
 			"cn": "Fighter 3; Student of War",
 			"s": "PHB",
-			"u": "student%20of%20war_fighter_phb_battle%20master_phb_3_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s2-0"
+			"u": "student%20of%20war_fighter_xphb_battle%20master_phb_3_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 9906,
@@ -71070,8 +71070,8 @@
 			"n": "Battle Master Fighter 3; Battle Master",
 			"cn": "Fighter 3; Battle Master",
 			"s": "PHB",
-			"u": "battle%20master_fighter_phb_battle%20master_phb_3_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s2-0"
+			"u": "battle%20master_fighter_xphb_battle%20master_phb_3_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 9907,
@@ -71079,8 +71079,8 @@
 			"n": "Battle Master Fighter 7; Additional Superiority Die",
 			"cn": "Fighter 7; Additional Superiority Die",
 			"s": "PHB",
-			"u": "additional%20superiority%20die_fighter_phb_battle%20master_phb_7_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s6-0"
+			"u": "additional%20superiority%20die_fighter_xphb_battle%20master_phb_7_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 9908,
@@ -71088,8 +71088,8 @@
 			"n": "Battle Master Fighter 7; Know Your Enemy",
 			"cn": "Fighter 7; Know Your Enemy",
 			"s": "PHB",
-			"u": "know%20your%20enemy_fighter_phb_battle%20master_phb_7_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s6-0"
+			"u": "know%20your%20enemy_fighter_xphb_battle%20master_phb_7_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 9909,
@@ -71097,8 +71097,8 @@
 			"n": "Battle Master Fighter 7; Additional Maneuvers",
 			"cn": "Fighter 7; Additional Maneuvers",
 			"s": "PHB",
-			"u": "additional%20maneuvers_fighter_phb_battle%20master_phb_7_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s6-0"
+			"u": "additional%20maneuvers_fighter_xphb_battle%20master_phb_7_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 9910,
@@ -71106,8 +71106,8 @@
 			"n": "Battle Master Fighter 10; Improved Combat Superiority (d10)",
 			"cn": "Fighter 10; Improved Combat Superiority (d10)",
 			"s": "PHB",
-			"u": "improved%20combat%20superiority%20(d10)_fighter_phb_battle%20master_phb_10_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s9-0"
+			"u": "improved%20combat%20superiority%20(d10)_fighter_xphb_battle%20master_phb_10_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 9911,
@@ -71115,8 +71115,8 @@
 			"n": "Battle Master Fighter 10; Additional Maneuvers",
 			"cn": "Fighter 10; Additional Maneuvers",
 			"s": "PHB",
-			"u": "additional%20maneuvers_fighter_phb_battle%20master_phb_10_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s9-0"
+			"u": "additional%20maneuvers_fighter_xphb_battle%20master_phb_10_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 9912,
@@ -71124,8 +71124,8 @@
 			"n": "Battle Master Fighter 15; Additional Superiority Die",
 			"cn": "Fighter 15; Additional Superiority Die",
 			"s": "PHB",
-			"u": "additional%20superiority%20die_fighter_phb_battle%20master_phb_15_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s14-0"
+			"u": "additional%20superiority%20die_fighter_xphb_battle%20master_phb_15_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 9913,
@@ -71133,8 +71133,8 @@
 			"n": "Battle Master Fighter 15; Relentless",
 			"cn": "Fighter 15; Relentless",
 			"s": "PHB",
-			"u": "relentless_fighter_phb_battle%20master_phb_15_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s14-0"
+			"u": "relentless_fighter_xphb_battle%20master_phb_15_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 9914,
@@ -71142,8 +71142,8 @@
 			"n": "Battle Master Fighter 15; Additional Maneuvers",
 			"cn": "Fighter 15; Additional Maneuvers",
 			"s": "PHB",
-			"u": "additional%20maneuvers_fighter_phb_battle%20master_phb_15_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s14-0"
+			"u": "additional%20maneuvers_fighter_xphb_battle%20master_phb_15_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 9915,
@@ -71151,15 +71151,15 @@
 			"n": "Battle Master Fighter 18; Improved Combat Superiority (d12)",
 			"cn": "Fighter 18; Improved Combat Superiority (d12)",
 			"s": "PHB",
-			"u": "improved%20combat%20superiority%20(d12)_fighter_phb_battle%20master_phb_18_phb",
-			"uh": "fighter_phb,state:sub_battle%20master_phb=b1~feature=s17-0"
+			"u": "improved%20combat%20superiority%20(d12)_fighter_xphb_battle%20master_phb_18_phb",
+			"uh": "fighter_xphb,state:sub_battle%20master_phb=b1~feature=s17-0"
 		},
 		{
 			"id": 9916,
 			"c": 40,
 			"n": "Battle Master",
 			"s": "PHB",
-			"u": "fighter_phb,state:sub_battle%20master_phb=b1"
+			"u": "fighter_xphb,state:sub_battle%20master_phb=b1"
 		},
 		{
 			"id": 9917,
@@ -71167,8 +71167,8 @@
 			"n": "Champion Fighter 3; Improved Critical",
 			"cn": "Fighter 3; Improved Critical",
 			"s": "PHB",
-			"u": "improved%20critical_fighter_phb_champion_phb_3_phb",
-			"uh": "fighter_phb,state:sub_champion_phb=b1~feature=s2-0"
+			"u": "improved%20critical_fighter_xphb_champion_phb_3_phb",
+			"uh": "fighter_xphb,state:sub_champion_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 9918,
@@ -71176,8 +71176,8 @@
 			"n": "Champion Fighter 3; Champion",
 			"cn": "Fighter 3; Champion",
 			"s": "PHB",
-			"u": "champion_fighter_phb_champion_phb_3_phb",
-			"uh": "fighter_phb,state:sub_champion_phb=b1~feature=s2-0"
+			"u": "champion_fighter_xphb_champion_phb_3_phb",
+			"uh": "fighter_xphb,state:sub_champion_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 9919,
@@ -71185,8 +71185,8 @@
 			"n": "Champion Fighter 7; Remarkable Athlete",
 			"cn": "Fighter 7; Remarkable Athlete",
 			"s": "PHB",
-			"u": "remarkable%20athlete_fighter_phb_champion_phb_7_phb",
-			"uh": "fighter_phb,state:sub_champion_phb=b1~feature=s6-0"
+			"u": "remarkable%20athlete_fighter_xphb_champion_phb_7_phb",
+			"uh": "fighter_xphb,state:sub_champion_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 9920,
@@ -71194,8 +71194,8 @@
 			"n": "Champion Fighter 10; Additional Fighting Style",
 			"cn": "Fighter 10; Additional Fighting Style",
 			"s": "PHB",
-			"u": "additional%20fighting%20style_fighter_phb_champion_phb_10_phb",
-			"uh": "fighter_phb,state:sub_champion_phb=b1~feature=s9-0"
+			"u": "additional%20fighting%20style_fighter_xphb_champion_phb_10_phb",
+			"uh": "fighter_xphb,state:sub_champion_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 9921,
@@ -71203,8 +71203,8 @@
 			"n": "Champion Fighter 15; Superior Critical",
 			"cn": "Fighter 15; Superior Critical",
 			"s": "PHB",
-			"u": "superior%20critical_fighter_phb_champion_phb_15_phb",
-			"uh": "fighter_phb,state:sub_champion_phb=b1~feature=s14-0"
+			"u": "superior%20critical_fighter_xphb_champion_phb_15_phb",
+			"uh": "fighter_xphb,state:sub_champion_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 9922,
@@ -71212,15 +71212,15 @@
 			"n": "Champion Fighter 18; Survivor",
 			"cn": "Fighter 18; Survivor",
 			"s": "PHB",
-			"u": "survivor_fighter_phb_champion_phb_18_phb",
-			"uh": "fighter_phb,state:sub_champion_phb=b1~feature=s17-0"
+			"u": "survivor_fighter_xphb_champion_phb_18_phb",
+			"uh": "fighter_xphb,state:sub_champion_phb=b1~feature=s17-0"
 		},
 		{
 			"id": 9923,
 			"c": 40,
 			"n": "Champion",
 			"s": "PHB",
-			"u": "fighter_phb,state:sub_champion_phb=b1"
+			"u": "fighter_xphb,state:sub_champion_phb=b1"
 		},
 		{
 			"id": 9924,
@@ -71228,8 +71228,8 @@
 			"n": "Eldritch Knight Fighter 3; Spellcasting",
 			"cn": "Fighter 3; Spellcasting",
 			"s": "PHB",
-			"u": "spellcasting_fighter_phb_eldritch%20knight_phb_3_phb",
-			"uh": "fighter_phb,state:sub_eldritch%20knight_phb=b1~feature=s2-0"
+			"u": "spellcasting_fighter_xphb_eldritch%20knight_phb_3_phb",
+			"uh": "fighter_xphb,state:sub_eldritch%20knight_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 9925,
@@ -71237,8 +71237,8 @@
 			"n": "Eldritch Knight Fighter 3; Weapon Bond",
 			"cn": "Fighter 3; Weapon Bond",
 			"s": "PHB",
-			"u": "weapon%20bond_fighter_phb_eldritch%20knight_phb_3_phb",
-			"uh": "fighter_phb,state:sub_eldritch%20knight_phb=b1~feature=s2-0"
+			"u": "weapon%20bond_fighter_xphb_eldritch%20knight_phb_3_phb",
+			"uh": "fighter_xphb,state:sub_eldritch%20knight_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 9926,
@@ -71246,8 +71246,8 @@
 			"n": "Eldritch Knight Fighter 3; Eldritch Knight",
 			"cn": "Fighter 3; Eldritch Knight",
 			"s": "PHB",
-			"u": "eldritch%20knight_fighter_phb_eldritch%20knight_phb_3_phb",
-			"uh": "fighter_phb,state:sub_eldritch%20knight_phb=b1~feature=s2-0"
+			"u": "eldritch%20knight_fighter_xphb_eldritch%20knight_phb_3_phb",
+			"uh": "fighter_xphb,state:sub_eldritch%20knight_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 9927,
@@ -71255,8 +71255,8 @@
 			"n": "Eldritch Knight Fighter 7; War Magic",
 			"cn": "Fighter 7; War Magic",
 			"s": "PHB",
-			"u": "war%20magic_fighter_phb_eldritch%20knight_phb_7_phb",
-			"uh": "fighter_phb,state:sub_eldritch%20knight_phb=b1~feature=s6-0"
+			"u": "war%20magic_fighter_xphb_eldritch%20knight_phb_7_phb",
+			"uh": "fighter_xphb,state:sub_eldritch%20knight_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 9928,
@@ -71264,8 +71264,8 @@
 			"n": "Eldritch Knight Fighter 10; Eldritch Strike",
 			"cn": "Fighter 10; Eldritch Strike",
 			"s": "PHB",
-			"u": "eldritch%20strike_fighter_phb_eldritch%20knight_phb_10_phb",
-			"uh": "fighter_phb,state:sub_eldritch%20knight_phb=b1~feature=s9-0"
+			"u": "eldritch%20strike_fighter_xphb_eldritch%20knight_phb_10_phb",
+			"uh": "fighter_xphb,state:sub_eldritch%20knight_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 9929,
@@ -71273,8 +71273,8 @@
 			"n": "Eldritch Knight Fighter 15; Arcane Charge",
 			"cn": "Fighter 15; Arcane Charge",
 			"s": "PHB",
-			"u": "arcane%20charge_fighter_phb_eldritch%20knight_phb_15_phb",
-			"uh": "fighter_phb,state:sub_eldritch%20knight_phb=b1~feature=s14-0"
+			"u": "arcane%20charge_fighter_xphb_eldritch%20knight_phb_15_phb",
+			"uh": "fighter_xphb,state:sub_eldritch%20knight_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 9930,
@@ -71282,15 +71282,15 @@
 			"n": "Eldritch Knight Fighter 18; Improved War Magic",
 			"cn": "Fighter 18; Improved War Magic",
 			"s": "PHB",
-			"u": "improved%20war%20magic_fighter_phb_eldritch%20knight_phb_18_phb",
-			"uh": "fighter_phb,state:sub_eldritch%20knight_phb=b1~feature=s17-0"
+			"u": "improved%20war%20magic_fighter_xphb_eldritch%20knight_phb_18_phb",
+			"uh": "fighter_xphb,state:sub_eldritch%20knight_phb=b1~feature=s17-0"
 		},
 		{
 			"id": 9931,
 			"c": 40,
 			"n": "Eldritch Knight",
 			"s": "PHB",
-			"u": "fighter_phb,state:sub_eldritch%20knight_phb=b1"
+			"u": "fighter_xphb,state:sub_eldritch%20knight_phb=b1"
 		},
 		{
 			"id": 9932,
@@ -71905,8 +71905,8 @@
 			"n": "Berserker Barbarian 3; Frenzy",
 			"cn": "Barbarian 3; Frenzy",
 			"s": "PHB",
-			"u": "frenzy_barbarian_phb_berserker_phb_3_phb",
-			"uh": "barbarian_phb,state:sub_berserker_phb=b1~feature=s2-0"
+			"u": "frenzy_barbarian_xphb_berserker_phb_3_phb",
+			"uh": "barbarian_xphb,state:sub_berserker_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10002,
@@ -71914,8 +71914,8 @@
 			"n": "Berserker Barbarian 3; Path of the Berserker",
 			"cn": "Barbarian 3; Path of the Berserker",
 			"s": "PHB",
-			"u": "path%20of%20the%20berserker_barbarian_phb_berserker_phb_3_phb",
-			"uh": "barbarian_phb,state:sub_berserker_phb=b1~feature=s2-0"
+			"u": "path%20of%20the%20berserker_barbarian_xphb_berserker_phb_3_phb",
+			"uh": "barbarian_xphb,state:sub_berserker_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10003,
@@ -71923,8 +71923,8 @@
 			"n": "Berserker Barbarian 6; Mindless Rage",
 			"cn": "Barbarian 6; Mindless Rage",
 			"s": "PHB",
-			"u": "mindless%20rage_barbarian_phb_berserker_phb_6_phb",
-			"uh": "barbarian_phb,state:sub_berserker_phb=b1~feature=s5-0"
+			"u": "mindless%20rage_barbarian_xphb_berserker_phb_6_phb",
+			"uh": "barbarian_xphb,state:sub_berserker_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10004,
@@ -71932,8 +71932,8 @@
 			"n": "Berserker Barbarian 10; Intimidating Presence",
 			"cn": "Barbarian 10; Intimidating Presence",
 			"s": "PHB",
-			"u": "intimidating%20presence_barbarian_phb_berserker_phb_10_phb",
-			"uh": "barbarian_phb,state:sub_berserker_phb=b1~feature=s9-0"
+			"u": "intimidating%20presence_barbarian_xphb_berserker_phb_10_phb",
+			"uh": "barbarian_xphb,state:sub_berserker_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10005,
@@ -71941,15 +71941,15 @@
 			"n": "Berserker Barbarian 14; Retaliation",
 			"cn": "Barbarian 14; Retaliation",
 			"s": "PHB",
-			"u": "retaliation_barbarian_phb_berserker_phb_14_phb",
-			"uh": "barbarian_phb,state:sub_berserker_phb=b1~feature=s13-0"
+			"u": "retaliation_barbarian_xphb_berserker_phb_14_phb",
+			"uh": "barbarian_xphb,state:sub_berserker_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10006,
 			"c": 40,
 			"n": "Path of the Berserker",
 			"s": "PHB",
-			"u": "barbarian_phb,state:sub_berserker_phb=b1"
+			"u": "barbarian_xphb,state:sub_berserker_phb=b1"
 		},
 		{
 			"id": 10007,
@@ -71957,8 +71957,8 @@
 			"n": "Totem Warrior Barbarian 3; Eagle",
 			"cn": "Barbarian 3; Eagle",
 			"s": "PHB",
-			"u": "eagle_barbarian_phb_totem%20warrior_phb_3_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
+			"u": "eagle_barbarian_xphb_totem%20warrior_phb_3_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10008,
@@ -71966,8 +71966,8 @@
 			"n": "Totem Warrior Barbarian 3; Elk",
 			"cn": "Barbarian 3; Elk",
 			"s": "PHB",
-			"u": "elk_barbarian_phb_totem%20warrior_phb_3_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
+			"u": "elk_barbarian_xphb_totem%20warrior_phb_3_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10009,
@@ -71975,8 +71975,8 @@
 			"n": "Totem Warrior Barbarian 3; Path of the Totem Warrior",
 			"cn": "Barbarian 3; Path of the Totem Warrior",
 			"s": "PHB",
-			"u": "path%20of%20the%20totem%20warrior_barbarian_phb_totem%20warrior_phb_3_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
+			"u": "path%20of%20the%20totem%20warrior_barbarian_xphb_totem%20warrior_phb_3_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10010,
@@ -71984,8 +71984,8 @@
 			"n": "Totem Warrior Barbarian 3; Tiger",
 			"cn": "Barbarian 3; Tiger",
 			"s": "PHB",
-			"u": "tiger_barbarian_phb_totem%20warrior_phb_3_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
+			"u": "tiger_barbarian_xphb_totem%20warrior_phb_3_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10011,
@@ -71993,8 +71993,8 @@
 			"n": "Totem Warrior Barbarian 3; Wolf",
 			"cn": "Barbarian 3; Wolf",
 			"s": "PHB",
-			"u": "wolf_barbarian_phb_totem%20warrior_phb_3_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
+			"u": "wolf_barbarian_xphb_totem%20warrior_phb_3_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10012,
@@ -72002,8 +72002,8 @@
 			"n": "Totem Warrior Barbarian 3; Spirit Seeker",
 			"cn": "Barbarian 3; Spirit Seeker",
 			"s": "PHB",
-			"u": "spirit%20seeker_barbarian_phb_totem%20warrior_phb_3_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
+			"u": "spirit%20seeker_barbarian_xphb_totem%20warrior_phb_3_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10013,
@@ -72011,8 +72011,8 @@
 			"n": "Totem Warrior Barbarian 3; Totem Spirit",
 			"cn": "Barbarian 3; Totem Spirit",
 			"s": "PHB",
-			"u": "totem%20spirit_barbarian_phb_totem%20warrior_phb_3_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
+			"u": "totem%20spirit_barbarian_xphb_totem%20warrior_phb_3_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10014,
@@ -72020,8 +72020,8 @@
 			"n": "Totem Warrior Barbarian 3; Bear",
 			"cn": "Barbarian 3; Bear",
 			"s": "PHB",
-			"u": "bear_barbarian_phb_totem%20warrior_phb_3_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
+			"u": "bear_barbarian_xphb_totem%20warrior_phb_3_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10015,
@@ -72029,8 +72029,8 @@
 			"n": "Totem Warrior Barbarian 6; Eagle",
 			"cn": "Barbarian 6; Eagle",
 			"s": "PHB",
-			"u": "eagle_barbarian_phb_totem%20warrior_phb_6_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
+			"u": "eagle_barbarian_xphb_totem%20warrior_phb_6_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10016,
@@ -72038,8 +72038,8 @@
 			"n": "Totem Warrior Barbarian 6; Elk",
 			"cn": "Barbarian 6; Elk",
 			"s": "PHB",
-			"u": "elk_barbarian_phb_totem%20warrior_phb_6_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
+			"u": "elk_barbarian_xphb_totem%20warrior_phb_6_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10017,
@@ -72047,8 +72047,8 @@
 			"n": "Totem Warrior Barbarian 6; Tiger",
 			"cn": "Barbarian 6; Tiger",
 			"s": "PHB",
-			"u": "tiger_barbarian_phb_totem%20warrior_phb_6_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
+			"u": "tiger_barbarian_xphb_totem%20warrior_phb_6_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10018,
@@ -72056,8 +72056,8 @@
 			"n": "Totem Warrior Barbarian 6; Wolf",
 			"cn": "Barbarian 6; Wolf",
 			"s": "PHB",
-			"u": "wolf_barbarian_phb_totem%20warrior_phb_6_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
+			"u": "wolf_barbarian_xphb_totem%20warrior_phb_6_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10019,
@@ -72065,8 +72065,8 @@
 			"n": "Totem Warrior Barbarian 6; Aspect of the Beast",
 			"cn": "Barbarian 6; Aspect of the Beast",
 			"s": "PHB",
-			"u": "aspect%20of%20the%20beast_barbarian_phb_totem%20warrior_phb_6_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
+			"u": "aspect%20of%20the%20beast_barbarian_xphb_totem%20warrior_phb_6_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10020,
@@ -72074,8 +72074,8 @@
 			"n": "Totem Warrior Barbarian 6; Bear",
 			"cn": "Barbarian 6; Bear",
 			"s": "PHB",
-			"u": "bear_barbarian_phb_totem%20warrior_phb_6_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
+			"u": "bear_barbarian_xphb_totem%20warrior_phb_6_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10021,
@@ -72083,8 +72083,8 @@
 			"n": "Totem Warrior Barbarian 10; Spirit Walker",
 			"cn": "Barbarian 10; Spirit Walker",
 			"s": "PHB",
-			"u": "spirit%20walker_barbarian_phb_totem%20warrior_phb_10_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s9-0"
+			"u": "spirit%20walker_barbarian_xphb_totem%20warrior_phb_10_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10022,
@@ -72092,8 +72092,8 @@
 			"n": "Totem Warrior Barbarian 14; Eagle",
 			"cn": "Barbarian 14; Eagle",
 			"s": "PHB",
-			"u": "eagle_barbarian_phb_totem%20warrior_phb_14_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
+			"u": "eagle_barbarian_xphb_totem%20warrior_phb_14_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10023,
@@ -72101,8 +72101,8 @@
 			"n": "Totem Warrior Barbarian 14; Elk",
 			"cn": "Barbarian 14; Elk",
 			"s": "PHB",
-			"u": "elk_barbarian_phb_totem%20warrior_phb_14_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
+			"u": "elk_barbarian_xphb_totem%20warrior_phb_14_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10024,
@@ -72110,8 +72110,8 @@
 			"n": "Totem Warrior Barbarian 14; Tiger",
 			"cn": "Barbarian 14; Tiger",
 			"s": "PHB",
-			"u": "tiger_barbarian_phb_totem%20warrior_phb_14_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
+			"u": "tiger_barbarian_xphb_totem%20warrior_phb_14_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10025,
@@ -72119,8 +72119,8 @@
 			"n": "Totem Warrior Barbarian 14; Wolf",
 			"cn": "Barbarian 14; Wolf",
 			"s": "PHB",
-			"u": "wolf_barbarian_phb_totem%20warrior_phb_14_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
+			"u": "wolf_barbarian_xphb_totem%20warrior_phb_14_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10026,
@@ -72128,8 +72128,8 @@
 			"n": "Totem Warrior Barbarian 14; Totemic Attunement",
 			"cn": "Barbarian 14; Totemic Attunement",
 			"s": "PHB",
-			"u": "totemic%20attunement_barbarian_phb_totem%20warrior_phb_14_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
+			"u": "totemic%20attunement_barbarian_xphb_totem%20warrior_phb_14_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10027,
@@ -72137,15 +72137,15 @@
 			"n": "Totem Warrior Barbarian 14; Bear",
 			"cn": "Barbarian 14; Bear",
 			"s": "PHB",
-			"u": "bear_barbarian_phb_totem%20warrior_phb_14_phb",
-			"uh": "barbarian_phb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
+			"u": "bear_barbarian_xphb_totem%20warrior_phb_14_phb",
+			"uh": "barbarian_xphb,state:sub_totem%20warrior_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10028,
 			"c": 40,
 			"n": "Path of the Totem Warrior",
 			"s": "PHB",
-			"u": "barbarian_phb,state:sub_totem%20warrior_phb=b1"
+			"u": "barbarian_xphb,state:sub_totem%20warrior_phb=b1"
 		},
 		{
 			"id": 10029,
@@ -72634,8 +72634,8 @@
 			"n": "Lore Bard 3; Bonus Proficiencies",
 			"cn": "Bard 3; Bonus Proficiencies",
 			"s": "PHB",
-			"u": "bonus%20proficiencies_bard_phb_lore_phb_3_phb",
-			"uh": "bard_phb,state:sub_lore_phb=b1~feature=s2-0"
+			"u": "bonus%20proficiencies_bard_xphb_lore_phb_3_phb",
+			"uh": "bard_xphb,state:sub_lore_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10085,
@@ -72643,8 +72643,8 @@
 			"n": "Lore Bard 3; Cutting Words",
 			"cn": "Bard 3; Cutting Words",
 			"s": "PHB",
-			"u": "cutting%20words_bard_phb_lore_phb_3_phb",
-			"uh": "bard_phb,state:sub_lore_phb=b1~feature=s2-0"
+			"u": "cutting%20words_bard_xphb_lore_phb_3_phb",
+			"uh": "bard_xphb,state:sub_lore_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10086,
@@ -72652,8 +72652,8 @@
 			"n": "Lore Bard 3; College of Lore",
 			"cn": "Bard 3; College of Lore",
 			"s": "PHB",
-			"u": "college%20of%20lore_bard_phb_lore_phb_3_phb",
-			"uh": "bard_phb,state:sub_lore_phb=b1~feature=s2-0"
+			"u": "college%20of%20lore_bard_xphb_lore_phb_3_phb",
+			"uh": "bard_xphb,state:sub_lore_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10087,
@@ -72661,8 +72661,8 @@
 			"n": "Lore Bard 6; Additional Magical Secrets",
 			"cn": "Bard 6; Additional Magical Secrets",
 			"s": "PHB",
-			"u": "additional%20magical%20secrets_bard_phb_lore_phb_6_phb",
-			"uh": "bard_phb,state:sub_lore_phb=b1~feature=s5-0"
+			"u": "additional%20magical%20secrets_bard_xphb_lore_phb_6_phb",
+			"uh": "bard_xphb,state:sub_lore_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10088,
@@ -72670,15 +72670,15 @@
 			"n": "Lore Bard 14; Peerless Skill",
 			"cn": "Bard 14; Peerless Skill",
 			"s": "PHB",
-			"u": "peerless%20skill_bard_phb_lore_phb_14_phb",
-			"uh": "bard_phb,state:sub_lore_phb=b1~feature=s13-0"
+			"u": "peerless%20skill_bard_xphb_lore_phb_14_phb",
+			"uh": "bard_xphb,state:sub_lore_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10089,
 			"c": 40,
 			"n": "College of Lore",
 			"s": "PHB",
-			"u": "bard_phb,state:sub_lore_phb=b1"
+			"u": "bard_xphb,state:sub_lore_phb=b1"
 		},
 		{
 			"id": 10090,
@@ -72686,8 +72686,8 @@
 			"n": "Valor Bard 3; Bonus Proficiencies",
 			"cn": "Bard 3; Bonus Proficiencies",
 			"s": "PHB",
-			"u": "bonus%20proficiencies_bard_phb_valor_phb_3_phb",
-			"uh": "bard_phb,state:sub_valor_phb=b1~feature=s2-0"
+			"u": "bonus%20proficiencies_bard_xphb_valor_phb_3_phb",
+			"uh": "bard_xphb,state:sub_valor_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10091,
@@ -72695,8 +72695,8 @@
 			"n": "Valor Bard 3; Combat Inspiration",
 			"cn": "Bard 3; Combat Inspiration",
 			"s": "PHB",
-			"u": "combat%20inspiration_bard_phb_valor_phb_3_phb",
-			"uh": "bard_phb,state:sub_valor_phb=b1~feature=s2-0"
+			"u": "combat%20inspiration_bard_xphb_valor_phb_3_phb",
+			"uh": "bard_xphb,state:sub_valor_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10092,
@@ -72704,8 +72704,8 @@
 			"n": "Valor Bard 3; College of Valor",
 			"cn": "Bard 3; College of Valor",
 			"s": "PHB",
-			"u": "college%20of%20valor_bard_phb_valor_phb_3_phb",
-			"uh": "bard_phb,state:sub_valor_phb=b1~feature=s2-0"
+			"u": "college%20of%20valor_bard_xphb_valor_phb_3_phb",
+			"uh": "bard_xphb,state:sub_valor_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10093,
@@ -72713,8 +72713,8 @@
 			"n": "Valor Bard 6; Extra Attack",
 			"cn": "Bard 6; Extra Attack",
 			"s": "PHB",
-			"u": "extra%20attack_bard_phb_valor_phb_6_phb",
-			"uh": "bard_phb,state:sub_valor_phb=b1~feature=s5-0"
+			"u": "extra%20attack_bard_xphb_valor_phb_6_phb",
+			"uh": "bard_xphb,state:sub_valor_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10094,
@@ -72722,15 +72722,15 @@
 			"n": "Valor Bard 14; Battle Magic",
 			"cn": "Bard 14; Battle Magic",
 			"s": "PHB",
-			"u": "battle%20magic_bard_phb_valor_phb_14_phb",
-			"uh": "bard_phb,state:sub_valor_phb=b1~feature=s13-0"
+			"u": "battle%20magic_bard_xphb_valor_phb_14_phb",
+			"uh": "bard_xphb,state:sub_valor_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10095,
 			"c": 40,
 			"n": "College of Valor",
 			"s": "PHB",
-			"u": "bard_phb,state:sub_valor_phb=b1"
+			"u": "bard_xphb,state:sub_valor_phb=b1"
 		},
 		{
 			"id": 10096,
@@ -74000,8 +74000,8 @@
 			"n": "Land Druid 2; Bonus Cantrip",
 			"cn": "Druid 2; Bonus Cantrip",
 			"s": "PHB",
-			"u": "bonus%20cantrip_druid_phb_land_phb_2_phb",
-			"uh": "druid_phb,state:sub_land_phb=b1~feature=s1-0"
+			"u": "bonus%20cantrip_druid_xphb_land_phb_2_phb",
+			"uh": "druid_xphb,state:sub_land_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10241,
@@ -74009,8 +74009,8 @@
 			"n": "Land Druid 2; Circle Spells",
 			"cn": "Druid 2; Circle Spells",
 			"s": "PHB",
-			"u": "circle%20spells_druid_phb_land_phb_2_phb",
-			"uh": "druid_phb,state:sub_land_phb=b1~feature=s1-0"
+			"u": "circle%20spells_druid_xphb_land_phb_2_phb",
+			"uh": "druid_xphb,state:sub_land_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10242,
@@ -74018,8 +74018,8 @@
 			"n": "Land Druid 2; Natural Recovery",
 			"cn": "Druid 2; Natural Recovery",
 			"s": "PHB",
-			"u": "natural%20recovery_druid_phb_land_phb_2_phb",
-			"uh": "druid_phb,state:sub_land_phb=b1~feature=s1-0"
+			"u": "natural%20recovery_druid_xphb_land_phb_2_phb",
+			"uh": "druid_xphb,state:sub_land_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10243,
@@ -74027,8 +74027,8 @@
 			"n": "Land Druid 2; Circle of the Land",
 			"cn": "Druid 2; Circle of the Land",
 			"s": "PHB",
-			"u": "circle%20of%20the%20land_druid_phb_land_phb_2_phb",
-			"uh": "druid_phb,state:sub_land_phb=b1~feature=s1-0"
+			"u": "circle%20of%20the%20land_druid_xphb_land_phb_2_phb",
+			"uh": "druid_xphb,state:sub_land_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10244,
@@ -74036,8 +74036,8 @@
 			"n": "Land Druid 3; Circle of the Land",
 			"cn": "Druid 3; Circle of the Land",
 			"s": "PHB",
-			"u": "circle%20of%20the%20land_druid_phb_land_phb_3_phb",
-			"uh": "druid_phb,state:sub_land_phb=b1~feature=s2-0"
+			"u": "circle%20of%20the%20land_druid_xphb_land_phb_3_phb",
+			"uh": "druid_xphb,state:sub_land_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10245,
@@ -74045,8 +74045,8 @@
 			"n": "Land Druid 6; Land's Stride",
 			"cn": "Druid 6; Land's Stride",
 			"s": "PHB",
-			"u": "land's%20stride_druid_phb_land_phb_6_phb",
-			"uh": "druid_phb,state:sub_land_phb=b1~feature=s5-0"
+			"u": "land's%20stride_druid_xphb_land_phb_6_phb",
+			"uh": "druid_xphb,state:sub_land_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10246,
@@ -74054,8 +74054,8 @@
 			"n": "Land Druid 10; Nature's Ward",
 			"cn": "Druid 10; Nature's Ward",
 			"s": "PHB",
-			"u": "nature's%20ward_druid_phb_land_phb_10_phb",
-			"uh": "druid_phb,state:sub_land_phb=b1~feature=s9-0"
+			"u": "nature's%20ward_druid_xphb_land_phb_10_phb",
+			"uh": "druid_xphb,state:sub_land_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10247,
@@ -74063,15 +74063,15 @@
 			"n": "Land Druid 14; Nature's Sanctuary",
 			"cn": "Druid 14; Nature's Sanctuary",
 			"s": "PHB",
-			"u": "nature's%20sanctuary_druid_phb_land_phb_14_phb",
-			"uh": "druid_phb,state:sub_land_phb=b1~feature=s13-0"
+			"u": "nature's%20sanctuary_druid_xphb_land_phb_14_phb",
+			"uh": "druid_xphb,state:sub_land_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10248,
 			"c": 40,
 			"n": "Circle of the Land",
 			"s": "PHB",
-			"u": "druid_phb,state:sub_land_phb=b1"
+			"u": "druid_xphb,state:sub_land_phb=b1"
 		},
 		{
 			"id": 10249,
@@ -74079,8 +74079,8 @@
 			"n": "Moon Druid 2; Circle Forms",
 			"cn": "Druid 2; Circle Forms",
 			"s": "PHB",
-			"u": "circle%20forms_druid_phb_moon_phb_2_phb",
-			"uh": "druid_phb,state:sub_moon_phb=b1~feature=s1-0"
+			"u": "circle%20forms_druid_xphb_moon_phb_2_phb",
+			"uh": "druid_xphb,state:sub_moon_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10250,
@@ -74088,8 +74088,8 @@
 			"n": "Moon Druid 2; Combat Wild Shape",
 			"cn": "Druid 2; Combat Wild Shape",
 			"s": "PHB",
-			"u": "combat%20wild%20shape_druid_phb_moon_phb_2_phb",
-			"uh": "druid_phb,state:sub_moon_phb=b1~feature=s1-0"
+			"u": "combat%20wild%20shape_druid_xphb_moon_phb_2_phb",
+			"uh": "druid_xphb,state:sub_moon_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10251,
@@ -74097,8 +74097,8 @@
 			"n": "Moon Druid 2; Circle of the Moon",
 			"cn": "Druid 2; Circle of the Moon",
 			"s": "PHB",
-			"u": "circle%20of%20the%20moon_druid_phb_moon_phb_2_phb",
-			"uh": "druid_phb,state:sub_moon_phb=b1~feature=s1-0"
+			"u": "circle%20of%20the%20moon_druid_xphb_moon_phb_2_phb",
+			"uh": "druid_xphb,state:sub_moon_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10252,
@@ -74106,8 +74106,8 @@
 			"n": "Moon Druid 3; Circle of the Moon",
 			"cn": "Druid 3; Circle of the Moon",
 			"s": "PHB",
-			"u": "circle%20of%20the%20moon_druid_phb_moon_phb_3_phb",
-			"uh": "druid_phb,state:sub_moon_phb=b1~feature=s2-0"
+			"u": "circle%20of%20the%20moon_druid_xphb_moon_phb_3_phb",
+			"uh": "druid_xphb,state:sub_moon_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10253,
@@ -74115,8 +74115,8 @@
 			"n": "Moon Druid 6; Primal Strike",
 			"cn": "Druid 6; Primal Strike",
 			"s": "PHB",
-			"u": "primal%20strike_druid_phb_moon_phb_6_phb",
-			"uh": "druid_phb,state:sub_moon_phb=b1~feature=s5-0"
+			"u": "primal%20strike_druid_xphb_moon_phb_6_phb",
+			"uh": "druid_xphb,state:sub_moon_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10254,
@@ -74124,8 +74124,8 @@
 			"n": "Moon Druid 10; Elemental Wild Shape",
 			"cn": "Druid 10; Elemental Wild Shape",
 			"s": "PHB",
-			"u": "elemental%20wild%20shape_druid_phb_moon_phb_10_phb",
-			"uh": "druid_phb,state:sub_moon_phb=b1~feature=s9-0"
+			"u": "elemental%20wild%20shape_druid_xphb_moon_phb_10_phb",
+			"uh": "druid_xphb,state:sub_moon_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10255,
@@ -74133,15 +74133,15 @@
 			"n": "Moon Druid 14; Thousand Forms",
 			"cn": "Druid 14; Thousand Forms",
 			"s": "PHB",
-			"u": "thousand%20forms_druid_phb_moon_phb_14_phb",
-			"uh": "druid_phb,state:sub_moon_phb=b1~feature=s13-0"
+			"u": "thousand%20forms_druid_xphb_moon_phb_14_phb",
+			"uh": "druid_xphb,state:sub_moon_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10256,
 			"c": 40,
 			"n": "Circle of the Moon",
 			"s": "PHB",
-			"u": "druid_phb,state:sub_moon_phb=b1"
+			"u": "druid_xphb,state:sub_moon_phb=b1"
 		},
 		{
 			"id": 10257,
@@ -74526,8 +74526,8 @@
 			"n": "Knowledge Cleric 1; Blessings of Knowledge",
 			"cn": "Cleric 1; Blessings of Knowledge",
 			"s": "PHB",
-			"u": "blessings%20of%20knowledge_cleric_phb_knowledge_phb_1_phb",
-			"uh": "cleric_phb,state:sub_knowledge_phb=b1~feature=s0-0"
+			"u": "blessings%20of%20knowledge_cleric_xphb_knowledge_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_knowledge_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10301,
@@ -74535,8 +74535,8 @@
 			"n": "Knowledge Cleric 1; Knowledge Domain",
 			"cn": "Cleric 1; Knowledge Domain",
 			"s": "PHB",
-			"u": "knowledge%20domain_cleric_phb_knowledge_phb_1_phb",
-			"uh": "cleric_phb,state:sub_knowledge_phb=b1~feature=s0-0"
+			"u": "knowledge%20domain_cleric_xphb_knowledge_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_knowledge_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10302,
@@ -74544,8 +74544,8 @@
 			"n": "Knowledge Cleric 2; Channel Divinity: Knowledge of the Ages",
 			"cn": "Cleric 2; Channel Divinity: Knowledge of the Ages",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20knowledge%20of%20the%20ages_cleric_phb_knowledge_phb_2_phb",
-			"uh": "cleric_phb,state:sub_knowledge_phb=b1~feature=s1-0"
+			"u": "channel%20divinity%3a%20knowledge%20of%20the%20ages_cleric_xphb_knowledge_phb_2_phb",
+			"uh": "cleric_xphb,state:sub_knowledge_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10303,
@@ -74553,8 +74553,8 @@
 			"n": "Knowledge Cleric 3; Knowledge Domain",
 			"cn": "Cleric 3; Knowledge Domain",
 			"s": "PHB",
-			"u": "knowledge%20domain_cleric_phb_knowledge_phb_3_phb",
-			"uh": "cleric_phb,state:sub_knowledge_phb=b1~feature=s2-0"
+			"u": "knowledge%20domain_cleric_xphb_knowledge_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_knowledge_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10304,
@@ -74562,8 +74562,8 @@
 			"n": "Knowledge Cleric 3; Channel Divinity: Knowledge of the Ages",
 			"cn": "Cleric 3; Channel Divinity: Knowledge of the Ages",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20knowledge%20of%20the%20ages_cleric_phb_knowledge_phb_3_phb",
-			"uh": "cleric_phb,state:sub_knowledge_phb=b1~feature=s2-0"
+			"u": "channel%20divinity%3a%20knowledge%20of%20the%20ages_cleric_xphb_knowledge_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_knowledge_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10305,
@@ -74571,8 +74571,8 @@
 			"n": "Knowledge Cleric 6; Channel Divinity: Read Thoughts",
 			"cn": "Cleric 6; Channel Divinity: Read Thoughts",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20read%20thoughts_cleric_phb_knowledge_phb_6_phb",
-			"uh": "cleric_phb,state:sub_knowledge_phb=b1~feature=s5-0"
+			"u": "channel%20divinity%3a%20read%20thoughts_cleric_xphb_knowledge_phb_6_phb",
+			"uh": "cleric_xphb,state:sub_knowledge_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10306,
@@ -74580,8 +74580,8 @@
 			"n": "Knowledge Cleric 8; Potent Spellcasting",
 			"cn": "Cleric 8; Potent Spellcasting",
 			"s": "PHB",
-			"u": "potent%20spellcasting_cleric_phb_knowledge_phb_8_phb",
-			"uh": "cleric_phb,state:sub_knowledge_phb=b1~feature=s7-0"
+			"u": "potent%20spellcasting_cleric_xphb_knowledge_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_knowledge_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10307,
@@ -74589,8 +74589,8 @@
 			"n": "Knowledge Cleric 8; Blessed Strikes",
 			"cn": "Cleric 8; Blessed Strikes",
 			"s": "PHB",
-			"u": "blessed%20strikes_cleric_phb_knowledge_phb_8_phb",
-			"uh": "cleric_phb,state:sub_knowledge_phb=b1~feature=s7-0"
+			"u": "blessed%20strikes_cleric_xphb_knowledge_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_knowledge_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10308,
@@ -74598,15 +74598,15 @@
 			"n": "Knowledge Cleric 17; Visions of the Past",
 			"cn": "Cleric 17; Visions of the Past",
 			"s": "PHB",
-			"u": "visions%20of%20the%20past_cleric_phb_knowledge_phb_17_phb",
-			"uh": "cleric_phb,state:sub_knowledge_phb=b1~feature=s16-0"
+			"u": "visions%20of%20the%20past_cleric_xphb_knowledge_phb_17_phb",
+			"uh": "cleric_xphb,state:sub_knowledge_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10309,
 			"c": 40,
 			"n": "Knowledge Domain",
 			"s": "PHB",
-			"u": "cleric_phb,state:sub_knowledge_phb=b1"
+			"u": "cleric_xphb,state:sub_knowledge_phb=b1"
 		},
 		{
 			"id": 10310,
@@ -74614,8 +74614,8 @@
 			"n": "Life Cleric 1; Bonus Proficiency",
 			"cn": "Cleric 1; Bonus Proficiency",
 			"s": "PHB",
-			"u": "bonus%20proficiency_cleric_phb_life_phb_1_phb",
-			"uh": "cleric_phb,state:sub_life_phb=b1~feature=s0-0"
+			"u": "bonus%20proficiency_cleric_xphb_life_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_life_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10311,
@@ -74623,8 +74623,8 @@
 			"n": "Life Cleric 1; Disciple of Life",
 			"cn": "Cleric 1; Disciple of Life",
 			"s": "PHB",
-			"u": "disciple%20of%20life_cleric_phb_life_phb_1_phb",
-			"uh": "cleric_phb,state:sub_life_phb=b1~feature=s0-0"
+			"u": "disciple%20of%20life_cleric_xphb_life_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_life_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10312,
@@ -74632,8 +74632,8 @@
 			"n": "Life Cleric 1; Life Domain",
 			"cn": "Cleric 1; Life Domain",
 			"s": "PHB",
-			"u": "life%20domain_cleric_phb_life_phb_1_phb",
-			"uh": "cleric_phb,state:sub_life_phb=b1~feature=s0-0"
+			"u": "life%20domain_cleric_xphb_life_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_life_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10313,
@@ -74641,8 +74641,8 @@
 			"n": "Life Cleric 2; Channel Divinity: Preserve Life",
 			"cn": "Cleric 2; Channel Divinity: Preserve Life",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20preserve%20life_cleric_phb_life_phb_2_phb",
-			"uh": "cleric_phb,state:sub_life_phb=b1~feature=s1-0"
+			"u": "channel%20divinity%3a%20preserve%20life_cleric_xphb_life_phb_2_phb",
+			"uh": "cleric_xphb,state:sub_life_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10314,
@@ -74650,8 +74650,8 @@
 			"n": "Life Cleric 3; Life Domain",
 			"cn": "Cleric 3; Life Domain",
 			"s": "PHB",
-			"u": "life%20domain_cleric_phb_life_phb_3_phb",
-			"uh": "cleric_phb,state:sub_life_phb=b1~feature=s2-0"
+			"u": "life%20domain_cleric_xphb_life_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_life_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10315,
@@ -74659,8 +74659,8 @@
 			"n": "Life Cleric 3; Channel Divinity: Preserve Life",
 			"cn": "Cleric 3; Channel Divinity: Preserve Life",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20preserve%20life_cleric_phb_life_phb_3_phb",
-			"uh": "cleric_phb,state:sub_life_phb=b1~feature=s2-0"
+			"u": "channel%20divinity%3a%20preserve%20life_cleric_xphb_life_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_life_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10316,
@@ -74668,8 +74668,8 @@
 			"n": "Life Cleric 6; Blessed Healer",
 			"cn": "Cleric 6; Blessed Healer",
 			"s": "PHB",
-			"u": "blessed%20healer_cleric_phb_life_phb_6_phb",
-			"uh": "cleric_phb,state:sub_life_phb=b1~feature=s5-0"
+			"u": "blessed%20healer_cleric_xphb_life_phb_6_phb",
+			"uh": "cleric_xphb,state:sub_life_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10317,
@@ -74677,8 +74677,8 @@
 			"n": "Life Cleric 8; Divine Strike",
 			"cn": "Cleric 8; Divine Strike",
 			"s": "PHB",
-			"u": "divine%20strike_cleric_phb_life_phb_8_phb",
-			"uh": "cleric_phb,state:sub_life_phb=b1~feature=s7-0"
+			"u": "divine%20strike_cleric_xphb_life_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_life_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10318,
@@ -74686,8 +74686,8 @@
 			"n": "Life Cleric 8; Blessed Strikes",
 			"cn": "Cleric 8; Blessed Strikes",
 			"s": "PHB",
-			"u": "blessed%20strikes_cleric_phb_life_phb_8_phb",
-			"uh": "cleric_phb,state:sub_life_phb=b1~feature=s7-0"
+			"u": "blessed%20strikes_cleric_xphb_life_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_life_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10319,
@@ -74695,15 +74695,15 @@
 			"n": "Life Cleric 17; Supreme Healing",
 			"cn": "Cleric 17; Supreme Healing",
 			"s": "PHB",
-			"u": "supreme%20healing_cleric_phb_life_phb_17_phb",
-			"uh": "cleric_phb,state:sub_life_phb=b1~feature=s16-0"
+			"u": "supreme%20healing_cleric_xphb_life_phb_17_phb",
+			"uh": "cleric_xphb,state:sub_life_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10320,
 			"c": 40,
 			"n": "Life Domain",
 			"s": "PHB",
-			"u": "cleric_phb,state:sub_life_phb=b1"
+			"u": "cleric_xphb,state:sub_life_phb=b1"
 		},
 		{
 			"id": 10321,
@@ -74711,8 +74711,8 @@
 			"n": "Light Cleric 1; Bonus Cantrip",
 			"cn": "Cleric 1; Bonus Cantrip",
 			"s": "PHB",
-			"u": "bonus%20cantrip_cleric_phb_light_phb_1_phb",
-			"uh": "cleric_phb,state:sub_light_phb=b1~feature=s0-0"
+			"u": "bonus%20cantrip_cleric_xphb_light_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_light_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10322,
@@ -74720,8 +74720,8 @@
 			"n": "Light Cleric 1; Warding Flare",
 			"cn": "Cleric 1; Warding Flare",
 			"s": "PHB",
-			"u": "warding%20flare_cleric_phb_light_phb_1_phb",
-			"uh": "cleric_phb,state:sub_light_phb=b1~feature=s0-0"
+			"u": "warding%20flare_cleric_xphb_light_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_light_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10323,
@@ -74729,8 +74729,8 @@
 			"n": "Light Cleric 1; Light Domain",
 			"cn": "Cleric 1; Light Domain",
 			"s": "PHB",
-			"u": "light%20domain_cleric_phb_light_phb_1_phb",
-			"uh": "cleric_phb,state:sub_light_phb=b1~feature=s0-0"
+			"u": "light%20domain_cleric_xphb_light_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_light_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10324,
@@ -74738,8 +74738,8 @@
 			"n": "Light Cleric 2; Channel Divinity: Radiance of the Dawn",
 			"cn": "Cleric 2; Channel Divinity: Radiance of the Dawn",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20radiance%20of%20the%20dawn_cleric_phb_light_phb_2_phb",
-			"uh": "cleric_phb,state:sub_light_phb=b1~feature=s1-0"
+			"u": "channel%20divinity%3a%20radiance%20of%20the%20dawn_cleric_xphb_light_phb_2_phb",
+			"uh": "cleric_xphb,state:sub_light_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10325,
@@ -74747,8 +74747,8 @@
 			"n": "Light Cleric 3; Light Domain",
 			"cn": "Cleric 3; Light Domain",
 			"s": "PHB",
-			"u": "light%20domain_cleric_phb_light_phb_3_phb",
-			"uh": "cleric_phb,state:sub_light_phb=b1~feature=s2-0"
+			"u": "light%20domain_cleric_xphb_light_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_light_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10326,
@@ -74756,8 +74756,8 @@
 			"n": "Light Cleric 3; Channel Divinity: Radiance of the Dawn",
 			"cn": "Cleric 3; Channel Divinity: Radiance of the Dawn",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20radiance%20of%20the%20dawn_cleric_phb_light_phb_3_phb",
-			"uh": "cleric_phb,state:sub_light_phb=b1~feature=s2-0"
+			"u": "channel%20divinity%3a%20radiance%20of%20the%20dawn_cleric_xphb_light_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_light_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10327,
@@ -74765,8 +74765,8 @@
 			"n": "Light Cleric 6; Improved Flare",
 			"cn": "Cleric 6; Improved Flare",
 			"s": "PHB",
-			"u": "improved%20flare_cleric_phb_light_phb_6_phb",
-			"uh": "cleric_phb,state:sub_light_phb=b1~feature=s5-0"
+			"u": "improved%20flare_cleric_xphb_light_phb_6_phb",
+			"uh": "cleric_xphb,state:sub_light_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10328,
@@ -74774,8 +74774,8 @@
 			"n": "Light Cleric 8; Potent Spellcasting",
 			"cn": "Cleric 8; Potent Spellcasting",
 			"s": "PHB",
-			"u": "potent%20spellcasting_cleric_phb_light_phb_8_phb",
-			"uh": "cleric_phb,state:sub_light_phb=b1~feature=s7-0"
+			"u": "potent%20spellcasting_cleric_xphb_light_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_light_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10329,
@@ -74783,8 +74783,8 @@
 			"n": "Light Cleric 8; Blessed Strikes",
 			"cn": "Cleric 8; Blessed Strikes",
 			"s": "PHB",
-			"u": "blessed%20strikes_cleric_phb_light_phb_8_phb",
-			"uh": "cleric_phb,state:sub_light_phb=b1~feature=s7-0"
+			"u": "blessed%20strikes_cleric_xphb_light_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_light_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10330,
@@ -74792,15 +74792,15 @@
 			"n": "Light Cleric 17; Corona of Light",
 			"cn": "Cleric 17; Corona of Light",
 			"s": "PHB",
-			"u": "corona%20of%20light_cleric_phb_light_phb_17_phb",
-			"uh": "cleric_phb,state:sub_light_phb=b1~feature=s16-0"
+			"u": "corona%20of%20light_cleric_xphb_light_phb_17_phb",
+			"uh": "cleric_xphb,state:sub_light_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10331,
 			"c": 40,
 			"n": "Light Domain",
 			"s": "PHB",
-			"u": "cleric_phb,state:sub_light_phb=b1"
+			"u": "cleric_xphb,state:sub_light_phb=b1"
 		},
 		{
 			"id": 10332,
@@ -74808,8 +74808,8 @@
 			"n": "Nature Cleric 1; Acolyte of Nature",
 			"cn": "Cleric 1; Acolyte of Nature",
 			"s": "PHB",
-			"u": "acolyte%20of%20nature_cleric_phb_nature_phb_1_phb",
-			"uh": "cleric_phb,state:sub_nature_phb=b1~feature=s0-0"
+			"u": "acolyte%20of%20nature_cleric_xphb_nature_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_nature_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10333,
@@ -74817,8 +74817,8 @@
 			"n": "Nature Cleric 1; Bonus Proficiency",
 			"cn": "Cleric 1; Bonus Proficiency",
 			"s": "PHB",
-			"u": "bonus%20proficiency_cleric_phb_nature_phb_1_phb",
-			"uh": "cleric_phb,state:sub_nature_phb=b1~feature=s0-0"
+			"u": "bonus%20proficiency_cleric_xphb_nature_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_nature_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10334,
@@ -74826,8 +74826,8 @@
 			"n": "Nature Cleric 1; Nature Domain",
 			"cn": "Cleric 1; Nature Domain",
 			"s": "PHB",
-			"u": "nature%20domain_cleric_phb_nature_phb_1_phb",
-			"uh": "cleric_phb,state:sub_nature_phb=b1~feature=s0-0"
+			"u": "nature%20domain_cleric_xphb_nature_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_nature_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10335,
@@ -74835,8 +74835,8 @@
 			"n": "Nature Cleric 2; Channel Divinity: Charm Animals and Plants",
 			"cn": "Cleric 2; Channel Divinity: Charm Animals and Plants",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20charm%20animals%20and%20plants_cleric_phb_nature_phb_2_phb",
-			"uh": "cleric_phb,state:sub_nature_phb=b1~feature=s1-0"
+			"u": "channel%20divinity%3a%20charm%20animals%20and%20plants_cleric_xphb_nature_phb_2_phb",
+			"uh": "cleric_xphb,state:sub_nature_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10336,
@@ -74844,8 +74844,8 @@
 			"n": "Nature Cleric 3; Nature Domain",
 			"cn": "Cleric 3; Nature Domain",
 			"s": "PHB",
-			"u": "nature%20domain_cleric_phb_nature_phb_3_phb",
-			"uh": "cleric_phb,state:sub_nature_phb=b1~feature=s2-0"
+			"u": "nature%20domain_cleric_xphb_nature_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_nature_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10337,
@@ -74853,8 +74853,8 @@
 			"n": "Nature Cleric 3; Channel Divinity: Charm Animals and Plants",
 			"cn": "Cleric 3; Channel Divinity: Charm Animals and Plants",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20charm%20animals%20and%20plants_cleric_phb_nature_phb_3_phb",
-			"uh": "cleric_phb,state:sub_nature_phb=b1~feature=s2-0"
+			"u": "channel%20divinity%3a%20charm%20animals%20and%20plants_cleric_xphb_nature_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_nature_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10338,
@@ -74862,8 +74862,8 @@
 			"n": "Nature Cleric 6; Dampen Elements",
 			"cn": "Cleric 6; Dampen Elements",
 			"s": "PHB",
-			"u": "dampen%20elements_cleric_phb_nature_phb_6_phb",
-			"uh": "cleric_phb,state:sub_nature_phb=b1~feature=s5-0"
+			"u": "dampen%20elements_cleric_xphb_nature_phb_6_phb",
+			"uh": "cleric_xphb,state:sub_nature_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10339,
@@ -74871,8 +74871,8 @@
 			"n": "Nature Cleric 8; Divine Strike",
 			"cn": "Cleric 8; Divine Strike",
 			"s": "PHB",
-			"u": "divine%20strike_cleric_phb_nature_phb_8_phb",
-			"uh": "cleric_phb,state:sub_nature_phb=b1~feature=s7-0"
+			"u": "divine%20strike_cleric_xphb_nature_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_nature_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10340,
@@ -74880,8 +74880,8 @@
 			"n": "Nature Cleric 8; Blessed Strikes",
 			"cn": "Cleric 8; Blessed Strikes",
 			"s": "PHB",
-			"u": "blessed%20strikes_cleric_phb_nature_phb_8_phb",
-			"uh": "cleric_phb,state:sub_nature_phb=b1~feature=s7-0"
+			"u": "blessed%20strikes_cleric_xphb_nature_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_nature_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10341,
@@ -74889,15 +74889,15 @@
 			"n": "Nature Cleric 17; Master of Nature",
 			"cn": "Cleric 17; Master of Nature",
 			"s": "PHB",
-			"u": "master%20of%20nature_cleric_phb_nature_phb_17_phb",
-			"uh": "cleric_phb,state:sub_nature_phb=b1~feature=s16-0"
+			"u": "master%20of%20nature_cleric_xphb_nature_phb_17_phb",
+			"uh": "cleric_xphb,state:sub_nature_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10342,
 			"c": 40,
 			"n": "Nature Domain",
 			"s": "PHB",
-			"u": "cleric_phb,state:sub_nature_phb=b1"
+			"u": "cleric_xphb,state:sub_nature_phb=b1"
 		},
 		{
 			"id": 10343,
@@ -74905,8 +74905,8 @@
 			"n": "Tempest Cleric 1; Bonus Proficiencies",
 			"cn": "Cleric 1; Bonus Proficiencies",
 			"s": "PHB",
-			"u": "bonus%20proficiencies_cleric_phb_tempest_phb_1_phb",
-			"uh": "cleric_phb,state:sub_tempest_phb=b1~feature=s0-0"
+			"u": "bonus%20proficiencies_cleric_xphb_tempest_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_tempest_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10344,
@@ -74914,8 +74914,8 @@
 			"n": "Tempest Cleric 1; Wrath of the Storm",
 			"cn": "Cleric 1; Wrath of the Storm",
 			"s": "PHB",
-			"u": "wrath%20of%20the%20storm_cleric_phb_tempest_phb_1_phb",
-			"uh": "cleric_phb,state:sub_tempest_phb=b1~feature=s0-0"
+			"u": "wrath%20of%20the%20storm_cleric_xphb_tempest_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_tempest_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10345,
@@ -74923,8 +74923,8 @@
 			"n": "Tempest Cleric 1; Tempest Domain",
 			"cn": "Cleric 1; Tempest Domain",
 			"s": "PHB",
-			"u": "tempest%20domain_cleric_phb_tempest_phb_1_phb",
-			"uh": "cleric_phb,state:sub_tempest_phb=b1~feature=s0-0"
+			"u": "tempest%20domain_cleric_xphb_tempest_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_tempest_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10346,
@@ -74932,8 +74932,8 @@
 			"n": "Tempest Cleric 2; Channel Divinity: Destructive Wrath",
 			"cn": "Cleric 2; Channel Divinity: Destructive Wrath",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20destructive%20wrath_cleric_phb_tempest_phb_2_phb",
-			"uh": "cleric_phb,state:sub_tempest_phb=b1~feature=s1-0"
+			"u": "channel%20divinity%3a%20destructive%20wrath_cleric_xphb_tempest_phb_2_phb",
+			"uh": "cleric_xphb,state:sub_tempest_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10347,
@@ -74941,8 +74941,8 @@
 			"n": "Tempest Cleric 3; Tempest Domain",
 			"cn": "Cleric 3; Tempest Domain",
 			"s": "PHB",
-			"u": "tempest%20domain_cleric_phb_tempest_phb_3_phb",
-			"uh": "cleric_phb,state:sub_tempest_phb=b1~feature=s2-0"
+			"u": "tempest%20domain_cleric_xphb_tempest_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_tempest_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10348,
@@ -74950,8 +74950,8 @@
 			"n": "Tempest Cleric 3; Channel Divinity: Destructive Wrath",
 			"cn": "Cleric 3; Channel Divinity: Destructive Wrath",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20destructive%20wrath_cleric_phb_tempest_phb_3_phb",
-			"uh": "cleric_phb,state:sub_tempest_phb=b1~feature=s2-0"
+			"u": "channel%20divinity%3a%20destructive%20wrath_cleric_xphb_tempest_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_tempest_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10349,
@@ -74959,8 +74959,8 @@
 			"n": "Tempest Cleric 6; Thunderbolt Strike",
 			"cn": "Cleric 6; Thunderbolt Strike",
 			"s": "PHB",
-			"u": "thunderbolt%20strike_cleric_phb_tempest_phb_6_phb",
-			"uh": "cleric_phb,state:sub_tempest_phb=b1~feature=s5-0"
+			"u": "thunderbolt%20strike_cleric_xphb_tempest_phb_6_phb",
+			"uh": "cleric_xphb,state:sub_tempest_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10350,
@@ -74968,8 +74968,8 @@
 			"n": "Tempest Cleric 8; Divine Strike",
 			"cn": "Cleric 8; Divine Strike",
 			"s": "PHB",
-			"u": "divine%20strike_cleric_phb_tempest_phb_8_phb",
-			"uh": "cleric_phb,state:sub_tempest_phb=b1~feature=s7-0"
+			"u": "divine%20strike_cleric_xphb_tempest_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_tempest_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10351,
@@ -74977,8 +74977,8 @@
 			"n": "Tempest Cleric 8; Blessed Strikes",
 			"cn": "Cleric 8; Blessed Strikes",
 			"s": "PHB",
-			"u": "blessed%20strikes_cleric_phb_tempest_phb_8_phb",
-			"uh": "cleric_phb,state:sub_tempest_phb=b1~feature=s7-0"
+			"u": "blessed%20strikes_cleric_xphb_tempest_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_tempest_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10352,
@@ -74986,15 +74986,15 @@
 			"n": "Tempest Cleric 17; Stormborn",
 			"cn": "Cleric 17; Stormborn",
 			"s": "PHB",
-			"u": "stormborn_cleric_phb_tempest_phb_17_phb",
-			"uh": "cleric_phb,state:sub_tempest_phb=b1~feature=s16-0"
+			"u": "stormborn_cleric_xphb_tempest_phb_17_phb",
+			"uh": "cleric_xphb,state:sub_tempest_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10353,
 			"c": 40,
 			"n": "Tempest Domain",
 			"s": "PHB",
-			"u": "cleric_phb,state:sub_tempest_phb=b1"
+			"u": "cleric_xphb,state:sub_tempest_phb=b1"
 		},
 		{
 			"id": 10354,
@@ -75002,8 +75002,8 @@
 			"n": "Trickery Cleric 1; Blessing of the Trickster",
 			"cn": "Cleric 1; Blessing of the Trickster",
 			"s": "PHB",
-			"u": "blessing%20of%20the%20trickster_cleric_phb_trickery_phb_1_phb",
-			"uh": "cleric_phb,state:sub_trickery_phb=b1~feature=s0-0"
+			"u": "blessing%20of%20the%20trickster_cleric_xphb_trickery_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_trickery_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10355,
@@ -75011,8 +75011,8 @@
 			"n": "Trickery Cleric 1; Trickery Domain",
 			"cn": "Cleric 1; Trickery Domain",
 			"s": "PHB",
-			"u": "trickery%20domain_cleric_phb_trickery_phb_1_phb",
-			"uh": "cleric_phb,state:sub_trickery_phb=b1~feature=s0-0"
+			"u": "trickery%20domain_cleric_xphb_trickery_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_trickery_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10356,
@@ -75020,8 +75020,8 @@
 			"n": "Trickery Cleric 2; Channel Divinity: Invoke Duplicity",
 			"cn": "Cleric 2; Channel Divinity: Invoke Duplicity",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20invoke%20duplicity_cleric_phb_trickery_phb_2_phb",
-			"uh": "cleric_phb,state:sub_trickery_phb=b1~feature=s1-0"
+			"u": "channel%20divinity%3a%20invoke%20duplicity_cleric_xphb_trickery_phb_2_phb",
+			"uh": "cleric_xphb,state:sub_trickery_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10357,
@@ -75029,8 +75029,8 @@
 			"n": "Trickery Cleric 3; Trickery Domain",
 			"cn": "Cleric 3; Trickery Domain",
 			"s": "PHB",
-			"u": "trickery%20domain_cleric_phb_trickery_phb_3_phb",
-			"uh": "cleric_phb,state:sub_trickery_phb=b1~feature=s2-0"
+			"u": "trickery%20domain_cleric_xphb_trickery_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_trickery_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10358,
@@ -75038,8 +75038,8 @@
 			"n": "Trickery Cleric 3; Channel Divinity: Invoke Duplicity",
 			"cn": "Cleric 3; Channel Divinity: Invoke Duplicity",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20invoke%20duplicity_cleric_phb_trickery_phb_3_phb",
-			"uh": "cleric_phb,state:sub_trickery_phb=b1~feature=s2-0"
+			"u": "channel%20divinity%3a%20invoke%20duplicity_cleric_xphb_trickery_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_trickery_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10359,
@@ -75047,8 +75047,8 @@
 			"n": "Trickery Cleric 6; Channel Divinity: Cloak of Shadows",
 			"cn": "Cleric 6; Channel Divinity: Cloak of Shadows",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20cloak%20of%20shadows_cleric_phb_trickery_phb_6_phb",
-			"uh": "cleric_phb,state:sub_trickery_phb=b1~feature=s5-0"
+			"u": "channel%20divinity%3a%20cloak%20of%20shadows_cleric_xphb_trickery_phb_6_phb",
+			"uh": "cleric_xphb,state:sub_trickery_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10360,
@@ -75056,8 +75056,8 @@
 			"n": "Trickery Cleric 8; Divine Strike",
 			"cn": "Cleric 8; Divine Strike",
 			"s": "PHB",
-			"u": "divine%20strike_cleric_phb_trickery_phb_8_phb",
-			"uh": "cleric_phb,state:sub_trickery_phb=b1~feature=s7-0"
+			"u": "divine%20strike_cleric_xphb_trickery_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_trickery_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10361,
@@ -75065,8 +75065,8 @@
 			"n": "Trickery Cleric 8; Blessed Strikes",
 			"cn": "Cleric 8; Blessed Strikes",
 			"s": "PHB",
-			"u": "blessed%20strikes_cleric_phb_trickery_phb_8_phb",
-			"uh": "cleric_phb,state:sub_trickery_phb=b1~feature=s7-0"
+			"u": "blessed%20strikes_cleric_xphb_trickery_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_trickery_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10362,
@@ -75074,15 +75074,15 @@
 			"n": "Trickery Cleric 17; Improved Duplicity",
 			"cn": "Cleric 17; Improved Duplicity",
 			"s": "PHB",
-			"u": "improved%20duplicity_cleric_phb_trickery_phb_17_phb",
-			"uh": "cleric_phb,state:sub_trickery_phb=b1~feature=s16-0"
+			"u": "improved%20duplicity_cleric_xphb_trickery_phb_17_phb",
+			"uh": "cleric_xphb,state:sub_trickery_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10363,
 			"c": 40,
 			"n": "Trickery Domain",
 			"s": "PHB",
-			"u": "cleric_phb,state:sub_trickery_phb=b1"
+			"u": "cleric_xphb,state:sub_trickery_phb=b1"
 		},
 		{
 			"id": 10364,
@@ -75090,8 +75090,8 @@
 			"n": "War Cleric 1; Bonus Proficiencies",
 			"cn": "Cleric 1; Bonus Proficiencies",
 			"s": "PHB",
-			"u": "bonus%20proficiencies_cleric_phb_war_phb_1_phb",
-			"uh": "cleric_phb,state:sub_war_phb=b1~feature=s0-0"
+			"u": "bonus%20proficiencies_cleric_xphb_war_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_war_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10365,
@@ -75099,8 +75099,8 @@
 			"n": "War Cleric 1; War Priest",
 			"cn": "Cleric 1; War Priest",
 			"s": "PHB",
-			"u": "war%20priest_cleric_phb_war_phb_1_phb",
-			"uh": "cleric_phb,state:sub_war_phb=b1~feature=s0-0"
+			"u": "war%20priest_cleric_xphb_war_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_war_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10366,
@@ -75108,8 +75108,8 @@
 			"n": "War Cleric 1; War Domain",
 			"cn": "Cleric 1; War Domain",
 			"s": "PHB",
-			"u": "war%20domain_cleric_phb_war_phb_1_phb",
-			"uh": "cleric_phb,state:sub_war_phb=b1~feature=s0-0"
+			"u": "war%20domain_cleric_xphb_war_phb_1_phb",
+			"uh": "cleric_xphb,state:sub_war_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10367,
@@ -75117,8 +75117,8 @@
 			"n": "War Cleric 2; Channel Divinity: Guided Strike",
 			"cn": "Cleric 2; Channel Divinity: Guided Strike",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20guided%20strike_cleric_phb_war_phb_2_phb",
-			"uh": "cleric_phb,state:sub_war_phb=b1~feature=s1-0"
+			"u": "channel%20divinity%3a%20guided%20strike_cleric_xphb_war_phb_2_phb",
+			"uh": "cleric_xphb,state:sub_war_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10368,
@@ -75126,8 +75126,8 @@
 			"n": "War Cleric 3; War Domain",
 			"cn": "Cleric 3; War Domain",
 			"s": "PHB",
-			"u": "war%20domain_cleric_phb_war_phb_3_phb",
-			"uh": "cleric_phb,state:sub_war_phb=b1~feature=s2-0"
+			"u": "war%20domain_cleric_xphb_war_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_war_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10369,
@@ -75135,8 +75135,8 @@
 			"n": "War Cleric 3; Channel Divinity: Guided Strike",
 			"cn": "Cleric 3; Channel Divinity: Guided Strike",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20guided%20strike_cleric_phb_war_phb_3_phb",
-			"uh": "cleric_phb,state:sub_war_phb=b1~feature=s2-0"
+			"u": "channel%20divinity%3a%20guided%20strike_cleric_xphb_war_phb_3_phb",
+			"uh": "cleric_xphb,state:sub_war_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10370,
@@ -75144,8 +75144,8 @@
 			"n": "War Cleric 6; Channel Divinity: War God's Blessing",
 			"cn": "Cleric 6; Channel Divinity: War God's Blessing",
 			"s": "PHB",
-			"u": "channel%20divinity%3a%20war%20god's%20blessing_cleric_phb_war_phb_6_phb",
-			"uh": "cleric_phb,state:sub_war_phb=b1~feature=s5-0"
+			"u": "channel%20divinity%3a%20war%20god's%20blessing_cleric_xphb_war_phb_6_phb",
+			"uh": "cleric_xphb,state:sub_war_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10371,
@@ -75153,8 +75153,8 @@
 			"n": "War Cleric 8; Divine Strike",
 			"cn": "Cleric 8; Divine Strike",
 			"s": "PHB",
-			"u": "divine%20strike_cleric_phb_war_phb_8_phb",
-			"uh": "cleric_phb,state:sub_war_phb=b1~feature=s7-0"
+			"u": "divine%20strike_cleric_xphb_war_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_war_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10372,
@@ -75162,8 +75162,8 @@
 			"n": "War Cleric 8; Blessed Strikes",
 			"cn": "Cleric 8; Blessed Strikes",
 			"s": "PHB",
-			"u": "blessed%20strikes_cleric_phb_war_phb_8_phb",
-			"uh": "cleric_phb,state:sub_war_phb=b1~feature=s7-0"
+			"u": "blessed%20strikes_cleric_xphb_war_phb_8_phb",
+			"uh": "cleric_xphb,state:sub_war_phb=b1~feature=s7-0"
 		},
 		{
 			"id": 10373,
@@ -75171,15 +75171,15 @@
 			"n": "War Cleric 17; Avatar of Battle",
 			"cn": "Cleric 17; Avatar of Battle",
 			"s": "PHB",
-			"u": "avatar%20of%20battle_cleric_phb_war_phb_17_phb",
-			"uh": "cleric_phb,state:sub_war_phb=b1~feature=s16-0"
+			"u": "avatar%20of%20battle_cleric_xphb_war_phb_17_phb",
+			"uh": "cleric_xphb,state:sub_war_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10374,
 			"c": 40,
 			"n": "War Domain",
 			"s": "PHB",
-			"u": "cleric_phb,state:sub_war_phb=b1"
+			"u": "cleric_xphb,state:sub_war_phb=b1"
 		},
 		{
 			"id": 10375,
@@ -76331,8 +76331,8 @@
 			"n": "Shadow Monk 3; Shadow Arts",
 			"cn": "Monk 3; Shadow Arts",
 			"s": "PHB",
-			"u": "shadow%20arts_monk_phb_shadow_phb_3_phb",
-			"uh": "monk_phb,state:sub_shadow_phb=b1~feature=s2-0"
+			"u": "shadow%20arts_monk_xphb_shadow_phb_3_phb",
+			"uh": "monk_xphb,state:sub_shadow_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10506,
@@ -76340,8 +76340,8 @@
 			"n": "Shadow Monk 3; Way of Shadow",
 			"cn": "Monk 3; Way of Shadow",
 			"s": "PHB",
-			"u": "way%20of%20shadow_monk_phb_shadow_phb_3_phb",
-			"uh": "monk_phb,state:sub_shadow_phb=b1~feature=s2-0"
+			"u": "way%20of%20shadow_monk_xphb_shadow_phb_3_phb",
+			"uh": "monk_xphb,state:sub_shadow_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10507,
@@ -76349,8 +76349,8 @@
 			"n": "Shadow Monk 6; Shadow Step",
 			"cn": "Monk 6; Shadow Step",
 			"s": "PHB",
-			"u": "shadow%20step_monk_phb_shadow_phb_6_phb",
-			"uh": "monk_phb,state:sub_shadow_phb=b1~feature=s5-0"
+			"u": "shadow%20step_monk_xphb_shadow_phb_6_phb",
+			"uh": "monk_xphb,state:sub_shadow_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10508,
@@ -76358,8 +76358,8 @@
 			"n": "Shadow Monk 11; Cloak of Shadows",
 			"cn": "Monk 11; Cloak of Shadows",
 			"s": "PHB",
-			"u": "cloak%20of%20shadows_monk_phb_shadow_phb_11_phb",
-			"uh": "monk_phb,state:sub_shadow_phb=b1~feature=s10-0"
+			"u": "cloak%20of%20shadows_monk_xphb_shadow_phb_11_phb",
+			"uh": "monk_xphb,state:sub_shadow_phb=b1~feature=s10-0"
 		},
 		{
 			"id": 10509,
@@ -76367,15 +76367,15 @@
 			"n": "Shadow Monk 17; Opportunist",
 			"cn": "Monk 17; Opportunist",
 			"s": "PHB",
-			"u": "opportunist_monk_phb_shadow_phb_17_phb",
-			"uh": "monk_phb,state:sub_shadow_phb=b1~feature=s16-0"
+			"u": "opportunist_monk_xphb_shadow_phb_17_phb",
+			"uh": "monk_xphb,state:sub_shadow_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10510,
 			"c": 40,
 			"n": "Way of Shadow",
 			"s": "PHB",
-			"u": "monk_phb,state:sub_shadow_phb=b1"
+			"u": "monk_xphb,state:sub_shadow_phb=b1"
 		},
 		{
 			"id": 10511,
@@ -76383,8 +76383,8 @@
 			"n": "Four Elements Monk 3; Disciple of the Elements",
 			"cn": "Monk 3; Disciple of the Elements",
 			"s": "PHB",
-			"u": "disciple%20of%20the%20elements_monk_phb_four%20elements_phb_3_phb",
-			"uh": "monk_phb,state:sub_four%20elements_phb=b1~feature=s2-0"
+			"u": "disciple%20of%20the%20elements_monk_xphb_four%20elements_phb_3_phb",
+			"uh": "monk_xphb,state:sub_four%20elements_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10512,
@@ -76392,8 +76392,8 @@
 			"n": "Four Elements Monk 3; Elemental Disciplines",
 			"cn": "Monk 3; Elemental Disciplines",
 			"s": "PHB",
-			"u": "elemental%20disciplines_monk_phb_four%20elements_phb_3_phb",
-			"uh": "monk_phb,state:sub_four%20elements_phb=b1~feature=s2-0"
+			"u": "elemental%20disciplines_monk_xphb_four%20elements_phb_3_phb",
+			"uh": "monk_xphb,state:sub_four%20elements_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10513,
@@ -76401,8 +76401,8 @@
 			"n": "Four Elements Monk 3; Way of the Four Elements",
 			"cn": "Monk 3; Way of the Four Elements",
 			"s": "PHB",
-			"u": "way%20of%20the%20four%20elements_monk_phb_four%20elements_phb_3_phb",
-			"uh": "monk_phb,state:sub_four%20elements_phb=b1~feature=s2-0"
+			"u": "way%20of%20the%20four%20elements_monk_xphb_four%20elements_phb_3_phb",
+			"uh": "monk_xphb,state:sub_four%20elements_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10514,
@@ -76410,8 +76410,8 @@
 			"n": "Four Elements Monk 6; Extra Elemental Discipline",
 			"cn": "Monk 6; Extra Elemental Discipline",
 			"s": "PHB",
-			"u": "extra%20elemental%20discipline_monk_phb_four%20elements_phb_6_phb",
-			"uh": "monk_phb,state:sub_four%20elements_phb=b1~feature=s5-0"
+			"u": "extra%20elemental%20discipline_monk_xphb_four%20elements_phb_6_phb",
+			"uh": "monk_xphb,state:sub_four%20elements_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10515,
@@ -76419,8 +76419,8 @@
 			"n": "Four Elements Monk 11; Extra Elemental Discipline",
 			"cn": "Monk 11; Extra Elemental Discipline",
 			"s": "PHB",
-			"u": "extra%20elemental%20discipline_monk_phb_four%20elements_phb_11_phb",
-			"uh": "monk_phb,state:sub_four%20elements_phb=b1~feature=s10-0"
+			"u": "extra%20elemental%20discipline_monk_xphb_four%20elements_phb_11_phb",
+			"uh": "monk_xphb,state:sub_four%20elements_phb=b1~feature=s10-0"
 		},
 		{
 			"id": 10516,
@@ -76428,15 +76428,15 @@
 			"n": "Four Elements Monk 17; Extra Elemental Discipline",
 			"cn": "Monk 17; Extra Elemental Discipline",
 			"s": "PHB",
-			"u": "extra%20elemental%20discipline_monk_phb_four%20elements_phb_17_phb",
-			"uh": "monk_phb,state:sub_four%20elements_phb=b1~feature=s16-0"
+			"u": "extra%20elemental%20discipline_monk_xphb_four%20elements_phb_17_phb",
+			"uh": "monk_xphb,state:sub_four%20elements_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10517,
 			"c": 40,
 			"n": "Way of the Four Elements",
 			"s": "PHB",
-			"u": "monk_phb,state:sub_four%20elements_phb=b1"
+			"u": "monk_xphb,state:sub_four%20elements_phb=b1"
 		},
 		{
 			"id": 10518,
@@ -76444,8 +76444,8 @@
 			"n": "Open Hand Monk 3; Open Hand Technique",
 			"cn": "Monk 3; Open Hand Technique",
 			"s": "PHB",
-			"u": "open%20hand%20technique_monk_phb_open%20hand_phb_3_phb",
-			"uh": "monk_phb,state:sub_open%20hand_phb=b1~feature=s2-0"
+			"u": "open%20hand%20technique_monk_xphb_open%20hand_phb_3_phb",
+			"uh": "monk_xphb,state:sub_open%20hand_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10519,
@@ -76453,8 +76453,8 @@
 			"n": "Open Hand Monk 3; Way of the Open Hand",
 			"cn": "Monk 3; Way of the Open Hand",
 			"s": "PHB",
-			"u": "way%20of%20the%20open%20hand_monk_phb_open%20hand_phb_3_phb",
-			"uh": "monk_phb,state:sub_open%20hand_phb=b1~feature=s2-0"
+			"u": "way%20of%20the%20open%20hand_monk_xphb_open%20hand_phb_3_phb",
+			"uh": "monk_xphb,state:sub_open%20hand_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10520,
@@ -76462,8 +76462,8 @@
 			"n": "Open Hand Monk 6; Wholeness of Body",
 			"cn": "Monk 6; Wholeness of Body",
 			"s": "PHB",
-			"u": "wholeness%20of%20body_monk_phb_open%20hand_phb_6_phb",
-			"uh": "monk_phb,state:sub_open%20hand_phb=b1~feature=s5-0"
+			"u": "wholeness%20of%20body_monk_xphb_open%20hand_phb_6_phb",
+			"uh": "monk_xphb,state:sub_open%20hand_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10521,
@@ -76471,8 +76471,8 @@
 			"n": "Open Hand Monk 11; Tranquility",
 			"cn": "Monk 11; Tranquility",
 			"s": "PHB",
-			"u": "tranquility_monk_phb_open%20hand_phb_11_phb",
-			"uh": "monk_phb,state:sub_open%20hand_phb=b1~feature=s10-0"
+			"u": "tranquility_monk_xphb_open%20hand_phb_11_phb",
+			"uh": "monk_xphb,state:sub_open%20hand_phb=b1~feature=s10-0"
 		},
 		{
 			"id": 10522,
@@ -76480,15 +76480,15 @@
 			"n": "Open Hand Monk 17; Quivering Palm",
 			"cn": "Monk 17; Quivering Palm",
 			"s": "PHB",
-			"u": "quivering%20palm_monk_phb_open%20hand_phb_17_phb",
-			"uh": "monk_phb,state:sub_open%20hand_phb=b1~feature=s16-0"
+			"u": "quivering%20palm_monk_xphb_open%20hand_phb_17_phb",
+			"uh": "monk_xphb,state:sub_open%20hand_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10523,
 			"c": 40,
 			"n": "Way of the Open Hand",
 			"s": "PHB",
-			"u": "monk_phb,state:sub_open%20hand_phb=b1"
+			"u": "monk_xphb,state:sub_open%20hand_phb=b1"
 		},
 		{
 			"id": 10524,
@@ -76941,8 +76941,8 @@
 			"n": "Devotion Paladin 3; Channel Divinity",
 			"cn": "Paladin 3; Channel Divinity",
 			"s": "PHB",
-			"u": "channel%20divinity_paladin_phb_devotion_phb_3_phb",
-			"uh": "paladin_phb,state:sub_devotion_phb=b1~feature=s2-0"
+			"u": "channel%20divinity_paladin_xphb_devotion_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_devotion_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10576,
@@ -76950,8 +76950,8 @@
 			"n": "Devotion Paladin 3; Oath Spells",
 			"cn": "Paladin 3; Oath Spells",
 			"s": "PHB",
-			"u": "oath%20spells_paladin_phb_devotion_phb_3_phb",
-			"uh": "paladin_phb,state:sub_devotion_phb=b1~feature=s2-0"
+			"u": "oath%20spells_paladin_xphb_devotion_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_devotion_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10577,
@@ -76959,8 +76959,8 @@
 			"n": "Devotion Paladin 3; Sacred Weapon",
 			"cn": "Paladin 3; Sacred Weapon",
 			"s": "PHB",
-			"u": "sacred%20weapon_paladin_phb_devotion_phb_3_phb",
-			"uh": "paladin_phb,state:sub_devotion_phb=b1~feature=s2-0"
+			"u": "sacred%20weapon_paladin_xphb_devotion_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_devotion_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10578,
@@ -76968,8 +76968,8 @@
 			"n": "Devotion Paladin 3; Tenets of Devotion",
 			"cn": "Paladin 3; Tenets of Devotion",
 			"s": "PHB",
-			"u": "tenets%20of%20devotion_paladin_phb_devotion_phb_3_phb",
-			"uh": "paladin_phb,state:sub_devotion_phb=b1~feature=s2-0"
+			"u": "tenets%20of%20devotion_paladin_xphb_devotion_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_devotion_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10579,
@@ -76977,8 +76977,8 @@
 			"n": "Devotion Paladin 3; Turn the Unholy",
 			"cn": "Paladin 3; Turn the Unholy",
 			"s": "PHB",
-			"u": "turn%20the%20unholy_paladin_phb_devotion_phb_3_phb",
-			"uh": "paladin_phb,state:sub_devotion_phb=b1~feature=s2-0"
+			"u": "turn%20the%20unholy_paladin_xphb_devotion_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_devotion_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10580,
@@ -76986,8 +76986,8 @@
 			"n": "Devotion Paladin 3; Oath of Devotion",
 			"cn": "Paladin 3; Oath of Devotion",
 			"s": "PHB",
-			"u": "oath%20of%20devotion_paladin_phb_devotion_phb_3_phb",
-			"uh": "paladin_phb,state:sub_devotion_phb=b1~feature=s2-0"
+			"u": "oath%20of%20devotion_paladin_xphb_devotion_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_devotion_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10581,
@@ -76995,8 +76995,8 @@
 			"n": "Devotion Paladin 7; Aura of Devotion",
 			"cn": "Paladin 7; Aura of Devotion",
 			"s": "PHB",
-			"u": "aura%20of%20devotion_paladin_phb_devotion_phb_7_phb",
-			"uh": "paladin_phb,state:sub_devotion_phb=b1~feature=s6-0"
+			"u": "aura%20of%20devotion_paladin_xphb_devotion_phb_7_phb",
+			"uh": "paladin_xphb,state:sub_devotion_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 10582,
@@ -77004,8 +77004,8 @@
 			"n": "Devotion Paladin 15; Purity of Spirit",
 			"cn": "Paladin 15; Purity of Spirit",
 			"s": "PHB",
-			"u": "purity%20of%20spirit_paladin_phb_devotion_phb_15_phb",
-			"uh": "paladin_phb,state:sub_devotion_phb=b1~feature=s14-0"
+			"u": "purity%20of%20spirit_paladin_xphb_devotion_phb_15_phb",
+			"uh": "paladin_xphb,state:sub_devotion_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 10583,
@@ -77013,15 +77013,15 @@
 			"n": "Devotion Paladin 20; Holy Nimbus",
 			"cn": "Paladin 20; Holy Nimbus",
 			"s": "PHB",
-			"u": "holy%20nimbus_paladin_phb_devotion_phb_20_phb",
-			"uh": "paladin_phb,state:sub_devotion_phb=b1~feature=s19-0"
+			"u": "holy%20nimbus_paladin_xphb_devotion_phb_20_phb",
+			"uh": "paladin_xphb,state:sub_devotion_phb=b1~feature=s19-0"
 		},
 		{
 			"id": 10584,
 			"c": 40,
 			"n": "Oath of Devotion",
 			"s": "PHB",
-			"u": "paladin_phb,state:sub_devotion_phb=b1"
+			"u": "paladin_xphb,state:sub_devotion_phb=b1"
 		},
 		{
 			"id": 10585,
@@ -77029,8 +77029,8 @@
 			"n": "Ancients Paladin 3; Channel Divinity",
 			"cn": "Paladin 3; Channel Divinity",
 			"s": "PHB",
-			"u": "channel%20divinity_paladin_phb_ancients_phb_3_phb",
-			"uh": "paladin_phb,state:sub_ancients_phb=b1~feature=s2-0"
+			"u": "channel%20divinity_paladin_xphb_ancients_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_ancients_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10586,
@@ -77038,8 +77038,8 @@
 			"n": "Ancients Paladin 3; Nature's Wrath",
 			"cn": "Paladin 3; Nature's Wrath",
 			"s": "PHB",
-			"u": "nature's%20wrath_paladin_phb_ancients_phb_3_phb",
-			"uh": "paladin_phb,state:sub_ancients_phb=b1~feature=s2-0"
+			"u": "nature's%20wrath_paladin_xphb_ancients_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_ancients_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10587,
@@ -77047,8 +77047,8 @@
 			"n": "Ancients Paladin 3; Oath Spells",
 			"cn": "Paladin 3; Oath Spells",
 			"s": "PHB",
-			"u": "oath%20spells_paladin_phb_ancients_phb_3_phb",
-			"uh": "paladin_phb,state:sub_ancients_phb=b1~feature=s2-0"
+			"u": "oath%20spells_paladin_xphb_ancients_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_ancients_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10588,
@@ -77056,8 +77056,8 @@
 			"n": "Ancients Paladin 3; Tenets of the Ancients",
 			"cn": "Paladin 3; Tenets of the Ancients",
 			"s": "PHB",
-			"u": "tenets%20of%20the%20ancients_paladin_phb_ancients_phb_3_phb",
-			"uh": "paladin_phb,state:sub_ancients_phb=b1~feature=s2-0"
+			"u": "tenets%20of%20the%20ancients_paladin_xphb_ancients_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_ancients_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10589,
@@ -77065,8 +77065,8 @@
 			"n": "Ancients Paladin 3; Turn the Faithless",
 			"cn": "Paladin 3; Turn the Faithless",
 			"s": "PHB",
-			"u": "turn%20the%20faithless_paladin_phb_ancients_phb_3_phb",
-			"uh": "paladin_phb,state:sub_ancients_phb=b1~feature=s2-0"
+			"u": "turn%20the%20faithless_paladin_xphb_ancients_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_ancients_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10590,
@@ -77074,8 +77074,8 @@
 			"n": "Ancients Paladin 3; Oath of the Ancients",
 			"cn": "Paladin 3; Oath of the Ancients",
 			"s": "PHB",
-			"u": "oath%20of%20the%20ancients_paladin_phb_ancients_phb_3_phb",
-			"uh": "paladin_phb,state:sub_ancients_phb=b1~feature=s2-0"
+			"u": "oath%20of%20the%20ancients_paladin_xphb_ancients_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_ancients_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10591,
@@ -77083,8 +77083,8 @@
 			"n": "Ancients Paladin 7; Aura of Warding",
 			"cn": "Paladin 7; Aura of Warding",
 			"s": "PHB",
-			"u": "aura%20of%20warding_paladin_phb_ancients_phb_7_phb",
-			"uh": "paladin_phb,state:sub_ancients_phb=b1~feature=s6-0"
+			"u": "aura%20of%20warding_paladin_xphb_ancients_phb_7_phb",
+			"uh": "paladin_xphb,state:sub_ancients_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 10592,
@@ -77092,8 +77092,8 @@
 			"n": "Ancients Paladin 15; Undying Sentinel",
 			"cn": "Paladin 15; Undying Sentinel",
 			"s": "PHB",
-			"u": "undying%20sentinel_paladin_phb_ancients_phb_15_phb",
-			"uh": "paladin_phb,state:sub_ancients_phb=b1~feature=s14-0"
+			"u": "undying%20sentinel_paladin_xphb_ancients_phb_15_phb",
+			"uh": "paladin_xphb,state:sub_ancients_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 10593,
@@ -77101,15 +77101,15 @@
 			"n": "Ancients Paladin 20; Elder Champion",
 			"cn": "Paladin 20; Elder Champion",
 			"s": "PHB",
-			"u": "elder%20champion_paladin_phb_ancients_phb_20_phb",
-			"uh": "paladin_phb,state:sub_ancients_phb=b1~feature=s19-0"
+			"u": "elder%20champion_paladin_xphb_ancients_phb_20_phb",
+			"uh": "paladin_xphb,state:sub_ancients_phb=b1~feature=s19-0"
 		},
 		{
 			"id": 10594,
 			"c": 40,
 			"n": "Oath of the Ancients",
 			"s": "PHB",
-			"u": "paladin_phb,state:sub_ancients_phb=b1"
+			"u": "paladin_xphb,state:sub_ancients_phb=b1"
 		},
 		{
 			"id": 10595,
@@ -77117,8 +77117,8 @@
 			"n": "Vengeance Paladin 3; Abjure Enemy",
 			"cn": "Paladin 3; Abjure Enemy",
 			"s": "PHB",
-			"u": "abjure%20enemy_paladin_phb_vengeance_phb_3_phb",
-			"uh": "paladin_phb,state:sub_vengeance_phb=b1~feature=s2-0"
+			"u": "abjure%20enemy_paladin_xphb_vengeance_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_vengeance_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10596,
@@ -77126,8 +77126,8 @@
 			"n": "Vengeance Paladin 3; Channel Divinity",
 			"cn": "Paladin 3; Channel Divinity",
 			"s": "PHB",
-			"u": "channel%20divinity_paladin_phb_vengeance_phb_3_phb",
-			"uh": "paladin_phb,state:sub_vengeance_phb=b1~feature=s2-0"
+			"u": "channel%20divinity_paladin_xphb_vengeance_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_vengeance_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10597,
@@ -77135,8 +77135,8 @@
 			"n": "Vengeance Paladin 3; Oath Spells",
 			"cn": "Paladin 3; Oath Spells",
 			"s": "PHB",
-			"u": "oath%20spells_paladin_phb_vengeance_phb_3_phb",
-			"uh": "paladin_phb,state:sub_vengeance_phb=b1~feature=s2-0"
+			"u": "oath%20spells_paladin_xphb_vengeance_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_vengeance_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10598,
@@ -77144,8 +77144,8 @@
 			"n": "Vengeance Paladin 3; Tenets of Vengeance",
 			"cn": "Paladin 3; Tenets of Vengeance",
 			"s": "PHB",
-			"u": "tenets%20of%20vengeance_paladin_phb_vengeance_phb_3_phb",
-			"uh": "paladin_phb,state:sub_vengeance_phb=b1~feature=s2-0"
+			"u": "tenets%20of%20vengeance_paladin_xphb_vengeance_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_vengeance_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10599,
@@ -77153,8 +77153,8 @@
 			"n": "Vengeance Paladin 3; Vow of Enmity",
 			"cn": "Paladin 3; Vow of Enmity",
 			"s": "PHB",
-			"u": "vow%20of%20enmity_paladin_phb_vengeance_phb_3_phb",
-			"uh": "paladin_phb,state:sub_vengeance_phb=b1~feature=s2-0"
+			"u": "vow%20of%20enmity_paladin_xphb_vengeance_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_vengeance_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10600,
@@ -77162,8 +77162,8 @@
 			"n": "Vengeance Paladin 3; Oath of Vengeance",
 			"cn": "Paladin 3; Oath of Vengeance",
 			"s": "PHB",
-			"u": "oath%20of%20vengeance_paladin_phb_vengeance_phb_3_phb",
-			"uh": "paladin_phb,state:sub_vengeance_phb=b1~feature=s2-0"
+			"u": "oath%20of%20vengeance_paladin_xphb_vengeance_phb_3_phb",
+			"uh": "paladin_xphb,state:sub_vengeance_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10601,
@@ -77171,8 +77171,8 @@
 			"n": "Vengeance Paladin 7; Relentless Avenger",
 			"cn": "Paladin 7; Relentless Avenger",
 			"s": "PHB",
-			"u": "relentless%20avenger_paladin_phb_vengeance_phb_7_phb",
-			"uh": "paladin_phb,state:sub_vengeance_phb=b1~feature=s6-0"
+			"u": "relentless%20avenger_paladin_xphb_vengeance_phb_7_phb",
+			"uh": "paladin_xphb,state:sub_vengeance_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 10602,
@@ -77180,8 +77180,8 @@
 			"n": "Vengeance Paladin 15; Soul of Vengeance",
 			"cn": "Paladin 15; Soul of Vengeance",
 			"s": "PHB",
-			"u": "soul%20of%20vengeance_paladin_phb_vengeance_phb_15_phb",
-			"uh": "paladin_phb,state:sub_vengeance_phb=b1~feature=s14-0"
+			"u": "soul%20of%20vengeance_paladin_xphb_vengeance_phb_15_phb",
+			"uh": "paladin_xphb,state:sub_vengeance_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 10603,
@@ -77189,15 +77189,15 @@
 			"n": "Vengeance Paladin 20; Avenging Angel",
 			"cn": "Paladin 20; Avenging Angel",
 			"s": "PHB",
-			"u": "avenging%20angel_paladin_phb_vengeance_phb_20_phb",
-			"uh": "paladin_phb,state:sub_vengeance_phb=b1~feature=s19-0"
+			"u": "avenging%20angel_paladin_xphb_vengeance_phb_20_phb",
+			"uh": "paladin_xphb,state:sub_vengeance_phb=b1~feature=s19-0"
 		},
 		{
 			"id": 10604,
 			"c": 40,
 			"n": "Oath of Vengeance",
 			"s": "PHB",
-			"u": "paladin_phb,state:sub_vengeance_phb=b1"
+			"u": "paladin_xphb,state:sub_vengeance_phb=b1"
 		},
 		{
 			"id": 10605,
@@ -77724,8 +77724,8 @@
 			"n": "Beast Master Ranger 3; Primal Companion",
 			"cn": "Ranger 3; Primal Companion",
 			"s": "PHB",
-			"u": "primal%20companion_ranger_phb_beast%20master_phb_3_phb",
-			"uh": "ranger_phb,state:sub_beast%20master_phb=b1~feature=s2-0"
+			"u": "primal%20companion_ranger_xphb_beast%20master_phb_3_phb",
+			"uh": "ranger_xphb,state:sub_beast%20master_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10665,
@@ -77733,8 +77733,8 @@
 			"n": "Beast Master Ranger 3; Ranger's Companion",
 			"cn": "Ranger 3; Ranger's Companion",
 			"s": "PHB",
-			"u": "ranger's%20companion_ranger_phb_beast%20master_phb_3_phb",
-			"uh": "ranger_phb,state:sub_beast%20master_phb=b1~feature=s2-0"
+			"u": "ranger's%20companion_ranger_xphb_beast%20master_phb_3_phb",
+			"uh": "ranger_xphb,state:sub_beast%20master_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10666,
@@ -77742,8 +77742,8 @@
 			"n": "Beast Master Ranger 3; Beast Master",
 			"cn": "Ranger 3; Beast Master",
 			"s": "PHB",
-			"u": "beast%20master_ranger_phb_beast%20master_phb_3_phb",
-			"uh": "ranger_phb,state:sub_beast%20master_phb=b1~feature=s2-0"
+			"u": "beast%20master_ranger_xphb_beast%20master_phb_3_phb",
+			"uh": "ranger_xphb,state:sub_beast%20master_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10667,
@@ -77751,8 +77751,8 @@
 			"n": "Beast Master Ranger 7; Exceptional Training",
 			"cn": "Ranger 7; Exceptional Training",
 			"s": "PHB",
-			"u": "exceptional%20training_ranger_phb_beast%20master_phb_7_phb",
-			"uh": "ranger_phb,state:sub_beast%20master_phb=b1~feature=s6-0"
+			"u": "exceptional%20training_ranger_xphb_beast%20master_phb_7_phb",
+			"uh": "ranger_xphb,state:sub_beast%20master_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 10668,
@@ -77760,8 +77760,8 @@
 			"n": "Beast Master Ranger 11; Bestial Fury",
 			"cn": "Ranger 11; Bestial Fury",
 			"s": "PHB",
-			"u": "bestial%20fury_ranger_phb_beast%20master_phb_11_phb",
-			"uh": "ranger_phb,state:sub_beast%20master_phb=b1~feature=s10-0"
+			"u": "bestial%20fury_ranger_xphb_beast%20master_phb_11_phb",
+			"uh": "ranger_xphb,state:sub_beast%20master_phb=b1~feature=s10-0"
 		},
 		{
 			"id": 10669,
@@ -77769,15 +77769,15 @@
 			"n": "Beast Master Ranger 15; Share Spells",
 			"cn": "Ranger 15; Share Spells",
 			"s": "PHB",
-			"u": "share%20spells_ranger_phb_beast%20master_phb_15_phb",
-			"uh": "ranger_phb,state:sub_beast%20master_phb=b1~feature=s14-0"
+			"u": "share%20spells_ranger_xphb_beast%20master_phb_15_phb",
+			"uh": "ranger_xphb,state:sub_beast%20master_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 10670,
 			"c": 40,
 			"n": "Beast Master",
 			"s": "PHB",
-			"u": "ranger_phb,state:sub_beast%20master_phb=b1"
+			"u": "ranger_xphb,state:sub_beast%20master_phb=b1"
 		},
 		{
 			"id": 10671,
@@ -77785,8 +77785,8 @@
 			"n": "Hunter Ranger 3; Horde Breaker",
 			"cn": "Ranger 3; Horde Breaker",
 			"s": "PHB",
-			"u": "horde%20breaker_ranger_phb_hunter_phb_3_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s2-0"
+			"u": "horde%20breaker_ranger_xphb_hunter_phb_3_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10672,
@@ -77794,8 +77794,8 @@
 			"n": "Hunter Ranger 3; Hunter's Prey",
 			"cn": "Ranger 3; Hunter's Prey",
 			"s": "PHB",
-			"u": "hunter's%20prey_ranger_phb_hunter_phb_3_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s2-0"
+			"u": "hunter's%20prey_ranger_xphb_hunter_phb_3_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10673,
@@ -77803,8 +77803,8 @@
 			"n": "Hunter Ranger 3; Colossus Slayer",
 			"cn": "Ranger 3; Colossus Slayer",
 			"s": "PHB",
-			"u": "colossus%20slayer_ranger_phb_hunter_phb_3_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s2-0"
+			"u": "colossus%20slayer_ranger_xphb_hunter_phb_3_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10674,
@@ -77812,8 +77812,8 @@
 			"n": "Hunter Ranger 3; Giant Killer",
 			"cn": "Ranger 3; Giant Killer",
 			"s": "PHB",
-			"u": "giant%20killer_ranger_phb_hunter_phb_3_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s2-0"
+			"u": "giant%20killer_ranger_xphb_hunter_phb_3_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10675,
@@ -77821,8 +77821,8 @@
 			"n": "Hunter Ranger 3; Hunter",
 			"cn": "Ranger 3; Hunter",
 			"s": "PHB",
-			"u": "hunter_ranger_phb_hunter_phb_3_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s2-0"
+			"u": "hunter_ranger_xphb_hunter_phb_3_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10676,
@@ -77830,8 +77830,8 @@
 			"n": "Hunter Ranger 7; Escape the Horde",
 			"cn": "Ranger 7; Escape the Horde",
 			"s": "PHB",
-			"u": "escape%20the%20horde_ranger_phb_hunter_phb_7_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s6-0"
+			"u": "escape%20the%20horde_ranger_xphb_hunter_phb_7_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 10677,
@@ -77839,8 +77839,8 @@
 			"n": "Hunter Ranger 7; Multiattack Defense",
 			"cn": "Ranger 7; Multiattack Defense",
 			"s": "PHB",
-			"u": "multiattack%20defense_ranger_phb_hunter_phb_7_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s6-0"
+			"u": "multiattack%20defense_ranger_xphb_hunter_phb_7_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 10678,
@@ -77848,8 +77848,8 @@
 			"n": "Hunter Ranger 7; Steel Will",
 			"cn": "Ranger 7; Steel Will",
 			"s": "PHB",
-			"u": "steel%20will_ranger_phb_hunter_phb_7_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s6-0"
+			"u": "steel%20will_ranger_xphb_hunter_phb_7_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 10679,
@@ -77857,8 +77857,8 @@
 			"n": "Hunter Ranger 7; Defensive Tactics",
 			"cn": "Ranger 7; Defensive Tactics",
 			"s": "PHB",
-			"u": "defensive%20tactics_ranger_phb_hunter_phb_7_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s6-0"
+			"u": "defensive%20tactics_ranger_xphb_hunter_phb_7_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s6-0"
 		},
 		{
 			"id": 10680,
@@ -77866,8 +77866,8 @@
 			"n": "Hunter Ranger 11; Volley",
 			"cn": "Ranger 11; Volley",
 			"s": "PHB",
-			"u": "volley_ranger_phb_hunter_phb_11_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s10-0"
+			"u": "volley_ranger_xphb_hunter_phb_11_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s10-0"
 		},
 		{
 			"id": 10681,
@@ -77875,8 +77875,8 @@
 			"n": "Hunter Ranger 11; Whirlwind Attack",
 			"cn": "Ranger 11; Whirlwind Attack",
 			"s": "PHB",
-			"u": "whirlwind%20attack_ranger_phb_hunter_phb_11_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s10-0"
+			"u": "whirlwind%20attack_ranger_xphb_hunter_phb_11_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s10-0"
 		},
 		{
 			"id": 10682,
@@ -77884,8 +77884,8 @@
 			"n": "Hunter Ranger 11; Multiattack",
 			"cn": "Ranger 11; Multiattack",
 			"s": "PHB",
-			"u": "multiattack_ranger_phb_hunter_phb_11_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s10-0"
+			"u": "multiattack_ranger_xphb_hunter_phb_11_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s10-0"
 		},
 		{
 			"id": 10683,
@@ -77893,8 +77893,8 @@
 			"n": "Hunter Ranger 15; Stand Against the Tide",
 			"cn": "Ranger 15; Stand Against the Tide",
 			"s": "PHB",
-			"u": "stand%20against%20the%20tide_ranger_phb_hunter_phb_15_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s14-0"
+			"u": "stand%20against%20the%20tide_ranger_xphb_hunter_phb_15_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 10684,
@@ -77902,8 +77902,8 @@
 			"n": "Hunter Ranger 15; Superior Hunter's Defense",
 			"cn": "Ranger 15; Superior Hunter's Defense",
 			"s": "PHB",
-			"u": "superior%20hunter's%20defense_ranger_phb_hunter_phb_15_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s14-0"
+			"u": "superior%20hunter's%20defense_ranger_xphb_hunter_phb_15_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 10685,
@@ -77911,8 +77911,8 @@
 			"n": "Hunter Ranger 15; Uncanny Dodge",
 			"cn": "Ranger 15; Uncanny Dodge",
 			"s": "PHB",
-			"u": "uncanny%20dodge_ranger_phb_hunter_phb_15_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s14-0"
+			"u": "uncanny%20dodge_ranger_xphb_hunter_phb_15_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 10686,
@@ -77920,15 +77920,15 @@
 			"n": "Hunter Ranger 15; Evasion",
 			"cn": "Ranger 15; Evasion",
 			"s": "PHB",
-			"u": "evasion_ranger_phb_hunter_phb_15_phb",
-			"uh": "ranger_phb,state:sub_hunter_phb=b1~feature=s14-0"
+			"u": "evasion_ranger_xphb_hunter_phb_15_phb",
+			"uh": "ranger_xphb,state:sub_hunter_phb=b1~feature=s14-0"
 		},
 		{
 			"id": 10687,
 			"c": 40,
 			"n": "Hunter",
 			"s": "PHB",
-			"u": "ranger_phb,state:sub_hunter_phb=b1"
+			"u": "ranger_xphb,state:sub_hunter_phb=b1"
 		},
 		{
 			"id": 10688,
@@ -78399,8 +78399,8 @@
 			"n": "Arcane Trickster Rogue 3; Mage Hand Legerdemain",
 			"cn": "Rogue 3; Mage Hand Legerdemain",
 			"s": "PHB",
-			"u": "mage%20hand%20legerdemain_rogue_phb_arcane%20trickster_phb_3_phb",
-			"uh": "rogue_phb,state:sub_arcane%20trickster_phb=b1~feature=s2-0"
+			"u": "mage%20hand%20legerdemain_rogue_xphb_arcane%20trickster_phb_3_phb",
+			"uh": "rogue_xphb,state:sub_arcane%20trickster_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10742,
@@ -78408,8 +78408,8 @@
 			"n": "Arcane Trickster Rogue 3; Spellcasting",
 			"cn": "Rogue 3; Spellcasting",
 			"s": "PHB",
-			"u": "spellcasting_rogue_phb_arcane%20trickster_phb_3_phb",
-			"uh": "rogue_phb,state:sub_arcane%20trickster_phb=b1~feature=s2-0"
+			"u": "spellcasting_rogue_xphb_arcane%20trickster_phb_3_phb",
+			"uh": "rogue_xphb,state:sub_arcane%20trickster_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10743,
@@ -78417,8 +78417,8 @@
 			"n": "Arcane Trickster Rogue 3; Arcane Trickster",
 			"cn": "Rogue 3; Arcane Trickster",
 			"s": "PHB",
-			"u": "arcane%20trickster_rogue_phb_arcane%20trickster_phb_3_phb",
-			"uh": "rogue_phb,state:sub_arcane%20trickster_phb=b1~feature=s2-0"
+			"u": "arcane%20trickster_rogue_xphb_arcane%20trickster_phb_3_phb",
+			"uh": "rogue_xphb,state:sub_arcane%20trickster_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10744,
@@ -78426,8 +78426,8 @@
 			"n": "Arcane Trickster Rogue 9; Magical Ambush",
 			"cn": "Rogue 9; Magical Ambush",
 			"s": "PHB",
-			"u": "magical%20ambush_rogue_phb_arcane%20trickster_phb_9_phb",
-			"uh": "rogue_phb,state:sub_arcane%20trickster_phb=b1~feature=s8-0"
+			"u": "magical%20ambush_rogue_xphb_arcane%20trickster_phb_9_phb",
+			"uh": "rogue_xphb,state:sub_arcane%20trickster_phb=b1~feature=s8-0"
 		},
 		{
 			"id": 10745,
@@ -78435,8 +78435,8 @@
 			"n": "Arcane Trickster Rogue 13; Versatile Trickster",
 			"cn": "Rogue 13; Versatile Trickster",
 			"s": "PHB",
-			"u": "versatile%20trickster_rogue_phb_arcane%20trickster_phb_13_phb",
-			"uh": "rogue_phb,state:sub_arcane%20trickster_phb=b1~feature=s12-0"
+			"u": "versatile%20trickster_rogue_xphb_arcane%20trickster_phb_13_phb",
+			"uh": "rogue_xphb,state:sub_arcane%20trickster_phb=b1~feature=s12-0"
 		},
 		{
 			"id": 10746,
@@ -78444,15 +78444,15 @@
 			"n": "Arcane Trickster Rogue 17; Spell Thief",
 			"cn": "Rogue 17; Spell Thief",
 			"s": "PHB",
-			"u": "spell%20thief_rogue_phb_arcane%20trickster_phb_17_phb",
-			"uh": "rogue_phb,state:sub_arcane%20trickster_phb=b1~feature=s16-0"
+			"u": "spell%20thief_rogue_xphb_arcane%20trickster_phb_17_phb",
+			"uh": "rogue_xphb,state:sub_arcane%20trickster_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10747,
 			"c": 40,
 			"n": "Arcane Trickster",
 			"s": "PHB",
-			"u": "rogue_phb,state:sub_arcane%20trickster_phb=b1"
+			"u": "rogue_xphb,state:sub_arcane%20trickster_phb=b1"
 		},
 		{
 			"id": 10748,
@@ -78460,8 +78460,8 @@
 			"n": "Assassin Rogue 3; Assassinate",
 			"cn": "Rogue 3; Assassinate",
 			"s": "PHB",
-			"u": "assassinate_rogue_phb_assassin_phb_3_phb",
-			"uh": "rogue_phb,state:sub_assassin_phb=b1~feature=s2-0"
+			"u": "assassinate_rogue_xphb_assassin_phb_3_phb",
+			"uh": "rogue_xphb,state:sub_assassin_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10749,
@@ -78469,8 +78469,8 @@
 			"n": "Assassin Rogue 3; Bonus Proficiencies",
 			"cn": "Rogue 3; Bonus Proficiencies",
 			"s": "PHB",
-			"u": "bonus%20proficiencies_rogue_phb_assassin_phb_3_phb",
-			"uh": "rogue_phb,state:sub_assassin_phb=b1~feature=s2-0"
+			"u": "bonus%20proficiencies_rogue_xphb_assassin_phb_3_phb",
+			"uh": "rogue_xphb,state:sub_assassin_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10750,
@@ -78478,8 +78478,8 @@
 			"n": "Assassin Rogue 3; Assassin",
 			"cn": "Rogue 3; Assassin",
 			"s": "PHB",
-			"u": "assassin_rogue_phb_assassin_phb_3_phb",
-			"uh": "rogue_phb,state:sub_assassin_phb=b1~feature=s2-0"
+			"u": "assassin_rogue_xphb_assassin_phb_3_phb",
+			"uh": "rogue_xphb,state:sub_assassin_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10751,
@@ -78487,8 +78487,8 @@
 			"n": "Assassin Rogue 9; Infiltration Expertise",
 			"cn": "Rogue 9; Infiltration Expertise",
 			"s": "PHB",
-			"u": "infiltration%20expertise_rogue_phb_assassin_phb_9_phb",
-			"uh": "rogue_phb,state:sub_assassin_phb=b1~feature=s8-0"
+			"u": "infiltration%20expertise_rogue_xphb_assassin_phb_9_phb",
+			"uh": "rogue_xphb,state:sub_assassin_phb=b1~feature=s8-0"
 		},
 		{
 			"id": 10752,
@@ -78496,8 +78496,8 @@
 			"n": "Assassin Rogue 13; Impostor",
 			"cn": "Rogue 13; Impostor",
 			"s": "PHB",
-			"u": "impostor_rogue_phb_assassin_phb_13_phb",
-			"uh": "rogue_phb,state:sub_assassin_phb=b1~feature=s12-0"
+			"u": "impostor_rogue_xphb_assassin_phb_13_phb",
+			"uh": "rogue_xphb,state:sub_assassin_phb=b1~feature=s12-0"
 		},
 		{
 			"id": 10753,
@@ -78505,15 +78505,15 @@
 			"n": "Assassin Rogue 17; Death Strike",
 			"cn": "Rogue 17; Death Strike",
 			"s": "PHB",
-			"u": "death%20strike_rogue_phb_assassin_phb_17_phb",
-			"uh": "rogue_phb,state:sub_assassin_phb=b1~feature=s16-0"
+			"u": "death%20strike_rogue_xphb_assassin_phb_17_phb",
+			"uh": "rogue_xphb,state:sub_assassin_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10754,
 			"c": 40,
 			"n": "Assassin",
 			"s": "PHB",
-			"u": "rogue_phb,state:sub_assassin_phb=b1"
+			"u": "rogue_xphb,state:sub_assassin_phb=b1"
 		},
 		{
 			"id": 10755,
@@ -78521,8 +78521,8 @@
 			"n": "Thief Rogue 3; Fast Hands",
 			"cn": "Rogue 3; Fast Hands",
 			"s": "PHB",
-			"u": "fast%20hands_rogue_phb_thief_phb_3_phb",
-			"uh": "rogue_phb,state:sub_thief_phb=b1~feature=s2-0"
+			"u": "fast%20hands_rogue_xphb_thief_phb_3_phb",
+			"uh": "rogue_xphb,state:sub_thief_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10756,
@@ -78530,8 +78530,8 @@
 			"n": "Thief Rogue 3; Second-Story Work",
 			"cn": "Rogue 3; Second-Story Work",
 			"s": "PHB",
-			"u": "second-story%20work_rogue_phb_thief_phb_3_phb",
-			"uh": "rogue_phb,state:sub_thief_phb=b1~feature=s2-0"
+			"u": "second-story%20work_rogue_xphb_thief_phb_3_phb",
+			"uh": "rogue_xphb,state:sub_thief_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10757,
@@ -78539,8 +78539,8 @@
 			"n": "Thief Rogue 3; Thief",
 			"cn": "Rogue 3; Thief",
 			"s": "PHB",
-			"u": "thief_rogue_phb_thief_phb_3_phb",
-			"uh": "rogue_phb,state:sub_thief_phb=b1~feature=s2-0"
+			"u": "thief_rogue_xphb_thief_phb_3_phb",
+			"uh": "rogue_xphb,state:sub_thief_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10758,
@@ -78548,8 +78548,8 @@
 			"n": "Thief Rogue 9; Supreme Sneak",
 			"cn": "Rogue 9; Supreme Sneak",
 			"s": "PHB",
-			"u": "supreme%20sneak_rogue_phb_thief_phb_9_phb",
-			"uh": "rogue_phb,state:sub_thief_phb=b1~feature=s8-0"
+			"u": "supreme%20sneak_rogue_xphb_thief_phb_9_phb",
+			"uh": "rogue_xphb,state:sub_thief_phb=b1~feature=s8-0"
 		},
 		{
 			"id": 10759,
@@ -78557,8 +78557,8 @@
 			"n": "Thief Rogue 13; Use Magic Device",
 			"cn": "Rogue 13; Use Magic Device",
 			"s": "PHB",
-			"u": "use%20magic%20device_rogue_phb_thief_phb_13_phb",
-			"uh": "rogue_phb,state:sub_thief_phb=b1~feature=s12-0"
+			"u": "use%20magic%20device_rogue_xphb_thief_phb_13_phb",
+			"uh": "rogue_xphb,state:sub_thief_phb=b1~feature=s12-0"
 		},
 		{
 			"id": 10760,
@@ -78566,15 +78566,15 @@
 			"n": "Thief Rogue 17; Thief's Reflexes",
 			"cn": "Rogue 17; Thief's Reflexes",
 			"s": "PHB",
-			"u": "thief's%20reflexes_rogue_phb_thief_phb_17_phb",
-			"uh": "rogue_phb,state:sub_thief_phb=b1~feature=s16-0"
+			"u": "thief's%20reflexes_rogue_xphb_thief_phb_17_phb",
+			"uh": "rogue_xphb,state:sub_thief_phb=b1~feature=s16-0"
 		},
 		{
 			"id": 10761,
 			"c": 40,
 			"n": "Thief",
 			"s": "PHB",
-			"u": "rogue_phb,state:sub_thief_phb=b1"
+			"u": "rogue_xphb,state:sub_thief_phb=b1"
 		},
 		{
 			"id": 10762,
@@ -79063,8 +79063,8 @@
 			"n": "Abjuration Wizard 2; Abjuration Savant",
 			"cn": "Wizard 2; Abjuration Savant",
 			"s": "PHB",
-			"u": "abjuration%20savant_wizard_phb_abjuration_phb_2_phb",
-			"uh": "wizard_phb,state:sub_abjuration_phb=b1~feature=s1-0"
+			"u": "abjuration%20savant_wizard_xphb_abjuration_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_abjuration_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10818,
@@ -79072,8 +79072,8 @@
 			"n": "Abjuration Wizard 2; Arcane Ward",
 			"cn": "Wizard 2; Arcane Ward",
 			"s": "PHB",
-			"u": "arcane%20ward_wizard_phb_abjuration_phb_2_phb",
-			"uh": "wizard_phb,state:sub_abjuration_phb=b1~feature=s1-0"
+			"u": "arcane%20ward_wizard_xphb_abjuration_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_abjuration_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10819,
@@ -79081,8 +79081,8 @@
 			"n": "Abjuration Wizard 2; School of Abjuration",
 			"cn": "Wizard 2; School of Abjuration",
 			"s": "PHB",
-			"u": "school%20of%20abjuration_wizard_phb_abjuration_phb_2_phb",
-			"uh": "wizard_phb,state:sub_abjuration_phb=b1~feature=s1-0"
+			"u": "school%20of%20abjuration_wizard_xphb_abjuration_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_abjuration_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10820,
@@ -79090,8 +79090,8 @@
 			"n": "Abjuration Wizard 3; School of Abjuration",
 			"cn": "Wizard 3; School of Abjuration",
 			"s": "PHB",
-			"u": "school%20of%20abjuration_wizard_phb_abjuration_phb_3_phb",
-			"uh": "wizard_phb,state:sub_abjuration_phb=b1~feature=s2-0"
+			"u": "school%20of%20abjuration_wizard_xphb_abjuration_phb_3_phb",
+			"uh": "wizard_xphb,state:sub_abjuration_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10821,
@@ -79099,8 +79099,8 @@
 			"n": "Abjuration Wizard 6; Projected Ward",
 			"cn": "Wizard 6; Projected Ward",
 			"s": "PHB",
-			"u": "projected%20ward_wizard_phb_abjuration_phb_6_phb",
-			"uh": "wizard_phb,state:sub_abjuration_phb=b1~feature=s5-0"
+			"u": "projected%20ward_wizard_xphb_abjuration_phb_6_phb",
+			"uh": "wizard_xphb,state:sub_abjuration_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10822,
@@ -79108,8 +79108,8 @@
 			"n": "Abjuration Wizard 10; Improved Abjuration",
 			"cn": "Wizard 10; Improved Abjuration",
 			"s": "PHB",
-			"u": "improved%20abjuration_wizard_phb_abjuration_phb_10_phb",
-			"uh": "wizard_phb,state:sub_abjuration_phb=b1~feature=s9-0"
+			"u": "improved%20abjuration_wizard_xphb_abjuration_phb_10_phb",
+			"uh": "wizard_xphb,state:sub_abjuration_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10823,
@@ -79117,15 +79117,15 @@
 			"n": "Abjuration Wizard 14; Spell Resistance",
 			"cn": "Wizard 14; Spell Resistance",
 			"s": "PHB",
-			"u": "spell%20resistance_wizard_phb_abjuration_phb_14_phb",
-			"uh": "wizard_phb,state:sub_abjuration_phb=b1~feature=s13-0"
+			"u": "spell%20resistance_wizard_xphb_abjuration_phb_14_phb",
+			"uh": "wizard_xphb,state:sub_abjuration_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10824,
 			"c": 40,
 			"n": "School of Abjuration",
 			"s": "PHB",
-			"u": "wizard_phb,state:sub_abjuration_phb=b1"
+			"u": "wizard_xphb,state:sub_abjuration_phb=b1"
 		},
 		{
 			"id": 10825,
@@ -79133,8 +79133,8 @@
 			"n": "Conjuration Wizard 2; Conjuration Savant",
 			"cn": "Wizard 2; Conjuration Savant",
 			"s": "PHB",
-			"u": "conjuration%20savant_wizard_phb_conjuration_phb_2_phb",
-			"uh": "wizard_phb,state:sub_conjuration_phb=b1~feature=s1-0"
+			"u": "conjuration%20savant_wizard_xphb_conjuration_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_conjuration_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10826,
@@ -79142,8 +79142,8 @@
 			"n": "Conjuration Wizard 2; Minor Conjuration",
 			"cn": "Wizard 2; Minor Conjuration",
 			"s": "PHB",
-			"u": "minor%20conjuration_wizard_phb_conjuration_phb_2_phb",
-			"uh": "wizard_phb,state:sub_conjuration_phb=b1~feature=s1-0"
+			"u": "minor%20conjuration_wizard_xphb_conjuration_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_conjuration_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10827,
@@ -79151,8 +79151,8 @@
 			"n": "Conjuration Wizard 2; School of Conjuration",
 			"cn": "Wizard 2; School of Conjuration",
 			"s": "PHB",
-			"u": "school%20of%20conjuration_wizard_phb_conjuration_phb_2_phb",
-			"uh": "wizard_phb,state:sub_conjuration_phb=b1~feature=s1-0"
+			"u": "school%20of%20conjuration_wizard_xphb_conjuration_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_conjuration_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10828,
@@ -79160,8 +79160,8 @@
 			"n": "Conjuration Wizard 3; School of Conjuration",
 			"cn": "Wizard 3; School of Conjuration",
 			"s": "PHB",
-			"u": "school%20of%20conjuration_wizard_phb_conjuration_phb_3_phb",
-			"uh": "wizard_phb,state:sub_conjuration_phb=b1~feature=s2-0"
+			"u": "school%20of%20conjuration_wizard_xphb_conjuration_phb_3_phb",
+			"uh": "wizard_xphb,state:sub_conjuration_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10829,
@@ -79169,8 +79169,8 @@
 			"n": "Conjuration Wizard 6; Benign Transposition",
 			"cn": "Wizard 6; Benign Transposition",
 			"s": "PHB",
-			"u": "benign%20transposition_wizard_phb_conjuration_phb_6_phb",
-			"uh": "wizard_phb,state:sub_conjuration_phb=b1~feature=s5-0"
+			"u": "benign%20transposition_wizard_xphb_conjuration_phb_6_phb",
+			"uh": "wizard_xphb,state:sub_conjuration_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10830,
@@ -79178,8 +79178,8 @@
 			"n": "Conjuration Wizard 10; Focused Conjuration",
 			"cn": "Wizard 10; Focused Conjuration",
 			"s": "PHB",
-			"u": "focused%20conjuration_wizard_phb_conjuration_phb_10_phb",
-			"uh": "wizard_phb,state:sub_conjuration_phb=b1~feature=s9-0"
+			"u": "focused%20conjuration_wizard_xphb_conjuration_phb_10_phb",
+			"uh": "wizard_xphb,state:sub_conjuration_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10831,
@@ -79187,15 +79187,15 @@
 			"n": "Conjuration Wizard 14; Durable Summons",
 			"cn": "Wizard 14; Durable Summons",
 			"s": "PHB",
-			"u": "durable%20summons_wizard_phb_conjuration_phb_14_phb",
-			"uh": "wizard_phb,state:sub_conjuration_phb=b1~feature=s13-0"
+			"u": "durable%20summons_wizard_xphb_conjuration_phb_14_phb",
+			"uh": "wizard_xphb,state:sub_conjuration_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10832,
 			"c": 40,
 			"n": "School of Conjuration",
 			"s": "PHB",
-			"u": "wizard_phb,state:sub_conjuration_phb=b1"
+			"u": "wizard_xphb,state:sub_conjuration_phb=b1"
 		},
 		{
 			"id": 10833,
@@ -79203,8 +79203,8 @@
 			"n": "Divination Wizard 2; Divination Savant",
 			"cn": "Wizard 2; Divination Savant",
 			"s": "PHB",
-			"u": "divination%20savant_wizard_phb_divination_phb_2_phb",
-			"uh": "wizard_phb,state:sub_divination_phb=b1~feature=s1-0"
+			"u": "divination%20savant_wizard_xphb_divination_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_divination_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10834,
@@ -79212,8 +79212,8 @@
 			"n": "Divination Wizard 2; Portent",
 			"cn": "Wizard 2; Portent",
 			"s": "PHB",
-			"u": "portent_wizard_phb_divination_phb_2_phb",
-			"uh": "wizard_phb,state:sub_divination_phb=b1~feature=s1-0"
+			"u": "portent_wizard_xphb_divination_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_divination_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10835,
@@ -79221,8 +79221,8 @@
 			"n": "Divination Wizard 2; School of Divination",
 			"cn": "Wizard 2; School of Divination",
 			"s": "PHB",
-			"u": "school%20of%20divination_wizard_phb_divination_phb_2_phb",
-			"uh": "wizard_phb,state:sub_divination_phb=b1~feature=s1-0"
+			"u": "school%20of%20divination_wizard_xphb_divination_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_divination_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10836,
@@ -79230,8 +79230,8 @@
 			"n": "Divination Wizard 3; School of Divination",
 			"cn": "Wizard 3; School of Divination",
 			"s": "PHB",
-			"u": "school%20of%20divination_wizard_phb_divination_phb_3_phb",
-			"uh": "wizard_phb,state:sub_divination_phb=b1~feature=s2-0"
+			"u": "school%20of%20divination_wizard_xphb_divination_phb_3_phb",
+			"uh": "wizard_xphb,state:sub_divination_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10837,
@@ -79239,8 +79239,8 @@
 			"n": "Divination Wizard 6; Expert Divination",
 			"cn": "Wizard 6; Expert Divination",
 			"s": "PHB",
-			"u": "expert%20divination_wizard_phb_divination_phb_6_phb",
-			"uh": "wizard_phb,state:sub_divination_phb=b1~feature=s5-0"
+			"u": "expert%20divination_wizard_xphb_divination_phb_6_phb",
+			"uh": "wizard_xphb,state:sub_divination_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10838,
@@ -79248,8 +79248,8 @@
 			"n": "Divination Wizard 10; The Third Eye",
 			"cn": "Wizard 10; The Third Eye",
 			"s": "PHB",
-			"u": "the%20third%20eye_wizard_phb_divination_phb_10_phb",
-			"uh": "wizard_phb,state:sub_divination_phb=b1~feature=s9-0"
+			"u": "the%20third%20eye_wizard_xphb_divination_phb_10_phb",
+			"uh": "wizard_xphb,state:sub_divination_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10839,
@@ -79257,15 +79257,15 @@
 			"n": "Divination Wizard 14; Greater Portent",
 			"cn": "Wizard 14; Greater Portent",
 			"s": "PHB",
-			"u": "greater%20portent_wizard_phb_divination_phb_14_phb",
-			"uh": "wizard_phb,state:sub_divination_phb=b1~feature=s13-0"
+			"u": "greater%20portent_wizard_xphb_divination_phb_14_phb",
+			"uh": "wizard_xphb,state:sub_divination_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10840,
 			"c": 40,
 			"n": "School of Divination",
 			"s": "PHB",
-			"u": "wizard_phb,state:sub_divination_phb=b1"
+			"u": "wizard_xphb,state:sub_divination_phb=b1"
 		},
 		{
 			"id": 10841,
@@ -79273,8 +79273,8 @@
 			"n": "Enchantment Wizard 2; Enchantment Savant",
 			"cn": "Wizard 2; Enchantment Savant",
 			"s": "PHB",
-			"u": "enchantment%20savant_wizard_phb_enchantment_phb_2_phb",
-			"uh": "wizard_phb,state:sub_enchantment_phb=b1~feature=s1-0"
+			"u": "enchantment%20savant_wizard_xphb_enchantment_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_enchantment_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10842,
@@ -79282,8 +79282,8 @@
 			"n": "Enchantment Wizard 2; Hypnotic Gaze",
 			"cn": "Wizard 2; Hypnotic Gaze",
 			"s": "PHB",
-			"u": "hypnotic%20gaze_wizard_phb_enchantment_phb_2_phb",
-			"uh": "wizard_phb,state:sub_enchantment_phb=b1~feature=s1-0"
+			"u": "hypnotic%20gaze_wizard_xphb_enchantment_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_enchantment_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10843,
@@ -79291,8 +79291,8 @@
 			"n": "Enchantment Wizard 2; School of Enchantment",
 			"cn": "Wizard 2; School of Enchantment",
 			"s": "PHB",
-			"u": "school%20of%20enchantment_wizard_phb_enchantment_phb_2_phb",
-			"uh": "wizard_phb,state:sub_enchantment_phb=b1~feature=s1-0"
+			"u": "school%20of%20enchantment_wizard_xphb_enchantment_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_enchantment_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10844,
@@ -79300,8 +79300,8 @@
 			"n": "Enchantment Wizard 3; School of Enchantment",
 			"cn": "Wizard 3; School of Enchantment",
 			"s": "PHB",
-			"u": "school%20of%20enchantment_wizard_phb_enchantment_phb_3_phb",
-			"uh": "wizard_phb,state:sub_enchantment_phb=b1~feature=s2-0"
+			"u": "school%20of%20enchantment_wizard_xphb_enchantment_phb_3_phb",
+			"uh": "wizard_xphb,state:sub_enchantment_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10845,
@@ -79309,8 +79309,8 @@
 			"n": "Enchantment Wizard 6; Instinctive Charm",
 			"cn": "Wizard 6; Instinctive Charm",
 			"s": "PHB",
-			"u": "instinctive%20charm_wizard_phb_enchantment_phb_6_phb",
-			"uh": "wizard_phb,state:sub_enchantment_phb=b1~feature=s5-0"
+			"u": "instinctive%20charm_wizard_xphb_enchantment_phb_6_phb",
+			"uh": "wizard_xphb,state:sub_enchantment_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10846,
@@ -79318,8 +79318,8 @@
 			"n": "Enchantment Wizard 10; Split Enchantment",
 			"cn": "Wizard 10; Split Enchantment",
 			"s": "PHB",
-			"u": "split%20enchantment_wizard_phb_enchantment_phb_10_phb",
-			"uh": "wizard_phb,state:sub_enchantment_phb=b1~feature=s9-0"
+			"u": "split%20enchantment_wizard_xphb_enchantment_phb_10_phb",
+			"uh": "wizard_xphb,state:sub_enchantment_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10847,
@@ -79327,15 +79327,15 @@
 			"n": "Enchantment Wizard 14; Alter Memories",
 			"cn": "Wizard 14; Alter Memories",
 			"s": "PHB",
-			"u": "alter%20memories_wizard_phb_enchantment_phb_14_phb",
-			"uh": "wizard_phb,state:sub_enchantment_phb=b1~feature=s13-0"
+			"u": "alter%20memories_wizard_xphb_enchantment_phb_14_phb",
+			"uh": "wizard_xphb,state:sub_enchantment_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10848,
 			"c": 40,
 			"n": "School of Enchantment",
 			"s": "PHB",
-			"u": "wizard_phb,state:sub_enchantment_phb=b1"
+			"u": "wizard_xphb,state:sub_enchantment_phb=b1"
 		},
 		{
 			"id": 10849,
@@ -79343,8 +79343,8 @@
 			"n": "Evocation Wizard 2; Evocation Savant",
 			"cn": "Wizard 2; Evocation Savant",
 			"s": "PHB",
-			"u": "evocation%20savant_wizard_phb_evocation_phb_2_phb",
-			"uh": "wizard_phb,state:sub_evocation_phb=b1~feature=s1-0"
+			"u": "evocation%20savant_wizard_xphb_evocation_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_evocation_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10850,
@@ -79352,8 +79352,8 @@
 			"n": "Evocation Wizard 2; Sculpt Spells",
 			"cn": "Wizard 2; Sculpt Spells",
 			"s": "PHB",
-			"u": "sculpt%20spells_wizard_phb_evocation_phb_2_phb",
-			"uh": "wizard_phb,state:sub_evocation_phb=b1~feature=s1-0"
+			"u": "sculpt%20spells_wizard_xphb_evocation_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_evocation_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10851,
@@ -79361,8 +79361,8 @@
 			"n": "Evocation Wizard 2; School of Evocation",
 			"cn": "Wizard 2; School of Evocation",
 			"s": "PHB",
-			"u": "school%20of%20evocation_wizard_phb_evocation_phb_2_phb",
-			"uh": "wizard_phb,state:sub_evocation_phb=b1~feature=s1-0"
+			"u": "school%20of%20evocation_wizard_xphb_evocation_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_evocation_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10852,
@@ -79370,8 +79370,8 @@
 			"n": "Evocation Wizard 3; School of Evocation",
 			"cn": "Wizard 3; School of Evocation",
 			"s": "PHB",
-			"u": "school%20of%20evocation_wizard_phb_evocation_phb_3_phb",
-			"uh": "wizard_phb,state:sub_evocation_phb=b1~feature=s2-0"
+			"u": "school%20of%20evocation_wizard_xphb_evocation_phb_3_phb",
+			"uh": "wizard_xphb,state:sub_evocation_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10853,
@@ -79379,8 +79379,8 @@
 			"n": "Evocation Wizard 6; Potent Cantrip",
 			"cn": "Wizard 6; Potent Cantrip",
 			"s": "PHB",
-			"u": "potent%20cantrip_wizard_phb_evocation_phb_6_phb",
-			"uh": "wizard_phb,state:sub_evocation_phb=b1~feature=s5-0"
+			"u": "potent%20cantrip_wizard_xphb_evocation_phb_6_phb",
+			"uh": "wizard_xphb,state:sub_evocation_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10854,
@@ -79388,8 +79388,8 @@
 			"n": "Evocation Wizard 10; Empowered Evocation",
 			"cn": "Wizard 10; Empowered Evocation",
 			"s": "PHB",
-			"u": "empowered%20evocation_wizard_phb_evocation_phb_10_phb",
-			"uh": "wizard_phb,state:sub_evocation_phb=b1~feature=s9-0"
+			"u": "empowered%20evocation_wizard_xphb_evocation_phb_10_phb",
+			"uh": "wizard_xphb,state:sub_evocation_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10855,
@@ -79397,15 +79397,15 @@
 			"n": "Evocation Wizard 14; Overchannel",
 			"cn": "Wizard 14; Overchannel",
 			"s": "PHB",
-			"u": "overchannel_wizard_phb_evocation_phb_14_phb",
-			"uh": "wizard_phb,state:sub_evocation_phb=b1~feature=s13-0"
+			"u": "overchannel_wizard_xphb_evocation_phb_14_phb",
+			"uh": "wizard_xphb,state:sub_evocation_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10856,
 			"c": 40,
 			"n": "School of Evocation",
 			"s": "PHB",
-			"u": "wizard_phb,state:sub_evocation_phb=b1"
+			"u": "wizard_xphb,state:sub_evocation_phb=b1"
 		},
 		{
 			"id": 10857,
@@ -79413,8 +79413,8 @@
 			"n": "Illusion Wizard 2; Illusion Savant",
 			"cn": "Wizard 2; Illusion Savant",
 			"s": "PHB",
-			"u": "illusion%20savant_wizard_phb_illusion_phb_2_phb",
-			"uh": "wizard_phb,state:sub_illusion_phb=b1~feature=s1-0"
+			"u": "illusion%20savant_wizard_xphb_illusion_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_illusion_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10858,
@@ -79422,8 +79422,8 @@
 			"n": "Illusion Wizard 2; Improved Minor Illusion",
 			"cn": "Wizard 2; Improved Minor Illusion",
 			"s": "PHB",
-			"u": "improved%20minor%20illusion_wizard_phb_illusion_phb_2_phb",
-			"uh": "wizard_phb,state:sub_illusion_phb=b1~feature=s1-0"
+			"u": "improved%20minor%20illusion_wizard_xphb_illusion_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_illusion_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10859,
@@ -79431,8 +79431,8 @@
 			"n": "Illusion Wizard 2; School of Illusion",
 			"cn": "Wizard 2; School of Illusion",
 			"s": "PHB",
-			"u": "school%20of%20illusion_wizard_phb_illusion_phb_2_phb",
-			"uh": "wizard_phb,state:sub_illusion_phb=b1~feature=s1-0"
+			"u": "school%20of%20illusion_wizard_xphb_illusion_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_illusion_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10860,
@@ -79440,8 +79440,8 @@
 			"n": "Illusion Wizard 3; School of Illusion",
 			"cn": "Wizard 3; School of Illusion",
 			"s": "PHB",
-			"u": "school%20of%20illusion_wizard_phb_illusion_phb_3_phb",
-			"uh": "wizard_phb,state:sub_illusion_phb=b1~feature=s2-0"
+			"u": "school%20of%20illusion_wizard_xphb_illusion_phb_3_phb",
+			"uh": "wizard_xphb,state:sub_illusion_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10861,
@@ -79449,8 +79449,8 @@
 			"n": "Illusion Wizard 6; Malleable Illusions",
 			"cn": "Wizard 6; Malleable Illusions",
 			"s": "PHB",
-			"u": "malleable%20illusions_wizard_phb_illusion_phb_6_phb",
-			"uh": "wizard_phb,state:sub_illusion_phb=b1~feature=s5-0"
+			"u": "malleable%20illusions_wizard_xphb_illusion_phb_6_phb",
+			"uh": "wizard_xphb,state:sub_illusion_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10862,
@@ -79458,8 +79458,8 @@
 			"n": "Illusion Wizard 10; Illusory Self",
 			"cn": "Wizard 10; Illusory Self",
 			"s": "PHB",
-			"u": "illusory%20self_wizard_phb_illusion_phb_10_phb",
-			"uh": "wizard_phb,state:sub_illusion_phb=b1~feature=s9-0"
+			"u": "illusory%20self_wizard_xphb_illusion_phb_10_phb",
+			"uh": "wizard_xphb,state:sub_illusion_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10863,
@@ -79467,15 +79467,15 @@
 			"n": "Illusion Wizard 14; Illusory Reality",
 			"cn": "Wizard 14; Illusory Reality",
 			"s": "PHB",
-			"u": "illusory%20reality_wizard_phb_illusion_phb_14_phb",
-			"uh": "wizard_phb,state:sub_illusion_phb=b1~feature=s13-0"
+			"u": "illusory%20reality_wizard_xphb_illusion_phb_14_phb",
+			"uh": "wizard_xphb,state:sub_illusion_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10864,
 			"c": 40,
 			"n": "School of Illusion",
 			"s": "PHB",
-			"u": "wizard_phb,state:sub_illusion_phb=b1"
+			"u": "wizard_xphb,state:sub_illusion_phb=b1"
 		},
 		{
 			"id": 10865,
@@ -79483,8 +79483,8 @@
 			"n": "Necromancy Wizard 2; Grim Harvest",
 			"cn": "Wizard 2; Grim Harvest",
 			"s": "PHB",
-			"u": "grim%20harvest_wizard_phb_necromancy_phb_2_phb",
-			"uh": "wizard_phb,state:sub_necromancy_phb=b1~feature=s1-0"
+			"u": "grim%20harvest_wizard_xphb_necromancy_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_necromancy_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10866,
@@ -79492,8 +79492,8 @@
 			"n": "Necromancy Wizard 2; Necromancy Savant",
 			"cn": "Wizard 2; Necromancy Savant",
 			"s": "PHB",
-			"u": "necromancy%20savant_wizard_phb_necromancy_phb_2_phb",
-			"uh": "wizard_phb,state:sub_necromancy_phb=b1~feature=s1-0"
+			"u": "necromancy%20savant_wizard_xphb_necromancy_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_necromancy_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10867,
@@ -79501,8 +79501,8 @@
 			"n": "Necromancy Wizard 2; School of Necromancy",
 			"cn": "Wizard 2; School of Necromancy",
 			"s": "PHB",
-			"u": "school%20of%20necromancy_wizard_phb_necromancy_phb_2_phb",
-			"uh": "wizard_phb,state:sub_necromancy_phb=b1~feature=s1-0"
+			"u": "school%20of%20necromancy_wizard_xphb_necromancy_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_necromancy_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10868,
@@ -79510,8 +79510,8 @@
 			"n": "Necromancy Wizard 3; School of Necromancy",
 			"cn": "Wizard 3; School of Necromancy",
 			"s": "PHB",
-			"u": "school%20of%20necromancy_wizard_phb_necromancy_phb_3_phb",
-			"uh": "wizard_phb,state:sub_necromancy_phb=b1~feature=s2-0"
+			"u": "school%20of%20necromancy_wizard_xphb_necromancy_phb_3_phb",
+			"uh": "wizard_xphb,state:sub_necromancy_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10869,
@@ -79519,8 +79519,8 @@
 			"n": "Necromancy Wizard 6; Undead Thralls",
 			"cn": "Wizard 6; Undead Thralls",
 			"s": "PHB",
-			"u": "undead%20thralls_wizard_phb_necromancy_phb_6_phb",
-			"uh": "wizard_phb,state:sub_necromancy_phb=b1~feature=s5-0"
+			"u": "undead%20thralls_wizard_xphb_necromancy_phb_6_phb",
+			"uh": "wizard_xphb,state:sub_necromancy_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10870,
@@ -79528,8 +79528,8 @@
 			"n": "Necromancy Wizard 10; Inured to Undeath",
 			"cn": "Wizard 10; Inured to Undeath",
 			"s": "PHB",
-			"u": "inured%20to%20undeath_wizard_phb_necromancy_phb_10_phb",
-			"uh": "wizard_phb,state:sub_necromancy_phb=b1~feature=s9-0"
+			"u": "inured%20to%20undeath_wizard_xphb_necromancy_phb_10_phb",
+			"uh": "wizard_xphb,state:sub_necromancy_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10871,
@@ -79537,15 +79537,15 @@
 			"n": "Necromancy Wizard 14; Command Undead",
 			"cn": "Wizard 14; Command Undead",
 			"s": "PHB",
-			"u": "command%20undead_wizard_phb_necromancy_phb_14_phb",
-			"uh": "wizard_phb,state:sub_necromancy_phb=b1~feature=s13-0"
+			"u": "command%20undead_wizard_xphb_necromancy_phb_14_phb",
+			"uh": "wizard_xphb,state:sub_necromancy_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10872,
 			"c": 40,
 			"n": "School of Necromancy",
 			"s": "PHB",
-			"u": "wizard_phb,state:sub_necromancy_phb=b1"
+			"u": "wizard_xphb,state:sub_necromancy_phb=b1"
 		},
 		{
 			"id": 10873,
@@ -79553,8 +79553,8 @@
 			"n": "Transmutation Wizard 2; Minor Alchemy",
 			"cn": "Wizard 2; Minor Alchemy",
 			"s": "PHB",
-			"u": "minor%20alchemy_wizard_phb_transmutation_phb_2_phb",
-			"uh": "wizard_phb,state:sub_transmutation_phb=b1~feature=s1-0"
+			"u": "minor%20alchemy_wizard_xphb_transmutation_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_transmutation_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10874,
@@ -79562,8 +79562,8 @@
 			"n": "Transmutation Wizard 2; Transmutation Savant",
 			"cn": "Wizard 2; Transmutation Savant",
 			"s": "PHB",
-			"u": "transmutation%20savant_wizard_phb_transmutation_phb_2_phb",
-			"uh": "wizard_phb,state:sub_transmutation_phb=b1~feature=s1-0"
+			"u": "transmutation%20savant_wizard_xphb_transmutation_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_transmutation_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10875,
@@ -79571,8 +79571,8 @@
 			"n": "Transmutation Wizard 2; School of Transmutation",
 			"cn": "Wizard 2; School of Transmutation",
 			"s": "PHB",
-			"u": "school%20of%20transmutation_wizard_phb_transmutation_phb_2_phb",
-			"uh": "wizard_phb,state:sub_transmutation_phb=b1~feature=s1-0"
+			"u": "school%20of%20transmutation_wizard_xphb_transmutation_phb_2_phb",
+			"uh": "wizard_xphb,state:sub_transmutation_phb=b1~feature=s1-0"
 		},
 		{
 			"id": 10876,
@@ -79580,8 +79580,8 @@
 			"n": "Transmutation Wizard 3; School of Transmutation",
 			"cn": "Wizard 3; School of Transmutation",
 			"s": "PHB",
-			"u": "school%20of%20transmutation_wizard_phb_transmutation_phb_3_phb",
-			"uh": "wizard_phb,state:sub_transmutation_phb=b1~feature=s2-0"
+			"u": "school%20of%20transmutation_wizard_xphb_transmutation_phb_3_phb",
+			"uh": "wizard_xphb,state:sub_transmutation_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10877,
@@ -79589,8 +79589,8 @@
 			"n": "Transmutation Wizard 6; Transmuter's Stone",
 			"cn": "Wizard 6; Transmuter's Stone",
 			"s": "PHB",
-			"u": "transmuter's%20stone_wizard_phb_transmutation_phb_6_phb",
-			"uh": "wizard_phb,state:sub_transmutation_phb=b1~feature=s5-0"
+			"u": "transmuter's%20stone_wizard_xphb_transmutation_phb_6_phb",
+			"uh": "wizard_xphb,state:sub_transmutation_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10878,
@@ -79598,8 +79598,8 @@
 			"n": "Transmutation Wizard 10; Shapechanger",
 			"cn": "Wizard 10; Shapechanger",
 			"s": "PHB",
-			"u": "shapechanger_wizard_phb_transmutation_phb_10_phb",
-			"uh": "wizard_phb,state:sub_transmutation_phb=b1~feature=s9-0"
+			"u": "shapechanger_wizard_xphb_transmutation_phb_10_phb",
+			"uh": "wizard_xphb,state:sub_transmutation_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10879,
@@ -79607,15 +79607,15 @@
 			"n": "Transmutation Wizard 14; Master Transmuter",
 			"cn": "Wizard 14; Master Transmuter",
 			"s": "PHB",
-			"u": "master%20transmuter_wizard_phb_transmutation_phb_14_phb",
-			"uh": "wizard_phb,state:sub_transmutation_phb=b1~feature=s13-0"
+			"u": "master%20transmuter_wizard_xphb_transmutation_phb_14_phb",
+			"uh": "wizard_xphb,state:sub_transmutation_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10880,
 			"c": 40,
 			"n": "School of Transmutation",
 			"s": "PHB",
-			"u": "wizard_phb,state:sub_transmutation_phb=b1"
+			"u": "wizard_xphb,state:sub_transmutation_phb=b1"
 		},
 		{
 			"id": 10881,
@@ -79973,8 +79973,8 @@
 			"n": "Archfey Warlock 1; Fey Presence",
 			"cn": "Warlock 1; Fey Presence",
 			"s": "PHB",
-			"u": "fey%20presence_warlock_phb_archfey_phb_1_phb",
-			"uh": "warlock_phb,state:sub_archfey_phb=b1~feature=s0-0"
+			"u": "fey%20presence_warlock_xphb_archfey_phb_1_phb",
+			"uh": "warlock_xphb,state:sub_archfey_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10922,
@@ -79982,8 +79982,8 @@
 			"n": "Archfey Warlock 1; The Archfey",
 			"cn": "Warlock 1; The Archfey",
 			"s": "PHB",
-			"u": "the%20archfey_warlock_phb_archfey_phb_1_phb",
-			"uh": "warlock_phb,state:sub_archfey_phb=b1~feature=s0-0"
+			"u": "the%20archfey_warlock_xphb_archfey_phb_1_phb",
+			"uh": "warlock_xphb,state:sub_archfey_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10923,
@@ -79991,8 +79991,8 @@
 			"n": "Archfey Warlock 3; The Archfey",
 			"cn": "Warlock 3; The Archfey",
 			"s": "PHB",
-			"u": "the%20archfey_warlock_phb_archfey_phb_3_phb",
-			"uh": "warlock_phb,state:sub_archfey_phb=b1~feature=s2-0"
+			"u": "the%20archfey_warlock_xphb_archfey_phb_3_phb",
+			"uh": "warlock_xphb,state:sub_archfey_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10924,
@@ -80000,8 +80000,8 @@
 			"n": "Archfey Warlock 6; Misty Escape",
 			"cn": "Warlock 6; Misty Escape",
 			"s": "PHB",
-			"u": "misty%20escape_warlock_phb_archfey_phb_6_phb",
-			"uh": "warlock_phb,state:sub_archfey_phb=b1~feature=s5-0"
+			"u": "misty%20escape_warlock_xphb_archfey_phb_6_phb",
+			"uh": "warlock_xphb,state:sub_archfey_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10925,
@@ -80009,8 +80009,8 @@
 			"n": "Archfey Warlock 10; Beguiling Defenses",
 			"cn": "Warlock 10; Beguiling Defenses",
 			"s": "PHB",
-			"u": "beguiling%20defenses_warlock_phb_archfey_phb_10_phb",
-			"uh": "warlock_phb,state:sub_archfey_phb=b1~feature=s9-0"
+			"u": "beguiling%20defenses_warlock_xphb_archfey_phb_10_phb",
+			"uh": "warlock_xphb,state:sub_archfey_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10926,
@@ -80018,15 +80018,15 @@
 			"n": "Archfey Warlock 14; Dark Delirium",
 			"cn": "Warlock 14; Dark Delirium",
 			"s": "PHB",
-			"u": "dark%20delirium_warlock_phb_archfey_phb_14_phb",
-			"uh": "warlock_phb,state:sub_archfey_phb=b1~feature=s13-0"
+			"u": "dark%20delirium_warlock_xphb_archfey_phb_14_phb",
+			"uh": "warlock_xphb,state:sub_archfey_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10927,
 			"c": 40,
 			"n": "The Archfey",
 			"s": "PHB",
-			"u": "warlock_phb,state:sub_archfey_phb=b1"
+			"u": "warlock_xphb,state:sub_archfey_phb=b1"
 		},
 		{
 			"id": 10928,
@@ -80034,8 +80034,8 @@
 			"n": "Fiend Warlock 1; Dark One's Blessing",
 			"cn": "Warlock 1; Dark One's Blessing",
 			"s": "PHB",
-			"u": "dark%20one's%20blessing_warlock_phb_fiend_phb_1_phb",
-			"uh": "warlock_phb,state:sub_fiend_phb=b1~feature=s0-0"
+			"u": "dark%20one's%20blessing_warlock_xphb_fiend_phb_1_phb",
+			"uh": "warlock_xphb,state:sub_fiend_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10929,
@@ -80043,8 +80043,8 @@
 			"n": "Fiend Warlock 1; The Fiend",
 			"cn": "Warlock 1; The Fiend",
 			"s": "PHB",
-			"u": "the%20fiend_warlock_phb_fiend_phb_1_phb",
-			"uh": "warlock_phb,state:sub_fiend_phb=b1~feature=s0-0"
+			"u": "the%20fiend_warlock_xphb_fiend_phb_1_phb",
+			"uh": "warlock_xphb,state:sub_fiend_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10930,
@@ -80052,8 +80052,8 @@
 			"n": "Fiend Warlock 3; The Fiend",
 			"cn": "Warlock 3; The Fiend",
 			"s": "PHB",
-			"u": "the%20fiend_warlock_phb_fiend_phb_3_phb",
-			"uh": "warlock_phb,state:sub_fiend_phb=b1~feature=s2-0"
+			"u": "the%20fiend_warlock_xphb_fiend_phb_3_phb",
+			"uh": "warlock_xphb,state:sub_fiend_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10931,
@@ -80061,8 +80061,8 @@
 			"n": "Fiend Warlock 6; Dark One's Own Luck",
 			"cn": "Warlock 6; Dark One's Own Luck",
 			"s": "PHB",
-			"u": "dark%20one's%20own%20luck_warlock_phb_fiend_phb_6_phb",
-			"uh": "warlock_phb,state:sub_fiend_phb=b1~feature=s5-0"
+			"u": "dark%20one's%20own%20luck_warlock_xphb_fiend_phb_6_phb",
+			"uh": "warlock_xphb,state:sub_fiend_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10932,
@@ -80070,8 +80070,8 @@
 			"n": "Fiend Warlock 10; Fiendish Resilience",
 			"cn": "Warlock 10; Fiendish Resilience",
 			"s": "PHB",
-			"u": "fiendish%20resilience_warlock_phb_fiend_phb_10_phb",
-			"uh": "warlock_phb,state:sub_fiend_phb=b1~feature=s9-0"
+			"u": "fiendish%20resilience_warlock_xphb_fiend_phb_10_phb",
+			"uh": "warlock_xphb,state:sub_fiend_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10933,
@@ -80079,15 +80079,15 @@
 			"n": "Fiend Warlock 14; Hurl Through Hell",
 			"cn": "Warlock 14; Hurl Through Hell",
 			"s": "PHB",
-			"u": "hurl%20through%20hell_warlock_phb_fiend_phb_14_phb",
-			"uh": "warlock_phb,state:sub_fiend_phb=b1~feature=s13-0"
+			"u": "hurl%20through%20hell_warlock_xphb_fiend_phb_14_phb",
+			"uh": "warlock_xphb,state:sub_fiend_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10934,
 			"c": 40,
 			"n": "The Fiend",
 			"s": "PHB",
-			"u": "warlock_phb,state:sub_fiend_phb=b1"
+			"u": "warlock_xphb,state:sub_fiend_phb=b1"
 		},
 		{
 			"id": 10935,
@@ -80095,8 +80095,8 @@
 			"n": "Great Old One Warlock 1; Awakened Mind",
 			"cn": "Warlock 1; Awakened Mind",
 			"s": "PHB",
-			"u": "awakened%20mind_warlock_phb_great%20old%20one_phb_1_phb",
-			"uh": "warlock_phb,state:sub_great%20old%20one_phb=b1~feature=s0-0"
+			"u": "awakened%20mind_warlock_xphb_great%20old%20one_phb_1_phb",
+			"uh": "warlock_xphb,state:sub_great%20old%20one_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10936,
@@ -80104,8 +80104,8 @@
 			"n": "Great Old One Warlock 1; The Great Old One",
 			"cn": "Warlock 1; The Great Old One",
 			"s": "PHB",
-			"u": "the%20great%20old%20one_warlock_phb_great%20old%20one_phb_1_phb",
-			"uh": "warlock_phb,state:sub_great%20old%20one_phb=b1~feature=s0-0"
+			"u": "the%20great%20old%20one_warlock_xphb_great%20old%20one_phb_1_phb",
+			"uh": "warlock_xphb,state:sub_great%20old%20one_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10937,
@@ -80113,8 +80113,8 @@
 			"n": "Great Old One Warlock 3; The Great Old One",
 			"cn": "Warlock 3; The Great Old One",
 			"s": "PHB",
-			"u": "the%20great%20old%20one_warlock_phb_great%20old%20one_phb_3_phb",
-			"uh": "warlock_phb,state:sub_great%20old%20one_phb=b1~feature=s2-0"
+			"u": "the%20great%20old%20one_warlock_xphb_great%20old%20one_phb_3_phb",
+			"uh": "warlock_xphb,state:sub_great%20old%20one_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 10938,
@@ -80122,8 +80122,8 @@
 			"n": "Great Old One Warlock 6; Entropic Ward",
 			"cn": "Warlock 6; Entropic Ward",
 			"s": "PHB",
-			"u": "entropic%20ward_warlock_phb_great%20old%20one_phb_6_phb",
-			"uh": "warlock_phb,state:sub_great%20old%20one_phb=b1~feature=s5-0"
+			"u": "entropic%20ward_warlock_xphb_great%20old%20one_phb_6_phb",
+			"uh": "warlock_xphb,state:sub_great%20old%20one_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 10939,
@@ -80131,8 +80131,8 @@
 			"n": "Great Old One Warlock 10; Thought Shield",
 			"cn": "Warlock 10; Thought Shield",
 			"s": "PHB",
-			"u": "thought%20shield_warlock_phb_great%20old%20one_phb_10_phb",
-			"uh": "warlock_phb,state:sub_great%20old%20one_phb=b1~feature=s9-0"
+			"u": "thought%20shield_warlock_xphb_great%20old%20one_phb_10_phb",
+			"uh": "warlock_xphb,state:sub_great%20old%20one_phb=b1~feature=s9-0"
 		},
 		{
 			"id": 10940,
@@ -80140,15 +80140,15 @@
 			"n": "Great Old One Warlock 14; Create Thrall",
 			"cn": "Warlock 14; Create Thrall",
 			"s": "PHB",
-			"u": "create%20thrall_warlock_phb_great%20old%20one_phb_14_phb",
-			"uh": "warlock_phb,state:sub_great%20old%20one_phb=b1~feature=s13-0"
+			"u": "create%20thrall_warlock_xphb_great%20old%20one_phb_14_phb",
+			"uh": "warlock_xphb,state:sub_great%20old%20one_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 10941,
 			"c": 40,
 			"n": "The Great Old One",
 			"s": "PHB",
-			"u": "warlock_phb,state:sub_great%20old%20one_phb=b1"
+			"u": "warlock_xphb,state:sub_great%20old%20one_phb=b1"
 		},
 		{
 			"id": 10942,
@@ -80637,8 +80637,8 @@
 			"n": "Draconic Sorcerer 1; Draconic Resilience",
 			"cn": "Sorcerer 1; Draconic Resilience",
 			"s": "PHB",
-			"u": "draconic%20resilience_sorcerer_phb_draconic_phb_1_phb",
-			"uh": "sorcerer_phb,state:sub_draconic_phb=b1~feature=s0-0"
+			"u": "draconic%20resilience_sorcerer_xphb_draconic_phb_1_phb",
+			"uh": "sorcerer_xphb,state:sub_draconic_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10998,
@@ -80646,8 +80646,8 @@
 			"n": "Draconic Sorcerer 1; Dragon Ancestor",
 			"cn": "Sorcerer 1; Dragon Ancestor",
 			"s": "PHB",
-			"u": "dragon%20ancestor_sorcerer_phb_draconic_phb_1_phb",
-			"uh": "sorcerer_phb,state:sub_draconic_phb=b1~feature=s0-0"
+			"u": "dragon%20ancestor_sorcerer_xphb_draconic_phb_1_phb",
+			"uh": "sorcerer_xphb,state:sub_draconic_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 10999,
@@ -80655,8 +80655,8 @@
 			"n": "Draconic Sorcerer 1; Draconic Bloodline",
 			"cn": "Sorcerer 1; Draconic Bloodline",
 			"s": "PHB",
-			"u": "draconic%20bloodline_sorcerer_phb_draconic_phb_1_phb",
-			"uh": "sorcerer_phb,state:sub_draconic_phb=b1~feature=s0-0"
+			"u": "draconic%20bloodline_sorcerer_xphb_draconic_phb_1_phb",
+			"uh": "sorcerer_xphb,state:sub_draconic_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 11000,
@@ -80664,8 +80664,8 @@
 			"n": "Draconic Sorcerer 3; Draconic Bloodline",
 			"cn": "Sorcerer 3; Draconic Bloodline",
 			"s": "PHB",
-			"u": "draconic%20bloodline_sorcerer_phb_draconic_phb_3_phb",
-			"uh": "sorcerer_phb,state:sub_draconic_phb=b1~feature=s2-0"
+			"u": "draconic%20bloodline_sorcerer_xphb_draconic_phb_3_phb",
+			"uh": "sorcerer_xphb,state:sub_draconic_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 11001,
@@ -80673,8 +80673,8 @@
 			"n": "Draconic Sorcerer 6; Elemental Affinity",
 			"cn": "Sorcerer 6; Elemental Affinity",
 			"s": "PHB",
-			"u": "elemental%20affinity_sorcerer_phb_draconic_phb_6_phb",
-			"uh": "sorcerer_phb,state:sub_draconic_phb=b1~feature=s5-0"
+			"u": "elemental%20affinity_sorcerer_xphb_draconic_phb_6_phb",
+			"uh": "sorcerer_xphb,state:sub_draconic_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 11002,
@@ -80682,8 +80682,8 @@
 			"n": "Draconic Sorcerer 14; Dragon Wings",
 			"cn": "Sorcerer 14; Dragon Wings",
 			"s": "PHB",
-			"u": "dragon%20wings_sorcerer_phb_draconic_phb_14_phb",
-			"uh": "sorcerer_phb,state:sub_draconic_phb=b1~feature=s13-0"
+			"u": "dragon%20wings_sorcerer_xphb_draconic_phb_14_phb",
+			"uh": "sorcerer_xphb,state:sub_draconic_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 11003,
@@ -80691,15 +80691,15 @@
 			"n": "Draconic Sorcerer 18; Draconic Presence",
 			"cn": "Sorcerer 18; Draconic Presence",
 			"s": "PHB",
-			"u": "draconic%20presence_sorcerer_phb_draconic_phb_18_phb",
-			"uh": "sorcerer_phb,state:sub_draconic_phb=b1~feature=s17-0"
+			"u": "draconic%20presence_sorcerer_xphb_draconic_phb_18_phb",
+			"uh": "sorcerer_xphb,state:sub_draconic_phb=b1~feature=s17-0"
 		},
 		{
 			"id": 11004,
 			"c": 40,
 			"n": "Draconic Bloodline",
 			"s": "PHB",
-			"u": "sorcerer_phb,state:sub_draconic_phb=b1"
+			"u": "sorcerer_xphb,state:sub_draconic_phb=b1"
 		},
 		{
 			"id": 11005,
@@ -80707,8 +80707,8 @@
 			"n": "Wild Sorcerer 1; Tides of Chaos",
 			"cn": "Sorcerer 1; Tides of Chaos",
 			"s": "PHB",
-			"u": "tides%20of%20chaos_sorcerer_phb_wild_phb_1_phb",
-			"uh": "sorcerer_phb,state:sub_wild_phb=b1~feature=s0-0"
+			"u": "tides%20of%20chaos_sorcerer_xphb_wild_phb_1_phb",
+			"uh": "sorcerer_xphb,state:sub_wild_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 11006,
@@ -80716,8 +80716,8 @@
 			"n": "Wild Sorcerer 1; Wild Magic Surge",
 			"cn": "Sorcerer 1; Wild Magic Surge",
 			"s": "PHB",
-			"u": "wild%20magic%20surge_sorcerer_phb_wild_phb_1_phb",
-			"uh": "sorcerer_phb,state:sub_wild_phb=b1~feature=s0-0"
+			"u": "wild%20magic%20surge_sorcerer_xphb_wild_phb_1_phb",
+			"uh": "sorcerer_xphb,state:sub_wild_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 11007,
@@ -80725,8 +80725,8 @@
 			"n": "Wild Sorcerer 1; Wild Magic",
 			"cn": "Sorcerer 1; Wild Magic",
 			"s": "PHB",
-			"u": "wild%20magic_sorcerer_phb_wild_phb_1_phb",
-			"uh": "sorcerer_phb,state:sub_wild_phb=b1~feature=s0-0"
+			"u": "wild%20magic_sorcerer_xphb_wild_phb_1_phb",
+			"uh": "sorcerer_xphb,state:sub_wild_phb=b1~feature=s0-0"
 		},
 		{
 			"id": 11008,
@@ -80734,8 +80734,8 @@
 			"n": "Wild Sorcerer 3; Wild Magic",
 			"cn": "Sorcerer 3; Wild Magic",
 			"s": "PHB",
-			"u": "wild%20magic_sorcerer_phb_wild_phb_3_phb",
-			"uh": "sorcerer_phb,state:sub_wild_phb=b1~feature=s2-0"
+			"u": "wild%20magic_sorcerer_xphb_wild_phb_3_phb",
+			"uh": "sorcerer_xphb,state:sub_wild_phb=b1~feature=s2-0"
 		},
 		{
 			"id": 11009,
@@ -80743,8 +80743,8 @@
 			"n": "Wild Sorcerer 6; Bend Luck",
 			"cn": "Sorcerer 6; Bend Luck",
 			"s": "PHB",
-			"u": "bend%20luck_sorcerer_phb_wild_phb_6_phb",
-			"uh": "sorcerer_phb,state:sub_wild_phb=b1~feature=s5-0"
+			"u": "bend%20luck_sorcerer_xphb_wild_phb_6_phb",
+			"uh": "sorcerer_xphb,state:sub_wild_phb=b1~feature=s5-0"
 		},
 		{
 			"id": 11010,
@@ -80752,8 +80752,8 @@
 			"n": "Wild Sorcerer 14; Controlled Chaos",
 			"cn": "Sorcerer 14; Controlled Chaos",
 			"s": "PHB",
-			"u": "controlled%20chaos_sorcerer_phb_wild_phb_14_phb",
-			"uh": "sorcerer_phb,state:sub_wild_phb=b1~feature=s13-0"
+			"u": "controlled%20chaos_sorcerer_xphb_wild_phb_14_phb",
+			"uh": "sorcerer_xphb,state:sub_wild_phb=b1~feature=s13-0"
 		},
 		{
 			"id": 11011,
@@ -80761,15 +80761,15 @@
 			"n": "Wild Sorcerer 18; Spell Bombardment",
 			"cn": "Sorcerer 18; Spell Bombardment",
 			"s": "PHB",
-			"u": "spell%20bombardment_sorcerer_phb_wild_phb_18_phb",
-			"uh": "sorcerer_phb,state:sub_wild_phb=b1~feature=s17-0"
+			"u": "spell%20bombardment_sorcerer_xphb_wild_phb_18_phb",
+			"uh": "sorcerer_xphb,state:sub_wild_phb=b1~feature=s17-0"
 		},
 		{
 			"id": 11012,
 			"c": 40,
 			"n": "Wild Magic",
 			"s": "PHB",
-			"u": "sorcerer_phb,state:sub_wild_phb=b1"
+			"u": "sorcerer_xphb,state:sub_wild_phb=b1"
 		},
 		{
 			"id": 11013,

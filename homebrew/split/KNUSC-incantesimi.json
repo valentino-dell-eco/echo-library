@@ -1386,7 +1386,7 @@
 			}
 		],
 		"dateAdded": 1793294907,
-		"dateLastModified": 1794106474,
+		"dateLastModified": 1794866445,
 		"edition": "classic"
 	},
 	"spell": [
@@ -5066,7 +5066,8 @@
 			],
 			"areaTags": [
 				"ST"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Beacon of Hope",
@@ -5988,7 +5989,8 @@
 			],
 			"areaTags": [
 				"N"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Call Lightning",
@@ -6788,7 +6790,8 @@
 			],
 			"areaTags": [
 				"S"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Color Spray",
@@ -9911,7 +9914,8 @@
 			"miscTags": [
 				"TP",
 				"WLT"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Disguise Self",
@@ -12677,7 +12681,8 @@
 			],
 			"areaTags": [
 				"S"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Flame Blade",
@@ -14288,7 +14293,8 @@
 			],
 			"miscTags": [
 				"SGT"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Guards and Wards",
@@ -16380,7 +16386,8 @@
 			],
 			"areaTags": [
 				"S"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Invisibility",
@@ -17717,7 +17724,8 @@
 			"areaTags": [
 				"MT",
 				"ST"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Magic Mouth",
@@ -19289,7 +19297,8 @@
 			],
 			"areaTags": [
 				"ST"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Move Earth",
@@ -20806,7 +20815,8 @@
 			],
 			"areaTags": [
 				"N"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Prismatic Wall",
@@ -22420,7 +22430,8 @@
 			],
 			"areaTags": [
 				"ST"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Sanctuary",
@@ -23252,7 +23263,7 @@
 				}
 			],
 			"entries": [
-				"The wood of a {@item club|phb} or {@item quarterstaff|phb} you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a {@dice d8}. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."
+				"The wood of a {@item club|phb} or {@item quarterstaff|phb} you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a {@damage d8}. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."
 			],
 			"miscTags": [
 				"AAD"
@@ -27088,7 +27099,8 @@
 			],
 			"areaTags": [
 				"C"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Weird",
@@ -50849,6 +50861,188 @@
 				"target.affects.choice": true
 			},
 			"foundryImg": "icons/magic/control/fear-fright-white.webp"
+		}
+	],
+	"spellFluff": [
+		{
+			"name": "Barkskin",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Barkskin.webp"
+					},
+					"width": 377,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Burning Hands",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Burning Hands.webp"
+					},
+					"width": 377,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Cloudkill",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Cloudkill.webp"
+					},
+					"width": 1000,
+					"height": 1375
+				}
+			]
+		},
+		{
+			"name": "Dimension Door",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Dimension Door.webp"
+					},
+					"width": 753,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Fireball",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Fireball.webp"
+					},
+					"width": 449,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Guardian of Faith",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Guardian of Faith.webp"
+					},
+					"width": 750,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Insect Plague",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Insect Plague.webp"
+					},
+					"width": 449,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Magic Missile",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Magic Missile.webp"
+					},
+					"width": 1359,
+					"height": 1700
+				}
+			]
+		},
+		{
+			"name": "Mordenkainen's Sword",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Mordenkainen's Sword.webp"
+					},
+					"width": 449,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Prismatic Spray",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Prismatic Spray.webp"
+					},
+					"width": 729,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Sacred Flame",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Sacred Flame.webp"
+					},
+					"width": 449,
+					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Web",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "spells/PHB/Web.webp"
+					},
+					"width": 739,
+					"height": 1000
+				}
+			]
 		}
 	]
 }

@@ -1842,7 +1842,8 @@
 			],
 			"areaTags": [
 				"ST"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Beacon of Hope",
@@ -2764,7 +2765,8 @@
 			],
 			"areaTags": [
 				"N"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Call Lightning",
@@ -3564,7 +3566,8 @@
 			],
 			"areaTags": [
 				"S"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Color Spray",
@@ -6687,7 +6690,8 @@
 			"miscTags": [
 				"TP",
 				"WLT"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Disguise Self",
@@ -9453,7 +9457,8 @@
 			],
 			"areaTags": [
 				"S"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Flame Blade",
@@ -11064,7 +11069,8 @@
 			],
 			"miscTags": [
 				"SGT"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Guards and Wards",
@@ -13156,7 +13162,8 @@
 			],
 			"areaTags": [
 				"S"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Invisibility",
@@ -14493,7 +14500,8 @@
 			"areaTags": [
 				"MT",
 				"ST"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Magic Mouth",
@@ -16065,7 +16073,8 @@
 			],
 			"areaTags": [
 				"ST"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Move Earth",
@@ -17582,7 +17591,8 @@
 			],
 			"areaTags": [
 				"N"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Prismatic Wall",
@@ -19196,7 +19206,8 @@
 			],
 			"areaTags": [
 				"ST"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Sanctuary",
@@ -20028,7 +20039,7 @@
 				}
 			],
 			"entries": [
-				"The wood of a {@item club|phb} or {@item quarterstaff|phb} you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a {@dice d8}. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."
+				"The wood of a {@item club|phb} or {@item quarterstaff|phb} you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a {@damage d8}. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."
 			],
 			"miscTags": [
 				"AAD"
@@ -23864,7 +23875,8 @@
 			],
 			"areaTags": [
 				"C"
-			]
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Weird",

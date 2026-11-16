@@ -499,7 +499,7 @@
 			"name": "Combat Superiority",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -557,7 +557,7 @@
 			"name": "Maneuver Options",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -608,7 +608,7 @@
 			"name": "Maneuvers",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -690,7 +690,7 @@
 			"name": "Student of War",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -702,7 +702,7 @@
 			"name": "Battle Master",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -710,19 +710,19 @@
 				"Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Superiority|Fighter|PHB|Battle Master|PHB|3|PHB"
+					"subclassFeature": "Combat Superiority|Fighter|XPHB|Battle Master|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Maneuver Options|Fighter|PHB|Battle Master|PHB|3|PHB"
+					"subclassFeature": "Maneuver Options|Fighter|XPHB|Battle Master|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Maneuvers|Fighter|PHB|Battle Master|PHB|3|PHB"
+					"subclassFeature": "Maneuvers|Fighter|XPHB|Battle Master|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Student of War|Fighter|PHB|Battle Master|PHB|3|PHB"
+					"subclassFeature": "Student of War|Fighter|XPHB|Battle Master|PHB|3|PHB"
 				}
 			]
 		},
@@ -730,7 +730,7 @@
 			"name": "Additional Superiority Die",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -742,7 +742,7 @@
 			"name": "Know Your Enemy",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -766,7 +766,7 @@
 			"name": "Additional Maneuvers",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -774,11 +774,11 @@
 				"At 7th level, you learn two additional maneuvers of your choice.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Additional Superiority Die|Fighter|PHB|Battle Master|PHB|7|PHB"
+					"subclassFeature": "Additional Superiority Die|Fighter|XPHB|Battle Master|PHB|7|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Know Your Enemy|Fighter|PHB|Battle Master|PHB|7|PHB"
+					"subclassFeature": "Know Your Enemy|Fighter|XPHB|Battle Master|PHB|7|PHB"
 				}
 			]
 		},
@@ -786,7 +786,7 @@
 			"name": "Improved Combat Superiority (d10)",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -798,7 +798,7 @@
 			"name": "Additional Maneuvers",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -806,7 +806,7 @@
 				"At 10th level, you learn two additional maneuvers of your choice.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Improved Combat Superiority (d10)|Fighter|PHB|Battle Master|PHB|10|PHB"
+					"subclassFeature": "Improved Combat Superiority (d10)|Fighter|XPHB|Battle Master|PHB|10|PHB"
 				}
 			]
 		},
@@ -814,7 +814,7 @@
 			"name": "Additional Superiority Die",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -826,7 +826,7 @@
 			"name": "Relentless",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -838,7 +838,7 @@
 			"name": "Additional Maneuvers",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -846,11 +846,11 @@
 				"At 15th level, you learn two additional maneuvers of your choice.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Additional Superiority Die|Fighter|PHB|Battle Master|PHB|15|PHB"
+					"subclassFeature": "Additional Superiority Die|Fighter|XPHB|Battle Master|PHB|15|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Relentless|Fighter|PHB|Battle Master|PHB|15|PHB"
+					"subclassFeature": "Relentless|Fighter|XPHB|Battle Master|PHB|15|PHB"
 				}
 			]
 		},
@@ -858,7 +858,7 @@
 			"name": "Improved Combat Superiority (d12)",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Battle Master",
 			"subclassSource": "PHB",
 			"level": 18,
@@ -870,7 +870,7 @@
 			"name": "Improved Critical",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Champion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -882,7 +882,7 @@
 			"name": "Champion",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Champion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -890,7 +890,7 @@
 				"The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Improved Critical|Fighter|PHB|Champion|PHB|3|PHB"
+					"subclassFeature": "Improved Critical|Fighter|XPHB|Champion|PHB|3|PHB"
 				}
 			]
 		},
@@ -898,7 +898,7 @@
 			"name": "Remarkable Athlete",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Champion",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -911,7 +911,7 @@
 			"name": "Additional Fighting Style",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Champion",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -923,7 +923,7 @@
 			"name": "Superior Critical",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Champion",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -935,7 +935,7 @@
 			"name": "Survivor",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Champion",
 			"subclassSource": "PHB",
 			"level": 18,
@@ -947,7 +947,7 @@
 			"name": "Spellcasting",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Eldritch Knight",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1020,7 +1020,7 @@
 			"name": "Weapon Bond",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Eldritch Knight",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1034,7 +1034,7 @@
 			"name": "Eldritch Knight",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Eldritch Knight",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1042,11 +1042,11 @@
 				"The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic—abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Fighter|PHB|Eldritch Knight|PHB|3|PHB"
+					"subclassFeature": "Spellcasting|Fighter|XPHB|Eldritch Knight|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Weapon Bond|Fighter|PHB|Eldritch Knight|PHB|3|PHB"
+					"subclassFeature": "Weapon Bond|Fighter|XPHB|Eldritch Knight|PHB|3|PHB"
 				}
 			]
 		},
@@ -1054,7 +1054,7 @@
 			"name": "War Magic",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Eldritch Knight",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1066,7 +1066,7 @@
 			"name": "Eldritch Strike",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Eldritch Knight",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -1078,7 +1078,7 @@
 			"name": "Arcane Charge",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Eldritch Knight",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1090,7 +1090,7 @@
 			"name": "Improved War Magic",
 			"source": "PHB",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Eldritch Knight",
 			"subclassSource": "PHB",
 			"level": 18,
@@ -2164,381 +2164,90 @@
 	],
 	"subclass": [
 		{
-			"shortName": "Battle Master",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"edition": "classic",
-			"optionalfeatureProgression": [
-				{
-					"name": "Maneuvers",
-					"featureType": [
-						"MV:B"
-					],
-					"progression": {
-						"3": 3,
-						"7": 5,
-						"10": 7,
-						"15": 9
-					}
-				}
-			],
 			"name": "Battle Master",
+			"shortName": "Battle Master",
 			"source": "PHB",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Battle Master",
+				"source": "PHB",
+				"shortName": "Battle Master",
+				"className": "Fighter",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Battle Master|Fighter|PHB|Battle Master|PHB|3|PHB",
-				"Additional Maneuvers|Fighter|PHB|Battle Master|PHB|7|PHB",
-				"Additional Maneuvers|Fighter|PHB|Battle Master|PHB|10|PHB",
-				"Additional Maneuvers|Fighter|PHB|Battle Master|PHB|15|PHB",
-				"Improved Combat Superiority (d12)|Fighter|PHB|Battle Master|PHB|18|PHB"
+				"Battle Master|Fighter|XPHB|Battle Master|PHB|3|PHB",
+				"Additional Maneuvers|Fighter|XPHB|Battle Master|PHB|7|PHB",
+				"Additional Maneuvers|Fighter|XPHB|Battle Master|PHB|10|PHB",
+				"Additional Maneuvers|Fighter|XPHB|Battle Master|PHB|15|PHB",
+				"Improved Combat Superiority (d12)|Fighter|XPHB|Battle Master|PHB|18|PHB"
 			]
 		},
 		{
-			"shortName": "Champion",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"edition": "classic",
-			"optionalfeatureProgression": [
-				{
-					"name": "Fighting Style",
-					"featureType": [
-						"FS:F"
-					],
-					"progression": {
-						"10": 1
-					}
-				}
-			],
 			"name": "Champion",
+			"shortName": "Champion",
 			"source": "PHB",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Champion",
+				"source": "PHB",
+				"shortName": "Champion",
+				"className": "Fighter",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Champion|Fighter|PHB|Champion|PHB|3|PHB",
-				"Remarkable Athlete|Fighter|PHB|Champion|PHB|7|PHB",
-				"Additional Fighting Style|Fighter|PHB|Champion|PHB|10|PHB",
-				"Superior Critical|Fighter|PHB|Champion|PHB|15|PHB",
-				"Survivor|Fighter|PHB|Champion|PHB|18|PHB"
+				"Champion|Fighter|XPHB|Champion|PHB|3|PHB",
+				"Remarkable Athlete|Fighter|XPHB|Champion|PHB|7|PHB",
+				"Additional Fighting Style|Fighter|XPHB|Champion|PHB|10|PHB",
+				"Superior Critical|Fighter|XPHB|Champion|PHB|15|PHB",
+				"Survivor|Fighter|XPHB|Champion|PHB|18|PHB"
 			]
 		},
 		{
-			"shortName": "Eldritch Knight",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"edition": "classic",
-			"spellcastingAbility": "int",
-			"casterProgression": "1/3",
-			"cantripProgression": [
-				0,
-				0,
-				2,
-				2,
-				2,
-				2,
-				2,
-				2,
-				2,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3,
-				3
-			],
-			"spellsKnownProgression": [
-				0,
-				0,
-				3,
-				4,
-				4,
-				4,
-				5,
-				6,
-				6,
-				7,
-				8,
-				8,
-				9,
-				10,
-				10,
-				11,
-				11,
-				11,
-				12,
-				13
-			],
-			"additionalSpells": [
-				{
-					"expanded": {
-						"3": [
-							{
-								"all": "level=0|class=Wizard"
-							},
-							{
-								"all": "level=1|class=Wizard"
-							}
-						],
-						"7": [
-							{
-								"all": "level=2|class=Wizard"
-							}
-						],
-						"13": [
-							{
-								"all": "level=3|class=Wizard"
-							}
-						],
-						"19": [
-							{
-								"all": "level=4|class=Wizard"
-							}
-						]
-					}
-				}
-			],
-			"subclassTableGroups": [
-				{
-					"subclasses": [
-						{
-							"name": "Eldritch Knight",
-							"source": "PHB"
-						}
-					],
-					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|subclass=Fighter: Eldritch Knight}",
-						"{@filter Spells Known|spells|subclass=Fighter: Eldritch Knight}"
-					],
-					"rows": [
-						[
-							0,
-							0
-						],
-						[
-							0,
-							0
-						],
-						[
-							2,
-							3
-						],
-						[
-							2,
-							4
-						],
-						[
-							2,
-							4
-						],
-						[
-							2,
-							4
-						],
-						[
-							2,
-							5
-						],
-						[
-							2,
-							6
-						],
-						[
-							2,
-							6
-						],
-						[
-							3,
-							7
-						],
-						[
-							3,
-							8
-						],
-						[
-							3,
-							8
-						],
-						[
-							3,
-							9
-						],
-						[
-							3,
-							10
-						],
-						[
-							3,
-							10
-						],
-						[
-							3,
-							11
-						],
-						[
-							3,
-							11
-						],
-						[
-							3,
-							11
-						],
-						[
-							3,
-							12
-						],
-						[
-							3,
-							13
-						]
-					]
-				},
-				{
-					"title": "Spell Slots per Spell Level",
-					"subclasses": [
-						{
-							"name": "Eldritch Knight",
-							"source": "PHB"
-						}
-					],
-					"colLabels": [
-						"{@filter 1st|spells|level=1|subclass=Fighter: Eldritch Knight}",
-						"{@filter 2nd|spells|level=2|subclass=Fighter: Eldritch Knight}",
-						"{@filter 3rd|spells|level=3|subclass=Fighter: Eldritch Knight}",
-						"{@filter 4th|spells|level=4|subclass=Fighter: Eldritch Knight}"
-					],
-					"rowsSpellProgression": [
-						[
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							2,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							1
-						]
-					]
-				}
-			],
 			"name": "Eldritch Knight",
+			"shortName": "Eldritch Knight",
 			"source": "PHB",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Eldritch Knight",
+				"source": "PHB",
+				"shortName": "Eldritch Knight",
+				"className": "Fighter",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Eldritch Knight|Fighter|PHB|Eldritch Knight|PHB|3|PHB",
-				"War Magic|Fighter|PHB|Eldritch Knight|PHB|7|PHB",
-				"Eldritch Strike|Fighter|PHB|Eldritch Knight|PHB|10|PHB",
-				"Arcane Charge|Fighter|PHB|Eldritch Knight|PHB|15|PHB",
-				"Improved War Magic|Fighter|PHB|Eldritch Knight|PHB|18|PHB"
+				"Eldritch Knight|Fighter|XPHB|Eldritch Knight|PHB|3|PHB",
+				"War Magic|Fighter|XPHB|Eldritch Knight|PHB|7|PHB",
+				"Eldritch Strike|Fighter|XPHB|Eldritch Knight|PHB|10|PHB",
+				"Arcane Charge|Fighter|XPHB|Eldritch Knight|PHB|15|PHB",
+				"Improved War Magic|Fighter|XPHB|Eldritch Knight|PHB|18|PHB"
 			]
 		},
 		{

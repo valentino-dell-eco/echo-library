@@ -960,7 +960,7 @@
 			"name": "Bonus Proficiencies",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -972,7 +972,7 @@
 			"name": "Cutting Words",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -984,7 +984,7 @@
 			"name": "College of Lore",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -994,11 +994,11 @@
 				"The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Lore|PHB|3|PHB"
+					"subclassFeature": "Bonus Proficiencies|Bard|XPHB|Lore|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Cutting Words|Bard|PHB|Lore|PHB|3|PHB"
+					"subclassFeature": "Cutting Words|Bard|XPHB|Lore|PHB|3|PHB"
 				}
 			]
 		},
@@ -1006,7 +1006,7 @@
 			"name": "Additional Magical Secrets",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1018,7 +1018,7 @@
 			"name": "Peerless Skill",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1030,7 +1030,7 @@
 			"name": "Bonus Proficiencies",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1042,7 +1042,7 @@
 			"name": "Combat Inspiration",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1054,7 +1054,7 @@
 			"name": "College of Valor",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1062,11 +1062,11 @@
 				"Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Valor|PHB|3|PHB"
+					"subclassFeature": "Bonus Proficiencies|Bard|XPHB|Valor|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Inspiration|Bard|PHB|Valor|PHB|3|PHB"
+					"subclassFeature": "Combat Inspiration|Bard|XPHB|Valor|PHB|3|PHB"
 				}
 			]
 		},
@@ -1074,7 +1074,7 @@
 			"name": "Extra Attack",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1086,7 +1086,7 @@
 			"name": "Battle Magic",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1961,44 +1961,57 @@
 	],
 	"subclass": [
 		{
-			"shortName": "Lore",
-			"className": "Bard",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"name": "Additional Magical Secrets",
-					"known": {
-						"6": [
-							{
-								"choose": "level=0;1;2;3"
-							},
-							{
-								"choose": "level=0;1;2;3"
-							}
-						]
-					}
-				}
-			],
 			"name": "College of Lore",
+			"shortName": "Lore",
 			"source": "PHB",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "College of Lore",
+				"source": "PHB",
+				"shortName": "Lore",
+				"className": "Bard",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"College of Lore|Bard|PHB|Lore|PHB|3|PHB",
-				"Additional Magical Secrets|Bard|PHB|Lore|PHB|6|PHB",
-				"Peerless Skill|Bard|PHB|Lore|PHB|14|PHB"
+				"College of Lore|Bard|XPHB|Lore|PHB|3|PHB",
+				"Additional Magical Secrets|Bard|XPHB|Lore|PHB|6|PHB",
+				"Peerless Skill|Bard|XPHB|Lore|PHB|14|PHB"
 			]
 		},
 		{
-			"shortName": "Valor",
-			"className": "Bard",
-			"classSource": "PHB",
-			"edition": "classic",
 			"name": "College of Valor",
+			"shortName": "Valor",
 			"source": "PHB",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "College of Valor",
+				"source": "PHB",
+				"shortName": "Valor",
+				"className": "Bard",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"College of Valor|Bard|PHB|Valor|PHB|3|PHB",
-				"Extra Attack|Bard|PHB|Valor|PHB|6|PHB",
-				"Battle Magic|Bard|PHB|Valor|PHB|14|PHB"
+				"College of Valor|Bard|XPHB|Valor|PHB|3|PHB",
+				"Extra Attack|Bard|XPHB|Valor|PHB|6|PHB",
+				"Battle Magic|Bard|XPHB|Valor|PHB|14|PHB"
 			]
 		},
 		{

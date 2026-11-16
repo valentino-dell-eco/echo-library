@@ -13,7 +13,7 @@
 					"type": "list",
 					"items": [
 						"You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.",
-						"You can roll a {@dice d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
+						"You can roll a {@damage d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
 						"When you use the {@action Attack} action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the {@action Attack} action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
 					]
 				},
@@ -906,7 +906,7 @@
 			"name": "Shadow Arts",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -918,7 +918,7 @@
 			"name": "Way of Shadow",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -926,7 +926,7 @@
 				"Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadow dancers, and they serve as spies and assassins. Sometimes the members of a ninja monastery are family members, forming a clan sworn to secrecy about their arts and missions. Other monasteries are more like thieves' guilds, hiring out their services to nobles, rich merchants, or anyone else who can pay their fees. Regardless of their methods, the heads of these monasteries expect the unquestioning obedience of their students.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Shadow Arts|Monk|PHB|Shadow|PHB|3|PHB"
+					"subclassFeature": "Shadow Arts|Monk|XPHB|Shadow|PHB|3|PHB"
 				}
 			]
 		},
@@ -934,7 +934,7 @@
 			"name": "Shadow Step",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -946,7 +946,7 @@
 			"name": "Cloak of Shadows",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -958,7 +958,7 @@
 			"name": "Opportunist",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Shadow",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -970,7 +970,7 @@
 			"name": "Disciple of the Elements",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1023,7 +1023,7 @@
 			"name": "Elemental Disciplines",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1121,7 +1121,7 @@
 			"name": "Way of the Four Elements",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1130,11 +1130,11 @@
 				"Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Disciple of the Elements|Monk|PHB|Four Elements|PHB|3|PHB"
+					"subclassFeature": "Disciple of the Elements|Monk|XPHB|Four Elements|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elemental Disciplines|Monk|PHB|Four Elements|PHB|3|PHB"
+					"subclassFeature": "Elemental Disciplines|Monk|XPHB|Four Elements|PHB|3|PHB"
 				}
 			]
 		},
@@ -1142,7 +1142,7 @@
 			"name": "Extra Elemental Discipline",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1155,7 +1155,7 @@
 			"name": "Extra Elemental Discipline",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1168,7 +1168,7 @@
 			"name": "Extra Elemental Discipline",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Four Elements",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -1181,7 +1181,7 @@
 			"name": "Open Hand Technique",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Hand",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1201,7 +1201,7 @@
 			"name": "Way of the Open Hand",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Hand",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1209,7 +1209,7 @@
 				"Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Open Hand Technique|Monk|PHB|Open Hand|PHB|3|PHB"
+					"subclassFeature": "Open Hand Technique|Monk|XPHB|Open Hand|PHB|3|PHB"
 				}
 			]
 		},
@@ -1217,7 +1217,7 @@
 			"name": "Wholeness of Body",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Hand",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1229,7 +1229,7 @@
 			"name": "Tranquility",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Hand",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1241,7 +1241,7 @@
 			"name": "Quivering Palm",
 			"source": "PHB",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Hand",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -2134,102 +2134,87 @@
 	],
 	"subclass": [
 		{
-			"shortName": "Shadow",
-			"className": "Monk",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"known": {
-						"3": [
-							"minor illusion#c"
-						]
-					},
-					"innate": {
-						"3": {
-							"resource": {
-								"2": [
-									"darkness",
-									"darkvision",
-									"pass without trace",
-									"silence"
-								]
-							}
-						}
-					},
-					"resourceName": "Ki",
-					"ability": "wis"
-				}
-			],
 			"name": "Way of Shadow",
+			"shortName": "Shadow",
 			"source": "PHB",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Way of Shadow",
+				"source": "PHB",
+				"shortName": "Shadow",
+				"className": "Monk",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Way of Shadow|Monk|PHB|Shadow|PHB|3|PHB",
-				"Shadow Step|Monk|PHB|Shadow|PHB|6|PHB",
-				"Cloak of Shadows|Monk|PHB|Shadow|PHB|11|PHB",
-				"Opportunist|Monk|PHB|Shadow|PHB|17|PHB"
+				"Way of Shadow|Monk|XPHB|Shadow|PHB|3|PHB",
+				"Shadow Step|Monk|XPHB|Shadow|PHB|6|PHB",
+				"Cloak of Shadows|Monk|XPHB|Shadow|PHB|11|PHB",
+				"Opportunist|Monk|XPHB|Shadow|PHB|17|PHB"
 			]
 		},
 		{
-			"shortName": "Four Elements",
-			"className": "Monk",
-			"classSource": "PHB",
-			"edition": "classic",
-			"spellcastingAbility": "wis",
-			"optionalfeatureProgression": [
-				{
-					"name": "Elemental Disciplines",
-					"featureType": [
-						"ED"
-					],
-					"progression": {
-						"3": 2,
-						"6": 3,
-						"11": 4,
-						"17": 5
-					},
-					"required": {
-						"3": [
-							"Elemental Attunement|PHB"
-						]
-					}
-				}
-			],
 			"name": "Way of the Four Elements",
+			"shortName": "Four Elements",
 			"source": "PHB",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Way of the Four Elements",
+				"source": "PHB",
+				"shortName": "Four Elements",
+				"className": "Monk",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Way of the Four Elements|Monk|PHB|Four Elements|PHB|3|PHB",
-				"Extra Elemental Discipline|Monk|PHB|Four Elements|PHB|6|PHB",
-				"Extra Elemental Discipline|Monk|PHB|Four Elements|PHB|11|PHB",
-				"Extra Elemental Discipline|Monk|PHB|Four Elements|PHB|17|PHB"
+				"Way of the Four Elements|Monk|XPHB|Four Elements|PHB|3|PHB",
+				"Extra Elemental Discipline|Monk|XPHB|Four Elements|PHB|6|PHB",
+				"Extra Elemental Discipline|Monk|XPHB|Four Elements|PHB|11|PHB",
+				"Extra Elemental Discipline|Monk|XPHB|Four Elements|PHB|17|PHB"
 			]
 		},
 		{
-			"shortName": "Open Hand",
-			"className": "Monk",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"innate": {
-						"11": {
-							"daily": {
-								"1": [
-									"sanctuary"
-								]
-							}
-						}
-					},
-					"ability": "wis"
-				}
-			],
 			"name": "Way of the Open Hand",
+			"shortName": "Open Hand",
 			"source": "PHB",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Way of the Open Hand",
+				"source": "PHB",
+				"shortName": "Open Hand",
+				"className": "Monk",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Way of the Open Hand|Monk|PHB|Open Hand|PHB|3|PHB",
-				"Wholeness of Body|Monk|PHB|Open Hand|PHB|6|PHB",
-				"Tranquility|Monk|PHB|Open Hand|PHB|11|PHB",
-				"Quivering Palm|Monk|PHB|Open Hand|PHB|17|PHB"
+				"Way of the Open Hand|Monk|XPHB|Open Hand|PHB|3|PHB",
+				"Wholeness of Body|Monk|XPHB|Open Hand|PHB|6|PHB",
+				"Tranquility|Monk|XPHB|Open Hand|PHB|11|PHB",
+				"Quivering Palm|Monk|XPHB|Open Hand|PHB|17|PHB"
 			]
 		},
 		{

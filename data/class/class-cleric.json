@@ -826,7 +826,7 @@
 			"name": "Blessings of Knowledge",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Knowledge",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -839,7 +839,7 @@
 			"name": "Knowledge Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Knowledge",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -882,7 +882,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blessings of Knowledge|Cleric|PHB|Knowledge|PHB|1|PHB"
+					"subclassFeature": "Blessings of Knowledge|Cleric|XPHB|Knowledge|PHB|1|PHB"
 				}
 			]
 		},
@@ -890,7 +890,7 @@
 			"name": "Channel Divinity: Knowledge of the Ages",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Knowledge",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -902,7 +902,7 @@
 			"name": "Knowledge Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Knowledge",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -912,14 +912,14 @@
 			"name": "Channel Divinity: Knowledge of the Ages",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Knowledge",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Knowledge Domain|Cleric|PHB|Knowledge|PHB|3|PHB"
+					"subclassFeature": "Knowledge Domain|Cleric|XPHB|Knowledge|PHB|3|PHB"
 				}
 			]
 		},
@@ -927,7 +927,7 @@
 			"name": "Channel Divinity: Read Thoughts",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Knowledge",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -942,7 +942,7 @@
 			"name": "Potent Spellcasting",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Knowledge",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -954,7 +954,7 @@
 			"name": "Blessed Strikes",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Knowledge",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -963,7 +963,7 @@
 				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Potent Spellcasting|Cleric|PHB|Knowledge|PHB|8|PHB"
+					"subclassFeature": "Potent Spellcasting|Cleric|XPHB|Knowledge|PHB|8|PHB"
 				}
 			]
 		},
@@ -971,7 +971,7 @@
 			"name": "Visions of the Past",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Knowledge",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -1008,7 +1008,7 @@
 			"name": "Bonus Proficiency",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Life",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1020,7 +1020,7 @@
 			"name": "Disciple of Life",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Life",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1032,7 +1032,7 @@
 			"name": "Life Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Life",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1075,11 +1075,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|PHB|Life|PHB|1|PHB"
+					"subclassFeature": "Bonus Proficiency|Cleric|XPHB|Life|PHB|1|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Disciple of Life|Cleric|PHB|Life|PHB|1|PHB"
+					"subclassFeature": "Disciple of Life|Cleric|XPHB|Life|PHB|1|PHB"
 				}
 			]
 		},
@@ -1087,7 +1087,7 @@
 			"name": "Channel Divinity: Preserve Life",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Life",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1100,7 +1100,7 @@
 			"name": "Life Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Life",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1110,14 +1110,14 @@
 			"name": "Channel Divinity: Preserve Life",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Life",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Life Domain|Cleric|PHB|Life|PHB|3|PHB"
+					"subclassFeature": "Life Domain|Cleric|XPHB|Life|PHB|3|PHB"
 				}
 			]
 		},
@@ -1125,7 +1125,7 @@
 			"name": "Blessed Healer",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Life",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1137,7 +1137,7 @@
 			"name": "Divine Strike",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Life",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1149,7 +1149,7 @@
 			"name": "Blessed Strikes",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Life",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1158,7 +1158,7 @@
 				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Strike|Cleric|PHB|Life|PHB|8|PHB"
+					"subclassFeature": "Divine Strike|Cleric|XPHB|Life|PHB|8|PHB"
 				}
 			]
 		},
@@ -1166,7 +1166,7 @@
 			"name": "Supreme Healing",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Life",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -1178,7 +1178,7 @@
 			"name": "Bonus Cantrip",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Light",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1190,7 +1190,7 @@
 			"name": "Warding Flare",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Light",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1203,7 +1203,7 @@
 			"name": "Light Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Light",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1246,11 +1246,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Cantrip|Cleric|PHB|Light|PHB|1|PHB"
+					"subclassFeature": "Bonus Cantrip|Cleric|XPHB|Light|PHB|1|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warding Flare|Cleric|PHB|Light|PHB|1|PHB"
+					"subclassFeature": "Warding Flare|Cleric|XPHB|Light|PHB|1|PHB"
 				}
 			]
 		},
@@ -1258,7 +1258,7 @@
 			"name": "Channel Divinity: Radiance of the Dawn",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Light",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1271,7 +1271,7 @@
 			"name": "Light Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Light",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1281,14 +1281,14 @@
 			"name": "Channel Divinity: Radiance of the Dawn",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Light",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Light Domain|Cleric|PHB|Light|PHB|3|PHB"
+					"subclassFeature": "Light Domain|Cleric|XPHB|Light|PHB|3|PHB"
 				}
 			]
 		},
@@ -1296,7 +1296,7 @@
 			"name": "Improved Flare",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Light",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1308,7 +1308,7 @@
 			"name": "Potent Spellcasting",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Light",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1320,7 +1320,7 @@
 			"name": "Blessed Strikes",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Light",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1329,7 +1329,7 @@
 				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Potent Spellcasting|Cleric|PHB|Light|PHB|8|PHB"
+					"subclassFeature": "Potent Spellcasting|Cleric|XPHB|Light|PHB|8|PHB"
 				}
 			]
 		},
@@ -1337,7 +1337,7 @@
 			"name": "Corona of Light",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Light",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -1349,7 +1349,7 @@
 			"name": "Acolyte of Nature",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Nature",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1361,7 +1361,7 @@
 			"name": "Bonus Proficiency",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Nature",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1373,7 +1373,7 @@
 			"name": "Nature Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Nature",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1416,11 +1416,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Acolyte of Nature|Cleric|PHB|Nature|PHB|1|PHB"
+					"subclassFeature": "Acolyte of Nature|Cleric|XPHB|Nature|PHB|1|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|PHB|Nature|PHB|1|PHB"
+					"subclassFeature": "Bonus Proficiency|Cleric|XPHB|Nature|PHB|1|PHB"
 				}
 			]
 		},
@@ -1428,7 +1428,7 @@
 			"name": "Channel Divinity: Charm Animals and Plants",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Nature",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1441,7 +1441,7 @@
 			"name": "Nature Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Nature",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1451,14 +1451,14 @@
 			"name": "Channel Divinity: Charm Animals and Plants",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Nature",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Nature Domain|Cleric|PHB|Nature|PHB|3|PHB"
+					"subclassFeature": "Nature Domain|Cleric|XPHB|Nature|PHB|3|PHB"
 				}
 			]
 		},
@@ -1466,7 +1466,7 @@
 			"name": "Dampen Elements",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Nature",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1478,7 +1478,7 @@
 			"name": "Divine Strike",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Nature",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1490,7 +1490,7 @@
 			"name": "Blessed Strikes",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Nature",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1499,7 +1499,7 @@
 				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Strike|Cleric|PHB|Nature|PHB|8|PHB"
+					"subclassFeature": "Divine Strike|Cleric|XPHB|Nature|PHB|8|PHB"
 				}
 			]
 		},
@@ -1507,7 +1507,7 @@
 			"name": "Master of Nature",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Nature",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -1519,7 +1519,7 @@
 			"name": "Bonus Proficiencies",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Tempest",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1531,7 +1531,7 @@
 			"name": "Wrath of the Storm",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Tempest",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1544,7 +1544,7 @@
 			"name": "Tempest Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Tempest",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1587,11 +1587,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Cleric|PHB|Tempest|PHB|1|PHB"
+					"subclassFeature": "Bonus Proficiencies|Cleric|XPHB|Tempest|PHB|1|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wrath of the Storm|Cleric|PHB|Tempest|PHB|1|PHB"
+					"subclassFeature": "Wrath of the Storm|Cleric|XPHB|Tempest|PHB|1|PHB"
 				}
 			]
 		},
@@ -1599,7 +1599,7 @@
 			"name": "Channel Divinity: Destructive Wrath",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Tempest",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1612,7 +1612,7 @@
 			"name": "Tempest Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Tempest",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1622,14 +1622,14 @@
 			"name": "Channel Divinity: Destructive Wrath",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Tempest",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tempest Domain|Cleric|PHB|Tempest|PHB|3|PHB"
+					"subclassFeature": "Tempest Domain|Cleric|XPHB|Tempest|PHB|3|PHB"
 				}
 			]
 		},
@@ -1637,7 +1637,7 @@
 			"name": "Thunderbolt Strike",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Tempest",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1649,7 +1649,7 @@
 			"name": "Divine Strike",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Tempest",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1661,7 +1661,7 @@
 			"name": "Blessed Strikes",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Tempest",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1670,7 +1670,7 @@
 				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Strike|Cleric|PHB|Tempest|PHB|8|PHB"
+					"subclassFeature": "Divine Strike|Cleric|XPHB|Tempest|PHB|8|PHB"
 				}
 			]
 		},
@@ -1678,7 +1678,7 @@
 			"name": "Stormborn",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Tempest",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -1690,7 +1690,7 @@
 			"name": "Blessing of the Trickster",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1702,7 +1702,7 @@
 			"name": "Trickery Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1745,7 +1745,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blessing of the Trickster|Cleric|PHB|Trickery|PHB|1|PHB"
+					"subclassFeature": "Blessing of the Trickster|Cleric|XPHB|Trickery|PHB|1|PHB"
 				}
 			]
 		},
@@ -1753,7 +1753,7 @@
 			"name": "Channel Divinity: Invoke Duplicity",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1767,7 +1767,7 @@
 			"name": "Trickery Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1777,14 +1777,14 @@
 			"name": "Channel Divinity: Invoke Duplicity",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Trickery Domain|Cleric|PHB|Trickery|PHB|3|PHB"
+					"subclassFeature": "Trickery Domain|Cleric|XPHB|Trickery|PHB|3|PHB"
 				}
 			]
 		},
@@ -1792,7 +1792,7 @@
 			"name": "Channel Divinity: Cloak of Shadows",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1805,7 +1805,7 @@
 			"name": "Divine Strike",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1817,7 +1817,7 @@
 			"name": "Blessed Strikes",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1826,7 +1826,7 @@
 				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Strike|Cleric|PHB|Trickery|PHB|8|PHB"
+					"subclassFeature": "Divine Strike|Cleric|XPHB|Trickery|PHB|8|PHB"
 				}
 			]
 		},
@@ -1834,7 +1834,7 @@
 			"name": "Improved Duplicity",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -1846,7 +1846,7 @@
 			"name": "Bonus Proficiencies",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "War",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1858,7 +1858,7 @@
 			"name": "War Priest",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "War",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1870,7 +1870,7 @@
 			"name": "War Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "War",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -1913,11 +1913,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Cleric|PHB|War|PHB|1|PHB"
+					"subclassFeature": "Bonus Proficiencies|Cleric|XPHB|War|PHB|1|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "War Priest|Cleric|PHB|War|PHB|1|PHB"
+					"subclassFeature": "War Priest|Cleric|XPHB|War|PHB|1|PHB"
 				}
 			]
 		},
@@ -1925,7 +1925,7 @@
 			"name": "Channel Divinity: Guided Strike",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "War",
 			"subclassSource": "PHB",
 			"level": 2,
@@ -1937,7 +1937,7 @@
 			"name": "War Domain",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "War",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1947,14 +1947,14 @@
 			"name": "Channel Divinity: Guided Strike",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "War",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "War Domain|Cleric|PHB|War|PHB|3|PHB"
+					"subclassFeature": "War Domain|Cleric|XPHB|War|PHB|3|PHB"
 				}
 			]
 		},
@@ -1962,7 +1962,7 @@
 			"name": "Channel Divinity: War God's Blessing",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "War",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1974,7 +1974,7 @@
 			"name": "Divine Strike",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "War",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1986,7 +1986,7 @@
 			"name": "Blessed Strikes",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "War",
 			"subclassSource": "PHB",
 			"level": 8,
@@ -1995,7 +1995,7 @@
 				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Strike|Cleric|PHB|War|PHB|8|PHB"
+					"subclassFeature": "Divine Strike|Cleric|XPHB|War|PHB|8|PHB"
 				}
 			]
 		},
@@ -2003,7 +2003,7 @@
 			"name": "Avatar of Battle",
 			"source": "PHB",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "War",
 			"subclassSource": "PHB",
 			"level": 17,
@@ -4261,311 +4261,216 @@
 	],
 	"subclass": [
 		{
-			"shortName": "Knowledge",
-			"className": "Cleric",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"1": [
-							"command",
-							"identify"
-						],
-						"3": [
-							"augury",
-							"suggestion"
-						],
-						"5": [
-							"nondetection",
-							"speak with dead"
-						],
-						"7": [
-							"arcane eye",
-							"confusion"
-						],
-						"9": [
-							"legend lore",
-							"scrying"
-						]
-					}
-				}
-			],
 			"name": "Knowledge Domain",
+			"shortName": "Knowledge",
 			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"reprintedAs": [
+				"Knowledge|Cleric|XPHB|FRHoF"
+			],
+			"_copy": {
+				"name": "Knowledge Domain",
+				"source": "PHB",
+				"shortName": "Knowledge",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Knowledge Domain|Cleric|PHB|Knowledge|PHB|1|PHB",
-				"Channel Divinity: Knowledge of the Ages|Cleric|PHB|Knowledge|PHB|2|PHB",
-				"Channel Divinity: Knowledge of the Ages|Cleric|PHB|Knowledge|PHB|3|PHB",
-				"Channel Divinity: Read Thoughts|Cleric|PHB|Knowledge|PHB|6|PHB",
-				"Blessed Strikes|Cleric|PHB|Knowledge|PHB|8|PHB",
-				"Visions of the Past|Cleric|PHB|Knowledge|PHB|17|PHB"
+				"Knowledge Domain|Cleric|XPHB|Knowledge|PHB|1|PHB",
+				"Channel Divinity: Knowledge of the Ages|Cleric|XPHB|Knowledge|PHB|2|PHB",
+				"Channel Divinity: Knowledge of the Ages|Cleric|XPHB|Knowledge|PHB|3|PHB",
+				"Channel Divinity: Read Thoughts|Cleric|XPHB|Knowledge|PHB|6|PHB",
+				"Blessed Strikes|Cleric|XPHB|Knowledge|PHB|8|PHB",
+				"Visions of the Past|Cleric|XPHB|Knowledge|PHB|17|PHB"
 			]
 		},
 		{
-			"shortName": "Life",
-			"className": "Cleric",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"1": [
-							"bless",
-							"cure wounds"
-						],
-						"3": [
-							"lesser restoration",
-							"spiritual weapon"
-						],
-						"5": [
-							"beacon of hope",
-							"revivify"
-						],
-						"7": [
-							"death ward",
-							"guardian of faith"
-						],
-						"9": [
-							"mass cure wounds",
-							"raise dead"
-						]
-					}
-				}
-			],
 			"name": "Life Domain",
+			"shortName": "Life",
 			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Life Domain",
+				"source": "PHB",
+				"shortName": "Life",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Life Domain|Cleric|PHB|Life|PHB|1|PHB",
-				"Channel Divinity: Preserve Life|Cleric|PHB|Life|PHB|2|PHB",
-				"Channel Divinity: Preserve Life|Cleric|PHB|Life|PHB|3|PHB",
-				"Blessed Healer|Cleric|PHB|Life|PHB|6|PHB",
-				"Blessed Strikes|Cleric|PHB|Life|PHB|8|PHB",
-				"Supreme Healing|Cleric|PHB|Life|PHB|17|PHB"
+				"Life Domain|Cleric|XPHB|Life|PHB|1|PHB",
+				"Channel Divinity: Preserve Life|Cleric|XPHB|Life|PHB|2|PHB",
+				"Channel Divinity: Preserve Life|Cleric|XPHB|Life|PHB|3|PHB",
+				"Blessed Healer|Cleric|XPHB|Life|PHB|6|PHB",
+				"Blessed Strikes|Cleric|XPHB|Life|PHB|8|PHB",
+				"Supreme Healing|Cleric|XPHB|Life|PHB|17|PHB"
 			]
 		},
 		{
-			"shortName": "Light",
-			"className": "Cleric",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"1": [
-							"burning hands",
-							"faerie fire"
-						],
-						"3": [
-							"flaming sphere",
-							"scorching ray"
-						],
-						"5": [
-							"daylight",
-							"fireball"
-						],
-						"7": [
-							"guardian of faith",
-							"wall of fire"
-						],
-						"9": [
-							"flame strike",
-							"scrying"
-						]
-					},
-					"known": {
-						"1": [
-							"light#c"
-						]
-					}
-				}
-			],
 			"name": "Light Domain",
+			"shortName": "Light",
 			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Light Domain",
+				"source": "PHB",
+				"shortName": "Light",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Light Domain|Cleric|PHB|Light|PHB|1|PHB",
-				"Channel Divinity: Radiance of the Dawn|Cleric|PHB|Light|PHB|2|PHB",
-				"Channel Divinity: Radiance of the Dawn|Cleric|PHB|Light|PHB|3|PHB",
-				"Improved Flare|Cleric|PHB|Light|PHB|6|PHB",
-				"Blessed Strikes|Cleric|PHB|Light|PHB|8|PHB",
-				"Corona of Light|Cleric|PHB|Light|PHB|17|PHB"
+				"Light Domain|Cleric|XPHB|Light|PHB|1|PHB",
+				"Channel Divinity: Radiance of the Dawn|Cleric|XPHB|Light|PHB|2|PHB",
+				"Channel Divinity: Radiance of the Dawn|Cleric|XPHB|Light|PHB|3|PHB",
+				"Improved Flare|Cleric|XPHB|Light|PHB|6|PHB",
+				"Blessed Strikes|Cleric|XPHB|Light|PHB|8|PHB",
+				"Corona of Light|Cleric|XPHB|Light|PHB|17|PHB"
 			]
 		},
 		{
-			"shortName": "Nature",
-			"className": "Cleric",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"known": {
-						"1": {
-							"_": [
-								{
-									"choose": "level=0|class=Druid"
-								}
-							]
-						}
-					},
-					"prepared": {
-						"1": [
-							"animal friendship",
-							"speak with animals"
-						],
-						"3": [
-							"barkskin",
-							"spike growth"
-						],
-						"5": [
-							"plant growth",
-							"wind wall"
-						],
-						"7": [
-							"dominate beast",
-							"grasping vine"
-						],
-						"9": [
-							"insect plague",
-							"tree stride"
-						]
-					}
-				}
-			],
 			"name": "Nature Domain",
+			"shortName": "Nature",
 			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Nature Domain",
+				"source": "PHB",
+				"shortName": "Nature",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Nature Domain|Cleric|PHB|Nature|PHB|1|PHB",
-				"Channel Divinity: Charm Animals and Plants|Cleric|PHB|Nature|PHB|2|PHB",
-				"Channel Divinity: Charm Animals and Plants|Cleric|PHB|Nature|PHB|3|PHB",
-				"Dampen Elements|Cleric|PHB|Nature|PHB|6|PHB",
-				"Blessed Strikes|Cleric|PHB|Nature|PHB|8|PHB",
-				"Master of Nature|Cleric|PHB|Nature|PHB|17|PHB"
+				"Nature Domain|Cleric|XPHB|Nature|PHB|1|PHB",
+				"Channel Divinity: Charm Animals and Plants|Cleric|XPHB|Nature|PHB|2|PHB",
+				"Channel Divinity: Charm Animals and Plants|Cleric|XPHB|Nature|PHB|3|PHB",
+				"Dampen Elements|Cleric|XPHB|Nature|PHB|6|PHB",
+				"Blessed Strikes|Cleric|XPHB|Nature|PHB|8|PHB",
+				"Master of Nature|Cleric|XPHB|Nature|PHB|17|PHB"
 			]
 		},
 		{
-			"shortName": "Tempest",
-			"className": "Cleric",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"1": [
-							"fog cloud",
-							"thunderwave"
-						],
-						"3": [
-							"gust of wind",
-							"shatter"
-						],
-						"5": [
-							"call lightning",
-							"sleet storm"
-						],
-						"7": [
-							"control water",
-							"ice storm"
-						],
-						"9": [
-							"destructive wave",
-							"insect plague"
-						]
-					}
-				}
-			],
 			"name": "Tempest Domain",
+			"shortName": "Tempest",
 			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Tempest Domain",
+				"source": "PHB",
+				"shortName": "Tempest",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Tempest Domain|Cleric|PHB|Tempest|PHB|1|PHB",
-				"Channel Divinity: Destructive Wrath|Cleric|PHB|Tempest|PHB|2|PHB",
-				"Channel Divinity: Destructive Wrath|Cleric|PHB|Tempest|PHB|3|PHB",
-				"Thunderbolt Strike|Cleric|PHB|Tempest|PHB|6|PHB",
-				"Blessed Strikes|Cleric|PHB|Tempest|PHB|8|PHB",
-				"Stormborn|Cleric|PHB|Tempest|PHB|17|PHB"
+				"Tempest Domain|Cleric|XPHB|Tempest|PHB|1|PHB",
+				"Channel Divinity: Destructive Wrath|Cleric|XPHB|Tempest|PHB|2|PHB",
+				"Channel Divinity: Destructive Wrath|Cleric|XPHB|Tempest|PHB|3|PHB",
+				"Thunderbolt Strike|Cleric|XPHB|Tempest|PHB|6|PHB",
+				"Blessed Strikes|Cleric|XPHB|Tempest|PHB|8|PHB",
+				"Stormborn|Cleric|XPHB|Tempest|PHB|17|PHB"
 			]
 		},
 		{
-			"shortName": "Trickery",
-			"className": "Cleric",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"1": [
-							"charm person",
-							"disguise self"
-						],
-						"3": [
-							"mirror image",
-							"pass without trace"
-						],
-						"5": [
-							"blink",
-							"dispel magic"
-						],
-						"7": [
-							"dimension door",
-							"polymorph"
-						],
-						"9": [
-							"dominate person",
-							"modify memory"
-						]
-					}
-				}
-			],
 			"name": "Trickery Domain",
+			"shortName": "Trickery",
 			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Trickery Domain",
+				"source": "PHB",
+				"shortName": "Trickery",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Trickery Domain|Cleric|PHB|Trickery|PHB|1|PHB",
-				"Channel Divinity: Invoke Duplicity|Cleric|PHB|Trickery|PHB|2|PHB",
-				"Channel Divinity: Invoke Duplicity|Cleric|PHB|Trickery|PHB|3|PHB",
-				"Channel Divinity: Cloak of Shadows|Cleric|PHB|Trickery|PHB|6|PHB",
-				"Blessed Strikes|Cleric|PHB|Trickery|PHB|8|PHB",
-				"Improved Duplicity|Cleric|PHB|Trickery|PHB|17|PHB"
+				"Trickery Domain|Cleric|XPHB|Trickery|PHB|1|PHB",
+				"Channel Divinity: Invoke Duplicity|Cleric|XPHB|Trickery|PHB|2|PHB",
+				"Channel Divinity: Invoke Duplicity|Cleric|XPHB|Trickery|PHB|3|PHB",
+				"Channel Divinity: Cloak of Shadows|Cleric|XPHB|Trickery|PHB|6|PHB",
+				"Blessed Strikes|Cleric|XPHB|Trickery|PHB|8|PHB",
+				"Improved Duplicity|Cleric|XPHB|Trickery|PHB|17|PHB"
 			]
 		},
 		{
-			"shortName": "War",
-			"className": "Cleric",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"1": [
-							"divine favor",
-							"shield of faith"
-						],
-						"3": [
-							"magic weapon",
-							"spiritual weapon"
-						],
-						"5": [
-							"crusader's mantle",
-							"spirit guardians"
-						],
-						"7": [
-							"freedom of movement",
-							"stoneskin"
-						],
-						"9": [
-							"flame strike",
-							"hold monster"
-						]
-					}
-				}
-			],
 			"name": "War Domain",
+			"shortName": "War",
 			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "War Domain",
+				"source": "PHB",
+				"shortName": "War",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"War Domain|Cleric|PHB|War|PHB|1|PHB",
-				"Channel Divinity: Guided Strike|Cleric|PHB|War|PHB|2|PHB",
-				"Channel Divinity: Guided Strike|Cleric|PHB|War|PHB|3|PHB",
-				"Channel Divinity: War God's Blessing|Cleric|PHB|War|PHB|6|PHB",
-				"Blessed Strikes|Cleric|PHB|War|PHB|8|PHB",
-				"Avatar of Battle|Cleric|PHB|War|PHB|17|PHB"
+				"War Domain|Cleric|XPHB|War|PHB|1|PHB",
+				"Channel Divinity: Guided Strike|Cleric|XPHB|War|PHB|2|PHB",
+				"Channel Divinity: Guided Strike|Cleric|XPHB|War|PHB|3|PHB",
+				"Channel Divinity: War God's Blessing|Cleric|XPHB|War|PHB|6|PHB",
+				"Blessed Strikes|Cleric|XPHB|War|PHB|8|PHB",
+				"Avatar of Battle|Cleric|XPHB|War|PHB|17|PHB"
 			]
 		},
 		{

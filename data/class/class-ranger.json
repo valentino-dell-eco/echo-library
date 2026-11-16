@@ -927,7 +927,7 @@
 			"name": "Primal Companion",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -943,7 +943,7 @@
 			"name": "Ranger's Companion",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -959,7 +959,7 @@
 			"name": "Beast Master",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -967,11 +967,11 @@
 				"The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Primal Companion|Ranger|PHB|Beast Master|PHB|3|PHB"
+					"subclassFeature": "Primal Companion|Ranger|XPHB|Beast Master|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ranger's Companion|Ranger|PHB|Beast Master|PHB|3|PHB"
+					"subclassFeature": "Ranger's Companion|Ranger|XPHB|Beast Master|PHB|3|PHB"
 				}
 			]
 		},
@@ -979,7 +979,7 @@
 			"name": "Exceptional Training",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -991,7 +991,7 @@
 			"name": "Bestial Fury",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1003,7 +1003,7 @@
 			"name": "Share Spells",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Beast Master",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1015,7 +1015,7 @@
 			"name": "Horde Breaker",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1027,7 +1027,7 @@
 			"name": "Hunter's Prey",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1057,7 +1057,7 @@
 			"name": "Colossus Slayer",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1069,7 +1069,7 @@
 			"name": "Giant Killer",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1081,7 +1081,7 @@
 			"name": "Hunter",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1089,19 +1089,19 @@
 				"Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Horde Breaker|Ranger|PHB|Hunter|PHB|3|PHB"
+					"subclassFeature": "Horde Breaker|Ranger|XPHB|Hunter|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Prey|Ranger|PHB|Hunter|PHB|3|PHB"
+					"subclassFeature": "Hunter's Prey|Ranger|XPHB|Hunter|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Colossus Slayer|Ranger|PHB|Hunter|PHB|3|PHB"
+					"subclassFeature": "Colossus Slayer|Ranger|XPHB|Hunter|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Giant Killer|Ranger|PHB|Hunter|PHB|3|PHB"
+					"subclassFeature": "Giant Killer|Ranger|XPHB|Hunter|PHB|3|PHB"
 				}
 			]
 		},
@@ -1109,7 +1109,7 @@
 			"name": "Escape the Horde",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1121,7 +1121,7 @@
 			"name": "Multiattack Defense",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1133,7 +1133,7 @@
 			"name": "Steel Will",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1145,7 +1145,7 @@
 			"name": "Defensive Tactics",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1171,15 +1171,15 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Escape the Horde|Ranger|PHB|Hunter|PHB|7|PHB"
+					"subclassFeature": "Escape the Horde|Ranger|XPHB|Hunter|PHB|7|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Multiattack Defense|Ranger|PHB|Hunter|PHB|7|PHB"
+					"subclassFeature": "Multiattack Defense|Ranger|XPHB|Hunter|PHB|7|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Steel Will|Ranger|PHB|Hunter|PHB|7|PHB"
+					"subclassFeature": "Steel Will|Ranger|XPHB|Hunter|PHB|7|PHB"
 				}
 			]
 		},
@@ -1187,7 +1187,7 @@
 			"name": "Volley",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1199,7 +1199,7 @@
 			"name": "Whirlwind Attack",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1211,7 +1211,7 @@
 			"name": "Multiattack",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 11,
@@ -1233,11 +1233,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Volley|Ranger|PHB|Hunter|PHB|11|PHB"
+					"subclassFeature": "Volley|Ranger|XPHB|Hunter|PHB|11|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Whirlwind Attack|Ranger|PHB|Hunter|PHB|11|PHB"
+					"subclassFeature": "Whirlwind Attack|Ranger|XPHB|Hunter|PHB|11|PHB"
 				}
 			]
 		},
@@ -1245,7 +1245,7 @@
 			"name": "Stand Against the Tide",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1257,7 +1257,7 @@
 			"name": "Superior Hunter's Defense",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1287,7 +1287,7 @@
 			"name": "Uncanny Dodge",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1299,7 +1299,7 @@
 			"name": "Evasion",
 			"source": "PHB",
 			"className": "Ranger",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Hunter",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1307,15 +1307,15 @@
 				"You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a {@spell lightning bolt} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Stand Against the Tide|Ranger|PHB|Hunter|PHB|15|PHB"
+					"subclassFeature": "Stand Against the Tide|Ranger|XPHB|Hunter|PHB|15|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Superior Hunter's Defense|Ranger|PHB|Hunter|PHB|15|PHB"
+					"subclassFeature": "Superior Hunter's Defense|Ranger|XPHB|Hunter|PHB|15|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Uncanny Dodge|Ranger|PHB|Hunter|PHB|15|PHB"
+					"subclassFeature": "Uncanny Dodge|Ranger|XPHB|Hunter|PHB|15|PHB"
 				}
 			]
 		},
@@ -2452,31 +2452,59 @@
 	],
 	"subclass": [
 		{
-			"shortName": "Beast Master",
-			"className": "Ranger",
-			"classSource": "PHB",
-			"edition": "classic",
 			"name": "Beast Master",
+			"shortName": "Beast Master",
 			"source": "PHB",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Beast Master",
+				"source": "PHB",
+				"shortName": "Beast Master",
+				"className": "Ranger",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Beast Master|Ranger|PHB|Beast Master|PHB|3|PHB",
-				"Exceptional Training|Ranger|PHB|Beast Master|PHB|7|PHB",
-				"Bestial Fury|Ranger|PHB|Beast Master|PHB|11|PHB",
-				"Share Spells|Ranger|PHB|Beast Master|PHB|15|PHB"
+				"Beast Master|Ranger|XPHB|Beast Master|PHB|3|PHB",
+				"Exceptional Training|Ranger|XPHB|Beast Master|PHB|7|PHB",
+				"Bestial Fury|Ranger|XPHB|Beast Master|PHB|11|PHB",
+				"Share Spells|Ranger|XPHB|Beast Master|PHB|15|PHB"
 			]
 		},
 		{
-			"shortName": "Hunter",
-			"className": "Ranger",
-			"classSource": "PHB",
-			"edition": "classic",
 			"name": "Hunter",
+			"shortName": "Hunter",
 			"source": "PHB",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Hunter",
+				"source": "PHB",
+				"shortName": "Hunter",
+				"className": "Ranger",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Hunter|Ranger|PHB|Hunter|PHB|3|PHB",
-				"Defensive Tactics|Ranger|PHB|Hunter|PHB|7|PHB",
-				"Multiattack|Ranger|PHB|Hunter|PHB|11|PHB",
-				"Evasion|Ranger|PHB|Hunter|PHB|15|PHB"
+				"Hunter|Ranger|XPHB|Hunter|PHB|3|PHB",
+				"Defensive Tactics|Ranger|XPHB|Hunter|PHB|7|PHB",
+				"Multiattack|Ranger|XPHB|Hunter|PHB|11|PHB",
+				"Evasion|Ranger|XPHB|Hunter|PHB|15|PHB"
 			]
 		},
 		{

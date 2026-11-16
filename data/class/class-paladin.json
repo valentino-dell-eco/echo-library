@@ -702,7 +702,7 @@
 			"name": "Channel Divinity",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -714,7 +714,7 @@
 			"name": "Oath Spells",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -760,7 +760,7 @@
 			"name": "Sacred Weapon",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -773,7 +773,7 @@
 			"name": "Tenets of Devotion",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -845,7 +845,7 @@
 			"name": "Turn the Unholy",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -858,7 +858,7 @@
 			"name": "Oath of Devotion",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -866,23 +866,23 @@
 				"The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels—the perfect servants of good—as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|PHB|Devotion|PHB|3|PHB"
+					"subclassFeature": "Channel Divinity|Paladin|XPHB|Devotion|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|PHB|Devotion|PHB|3|PHB"
+					"subclassFeature": "Oath Spells|Paladin|XPHB|Devotion|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sacred Weapon|Paladin|PHB|Devotion|PHB|3|PHB"
+					"subclassFeature": "Sacred Weapon|Paladin|XPHB|Devotion|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Devotion|Paladin|PHB|Devotion|PHB|3|PHB"
+					"subclassFeature": "Tenets of Devotion|Paladin|XPHB|Devotion|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Turn the Unholy|Paladin|PHB|Devotion|PHB|3|PHB"
+					"subclassFeature": "Turn the Unholy|Paladin|XPHB|Devotion|PHB|3|PHB"
 				}
 			]
 		},
@@ -890,7 +890,7 @@
 			"name": "Aura of Devotion",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -903,7 +903,7 @@
 			"name": "Purity of Spirit",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -915,7 +915,7 @@
 			"name": "Holy Nimbus",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
 			"level": 20,
@@ -930,7 +930,7 @@
 			"name": "Channel Divinity",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -942,7 +942,7 @@
 			"name": "Nature's Wrath",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -954,7 +954,7 @@
 			"name": "Oath Spells",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1000,7 +1000,7 @@
 			"name": "Tenets of the Ancients",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1060,7 +1060,7 @@
 			"name": "Turn the Faithless",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1074,7 +1074,7 @@
 			"name": "Oath of the Ancients",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1082,23 +1082,23 @@
 				"The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light in the world.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|PHB|Ancients|PHB|3|PHB"
+					"subclassFeature": "Channel Divinity|Paladin|XPHB|Ancients|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Nature's Wrath|Paladin|PHB|Ancients|PHB|3|PHB"
+					"subclassFeature": "Nature's Wrath|Paladin|XPHB|Ancients|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|PHB|Ancients|PHB|3|PHB"
+					"subclassFeature": "Oath Spells|Paladin|XPHB|Ancients|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Ancients|Paladin|PHB|Ancients|PHB|3|PHB"
+					"subclassFeature": "Tenets of the Ancients|Paladin|XPHB|Ancients|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Turn the Faithless|Paladin|PHB|Ancients|PHB|3|PHB"
+					"subclassFeature": "Turn the Faithless|Paladin|XPHB|Ancients|PHB|3|PHB"
 				}
 			]
 		},
@@ -1106,7 +1106,7 @@
 			"name": "Aura of Warding",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1119,7 +1119,7 @@
 			"name": "Undying Sentinel",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1132,7 +1132,7 @@
 			"name": "Elder Champion",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Ancients",
 			"subclassSource": "PHB",
 			"level": 20,
@@ -1154,7 +1154,7 @@
 			"name": "Abjure Enemy",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1168,7 +1168,7 @@
 			"name": "Channel Divinity",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1180,7 +1180,7 @@
 			"name": "Oath Spells",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1226,7 +1226,7 @@
 			"name": "Tenets of Vengeance",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1286,7 +1286,7 @@
 			"name": "Vow of Enmity",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1298,7 +1298,7 @@
 			"name": "Oath of Vengeance",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1306,23 +1306,23 @@
 				"The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins—sometimes called avengers or dark knights—their own purity is not as important as delivering justice.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Abjure Enemy|Paladin|PHB|Vengeance|PHB|3|PHB"
+					"subclassFeature": "Abjure Enemy|Paladin|XPHB|Vengeance|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|PHB|Vengeance|PHB|3|PHB"
+					"subclassFeature": "Channel Divinity|Paladin|XPHB|Vengeance|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|PHB|Vengeance|PHB|3|PHB"
+					"subclassFeature": "Oath Spells|Paladin|XPHB|Vengeance|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Vengeance|Paladin|PHB|Vengeance|PHB|3|PHB"
+					"subclassFeature": "Tenets of Vengeance|Paladin|XPHB|Vengeance|PHB|3|PHB"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Vow of Enmity|Paladin|PHB|Vengeance|PHB|3|PHB"
+					"subclassFeature": "Vow of Enmity|Paladin|XPHB|Vengeance|PHB|3|PHB"
 				}
 			]
 		},
@@ -1330,7 +1330,7 @@
 			"name": "Relentless Avenger",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 7,
@@ -1342,7 +1342,7 @@
 			"name": "Soul of Vengeance",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 15,
@@ -1354,7 +1354,7 @@
 			"name": "Avenging Angel",
 			"source": "PHB",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vengeance",
 			"subclassSource": "PHB",
 			"level": 20,
@@ -2568,123 +2568,87 @@
 	],
 	"subclass": [
 		{
-			"shortName": "Devotion",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"protection from evil and good",
-							"sanctuary"
-						],
-						"5": [
-							"lesser restoration",
-							"zone of truth"
-						],
-						"9": [
-							"beacon of hope",
-							"dispel magic"
-						],
-						"13": [
-							"freedom of movement",
-							"guardian of faith"
-						],
-						"17": [
-							"commune",
-							"flame strike"
-						]
-					}
-				}
-			],
 			"name": "Oath of Devotion",
+			"shortName": "Devotion",
 			"source": "PHB",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Oath of Devotion",
+				"source": "PHB",
+				"shortName": "Devotion",
+				"className": "Paladin",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Oath of Devotion|Paladin|PHB|Devotion|PHB|3|PHB",
-				"Aura of Devotion|Paladin|PHB|Devotion|PHB|7|PHB",
-				"Purity of Spirit|Paladin|PHB|Devotion|PHB|15|PHB",
-				"Holy Nimbus|Paladin|PHB|Devotion|PHB|20|PHB"
+				"Oath of Devotion|Paladin|XPHB|Devotion|PHB|3|PHB",
+				"Aura of Devotion|Paladin|XPHB|Devotion|PHB|7|PHB",
+				"Purity of Spirit|Paladin|XPHB|Devotion|PHB|15|PHB",
+				"Holy Nimbus|Paladin|XPHB|Devotion|PHB|20|PHB"
 			]
 		},
 		{
-			"shortName": "Ancients",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"ensnaring strike",
-							"speak with animals"
-						],
-						"5": [
-							"moonbeam",
-							"misty step"
-						],
-						"9": [
-							"plant growth",
-							"protection from energy"
-						],
-						"13": [
-							"ice storm",
-							"stoneskin"
-						],
-						"17": [
-							"commune with nature",
-							"tree stride"
-						]
-					}
-				}
-			],
 			"name": "Oath of the Ancients",
+			"shortName": "Ancients",
 			"source": "PHB",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Oath of the Ancients",
+				"source": "PHB",
+				"shortName": "Ancients",
+				"className": "Paladin",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Oath of the Ancients|Paladin|PHB|Ancients|PHB|3|PHB",
-				"Aura of Warding|Paladin|PHB|Ancients|PHB|7|PHB",
-				"Undying Sentinel|Paladin|PHB|Ancients|PHB|15|PHB",
-				"Elder Champion|Paladin|PHB|Ancients|PHB|20|PHB"
+				"Oath of the Ancients|Paladin|XPHB|Ancients|PHB|3|PHB",
+				"Aura of Warding|Paladin|XPHB|Ancients|PHB|7|PHB",
+				"Undying Sentinel|Paladin|XPHB|Ancients|PHB|15|PHB",
+				"Elder Champion|Paladin|XPHB|Ancients|PHB|20|PHB"
 			]
 		},
 		{
-			"shortName": "Vengeance",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"edition": "classic",
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"bane",
-							"hunter's mark"
-						],
-						"5": [
-							"hold person",
-							"misty step"
-						],
-						"9": [
-							"haste",
-							"protection from energy"
-						],
-						"13": [
-							"banishment",
-							"dimension door"
-						],
-						"17": [
-							"hold monster",
-							"scrying"
-						]
-					}
-				}
-			],
 			"name": "Oath of Vengeance",
+			"shortName": "Vengeance",
 			"source": "PHB",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Oath of Vengeance",
+				"source": "PHB",
+				"shortName": "Vengeance",
+				"className": "Paladin",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"referenceSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
 			"subclassFeatures": [
-				"Oath of Vengeance|Paladin|PHB|Vengeance|PHB|3|PHB",
-				"Relentless Avenger|Paladin|PHB|Vengeance|PHB|7|PHB",
-				"Soul of Vengeance|Paladin|PHB|Vengeance|PHB|15|PHB",
-				"Avenging Angel|Paladin|PHB|Vengeance|PHB|20|PHB"
+				"Oath of Vengeance|Paladin|XPHB|Vengeance|PHB|3|PHB",
+				"Relentless Avenger|Paladin|XPHB|Vengeance|PHB|7|PHB",
+				"Soul of Vengeance|Paladin|XPHB|Vengeance|PHB|15|PHB",
+				"Avenging Angel|Paladin|XPHB|Vengeance|PHB|20|PHB"
 			]
 		},
 		{

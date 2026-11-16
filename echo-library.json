@@ -1038,9 +1038,9 @@
     "cloudflareProject": "",
     "customBaseUrl": ""
   },
-  "libVersion": 10,
+  "libVersion": 11,
   "dateAdded": 1793294907,
-  "dateLastModified": 1794106484,
+  "dateLastModified": 1794866455,
   "content": {
     "monster": [
       {
@@ -461071,6 +461071,12 @@
         "_echoId": "f511044921df"
       },
       {
+        "name": "Animated Object (Huge)",
+        "source": "PHB",
+        "page": 213,
+        "reprintedAs": [
+          "Animated Object|XPHB"
+        ],
         "size": [
           "H"
         ],
@@ -461129,13 +461135,16 @@
         "miscTags": [
           "MW"
         ],
-        "name": "Animated Object (Huge)",
-        "source": "PHB",
-        "page": 213,
-        "_echoId": "e2107ddf4cc2",
-        "_echoToken": "507f37dfab4a.webp"
+        "hasToken": true,
+        "_echoId": "e2107ddf4cc2"
       },
       {
+        "name": "Animated Object (Large)",
+        "source": "PHB",
+        "page": 213,
+        "reprintedAs": [
+          "Animated Object|XPHB"
+        ],
         "size": [
           "L"
         ],
@@ -461194,13 +461203,16 @@
         "miscTags": [
           "MW"
         ],
-        "name": "Animated Object (Large)",
-        "source": "PHB",
-        "page": 213,
-        "_echoId": "87017e68e687",
-        "_echoToken": "cc4f61e870ea.webp"
+        "hasToken": true,
+        "_echoId": "87017e68e687"
       },
       {
+        "name": "Animated Object (Medium)",
+        "source": "PHB",
+        "page": 213,
+        "reprintedAs": [
+          "Animated Object|XPHB"
+        ],
         "size": [
           "M"
         ],
@@ -461259,13 +461271,16 @@
         "miscTags": [
           "MW"
         ],
-        "name": "Animated Object (Medium)",
-        "source": "PHB",
-        "page": 213,
-        "_echoId": "3b7b8065ccf9",
-        "_echoToken": "1f3bd3c8239d.webp"
+        "hasToken": true,
+        "_echoId": "3b7b8065ccf9"
       },
       {
+        "name": "Animated Object (Small)",
+        "source": "PHB",
+        "page": 213,
+        "reprintedAs": [
+          "Animated Object|XPHB"
+        ],
         "size": [
           "S"
         ],
@@ -461324,15 +461339,18 @@
         "miscTags": [
           "MW"
         ],
-        "name": "Animated Object (Small)",
-        "source": "PHB",
-        "page": 213,
-        "_echoId": "9d8c95d75cc4",
-        "_echoToken": "990be1f9896b.webp"
+        "hasToken": true,
+        "_echoId": "9d8c95d75cc4"
       },
       {
+        "name": "Animated Object (Tiny)",
+        "source": "PHB",
+        "page": 213,
         "referenceSources": [
           "WDMM"
+        ],
+        "reprintedAs": [
+          "Animated Object|XPHB"
         ],
         "size": [
           "T"
@@ -461392,11 +461410,8 @@
         "miscTags": [
           "MW"
         ],
-        "name": "Animated Object (Tiny)",
-        "source": "PHB",
-        "page": 213,
-        "_echoId": "cbab5caf5088",
-        "_echoToken": "682a8e61c24f.webp"
+        "hasToken": true,
+        "_echoId": "cbab5caf5088"
       },
       {
         "name": "Billy Beaver",
@@ -631777,7 +631792,18 @@
         "areaTags": [
           "ST"
         ],
-        "_echoId": "4ed8b2de3d1b"
+        "_echoId": "4ed8b2de3d1b",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Barkskin.webp"
+            },
+            "width": 377,
+            "height": 1000
+          }
+        ]
       },
       {
         "name": "Beacon of Hope",
@@ -632713,7 +632739,18 @@
         "areaTags": [
           "N"
         ],
-        "_echoId": "9042d4e03966"
+        "_echoId": "9042d4e03966",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Burning Hands.webp"
+            },
+            "width": 377,
+            "height": 1000
+          }
+        ]
       },
       {
         "name": "Call Lightning",
@@ -633525,7 +633562,18 @@
         "areaTags": [
           "S"
         ],
-        "_echoId": "fb5edd47f1a8"
+        "_echoId": "fb5edd47f1a8",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Cloudkill.webp"
+            },
+            "width": 1000,
+            "height": 1375
+          }
+        ]
       },
       {
         "name": "Color Spray",
@@ -636693,7 +636741,18 @@
           "TP",
           "WLT"
         ],
-        "_echoId": "a7a30fab6ecb"
+        "_echoId": "a7a30fab6ecb",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Dimension Door.webp"
+            },
+            "width": 753,
+            "height": 1000
+          }
+        ]
       },
       {
         "name": "Disguise Self",
@@ -639501,7 +639560,18 @@
         "areaTags": [
           "S"
         ],
-        "_echoId": "3a361dacef75"
+        "_echoId": "3a361dacef75",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Fireball.webp"
+            },
+            "width": 449,
+            "height": 1000
+          }
+        ]
       },
       {
         "name": "Flame Blade",
@@ -641137,7 +641207,18 @@
         "miscTags": [
           "SGT"
         ],
-        "_echoId": "aef19c602856"
+        "_echoId": "aef19c602856",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Guardian of Faith.webp"
+            },
+            "width": 750,
+            "height": 1000
+          }
+        ]
       },
       {
         "name": "Guards and Wards",
@@ -643258,7 +643339,18 @@
         "areaTags": [
           "S"
         ],
-        "_echoId": "bbe9a0ea56af"
+        "_echoId": "bbe9a0ea56af",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Insect Plague.webp"
+            },
+            "width": 449,
+            "height": 1000
+          }
+        ]
       },
       {
         "name": "Invisibility",
@@ -644615,7 +644707,18 @@
           "MT",
           "ST"
         ],
-        "_echoId": "bdbef249da90"
+        "_echoId": "bdbef249da90",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Magic Missile.webp"
+            },
+            "width": 1359,
+            "height": 1700
+          }
+        ]
       },
       {
         "name": "Magic Mouth",
@@ -646212,7 +646315,18 @@
         "areaTags": [
           "ST"
         ],
-        "_echoId": "91aa0228e4b9"
+        "_echoId": "91aa0228e4b9",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Mordenkainen's Sword.webp"
+            },
+            "width": 449,
+            "height": 1000
+          }
+        ]
       },
       {
         "name": "Move Earth",
@@ -647752,7 +647866,18 @@
         "areaTags": [
           "N"
         ],
-        "_echoId": "25205474e79b"
+        "_echoId": "25205474e79b",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Prismatic Spray.webp"
+            },
+            "width": 729,
+            "height": 1000
+          }
+        ]
       },
       {
         "name": "Prismatic Wall",
@@ -649388,7 +649513,18 @@
         "areaTags": [
           "ST"
         ],
-        "_echoId": "0791ebcd44ae"
+        "_echoId": "0791ebcd44ae",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Sacred Flame.webp"
+            },
+            "width": 449,
+            "height": 1000
+          }
+        ]
       },
       {
         "name": "Sanctuary",
@@ -650232,7 +650368,7 @@
           }
         ],
         "entries": [
-          "The wood of a {@item club|phb} or {@item quarterstaff|phb} you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a {@dice d8}. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."
+          "The wood of a {@item club|phb} or {@item quarterstaff|phb} you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a {@damage d8}. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."
         ],
         "miscTags": [
           "AAD"
@@ -654125,7 +654261,18 @@
         "areaTags": [
           "C"
         ],
-        "_echoId": "a2e32384d4ca"
+        "_echoId": "a2e32384d4ca",
+        "_echoFluffImagesRaw": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "spells/PHB/Web.webp"
+            },
+            "width": 739,
+            "height": 1000
+          }
+        ]
       },
       {
         "name": "Weird",
@@ -683646,7 +683793,7 @@
                 "type": "list",
                 "items": [
                   "You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.",
-                  "You can roll a {@dice d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
+                  "You can roll a {@damage d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
                   "When you use the {@action Attack} action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the {@action Attack} action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
                 ]
               },
@@ -704824,26 +704971,26 @@
     ],
     "subclass": [
       {
-        "shortName": "Battle Master",
-        "className": "Fighter",
-        "classSource": "PHB",
-        "edition": "classic",
-        "optionalfeatureProgression": [
-          {
-            "name": "Maneuvers",
-            "featureType": [
-              "MV:B"
-            ],
-            "progression": {
-              "3": 3,
-              "7": 5,
-              "10": 7,
-              "15": 9
-            }
-          }
-        ],
         "name": "Battle Master",
+        "shortName": "Battle Master",
         "source": "PHB",
+        "className": "Fighter",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Battle Master",
+          "source": "PHB",
+          "shortName": "Battle Master",
+          "className": "Fighter",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "f1fd4d2e18fa",
         "_echoFeatures": [
           {
@@ -705114,23 +705261,26 @@
         ]
       },
       {
-        "shortName": "Champion",
-        "className": "Fighter",
-        "classSource": "PHB",
-        "edition": "classic",
-        "optionalfeatureProgression": [
-          {
-            "name": "Fighting Style",
-            "featureType": [
-              "FS:F"
-            ],
-            "progression": {
-              "10": 1
-            }
-          }
-        ],
         "name": "Champion",
+        "shortName": "Champion",
         "source": "PHB",
+        "className": "Fighter",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Champion",
+          "source": "PHB",
+          "shortName": "Champion",
+          "className": "Fighter",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "631cf14cc5cc",
         "_echoFeatures": [
           {
@@ -705179,320 +705329,26 @@
         ]
       },
       {
-        "shortName": "Eldritch Knight",
-        "className": "Fighter",
-        "classSource": "PHB",
-        "edition": "classic",
-        "spellcastingAbility": "int",
-        "casterProgression": "1/3",
-        "cantripProgression": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3
-        ],
-        "spellsKnownProgression": [
-          0,
-          0,
-          3,
-          4,
-          4,
-          4,
-          5,
-          6,
-          6,
-          7,
-          8,
-          8,
-          9,
-          10,
-          10,
-          11,
-          11,
-          11,
-          12,
-          13
-        ],
-        "additionalSpells": [
-          {
-            "expanded": {
-              "3": [
-                {
-                  "all": "level=0|class=Wizard"
-                },
-                {
-                  "all": "level=1|class=Wizard"
-                }
-              ],
-              "7": [
-                {
-                  "all": "level=2|class=Wizard"
-                }
-              ],
-              "13": [
-                {
-                  "all": "level=3|class=Wizard"
-                }
-              ],
-              "19": [
-                {
-                  "all": "level=4|class=Wizard"
-                }
-              ]
-            }
-          }
-        ],
-        "subclassTableGroups": [
-          {
-            "subclasses": [
-              {
-                "name": "Eldritch Knight",
-                "source": "PHB"
-              }
-            ],
-            "colLabels": [
-              "{@filter Cantrips Known|spells|level=0|subclass=Fighter: Eldritch Knight}",
-              "{@filter Spells Known|spells|subclass=Fighter: Eldritch Knight}"
-            ],
-            "rows": [
-              [
-                0,
-                0
-              ],
-              [
-                0,
-                0
-              ],
-              [
-                2,
-                3
-              ],
-              [
-                2,
-                4
-              ],
-              [
-                2,
-                4
-              ],
-              [
-                2,
-                4
-              ],
-              [
-                2,
-                5
-              ],
-              [
-                2,
-                6
-              ],
-              [
-                2,
-                6
-              ],
-              [
-                3,
-                7
-              ],
-              [
-                3,
-                8
-              ],
-              [
-                3,
-                8
-              ],
-              [
-                3,
-                9
-              ],
-              [
-                3,
-                10
-              ],
-              [
-                3,
-                10
-              ],
-              [
-                3,
-                11
-              ],
-              [
-                3,
-                11
-              ],
-              [
-                3,
-                11
-              ],
-              [
-                3,
-                12
-              ],
-              [
-                3,
-                13
-              ]
-            ]
-          },
-          {
-            "title": "Spell Slots per Spell Level",
-            "subclasses": [
-              {
-                "name": "Eldritch Knight",
-                "source": "PHB"
-              }
-            ],
-            "colLabels": [
-              "{@filter 1st|spells|level=1|subclass=Fighter: Eldritch Knight}",
-              "{@filter 2nd|spells|level=2|subclass=Fighter: Eldritch Knight}",
-              "{@filter 3rd|spells|level=3|subclass=Fighter: Eldritch Knight}",
-              "{@filter 4th|spells|level=4|subclass=Fighter: Eldritch Knight}"
-            ],
-            "rowsSpellProgression": [
-              [
-                0,
-                0,
-                0,
-                0
-              ],
-              [
-                0,
-                0,
-                0,
-                0
-              ],
-              [
-                2,
-                0,
-                0,
-                0
-              ],
-              [
-                3,
-                0,
-                0,
-                0
-              ],
-              [
-                3,
-                0,
-                0,
-                0
-              ],
-              [
-                3,
-                0,
-                0,
-                0
-              ],
-              [
-                4,
-                2,
-                0,
-                0
-              ],
-              [
-                4,
-                2,
-                0,
-                0
-              ],
-              [
-                4,
-                2,
-                0,
-                0
-              ],
-              [
-                4,
-                3,
-                0,
-                0
-              ],
-              [
-                4,
-                3,
-                0,
-                0
-              ],
-              [
-                4,
-                3,
-                0,
-                0
-              ],
-              [
-                4,
-                3,
-                2,
-                0
-              ],
-              [
-                4,
-                3,
-                2,
-                0
-              ],
-              [
-                4,
-                3,
-                2,
-                0
-              ],
-              [
-                4,
-                3,
-                3,
-                0
-              ],
-              [
-                4,
-                3,
-                3,
-                0
-              ],
-              [
-                4,
-                3,
-                3,
-                0
-              ],
-              [
-                4,
-                3,
-                3,
-                1
-              ],
-              [
-                4,
-                3,
-                3,
-                1
-              ]
-            ]
-          }
-        ],
         "name": "Eldritch Knight",
+        "shortName": "Eldritch Knight",
         "source": "PHB",
+        "className": "Fighter",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Eldritch Knight",
+          "source": "PHB",
+          "shortName": "Eldritch Knight",
+          "className": "Fighter",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "89750a0ca931",
         "_echoFeatures": [
           {
@@ -706390,12 +706246,26 @@
         ]
       },
       {
-        "shortName": "Berserker",
-        "className": "Barbarian",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "Path of the Berserker",
+        "shortName": "Berserker",
         "source": "PHB",
+        "className": "Barbarian",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Path of the Berserker",
+          "source": "PHB",
+          "shortName": "Berserker",
+          "className": "Barbarian",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "1d3d75c142d1",
         "_echoFeatures": [
           {
@@ -706437,29 +706307,26 @@
         ]
       },
       {
-        "shortName": "Totem Warrior",
-        "className": "Barbarian",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "innate": {
-              "3": {
-                "ritual": [
-                  "beast sense",
-                  "speak with animals"
-                ]
-              },
-              "10": {
-                "ritual": [
-                  "commune with nature"
-                ]
-              }
-            }
-          }
-        ],
         "name": "Path of the Totem Warrior",
+        "shortName": "Totem Warrior",
         "source": "PHB",
+        "className": "Barbarian",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Path of the Totem Warrior",
+          "source": "PHB",
+          "shortName": "Totem Warrior",
+          "className": "Barbarian",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "c86ceceace46",
         "_echoFeatures": [
           {
@@ -707366,27 +707233,26 @@
         ]
       },
       {
-        "shortName": "Lore",
-        "className": "Bard",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "name": "Additional Magical Secrets",
-            "known": {
-              "6": [
-                {
-                  "choose": "level=0;1;2;3"
-                },
-                {
-                  "choose": "level=0;1;2;3"
-                }
-              ]
-            }
-          }
-        ],
         "name": "College of Lore",
+        "shortName": "Lore",
         "source": "PHB",
+        "className": "Bard",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "College of Lore",
+          "source": "PHB",
+          "shortName": "Lore",
+          "className": "Bard",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "1829a9d1838a",
         "_echoFeatures": [
           {
@@ -707429,12 +707295,26 @@
         ]
       },
       {
-        "shortName": "Valor",
-        "className": "Bard",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "College of Valor",
+        "shortName": "Valor",
         "source": "PHB",
+        "className": "Bard",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "College of Valor",
+          "source": "PHB",
+          "shortName": "Valor",
+          "className": "Bard",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "0472b6dc455d",
         "_echoFeatures": [
           {
@@ -710222,254 +710102,26 @@
         ]
       },
       {
-        "shortName": "Land",
-        "className": "Druid",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "name": "Arctic",
-            "known": {
-              "1": {
-                "_": [
-                  {
-                    "choose": "level=0|class=Druid"
-                  }
-                ]
-              }
-            },
-            "prepared": {
-              "3": [
-                "hold person",
-                "spike growth"
-              ],
-              "5": [
-                "sleet storm",
-                "slow"
-              ],
-              "7": [
-                "freedom of movement",
-                "ice storm"
-              ],
-              "9": [
-                "commune with nature",
-                "cone of cold"
-              ]
-            }
-          },
-          {
-            "name": "Coast",
-            "known": {
-              "1": {
-                "_": [
-                  {
-                    "choose": "level=0|class=Druid"
-                  }
-                ]
-              }
-            },
-            "prepared": {
-              "3": [
-                "mirror image",
-                "misty step"
-              ],
-              "5": [
-                "water breathing",
-                "water walk"
-              ],
-              "7": [
-                "control water",
-                "freedom of movement"
-              ],
-              "9": [
-                "conjure elemental",
-                "scrying"
-              ]
-            }
-          },
-          {
-            "name": "Desert",
-            "known": {
-              "1": {
-                "_": [
-                  {
-                    "choose": "level=0|class=Druid"
-                  }
-                ]
-              }
-            },
-            "prepared": {
-              "3": [
-                "blur",
-                "silence"
-              ],
-              "5": [
-                "create food and water",
-                "protection from energy"
-              ],
-              "7": [
-                "blight",
-                "hallucinatory terrain"
-              ],
-              "9": [
-                "insect plague",
-                "wall of stone"
-              ]
-            }
-          },
-          {
-            "name": "Forest",
-            "known": {
-              "1": {
-                "_": [
-                  {
-                    "choose": "level=0|class=Druid"
-                  }
-                ]
-              }
-            },
-            "prepared": {
-              "3": [
-                "barkskin",
-                "spider climb"
-              ],
-              "5": [
-                "call lightning",
-                "plant growth"
-              ],
-              "7": [
-                "divination",
-                "freedom of movement"
-              ],
-              "9": [
-                "commune with nature",
-                "tree stride"
-              ]
-            }
-          },
-          {
-            "name": "Grassland",
-            "known": {
-              "1": {
-                "_": [
-                  {
-                    "choose": "level=0|class=Druid"
-                  }
-                ]
-              }
-            },
-            "prepared": {
-              "3": [
-                "invisibility",
-                "pass without trace"
-              ],
-              "5": [
-                "daylight",
-                "haste"
-              ],
-              "7": [
-                "divination",
-                "freedom of movement"
-              ],
-              "9": [
-                "dream",
-                "insect plague"
-              ]
-            }
-          },
-          {
-            "name": "Mountain",
-            "known": {
-              "1": {
-                "_": [
-                  {
-                    "choose": "level=0|class=Druid"
-                  }
-                ]
-              }
-            },
-            "prepared": {
-              "3": [
-                "spider climb",
-                "spike growth"
-              ],
-              "5": [
-                "lightning bolt",
-                "meld into stone"
-              ],
-              "7": [
-                "stone shape",
-                "stoneskin"
-              ],
-              "9": [
-                "passwall",
-                "wall of stone"
-              ]
-            }
-          },
-          {
-            "name": "Swamp",
-            "known": {
-              "1": {
-                "_": [
-                  {
-                    "choose": "level=0|class=Druid"
-                  }
-                ]
-              }
-            },
-            "prepared": {
-              "3": [
-                "darkness",
-                "Melf's acid arrow"
-              ],
-              "5": [
-                "water walk",
-                "stinking cloud"
-              ],
-              "7": [
-                "freedom of movement",
-                "locate creature"
-              ],
-              "9": [
-                "insect plague",
-                "scrying"
-              ]
-            }
-          },
-          {
-            "name": "Underdark",
-            "known": {
-              "1": {
-                "_": [
-                  {
-                    "choose": "level=0|class=Druid"
-                  }
-                ]
-              }
-            },
-            "prepared": {
-              "3": [
-                "spider climb",
-                "web"
-              ],
-              "5": [
-                "gaseous form",
-                "stinking cloud"
-              ],
-              "7": [
-                "greater invisibility",
-                "stone shape"
-              ],
-              "9": [
-                "cloudkill",
-                "insect plague"
-              ]
-            }
-          }
-        ],
         "name": "Circle of the Land",
+        "shortName": "Land",
         "source": "PHB",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Circle of the Land",
+          "source": "PHB",
+          "shortName": "Land",
+          "className": "Druid",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "c1146ce22f6f",
         "_echoFeatures": [
           {
@@ -710773,21 +710425,26 @@
         ]
       },
       {
-        "shortName": "Moon",
-        "className": "Druid",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "known": {
-              "14": [
-                "alter self"
-              ]
-            }
-          }
-        ],
         "name": "Circle of the Moon",
+        "shortName": "Moon",
         "source": "PHB",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Circle of the Moon",
+          "source": "PHB",
+          "shortName": "Moon",
+          "className": "Druid",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "146f35f293b3",
         "_echoFeatures": [
           {
@@ -711485,38 +711142,29 @@
         ]
       },
       {
-        "shortName": "Knowledge",
-        "className": "Cleric",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "prepared": {
-              "1": [
-                "command",
-                "identify"
-              ],
-              "3": [
-                "augury",
-                "suggestion"
-              ],
-              "5": [
-                "nondetection",
-                "speak with dead"
-              ],
-              "7": [
-                "arcane eye",
-                "confusion"
-              ],
-              "9": [
-                "legend lore",
-                "scrying"
-              ]
-            }
-          }
-        ],
         "name": "Knowledge Domain",
+        "shortName": "Knowledge",
         "source": "PHB",
+        "className": "Cleric",
+        "classSource": "XPHB",
+        "reprintedAs": [
+          "Knowledge|Cleric|XPHB|FRHoF"
+        ],
+        "_copy": {
+          "name": "Knowledge Domain",
+          "source": "PHB",
+          "shortName": "Knowledge",
+          "className": "Cleric",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "3a0ceff43c23",
         "_echoFeatures": [
           {
@@ -711646,38 +711294,26 @@
         ]
       },
       {
-        "shortName": "Life",
-        "className": "Cleric",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "prepared": {
-              "1": [
-                "bless",
-                "cure wounds"
-              ],
-              "3": [
-                "lesser restoration",
-                "spiritual weapon"
-              ],
-              "5": [
-                "beacon of hope",
-                "revivify"
-              ],
-              "7": [
-                "death ward",
-                "guardian of faith"
-              ],
-              "9": [
-                "mass cure wounds",
-                "raise dead"
-              ]
-            }
-          }
-        ],
         "name": "Life Domain",
+        "shortName": "Life",
         "source": "PHB",
+        "className": "Cleric",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Life Domain",
+          "source": "PHB",
+          "shortName": "Life",
+          "className": "Cleric",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "1e07c3c1995c",
         "_echoFeatures": [
           {
@@ -711786,43 +711422,26 @@
         ]
       },
       {
-        "shortName": "Light",
-        "className": "Cleric",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "prepared": {
-              "1": [
-                "burning hands",
-                "faerie fire"
-              ],
-              "3": [
-                "flaming sphere",
-                "scorching ray"
-              ],
-              "5": [
-                "daylight",
-                "fireball"
-              ],
-              "7": [
-                "guardian of faith",
-                "wall of fire"
-              ],
-              "9": [
-                "flame strike",
-                "scrying"
-              ]
-            },
-            "known": {
-              "1": [
-                "light#c"
-              ]
-            }
-          }
-        ],
         "name": "Light Domain",
+        "shortName": "Light",
         "source": "PHB",
+        "className": "Cleric",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Light Domain",
+          "source": "PHB",
+          "shortName": "Light",
+          "className": "Cleric",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "44944c9730b5",
         "_echoFeatures": [
           {
@@ -711932,47 +711551,26 @@
         ]
       },
       {
-        "shortName": "Nature",
-        "className": "Cleric",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "known": {
-              "1": {
-                "_": [
-                  {
-                    "choose": "level=0|class=Druid"
-                  }
-                ]
-              }
-            },
-            "prepared": {
-              "1": [
-                "animal friendship",
-                "speak with animals"
-              ],
-              "3": [
-                "barkskin",
-                "spike growth"
-              ],
-              "5": [
-                "plant growth",
-                "wind wall"
-              ],
-              "7": [
-                "dominate beast",
-                "grasping vine"
-              ],
-              "9": [
-                "insect plague",
-                "tree stride"
-              ]
-            }
-          }
-        ],
         "name": "Nature Domain",
+        "shortName": "Nature",
         "source": "PHB",
+        "className": "Cleric",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Nature Domain",
+          "source": "PHB",
+          "shortName": "Nature",
+          "className": "Cleric",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "58d4f13dd03a",
         "_echoFeatures": [
           {
@@ -712081,38 +711679,26 @@
         ]
       },
       {
-        "shortName": "Tempest",
-        "className": "Cleric",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "prepared": {
-              "1": [
-                "fog cloud",
-                "thunderwave"
-              ],
-              "3": [
-                "gust of wind",
-                "shatter"
-              ],
-              "5": [
-                "call lightning",
-                "sleet storm"
-              ],
-              "7": [
-                "control water",
-                "ice storm"
-              ],
-              "9": [
-                "destructive wave",
-                "insect plague"
-              ]
-            }
-          }
-        ],
         "name": "Tempest Domain",
+        "shortName": "Tempest",
         "source": "PHB",
+        "className": "Cleric",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Tempest Domain",
+          "source": "PHB",
+          "shortName": "Tempest",
+          "className": "Cleric",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "75339402e767",
         "_echoFeatures": [
           {
@@ -712222,38 +711808,26 @@
         ]
       },
       {
-        "shortName": "Trickery",
-        "className": "Cleric",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "prepared": {
-              "1": [
-                "charm person",
-                "disguise self"
-              ],
-              "3": [
-                "mirror image",
-                "pass without trace"
-              ],
-              "5": [
-                "blink",
-                "dispel magic"
-              ],
-              "7": [
-                "dimension door",
-                "polymorph"
-              ],
-              "9": [
-                "dominate person",
-                "modify memory"
-              ]
-            }
-          }
-        ],
         "name": "Trickery Domain",
+        "shortName": "Trickery",
         "source": "PHB",
+        "className": "Cleric",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Trickery Domain",
+          "source": "PHB",
+          "shortName": "Trickery",
+          "className": "Cleric",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "9ab761c1f625",
         "_echoFeatures": [
           {
@@ -712357,38 +711931,26 @@
         ]
       },
       {
-        "shortName": "War",
-        "className": "Cleric",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "prepared": {
-              "1": [
-                "divine favor",
-                "shield of faith"
-              ],
-              "3": [
-                "magic weapon",
-                "spiritual weapon"
-              ],
-              "5": [
-                "crusader's mantle",
-                "spirit guardians"
-              ],
-              "7": [
-                "freedom of movement",
-                "stoneskin"
-              ],
-              "9": [
-                "flame strike",
-                "hold monster"
-              ]
-            }
-          }
-        ],
         "name": "War Domain",
+        "shortName": "War",
         "source": "PHB",
+        "className": "Cleric",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "War Domain",
+          "source": "PHB",
+          "shortName": "War",
+          "className": "Cleric",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "42207ff03d7a",
         "_echoFeatures": [
           {
@@ -714493,35 +714055,26 @@
         ]
       },
       {
-        "shortName": "Shadow",
-        "className": "Monk",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "known": {
-              "3": [
-                "minor illusion#c"
-              ]
-            },
-            "innate": {
-              "3": {
-                "resource": {
-                  "2": [
-                    "darkness",
-                    "darkvision",
-                    "pass without trace",
-                    "silence"
-                  ]
-                }
-              }
-            },
-            "resourceName": "Ki",
-            "ability": "wis"
-          }
-        ],
         "name": "Way of Shadow",
+        "shortName": "Shadow",
         "source": "PHB",
+        "className": "Monk",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Way of Shadow",
+          "source": "PHB",
+          "shortName": "Shadow",
+          "className": "Monk",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "0795db6203a1",
         "_echoFeatures": [
           {
@@ -714562,32 +714115,26 @@
         ]
       },
       {
-        "shortName": "Four Elements",
-        "className": "Monk",
-        "classSource": "PHB",
-        "edition": "classic",
-        "spellcastingAbility": "wis",
-        "optionalfeatureProgression": [
-          {
-            "name": "Elemental Disciplines",
-            "featureType": [
-              "ED"
-            ],
-            "progression": {
-              "3": 2,
-              "6": 3,
-              "11": 4,
-              "17": 5
-            },
-            "required": {
-              "3": [
-                "Elemental Attunement|PHB"
-              ]
-            }
-          }
-        ],
         "name": "Way of the Four Elements",
+        "shortName": "Four Elements",
         "source": "PHB",
+        "className": "Monk",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Way of the Four Elements",
+          "source": "PHB",
+          "shortName": "Four Elements",
+          "className": "Monk",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "c7212f057513",
         "_echoFeatures": [
           {
@@ -714766,26 +714313,26 @@
         ]
       },
       {
-        "shortName": "Open Hand",
-        "className": "Monk",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "innate": {
-              "11": {
-                "daily": {
-                  "1": [
-                    "sanctuary"
-                  ]
-                }
-              }
-            },
-            "ability": "wis"
-          }
-        ],
         "name": "Way of the Open Hand",
+        "shortName": "Open Hand",
         "source": "PHB",
+        "className": "Monk",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Way of the Open Hand",
+          "source": "PHB",
+          "shortName": "Open Hand",
+          "className": "Monk",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "40fb4274c47c",
         "_echoFeatures": [
           {
@@ -715524,38 +715071,26 @@
         ]
       },
       {
-        "shortName": "Devotion",
-        "className": "Paladin",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "prepared": {
-              "3": [
-                "protection from evil and good",
-                "sanctuary"
-              ],
-              "5": [
-                "lesser restoration",
-                "zone of truth"
-              ],
-              "9": [
-                "beacon of hope",
-                "dispel magic"
-              ],
-              "13": [
-                "freedom of movement",
-                "guardian of faith"
-              ],
-              "17": [
-                "commune",
-                "flame strike"
-              ]
-            }
-          }
-        ],
         "name": "Oath of Devotion",
+        "shortName": "Devotion",
         "source": "PHB",
+        "className": "Paladin",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Oath of Devotion",
+          "source": "PHB",
+          "shortName": "Devotion",
+          "className": "Paladin",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "ec7dd634ff02",
         "_echoFeatures": [
           {
@@ -715724,38 +715259,26 @@
         ]
       },
       {
-        "shortName": "Ancients",
-        "className": "Paladin",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "prepared": {
-              "3": [
-                "ensnaring strike",
-                "speak with animals"
-              ],
-              "5": [
-                "moonbeam",
-                "misty step"
-              ],
-              "9": [
-                "plant growth",
-                "protection from energy"
-              ],
-              "13": [
-                "ice storm",
-                "stoneskin"
-              ],
-              "17": [
-                "commune with nature",
-                "tree stride"
-              ]
-            }
-          }
-        ],
         "name": "Oath of the Ancients",
+        "shortName": "Ancients",
         "source": "PHB",
+        "className": "Paladin",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Oath of the Ancients",
+          "source": "PHB",
+          "shortName": "Ancients",
+          "className": "Paladin",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "f3a57bf54975",
         "_echoFeatures": [
           {
@@ -715920,38 +715443,26 @@
         ]
       },
       {
-        "shortName": "Vengeance",
-        "className": "Paladin",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "prepared": {
-              "3": [
-                "bane",
-                "hunter's mark"
-              ],
-              "5": [
-                "hold person",
-                "misty step"
-              ],
-              "9": [
-                "haste",
-                "protection from energy"
-              ],
-              "13": [
-                "banishment",
-                "dimension door"
-              ],
-              "17": [
-                "hold monster",
-                "scrying"
-              ]
-            }
-          }
-        ],
         "name": "Oath of Vengeance",
+        "shortName": "Vengeance",
         "source": "PHB",
+        "className": "Paladin",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Oath of Vengeance",
+          "source": "PHB",
+          "shortName": "Vengeance",
+          "className": "Paladin",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "6413af96ad66",
         "_echoFeatures": [
           {
@@ -717148,12 +716659,26 @@
         ]
       },
       {
-        "shortName": "Beast Master",
-        "className": "Ranger",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "Beast Master",
+        "shortName": "Beast Master",
         "source": "PHB",
+        "className": "Ranger",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Beast Master",
+          "source": "PHB",
+          "shortName": "Beast Master",
+          "className": "Ranger",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "efcf1d7f3b6d",
         "_echoFeatures": [
           {
@@ -717209,12 +716734,26 @@
         ]
       },
       {
-        "shortName": "Hunter",
-        "className": "Ranger",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "Hunter",
+        "shortName": "Hunter",
         "source": "PHB",
+        "className": "Ranger",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Hunter",
+          "source": "PHB",
+          "shortName": "Hunter",
+          "className": "Ranger",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "49afb471191e",
         "_echoFeatures": [
           {
@@ -718442,325 +717981,26 @@
         ]
       },
       {
-        "shortName": "Arcane Trickster",
-        "className": "Rogue",
-        "classSource": "PHB",
-        "edition": "classic",
-        "spellcastingAbility": "int",
-        "casterProgression": "1/3",
-        "cantripProgression": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3
-        ],
-        "spellsKnownProgression": [
-          0,
-          0,
-          3,
-          4,
-          4,
-          4,
-          5,
-          6,
-          6,
-          7,
-          8,
-          8,
-          9,
-          10,
-          10,
-          11,
-          11,
-          11,
-          12,
-          13
-        ],
-        "additionalSpells": [
-          {
-            "known": {
-              "3": [
-                "mage hand#c"
-              ]
-            },
-            "expanded": {
-              "3": [
-                {
-                  "all": "level=0|class=Wizard"
-                },
-                {
-                  "all": "level=1|class=Wizard"
-                }
-              ],
-              "7": [
-                {
-                  "all": "level=2|class=Wizard"
-                }
-              ],
-              "13": [
-                {
-                  "all": "level=3|class=Wizard"
-                }
-              ],
-              "19": [
-                {
-                  "all": "level=4|class=Wizard"
-                }
-              ]
-            }
-          }
-        ],
-        "subclassTableGroups": [
-          {
-            "subclasses": [
-              {
-                "name": "Arcane Trickster",
-                "source": "PHB"
-              }
-            ],
-            "colLabels": [
-              "{@filter Cantrips Known|spells|level=0|subclass=Rogue: Arcane Trickster}",
-              "{@filter Spells Known|spells|subclass=Rogue: Arcane Trickster}"
-            ],
-            "rows": [
-              [
-                0,
-                0
-              ],
-              [
-                0,
-                0
-              ],
-              [
-                3,
-                3
-              ],
-              [
-                3,
-                4
-              ],
-              [
-                3,
-                4
-              ],
-              [
-                3,
-                4
-              ],
-              [
-                3,
-                5
-              ],
-              [
-                3,
-                6
-              ],
-              [
-                3,
-                6
-              ],
-              [
-                4,
-                7
-              ],
-              [
-                4,
-                8
-              ],
-              [
-                4,
-                8
-              ],
-              [
-                4,
-                9
-              ],
-              [
-                4,
-                10
-              ],
-              [
-                4,
-                10
-              ],
-              [
-                4,
-                11
-              ],
-              [
-                4,
-                11
-              ],
-              [
-                4,
-                11
-              ],
-              [
-                4,
-                12
-              ],
-              [
-                4,
-                13
-              ]
-            ]
-          },
-          {
-            "title": "Spell Slots per Spell Level",
-            "subclasses": [
-              {
-                "name": "Arcane Trickster",
-                "source": "PHB"
-              }
-            ],
-            "colLabels": [
-              "{@filter 1st|spells|level=1|subclass=Rogue: Arcane Trickster}",
-              "{@filter 2nd|spells|level=2|subclass=Rogue: Arcane Trickster}",
-              "{@filter 3rd|spells|level=3|subclass=Rogue: Arcane Trickster}",
-              "{@filter 4th|spells|level=4|subclass=Rogue: Arcane Trickster}"
-            ],
-            "rowsSpellProgression": [
-              [
-                0,
-                0,
-                0,
-                0
-              ],
-              [
-                0,
-                0,
-                0,
-                0
-              ],
-              [
-                2,
-                0,
-                0,
-                0
-              ],
-              [
-                3,
-                0,
-                0,
-                0
-              ],
-              [
-                3,
-                0,
-                0,
-                0
-              ],
-              [
-                3,
-                0,
-                0,
-                0
-              ],
-              [
-                4,
-                2,
-                0,
-                0
-              ],
-              [
-                4,
-                2,
-                0,
-                0
-              ],
-              [
-                4,
-                2,
-                0,
-                0
-              ],
-              [
-                4,
-                3,
-                0,
-                0
-              ],
-              [
-                4,
-                3,
-                0,
-                0
-              ],
-              [
-                4,
-                3,
-                0,
-                0
-              ],
-              [
-                4,
-                3,
-                2,
-                0
-              ],
-              [
-                4,
-                3,
-                2,
-                0
-              ],
-              [
-                4,
-                3,
-                2,
-                0
-              ],
-              [
-                4,
-                3,
-                3,
-                0
-              ],
-              [
-                4,
-                3,
-                3,
-                0
-              ],
-              [
-                4,
-                3,
-                3,
-                0
-              ],
-              [
-                4,
-                3,
-                3,
-                1
-              ],
-              [
-                4,
-                3,
-                3,
-                1
-              ]
-            ]
-          }
-        ],
         "name": "Arcane Trickster",
+        "shortName": "Arcane Trickster",
         "source": "PHB",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Arcane Trickster",
+          "source": "PHB",
+          "shortName": "Arcane Trickster",
+          "className": "Rogue",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "c54fdd9ebda0",
         "_echoFeatures": [
           {
@@ -718886,12 +718126,26 @@
         ]
       },
       {
-        "shortName": "Assassin",
-        "className": "Rogue",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "Assassin",
+        "shortName": "Assassin",
         "source": "PHB",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Assassin",
+          "source": "PHB",
+          "shortName": "Assassin",
+          "className": "Rogue",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "3ce271973ea4",
         "_echoFeatures": [
           {
@@ -718942,12 +718196,26 @@
         ]
       },
       {
-        "shortName": "Thief",
-        "className": "Rogue",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "Thief",
+        "shortName": "Thief",
         "source": "PHB",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Thief",
+          "source": "PHB",
+          "shortName": "Thief",
+          "className": "Rogue",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "7244f094c7f8",
         "_echoFeatures": [
           {
@@ -719584,12 +718852,26 @@
         ]
       },
       {
-        "shortName": "Abjuration",
-        "className": "Wizard",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "School of Abjuration",
+        "shortName": "Abjuration",
         "source": "PHB",
+        "className": "Wizard",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "School of Abjuration",
+          "source": "PHB",
+          "shortName": "Abjuration",
+          "className": "Wizard",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "02c5d3fe032a",
         "_echoFeatures": [
           {
@@ -719646,12 +718928,29 @@
         ]
       },
       {
-        "shortName": "Conjuration",
-        "className": "Wizard",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "School of Conjuration",
+        "shortName": "Conjuration",
         "source": "PHB",
+        "className": "Wizard",
+        "classSource": "XPHB",
+        "reprintedAs": [
+          "Conjurer|Wizard|XPHB|AU"
+        ],
+        "_copy": {
+          "name": "School of Conjuration",
+          "source": "PHB",
+          "shortName": "Conjuration",
+          "className": "Wizard",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "cb42553501b5",
         "_echoFeatures": [
           {
@@ -719706,12 +719005,26 @@
         ]
       },
       {
-        "shortName": "Divination",
-        "className": "Wizard",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "School of Divination",
+        "shortName": "Divination",
         "source": "PHB",
+        "className": "Wizard",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "School of Divination",
+          "source": "PHB",
+          "shortName": "Divination",
+          "className": "Wizard",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "b88623942b30",
         "_echoFeatures": [
           {
@@ -719798,12 +719111,29 @@
         ]
       },
       {
-        "shortName": "Enchantment",
-        "className": "Wizard",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "School of Enchantment",
+        "shortName": "Enchantment",
         "source": "PHB",
+        "className": "Wizard",
+        "classSource": "XPHB",
+        "reprintedAs": [
+          "Enchanter|Wizard|XPHB|AU"
+        ],
+        "_copy": {
+          "name": "School of Enchantment",
+          "source": "PHB",
+          "shortName": "Enchantment",
+          "className": "Wizard",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "16c944a80a4a",
         "_echoFeatures": [
           {
@@ -719860,12 +719190,26 @@
         ]
       },
       {
-        "shortName": "Evocation",
-        "className": "Wizard",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "School of Evocation",
+        "shortName": "Evocation",
         "source": "PHB",
+        "className": "Wizard",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "School of Evocation",
+          "source": "PHB",
+          "shortName": "Evocation",
+          "className": "Wizard",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "f92eb57ca515",
         "_echoFeatures": [
           {
@@ -719919,21 +719263,26 @@
         ]
       },
       {
-        "shortName": "Illusion",
-        "className": "Wizard",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "known": {
-              "1": [
-                "minor illusion#c"
-              ]
-            }
-          }
-        ],
         "name": "School of Illusion",
+        "shortName": "Illusion",
         "source": "PHB",
+        "className": "Wizard",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "School of Illusion",
+          "source": "PHB",
+          "shortName": "Illusion",
+          "className": "Wizard",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "7051758f52b0",
         "_echoFeatures": [
           {
@@ -719989,12 +719338,29 @@
         ]
       },
       {
-        "shortName": "Necromancy",
-        "className": "Wizard",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "School of Necromancy",
+        "shortName": "Necromancy",
         "source": "PHB",
+        "className": "Wizard",
+        "classSource": "XPHB",
+        "reprintedAs": [
+          "Necromancer|Wizard|XPHB|AU"
+        ],
+        "_copy": {
+          "name": "School of Necromancy",
+          "source": "PHB",
+          "shortName": "Necromancy",
+          "className": "Wizard",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "d715d15bfda2",
         "_echoFeatures": [
           {
@@ -720057,12 +719423,29 @@
         ]
       },
       {
-        "shortName": "Transmutation",
-        "className": "Wizard",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "School of Transmutation",
+        "shortName": "Transmutation",
         "source": "PHB",
+        "className": "Wizard",
+        "classSource": "XPHB",
+        "reprintedAs": [
+          "Transmuter|Wizard|XPHB|AU"
+        ],
+        "_copy": {
+          "name": "School of Transmutation",
+          "source": "PHB",
+          "shortName": "Transmutation",
+          "className": "Wizard",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "6a7212866ea4",
         "_echoFeatures": [
           {
@@ -720570,38 +719953,26 @@
         ]
       },
       {
-        "shortName": "Archfey",
-        "className": "Warlock",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "expanded": {
-              "s1": [
-                "faerie fire",
-                "sleep"
-              ],
-              "s2": [
-                "calm emotions",
-                "phantasmal force"
-              ],
-              "s3": [
-                "blink",
-                "plant growth"
-              ],
-              "s4": [
-                "dominate beast",
-                "greater invisibility"
-              ],
-              "s5": [
-                "dominate person",
-                "seeming"
-              ]
-            }
-          }
-        ],
         "name": "The Archfey",
+        "shortName": "Archfey",
         "source": "PHB",
+        "className": "Warlock",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "The Archfey",
+          "source": "PHB",
+          "shortName": "Archfey",
+          "className": "Warlock",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "a6e0f39170a7",
         "_echoFeatures": [
           {
@@ -720692,38 +720063,26 @@
         ]
       },
       {
-        "shortName": "Fiend",
-        "className": "Warlock",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "expanded": {
-              "s1": [
-                "burning hands",
-                "command"
-              ],
-              "s2": [
-                "blindness/deafness",
-                "scorching ray"
-              ],
-              "s3": [
-                "fireball",
-                "stinking cloud"
-              ],
-              "s4": [
-                "fire shield",
-                "wall of fire"
-              ],
-              "s5": [
-                "flame strike",
-                "hallow"
-              ]
-            }
-          }
-        ],
         "name": "The Fiend",
+        "shortName": "Fiend",
         "source": "PHB",
+        "className": "Warlock",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "The Fiend",
+          "source": "PHB",
+          "shortName": "Fiend",
+          "className": "Warlock",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "81c6588a8fda",
         "_echoFeatures": [
           {
@@ -720813,38 +720172,26 @@
         ]
       },
       {
-        "shortName": "Great Old One",
-        "className": "Warlock",
-        "classSource": "PHB",
-        "edition": "classic",
-        "additionalSpells": [
-          {
-            "expanded": {
-              "s1": [
-                "dissonant whispers",
-                "Tasha's hideous laughter"
-              ],
-              "s2": [
-                "detect thoughts",
-                "phantasmal force"
-              ],
-              "s3": [
-                "clairvoyance",
-                "sending"
-              ],
-              "s4": [
-                "dominate beast",
-                "Evard's black tentacles"
-              ],
-              "s5": [
-                "dominate person",
-                "telekinesis"
-              ]
-            }
-          }
-        ],
         "name": "The Great Old One",
+        "shortName": "Great Old One",
         "source": "PHB",
+        "className": "Warlock",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "The Great Old One",
+          "source": "PHB",
+          "shortName": "Great Old One",
+          "className": "Warlock",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "c63edb1eb1be",
         "_echoFeatures": [
           {
@@ -722181,12 +721528,26 @@
         ]
       },
       {
-        "shortName": "Draconic",
-        "className": "Sorcerer",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "Draconic Bloodline",
+        "shortName": "Draconic",
         "source": "PHB",
+        "className": "Sorcerer",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Draconic Bloodline",
+          "source": "PHB",
+          "shortName": "Draconic",
+          "className": "Sorcerer",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "c1e781100604",
         "_echoFeatures": [
           {
@@ -722296,12 +721657,26 @@
         ]
       },
       {
-        "shortName": "Wild",
-        "className": "Sorcerer",
-        "classSource": "PHB",
-        "edition": "classic",
         "name": "Wild Magic",
+        "shortName": "Wild",
         "source": "PHB",
+        "className": "Sorcerer",
+        "classSource": "XPHB",
+        "_copy": {
+          "name": "Wild Magic",
+          "source": "PHB",
+          "shortName": "Wild",
+          "className": "Sorcerer",
+          "classSource": "PHB",
+          "_preserve": {
+            "page": true,
+            "otherSources": true,
+            "referenceSources": true,
+            "srd": true,
+            "basicRules": true,
+            "reprintedAs": true
+          }
+        },
         "_echoId": "5f477fd80c46",
         "_echoFeatures": [
           {
@@ -818942,7 +818317,7 @@
           {
             "type": "list",
             "items": [
-              "When you take the {@action Attack} action and attack with only a {@item glaive|phb}, {@item halberd|phb}, {@item quarterstaff|phb}, or {@item spear|phb}, you can use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and the attack deals bludgeoning damage.",
+              "When you take the {@action Attack} action and attack with only a {@item glaive|phb}, {@item halberd|phb}, {@item quarterstaff|phb}, or {@item spear|phb}, you can use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@damage d4}, and the attack deals bludgeoning damage.",
               "While you are wielding a {@item glaive|phb}, {@item halberd|phb}, {@item pike|phb}, {@item quarterstaff|phb}, or {@item spear|phb}, other creatures provoke an opportunity attack from you when they enter the reach you have with that weapon."
             ]
           }
@@ -824334,6 +823709,9 @@
           "lootTables": [
             "Armaments - Uncommon|XDMG",
             "Implements - Uncommon|XDMG"
+          ],
+          "miscTags": [
+            "CNS"
           ]
         },
         "_echoId": "7d731fb0e398"
@@ -824484,6 +823862,9 @@
           "lootTables": [
             "Armaments - Rare|XDMG",
             "Implements - Rare|XDMG"
+          ],
+          "miscTags": [
+            "CNS"
           ]
         },
         "_echoId": "1ee5cb889cc4"
@@ -824634,6 +824015,9 @@
           "lootTables": [
             "Armaments - Very Rare|XDMG",
             "Implements - Very Rare|XDMG"
+          ],
+          "miscTags": [
+            "CNS"
           ]
         },
         "_echoId": "4c417343ebc5"
@@ -824969,6 +824353,9 @@
           ],
           "lootTables": [
             "Armaments - Very Rare|XDMG"
+          ],
+          "miscTags": [
+            "CNS"
           ]
         },
         "_echoId": "f7a551954dc7"
@@ -825771,6 +825158,9 @@
           "entries": [
             "{=baseName/at} {=baseName/l} of slaying is a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are both {@i {=baseName/l}s of dragon slaying} and {@i {=baseName/l}s of blue dragon slaying}. If a creature belonging to the type, race, or group associated with {=baseName/a} {=baseName/l} of slaying takes damage from the {=baseName/l}, the creature must make a {@dc 17} Constitution saving throw, taking an extra {@damage 6d10} piercing damage on a failed save, or half as much extra damage on a successful one.",
             "Once {=baseName/a} {=baseName/l} of slaying deals its extra damage to a creature, it becomes a nonmagical {=baseName/l}."
+          ],
+          "miscTags": [
+            "CNS"
           ]
         },
         "_echoId": "960ad2a7d329"
@@ -826476,6 +825866,9 @@
           "rarity": "uncommon",
           "entries": [
             "When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends. Once it deals damage to a target, the ammunition is no longer magical."
+          ],
+          "miscTags": [
+            "CNS"
           ]
         },
         "_echoId": "4e128003a7b0"
@@ -826593,6 +825986,9 @@
           "rarity": "uncommon",
           "entries": [
             "This leech has been dried and imbued with a mote of animating magic. If you hit a creature with a ranged attack roll using this ammunition, the leech springs to life and sinks its teeth into the target, dealing {@damage 1d4} piercing damage at the start of each of the target's turns. If the leech deals at least 10 damage or the target dies, the leech falls off. A creature, including the target, can use its action to detach the leech. Once a leech is no longer attached to its target, the leech dies and is no longer magical."
+          ],
+          "miscTags": [
+            "CNS"
           ]
         },
         "_echoId": "50462014cea3"
@@ -827812,6 +827208,9 @@
           "rarity": "uncommon",
           "entries": [
             "If this piece of magic ammunition hits a creature and deals damage, the target makes a {@dc 13} Charisma saving throw. On a failed save, the target can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn, as it sputters and rages impotently. Once it hits a target, the ammunition is no longer magical."
+          ],
+          "miscTags": [
+            "CNS"
           ]
         },
         "_echoId": "2f68362e93fb"
@@ -828500,6 +827899,8 @@
           "srd52": true,
           "basicRules2024": true,
           "rarity": "uncommon",
+          "strength": null,
+          "stealth": false,
           "entries": [
             "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes.",
             "If the armor normally imposes disadvantage on Dexterity ({@skill Stealth|XPHB}) checks or has a Strength requirement, the mithral version of the armor doesn't."
@@ -850560,6 +849961,27 @@
         "name": "Variant Criminal (Spy)",
         "source": "PHB",
         "page": 130,
+        "basicRules": true,
+        "_copy": {
+          "name": "Criminal",
+          "source": "PHB",
+          "_mod": {
+            "entries": {
+              "mode": "replaceArr",
+              "replace": "Feature: Criminal Contact",
+              "items": {
+                "name": "Feature: Spy Contact",
+                "type": "entries",
+                "entries": [
+                  "You have a reliable and trustworthy contact who acts as your liaison to a network of other spies. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you."
+                ],
+                "data": {
+                  "isFeature": true
+                }
+              }
+            }
+          }
+        },
         "_echoId": "e972310000aa",
         "_echoFluff": [
           {
@@ -850579,6 +850001,57 @@
         "name": "Variant Entertainer (Gladiator)",
         "source": "PHB",
         "page": 131,
+        "_copy": {
+          "name": "Entertainer",
+          "source": "PHB",
+          "_mod": {
+            "entries": [
+              {
+                "mode": "replaceArr",
+                "replace": {
+                  "index": 0
+                },
+                "items": {
+                  "type": "list",
+                  "style": "list-hang-notitle",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Skill Proficiencies:",
+                      "entry": "{@skill Acrobatics}, {@skill Performance}"
+                    },
+                    {
+                      "type": "item",
+                      "name": "Tool Proficiencies:",
+                      "entry": "{@item Disguise kit|phb}, one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+                    },
+                    {
+                      "type": "item",
+                      "name": "Equipment:",
+                      "entry": "An inexpensive but unusual weapon, such as a {@item trident|phb} or {@item net|phb} (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), {@item costume clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+                    }
+                  ]
+                }
+              },
+              {
+                "mode": "replaceArr",
+                "replace": {
+                  "index": 1
+                },
+                "items": {
+                  "name": "Feature: By Popular Demand",
+                  "type": "entries",
+                  "entries": [
+                    "You can always find a place to perform in any place that features combat for entertainment—perhaps a gladiatorial arena or secret pit fighting club. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+                  ],
+                  "data": {
+                    "isFeature": true
+                  }
+                }
+              }
+            ]
+          }
+        },
         "_echoId": "fadde8174024",
         "_echoFluff": [
           {
@@ -850595,6 +850068,47 @@
         ]
       },
       {
+        "name": "Variant Guild Artisan (Guild Merchant)",
+        "source": "PHB",
+        "page": 133,
+        "_copy": {
+          "name": "Guild Artisan",
+          "source": "PHB",
+          "_mod": {
+            "entries": {
+              "mode": "replaceArr",
+              "replace": {
+                "index": 0
+              },
+              "items": {
+                "type": "list",
+                "style": "list-hang-notitle",
+                "items": [
+                  {
+                    "type": "item",
+                    "name": "Skill Proficiencies:",
+                    "entry": "{@skill Insight}, {@skill Persuasion}"
+                  },
+                  {
+                    "type": "item",
+                    "name": "Tool Proficiencies:",
+                    "entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, or {@item navigator's tools|phb}, or an additional language"
+                  },
+                  {
+                    "type": "item",
+                    "name": "Languages:",
+                    "entry": "One of your choice"
+                  },
+                  {
+                    "type": "item",
+                    "name": "Equipment:",
+                    "entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} (one of your choice) or a {@item mule|phb} and {@item cart|phb}, a letter of introduction from your guild, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+                  }
+                ]
+              }
+            }
+          }
+        },
         "skillProficiencies": [
           {
             "insight": true,
@@ -850611,9 +850125,6 @@
             }
           }
         ],
-        "name": "Variant Guild Artisan (Guild Merchant)",
-        "source": "PHB",
-        "page": 133,
         "_echoId": "39caac329390",
         "_echoFluff": [
           {
@@ -850633,6 +850144,41 @@
         "name": "Variant Noble (Knight)",
         "source": "PHB",
         "page": 136,
+        "_copy": {
+          "name": "Noble",
+          "source": "PHB",
+          "_mod": {
+            "entries": [
+              {
+                "mode": "replaceArr",
+                "replace": "Feature: Position of Privilege",
+                "items": {
+                  "name": "Feature: Retainers",
+                  "type": "entries",
+                  "entries": [
+                    "You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. {@b One of your retainers is a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood} (This person could be your bond.). Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on).",
+                    "Your retainers can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
+                  ],
+                  "data": {
+                    "isFeature": true
+                  }
+                }
+              },
+              {
+                "mode": "insertArr",
+                "index": 1,
+                "items": {
+                  "name": "Variant Noble (Knight)",
+                  "type": "entries",
+                  "entries": [
+                    "A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature instead of the Position of Privilege feature.",
+                    "As an emblem of chivalry and the ideals of courtly love, you might include among your equipment a banner or other token from a noble lord or lady to whom you have given your heart-in a chaste sort of devotion."
+                  ]
+                }
+              }
+            ]
+          }
+        },
         "_echoId": "2addbec136c3",
         "_echoFluff": [
           {
@@ -850653,12 +850199,54 @@
         "name": "Variant Noble (Retainers)",
         "source": "PHB",
         "page": 136,
+        "_copy": {
+          "name": "Noble",
+          "source": "PHB",
+          "_mod": {
+            "entries": [
+              {
+                "mode": "replaceArr",
+                "replace": "Feature: Position of Privilege",
+                "items": {
+                  "name": "Feature: Retainers",
+                  "type": "entries",
+                  "entries": [
+                    "You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are {@creature commoner||commoners} who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
+                  ],
+                  "data": {
+                    "isFeature": true
+                  }
+                }
+              }
+            ]
+          }
+        },
         "_echoId": "32b3a22f2469"
       },
       {
         "name": "Variant Sailor (Pirate)",
         "source": "PHB",
         "page": 139,
+        "_copy": {
+          "name": "Sailor",
+          "source": "PHB",
+          "_mod": {
+            "entries": {
+              "mode": "replaceArr",
+              "replace": "Feature: Ship's Passage",
+              "items": {
+                "name": "Feature: Bad Reputation",
+                "type": "entries",
+                "entries": [
+                  "No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
+                ],
+                "data": {
+                  "isFeature": true
+                }
+              }
+            }
+          }
+        },
         "_echoId": "f68b2b6bb8f6",
         "_echoFluff": [
           {
