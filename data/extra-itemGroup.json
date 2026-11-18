@@ -1,0 +1,163 @@
+{
+	"itemGroup": [
+		{
+			"name": "Artisan's Tools",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"referenceSources": [
+				"PaBTSO",
+				"ToA"
+			],
+			"reprintedAs": [
+				"Artisan's Tools|XPHB"
+			],
+			"type": "AT",
+			"rarity": "none",
+			"items": [
+				"Alchemist's Supplies|PHB",
+				"Brewer's Supplies|PHB",
+				"Calligrapher's Supplies|PHB",
+				"Carpenter's Tools|PHB",
+				"Cartographer's Tools|PHB",
+				"Cobbler's Tools|PHB",
+				"Cook's Utensils|PHB",
+				"Glassblower's Tools|PHB",
+				"Jeweler's Tools|PHB",
+				"Leatherworker's Tools|PHB",
+				"Mason's Tools|PHB",
+				"Painter's Supplies|PHB",
+				"Potter's Tools|PHB",
+				"Smith's Tools|PHB",
+				"Tinker's Tools|PHB",
+				"Weaver's Tools|PHB",
+				"Woodcarver's Tools|PHB"
+			]
+		},
+		{
+			"name": "Dragon Scale Mail",
+			"source": "DMG",
+			"page": 165,
+			"srd": true,
+			"referenceSources": [
+				"KftGV"
+			],
+			"reprintedAs": [
+				"Dragon Scale Mail|XDMG"
+			],
+			"type": "MA",
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 45,
+			"ac": 14,
+			"bonusAc": "+1",
+			"stealth": true,
+			"items": [
+				"Black Dragon Scale Mail",
+				"Blue Dragon Scale Mail",
+				"Brass Dragon Scale Mail",
+				"Bronze Dragon Scale Mail",
+				"Copper Dragon Scale Mail",
+				"Gold Dragon Scale Mail",
+				"Green Dragon Scale Mail",
+				"Red Dragon Scale Mail",
+				"Silver Dragon Scale Mail",
+				"White Dragon Scale Mail"
+			],
+			"lootTables": [
+				"Magic Item Table H"
+			]
+		},
+		{
+			"name": "Gaming Set",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"reprintedAs": [
+				"Gaming Set|XPHB"
+			],
+			"type": "GS",
+			"rarity": "none",
+			"items": [
+				"Dice Set|PHB",
+				"Dragonchess Set|PHB",
+				"Playing Card Set|PHB",
+				"Three-Dragon Ante Set|PHB"
+			]
+		},
+		{
+			"name": "Musical Instrument",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"referenceSources": [
+				"ToA"
+			],
+			"reprintedAs": [
+				"Musical Instrument|XPHB"
+			],
+			"type": "INS",
+			"rarity": "none",
+			"items": [
+				"Bagpipes|PHB",
+				"Drum|PHB",
+				"Dulcimer|PHB",
+				"Flute|PHB",
+				"Horn|PHB",
+				"Lute|PHB",
+				"Lyre|PHB",
+				"Pan Flute|PHB",
+				"Shawm|PHB",
+				"Viol|PHB"
+			]
+		},
+		{
+			"name": "Potion of Healing (*)",
+			"source": "DMG",
+			"page": 187,
+			"srd": true,
+			"type": "P",
+			"rarity": "varies",
+			"entries": [
+				"{@note * This item group has the same name and source as the item {@item potion of healing}}."
+			],
+			"items": [
+				"Potion of Healing",
+				"Potion of Greater Healing",
+				"Potion of Superior Healing",
+				"Potion of Supreme Healing"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Wand of the War Mage",
+			"source": "DMG",
+			"page": 212,
+			"srd": true,
+			"reprintedAs": [
+				"Wand of the War Mage|XDMG"
+			],
+			"type": "WD|DMG",
+			"tier": "major",
+			"rarity": "varies",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"weight": 1,
+			"items": [
+				"+1 Wand of the War Mage",
+				"+2 Wand of the War Mage",
+				"+3 Wand of the War Mage"
+			]
+		}
+	]
+}

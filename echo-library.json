@@ -48,9 +48,9 @@
     "cloudflareProject": "",
     "customBaseUrl": ""
   },
-  "libVersion": 0,
+  "libVersion": 1,
   "dateAdded": 1795018593,
-  "dateLastModified": 1795018775,
+  "dateLastModified": 1795020823,
   "content": {
     "monster": [
       {

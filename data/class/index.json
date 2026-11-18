@@ -1,0 +1,14 @@
+{
+	"barbarian": "class-barbarian.json",
+	"cleric": "class-cleric.json",
+	"bard": "class-bard.json",
+	"druid": "class-druid.json",
+	"fighter": "class-fighter.json",
+	"monk": "class-monk.json",
+	"paladin": "class-paladin.json",
+	"ranger": "class-ranger.json",
+	"rogue": "class-rogue.json",
+	"warlock": "class-warlock.json",
+	"sorcerer": "class-sorcerer.json",
+	"wizard": "class-wizard.json"
+}
