@@ -1386,7 +1386,7 @@
 			}
 		],
 		"dateAdded": 1793294907,
-		"dateLastModified": 1795279420,
+		"dateLastModified": 1795281567,
 		"edition": "classic"
 	},
 	"object": [
@@ -61254,7 +61254,7 @@
 			]
 		},
 		{
-			"name": "KnU",
+			"name": "Human",
 			"source": "KNUSC",
 			"page": 0,
 			"raceName": "Human",

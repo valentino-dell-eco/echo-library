@@ -1038,9 +1038,9 @@
     "cloudflareProject": "",
     "customBaseUrl": ""
   },
-  "libVersion": 13,
+  "libVersion": 14,
   "dateAdded": 1793294907,
-  "dateLastModified": 1795279429,
+  "dateLastModified": 1795281575,
   "content": {
     "monster": [
       {
@@ -806163,7 +806163,7 @@
         "_echoId": "d08a4c7c767f"
       },
       {
-        "name": "KnU",
+        "name": "Human",
         "source": "KNUSC",
         "page": 0,
         "raceName": "Human",
