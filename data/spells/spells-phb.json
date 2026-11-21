@@ -15097,7 +15097,15 @@
 			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
 		},
 		{
 			"name": "Melf's Acid Arrow",

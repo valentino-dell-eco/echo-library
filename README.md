@@ -124,9 +124,9 @@ Libreria homebrew in formato 5eTools, generata con Echo Library Builder per la F
 - Veicoli: 32
 - Incantesimi: 664
 - Opzioni di classe: 950
-- Specie / razze: 149
-- Sottorazze: 91
-- Background: 103
+- Specie / razze: 155
+- Sottorazze: 110
+- Background: 106
 - Talenti: 191
 - Opzioni di creazione: 44
 - Oggetti: 1566
@@ -155,7 +155,7 @@ Libreria homebrew in formato 5eTools, generata con Echo Library Builder per la F
 - Migliorie dei veicoli: 22
 - Altro (JSON libero): 402
 - Classi: 39
-- Sottoclassi: 388
+- Sottoclassi: 389
 
 ## Usarla nella suite
 

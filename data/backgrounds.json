@@ -19966,6 +19966,801 @@
 				}
 			],
 			"hasFluff": true
+		},
+		{
+			"name": "Combat Medic",
+			"source": "KNUSC",
+			"page": 0,
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"medicine": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true,
+					"gaming set": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"healer's kit|phb",
+						"herbalism kit|phb",
+						{
+							"special": "medical book"
+						},
+						"common clothes|phb",
+						{
+							"special": "trinket from a patient"
+						},
+						{
+							"special": "insignia of medical training"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Athletics}, {@skill Medicine}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of {@item gaming set|phb}, {@item herbalism kit|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A {@item healer's kit|phb}, an {@item herbalism kit|phb}, a medical book, a set of {@item common clothes|phb}, a trinket from a patient, an insignia of medical training, and a {@item pouch|phb} containing 10 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Field Experience",
+					"type": "entries",
+					"entries": [
+						"You have advantage when diagnosing and treating diseases, poisons, venoms, and toxins afflicting humanoid creatures (living, dead, or undead). You also have advantage when diagnosing and treating injuries, wounds, and trauma on humanoid creatures."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Variant Feature: Firearms Training",
+					"type": "entries",
+					"entries": [
+						"Some Combat Medics are trained with firearms. You gain proficiency with firearms if they exist in your campaign setting."
+					]
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d8}",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I keep a cool head when faced with wounded comrades."
+								],
+								[
+									"2",
+									"I take great pride in my training and skill as a medic."
+								],
+								[
+									"3",
+									"I always look for ways to protect others from unnecessary harm."
+								],
+								[
+									"4",
+									"I form bonds quickly with those I serve beside."
+								],
+								[
+									"5",
+									"I tend to put others' lives before my own safety."
+								],
+								[
+									"6",
+									"I carry the weight of every comrade I failed to save."
+								],
+								[
+									"7",
+									"I maintain strict discipline both in combat and in medicine."
+								],
+								[
+									"8",
+									"I believe laughter and camaraderie are as healing as bandages."
+								]
+							],
+							"caption": "Personality Traits"
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d6}",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Duty. My mission is to save as many lives as I can, no matter the cost on my body. (Lawful)"
+								],
+								[
+									"2",
+									"Compassion. Every life is worth saving, even the enemy's. (Good)"
+								],
+								[
+									"3",
+									"Pragmatism. I can't save everyone, so I do what is necessary. (Neutral)"
+								],
+								[
+									"4",
+									"Efficiency. I do what must be done quickly, without hesitation. (Lawful)"
+								],
+								[
+									"5",
+									"Sacrifice. I would rather die myself than let my comrades fall. (Good)"
+								],
+								[
+									"6",
+									"Cynicism. I've seen too much suffering to believe in lofty ideals. (Chaotic)"
+								]
+							],
+							"caption": "Ideals"
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d6}",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I swore an oath to the company I served with, and I will never abandon that bond."
+								],
+								[
+									"2",
+									"My comrades are my family, and I would risk anything for them."
+								],
+								[
+									"3",
+									"I still wear the insignia of my service proudly."
+								],
+								[
+									"4",
+									"A comrade once saved my life, and I owe them a debt I can never repay."
+								],
+								[
+									"5",
+									"I lost a close friend in battle, and I carry their memory with me always."
+								],
+								[
+									"6",
+									"I seek redemption for a time I failed to save someone under my care."
+								]
+							],
+							"caption": "Bonds"
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d6}",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am haunted by the faces of those I could not save."
+								],
+								[
+									"2",
+									"I take reckless risks to save others, even when it endangers the mission."
+								],
+								[
+									"3",
+									"I drown my traumas with alcohol or other vices."
+								],
+								[
+									"4",
+									"I sometimes freeze when reminded of past failures."
+								],
+								[
+									"5",
+									"I push others away to avoid getting attached."
+								],
+								[
+									"6",
+									"I refuse to accept that I can't save everyone."
+								]
+							],
+							"caption": "Flaws"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hidden Heaven Gem",
+			"source": "KNUSC",
+			"page": 0,
+			"startingEquipment": [
+				{
+					"_": [
+						"traveler's clothes|phb",
+						{
+							"special": "trinket from your mentor at the Sanctuary"
+						},
+						{
+							"special": "coded letter of introduction to the Sanctuary network"
+						},
+						{
+							"special": "hooded cloak"
+						},
+						"ink (1-ounce bottle)|phb",
+						"ink pen|phb",
+						{
+							"special": "small journal"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 500
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Proficiencies",
+							"entry": "One skill of your choice, plus other from you talent (see Talents of the Gem)"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A set of {@item traveler's clothes|phb}, a trinket from your mentor at the Sanctuary, a coded letter of introduction to the Sanctuary network, a hooded cloak, a bottle of {@item ink (1-ounce bottle)|phb|ink}, an {@item ink pen|phb}, a small journal, and a {@item pouch|phb} containing 5 gp"
+						}
+					]
+				},
+				{
+					"name": "Talents of the Gem",
+					"type": "entries",
+					"entries": [
+						"Choose the kind of talent the Sanctuary recognized in you. Your variant determines the proficiency and fgeet  you gain:",
+						{
+							"type": "table",
+							"colLabels": [
+								"Variant",
+								"Proficiency",
+								"Feat"
+							],
+							"colStyles": [
+								"col-3",
+								"col-9",
+								""
+							],
+							"rows": [
+								[
+									"Scholar",
+									"One skill of your choice",
+									"{@feat Skill Expert|TCE}, {@feat Keen Mind|PHB}, {@feat Ritual Caster|PHB}"
+								],
+								[
+									"Artisan",
+									"One type of {@item artisan's tools|phb} of your choice",
+									"{@feat Artificer Initiate|TCE}, {@feat Chef|TCE}, {@feat Poisoner|TCE}"
+								],
+								[
+									"Performer",
+									"One {@item musical instrument|phb} of your choice",
+									"{@feat Actor|PHB}, {@feat Inspiring Leader|PHB}, {@feat Magic Initiate|PHB} (bard class)"
+								],
+								[
+									"Linguist",
+									"One language of your choice",
+									"{@feat Linguist|PHB}, {@feat Telepathic|TCE}, {@feat Observant|PHB}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"name": "Feature: Proof of Gifted Souls",
+					"type": "entries",
+					"entries": [
+						"You carry a trinket given to you by your mentor at the Sanctuary. By showing this trinket to a member of the Sanctuary's hidden network — a fellow \"Gifted Soul\" — you and up to five companions can receive food, lodging, and care for one night at any safehouse secretly run by the network, free of charge."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d8}",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I still absentmindedly hide any sign of my gift in front of strangers, out of old habit."
+								],
+								[
+									"2",
+									"I keep a small token from the mentor who first noticed my talent."
+								],
+								[
+									"3",
+									"I talk to my gift like it's a separate person sometimes."
+								],
+								[
+									"4",
+									"I flinch when people react too strongly to what I can do."
+								],
+								[
+									"5",
+									"I collect stories of other gifted people I've never met, hoping to find kindred souls."
+								],
+								[
+									"6",
+									"I have a ritual or phrase I repeat before using my talent, learned in training."
+								],
+								[
+									"7",
+									"I trust fellow alumni of the Sanctuary more than almost anyone else."
+								],
+								[
+									"8",
+									"I get restless indoors for too long — years of secrecy make me crave open sky."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d6}",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Belonging. I finally found people like me — I won't let that go. (Good)"
+								],
+								[
+									"2",
+									"Discipline. My gift is only safe in careful hands, so I train constantly. (Lawful)"
+								],
+								[
+									"3",
+									"Freedom. No one tells the gifted how to live anymore, myself included. (Chaotic)"
+								],
+								[
+									"4",
+									"Protection. I exist to shield others like me from those who'd fear or use them. (Good)"
+								],
+								[
+									"5",
+									"Ambition. My talent is a tool for power, and I intend to wield it fully. (Evil)"
+								],
+								[
+									"6",
+									"Balance. Gifted or not, everyone deserves the same fair treatment. (Neutral)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d6}",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"The mentor who found me at the Sanctuary is the closest thing I have to a parent."
+								],
+								[
+									"2",
+									"I owe everything to the Sanctuary; I send back coin and news whenever I can."
+								],
+								[
+									"3",
+									"I made a promise to a fellow student who never got to leave the Sanctuary."
+								],
+								[
+									"4",
+									"I carry a token from the day my gift first manifested — I refuse to lose it."
+								],
+								[
+									"5",
+									"Someone from my class at the Sanctuary vanished mysteriously, and I intend to find them."
+								],
+								[
+									"6",
+									"I still write to the other students I trained beside, wherever they've scattered."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d6}",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I struggle to trust anyone who wasn't raised the way I was."
+								],
+								[
+									"2",
+									"I sometimes use my gift recklessly just to prove it's not something to fear."
+								],
+								[
+									"3",
+									"I hide how much the Sanctuary's secrecy still haunts me."
+								],
+								[
+									"4",
+									"I judge people quickly based on how they react to gifted folk."
+								],
+								[
+									"5",
+									"I have trouble accepting help — the Sanctuary taught me to rely on myself."
+								],
+								[
+									"6",
+									"I'm quick to assume ordinary people will never really understand me."
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Outcast",
+			"source": "KNUSC",
+			"page": 0,
+			"skillProficiencies": [
+				{
+					"medicine": true,
+					"survival": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"anyArtisansTool": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"equipmentType": "toolArtisan"
+						},
+						"quarterstaff|phb",
+						"traveler's clothes|phb",
+						"blanket|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Medicine}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of {@item artisan's tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A set of {@item artisan's tools|phb}, a {@item quarterstaff|phb|staff}, a set of {@item traveler's clothes|phb}, a {@item blanket|phb}, and a {@item pouch|phb} containing 10 gp"
+						}
+					]
+				},
+				{
+					"name": "Reason for Exile",
+					"type": "entries",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d8}",
+								"Reason"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I wanted more from life than I could find in the city."
+								],
+								[
+									"2",
+									"I strongly disagreed with how the leaders of my race were handling an issue."
+								],
+								[
+									"3",
+									"I was falsely accused and exiled for a crime against my people."
+								],
+								[
+									"4",
+									"I was forced out of town by a competitor."
+								],
+								[
+									"5",
+									"I made a serious mistake and fled the city embarrassed and disgraced."
+								],
+								[
+									"6",
+									"I left the city because I wanted solitude to work on my projects."
+								],
+								[
+									"7",
+									"One of my ancestors led a rebellion against the city and forced our entire family to be cast out."
+								],
+								[
+									"8",
+									"I am not happy in any city because I prefer the rain in my face and the wind on my skin."
+								]
+							]
+						}
+					]
+				},
+				{
+					"name": "Feature: No Place Like Home",
+					"type": "entries",
+					"entries": [
+						"Despite being exiled from your home city, you still feel a connection to it. No matter where you are, you can sense the direction and distance to your homeland. This means that with a map, you are essentially never lost. Additionally, your time in the wilderness has allowed you to find enough food and fresh water to keep you and up to five companions alive, assuming there is food and water available."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d8}",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My goal in life is to rectify the wrong that caused my banishment. Only then will I truly be at peace with myself."
+								],
+								[
+									"2",
+									"I don't trust people. I have been betrayed too many times by those I considered friends."
+								],
+								[
+									"3",
+									"I enjoy traveling and meeting new people. Seeing the world is a thrill."
+								],
+								[
+									"4",
+									"Although I am no longer welcome in my home town, I see this as a minor setback. I will find a place that accepts me and call that my new home."
+								],
+								[
+									"5",
+									"My curiosity is my driving force. I am constantly searching for new places, people, and things."
+								],
+								[
+									"6",
+									"I was forced out of my home town at a very young age. Another race or creature raised me."
+								],
+								[
+									"7",
+									"I tend to get lost in thought. This causes problems with paying attention to others or my surroundings."
+								],
+								[
+									"8",
+									"I have used my exile to think about a great mystery of the universe. I am not quite ready to share it with others, but I will soon."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d6}",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Free Spirit. Everyone should be able to live the life they want, free of restraints. (Chaotic)"
+								],
+								[
+									"2",
+									"Loyalty. There are very few true friends. We should do our best to help them. (Lawful)"
+								],
+								[
+									"3",
+									"Revenge. Pain and suffering are the only rewards for those who hurt me. (Evil)"
+								],
+								[
+									"4",
+									"Service. Helping others is the best use for my extraordinary abilities. (Good)"
+								],
+								[
+									"5",
+									"Nature. The world relies on the delicate balance of nature. (Neutral)"
+								],
+								[
+									"6",
+									"Perfection. Being the best at whatever I do is important to me. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d6}",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Despite my exile, my home city is important to me. I still actively patrol and protect the area."
+								],
+								[
+									"2",
+									"My family and friends are all I have. I will protect them with my life."
+								],
+								[
+									"3",
+									"The wonders of nature are worth protecting. If we lose them, we lose everything."
+								],
+								[
+									"4",
+									"It is up to me to restore my family name. I am their last chance to become a legend."
+								],
+								[
+									"5",
+									"I sense an impending danger. I am searching for answers on this premonition."
+								],
+								[
+									"6",
+									"I have discovered a dangerous secret. I must do everything I can to stop it from being revealed."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice d6}",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I get easily distracted by my addictions: ale, wine, or something else."
+								],
+								[
+									"2",
+									"A lack of action is dangerous. I leap into combat without analyzing the problem."
+								],
+								[
+									"3",
+									"I have a hard time trusting anyone. It takes a while to make new friends."
+								],
+								[
+									"4",
+									"I am quick to anger and usually react violently."
+								],
+								[
+									"5",
+									"I give everyone the benefit of the doubt. Unfortunately, this can leave me vulnerable."
+								],
+								[
+									"6",
+									"My face is well known in the region. This makes it hard to hide from those chasing me."
+								]
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }

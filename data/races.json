@@ -12797,6 +12797,705 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "KnU",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Human",
+			"raceSource": "PHB",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"feats": [
+				{
+					"any": 1
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"data": {
+						"overwrite": "Ability Score Increase"
+					},
+					"entries": [
+						"Two different ability scores of your choice increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fertile Blood",
+					"entries": [
+						"I can produce offspring with members of other races."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Human Adaptability",
+					"entries": [
+						"I gain two of the following options (each one only once):",
+						{
+							"type": "list",
+							"items": [
+								"Proficiency in one skill of my choice.",
+								"Proficiency with one tool set of my choice.",
+								"Proficiency with one musical instrument of my choice.",
+								"One language of my choice.",
+								"Proficiency with shields and with one martial weapon of my choice."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Individual Talent",
+					"entries": [
+						"I gain one feat of my choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Malleable Intellect",
+					"entries": [
+						"At 1st level, I gain Intelligence Points (IP) equal to my Intelligence modifier. When my Intelligence modifier increases from an Ability Score Improvement, I gain 1 additional IP. When I gain a level, I can spend these points:",
+						{
+							"type": "list",
+							"items": [
+								"Spend 2 IP to gain proficiency in one skill or tool set, or to learn one language.",
+								"Spend 1 IP to gain expertise in one skill or tool set for which I spent 2 IP."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonkin",
+			"source": "KNUSC",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"age": {
+				"mature": 18,
+				"max": 120
+			},
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Dragonkin reach adulthood at 18 years and live up to around 120 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Dragonkin range from 5 to over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a flying speed of 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"entries": [
+						"My scales and horns reflect my draconic bloodline. I choose one of the following ancestries: black, blue, green, red, white, brass, bronze, copper, gold, silver, amethyst, crystal, emerald, sapphire, or topaz. My ancestry determines the damage type of my Boiling Blood and a damage resistance (see the subraces)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dragon Tail",
+					"entries": [
+						"I have a tail I can use for unarmed strikes. It has a reach of 5 feet, and on a hit it deals bludgeoning damage equal to {@damage 1d8} + my Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Boiling Blood",
+					"entries": [
+						"Starting at 5th level, as an action, I unleash the power within my draconic blood for 1 minute. My flying speed becomes 60 feet, my tail's reach increases by 5 feet, and my unarmed strikes (not the tail) deal an extra {@damage 1d4} slashing damage as my nails turn into claws (Dexterity for attacks). Once per turn, when I deal damage with an attack or spell, I also deal extra damage of my ancestry's type equal to my level.",
+						"At the end of each of my turns, I take psychic damage equal to half my level (rounded up). This damage can't be reduced in any way. If this damage reduces me to 0 hit points, I make my first death saving throw with disadvantage.",
+						"Once I use this trait, I can't use it again until I finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Draconic."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kitsune",
+			"source": "KNUSC",
+			"page": 0,
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"cha": 2
+				}
+			],
+			"age": {
+				"mature": 16,
+				"max": 900
+			},
+			"heightAndWeight": {
+				"baseHeight": 31,
+				"heightMod": "2d10",
+				"baseWeight": 35,
+				"weightMod": "2d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"deception": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"dancing lights#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Kitsune reach adulthood at 16 years old and stop aging at 30, living up to 900 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Kitsune range from under 3 feet to over 6 feet tall. Your size is Small or Medium (your choice)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"I can see in dim light within 60 feet of me as if it were bright light, and in darkness as if it were dim light. I can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"I have advantage on saving throws against being {@condition charmed}, and magic can't put me to sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kitsune Shapes",
+					"entries": [
+						"As a bonus action, I can transform into one of two forms:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "True Fox Form.",
+									"entry": "I transform into a Small fox with hit points equal to 10 + my level and AC 10 + my proficiency bonus. My unarmed strike deals {@damage 2d4} piercing damage. I can't cast spells with material components (except {@spell dancing lights}). I can use this form twice per long rest."
+								},
+								{
+									"type": "item",
+									"name": "Human Form.",
+									"entry": "I can magically take a human appearance while retaining all my abilities. I can hide or show my tails and ears as a bonus action."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kitsune Fire",
+					"entries": [
+						"I know the {@spell dancing lights} cantrip. The lights I create are blue will-o'-wisps. Intelligence, Wisdom, or Charisma is my spellcasting ability for this cantrip (choose when you select this race)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skill Proficiency",
+					"entries": [
+						"I have proficiency in the {@skill Deception} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Sylvan."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tanuki",
+			"source": "KNUSC",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"darkvision": 60,
+			"ability": [
+				{
+					"wis": 2,
+					"con": 1
+				}
+			],
+			"age": {
+				"mature": 6,
+				"max": 240
+			},
+			"heightAndWeight": {
+				"baseHeight": 20,
+				"heightMod": "2d6",
+				"baseWeight": 20,
+				"weightMod": "1d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"survival": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"will": [
+								"speak with animals"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Tanuki reach adulthood at 6 years old and live up to 240 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tanuki range from under 2 feet to just under 3 feet tall. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a climbing speed of 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"I can see in dim light within 60 feet of me as if it were bright light, and in darkness as if it were dim light. I can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Forest Dweller",
+					"entries": [
+						"I know the {@spell speak with animals} spell and can cast it at will. Wisdom is my spellcasting ability for it. I am proficient in the {@skill Survival} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Clumsy Transformist",
+					"entries": [
+						"As an action, I concentrate (as for a spell) to create an illusion that replaces my true appearance. The illusion can make me appear as a creature no larger than Large or as an object no larger than a 10-foot cube that isn't anchored to the ground.",
+						"On subsequent turns, I can use my movement and actions to modify the illusion, making it appear to move or attack. Creatures seeing me from beyond 10 feet believe the illusion is my true form and consider it real, rationalizing any illogical outcomes of my actions.",
+						"The illusion can attack or interact with a target if the illusory form could logically deal damage or interact with it. When interacting with a creature through the illusion, I use my own statistics.",
+						"As an action, I can attack with the illusion: I am proficient with this attack, it has a range of 10 feet, and it makes a magical attack roll using my Wisdom modifier; on a hit, a creature takes {@damage 1d6} psychic damage.",
+						"A creature within 10 feet of the illusion can use its action to make an Intelligence ({@skill Investigation}) check against DC 8 + my proficiency bonus + my Wisdom modifier to recognize the illusion.",
+						"Once I use this trait, I can't use it again until I finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Sylvan."
+					]
+				}
+			]
+		},
+		{
+			"name": "Harpy",
+			"source": "KNUSC",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 25,
+				"fly": 30
+			},
+			"darkvision": 60,
+			"ability": [
+				{
+					"wis": 2,
+					"cha": 2,
+					"str": -1,
+					"int": -1
+				}
+			],
+			"age": {
+				"mature": 16,
+				"max": 120
+			},
+			"heightAndWeight": {
+				"baseHeight": 59,
+				"heightMod": "2d4",
+				"baseWeight": 85,
+				"weightMod": "2d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"undercommon": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"flail|phb": true,
+					"morningstar|phb": true,
+					"net|phb": true
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"message#c",
+							"thaumaturgy#c"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"charm person"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"enthrall"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Harpies reach adulthood at 16 years old and live up to 120 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Harpies range from 4'11\" to 5'3\" tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 25 feet, and you have a flying speed of 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"I can see in dim light within 60 feet of me as if it were bright light, and in darkness as if it were dim light. I can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Soothing Voice",
+					"entries": [
+						"I know the {@spell message} and {@spell thaumaturgy} cantrips. When I reach 3rd level, I can cast {@spell charm person} once with this trait, and I regain the ability to cast it when I finish a long rest. When I reach 5th level, I can cast {@spell enthrall} once with this trait, and I regain the ability to cast it when I finish a long rest. Wisdom or Charisma is my spellcasting ability for these spells (choose when you select this race)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amazon Blood",
+					"entries": [
+						"I can produce offspring with members of other races, and the progeny is always a harpy."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Raptor Claws",
+					"entries": [
+						"When I make an unarmed strike, I can use the claws of my lower limbs. The claws use Dexterity, I am proficient with them, they have a reach of 5 feet, and they deal {@damage 1d8} + my Dexterity modifier piercing damage. My lower limbs are prehensile."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Harpy Training",
+					"entries": [
+						"I am proficient with the herbalism kit, the {@item flail|phb}, the {@item morningstar|phb}, and the {@item net|phb}. When flying, I must use weapons I'm proficient with that don't have the heavy or two-handed property with my lower limbs."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Undercommon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Halfblood",
+			"source": "KNUSC",
+			"page": 0,
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				"A halfblood is born from two different races. To create one, choose the two parent races (any race, subrace, or variant available, official or homebrew). The ability scores above are a placeholder: they come from one of the parents.",
+				{
+					"type": "entries",
+					"name": "Inherited Aspects",
+					"entries": [
+						"Choose which parent gives each of the following aspects. Each aspect comes entirely from one parent:",
+						{
+							"type": "list",
+							"items": [
+								"Ability Score Increase",
+								"Size",
+								"Speed",
+								"Senses (darkvision and the like)",
+								"Languages",
+								"Age, height, and weight"
+							]
+						},
+						"Aspects are free, except for what one parent has and the other lacks:",
+						{
+							"type": "list",
+							"items": [
+								"Senses: each sense of the chosen parent that the other parent lacks, or has with a shorter range, costs 1 point.",
+								"Speed: each movement mode of the chosen parent that the other parent lacks costs points: fly 2, swim 1, climb 1, burrow 1."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Inherited Traits",
+					"entries": [
+						"Then choose the traits the halfblood inherits from either parent. A halfblood has a budget of 10 points to spend on traits and on the senses and speed above.",
+						{
+							"type": "table",
+							"caption": "Trait Costs",
+							"colLabels": [
+								"Trait",
+								"Cost"
+							],
+							"colStyles": [
+								"col-9",
+								"col-3 text-center"
+							],
+							"rows": [
+								[
+									"Any trait",
+									"1"
+								],
+								[
+									"A trait that gives spells, an attack, natural armor or AC, a companion, or limited uses",
+									"+1"
+								],
+								[
+									"A trait that gives damage resistance",
+									"1 per damage type (instead of 1)"
+								],
+								[
+									"Human (KnU): Individual Talent",
+									"4"
+								],
+								[
+									"Human (KnU): Human Adaptability",
+									"3"
+								],
+								[
+									"Human (KnU): Malleable Intellect",
+									"2"
+								],
+								[
+									"Human (KnU): Fertile Blood",
+									"0"
+								]
+							]
+						},
+						"A trait that gives only proficiencies, an action, or flavor costs 1 point."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hybrid Vigor",
+					"entries": [
+						"Mixed-blood creatures tend to be stronger than their parents: a halfblood can inherit as many traits as the parent with more traits, plus one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "DM Permission",
+					"entries": [
+						"With the DM's permission, a halfblood can ignore the point budget, the limit on the number of traits, or both."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Halfbloods live as long as their parents' races."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Halfbloods vary in size, between those of their parents' races. Your size is that of the parent that gives your size."
+					]
+				}
+			]
 		}
 	],
 	"subrace": [
@@ -18931,6 +19630,693 @@
 					"entries": [
 						"A humanoid killed with your Bloodthirst ability becomes a {@creature Vampire Null|PSZ|null}."
 					]
+				}
+			]
+		},
+		{
+			"name": "Feathercrowned",
+			"source": "KNUSC",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"age": {
+				"mature": 10,
+				"max": 70
+			},
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Shifters reach young adulthood at age 10 and rarely live over 70 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Shifters range from 5 to over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"I can see in dim light within 60 feet of me as if it were bright light, and in darkness as if it were dim light. I can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skill Proficiency",
+					"entries": [
+						"I have proficiency in the {@skill Perception} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Soft Fall",
+					"entries": [
+						"As a reaction when I'm about to take falling damage, I can reduce that damage to 0. Additionally, for every 5 feet fallen, I can move 5 feet horizontally in any direction. I can't use this ability if I'm {@condition grappled}, {@condition restrained}, or {@condition incapacitated}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shifting",
+					"entries": [
+						"As a bonus action, I can assume a more bestial appearance. This transformation lasts for 1 minute, until I die, or until I revert to my normal appearance as a bonus action. Once I shift, I can't do so again until I finish a short or long rest.",
+						"While shifted, I gain a flying speed of 30 feet; if I end my movement in a space with no surfaces to support me, I fall. Additionally, my unarmed strikes deal an extra {@damage 1d4} + my Dexterity modifier slashing damage while I'm shifted."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common."
+					]
+				}
+			],
+			"raceName": "Shifter",
+			"raceSource": "ERLW"
+		},
+		{
+			"name": "Finnedtrunk",
+			"source": "KNUSC",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"darkvision": 60,
+			"ability": [
+				{
+					"con": 2,
+					"wis": 1
+				}
+			],
+			"age": {
+				"mature": 10,
+				"max": 70
+			},
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"insight": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Shifters reach young adulthood at age 10 and rarely live over 70 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Shifters range from 5 to over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a swimming speed of 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"I can see in dim light within 60 feet of me as if it were bright light, and in darkness as if it were dim light. I can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skill Proficiency",
+					"entries": [
+						"I have proficiency in the {@skill Insight} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"I can hold my breath for up to 8 hours, and I have a swimming speed of 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shifting",
+					"entries": [
+						"As a bonus action, I can assume a more bestial appearance. This transformation lasts for 1 minute, until I die, or until I revert to my normal appearance as a bonus action. Once I shift, I can't do so again until I finish a short or long rest.",
+						"While shifted, I gain a +1 bonus to AC and have advantage on Constitution saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common."
+					]
+				}
+			],
+			"raceName": "Shifter",
+			"raceSource": "ERLW"
+		},
+		{
+			"name": "Black",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"acid"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales are glossy black with a greenish tint, reflecting my black draconic bloodline. I have resistance to acid damage, and the extra damage of my Boiling Blood is acid damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blue",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"lightning"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales shimmer like sapphire lightning, reflecting my blue draconic bloodline. I have resistance to lightning damage, and the extra damage of my Boiling Blood is lightning damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Green",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"poison"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales shine in shades of emerald and forest, reflecting my green draconic bloodline. I have resistance to poison damage, and the extra damage of my Boiling Blood is poison damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Red",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"fire"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales burn crimson and scarlet, reflecting my red draconic bloodline. I have resistance to fire damage, and the extra damage of my Boiling Blood is fire damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "White",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"cold"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales gleam like frost and snow, reflecting my white draconic bloodline. I have resistance to cold damage, and the extra damage of my Boiling Blood is cold damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Brass",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"fire"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales shimmer in muted brass tones, reflecting my brass draconic bloodline. I have resistance to fire damage, and the extra damage of my Boiling Blood is fire damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Copper",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"acid"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales shine like tarnished copper, reflecting my copper draconic bloodline. I have resistance to acid damage, and the extra damage of my Boiling Blood is acid damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gold",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"fire"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales shine with brilliant golden luster, reflecting my gold draconic bloodline. I have resistance to fire damage, and the extra damage of my Boiling Blood is fire damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Silver",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"cold"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales gleam like polished silver, reflecting my silver draconic bloodline. I have resistance to cold damage, and the extra damage of my Boiling Blood is cold damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Amethyst",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"force"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales shimmer in deep crystalline violet, reflecting my amethyst draconic bloodline. I have resistance to force damage, and the extra damage of my Boiling Blood is force damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Crystal",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"radiant"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales shine like quartz in iridescent hues, reflecting my crystal draconic bloodline. I have resistance to radiant damage, and the extra damage of my Boiling Blood is radiant damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Emerald",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"psychic"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales glow with a translucent green, reflecting my emerald draconic bloodline. I have resistance to psychic damage, and the extra damage of my Boiling Blood is psychic damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sapphire",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"thunder"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales glimmer in deep ocean blue, reflecting my sapphire draconic bloodline. I have resistance to thunder damage, and the extra damage of my Boiling Blood is thunder damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Topaz",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Dragonkin",
+			"raceSource": "KNUSC",
+			"resist": [
+				"necrotic"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"data": {
+						"overwrite": "Draconic Ancestry"
+					},
+					"entries": [
+						"My scales radiate a golden-brown sheen, reflecting my topaz draconic bloodline. I have resistance to necrotic damage, and the extra damage of my Boiling Blood is necrotic damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Yako",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Kitsune",
+			"raceSource": "KNUSC",
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"produce flame#c"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"charm person"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"alter self"
+								]
+							}
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Stealthy Prankster",
+					"entries": [
+						"I can take the {@action Hide} action as a bonus action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kitsune Arts",
+					"entries": [
+						"I know the {@spell produce flame} cantrip. When I reach 3rd level, I can cast {@spell charm person} once with this trait, and I regain the ability to cast it when I finish a long rest. When I reach 5th level, I can cast {@spell alter self} once with this trait, and I regain the ability to cast it when I finish a long rest. Charisma is my spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Yin Zenko",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Kitsune",
+			"raceSource": "KNUSC",
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"sacred flame#c"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"protection from evil and good"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"cure wounds"
+								]
+							}
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Natural Scholars",
+					"entries": [
+						"I gain proficiency in either the {@skill History} or the {@skill Religion} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Yin Zenko Arts",
+					"entries": [
+						"I know the {@spell sacred flame} cantrip. When I reach 3rd level, I can cast {@spell protection from evil and good} once with this trait, and I regain the ability to cast it when I finish a long rest. When I reach 5th level, I can cast {@spell cure wounds} as a 2nd-level spell once with this trait, and I regain the ability to cast it when I finish a long rest. Charisma is my spellcasting ability for these spells."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"history",
+							"religion"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Yang Zenko",
+			"source": "KNUSC",
+			"page": 0,
+			"raceName": "Kitsune",
+			"raceSource": "KNUSC",
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"resistance#c"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"detect evil and good"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"zone of truth"
+								]
+							}
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Always Alert",
+					"entries": [
+						"I gain proficiency in either the {@skill Perception} or the {@skill Insight} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Yang Zenko Arts",
+					"entries": [
+						"I know the {@spell resistance} cantrip. When I reach 3rd level, I can cast {@spell detect evil and good} once with this trait, and I regain the ability to cast it when I finish a long rest. When I reach 5th level, I can cast {@spell zone of truth} once with this trait, and I regain the ability to cast it when I finish a long rest. Charisma is my spellcasting ability for these spells."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"perception",
+							"insight"
+						]
+					}
 				}
 			]
 		}
