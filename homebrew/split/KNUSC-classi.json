@@ -1386,7 +1386,7 @@
 			}
 		],
 		"dateAdded": 1793294907,
-		"dateLastModified": 1795278924,
+		"dateLastModified": 1795279420,
 		"edition": "classic"
 	},
 	"class": [
@@ -114504,6 +114504,52 @@
 			]
 		},
 		{
+			"name": "Expanded Spell List",
+			"source": "KNUSC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Raven Queen",
+			"subclassSource": "KNUSC",
+			"level": 1,
+			"entries": [
+				"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. You also learn the {@spell spare the dying} cantrip, which doesn't count against your number of cantrips known.",
+				{
+					"type": "table",
+					"caption": "Raven Queen Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell false life}, {@spell sanctuary}"
+						],
+						[
+							"2nd",
+							"{@spell silence}, {@spell gentle repose}"
+						],
+						[
+							"3rd",
+							"{@spell feign death}, {@spell daylight}"
+						],
+						[
+							"4th",
+							"{@spell death ward}, {@spell locate creature}"
+						],
+						[
+							"5th",
+							"{@spell commune}, {@spell dispel evil and good}"
+						]
+					]
+				}
+			]
+		},
+		{
 			"name": "Sentinel Familiar",
 			"source": "KNUSC",
 			"className": "Warlock",
@@ -114512,28 +114558,16 @@
 			"subclassSource": "KNUSC",
 			"level": 1,
 			"entries": [
+				"You learn the {@spell find familiar} spell, which doesn't count against your number of spells known. If the familiar you summon is a {@creature raven}, you gain the following benefits:",
 				{
-					"source": "KNUSC",
-					"page": 0,
-					"className": "Warlock",
-					"classSource": "PHB",
-					"subclassShortName": "Raven Queen (KnU)",
-					"subclassSource": "KNUSC",
-					"level": 1,
-					"entries": [
-						"You learn the {@spell find familiar} spell, which doesn't count against your number of spells known. If the familiar you summon is a {@creature raven}, you gain the following benefits:",
-						{
-							"type": "list",
-							"items": [
-								"You don't need material components to cast the spell.",
-								"The raven gains darkvision out to a range of 60 feet.",
-								"While the raven is on your person, you add your Charisma modifier to your Wisdom ({@skill Perception}) checks and your passive Perception.",
-								"You can see and hear through the raven's senses while it is within 100 feet of you.",
-								"If your raven is killed by a creature's attack, spell, or effect, that creature is marked as if affected by {@spell hunter's mark} for 24 hours (no concentration required)."
-							]
-						}
-					],
-					"header": 1
+					"type": "list",
+					"items": [
+						"You don't need material components to cast the spell.",
+						"The raven gains darkvision out to a range of 60 feet.",
+						"While the raven is on your person, you add your Charisma modifier to your Wisdom ({@skill Perception}) checks and your passive Perception.",
+						"You can see and hear through the raven's senses while it is within 100 feet of you.",
+						"If your raven is killed by a creature's attack, spell, or effect, that creature is marked as if affected by {@spell hunter's mark} for 24 hours (no concentration required)."
+					]
 				}
 			]
 		},
@@ -114548,52 +114582,8 @@
 			"entries": [
 				"Your patron is the Raven Queen, the enigmatic ruler of the Shadowfell who watches over the boundary between life and death.",
 				{
-					"name": "Expanded Spell List",
-					"source": "KNUSC",
-					"page": 0,
-					"className": "Warlock",
-					"classSource": "PHB",
-					"subclassShortName": "Raven Queen (KnU)",
-					"subclassSource": "KNUSC",
-					"level": 1,
-					"entries": [
-						"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. You also learn the {@spell spare the dying} cantrip, which doesn't count against your number of cantrips known.",
-						{
-							"type": "table",
-							"caption": "Raven Queen Expanded Spells",
-							"colLabels": [
-								"Spell Level",
-								"Spells"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"1st",
-									"{@spell false life}, {@spell sanctuary}"
-								],
-								[
-									"2nd",
-									"{@spell silence}, {@spell gentle repose}"
-								],
-								[
-									"3rd",
-									"{@spell feign death}, {@spell daylight}"
-								],
-								[
-									"4th",
-									"{@spell death ward}, {@spell locate creature}"
-								],
-								[
-									"5th",
-									"{@spell commune}, {@spell dispel evil and good}"
-								]
-							]
-						}
-					],
-					"header": 1
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock|PHB|Raven Queen|KNUSC|1|KNUSC"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -114610,31 +114600,20 @@
 			"subclassSource": "KNUSC",
 			"level": 6,
 			"entries": [
+				"As a bonus action, you can merge with your raven familiar while it is on your person. You follow the rules of the druid's {@classFeature Wild Shape|Druid||2} feature, with the following modifications:",
 				{
-					"source": "KNUSC",
-					"page": 0,
-					"className": "Warlock",
-					"classSource": "PHB",
-					"subclassShortName": "Raven Queen (KnU)",
-					"subclassSource": "KNUSC",
-					"level": 6,
-					"entries": [
-						"As a bonus action, you can merge with your raven familiar while it is on your person. You follow the rules of the druid's {@classFeature Wild Shape|Druid||2} feature, with the following modifications:",
-						{
-							"type": "list",
-							"items": [
-								"You gain all the raven's game statistics except its Intelligence, Wisdom, and Charisma scores.",
-								"You gain its skill and saving throw proficiencies while keeping your own, using whichever bonus is higher.",
-								"You keep your hit points, Hit Dice, and Armor Class.",
-								"You can cast only spells with a range of Self or Touch that don't require material components, and transforming doesn't break your concentration.",
-								"You retain your class, racial, and other features, but not your special senses.",
-								"You choose whether your equipment falls to the ground or merges into your new form.",
-								"You revert to your normal form when the duration ends or if you fall {@condition unconscious}."
-							]
-						},
-						"You can stay merged for a number of hours equal to half your warlock level (rounded down). You can use this feature twice, and you regain all expended uses when you finish a short or long rest."
+					"type": "list",
+					"items": [
+						"You gain all the raven's game statistics except its Intelligence, Wisdom, and Charisma scores.",
+						"You gain its skill and saving throw proficiencies while keeping your own, using whichever bonus is higher.",
+						"You keep your hit points, Hit Dice, and Armor Class.",
+						"You can cast only spells with a range of Self or Touch that don't require material components, and transforming doesn't break your concentration.",
+						"You retain your class, racial, and other features, but not your special senses.",
+						"You choose whether your equipment falls to the ground or merges into your new form.",
+						"You revert to your normal form when the duration ends or if you fall {@condition unconscious}."
 					]
-				}
+				},
+				"You can stay merged for a number of hours equal to half your warlock level (rounded down). You can use this feature twice, and you regain all expended uses when you finish a short or long rest."
 			]
 		},
 		{
@@ -114646,18 +114625,7 @@
 			"subclassSource": "KNUSC",
 			"level": 10,
 			"entries": [
-				{
-					"source": "KNUSC",
-					"page": 0,
-					"className": "Warlock",
-					"classSource": "PHB",
-					"subclassShortName": "Raven Queen (KnU)",
-					"subclassSource": "KNUSC",
-					"level": 10,
-					"entries": [
-						"You can't be {@condition frightened}, you have advantage on death saving throws, and you have resistance to necrotic damage."
-					]
-				}
+				"You can't be {@condition frightened}, you have advantage on death saving throws, and you have resistance to necrotic damage."
 			]
 		},
 		{
@@ -114669,18 +114637,7 @@
 			"subclassSource": "KNUSC",
 			"level": 14,
 			"entries": [
-				{
-					"source": "KNUSC",
-					"page": 0,
-					"className": "Warlock",
-					"classSource": "PHB",
-					"subclassShortName": "Raven Queen (KnU)",
-					"subclassSource": "KNUSC",
-					"level": 14,
-					"entries": [
-						"You can cast {@spell finger of death} once without expending a spell slot. Once you do so, you can't use this feature again until you finish a long rest."
-					]
-				}
+				"You can cast {@spell finger of death} once without expending a spell slot. Once you do so, you can't use this feature again until you finish a long rest."
 			]
 		}
 	],

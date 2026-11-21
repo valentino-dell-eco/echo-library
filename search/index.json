@@ -101258,6 +101258,15 @@
 		{
 			"id": 13353,
 			"c": 41,
+			"n": "Raven Queen Warlock 1; Expanded Spell List",
+			"cn": "Warlock 1; Expanded Spell List",
+			"s": "KNUSC",
+			"u": "expanded%20spell%20list_warlock_phb_raven%20queen_knusc_1_knusc",
+			"uh": "warlock_phb,state:sub_raven%20queen_knusc=b1~feature=s0-0"
+		},
+		{
+			"id": 13354,
+			"c": 41,
 			"n": "Raven Queen Warlock 1; Sentinel Familiar",
 			"cn": "Warlock 1; Sentinel Familiar",
 			"s": "KNUSC",
@@ -101265,7 +101274,7 @@
 			"uh": "warlock_phb,state:sub_raven%20queen_knusc=b1~feature=s0-0"
 		},
 		{
-			"id": 13354,
+			"id": 13355,
 			"c": 41,
 			"n": "Raven Queen Warlock 1; The Raven Queen",
 			"cn": "Warlock 1; The Raven Queen",
@@ -101274,7 +101283,7 @@
 			"uh": "warlock_phb,state:sub_raven%20queen_knusc=b1~feature=s0-0"
 		},
 		{
-			"id": 13355,
+			"id": 13356,
 			"c": 41,
 			"n": "Raven Queen Warlock 6; Raven Shape",
 			"cn": "Warlock 6; Raven Shape",
@@ -101283,7 +101292,7 @@
 			"uh": "warlock_phb,state:sub_raven%20queen_knusc=b1~feature=s5-0"
 		},
 		{
-			"id": 13356,
+			"id": 13357,
 			"c": 41,
 			"n": "Raven Queen Warlock 10; Raven's Shield",
 			"cn": "Warlock 10; Raven's Shield",
@@ -101292,7 +101301,7 @@
 			"uh": "warlock_phb,state:sub_raven%20queen_knusc=b1~feature=s9-0"
 		},
 		{
-			"id": 13357,
+			"id": 13358,
 			"c": 41,
 			"n": "Raven Queen Warlock 14; Queen's Right Hand",
 			"cn": "Warlock 14; Queen's Right Hand",
@@ -101301,7 +101310,7 @@
 			"uh": "warlock_phb,state:sub_raven%20queen_knusc=b1~feature=s13-0"
 		},
 		{
-			"id": 13358,
+			"id": 13359,
 			"c": 40,
 			"n": "The Raven Queen",
 			"s": "KNUSC",
