@@ -1383,10 +1383,22 @@
 				],
 				"version": "1.0.0",
 				"url": "https://www.gmbinder.com/profile/laserllama"
+			},
+			{
+				"json": "AI",
+				"abbreviation": "AI",
+				"full": "Acquisitions Incorporated",
+				"authors": [
+					"Wizards RPG Team"
+				],
+				"convertedBy": [
+					"Echo Library Builder"
+				],
+				"version": "1.0.0"
 			}
 		],
 		"dateAdded": 1793294907,
-		"dateLastModified": 1795281567,
+		"dateLastModified": 1795721923,
 		"edition": "classic"
 	},
 	"monster": [
@@ -554004,6 +554016,3373 @@
 			},
 			"hasToken": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Ancient Deep Crow",
+			"source": "AI",
+			"page": 211,
+			"referenceSources": [
+				"OoW"
+			],
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 187,
+				"formula": "15d12 + 90"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 80
+			},
+			"str": 23,
+			"dex": 16,
+			"con": 23,
+			"int": 10,
+			"wis": 15,
+			"cha": 19,
+			"save": {
+				"con": "+11",
+				"wis": "+7"
+			},
+			"skill": {
+				"perception": "+7",
+				"stealth": "+13"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Deep Crow"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The ancient deep crow has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the ancient deep crow can take the {@action Hide} action as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ancient deep crow makes three attacks: one with its mandibles and two with its claws."
+					]
+				},
+				{
+					"name": "Mandibles",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the ancient deep crow can't use its mandibles on another target."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Shadow Caw",
+					"entries": [
+						"The ancient deep crow releases an ear-splitting caw. Each creature within 60 feet of the crow and able to hear it must make a {@dc 17} Constitution saving throw. On a failure, a creature takes 10 ({@damage 3d6}) psychic damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The deep crow makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Shadow Caw (Costs 2 Actions)",
+					"entries": [
+						"The ancient deep crow uses Shadow Caw."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The ancient deep crow beats its wings. Each creature within 10 feet of the deep crow must succeed on a {@dc 19} Dexterity saving throw or take 13 ({@damage 2d6 + 6}) bludgeoning damage and be knocked {@condition prone}. The ancient deep crow can then fly up to half its flying speed."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Ancient Deep Crow",
+				"source": "AI"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Auspicia Dran",
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 208,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-elf"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 14,
+			"int": 15,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"athletics": "+5",
+				"perception": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Auspicia's innate spellcasting ability is Intelligence. She can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell detect thoughts}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell augury}"
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Auspicia makes two attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"light crossbow|phb",
+				"longsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Brahma Lutier",
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 205,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 16,
+			"skill": {
+				"perception": "+3",
+				"performance": "+5",
+				"persuasion": "+5"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Brahma is a 4th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). She has the following bard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell vicious mockery}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell charm person}",
+								"{@spell heroism}",
+								"{@spell illusory script}",
+								"{@spell sleep}",
+								"{@spell unseen servant}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell cloud of daggers}",
+								"{@spell invisibility}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Brahma has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+					]
+				},
+				{
+					"name": "Taunt (2/Day)",
+					"entries": [
+						"Brahma can use a bonus action to target one creature she can see within 30 feet of her. If the target can hear Brahma, it must succeed on a {@dc 13} Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Brahma's next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "War Lute",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Song of Domination (3/Day)",
+					"entries": [
+						"Brahma targets one creature that can see or hear her, which must succeed on a {@dc 13} Wisdom saving throw or be {@condition charmed} by her for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success. It has disadvantage on these saves if being {@condition charmed} by Brahma is something the target openly or secretly desires. For 1 hour after the charm effect ends, the target has disadvantage on Intelligence, Wisdom, or Charisma checks made as part of a contest with Brahma."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"S"
+			],
+			"damageTagsSpell": [
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CB"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible",
+				"unconscious"
+			],
+			"savingThrowForced": [
+				"charisma",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Chaos Quadrapod",
+			"source": "AI",
+			"page": 209,
+			"referenceSources": [
+				"OoW"
+			],
+			"size": [
+				"L"
+			],
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "7d10 + 14"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 15,
+			"int": 6,
+			"wis": 10,
+			"cha": 4,
+			"skill": {
+				"acrobatics": "+5",
+				"perception": "+4"
+			},
+			"senses": [
+				"blindsight 120 ft. (blind beyond this radius)"
+			],
+			"passive": 14,
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The chaos quadrapod has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The chaos quadrapod makes up to two tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 14}). Until this grapple ends, the target is {@condition restrained}. The chaos quadrapod can grapple no more than two targets at a time."
+					]
+				},
+				{
+					"name": "Chaos Cloud (Recharges after a Short or Long Rest)",
+					"entries": [
+						"The chaos quadrapod shoots forth a knot of roiling ethereal light that explodes at a point it can see within 60 feet of it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a {@dc 14} Charisma saving throw or be {@condition stunned} until the end of its next turn."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained",
+				"stunned"
+			],
+			"savingThrowForced": [
+				"charisma"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Clockwork Dragon",
+			"source": "AI",
+			"page": 209,
+			"referenceSources": [
+				"OoW"
+			],
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "4d8 + 4"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 12,
+			"int": 10,
+			"wis": 11,
+			"cha": 13,
+			"skill": {
+				"acrobatics": "+2",
+				"perception": "+4"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the clockwork dragon remains motionless, it is indistinguishable from a metal statue."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The clockwork dragon exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 11} Dexterity saving throw, taking 14 ({@damage 4d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Deep Crow",
+			"source": "AI",
+			"page": 210,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 133,
+				"formula": "14d10 + 56"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 80
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 18,
+			"int": 8,
+			"wis": 15,
+			"cha": 14,
+			"save": {
+				"con": "+8",
+				"wis": "+6"
+			},
+			"skill": {
+				"perception": "+6",
+				"stealth": "+11"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Deep Crow"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The deep crow has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the deep crow can take the {@action Hide} action as a bonus action."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the deep crow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The deep crow makes three attacks: one with its mandibles and two with its claws."
+					]
+				},
+				{
+					"name": "Mandibles",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and the deep crow can't use its mandibles on another target."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Donaar Blit'zen",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 201,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonborn"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "7d8 + 14"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 8,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 16,
+			"save": {
+				"wis": "+2",
+				"cha": "+5"
+			},
+			"skill": {
+				"history": "+2",
+				"insight": "+2",
+				"intimidation": "+5",
+				"persuasion": "+5"
+			},
+			"passive": 10,
+			"resist": [
+				"acid"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Orc"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Donaar is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell command}",
+								"{@spell compelled duel}",
+								"{@spell cure wounds}",
+								"{@spell wrathful smite}"
+							]
+						},
+						"2": {
+							"slots": 2,
+							"spells": [
+								"{@spell aid}",
+								"{@spell branding smite}",
+								"{@spell lesser restoration}",
+								"{@spell warding bond}",
+								"{@spell zone of truth}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Champion Challenge (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a {@dc 13} Wisdom saving throw. On a failure, a creature can't willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is {@condition incapacitated} or dies, or if the creature is moved more than 30 feet away from him."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Donaar makes two attacks with his greatsword or his whip."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage. Whenever Donaar rolls a 1 or 2 on a damage die, he can reroll the die and must use the new roll."
+					]
+				},
+				{
+					"name": "Whip",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Acid Vomit",
+					"entries": [
+						"Donaar regurgitates acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a {@dc 12} Dexterity saving throw, taking 7 ({@damage 2d6}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"attachedItems": [
+				"greatsword|phb",
+				"whip|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"O"
+			],
+			"damageTags": [
+				"A",
+				"S"
+			],
+			"damageTagsSpell": [
+				"R",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW",
+				"RCH"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"prone"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Flabbergast",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 200,
+			"referenceSources": [
+				"OoW"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 17,
+			"wis": 13,
+			"cha": 13,
+			"save": {
+				"int": "+5",
+				"wis": "+3"
+			},
+			"skill": {
+				"arcana": "+5",
+				"persuasion": "+3",
+				"history": "+5",
+				"perception": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Elvish",
+				"Gnomish"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Flabbergast is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell mage armor}",
+								"{@spell distort value|AI}*"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell gift of gab|AI}*",
+								"{@spell suggestion}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell fast friends|AI}*",
+								"{@spell lightning bolt}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell greater invisibility}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell cone of cold}"
+							]
+						}
+					},
+					"footerEntries": [
+						"*New spell introduced in chapter 3"
+					],
+					"ability": "int"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"E",
+				"G"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"L"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Jim Darkmagic",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 197,
+			"referenceSources": [
+				"OoW"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 18,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"int": "+7",
+				"wis": "+4"
+			},
+			"skill": {
+				"acrobatics": "+5",
+				"animal handling": "+4",
+				"arcana": "+7",
+				"history": "+7",
+				"performance": "+5"
+			},
+			"passive": 11,
+			"languages": [
+				"Common"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Jim is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). He has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell friends}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell disguise self}",
+								"{@spell Jim's magic missile|AI}*",
+								"{@spell mage armor}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell invisibility}",
+								"{@spell Jim's glowing coin|AI}*"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell incite greed|AI}*",
+								"{@spell fireball}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell conjure minor elementals}",
+								"{@spell polymorph}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell mislead}"
+							]
+						}
+					},
+					"footerEntries": [
+						"*New spell introduced in chapter 3"
+					],
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Jim carries a {@item wand of wonder}."
+					]
+				},
+				{
+					"name": "Benign Transportation (Recharges after Jim Casts a Conjuration Spell of 1st Level or Higher)",
+					"entries": [
+						"As a bonus action, Jim teleports up to 30 feet to a space he can see. The space must be unoccupied or occupied by a willing Small or Medium creature. If the latter, Jim and the willing creature both teleport, swapping places."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Minor Conjuration",
+					"entries": [
+						"Jim conjures an inanimate object, no larger than 3 feet on a side and no more than 10 pounds, in his hand or on the ground in an unoccupied space he can see within 10 feet of him. The object is visibly magical, radiating dim light out to 5 feet. It disappears if it takes any damage, after 1 hour, or when Jim uses this feature again."
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "K'thriss Drow'b",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 202,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 44,
+				"formula": "8d8 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 12,
+			"int": 14,
+			"wis": 11,
+			"cha": 18,
+			"save": {
+				"str": "+0",
+				"dex": "+3",
+				"con": "+2",
+				"int": "+3",
+				"wis": "+3",
+				"cha": "+7"
+			},
+			"skill": {
+				"arcana": "+4",
+				"insight": "+2",
+				"investigation": "+4",
+				"perception": "+2",
+				"religion": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Celestial",
+				"Common",
+				"Elvish",
+				"Undercommon; can read all writing"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"K'thriss's innate spellcasting ability is Charisma (spell save {@dc 14}). He can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell disguise self}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness}",
+							"{@spell faerie fire}"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"K'thriss is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest, and knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell eldritch blast}",
+								"{@spell mending}",
+								"{@spell prestidigitation}",
+								"{@spell thorn whip}",
+								"{@spell vicious mockery}"
+							]
+						},
+						"3": {
+							"lower": 1,
+							"slots": 2,
+							"spells": [
+								"{@spell dissonant whispers}",
+								"{@spell fly}",
+								"{@spell hex}",
+								"{@spell misty step}",
+								"{@spell sending}",
+								"{@spell shatter}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"K'thriss wears a {@item robe of stars} (accounted for in his statistics). The robe allows him to cast the following spells: 6/day: {@spell magic missile} (7 missiles)"
+					]
+				},
+				{
+					"name": "Awakened Mind",
+					"entries": [
+						"K'thriss can telepathically speak to any creature he can see within 30 feet of him, provided the creature can understand at least one language."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"K'thriss has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep. Sunlight Sensitivity. While in sunlight, K'thriss has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"K'thriss makes two attacks with his sickle."
+					]
+				},
+				{
+					"name": "Sickle",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"sickle|phb"
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"E",
+				"U",
+				"XX"
+			],
+			"damageTags": [
+				"S"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"P",
+				"T",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Keg Robot",
+			"source": "AI",
+			"page": 212,
+			"referenceSources": [
+				"OoW"
+			],
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 39,
+				"formula": "6d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 15,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"skill": {
+				"perception": "+1"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands Common but can't speak"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Customizable Storage",
+					"entries": [
+						"A keg robot can hold up to three types of liquid payload totaling 12 gallons within its hollow, barrel-shaped body. A full keg robot can make one liquid attack per gallon before the liquid must be refilled. Filling a keg robot takes 2 rounds per gallon. Differing payloads can alter the keg robot's attacks from those presented here."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Acid Squirt",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 20/40 ft., one target. {@h}7 ({@damage 1d8 + 3}) acid damage."
+					]
+				},
+				{
+					"name": "Beer Shower",
+					"entries": [
+						"The keg robot spews an unnaturally potent beer in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned}. While {@condition poisoned} in this way, a creature has its speed halved by exposure to the potent brew. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"Additionally, the beer shower extinguishes any fires or open flames in its area."
+					]
+				},
+				{
+					"name": "Hot Oil Spray {@recharge 5}",
+					"entries": [
+						"The keg robot sprays hot oil in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must make a {@dc 13} Dexterity saving throw. On a failed save, a creature takes 7 ({@damage 1d8 + 3}) fire damage and falls {@condition prone}. On a successful save, a creature takes half as much damage and doesn't fall {@condition prone}.",
+						"Any creature affected by the hot oil spray that takes fire damage before the oil dries (after 1 minute) takes an additional 3 ({@damage 1d6}) fire damage, and the oil burns away.",
+						"If the oil that remains in the area of the spray is lit, it burns for {@dice 1d4} rounds and deals 3 ({@damage 1d6}) fire damage to any creature that enters the area for the first time on a turn or ends its turn there."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"F"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned",
+				"prone"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Môrgæn",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 199,
+			"referenceSources": [
+				"OoW"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 12,
+			"int": 12,
+			"wis": 14,
+			"cha": 10,
+			"save": {
+				"str": "+3",
+				"dex": "+6"
+			},
+			"skill": {
+				"athletics": "+3",
+				"insight": "+4",
+				"nature": "+3",
+				"perception": "+4",
+				"stealth": "+6",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Giant",
+				"Goblin"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Môrgæn's spellcasting ability is Intelligence. She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell mage hand}"
+					],
+					"ability": "int"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Môrgæn is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). She has the following ranger spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell alarm}",
+								"{@spell animal friendship}",
+								"{@spell hunter's mark}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell pass without trace}",
+								"{@spell spike growth}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell conjure animals}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Môrgæn has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Môrgæn makes three attacks with her scimitars or her longbow."
+					]
+				},
+				{
+					"name": "Scimitars",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"longbow|phb"
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"DR",
+				"GI",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CR",
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"charmed"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Oak Truestrike",
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 205,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"N",
+						"G"
+					]
+				},
+				{
+					"alignment": [
+						"N",
+						"E"
+					]
+				}
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d8 + 10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"nature": "+4",
+				"perception": "+3",
+				"performance": "+2",
+				"stealth": "+5",
+				"survival": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"Common"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Oak has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"Oak has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Oak makes three attacks with his hooked daggers or his hand crossbow."
+					]
+				},
+				{
+					"name": "Hooked Dagger",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Return the Favor (3/Day)",
+					"entries": [
+						"When Oak takes damage from a melee weapon attack, he can make a hooked dagger attack."
+					]
+				}
+			],
+			"attachedItems": [
+				"hand crossbow|phb"
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Omin Dran",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 196,
+			"referenceSources": [
+				"OoW"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 8,
+			"con": 14,
+			"int": 11,
+			"wis": 18,
+			"cha": 12,
+			"save": {
+				"wis": "+7",
+				"cha": "+4"
+			},
+			"skill": {
+				"deception": "+4",
+				"insight": "+7",
+				"intimidation": "+4",
+				"medicine": "+7",
+				"perception": "+7",
+				"persuasion": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Goblin"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Omin is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). He has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell sacred flame}",
+								"{@spell spare the dying}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell divine favor}",
+								"{@spell shield of faith}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell enhance ability}",
+								"{@spell hold person}",
+								"{@spell magic weapon}",
+								"{@spell silence}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell beacon of hope}",
+								"{@spell crusader's mantle}",
+								"{@spell dispel magic}",
+								"{@spell mass healing word}",
+								"{@spell spirit guardians}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell death ward}",
+								"{@spell freedom of movement}",
+								"{@spell locate creature}",
+								"{@spell stoneskin}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell dispel evil and good}",
+								"{@spell flame strike}",
+								"{@spell hold monster}",
+								"{@spell greater restoration}",
+								"{@spell legend lore}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Divine Strike",
+					"entries": [
+						"Once on each of his turns when he hits a creature with a weapon attack, Omin can cause the attack to deal an extra 4 ({@damage 1d8}) damage of the same type dealt by the weapon."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Omin has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Omin makes two attacks with his maul."
+					]
+				},
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "War God's Blessing (Recharges after a Short or Long Rest)",
+					"entries": [
+						"When a creature within 30 feet of Omin makes an attack roll, but before learning whether it hits or misses, Omin can grant the creature a +10 bonus to that roll."
+					]
+				}
+			],
+			"attachedItems": [
+				"maul|phb"
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"GO"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"deafened",
+				"paralyzed",
+				"prone"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Pendragon Beestinger",
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 206,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 17,
+			"wis": 10,
+			"cha": 11,
+			"skill": {
+				"arcana": "+5",
+				"investigation": "+5",
+				"performance": "+2"
+			},
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Elvish",
+				"Halfling"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Pendragon is a 4th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acid splash}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell poison spray}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell sleep}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell cloud of daggers}",
+								"{@spell scorching ray}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Echo Spell (1/Day)",
+					"entries": [
+						"Pendragon can cast the spell he cast on his last turn, whose casting time becomes 1 bonus action. This bonus casting uses a spell slot as normal."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"E",
+				"H"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"A",
+				"F",
+				"I",
+				"L",
+				"O",
+				"S"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Phoenix Anvil",
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 206,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 10,
+			"con": 12,
+			"int": 13,
+			"wis": 16,
+			"cha": 13,
+			"skill": {
+				"athletics": "+4",
+				"performance": "+3",
+				"persuasion": "+3",
+				"religion": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Phoenix is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell light}",
+								"{@spell mending}",
+								"{@spell sacred flame}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell bane}",
+								"{@spell cure wounds}",
+								"{@spell guiding bolt}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold person}",
+								"{@spell spiritual weapon}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Divine Display (1/Day)",
+					"entries": [
+						"As a bonus action, Phoenix causes his shield to flare with divine light. Each creature of his choice within 30 feet of him must succeed on a {@dc 13} Wisdom saving throw or be {@condition blinded} for 1 minute. A creature can repeat the save at the end of each of its turns, ending the effect on itself with a success."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Phoenix makes two melee attacks."
+					]
+				},
+				{
+					"name": "Warhammer",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, and the target must succeed on a {@dc 12} Strength saving throw or be pushed 5 feet."
+					]
+				}
+			],
+			"attachedItems": [
+				"warhammer|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded"
+			],
+			"conditionInflictSpell": [
+				"paralyzed"
+			],
+			"savingThrowForced": [
+				"strength",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Portentia Dran",
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 208,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 16,
+			"int": 13,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"deception": "+6",
+				"insight": "+3",
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Portentia deals an extra 14 ({@damage 4d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Portentia that isn't {@condition incapacitated} and Portentia doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Portentia makes three melee attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"Portentia magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than her own, or back into her true form. Any equipment she is wearing or carrying is absorbed or borne by the new form (her choice). In a new form, Portentia retains her game statistics and ability to speak, but her AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and she gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that she lacks."
+					]
+				}
+			],
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Prophetess Dran",
+			"source": "AI",
+			"page": 208,
+			"referenceSources": [
+				"OoW"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 12,
+			"int": 13,
+			"wis": 16,
+			"cha": 13,
+			"skill": {
+				"medicine": "+5",
+				"persuasion": "+3",
+				"religion": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Prophetess is a 5th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Prophetess has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell guiding bolt}",
+								"{@spell sanctuary}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell spirit guardians}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Divine Eminence",
+					"entries": [
+						"As a bonus action, Prophetess can expend a spell slot to cause her melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Prophetess expends a spell slot of 2nd level or higher, the extra damage increases by {@damage 1d6} for each level above 1st."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Prophetess has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"maul|phb"
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Rosie Beestinger",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 203,
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"halfling"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"Unarmored Defense"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "10d6 + 10"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 12,
+			"int": 12,
+			"wis": 14,
+			"cha": 14,
+			"save": {
+				"str": "+1",
+				"dex": "+5"
+			},
+			"skill": {
+				"acrobatics": "+5",
+				"history": "+3",
+				"intimidation": "+4",
+				"stealth": "+5"
+			},
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Elvish",
+				"Halfling"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Rosie's innate spellcasting ability is Wisdom (spell save {@dc 12}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell minor illusion}",
+						"{@spell sacred flame}",
+						"{@spell thaumaturgy}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell command}",
+							"{@spell darkness}",
+							"{@spell darkvision}",
+							"{@spell pass without trace}",
+							"{@spell silence}"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Rosie has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Halfling Nimbleness",
+					"entries": [
+						"Rosie can move through the space of any creature that is of a size larger than hers."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Rosie is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails. She can't use this trait if she's {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Shadow Step",
+					"entries": [
+						"When Rosie is in dim light or darkness, she can use a bonus action to teleport 60 feet to an unoccupied space she can see that is also in dim light or darkness. She then has advantage on the first melee attack she makes before the end of the turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Rosie makes three attacks, then makes two unarmed strike attacks."
+					]
+				},
+				{
+					"name": "Staff of the Master (+1 Quarterstaff)",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage, or 8 ({@damage 1d8 + 4}) bludgeoning damage if used with two hands."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage. Rosie's unarmed strikes are magical."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Missiles",
+					"entries": [
+						"In response to being hit by a ranged weapon attack, Rosie deflects the missile. The damage she takes from the attack is reduced by {@damage 1d10 + 9}. If the damage is reduced to 0, she catches the missile if it's small enough to hold in one hand and she has a hand free."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"E",
+				"H"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"R"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"deafened",
+				"prone"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Splugoth the Returned",
+			"source": "AI",
+			"page": 213,
+			"referenceSources": [
+				"OoW"
+			],
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d6 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 14,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "+4",
+				"wis": "+2"
+			},
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Elvish",
+				"Goblin"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Defensive Advantage",
+					"entries": [
+						"As long as two or more of Splugoth's allies are within 5 feet of him and are not {@condition incapacitated}, attack rolls against him are made with disadvantage."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"Splugoth can take the {@action Disengage} or {@action Hide} action as a bonus action on each of his turns."
+					]
+				},
+				{
+					"name": "Touch of Madness",
+					"entries": [
+						"Splugoth has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Splugoth makes two attacks with his dagger."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Word From Beyond (1/Day)",
+					"entries": [
+						"Splugoth remembers and repeats aloud a few words from a place he entered while walking back from the next world to this one. Each creature of his choice within 30 feet of him that can hear him must succeed on a {@dc 12} Wisdom saving throw or be {@condition stunned} until the end of its next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Absorb Attack",
+					"entries": [
+						"When a creature Splugoth can see hits him with a melee weapon attack, the weapon snags on a pocket of residual resurrectional energy and is caught fast. The attack is negated and the weapon cannot be used until the creature succeeds on a {@dc 12} Strength ({@skill Athletics}) check as an action to pull it out of Splugoth. Natural weapons can have their attacks negated by this feature, but can then be retracted automatically at the end of the attacking creature's turn."
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"E",
+				"GO"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Viari",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 198,
+			"referenceSources": [
+				"OoW"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item +1 Studded Leather Armor||+1 studded leather}"
+					]
+				},
+				{
+					"ac": 19,
+					"condition": "while wielding two melee weapons",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 20,
+			"con": 14,
+			"int": 10,
+			"wis": 8,
+			"cha": 14,
+			"save": {
+				"dex": "+8",
+				"int": "+3"
+			},
+			"skill": {
+				"acrobatics": "+11",
+				"athletics": "+7",
+				"perception": "+5",
+				"performance": "+5",
+				"persuasion": "+5",
+				"sleight of hand": "+11",
+				"stealth": "+8"
+			},
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Thieves' cant"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Viari is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Second-Story Work",
+					"entries": [
+						"Climbing does not cost Viari extra movement. Additionally, when he makes a running jump, the distance he covers increases by 5 feet."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Viari deals an extra 14 ({@damage 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Viari that isn't {@condition incapacitated} and Viari doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Viari makes two attacks with his shortsword and two attacks with his rapier."
+					]
+				},
+				{
+					"name": "+1 Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"Viari halves the damage that he takes from an attack that hits him. He must be able to see the attacker."
+					]
+				}
+			],
+			"attachedItems": [
+				"+1 shortsword|dmg",
+				"dagger|phb",
+				"rapier|phb"
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"TC"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Walnut Dankgrass",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AI",
+			"page": 204,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 18,
+			"cha": 10,
+			"save": {
+				"int": "+2",
+				"wis": "+6"
+			},
+			"skill": {
+				"athletics": "+1",
+				"insight": "+6",
+				"perception": "+6",
+				"stealth": "+5",
+				"survival": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Druidic",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Walnut is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). She has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell produce flame}",
+								"{@spell thorn whip}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell entangle}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell flame blade}",
+								"{@spell moonbeam}",
+								"{@spell pass without trace}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell call lightning}",
+								"{@spell dispel magic}",
+								"{@spell plant growth}"
+							]
+						},
+						"4": {
+							"slots": 1,
+							"spells": [
+								"{@spell blight}",
+								"{@spell freedom of movement}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Walnut has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+					]
+				},
+				{
+					"name": "Mask of the Wild",
+					"entries": [
+						"Walnut can attempt to hide even when she is only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					]
+				},
+				{
+					"name": "Wild Shape (Recharges after a Short or Long rest)",
+					"entries": [
+						"As a bonus action, Walnut can assume the shape of a dire wolf. She can stay in this form for 3 hours or until she reverts to her normal form as a bonus action. She automatically reverts if she falls {@condition unconscious}, drops to 0 hit points, or dies.",
+						"While transformed, Walnut's game statistics are replaced by the statistics of the dire wolf, except she retains her alignment, personality, and Intelligence, Wisdom, and Charisma scores.",
+						"Her attacks in beast form are magical. While in beast form, Walnut can use a bonus action to expend one spell slot and regain {@dice 1d8} hit points per level of the spell slot expended."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Walnut makes two attacks with Foremother or her longbow."
+					]
+				},
+				{
+					"name": "Foremother (+1 Scimitar)",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"longbow|phb"
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DU",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"F",
+				"L",
+				"N",
+				"P",
+				"R",
+				"T"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"restrained"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"strength"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	],
 	"monsterFluff": [
@@ -650471,6 +653850,830 @@
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/valentino-dell-eco/echo-library/main/img/bestiary/KNUSC/Bone%20Titan.webp"
 					}
+				}
+			]
+		},
+		{
+			"name": "Ancient Deep Crow",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"So little is known of the deep crows that even less is known of their monstrous leviathan cousins, the ancient deep crows. Whether these gargantuan specimens are elder deep crows grown to great size or some higher form that holds lesser deep crows in thrall remains to be determined. Ideally by someone else. Seriously, stay away from these things."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Deep Crow.webp"
+					},
+					"width": 386,
+					"height": 1000,
+					"credit": "Leesha Hannigan"
+				}
+			]
+		},
+		{
+			"name": "Auspicia Dran",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"The youngest sister of Omin Dran, the half-elf Auspicia Dran had her life torn apart as a child when she was seized by a mysterious creature called the Wandering Crypt. Having spent long years in a kind of dark dream within the crypt, she was saved in the end by her brother Omin's tireless efforts and the valor of his handpicked \"C\" Team. Now returned safely to the world-and with the false Auspicia of the crypt's creation slain-she focuses on trying to discover her own identity and to work through the ongoing complications arising from her ordeal.",
+										"When Auspicia emerged from the Wandering Crypt, she carried within her a growing level of psionic power. She can't help but read others' minds, but finds that wearing a diamond earring helps tamp that unwitting ability down. This magic has also left her connected to the crypt in a way she doesn't understand, even as it grants her occasional memories of others still trapped there and an awareness of faraway places. In combat, she manifests an instinctive knowledge of events before they happen, often making use of this ability to bring a fight to a standstill that encourages parley. But she has only just begun to explore her full precognitive potential."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/House Dran.webp"
+					},
+					"width": 2333,
+					"height": 1000,
+					"credit": "Nurse Normal"
+				}
+			]
+		},
+		{
+			"name": "Brahma Lutier",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Formally a former member of the \"B\" Team, Brahma Lutier is a gifted cartographer, spy, and troubadour. Tutored in at least the latter of those vocations by Audra Courtier (wife of Propha Dran and co-owner of the Dran & Courtier inn of Red Larch), Brahma's specialty is a song of domination that is legendarily difficult to resist.",
+										"Her retirement is said to be connected to a falling out with husband Oak Truestrike, and Brahma has been operating as a solo agent for some time now. Known for a personality that is murderous and cheery in equal part, she utilizes an instrument of dragonborn design in combat. Known as a war lute, this unique item comes replete with hidden storage and powerful weaponry."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/The B Team.webp"
+					},
+					"width": 1545,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Chaos Quadrapod",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"A cluster of four suckered tentacles with a pulsing mass of ethereal light as its central body, the chaos quadrapod is a creature of the Far Realm, and it channels the anarchic power of that plane as it destroys all in its path. The quadrapod ambulates by flinging its mucus-covered tentacles out and dragging itself along, creating a horrid slurping sound as it advances relentlessly toward its prey."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Chaos Quadrapod.webp"
+					},
+					"width": 783,
+					"height": 1000,
+					"credit": "Darren M. A. Calvert"
+				}
+			]
+		},
+		{
+			"name": "Clockwork Dragon",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"These intricately crafted constructs are typically made to reflect the forms of the metallic dragons. Plated in brass, bronze, copper, or faux gold and silver, they are often taken for fine draconic statues at first glance. A clockwork dragon makes a formidable guardian or defender, with its advanced intellect allowing it to be programmed with a wide range of orders, as well as being capable of wholly independent reactions to potential threats.",
+										"Though most clockwork dragons have a breath weapon that deals fire damage, some might be constructed to deal acid, cold, or lightning damage, depending on their makers' whims."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Deep Crow",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"The only warning you'll get is that fearsome, far-off caw, echoing from the darkness like a death knell. For by the time those glowing red eyes fix on you, it's far too late to run...",
+										"Some adventurers and sages whisper that deep crows were first spawned as the familiars of evil arcane casters, abandoned in the subterranean depths and left to grow to enormous size. Others claim these creatures were once normal crows transmuted by vile essence and viler powers. But one thing all agree on is that ending up a meal for one of these monstrosities is a too-real threat for those who stumble into their deadly lairs.",
+										"Though the deep crow most immediately resembles a massive version of its namesake bird, this creature is a unique form of avian insect. Seen up close, it can easily be discerned from any other giant bird by its insectoid maw, its four-clawed feet, and the cluster of red eyes that are the most unsettling part of its appearance.",
+										{
+											"type": "entries",
+											"name": "Terror from Above",
+											"entries": [
+												"The deep crow's most fearsome attack is the bite of its mandibles, which can seize and hold almost any creature. Their preferred attack is a snatch-and-grab that sees a deep crow flying off with a living victim before its companions have any chance of counterattack. Provided the doomed prey doesn't struggle, the deep crow takes it back to its lair to be devoured at leisure. Creatures that do struggle might be repeatedly dropped from a height to soften them up a bit."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Family Ties",
+											"entries": [
+												"Deep crows live alone for an unknown length of years, emerging from the lair only to hunt, to look for potential threats, and to mate. Mating is a once-in-a-lifetime urge that sees each deep crow involved in the pairing produce a cluster of four to eight eggs. Incubation lasts a year, followed by a year during which the fledgling deep crows stay close by their parent's side. The young then set out to establish lairs of their own."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Unknown and Inscrutable",
+											"entries": [
+												"The mindset of these intelligent yet alien creatures is a mystery, but some who have encountered them relate that they are quick to hold a grudge. For years. Of even greater importance, they can teach their chicks to harbor the same resentments, instilling a cross-generational hatred of chosen foes that can last for centuries."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A Deep Crow's Lair",
+									"entries": [
+										"Deep crows and ancient deep crows roost in places both deep and warm, favoring sites with access to exposed lava. The spires of volcanic rock the creatures prize as roosts are common in such places, whose ambient warmth provides constant temperature regulation for the creature's eggs."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Deep Crow.webp"
+					},
+					"width": 386,
+					"height": 1000,
+					"credit": "Leesha Hannigan"
+				}
+			]
+		},
+		{
+			"name": "Donaar Blit'zen",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"Everybody cooooool out!"
+											]
+										},
+										"The hulking dragonborn decisionist of the \"C\" Team, Donaar Blit'zen is an icon of brash confidence and warrior chill. He is known for his furious skill in battle, and for his propensity to fall asleep as soon as a fight is done (as well as countless other inopportune times). More immediately notable is the unique physical trait that all members of his clan bear-a stylish tail that is rare and often considered a deformity among dragonborn.",
+										"As with his tail, an odd quirk of heritage makes Donaar's acid breath more of a signature vomiting, giving rise to a driving paranoia that this regurgitation might damage his teeth. As testaments to his obsession with dental hygiene, Donaar named his greatsword Toothbrush and calls his whip Floss. He carries an actual toothbrush (named Percival) and actual floss at all times.",
+										"Those who know Donaar quickly come to recognize that the braggadocio that defines him involves a certain amount of artifice. When the young dragonborn left his clan and family to adventure in foreign climes, he realized that doing so provided the perfect opportunity to reinvent himself for folk who had no idea what he was once like. As such, Donaar has learned that no amount of bravado and compensation is too much-provided he leaves no openings for strangers to call him on it. By the same token, strangers quickly come to realize that reinforcing Donaar's self-congratulating sense of draconic entitlement makes it remarkably easy to win his favor.",
+										"Despite his easily massaged vanity, the dragonborn sometimes shows the occasional streak of selflessness. Most notably, Donaar serves in his off-hours as part-time godfather to a young dragonborn named Chronaar, who had inadvertently imprinted on Donaar as a parental figure while he watched over her while she was in her egg."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Donaar Blitzen.webp"
+					},
+					"width": 773,
+					"height": 1000,
+					"credit": "Nurse Normal"
+				}
+			]
+		},
+		{
+			"name": "Flabbergast",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Not much is known of the mysterious and aloof majordomo of Acquisitions Incorporated Head Office, the mage known as Flabbergast. It's said that he hails from Neverwinter, and that his wealthy family helped erect and carve the famous Dolphin Bridge in that city. Although he detests physical labor, Flabbergast is a bit of a bridge builder in his own way, always striving to bring people together and flexing his diplomatic muscles. A pacifist bureaucrat, he abhors violence, and rarely puts his magical prowess on display.",
+										"One thing that is known (though it's seldom spoken of) is that Flabbergast once worked for Dran Enterprises, and specifically for Portentia Dran. He carries a certain amount of guilt around being complicit in certain Dran Enterprises' dealings, and helped Acquisitions Incorporated on the side even before taking up an official role with the company. Though Head Office certainly trusts him, others might wonder where his true loyalties lie.",
+										"Flabbergast's familiar, Mister Snibbly, uses the cat stat block."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Flabbergast.webp"
+					},
+					"width": 773,
+					"height": 1000,
+					"credit": "Nurse Normal"
+				}
+			]
+		},
+		{
+			"name": "Jim Darkmagic",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"Have a magical day!"
+											]
+										},
+										"James Winifred Darkmagic III is the scion of a mysterious, multiplanar wizarding family. Jim's arcane pedigree has long preceded him, incorporating equally healthy amounts of magical training and innate eldritch prowess. However, despite a natural talent that could have allowed him to make a name for himself as a court wizard, or perhaps \"that strange old man in the village,\" Jim's original penchant was not for the magic of scroll or spell, but for the stage.",
+										"As an entertainer and purveyor of the \"Jim Darkmagic Experience,\" the legendary mage can often be found in markets and town squares, performing feats of mundane legerdemain. The renown he has earned for these feats is nearly equaled by the reputation that follows him as chief arcanist (and occasional arsonist) for Acquisitions Incorporated. And although his skills as an adventurer and real wizard remain highly sought after, Jim looks forward to a well-earned retirement, at which point he hopes to become a \"real wizard\"-by which he means a fake wizard-full time."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Jim Darkmagic.webp"
+					},
+					"width": 773,
+					"height": 1000,
+					"credit": "Mike Krahulik"
+				}
+			]
+		},
+		{
+			"name": "K'thriss Drow'b",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"All things are divided into meat and mouths-but even a mouth is just meat."
+											]
+										},
+										"The drow warlock K'thriss Drow'b cuts a dashing figure as the worldly representative of the Ur-a ravenous, inscrutable, and largely indifferent elder entity from beyond reality. Tapped into this dark power, the \"C\" Team's hoards person sees all existence as a puzzle to unlock, and he is obsessed by the essential lack of meaning and purpose in the structures of so-called \"reality.\" Still, all things considered, he is most often polite and affable. Because after a long adventuring career, he understands that he can't afford to make more enemies.",
+										"Given his blue skin tone, rumors suggest that K'thriss is of mixed heritage, but no one knows for sure. As a young and doubting adherent of Lolth, he stumbled upon fragments of a relic known as the Black Altar, exposing him to their infinite truths and shocking the drow's hair jet-black. His matching \"beard\" is actually a slow-growing colony of inert spores that K'thriss believes makes him look distinguished. Possessed of alarming and asymmetric crystalline eyes, he often wears a blindfold to spare others his visage, seeing through the eyes of his familiar while he does.",
+										"Tentacles play a big part in K'thriss's spellcasting, whether wrenching him through the sky when he uses magic to fly, or manifesting in dark, suckered form when he casts spells such as thorn whip. And when enemies hear K'thriss whisper the deep truths of the Ur-typically something about how on a geologic time scale, everyone's desires are meaningless-they remember it.",
+										"K'thriss's familiar, Ligotti, is a semi-sapient remnant of a tentacle attack, spawned by the warlock's intercessor patron god. Though entirely alien to the material plane (and often appearing in the form of a staff), Ligotti uses the stat block of a poisonous snake with these changes:",
+										{
+											"type": "list",
+											"items": [
+												"It has an Intelligence score of 12 (+2).",
+												"It has telepathy out to a range of 30 feet."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Kthriss Drowb.webp"
+					},
+					"width": 773,
+					"height": 1000,
+					"credit": "Nurse Normal"
+				}
+			]
+		},
+		{
+			"name": "Keg Robot",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"This beer is delicious. But did the spigot really have to be placed in that spot?"
+											]
+										},
+										"A keg robot is a stout wood-and-metal construct, vaguely reminiscent of a dwarf wearing a horned helm and possessing a barrel for a body. These constructs are another achievement of the Heuristic Arcane Research and Development (HARD) department of Acquisitions Incorporated. These devices have a number of practical purposes, including the ability to be filled with a variety of substances of use to an adventuring party. Specific models are nominally named for their primary function, including \"ambulatory fermenter,\" \"mobile alchemical dispensary,\" and so forth. But their prominent use as portable beer dispensers has placed the name \"keg robot\" firmly into public consciousness.",
+										"A keg robot can hold up to three different kinds of liquid in its body cavity, from water and other potables to alchemical substances and lamp oil. Its individual storage compartments can leak, providing drinkable liquids with a unique but mostly safe flavor. These constructs have a rudimentary intellect that allows them to operate independently and discern friend from foe-and which sometimes causes them to operate with a crass sense of humor that has never been fully explained."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Keg Robot.webp"
+					},
+					"width": 825,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Môrgæn",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"If I had wanted to kill, I would have killed."
+											]
+										},
+										"The ranger Môrgæn is a renowned tracker and hunter, able to pinpoint-target foes at any range, then vanish into the woods with no one the wiser. Her legendary ability with the longbow and the custom arrows she crafts instills fear into the hearts of her many enemies-and more than a few of her coworkers. Famously, she is the only member of Acquisitions Incorporated known to be paid in advance, lest a missed invoice lead to dire repercussions.",
+										"A child of the forest, Môrgæn defends the natural world with singular ferocity and an impressive rate of sustained fire. Her core philosophy is that one should shoot first and then ask no questions later. Because what's the point of asking questions when the person you've shot first is already dead? Still, when the situation calls for it, this protector of the woodlands is equally at home on missions of subterfuge and social interaction in the big city, provided her well-known love of ale, wine, and other intoxicants doesn't get the better of her."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Morgaen.webp"
+					},
+					"width": 773,
+					"height": 1000,
+					"credit": "Nurse Normal"
+				}
+			]
+		},
+		{
+			"name": "Oak Truestrike",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Oak Truestrike is the \"B\" Team's decisionist-and, depending on who you talk to, a reincarnated demigod. (It's a long story.) Those who know him acknowledge his confidence, his arrogance, and his odd ability to engage with others by somehow saying exactly what each listener wants to hear. Whether this is some subtle magical ability or simply grifter's charm, he makes good use of it either way.",
+										"Oak becomes a radically different person with each of his reincarnations, flipping between neutral good and neutral evil. His memories of past lives have been fractured by his many deaths, but he spends each new life accounting for the previous life in a karmic-ledger kind of way. His current incarnation embraces the good side. Mostly. Except for that occasional toxic bitterness. Oh, and the misanthropy. Actually, if you end up hating this guy, it's probably not your fault."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/The B Team.webp"
+					},
+					"width": 1545,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Omin Dran",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"My duty, first and foremost, is to my shareholders. And I am the only shareholder."
+											]
+										},
+										"Ominifis Hereward Dran spent his formative years in the small way-stop of Red Larch, where his mother, Prophetess, ran a popular inn and restaurant. In the brief periods of respite afforded by working the family business, Omin and his sisters, Auspicia and Portentia, were wont to wander the hills and trails around town, dreaming of adventure. But adventure of the wrong kind came calling for the trio one day, when an underground ruin they had often explored-actually a creature called the Wandering Crypt-took Auspicia from the world.",
+										"Omin Dran built the organization called Acquisitions Incorporated to facilitate and expand his quest to find his true sister, at least in part. For despite his unprecedented success in establishing the market for franchised adventuring across the Sword Coast and beyond, Omin's full measure eludes most people. He is known to be a worshiper of Tymora, ruthless in matters of business, feckless in matters of love, and hopeless in games of chance. Omin is also often accused of being one of the Masked Lords of Waterdeep, though this bit of fancy earns little more than a chuckle in response. And even if the rumor were true, Omin would never leverage such a position for greater financial gain and power. Because that would be wrong..."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Omin Dran.webp"
+					},
+					"width": 847,
+					"height": 1000,
+					"credit": "Mike Krahulik"
+				}
+			]
+		},
+		{
+			"name": "Pendragon Beestinger",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Able arcanist Pendragon Beestinger took over as \"B\" Team cartographer after Brahma Lutier left the group. In fact, his first assignment was to assist in the team's attempts to apprehend the wandering bard. An adopted child of the \"C\" Team's Rosie Beestinger, Pendragon is his mother's foil in almost every way-including his goal of wanting to mainstream some of the family's rumored criminal interests. Pendragon has, in fact, attempted to kill his mother-and been killed himself in the process. Despite his having been resurrected at Rosie's request, things remain cool between the two.",
+										"Pendragon was kicked out of wizarding school as a result of the dark rumors following the Beestinger clan. Now a self-taught mage, he specializes in making use of the dangerous spells and weird trinkets he often comes across in his role as a kind of arcane archaeologist. Seeking out the family feeling that an adventuring group provides keeps him in the \"B\" Team, even if that unfortunately comes with Oak Truestrike as a kind of father figure."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/The B Team.webp"
+					},
+					"width": 1545,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Phoenix Anvil",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"The \"B\" Team hoards person, Phoenix Anvil is a servant of Waukeen and a soft-spoken sort. Really soft. Like, he talks so infrequently that even he might not recognize his own voice. Phoenix comes from the streets, where he grew up a fighter until a job sweeping the steps of a small temple of Waukeen showed him a new path. His hunger for coin as an adventurer is thus guided by his knowledge of what it is to do without.",
+										"More of an object individual than a people person, Phoenix is obsessively dedicated to the franchise's assets and accounts. Thankfully, he includes his fellow members among those assets, making him fiercely loyal. However, Oak Truestrike is the only team member he's ever really warmed to, which doesn't do either of them any good."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/The B Team.webp"
+					},
+					"width": 1545,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Portentia Dran",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Now the owner and driving force behind Dran Enterprises-perhaps Acquisitions Incorporated's most notable rival in the adventuring-for-profit-and-power biz—Portentia Dran is more than she appears to be. Quite literally. The person known as Portentia is actually a changeling, who took the place of the real Portentia before her fifth year.",
+										"The changeling Portentia can affect a range of dis guises, and has spent long years engaged in a mission of manipulating the members of the Dran family. Years ago, it was Portentia who tricked her sister Auspicia into exploring the depths of the Wandering Crypt. And she would have been successful in arranging for Omin to be claimed by that creature as well if he hadn't fled immediately in search of a weapon to aid his captured sister.",
+										"Whether in combat or social encounters, Portentia shifts frequently between different forms and mindsets, only some of which are fully humanoid. She fights to maim, with a cruel combat style that emphasizes surprise and painful instruction. She is willing to affect any appearance or attitude to achieve her goals. But what those goals are-for herself and Dran Enterprises alike-remain a secret known only to her."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/House Dran.webp"
+					},
+					"width": 2333,
+					"height": 1000,
+					"credit": "Nurse Normal"
+				}
+			]
+		},
+		{
+			"name": "Rosie Beestinger",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"Well, I have this jar of eyeballs..."
+											]
+										},
+										"Weighing in at just under 30 pounds and with a grandmotherly demeanor befitting her advanced age, Rosie Beestinger is easily mistaken for someone on the wrong side of the \"aggressor/victim\" relationship. But this is a mix-up that few people make more than once. Patient and studious, Rosie has schooled more than one malcontent with what the halfling refers to as \"the sauce\"-a whirlwind of kicks and punches to one or the other haunches that can inspire even the toughest half-orc to sprint toward anyplace Rosie isn't. As an increasing number of folk hear the tales of her prowess, the \"C\" Team cartographer's fame among her fellow halflings has become nothing short of legendary. Still, this adoration might be augmented by the sheer number of halflings related to Rosie. She has a daunting number of natural and adopted children, many of whom have followed their mother along the adventuring career track.",
+										"Rosie's goals have always been more complex than merely seeking after adventure. She has long sought for ultimate meaning in the stars, and to seek justification for her belief that her bonds to her expansive family are reflected in the endless movements and intricate patterns of the sky. However, the Beestinger clan has a less metaphysical reputation in the eyes of many people, as constantly swirling rumors attempt to connect the family to various and nefarious halfling criminal enter prises. Naturally, Rosie knows nothing about any of that. Sure, her nickname is \"Grandmother Night,\" but that probably doesn't mean anything."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Rosie Beestinger.webp"
+					},
+					"width": 773,
+					"height": 1000,
+					"credit": "Nurse Normal"
+				}
+			]
+		},
+		{
+			"name": "Splugoth the Returned",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"I'm going to give you a piece of advice. Don't trust Acquisitions Incorporated. And never, ever, ever trust Omin Dran. Wait, that's two pieces of advice. You owe me."
+											]
+										},
+										"Sometimes a goblin can't catch a break. First, you fall in with a cult that works for the release of a death god. Then you get taken prisoner by a group of sociopathic adventurers who end up letting you die after you save their sorry lives. One minute, you're a dead goblin named Splug. And then you're alive again, and it seems like a really good idea to play up the drama of resurrection with a cool new name-and a master plan for cold, cold revenge against those who betrayed you.",
+										"Every once in a while, the (accidentally) capricious and (totally unintentionally) self-centered nature of an Acquisitions Incorporated franchise might incur some collateral damage among followers, hirelings, and staff. When that happens, the collateral damage sometimes inspires some collateral damage of its own. No one is entirely sure how many times Splugoth the Returned has actually returned from the dead. But as the point goblin for the group known as the Six (see \"Factions and Rivals\" in chapter 3), he's made vengeance against Acq Inc and Omin Dran his life's work. And then the work of his next life. And the one after that."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Splugoth the Returned.webp"
+					},
+					"width": 773,
+					"height": 1000,
+					"credit": "Nurse Normal"
+				}
+			]
+		},
+		{
+			"name": "Viari",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"I know a story about that..."
+											]
+										},
+										"A product of life on a small-town farm, the rogue known as Viari carries fond memories of those childhood days and his loving family. (Well, except for that thing where his parents insist on thinking of his older brother as the successful one.) But he can be quick to show self-consciousness when talking of where he came from, and he never speaks of the name he bore in that former life After quickly rising in the ranks of Acquisitions Incorporated since joining that august team, Viari has come to head what's known as the organization's Stabbing Department. A potent threat in both dueling and earnest debate, he demonstrates an equal flair for planning and forethought, mad combat moves (involving leaping off high places whenever possible), and dark vengeance.",
+										"Viari's career as an adventurer was nearly cut short during a battle of which the bards still sing. Unleashing a devastating attack with the aptly named Apocalypse Dagger, the rogue destroyed a giant single-handedly—and lost his arm in the process. Although Viari was made bodily whole again in an equally dramatic magical fashion, some of those closest to him have noticed that those miraculous events weigh on him still, perhaps suggesting consequences that only he foresees."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Viari.webp"
+					},
+					"width": 773,
+					"height": 1000,
+					"credit": "Mike Krahulik"
+				}
+			]
+		},
+		{
+			"name": "Walnut Dankgrass",
+			"source": "AI",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "quote",
+											"entries": [
+												"The war ever rages."
+											]
+										},
+										"Growing up in an all-female clan of druids, healers, and rangers, Walnut Dankgrass was drawn to the role of protector from her earliest years. Dedicated to Mielikki, the matriarchal clan known as the Enclave Panax Anima defended the unspoiled wild by word and blade (with the latter option more prevalent by far). But when tragedy struck the enclave, Walnut's clan was destroyed to the last-leaving her with nothing but the all-consuming desire to seek out and destroy those responsible.",
+										"As a guardian of the wild, Walnut has long held an antipathy toward civilization and anything urban. However, understanding that civilization was the source of the evil that destroyed her people, she makes the city her home now. She embraces her role as the \"C\" Team's documancer, knowing that the city's power-and its weaknesses-can be fully gleaned only from within.",
+										"Walnut distrusts most folk she meets, except for those whose bearing reflects the matriarchal structure she was once part of. No matter what shape her struggles take, she knows instinctively that her beliefs are right and true-and that she will follow those beliefs to the bitter end."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/AI/Walnut Dankgrass.webp"
+					},
+					"width": 773,
+					"height": 1000,
+					"credit": "Nurse Normal"
 				}
 			]
 		}

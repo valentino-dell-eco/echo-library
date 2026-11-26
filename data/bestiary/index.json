@@ -89,5 +89,6 @@
 	"LLCBD": "bestiary-llcbd.json",
 	"LLCB": "bestiary-llcb.json",
 	"LLEX": "bestiary-llex.json",
-	"LLSPELL": "bestiary-llspell.json"
+	"LLSPELL": "bestiary-llspell.json",
+	"AI": "bestiary-ai.json"
 }

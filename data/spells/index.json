@@ -13,5 +13,6 @@
 	"SCC": "spells-scc.json",
 	"LLAC": "spells-llac.json",
 	"LLOC": "spells-lloc.json",
-	"LLSPELL": "spells-llspell.json"
+	"LLSPELL": "spells-llspell.json",
+	"AI": "spells-ai.json"
 }

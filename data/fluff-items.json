@@ -5621,6 +5621,186 @@
 			]
 		},
 		{
+			"name": "Cartographer's Map Case",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/cartographers-map-case.webp"
+					},
+					"width": 1164,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Coin of Decisionry",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/coin-of-decisionry.webp"
+					},
+					"width": 1218,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Documancy Satchel",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/documancy-satchel.webp"
+					},
+					"width": 934,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Living Loot Satchel",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/living-loot-satchel.webp"
+					},
+					"width": 904,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Occultant Abacus",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/occultant-abacus.webp"
+					},
+					"width": 858,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Orrery of the Wanderer",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/Orrery of the Wanderer.webp"
+					},
+					"width": 792,
+					"height": 1000,
+					"credit": "Nicholas Kay"
+				}
+			]
+		},
+		{
+			"name": "Sending Stone",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/sending-stone.webp"
+					},
+					"width": 916,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Travel Alchemical Kit",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/travel-alchemical-kit.webp"
+					},
+					"width": 1070,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Trinket",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/Trinket.webp"
+					},
+					"width": 1000,
+					"height": 1000,
+					"credit": "Kris Straub"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/Trinket-2.webp"
+					},
+					"width": 1000,
+					"height": 1000,
+					"credit": "Kris Straub"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/Trinket-3.webp"
+					},
+					"width": 1000,
+					"height": 1000,
+					"credit": "Kris Straub"
+				}
+			]
+		},
+		{
+			"name": "Whisper Jar",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/whisper-jar.webp"
+					},
+					"width": 988,
+					"height": 1000,
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
 			"name": "Double-Bladed Scimitar",
 			"source": "ERLW",
 			"entries": [

@@ -1383,10 +1383,22 @@
 				],
 				"version": "1.0.0",
 				"url": "https://www.gmbinder.com/profile/laserllama"
+			},
+			{
+				"json": "AI",
+				"abbreviation": "AI",
+				"full": "Acquisitions Incorporated",
+				"authors": [
+					"Wizards RPG Team"
+				],
+				"convertedBy": [
+					"Echo Library Builder"
+				],
+				"version": "1.0.0"
 			}
 		],
 		"dateAdded": 1793294907,
-		"dateLastModified": 1795281567,
+		"dateLastModified": 1795721923,
 		"edition": "classic"
 	},
 	"class": [

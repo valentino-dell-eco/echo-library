@@ -117,19 +117,20 @@ Libreria homebrew in formato 5eTools, generata con Echo Library Builder per la F
 - **llspell** — Laserllama: Compendium of Spells (vv.0.5)
 - **LLAC** — Laserllama's Alternate Classes (v1.0.0)
 - **LLOC** — Laserllama's Original Classes (v1.0.0)
+- **AI** — Acquisitions Incorporated (v1.0.0)
 
 ## Contenuti
-- Creature: 3780
+- Creature: 3802
 - Oggetti di scena: 20
-- Veicoli: 32
-- Incantesimi: 664
+- Veicoli: 34
+- Incantesimi: 671
 - Opzioni di classe: 950
-- Specie / razze: 155
+- Specie / razze: 156
 - Sottorazze: 110
-- Background: 106
+- Background: 111
 - Talenti: 191
 - Opzioni di creazione: 44
-- Oggetti: 1566
+- Oggetti: 1589
 - Oggetti base: 124
 - Varianti magiche: 176
 - Proprietà delle armi: 4
@@ -137,10 +138,10 @@ Libreria homebrew in formato 5eTools, generata con Echo Library Builder per la F
 - Malattie: 22
 - Stati: 2
 - Azioni: 30
-- Regole: 111
+- Regole: 121
 - Abilità: 18
 - Sensi: 4
-- Linguaggi: 149
+- Linguaggi: 150
 - Divinità: 489
 - Culti: 30
 - Doni demoniaci: 12
